@@ -167,7 +167,7 @@ progress_2: 229
     </div>
     <div class="col-md-6">
       <h2>FAQ - Frequently Asked Questions</h2>
-      <h3>What is a geographic parcel?</h3>
+      <h3>What is a geographic land parcel?</h3>
       <p>A geographic land parcel is a spatial reference to tabular information of a property regarding ownership, land use, legal description, ownership, etc. from the Computer Assisted Mass Appraisal (CAMA) software of an appraisal district.</p>
       <h3>What format and files are provided?</h3>
       <p>
