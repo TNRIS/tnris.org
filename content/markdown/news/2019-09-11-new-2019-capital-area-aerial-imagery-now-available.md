@@ -13,7 +13,7 @@ abstract:
     <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/zilkerpark_nc.jpg" alt="Natural Color preview of Zilker Park">
     <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/zilkerpark_cir.jpg" alt="Color infra red of Zilker Park">
   </div>
-  <figcaption>Zilker Park, January 12, 2019, SCALE 1:650</figcaption>
+  <figcaption>Zilker Park, January 12, 2019, SCALE 1:2500</figcaption>
 </figure>
 
 High resolution 6-inch and 12-inch aerial imagery in 4-band natural color and infrared are now available from TNRIS for the Capital Area and Brazos County. Fifteen local entities contributed funds to collect the new imagery.
@@ -79,14 +79,14 @@ View coverage areas in the map below:
 
 ## Imagery Preview
 
-### Apple Inc. | Scale 1:650
+### Apple Inc. | Scale 1:2300
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
   <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2019_caparea_6in_nc_1to2300_appleinc_20190112.jpg" alt="Natural Color preview of Apple Inc">
   <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2019_caparea_6in_cir_1to2300_appleinc_20190112.jpg" alt="Color infra red of Apple Inc">
 </div>
-<figcaption>Apple Inc., January 12, 2019, SCALE 1:650</figcaption>
+<figcaption>Apple Inc., January 12, 2019, SCALE 1:2300</figcaption>
 </figure>
 
 ### Austin Neighborhood | Scale 1:650
@@ -99,22 +99,22 @@ View coverage areas in the map below:
 <figcaption>Neighborhood in Austin, TX, January 12, 2019, SCALE 1:650</figcaption>
 </figure>
 
-### Zilker Park | Scale 1:650
+### Zilker Park | Scale 1:600
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
   <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/zilkerparking1.jpg" alt="Natural Color preview of Zilker Park Parking">
   <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/zilkerparking2.jpg" alt="Color infra red of Zilker Park Parking">
 </div>
-<figcaption>Zilker Park zoom in Austin, TX, January 12, 2019, SCALE 1:650</figcaption>
+<figcaption>Zilker Park zoom in Austin, TX, January 12, 2019, SCALE 1:600</figcaption>
 </figure>
 
-### Downtown Austin | Scale 1:650
+### Downtown Austin | Scale 1:900
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
   <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/downtown1.jpg" alt="Natural Color preview of Downtown Austin">
   <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/downtown2.jpg" alt="Color infra red of Downtown Austin">
 </div>
-<figcaption>Downtown Austin, January 12, 2019, SCALE 1:650</figcaption>
+<figcaption>Downtown Austin, January 12, 2019, SCALE 1:900</figcaption>
 </figure>
