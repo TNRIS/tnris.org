@@ -1,0 +1,48 @@
+{% extends "base.njk" %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="/training.bundle.js"></script>
+{% endblock %}
+
+{% block topcontent %}
+  <div class="container-fluid full">
+    <div class="top-container">
+      {% if mainimage %}
+        <img class="img-responsive center-block hidden-sm hidden-xs" src="{{mainimage}}" alt="Masthead for {{title}}">
+      {% endif %}
+      {% if smallimage %}
+        <img class="img-responsive center-block hidden-md hidden-lg" src="{{smallimage}}" alt="Masthead for {{title}}">
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}
+
+{% block contentsOne %}
+  <div class="container">
+    <h1 id="title">{{title}}</h1>
+    {% if abstract %}
+      <div class="lead">{{abstract}}</div>
+    {% endif %}
+  </div>
+  <div class="container">
+    {% include "education/nav.njk" %}
+  </div>
+
+  <div id="contentMain" class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {{ contents|safe }}
+        <h2 id="education-schedule-h2">Course Schedule</h2>
+        <div id="insert-here" class="training-list" data-spy="scroll" data-target=".training-header">
+          <!-- training records get inserted here from the tnris api -->
+        </div>
+      </div>
+      <div class="col-md-4">
+        {% block sidebarLeft %}
+          {% include "partials/education-side.njk" %}
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

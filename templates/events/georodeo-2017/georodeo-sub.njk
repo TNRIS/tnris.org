@@ -1,0 +1,69 @@
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+
+{% block styles %}
+  {{ super() }}
+
+  {{form.styles()}}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  {{form.scripts()}}
+{% endblock %}
+
+{% block topcontent %}
+<div class="georodeo-masthead gr-top-2017 container-fluid full">
+    <div class="top-container">
+        <div class="sr-only">
+            <h1>{{title}}</h1>
+            {{abstract}}
+        </div>
+          <a href="/georodeo/2017"><img class="main hidden-xs" src="{{mainimage}}" alt="Masthead for {{title}}">
+          <img class="img-responsive hidden-lg hidden-md hidden-sm" src="https://tnris-org-static.s3.amazonaws.com/images/lifeontheopencode_sm.jpg" alt="Small Masthead for {{title}}">
+        </a>
+      <div class="georodeo-date-bar sr-only ">
+          <div class="container">
+                    May 19, 2017 * Commons Center * Austin, TX
+                  </div>
+        </div>
+    </div>
+</div>
+<div id="intro" class="georodeo-intro gr-2017">
+
+    <div class="container">
+
+            {% include "events/georodeo-2017/nav.njk" %}
+        <div class="row">
+          <div class="col-md-8">
+                <h1>{{title}}</h1>
+              <p class="lead">
+                {{abstract}}
+              </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block contentsOne %}
+<div id="contentMain" class="container">
+<div class="row">
+    <div class="col-md-8">
+        {{ contents|safe }}
+    </div>
+</div>
+</div>
+{% endblock %}
+
+{% block contentsTwo %}
+<section class="georodeo-bottom">
+    <div class="container">
+        <div class="row">
+            {% include "events/georodeo-2017/georodeo-map.njk" %}
+        </div>
+    </div>
+</section>
+{% endblock %}

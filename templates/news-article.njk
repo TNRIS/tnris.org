@@ -1,0 +1,61 @@
+{% extends "base.njk" %}
+
+
+{% block contentsOne %}
+  <div id="contentMain" class="container">
+    <div class="row article">
+      <div class="col-sm-12 col-md-8 blog-main">
+        <h1 class="headline">{{ title }}</h1>
+        <div class="byline">
+          <strong>by <author>{{ author }}<author></strong> {% if division %}<em>{{division}}</em>{% endif %} | <time>{{date|prettyDate}}</time>
+        </div>
+
+        {% if mainimage %}
+        <figure>
+          <img class="media-object img-responsive center-block" src="{{mainimage}}" alt="{{imagealt}}">
+
+        {% if mainimagecaption %}
+          <figcaption>{{mainimagecaption}}<figcaption>
+        {% endif %}
+
+          </figure>
+        {% endif %}
+        {{contents|safe}}
+      </div>
+
+      {% block rightContent %}
+        <div class="col-sm-12 col-md-4 blog-sidebar">
+          <h3>More TNRIS News</h3>
+          <ul class="news-list list-clean">
+            {% set count = 1 %}
+            {% for news_item in news %}
+              {% if (news_item.id != id) and count <= 5 %}
+              {% set count = count + 1 %}
+              <li class="media">
+                <div class="media-left">
+                  <a href="{{news_item.preserved}}"><img  src="{{news_item.thumbnail}}" alt="Thumbnail image for {{news_item.title}}"></a>
+                </div>
+                <div class="media-body">
+                  <time>{{news_item.date|prettyDate}}</time>
+                  <h3 class="media-heading">
+                  <a href="{{news_item.preserved}}">{{news_item.title}}</a></h3>
+                  <p class="hidden-md hidden-lg">
+                    {{news_item.description}}
+                  </p>
+                </div>
+              </li>
+              {% endif %}
+            {% endfor %}
+            <p class="text-center">
+            <a class="btn btn-tnris" href="/news" role="button">More News <span class="glyphicon glyphicon-chevron-right"></a>
+            </p>
+          </ul>
+        </div>
+      {% endblock %}
+    </div>
+  </div>
+{% endblock %}
+
+{% block contentsTwo %}
+  {% include "partials/highlights.njk" %}
+{% endblock %}

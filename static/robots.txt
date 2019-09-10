@@ -1,0 +1,3 @@
+Sitemap: https://tnris.org/sitemap.xml
+
+User-agent: *

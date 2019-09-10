@@ -1,0 +1,48 @@
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+
+{% block styles %}
+  {{ super() }}
+
+  {{form.styles()}}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  {{form.scripts()}}
+{% endblock %}
+
+{% block topcontent %}
+<div class="georodeo-masthead gr-top-2019 container-fluid full">
+    <div class="top-container">
+        <div class="sr-only">
+            <h1>{{title}}</h1>
+            {{abstract}}
+        </div>
+          <a href="/georodeo"><img class="main" src="{{mainimage}}" alt="Masthead for {{title}}"></a>
+        <div class="georodeo-date-bar sr-only">
+          <div class="container">
+                    May 16 * Austin, TX</div>
+        </div>
+    </div>
+</div>
+
+<div id="intro" class="georodeo-intro gr-2019">
+    <div class="container">
+       {% include "events/georodeo-2019/nav.njk" %}
+
+        <div class="row">
+          <div class="lead col-sm-8">
+            <h2>{{title}}</h2>
+            {{ contents|safe }}
+          </div>
+          <!-- <div class="col-sm-4">
+              <a class="btn btn-danger btn-lg btn-block" href="https://www.regonline.com/registration/Checkin.aspx?EventID=1940743"><i class="glyphicon glyphicon-edit"></i> Become a Sponsor</a>
+
+          </div> -->
+        </div>
+    </div>
+</div>
+{% endblock %}

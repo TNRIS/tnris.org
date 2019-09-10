@@ -1,0 +1,152 @@
+@import "variables";
+
+/* Quick Nav */
+/**************************************************/
+.quick-nav {
+  margin: 0 -15px;
+  margin-bottom: 0;
+  height: 370px;
+  z-index: 0;
+  padding-top: 0px;
+  margin-top: 3px;
+
+  em {
+    display: block;
+    font-family: $pragmatica;
+    font-size: 20px;
+    font-style: normal;
+
+    @media (min-width: $screen-lg) {
+      font-size: 30px;
+    }
+  }
+
+ a:hover, a:visited, a:link, a:active {
+    text-decoration: none !important;
+  }
+
+  small {
+    color: $darkgrey !important;
+    display: block;
+    font-size: 18px;
+
+    &:hover {
+      color: $darkgrey !important;
+    }
+  }
+
+  i {
+    font-size: 26px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+
+    @media (min-width: $screen-lg) {
+      font-size: 32px;
+    }
+  }
+
+  .list-clean {
+    height: 360px;
+
+    .datahub-item {
+      height: 280px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+
+  li {
+    border-bottom: 0;
+    padding: 10px;
+
+    &:first-child {
+      background: #222;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      color: #ccc;
+      font-family: "pragmatica-web-condensed", sans-serif;
+      font-size: 24px;
+      font-weight: 300;
+      height: 40px !important;
+      padding: 0;
+      padding-top: 5px;
+      text-align: center;
+    }
+
+    &:last-child {
+      background: $sky;
+      border-bottom: 1px solid $midlightgrey;
+      font-family: $pragmatica;
+      font-size: 18px;
+      height: 40px;
+      padding: 0;
+      padding-top: 5px;
+      text-align: center;
+
+      i {
+        font-size: 24px;
+        margin-bottom: 0;
+        margin-right: 0;
+      }
+    }
+
+    .datahub-quick {
+      width: 100%;
+      text-align: center;
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+}
+
+.quicknav-small-container {
+  background: $white;
+  width: 100%;
+}
+
+.quicknav-small {
+  font-size: 24px;
+
+  a {
+    text-decoration: none;
+    display: -webkit-inline-box;
+  }
+
+  p {
+    font-family: $pragmatica;
+    margin: 0 0 0 5px;
+  }
+
+  i {
+    display: block;
+    font-size: 35px;
+
+    @media (min-width: $screen-sm) {
+      display: inline;
+      margin-bottom: 15px;
+      margin-right: 7px;
+    }
+  }
+
+  li {
+    border-right: 1px solid $midlightgrey;
+    padding-left: 10px;
+
+    @media (min-width: $screen-sm ) {
+      margin-bottom: 5px;
+      padding-top: 5px;
+    }
+
+    &:last-child {
+      border-right: 0;
+    }
+
+    &.datahub {
+      img {
+        max-height: 30px;
+      }
+    }
+  }
+}

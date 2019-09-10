@@ -1,0 +1,62 @@
+{% extends "base.njk" %}
+
+
+{% block contentsOne %}
+<div id="contentMain" class="container">
+  {% include "gio/gio-calendar-quad.njk" %}
+  <div class="row">
+    <ol class="breadcrumb">
+      <li>
+        <a href="/"><span class="glyphicon glyphicon-home"></span></a>
+      </li>
+      <li>
+        <a href="/geographic-information-office">Geographic Information Office</a>
+      </li>
+      <li class="active">GIO News</li>
+    </ol>
+  </div>
+  <div class="row article">
+    <div class="col-sm-12 col-md-8 blog-main">
+      <h1 class="headline">{{ title }}</h1>
+      <div class="byline">
+        <strong>by <author>{{ author }}<author></strong> {% if division %}<em>{{ division }}</em>{% endif %} | <time>{{ date|prettyDate }}</time>
+      </div>
+
+      {% if mainimage %}
+        <img class="media-object img-responsive center-block" src="{{mainimage}}" alt="{{ imagealt }}">
+      {% endif %}
+      <div class="gio-news-content">
+        {{ contents|safe }}
+      </div>
+    </div>
+
+    {% block rightContent %}
+      <div class="col-sm-12 col-md-4 blog-sidebar">
+
+        <h3>More GIO News</h3>
+        <ul class="news-list list-clean">
+          {% set count = 1 %}
+          {% for gio_item in geographic_information_office_news %}
+            {% if (gio_item.id != id) and count <= 3 %}
+              {% set count = count + 1 %}
+              <li class="media">
+                <div class="media-left">
+                  <a href="{{gio_item.preserved}}"><img src="{{gio_item.thumbnail}}" alt="Thumbnail image for {{gio_item.title}}"></a>
+                </div>
+                <div class="media-body">
+                  <time>{{ gio_item.date|prettyDate }}</time>
+                  <h3 class="media-heading">
+                  <a href="{{gio_item.preserved}}">{{ gio_item.title }}</a></h3>
+                  <p>
+                    {{ gio_item.abstract }}
+                  </p>
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endblock %}
+  </div>
+</div>
+{% endblock %}

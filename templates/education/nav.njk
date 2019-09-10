@@ -1,0 +1,15 @@
+<nav class="navbar navbar-inverse stratmap-bar">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li {% if (path == 'education') %}class="active"{% endif %}>
+        <a href="/education">Main</a>
+      </li>
+      <li {% if (path == 'education/gis-mentorship') %}class="active"{% endif %}>
+        <a href="/education/gis-mentorship">GIS Mentorship Program</a>
+      </li>
+      <li {% if (path == 'education/purchasers') %}class="active"{% endif %}>
+        <a href="/education/purchasers">For Purchasing Agents</a>
+      </li>
+    </ul>
+  </div>
+</nav>

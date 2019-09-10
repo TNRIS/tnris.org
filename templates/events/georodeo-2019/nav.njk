@@ -1,0 +1,23 @@
+<nav class="navbar navbar-inverse georodeo-2019">
+  <div class="container">
+    <div class="navbar-header">
+
+    </div>
+    <ul class="nav navbar-nav">
+        <li {% if (path == 'georodeo') %}class="active"{% endif %}>
+          <a href="/georodeo">Welcome</a>
+        </li>
+        <!-- <li {% if (path == 'georodeo/become-a-sponsor') %}class="active"{% endif %}>
+          <a href="/georodeo/become-a-sponsor">Become A Sponsor</a>
+        </li> -->
+        <li {% if (path == 'georodeo/call-for-presentations') %}class="active"{% endif %}>
+          <a href="/georodeo/call-for-presentations">Call for Presentations</a>
+        </li>
+        <li {% if (path == 'georodeo/registration') %}class="active"{% endif %}>
+          <a href="/georodeo/registration">Register</a>
+        </li>
+        <li {% if (path == 'georodeo/code-of-conduct') %}class="active"{% endif %}>
+          <a href="/georodeo/code-of-conduct">Code of Conduct</a>
+        </li>
+  </div>
+</nav>

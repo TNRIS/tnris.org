@@ -1,0 +1,67 @@
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+{% block styles %}
+  {{ super() }}
+  {{ form.styles() }}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  {{ form.scripts() }}
+{% endblock %}
+
+{% block topcontent %}
+  <div class="container-fluid full">
+    <div class="top-container">
+      <div class="sr-only">
+            <h1>{{title}}</h1>
+            {{abstract}}
+      </div>
+      <a href="/texas-imagery-service"><img class="img-responsive center-block" src="{{mainimage}}" alt="Masthead for {{title}}"></a>
+    </div>
+  </div>
+
+  <div id="intro" class="google-intro">
+    <div class="container">
+        <div class="row">
+          <div class="col-xs-12"><h2>Request a Unique Texas Imagery Service Link for Your Organization</h2></div>
+        </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block contentsOne %}
+  <div id="contentMain" class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {{ contents|safe }}
+        {% include "partials/texas-imagery-service/google-request-form.njk" %}
+      </div>
+      <div class="col-md-4">
+        {% block sidebarLeft %}
+          <section class="google-side">
+              <h3>Helpful Downloads</h3>
+              <ul class="helpful list-clean">
+                  <li>
+                      <a href="https://tnris-org-static.s3.amazonaws.com/documents/google-imagery-fact-sheet.pdf">
+                          <i class="glyphicon glyphicon-file"></i> Google Imagery Fact Sheet
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://tnris-org-static.s3.amazonaws.com/documents/google-imagery-terms-of-use.pdf">
+                          <i class="glyphicon glyphicon-file"></i> Google Imagery Terms of Use
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://tnris-org-static.s3.amazonaws.com/documents/google-imagery-formal-accuracy-assessment.pdf">
+                          <i class="glyphicon glyphicon-file"></i> Google Imagery Accuracy Assessment
+                      </a>
+                  </li>
+                </ul>
+          </section>
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

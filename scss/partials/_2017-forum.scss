@@ -1,0 +1,259 @@
+@import "variables";
+
+
+.forum-2017-brand-container {
+    background: $darkgrey;
+    position: relative;
+    z-index: 900;
+
+  span {
+    background: url('https://tnris-org-static.s3.amazonaws.com/images/texas-gis-forum-logo-white-color-transparent.png') 0 0 no-repeat;
+    background-size: 400px 49px;
+    float: left;
+    height: 49px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-top: -10px;
+    text-indent: -9999px;
+    width: 400px;
+  }
+}
+
+.forum-2017-top {
+  background: $darkgrey;
+  color: white;
+  position: relative;
+
+  .forum-2017-title { background: rgba(0, 0, 0, 0.75);
+    bottom: 0;
+    color: white;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px 0;
+    position: absolute;
+    text-shadow: 0 0 4px black;
+    width: 100%;
+    z-index: 100;
+
+  h2 {
+    color: white;
+    font-size: 30px;
+
+    @media (min-width: $screen-sm) {
+    font-size: 40px;
+    }
+
+    @media (min-width: $screen-md) {
+    font-size: 50px;
+    }
+
+    }
+  }
+}
+
+img.pull-right.alacarte {
+  max-width: 150px;
+  margin-bottom: 5px;
+}
+
+
+#texas-gis-forum-2017-training {
+  .training-list {
+
+    h3 {
+      margin-top: 0;
+    }
+
+    .row.forum-course {
+    border-bottom: 1px solid $midlightgrey;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+
+#texas-gis-forum-2017-index {
+  .keynote-speaker {
+    margin-top: 0;
+    .media-heading {
+      font-size: 24px;
+
+      strong {
+        font-size: 34px;
+      }
+    }
+  }
+}
+
+.keynote-welcome-2017 {
+  border-left: 1px solid $lightgrey;
+
+  a {
+    max-width: 50%;
+  }
+
+  img {
+    width: 100%;
+    margin-left: 15px;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin-top: 0;
+
+    small {
+      font-size: 20px;
+    }
+  }
+}
+
+.welcome-logo {
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+  img {
+    max-width: 200px;
+
+    @media (min-width: $screen-sm) {
+    max-width: 100px;
+    }
+
+    @media (min-width: $screen-md) {
+    max-width: 150px;
+    }
+
+
+    @media (min-width: $screen-lg) {
+    max-width: 200px;
+    }
+  }
+}
+
+.registration-box-2017 {
+  background: $darkgrey;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+#forum-training-2017 {
+  margin-top: 20px;
+}
+
+
+// Social
+
+#texas-gis-forum-2017-social {
+  .forum-2017-top {
+    min-height: 500px;
+    overflow: hidden;
+
+    @media (min-width: $screen-md) {
+      max-height: 620px;
+    }
+  }
+}
+
+
+// nav
+
+.forum-bar-2017 {
+  background: 0;
+  border: 0;
+  font-size: 20px;
+
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover {
+    background-color: lighten($black, 5%);
+  }
+}
+
+// social schedule
+
+.social-schedule {
+  font-size: 22px;
+
+  li {
+    border-bottom: 1px solid $lightgrey;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+    strong {
+      float: left;
+      margin-bottom: 20px;
+    }
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
+
+.social-left {
+  .date-header {
+    font-size: 40px;
+  }
+}
+
+.social-right {
+  img {
+    max-width: 200px;
+  }
+}
+
+.grey-bg {
+  background: $darkgrey;
+}
+
+.featured-speaker-2017 {
+  text-align: center;
+  padding-bottom: 15px;
+
+  a {
+    color: $white;
+
+    small {
+      color: $lightgrey;
+    }
+  }
+}
+
+.forum-2017-page-title {
+  font-size: 44px;
+  color: $darkgrey;
+}
+
+#texas-gis-forum-2017-index h2 {
+  color: $tnrisblue;
+}
+
+
+.forum-training-header {
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.forum-course {
+  border-bottom: 1px solid $midgrey;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.forum-sponsors h3 {
+  border-bottom: 1px solid $midlightgrey;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+// Bern Article
+
+#news-2017-09-20-technical-evangelist-technology-advocate-forum-keynote-bern-szukalski .lead {
+  padding: 0 20px;
+}

@@ -1,0 +1,277 @@
+@import "variables";
+
+// Training */
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  &.training-title {
+    margin-top: 0;
+  }
+}
+
+.training-header {
+  background: $lightgrey;
+  min-height: 40px;
+  line-height: normal;
+  margin: 0 0 15px 0;
+  padding: 10px 0;
+}
+
+.training-date {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.training-sidebar {
+  .sidebar-registration {
+    margin-bottom: 10px;
+  }
+}
+
+#training, #education-index {
+
+  .training-list {
+
+    .head {
+      background: $tnrisblue;
+      color: $white;
+      font-weight: 300;
+      padding: 5px;
+    }
+
+    div>div {
+      padding: 5px;
+      vertical-align: top;
+
+      .course-date {
+        strong {
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .course-info {
+      font-size: 14px;
+    }
+
+    .course-description {
+      border-bottom: 1px solid $lightergrey;
+      padding-bottom: 30px;
+    }
+
+    &:last-child {
+      .course-description {
+        td {
+          border-bottom: 0;
+        }
+      }
+    }
+
+    h3 {
+      font-size: 22px;
+      margin-top: 0;
+    }
+  }
+}
+
+// Special Collapse */
+
+.open-collapse {
+  box-shadow: none !important;
+  font-size: 14px;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+
+  btn {
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;
+
+    &[aria-expanded="true"] {
+      .close-text {
+        display: block;
+      }
+
+      .expand-text {
+        display: none;
+      }
+    }
+
+    .close-text {
+      display: none;
+    }
+
+    .cancel-block {
+      background: $lightgrey;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+      display: block;
+    }
+  }
+
+  .panel-body {
+    border: 0;
+  }
+
+  .collapse {
+    display: block !important;
+    max-height: 200px !important;
+    overflow: hidden;
+    position: relative;
+    visibility: visible !important;
+
+    &.in {
+      max-height: none !important;
+
+      .white-fade {
+        display: none;
+      }
+    }
+
+    .white-fade {
+      background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+      bottom: 0;
+      display: block;
+      height: 150px;
+      position: absolute;
+      width: 100%;
+    }
+  }
+}
+
+// More Specifit training entry page */
+
+.pull-right {
+  &.course-image {
+    margin: 0 0 20px 20px;
+  }
+}
+
+.trainingHighlightFront {
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: relative;
+
+  h4 {
+    bottom: 0;
+    color: white;
+    padding: 20px;
+    padding-bottom: 5px;
+    position: absolute;
+    width: 100%;
+
+    small {
+      color: $lightgrey;
+    }
+  }
+}
+
+#front-sidebar {
+  .trainingModalHeader {
+    position: relative;
+
+    .trainingModalHeaderContainer {
+      bottom: 0;
+      color: $white;
+      padding: 20px;
+      padding-bottom: 5px;
+      position: absolute;
+      width: 100%;
+
+      h2 {
+      font-size: 34px;
+      color: $white;
+
+      small {
+
+        color: $lightgrey;
+      }
+      }
+    }
+  }
+}
+
+#training-front {
+  border-left: 1px solid $midgrey;
+  font-size: 15px;
+  padding-left: 15px;
+
+  @media (min-width: $screen-md) {
+    border-left: none;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-top: 5px;
+
+    a {
+      color: $auburn;
+    }
+
+    i {
+      float: none;
+      font-size: inherit;
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+    a {
+      color: $darkgrey;
+    }
+  }
+
+  h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+
+  a {
+    font-family: 'Roboto Condensed', sans-serif;
+
+    &.btn {
+      font-family: $opensans;
+    }
+  }
+
+  time {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0px;
+  }
+
+  i {
+    float: left;
+    font-size: 24px;
+    height: 30px;
+    margin-right: 5px;
+    padding-top: 5px;
+
+    &.extended {
+    margin-bottom: 40px;
+    }
+  }
+
+  li {
+    margin-bottom: 24px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}

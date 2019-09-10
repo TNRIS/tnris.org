@@ -1,0 +1,31 @@
+{% extends "base.njk" %}
+{% block topcontent %}
+<div class="container-fluid full lidar-project-main">
+  <div class="top-container">
+
+    <img src="{{mainimage" class="img-responsive" alt="">
+
+      <div class="top-header center-block">
+          <div class="container">
+            <h1>{{title}}</h1>
+            {% if abstract %}
+              <div class="lead">{{abstract}}</div>
+            {% endif %}
+          </div>
+      </div>
+      </div>
+</div>
+{% endblock %}
+
+{% block contentsTwo %}
+
+{{ contents|safe }} 
+
+{% endblock %}
+
+
+</div>
+
+
+
+

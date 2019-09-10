@@ -1,0 +1,27 @@
+{% extends "base.njk" %}
+
+{% block topcontent %}
+  <div class="container-fluid full gio-top">
+    <div class="top-container">
+    {% if mainimage %}
+      <img class="img-responsive center-block hidden-xs hidden-sm hidden-md" src="{{mainimage}}" alt="Masthead for {{title}}">
+    {% endif %}
+    {% if mainimagemd %}
+      <img class="img-responsive center-block hidden-lg hidden-sm hidden-xs" src="{{mainimagemd}}" alt="Masthead for {{title}}">
+    {% endif %}
+    {% if mainimagesm %}
+      <img class="img-responsive center-block hidden-lg hidden-md" src="{{mainimagesm}}" alt="Masthead for {{title}}">
+    {% endif %}
+    </div>
+  </div>
+{% endblock %}
+
+{% block contentsOne %}{% endblock %}
+
+{% block contentsTwo %}
+  {% include "gio/gio-nav.njk" %}
+  <div class="container meeting-bar">
+    {% include "gio/gio-calendar-quad.njk" %}
+  </div>
+  {{ contents|safe }}
+{% endblock %}

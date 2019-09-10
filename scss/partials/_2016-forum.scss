@@ -1,0 +1,306 @@
+@import "variables";
+
+
+body.forum-sub-2016, body.poster-gallery, body._2016-forum-training {
+  background: url('https://tnris-org-static.s3.amazonaws.com/images/exploring_limits_bg.jpg') 0 0 no-repeat $black;
+  background-size: cover;
+}
+
+#texas-gis-forum-2016-index img.exploring-beyond-text {
+  @media (min-width: $screen-sm) {
+    display: none;
+  }
+}
+
+
+#_2016-forum-container {
+  background: $white;
+  box-sizing: border-box;
+  clear: both;
+  display: table;
+  margin: 0 auto;
+  margin-top: -5px;
+  position: relative;
+
+  // &:before {
+  // box-shadow: -15px 0 15px -15px inset;
+  // content: " ";
+  // height: 100%;
+  // left: -15px;
+  // position: absolute;
+  // top: 0;
+  // width: 15px;
+  // }
+
+  // &:after {
+  // box-shadow: -15px 0 15px -15px inset;
+  // content: " ";
+  // height: 100%;
+  // left: -15px;
+  // position: absolute;
+  // top: 0;
+  // width: 15px;
+  // }
+
+  &.welcome_2016 {
+  background: $black;
+  }
+
+  @media (min-width: 1200px){
+    width: 1200px;
+  }
+
+  @media (min-width: 992px){
+    width: 1000px;
+  }
+
+  @media (min-width: 768px){
+    width: 780px;
+  }
+
+  img {
+    position: relative;
+  }
+
+  .well {
+    margin-top: 30px;
+  }
+
+  .keynote-feature {
+    margin-top: 55px;
+  }
+
+  h2 {
+    color: $forum2015blue;
+  }
+
+  .training-list {
+
+    .row.forum-course {
+    border-bottom: 1px solid $midlightgrey;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+
+  .forum-training-header {
+    background: $white;
+    margin-bottom: 10px;
+
+      i {
+        float: left;
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+      }
+
+      h3 {
+        margin: 0;
+      }
+    }
+  }
+
+ .container-fluid.full {
+    margin-bottom: 0;
+
+      img.banner {
+        min-width: 100%;
+        display: block;
+      }
+
+      .forum-logo-container {
+        position: relative;
+        top: 0;
+    }
+
+     .top-container {
+       margin-bottom: 0;
+       position: relative;
+
+        .top-header h2 {
+          color: $white;
+        }
+     }
+  }
+}
+
+.intro-2016-plain {
+  padding: 15px;
+
+}
+
+.forum-home-left-2016 {
+  background: $black;
+  float: left;
+  width: 41.66666667%;
+}
+.forum-home-right-2016 {
+  background: $white;
+  position: relative;
+  width: 100%;
+
+   @media (min-width: 768px){
+    float: left;
+    width: 58.33333333%;
+  }
+}
+
+.registration-box-2016 {
+  background: $forum2016blue;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+#_2016-forum-container .forum-bar-2016 {
+  background: $forum2016blue;
+  border-radius: 0;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 20px 0;
+
+  h1, h2 {
+    color: $white;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  img.exploring-beyond-text {
+    margin-bottom: 20px;
+  }
+
+  .forum-brand {
+  background: url('https://tnris-org-static.s3.amazonaws.com/images/texas-gis-forum-logo-white.png')  0 0 no-repeat;
+  background-size: 300px 33px;
+  display: inline-block;
+  float:left;
+  height: 52px;
+  margin-right: 30px;
+  text-indent: -9999px;
+  width: 300px;
+}
+
+}
+
+#_2016-forum-container  .forum-intro-2016 {
+  background: $black;
+  clear: both;
+  color: $white;
+  display: block;
+  overflow: auto;
+  padding: 20px;
+
+  h2 {
+    color: $white;
+    margin: 0;
+  }
+}
+
+.media.keynote-speaker, .harris-sponsor-box {
+  h3 {
+    font-size: 30px;
+
+    small {
+      font-size: 20px;
+    }
+  }
+
+  img {
+  max-width: 150px;
+  }
+}
+
+.harris-sponsor-box {
+  background: $black;
+  color: white;
+  padding: 15px;
+
+  h3 a {
+    color: $lightergrey;
+  }
+
+  .media:first-child {
+    margin-top: 0;
+  }
+}
+
+// Forum list
+
+#texas-gis-forum-2016-sponsors-and-exhibitors #contentMain li {
+  margin-bottom: 12px;
+
+  strong {
+    font-size: 18px;
+  }
+}
+
+h2#platinum-sponsor-exhibitor-5-000-limit-3- {
+  border-bottom: 5px solid #d2c2c2;
+}
+
+
+h2#gold-sponsor-exhibitor-3-500- {
+  border-bottom: 5px solid #f4b93b;
+}
+
+h2#silver-sponsor-exhibitor-2-500- {
+  border-bottom: 5px solid $midgrey;
+}
+
+h2#exhibitor-only-1-500-limit-10- {
+  border-bottom: 5px solid $forum2015blue;
+}
+
+.well.sponsor-box {
+  margin-top: 0 !important;
+
+  .btn-success {
+    margin-top: 20px;
+  }
+
+  .btn-danger {
+    margin-bottom: 20px;
+  }
+}
+
+#forum-training-2016 {
+background: $white;
+
+h3 {
+  margin-top: 0;
+}
+
+  .row.forum-course {
+    border-bottom: 1px solid $midlightgrey;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+}
+
+ #contentMain {
+    background: $white;
+  // box-shadow: -15px 0 15px -15px inset;
+
+  }
+
+.forum-date-2016 {
+  float: left;
+  margin-bottom: 20px;
+}
+
+#texas-gis-forum-2016-index img.exploring-beyond-text {
+  display: none;
+}
+
+twitterwidget {
+  margin: 0 auto;
+}

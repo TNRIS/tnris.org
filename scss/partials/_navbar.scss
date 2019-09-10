@@ -1,0 +1,194 @@
+@import "variables";
+
+// Nav bar //
+.title-header {
+  background: $tnrisblue;
+  color: $sky;
+  font-size: 12px;
+  font-weight: 100;
+  height: auto;
+  overflow: auto;
+  width: 100%;
+  z-index: 1000;
+
+  @media (min-width: $screen-xs) {
+    font-size: 16px;
+  }
+
+  @media (min-width: $screen-md) {
+    font-size: 18px;
+  }
+
+  a {
+    &.skip {
+      color: $tnrisblue;
+      font-size: 1px;
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      text-decoration: none;
+      text-indent: -9999px;
+      text-transform: none;
+      width: 1px;
+
+      &:focus {
+        color: $white;
+        font-size: 8px;
+        overflow: auto;
+        position: relative;
+        text-indent: normal;
+      }
+    }
+  }
+}
+
+.navbar-bg {
+  padding-right: 0;
+}
+
+.navbar-right {
+  li:last-child a {
+      padding-right: 0;
+  }
+}
+
+.navbar-static-top {
+  background: $darkgrey;
+
+  a {
+    color: $white;
+  }
+
+  .icon-bar {
+    background: $white;
+  }
+
+  &.navbar {
+    margin-bottom: 0;
+  }
+}
+
+.navbar-nav > li > a {
+  font-weight: 300;
+
+  &.data-hub-logo {
+    @media (min-width: $screen-md) {
+      background: url('https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png') 0 13px no-repeat;
+      background-size: 23px;
+      padding-left: 28px;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &.gio {
+    background: url('https://tnris-org-static.s3.amazonaws.com/images/tx_icon.svg') 0 13px no-repeat;
+    background-size: 23px;
+    padding-left: 28px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &.events {
+    background: url('https://tnris-org-static.s3.amazonaws.com/images/baseline-keyboard_arrow_right-24px.svg') 0 13px no-repeat;
+    background-size: 23px;
+    padding-left: 28px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+a.navbar-twdb {
+  color: $sky;
+  font-size: 16px;
+  line-height: 45px;
+  height: 45px;
+  overflow: hidden;
+  margin-right: -15px;
+  vertical-align: bottom;
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+.navbar-inverse {
+  .navbar-nav {
+    li {
+      a {
+        color: $white;
+
+        &:hover {
+          color: $sky;
+        }
+      }
+    }
+  }
+}
+
+.navbar-inverse {
+  .dropdown-menu.inverse-dropdown {
+    background: $darkgrey;
+
+    li {
+      padding-bottom: 5px;
+
+      a {
+
+        &:hover {
+          background: $black;
+        }
+      }
+    }
+  }
+}
+
+.navbar-collapse {
+  background: $darkgrey;
+}
+
+.navbar-brand {
+  background: url('https://tnris-org-static.s3.amazonaws.com/images/tnris_logo.svg') 0 0 no-repeat;
+  height: 36px;
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 0;
+  width: 70px;
+  z-index: 30000;
+}
+
+.tnris-name {
+  letter-spacing: 3px;
+  font-family: $pragmatica;
+  text-transform: uppercase;
+  line-height: 45px;
+  height: 45px;
+}
+
+
+.navbar-right {
+  li {
+    a {
+      color: $white !important;
+
+      &:hover {
+        color: $sky !important;
+      }
+    }
+  }
+}
+
+a.main-program {
+  font-size: 16px;
+}
+
+.quicknav-small {
+  padding-top: 10px;
+}

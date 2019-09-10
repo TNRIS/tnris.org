@@ -1,0 +1,133 @@
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "mixins";
+
+// Colors //
+
+// black, white, greys //
+$white: #fff;
+$lightgrey: #f5f5f5;
+$lightergrey: #eee;
+$midlightgrey: #e3e3e3;
+$midgrey: #ccc;
+$middishgrey: #969696;
+$middarkgrey: #767676;
+$darkish: #444;
+$darkgrey: #222;
+$darkgreyrbga: rgba(0, 0, 0, 0.5);
+$darkergreyrbga: rgba(0, 0, 0, 0.7);
+$darkergrey: #333;
+$black: #000;
+$notifyred: #ff8080;
+
+
+$forum2015blue: #08475a;
+$forum2016blue: #182443;
+
+$auburn: #bf571f;
+$auburnoutline: #80310a;
+
+$tnrisblue: #1e8dc1;
+$boltblue: #3096ff;
+$lightblue: #e8f4fa;
+$sky: #d2f1ff;
+$midsky: #79c9ef;
+$fadedblue: #698fa1;
+
+$lightpurple: #f2d9f7;
+
+$darkerblue: #0b658f;
+$spaceblue: #0a0e40;
+$seagreen: #1b3b47;
+$facebook: #3b5998;
+$bsgrey: #9d9d9d;
+$urgentblue: #127cae;
+$purpblue: #2821b9;
+$periwinkle: #5b6fb7;
+$lightyellow: #f9f8f0;
+$successgreen: #5cb85c;
+$fadedgreen: #c8eea6;
+$treegreen: #728943;
+$forestgreen: #58751c;
+$forumgreen2016: #3b4d2e;
+$forumsand2016: #f7ebca;
+$successhover: #4b8a4b;
+$error: #a94442;
+$danger: #d9534f;
+$dangeroutline: #d43f3a;
+$infoblue: #5bc0de;
+$bluegreen: #35adac;
+$bsinfoblue: #d9edf7;
+
+$brightyellow: #f6ff02;
+$yellowgreen: #a3c541;
+$canary: #fff4c3;
+$lightcanary: #fff9e0;
+$yield: #edca26;
+$orange: #ed8426;
+$gold: #ffd700;
+
+$electricgreen: #caff3b;
+
+$tnrisbluergb: rgba(30,141,193,.8);
+
+// Font //
+$opensans: 'Open Sans', sans-serif;
+$pragmatica: 'Roboto Condensed', sans-serif;
+$proxima: 'proxima-nova', sans-serif;
+$adelle: 'adelle' ,serif;
+$lucida: 'Lucida Console', Monaco, monospace;
+
+// Media Queries //
+$break-med: 604px;
+$break-med-two: 768px;
+$break-topsmall: 485px;
+$break-large: 992px;
+
+$break-lg: 1200px;
+$break-md: 992px;
+$break-xs: 768px;
+
+// reusable heights //
+$footer-height: 375px;
+$dataspot-height: 325px;
+
+// transparent backgrounds //
+@mixin alpha-attribute($attribute, $color, $background) {
+  $percent: alpha($color) * 100%;
+  $opaque: opacify($color, 1);
+  $solid-color: mix($opaque, $background, $percent);
+  #{$attribute}: $solid-color;
+  #{$attribute}: $color;
+}
+
+// timeline height on ortho page
+$timelineheight: 200px;
+$timelineheightsm: 160px;
+
+// Box Shadow //
+@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  -webkit-box-shadow: $top $left $blur $color #{$inset};
+  -moz-box-shadow: $top $left $blur $color #{$inset};
+  box-shadow: $top $left $blur $color #{$inset};
+}
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.col-xs-5ths {
+  float: left;
+  width: 20%;
+}
+
+@media (min-width: 992px) {
+  .col-md-12 {
+    width: 100%;
+  }
+}

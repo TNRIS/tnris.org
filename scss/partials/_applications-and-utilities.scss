@@ -1,0 +1,62 @@
+@import "variables";
+
+.row {
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+
+
+    .github-logo {
+      max-height: 30px;
+    }
+
+  .site-link {
+  }
+
+  .utility-image {
+
+    img {
+      max-width: 200px;
+    }
+  }
+
+  .spacer {
+    height: 80px;
+  }
+}
+
+.link-well.row {
+  margin: 0;
+  margin-bottom: 15px;
+
+  .col-md-6 {
+    line-height: 30px;
+    margin: 10px 0;
+  }
+}
+
+.row.app {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  .screenshot {
+    padding: 10px;
+    float: right;
+  }
+
+  @media (min-width: $screen-sm) {
+    .screenshot {
+      max-width: 50%;
+    }
+  }
+}
+
+.giscat-footer {
+  text-align: center;
+
+  img {
+    margin: 0 auto;
+    max-height: 75px;
+  }
+}

@@ -1,0 +1,42 @@
+{% extends "base.njk" %}
+
+{% block contentsOne %}
+<div class="container">
+  <h3>Historical Aerial Collections: Photo Index Scans</h3>
+  <input style="width:38%;" class="form-control" id="myInput" type="text" placeholder="Filter/Search...">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>County</th>
+        <th>Agency</th>
+        <th>Year</th>
+        <th>Index Sheet #</th>
+        <th>Filesize</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody id="mapserver-indexes-tbody">
+      <tr id="indexes-loading"><td>Loading indexes from database. This may take a moment...</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="container">
+  <h3>WMS Services</h3>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Label</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody id="mapserver-services-tbody">
+    </tbody>
+  </table>
+</div>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  <script type="text/javascript" src="/mapserver.bundle.js"></script>
+{% endblock %}

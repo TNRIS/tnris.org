@@ -1,0 +1,106 @@
+{% import "_form_macros.njk" as form %}
+
+{{form.before("georodeo-regis")}}
+
+  {{form.input("FirstName", "First Name", "text", true)}}
+
+  {{form.input("LastName", "Last Name", "text", true)}}
+
+  {{form.input("Email", {
+      label: "Email",
+      placeholder: "Enter your email address"
+    }, "email", true)}}
+
+  {{form.input("Organization", {
+      label: "Organization",
+      placeholder: "Who are you affiliated with?"
+    }, "text", false)}}
+
+  {{form.input("Title", {
+      label: "Title",
+      placeholder: "What is your role?"
+    }, "text", false)}}
+
+  {{form.multi(
+      "TNRISEmails",
+      {
+        label: "Would you like to receive emails from TNRIS related to future events?"
+      },
+      "radio",
+      [
+        'Yes',
+        'No'
+      ],
+      true
+  )}}
+  <p><small>Note: You will receive emails related to your registration for this years' event.</small></p>
+
+  {{form.multi(
+      "PartnerEmails",
+      {
+        label: "Would you like to receive emails from sponsors and partners?"
+      },
+      "radio",
+      [
+        'Yes',
+        'No'
+      ],
+      true
+  )}}
+
+  <hr/>
+  <h3>Optional Questionnaire</h3>
+
+  {{form.multi(
+      "PreviouslyAttended",
+      {
+        label: "Have you ever attended the GeoRodeo before?"
+      },
+      "radio",
+      [
+        'Yes',
+        'No'
+      ],
+      false
+  )}}
+
+  {{form.multi(
+      "Experience",
+      {
+        label: "How would you classify your coding experience and skill level?"
+      },
+      "radio",
+      [
+        'Non-Existent',
+        'Beginner',
+        'Intermediate',
+        'Kind of a Big Deal...',
+        'Elite Level Hacker'
+      ],
+      false
+  )}}
+
+  <div ng-hide="form_model['Experience'] != 'Elite Level Hacker'">
+    <p style="color:green;">Elite Level Hacker, eh? That's funny... you didn't answer our Call for Presentations by submitting to speak and share your knowledge with the community. Not cool.</p>
+  </div>
+
+  {{form.textarea(
+      "Tools",
+      {
+        label: 'What coding languages, tools, and/or libraries do you use?',
+        placeholder: 'Briefly describe what coding tools you use, e.g. Javascript, NodeJS, Python, GoLang, ReactJS, Django, etc.'
+      },
+      false
+  )}}
+
+  {{form.textarea(
+      "Expectations",
+      {
+        label: 'What do you expect to hear about or learn at the GeoRodeo?',
+        placeholder: 'Briefly describe what you are interested in learning about at the GeoRodeo.'
+      },
+      false
+  )}}
+
+  {{form.submit("message")}}
+{{form.after()}}

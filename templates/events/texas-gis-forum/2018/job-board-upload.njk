@@ -1,0 +1,49 @@
+
+{% import '_form_macros.njk' as form %}
+<h2><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/sticky_job_square.jpg" alt="A sticky note with handwritten Now Hiring!">Submit a Job Opening</h2>
+<p class="lead">If you're looking to fill GIS positions, there's no better place to put out the call than at the Forum, where the most highly qualified GIS practicioners in Texas will be gathered in one place. Submit your job opening, and we'll have it posted up at the conference.</p>
+<p class="lead">Submit your information and upload a file with a one-page version of your job opening. Please fill out the form for each individual job opening.</p>
+
+{{form.before("jobboard")}}
+  {{form.input("Name", "Name", "text", true)}}
+  {{form.input("Email", {
+      label: "Email",
+      placeholder: "Enter email address"
+    }, "email", true)}}
+  {{form.input("Phone", {
+      label: "Phone",
+      placeholder: "Enter your phone number"
+    }, "tel", false)}}
+  {{form.input("Organization", {
+      label: "Organization",
+      placeholder: "Who are you affiliated with?"
+    }, "text", true)}}
+
+
+  {{form.uploadFile(
+    "Job Description Upload",
+    {
+      label: "Upload Job Description",
+      help: "Select a PDF or Word document to upload."
+    },
+    ".pdf,.doc,.docx",
+    false,
+    true
+  )}}
+
+  <div class="ie-all-show">
+    <p class="text-info">
+      A TNRIS employee will contact you to get the job opening description.<br/>
+      In order to upload site files directly through this form, please update to a modern browser version. See <a href="http://browsehappy.com/" title="Browser upgrade information">http://browsehappy.com/</a> for assistance.
+    </p>
+  </div>
+
+  {{form.textarea(
+      "Other Notes",
+      "Other Notes",
+      false,
+      true
+  )}}
+
+  {{form.submit("message")}}
+{{form.after()}}

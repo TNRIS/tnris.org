@@ -1,0 +1,50 @@
+
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+{% block styles %}
+  {{ super() }}
+
+  {{form.styles()}}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  {{form.scripts()}}
+
+{% endblock %}
+
+{% block topcontent %}
+  <div class="full forum-2019-top">
+    {% if mainimage %}
+      <img src="{{mainimage}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
+    {% endif %}
+    {% if mainimagesm %}
+      <img src="{{mainimagesm}}" class="banner img-responsive hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
+    {% endif %}
+    {% include "events/texas-gis-forum/2019/nav.njk" %}
+  </div>
+{% endblock %}
+
+
+{% block contentsOne %}
+  <div class="container">
+      {{contents|safe}}
+  </div>
+{% endblock %}
+
+{% block contentsTwo %}
+  <section class="grey-bg">
+    <div class="container">
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      {% include "events/texas-gis-forum/2019/map.njk" %}
+    </div>
+  </section>
+  <section class="forum-sponsors">
+    {% include "events/texas-gis-forum/2019/sponsors.njk" %}
+  </section>
+{% endblock %}

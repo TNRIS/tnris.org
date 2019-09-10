@@ -1,0 +1,20 @@
+{% extends "events/texas-gis-forum/2016/main.njk" %}
+{% import "_form_macros.njk" as form %}
+
+{% block styles %}
+  {{ super() }}
+
+  {{form.styles()}}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  {{form.scripts()}}
+{% endblock %}
+
+{% block contentsOne %}
+  <div id="contentMain" class="container">
+    {{contents|safe}}
+  </div>
+{% endblock %}

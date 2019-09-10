@@ -1,0 +1,296 @@
+@import "variables";
+
+#georodeo {
+  #contentMain {
+    h2 {
+      font-family: $adelle;
+    }
+  }
+}
+
+
+.georodeo-masthead {
+
+  &.container-fluid.full {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-family: $adelle;
+  }
+
+    img.main {
+       max-height: none;
+      width: 100%;
+
+      @media (min-width: $screen-md) {
+        height: auto;
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+}
+
+.small-banner {
+  position: relative;
+
+  @media (min-width: $screen-sm) {
+    display: none;
+  }
+
+  img {
+    position: relative;
+  }
+
+  a.btn {
+      bottom: 100px;
+      left: 105px;
+      position: absolute;
+  }
+}
+
+
+.georodeo-intro {
+  padding-top: 20px;
+  background: $canary;
+  padding-bottom: 20px;
+
+  a.orange {
+  color: $orange;
+
+  &:hover {
+    color: $yield;
+    }
+  }
+
+  img.img-circle {
+
+    border: 5px solid $auburn;
+
+    &.keynote-circle {
+    display: block;
+    float: right;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    }
+
+    &.med-circle {
+    max-width: 210px;
+    }
+
+    &.sm-key-circle {
+    max-width: 150px;
+    }
+
+    &.sm-circle {
+      max-width: 100%;
+    }
+  }
+
+  .lead {
+  }
+
+  h1 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-family: $adelle;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 0;
+  }
+
+
+  h3 {
+    font-size: 34px;
+    margin-top: 0;
+
+    font-family: $adelle;
+
+    small {
+      color: $auburn;
+      font-size: 20px;
+    }
+
+    .keynote-title {
+      font-size: 24px;
+    }
+  }
+
+  .btn {
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    color: $auburn;
+    font-family: $adelle;
+    font-size: 24px;
+  }
+
+
+}
+
+.georodeo-side {
+  img {
+    border: 5px solid $auburn;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 60%;
+  }
+}
+
+.georodeo-agenda {
+  border-collapse: collapse;
+
+  tr {
+    td {
+      font-size: 20px;
+      padding: 10px 5px;
+      vertical-align: top;
+    }
+
+    td:first-child {
+      font-family: $adelle;
+      font-size: 24px;
+      width: 25%;
+    }
+
+    &:nth-child(even) {
+      td {
+        background: $lightcanary;
+      }
+    }
+  }
+
+}
+
+.georodeo-bottom {
+  background: $canary;
+  padding: 20px 0;
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.sponsor-side {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.presenter {
+  border: 4px solid $auburn;
+  max-width: 120px;
+}
+
+.gr-presenter-container {
+  clear: both;
+  min-height: 150px;
+}
+
+.quick-agenda {
+  width: 100%;
+
+  tr {
+    margin-bottom: 10px;
+  }
+  td {
+    vertical-align: top;
+    padding: 7px;
+
+    h4 {
+      margin: 0;
+    }
+
+    ul {
+      padding: 0;
+
+      li {
+        font-family: $pragmatica;
+        font-size: 18px;
+        list-style: none;
+        margin: 0;
+      }
+    }
+  }
+
+  .greybg {
+    background: $lightgrey;
+  }
+
+  tr:nth-child(even) td {
+    background: $lightgrey;
+
+    &.clearbg {
+      background: none;
+    }
+
+
+  }
+}
+
+.georodeo-date-bar {
+    background: $darkgrey;
+    color: $white;
+    font-family: $lucida;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 0;
+    text-align: center;
+
+  @media (min-width: $screen-lg) {
+    font-size: 30px;
+  }
+}
+
+.intro-side {
+  @media (min-width: $screen-md) {
+  padding-top: 35px;
+  }
+
+  img {
+    margin-bottom: 15px;
+  }
+
+  img.med {
+    margin: 0 auto;
+    max-width: 75%;
+  }
+
+  .btn-box {
+    text-align: center;
+
+    button {
+      font-size: x-large;
+      width: 80%;
+      margin-bottom: 60px;
+      padding: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    button > a {
+      color: white;
+    }
+
+    button > a:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.georodeo-front-btn {
+  bottom: 20px;
+  box-shadow: inset $urgentblue 0 0 7px;
+    box-shadow: 2px 2px 2px $darkgrey;
+  left: 25%;
+  max-width: 50%;
+  position: absolute;
+
+  @media (min-width: $screen-sm) {
+    max-width: 25%;
+  }
+}

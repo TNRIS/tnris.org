@@ -1,0 +1,160 @@
+{% import "_form_macros.njk" as form %}
+
+{{form.before("google-request")}}
+  {{form.input("Name", "Name", "text", true)}}
+
+  {{form.input("Email", {
+      label: "Primary contact email",
+      placeholder: "Enter email address"
+    }, "email", true)}}
+
+  {{form.input("Phone", {
+      label: "Primary contact phone",
+      placeholder: "Enter your phone number"
+    }, "tel", true)}}
+
+  {{form.input("Organization", "Organization", "text", true)}}
+
+  {{form.multi(
+    "Contractor Access",
+    "Are you requesting access on behalf of a contractor currently under contract with your agency?",
+    "radio",
+      [
+      'Yes',
+      'No'
+    ],
+    true
+  )}}
+
+  {% set is_contractor = "form_model['Contractor Access'] == 'Yes'" %}
+  <div class="form-group form-callout bg-warning" ng-show="{{is_contractor}}">
+    <p>
+      We require some additional information about the project and partnership for contractors that are
+      requesting access to the imagery.
+    </p>
+  </div>
+
+  {{form.input(
+    "Relevant Project of Partnership",
+    {
+      label: "Name of project or relevant partnership for which imagery will be used:",
+      placeholder: "Name of Project or Partnership"
+    },
+    "text",
+    true,
+    is_contractor
+  )}}
+
+  {{form.input(
+    "Company Name",
+    {
+      label: "Business name of contracting company performing the work:",
+      placeholder: "Company Name"
+    },
+    "text",
+    true,
+    is_contractor
+  )}}
+
+  {{form.input(
+    "Name of Qualifying Agency",
+    {
+      label: "Name of the qualifying agency for which you are performing work under the project or formal partnership:",
+      placeholder: "Name of Qualifying Agency"
+    },
+    "text",
+    true,
+    is_contractor
+  )}}
+
+  {{form.input(
+    "Email of qualifying Agency",
+    {
+      label: "Contact email at qualifying agency with which you are formally partnering or performing contracted work:",
+      placeholder: "Contact Email"
+    },
+    "text",
+    true,
+    is_contractor
+  )}}
+
+  {{form.input(
+    "Anticipated project end date",
+    {
+      label: "Anticipated project end date:",
+      placeholder: "Project End Date"
+    },
+    "text",
+    true,
+    is_contractor
+  )}}
+
+  {{form.multi(
+    "end date",
+    "Is the anticipated end date likely to be extended?",
+      "radio",
+      [
+        'No',
+        'Possible',
+        'Likely'
+      ],
+    true,
+    is_contractor
+  )}}
+
+<h2>PART 2: Informational Items and Terms of Service (Required)</h2>
+<p class="lead">Check each box to indicate acknowledgement and agreement to the informational items and terms of service.</p>
+
+
+  {{form.checkbox(
+    "Best Effort",
+    "Imagery web services are provided as a ‘best effort’ level service; there is no implied or explicit high availability service-level agreement for the imagery web services.",
+    "Yes, I understand",
+    true,
+    true
+  )}}
+  {{form.checkbox(
+    "no distribution",
+    "The organization-specific web service URL or other credentials for accessing the imagery as a service may not to be distributed outside of your organization. Usage statistics will be kept to inform the acquisition of future imagery updates and to support sustained funding for the license.",
+    "Yes, I agree",
+    true,
+    true
+  )}}
+  {{form.checkbox(
+    "horizontal accuracy",
+    "Stated horizontal positional accuracy of the imagery is expected to achieve or exceed one meter (CE90) in most areas without significant vertical relief. Higher precision is expected in urban areas, where existing supplemental ground control was more abundant.",
+    "Yes, I understand",
+    true,
+    true
+  )}}
+  {{form.checkbox(
+    "datum transformation",
+    " A datum transformation may be required to achieve the highest level of positional accuracy, especially when reprojecting imagery between NAD27, NAD83, and WGS84-based datums.",
+    "Yes, I understand",
+    true,
+    true
+  )}}
+  {{form.checkbox(
+    "contractors",
+    "Contractors or formal partners performing work on behalf of a licensee must apply separately for access to the imagery service if it is to be used outside the immediate licensee's physical facilities or network.",
+    "Yes, I agree",
+    true,
+    true
+  )}}
+  {{form.checkbox(
+    "reselling",
+    "Imagery files may not be resold, leased, rented or redistributed outside of your immediate organization or used for projects not identified to and approved by TNRIS. Providing mass downloads of any imagery files or derivative works containing the imagery is not permitted.",
+    "Yes, I agree",
+    true,
+    true
+  )}}
+
+<h2>PART 3. Acknowledgement (Required)</h2>
+<p>On behalf of my organization, I have checked the appropriate boxes to indicate acknowledgement and agreement to the informational items and terms of service, as listed above, pertaining to usage of the State of Texas’ license to the Google Imagery products and services. Furthermore, by signing this document, my organization commits to communicating the content of this agreement to all of its end users of the imagery service.</p>
+  {{form.input("Primary Contact Signature", {
+      label: "Signature of Primary Contact",
+      placeholder: "Your Full Name"
+    }, "text", true)}}
+
+  {{form.submit("message")}}
+{{form.after()}}

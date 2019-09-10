@@ -1,0 +1,69 @@
+{% import "_form_macros.njk" as form %}
+<h2 id="contact-pm">Contact and Feedback Form</h2>
+
+<p class="lead">Use this form to ask us general questions, give us feedback about the service, or report an issue.</p>
+
+{{form.before("google-contact")}}
+  {{form.input("Name", "Name", "text", true)}}
+  
+  {{form.multi(
+    "Reason",
+    "Reason for contacting",
+    "radio",
+    [
+      'Feedback/General Inquiry',
+      'Issue Reporting'
+    ],
+    true
+  )}}
+
+  {% set show_image_upload="form_model['Reason']=='Issue Reporting'" %}
+  {{form.uploadImage(
+    "Issue Screenshot",
+    {
+      label: "Upload Screenshot",
+      help: "Upload an image that shows the problem area. Maximum allowed image size is 5 MB."
+    },
+    false,
+    show_image_upload
+  )}}
+
+  {{form.input(
+    "Email",
+    {
+      label: "Email",
+      placeholder: "Enter email address"
+    },
+    "email",
+    true
+  )}}
+  
+  {{form.input(
+    "Phone",
+    {
+      label: "Phone",
+      placeholder: "Enter your phone number"
+    },
+    "tel",
+    false
+  )}}
+
+  {{form.input(
+    "Government Agency or Affiliation",
+    {
+      label: "What Is Your Government Agency or Affiliation?",
+      placeholder: "Name of Agency or Organization"
+    },
+    "text",
+    false
+  )}}
+  
+  {{form.textarea(
+    "Question or Comments",
+    "Question / Comments",
+    true,
+    true
+  )}}
+
+  {{form.submit("message")}}
+{{form.after()}}

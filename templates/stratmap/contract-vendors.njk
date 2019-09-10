@@ -1,0 +1,143 @@
+{% set contract_vendors = [
+  {
+    name: 'AECOM',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/aecom_logo.png',
+    vendor_home_url: 'https://www.aecom.com',
+    vendor_page_url: 'http://www.aecomconnect.com/arcgisportal/apps/MapJournal/index.html?appid=f8ec753f87964dd980bee9f79b16ead7',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3423&keyword=aecom'
+  }, {
+    name: 'AppGeo',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/appgeo_logo_sm.png',
+    vendor_home_url: 'http://www.appgeo.com/',
+    vendor_page_url: 'http://www.appgeo.com/about/contracting-with-appgeo-is-easy/texas-dir-tso-3417/#more-4656',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3417&keyword=applied%20geographics'
+  },
+  {
+    name: 'Dewberry',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/dewberry_logo.png',
+    vendor_home_url: 'http://www.dewberry.com/  ',
+    vendor_page_url: 'http://www.dewberry.com/services/geospatial/texas-dir',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3389&keyword=dewberry'
+  },
+  {
+    name: 'Esri',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/esri_web_md.png',
+    vendor_home_url: 'http://www.esri.com/',
+    vendor_page_url: 'http://www.esri.com/landing-pages/texas-dir',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3446&keyword=3446'
+  },
+  {
+    name: 'Fugro Geospatial',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/fugro_logo.jpg',
+    vendor_home_url: 'http://www.fugrogeospatial.com/',
+    vendor_page_url: ' http://www.fugrogeospatial.com/txdir',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3391&keyword=fugro%20geospatial'
+  },
+  {
+    name: 'GeoComm',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/geocomm_logo.png',
+    vendor_home_url: 'http://www.geo-comm.com/',
+    vendor_page_url: 'http://www.geo-comm.com/2016texas-dircontract/',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3441&keyword=geo-comm'
+  },
+  {
+    name: 'Geophex',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/geophex_logo.png',
+    vendor_home_url: 'http://www.geophex.com/',
+    vendor_page_url: 'http://geophexsurveys.com/dir-contractor-geographic-data-provider/',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3411&keyword=geophex'
+  },
+  {
+    name: 'Merrick',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/merrick_logo.png',
+    vendor_home_url: 'http://www.merrick.com/',
+    vendor_page_url: 'https://www.merrick.com/services/geospatial-services/',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3388&keyword=merrick'
+  },
+  {
+    name: 'PenBay',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/penbay_logo.png',
+    vendor_home_url: 'http://penbaysolutions.com/',
+    vendor_page_url: 'http://penbaysolutions.com/texas-dir/',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3397&keyword=penbay'
+  },
+  {
+    name: 'RazorTek',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/razorlizard_web.png',
+    vendor_home_url: 'http://www.razor-tek.com/',
+    vendor_page_url: 'https://www.razor-tek.com/tx-dir-info',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3471&keyword=razortek'
+  },
+  {
+    name: 'SADA Systems',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/sada_logo.jpg',
+    vendor_home_url: 'https://sadasystems.com/',
+    vendor_page_url: 'https://sadasystems.com/cloud-solutions/google-for-work/apps/government/certifications/contracts/DIR-TSO-3413',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3413&keyword=Sada'
+  },
+  {
+    name: 'Sanborn',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/sanborn_logo_sm.jpg',
+    vendor_home_url: 'http://www.sanborn.com/',
+    vendor_page_url: 'http://www.sanborn.com/texasdir-dir-tso-3395/',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3395&keyword=Sanborn'
+  },
+  {
+    name: 'Surdex',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/surdex_logo_sm.jpg',
+    vendor_home_url: 'https://www.surdex.net/',
+    vendor_page_url: 'https://www.texas-geospatial.com/',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3394&keyword=Surdex'
+  },
+  {
+    name: 'Tessellations',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/tesselations_logo.jpg',
+    vendor_home_url: 'http://tessellations.us/',
+    vendor_page_url: 'http://tessellations.us/?page_id=675',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3443&keyword=tessellations'
+  },
+  {
+    name: 'West Corporation',
+    logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/west_logo.png',
+    vendor_home_url: 'https://www.west.com/',
+    vendor_page_url: ' https://www.west.com/safety-services/partners/texas-department-of-information-resources/',
+    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3468&keyword=West'
+  }
+  ]
+  %}
+
+{% for item in contract_vendors %}
+  <div class="col-sm-6">
+    {% if item.status == 'unavailable' %}
+    <div class="thumbnail vendor-box unavailable">
+    {% else %}
+      <div class="thumbnail vendor-box">
+    {% endif %}
+          <a href="{{item.vendor_home_url}}"><img class="img-responsive" src="{{item.logo_url}}" alt="Logo and home page for {{item.name}}"></a>
+          <div class="caption">
+              <h3 class="sr-only">{{item.name|safe}}</h3>
+              <ul class="list-clean">
+                <li><a href="{{item.vendor_home_url}}">
+                  <i class="glyphicon glyphicon-home"></i> Vendor Home</a>
+                </li>
+
+                <li>
+                {% if item.vendor_page_url %}
+                <a href="{{item.vendor_page_url}}"><i class="glyphicon glyphicon-new-window"></i> Vendor Contract Page</a>
+                {% else %}
+                <em>Vendor Contract Page in progress</em>
+                {% endif %}
+                </li>
+
+                <li>
+                {% if item.dir_page_url %}
+                <a href="{{item.dir_page_url}}"><i class="glyphicon glyphicon-new-window"></i> DIR Vendor Contract Page</a>
+                {% else %}
+                <em>DIR Contract Page in progress</em>
+                 {% endif %}
+                </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+{% endfor %}

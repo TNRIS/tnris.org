@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="wf-loading" lang="en">
+
+  <head>
+    {% block header %}
+      {% include "partials/header.njk" %}
+    {% endblock %}
+    {% block title %}
+      <title>{% if title %}{{title}} | {% endif %}TNRIS - Texas Natural Resources Information System</title>
+    {% endblock %}
+    {% block styles %}{% include "partials/styles.njk" %}{% endblock %}
+  </head>
+
+  <body {% if id %}id="{{id}}"{% endif %} {% if bodyClass %}class="{{bodyClass}}"{% endif %} >
+    {% block fontload %}{% include "partials/font-load.njk" %}{% endblock %}
+    <div id="wrap-outer">
+      <div id="wrap-inner">
+        {% include "partials/navbar.njk" %}
+        {# Uncomment this div to enable the dissmissible Alert banner.
+            Edit the contents of the banner within the site.js
+            file. The injector/controller function is at the
+            bottom of the file. #}
+        {# <div class="alert-forum" id="alert-holder">
+          <div class="alert topper alert-dismissible" style="border-radius: 0 !important;" role="alert" id="alert-banner">
+            <div class="container">
+              <div id="alert-contents"></div>
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times; Dismiss This Alert</span></button>
+            </div>
+          </div>
+       </div> #}
+       {# non-dismissable alert about new data site #}
+       {# <div class="alert-data" id="alert-holder">
+          <div class="alert topper" role="alert" id="alert-banner">
+            <div class="container">
+              <div id="alert-contents"></div>
+            </div>
+          </div>
+       </div> #}
+        {% block quick_nav %}{% endblock %}
+        <span id="mainContentAnchor"></span>
+        {% block topcontent %}{% endblock %}
+        {% block contentsOne %}{% endblock %}
+        {% block contentsTwo %}{% endblock %}
+      </div>
+    </div>
+    {% block footer %}{% include "partials/footer.njk" %}{% endblock %}
+    {% block analytics %}
+      {% block analyticsLoad %}
+        {% include "partials/analytics-load.njk" %}
+      {% endblock %}
+      {% block analyticsTrack %}
+        {% include "partials/analytics-track.njk" %}
+      {% endblock %}
+    {% endblock %}
+    {% block scripts %}{% include "partials/scripts.njk" %}{% endblock %}
+  </body>
+</html>

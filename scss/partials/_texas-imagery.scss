@@ -1,0 +1,157 @@
+// _google-imagery.scss
+@import "variables";
+
+.google-side {
+    padding: 20px;
+    padding-top: 0;
+
+    .btn {
+      margin-bottom: 30px;
+      text-align: left;
+    }
+}
+
+.google-top {
+  background: $lightgrey;
+  padding-bottom: 20px;
+
+  date {
+    text-transform: uppercase;
+  }
+
+  .btn {
+    margin-top: 50px;
+  }
+
+  .btn-danger {
+    margin-top: 0;
+  }
+}
+
+.google-intro {
+  padding-top: 40px;
+  background: $darkgrey;
+  color: $white;
+  padding-bottom: 40px;
+
+  a.orange {
+  color: $orange;
+
+  &:hover {
+    color: $yield;
+    }
+  }
+
+
+.lead {
+    text-shadow: 0 0 1px $darkgrey;
+  }
+
+  h2 {
+    color: $canary;
+    font-weight: 300;
+    font-size: 40px;
+    text-shadow: 0 0 1px solid $darkgrey;
+    margin-top: 0;
+  }
+
+
+  h3 {
+    margin-top: 0;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+}
+
+
+#texas-imagery-service {
+    .container-fluid.full {
+    margin-bottom: 0;
+    }
+}
+
+#google-request {
+    .container-fluid.full {
+    margin-bottom: 0;
+    }
+}
+
+#contentMain {
+  #faq-side-container {
+    #imagery-service-faq-side {
+      height: 75%;
+      border: 1px solid $midgrey;
+      border-radius: 10px 10px 0 0;
+      margin-top: 15px;
+
+      h3, p {
+        margin: 0;
+        padding: 0 10px;
+      }
+
+      h3 {
+        margin-top: 10px;
+      }
+
+      ul > li > a.faq-active {
+        color: #337ab7;
+      }
+    }
+
+    .sticky {
+      position: fixed;
+      top: 0;
+      overflow-y: scroll;
+    }
+
+    .sticky-downloads {
+      position: fixed;
+      top: 78%;
+    }
+  }
+}
+
+.faq-list {
+  margin: 0;
+  padding: 0;
+
+  li {
+    border-bottom: 1px solid $midgrey;
+
+    strong {
+      background: $midgrey;
+      display: inline-block;
+      font-size: 10px;
+      float: right;
+      padding: 20px 10px;
+    }
+
+    &:hover {
+    }
+
+    a {
+      color: $auburn;
+      display: block;
+      font-size: 20px;
+      padding: 20px 10px;
+      text-decoration: none;
+
+      &:active {
+        color: $tnrisblue;
+      }
+
+      &:hover {
+       background:$lightgrey;
+      }
+    }
+  }
+}
+
+ul.helpful {
+  li {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+}

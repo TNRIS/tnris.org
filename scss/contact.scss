@@ -1,0 +1,94 @@
+@import "partials/variables";
+@import "partials/mixins";
+
+label {
+    font-family: $pragmatica;
+    font-weight: 500;
+    font-size: 20px;
+
+  .radio &, .checkbox & {
+    text-transform: none;
+    font-family: $opensans;
+    font-weight: 300;
+    font-size: 14px;
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+.has-error {
+  color: $error;
+
+  .form-control {
+    color: $error;
+  }
+
+  &.has-feedback .form-control-feedback {
+    top: 34px;
+  }
+}
+
+.form-control {
+  font-weight: 400;
+
+  &.placeholder, &.ng-pristine {
+    font-weight: 100;
+  }
+}
+
+.radio, .checkbox, .error-radio, .error-checkbox {
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.submit {
+  margin-top: 10px;
+}
+
+.submit.center-block {
+  width: 50%;
+}
+
+.recaptcha {
+  margin-top: 5px;
+
+  div div {
+    @include center-block();
+  }
+}
+
+.form-group {
+  opacity: 1;
+
+  &.ng-hide-remove {
+    transition: all 0.15s linear;
+  }
+
+  &.ng-hide {
+    opacity: 0;
+  }
+
+  .label-col {
+    @media (min-width: $screen-sm-min) {
+      text-align: right;
+    }
+  }
+
+  &.form-callout {
+    padding: 10px;
+
+    p:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.required-symbol {
+  color: $error;
+}
+
+.progress {
+  margin-top: 20px;
+}

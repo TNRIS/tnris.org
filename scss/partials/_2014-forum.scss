@@ -1,0 +1,149 @@
+/* _2014-gis-forum.scss */
+@import "variables";
+
+
+#_2014-forum-content {
+
+  h1 {
+    visibility: hidden !important;
+    height: 1px;
+    margin: 0;
+  }
+
+  h2 {
+    color: $bluegreen;
+    font-size: 30px;
+  }
+
+  ._2014-forum-body
+
+  a {
+    color: $bluegreen;
+  }
+
+  a.btn {
+    color: white;
+  }
+
+  .main-image {
+    img {
+      min-width: 100%;
+    }
+  }
+
+    .lead {
+    background: $lightgrey;
+    padding: 20px;
+    max-width: 100% !important;
+    }
+
+    .emphasize {
+      font-size: 20px;
+    }
+
+  .sponsors {
+    text-align: center;
+
+    img {
+      margin: 0 auto;
+    }
+  }
+
+}
+
+
+.forum-date-runner {
+  display: block;
+  background: #484848;
+  color: white;
+  font-family: $pragmatica;
+  font-size: 20px;
+  color: $lightgrey;
+  text-align: center;
+  font-weight: 300;
+
+    @media (min-width: $screen-sm) {
+      font-size: 30px;
+    }
+}
+
+
+
+
+
+.keynote {
+
+  small {
+    color: $bluegreen;
+    text-transform: uppercase;
+    font-family: $pragmatica;
+    font-size: 16px;
+  }
+  h3 {
+    margin-top: 0;
+  }
+
+  .media-left {
+
+    img {
+      max-width: 150px;
+    }
+  }
+
+}
+
+.agenda-2014 {
+
+  clear: both;
+  display: block;
+
+  table {
+    .tg-left { text-align: left; }
+    .tg-right { text-align: right; }
+    .tg-center { text-align: center; }
+    .tg-bf { font-weight: bold; }
+    .tg-it { font-style: italic; }
+    .tg-table-plain { border-collapse: collapse; border-spacing: 0; font-size: 100%; font: inherit; }
+    .tg-table-plain td {padding: 10px; vertical-align: top; }
+    .tg-even {background: #f2f2f2;}
+
+    th {
+      background: #333;
+      color: white;
+      font-weight: normal;
+    }
+    td {
+      border: none;
+      padding: 10px;
+
+
+        strong {
+          font-family: $pragmatica;
+          font-size: 18px;
+          font-weight: 400;
+        }
+    }
+
+    .sessions {
+      td {
+        padding: 0;
+        width: 33.3333%;
+        padding-right: 10px;
+
+        ul {
+          margin: 0;
+          padding: 0;
+
+          li {
+            list-style: none;
+            margin-bottom: 10px;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

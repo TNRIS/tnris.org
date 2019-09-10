@@ -1,0 +1,70 @@
+@import "variables";
+
+.georodeo-masthead.gr-top-2018 {
+  background: url('https://tnris-org-static.s3.amazonaws.com/images/star_bg.jpg') 0 0 repeat;
+  background-size: cover;
+  margin-top: -5px;
+}
+
+.navbar.georodeo-2018 {
+  background: none;
+  border-color: $brightyellow;
+  font-family: $adelle;
+  font-size: 22px;
+
+  .active a {
+    background: $brightyellow !important;
+    color: black;
+
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+.georodeo-intro.gr-2018 {
+    background: black;
+    color: white;
+
+    h2, h4 {
+      color: $brightyellow;
+
+      a {
+        color: $brightyellow;
+      }
+    }
+
+    h3 {
+      color: $white;
+
+      a {
+        color: $infoblue;
+      }
+    }
+}
+
+.btn-box {
+    text-align: center;
+
+    button {
+      font-size: x-large;
+      width: 50%;
+      margin-bottom: 60px;
+      padding: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    button > a {
+      color: white;
+    }
+
+    button > a:hover {
+      text-decoration: none;
+    }
+  }
+
+.btn-starwars {
+  background: black;
+  border: 1px solid $brightyellow;
+}

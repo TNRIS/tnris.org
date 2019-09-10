@@ -1,0 +1,113 @@
+
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+{% block styles %}
+  {{ super() }}
+
+  {{form.styles()}}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  {{form.scripts()}}
+
+  <script src="//cdn.jsdelivr.net/momentjs/2.10.6/moment.min.js"></script>
+  <script src="/forum.bundle.js"></script>
+{% endblock %}
+
+{% block topcontent %}
+  <div class="full forum-2019-top">
+    <div class="forum-2017-brand-container container">
+      <h1 class="forum-brand sr-only"><a href="/texas-gis-forum/2019"><span>Texas GIS Forum</span></a> October 21 – 25, 2019 | Austin, Texas</h1>
+    </div>
+    <a href="/texas-gis-forum/2019">
+      {% if mainimage %}
+        <img src="{{mainimage}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
+      {% endif %}
+      {% if mainimagesm %}
+        <img src="{{mainimagesm}}" class="banner img-responsive hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
+      {% endif %}
+    </a>
+    {% include "events/texas-gis-forum/2019/nav.njk" %}
+  </div>
+
+  <div class="_2016-forum-intro">
+    <div class="container">
+      <h2 class="forum-2017-page-title">{{title}}</h2>
+
+      <div class="col-sm-5 col-sm-push-7">
+        {% if title == '2019 Texas GIS Forum' %}
+          {% include "events/texas-gis-forum/2019/registration.njk" %}
+        {% endif %}
+        {% if title == 'Sponsors & Exhibitors' %}
+          {% include "events/texas-gis-forum/2019/sponsorbox.njk" %}
+          {% if buttontext %}
+            <a class="btn btn-lg btn-darkgrey btn-block" href="{{buttonurl}}">
+              <i class="glyphicon glyphicon-pencil"></i> {{buttontext}}
+            </a>
+          {% endif %}
+        {% endif %}
+        {% if title == 'Call for Papers' %}
+        {% endif %}
+        {% if title == 'Forum Pre-Conference Workshops' %}
+            <p>
+              <a class="btn btn-lg btn-purpblue center-block" style="max-width: 75%;" href="{{FORUM_REGISTRATION_LINK}}">
+                <i class="glyphicon glyphicon-pencil"></i> {{buttontext}}
+              </a>
+            </p>
+        {% endif %}
+        {% if title == '2019 Texas GIS Forum Agenda' %}
+            <p>
+              <a class="btn btn-lg btn-purpblue center-block" style="max-width: 75%;" href="{{FORUM_REGISTRATION_LINK}}">
+                <i class="glyphicon glyphicon-pencil"></i> {{buttontext}}
+              </a>
+            </p>
+        {% endif %}
+      </div>
+
+      <div class="col-sm-7 col-sm-pull-5">
+        {% if title == 'Sponsors & Exhibitors' %}
+          {% include "events/texas-gis-forum/2019/sponsortext.njk" %}
+        {% endif %}
+
+        {% if title == 'Call for Papers' %}
+          {% include "events/texas-gis-forum/2019/cfp-text.njk" %}
+        {% endif %}
+
+        {% if title == 'Forum Pre-Conference Workshops' %}
+          <p class="lead">{{contents|safe}}</p>
+        {% endif %}
+        {% if title == '2019 Texas GIS Forum Agenda' %}
+          <p class="lead">{{abstract}}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block contentsOne %}
+  <div id="contentMain" class="container">
+    <div class="row">
+      <div class="col-md-7">
+        {{contents|safe}}
+      </div>
+      {% if title == 'Sponsors & Exhibitors' %}
+        <div class="col-md-5">
+          <h3>Job Board</h3>
+          <p>
+            <img class="pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/sticky_job_square.jpg" alt="now hiring post-it note">If you're looking to fill GIS positions, there's no better place to put out the call than at the Forum, where the most highly qualified GIS practicioners in Texas will be gathered in one place. Submit your job opening, and we'll have it posted up at the conference.
+          </p>
+          <a class="btn btn-tnris btn-md" href="/texas-gis-forum/2019/job-board">Submit to the Job Board</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}
+
+{% block contentsTwo %}
+  <section class="forum-sponsors">
+    {% include "events/texas-gis-forum/2019/sponsors.njk" %}
+  </section>
+{% endblock %}

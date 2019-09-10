@@ -1,0 +1,96 @@
+.natural-color-infrared {
+  .twentytwenty-before-label:before {
+    content: 'Natural Color';
+  }
+
+  .twentytwenty-after-label:before {
+    content: 'Color Infrared';
+  }
+}
+
+.leaf-off-on {
+  .twentytwenty-before-label:before {
+    content: 'Leaf-Off';
+  }
+
+  .twentytwenty-after-label:before {
+    content: 'Leaf-On';
+  }
+}
+
+.twentyfourteen {
+  .twentytwenty-before-label:before {
+    content: '2014';
+  }
+
+  .twentytwenty-after-label:before {
+    content: '2016';
+  }
+}
+
+.before-after-qc {
+  .twentytwenty-before-label:before {
+    content: 'Before QC';
+  }
+
+  .twentytwenty-after-label:before {
+    content: 'After QC';
+  }
+}
+
+.lidar-compare {
+  .twentytwenty-before-label:before {
+    content: 'Ground Elevation Data - DEM';
+  }
+
+  .twentytwenty-after-label:before {
+    content: '3-D rendered point cloud';
+  }
+}
+
+.new-old-lidar {
+  .twentytwenty-before-label:before {
+    content: 'StratMap 2017';
+  }
+
+  .twentytwenty-after-label:before {
+    content: 'CACPCOG 2012';
+  }
+}
+
+.coastal-lidar {
+  .twentytwenty-before-label:before {
+    content: 'StratMap 2017';
+  }
+
+  .twentytwenty-after-label:before {
+    content: 'Fema 2006';
+  }
+}
+
+
+
+
+.twentytwenty-before-label, 
+.twentytwenty-after-label {
+  &:before {
+    background: rgba(0, 0, 0, .5);
+  }
+}
+
+.twentytwenty-overlay {
+  background: none;
+
+  &:hover {
+    background: none;
+  }
+}
+
+figure.data-preview {
+  margin-bottom: 30px;
+  
+  figcaption {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+}

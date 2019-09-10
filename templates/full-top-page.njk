@@ -1,0 +1,36 @@
+{% extends "base.njk" %}
+
+{% block topcontent %}
+<div class="container-fluid full">
+
+      <div class="top-container">
+      {% if mainimage %}
+        <img class="img-responsive center-block" src="{{mainimage}}" alt="Masthead for {{title}}">
+      {% endif %}
+
+      <div class="top-header center-block">
+          <div class="container">
+            <h1>{{title}}</h1>
+            {% if abstract %}
+              <div class="lead">{{abstract}}</div>
+            {% endif %}
+          </div>
+      </div>
+      </div>
+</div>
+{% endblock %}
+
+{% block contentsOne %}
+<div id="contentMain" class="container">
+  <div class="row">
+    <div class="col-md-8">
+      {{ contents|safe }}
+    </div>
+
+    <div class="col-md-4">
+      {% block sidebarLeft %}
+      {% endblock %}
+    </div>
+  </div>
+</div>
+{% endblock %}

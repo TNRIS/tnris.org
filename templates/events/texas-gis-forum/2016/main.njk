@@ -1,0 +1,101 @@
+
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+
+{% block styles %}
+  {{ super() }}
+
+  {{form.styles()}}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  {{form.scripts()}}
+
+  <script src="//cdn.jsdelivr.net/momentjs/2.10.6/moment.min.js"></script>
+  <script src="/forum.bundle.js"></script>
+{% endblock %}
+
+
+{% block topcontent %}
+  <div id="_2016-forum-container">
+
+        {% include "events/texas-gis-forum/2016/nav.njk" %}
+
+      <!--   {% if mainimage %}
+          <img src="{{mainimage}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
+        {% endif %}
+        {% if mainimagesm %}
+          <img src="{{mainimagesm}}" class="banner img-responsive hidden-xs hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
+        {% endif %}
+
+        {% if mainimagexs %}
+          <img src="{{mainimagexs}}" class="banner img-responsive hidden-sm hidden-md hidden-lg"  alt="Texas GIS Forum Main Image">
+        {% endif %} -->
+
+    <div class="_2016-forum-intro">
+
+
+      <div class="container">
+
+        <h1>{{title}}</h1>
+        {% if buttontext %}
+        <div class="col-sm-5 col-sm-push-7">
+          {% if title == '2016 Texas GIS Forum' %}
+            {% include "events/texas-gis-forum/2016/registration.njk" %}
+          {% endif %}
+
+          {% if title == 'Sponsors & Exhibitors' %}
+            {% include "events/texas-gis-forum/2016/sponsorbox.njk" %}
+          {% endif %}
+
+          <a class="btn btn-lg btn-periwinkle btn-block" href="{{buttonurl}}">
+            <i class="glyphicon glyphicon-pencil"></i> {{buttontext}}
+          </a>
+
+
+
+
+        </div>
+        {% else %}
+
+        <div class="col-sm-5 col-sm-push-7">
+        </div>
+        {% endif %}
+        <div class="col-sm-7 col-sm-pull-5">
+          <p class="lead">
+            {{abstract}}
+          </p>
+          {% if title == '2016 Texas GIS Forum' %}
+              {% include "events/texas-gis-forum/2016/welcome.njk" %}
+          {% endif %}
+
+
+          {% if title == 'Sponsors & Exhibitors' %}
+              {% include "events/texas-gis-forum/2016/sponsortext.njk" %}
+          {% endif %}
+
+        </div>
+    </div>
+      </div>
+    </div>
+{% endblock %}
+
+
+{% block contentsOne %}
+<div id="contentMain" class="container">
+  <div class="row">
+    <div class="col-md-12">
+      {{contents|safe}}
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block contentsTwo %}
+<section class="forum-sponsors">
+    {% include "events/texas-gis-forum/2016/sponsors.njk" %}
+  </section>
+{% endblock %}

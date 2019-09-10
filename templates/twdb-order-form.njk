@@ -1,0 +1,199 @@
+{% extends "contact.njk" %}
+{% import "_form_macros.njk" as form %}
+
+{% block contentsOne %}
+  <div id="contentMain" class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h1>{{title}}</h1>
+            {% if abstract %}<div class="mainBlurb">{{abstract}}</div>{% endif %}
+        </div>
+
+        {% block sidebarLeft %}
+        {% endblock %}
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        {{contents|safe}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-7">
+        {{form.before("twdb-order")}}
+
+          {{form.multi(
+            "Type of Map",
+            "Type of Map",
+            "radio",
+            [
+              'Pre-Made Map',
+              'Custom Map'
+            ],
+            true
+          )}}
+
+          {% set is_premade = "form_model['Type of Map'] == 'Pre-Made Map'" %}
+            <div class="form-group form-callout" ng-show="{{is_premade}}">
+              <p>There are a number of pre-made TWDB maps that we can print for you.</p>
+              <p><a class="btn btn-lg btn-danger pull-right" target="_blank" href="http://www.twdb.texas.gov/mapping/maps.asp"><i class="glyphicon glyphicon-eye-open"></i> View Pre-Made Maps</a>Please visit the pre-made maps page and copy the title of the map you would like and enter it below.</p>
+            </div>
+
+            {{form.input(
+              "premade",
+              {
+                label: "Pre-made Map Title",
+                placeholder: "Enter the title of the map"
+              },
+              "text",
+              false,
+              is_premade
+            )}}
+
+          {% set is_custom = "form_model['Type of Map'] == 'Custom Map'" %}
+            <div class="form-group form-callout" ng-show="{{is_custom}}">
+              <p>
+                Please describe geographic area and information that you would like to be
+                included in the map, along with any other details you think are important.
+                We will contact you to follow up and ensure the map matches your needs.
+              </p>
+            </div>
+
+            {{form.textarea(
+              "Custom Map Description",
+              {
+                label: 'Custom Map Description',
+                placeholder: 'Describe the map you would like to order.'
+              },
+              true,
+              is_custom
+            )}}
+
+          {{form.input("Name", "Name", "text", true)}}
+          {{form.input(
+            "Email",
+            {
+              label: "Email",
+              placeholder: "Enter email address"
+            },
+            "email",
+            true
+          )}}
+
+          {{form.input(
+            "Phone",
+            {
+              label: "Phone",
+              placeholder: "Enter your phone number"
+            },
+            "tel",
+            true
+          )}}
+
+          {{form.input(
+            "address",
+            {
+              label: "Address 1",
+              placeholder: "Enter your address"
+            },
+            "text",
+            true
+          )}}
+
+             {{form.input(
+            "address-2",
+            {
+              label: "Address 2",
+              placeholder: "More space for your address"
+            },
+            "text",
+            false
+          )}}
+
+          {{form.input(
+            "City",
+            {
+              label: "City",
+              placeholder: "Your City"
+            },
+            "text",
+            true
+          )}}
+
+          {{form.input("State", "State", "text", true)}}
+          {{form.input("Zip", "Zip", "text", true)}}
+
+          {{form.input(
+            "Organization",
+            {
+              label: "Organization/Affiliation",
+              placeholder: "Who are you affiliated with?"
+            },
+            "text",
+            true
+          )}}
+
+             {{form.input(
+            "date",
+            {
+              label: "Date Needed by",
+              placeholder: "Give a date or timeline: i.e. 'no rush' or 'by the end of April'"
+            },
+            "text",
+            false
+          )}}
+
+          {{form.checkbox(
+            "Legislative Request",
+            "Is this a Legislative Request?",
+            "Yes",
+            false,
+            true
+          )}}
+
+          {{form.multi(
+              "Delivery Method",
+              "Delivery Method",
+              "radio",
+              [
+                ['Digital Download', 'Digital Download'],
+                ['USPS', 'U.S.P.S'],
+                ['FedEx', 'Fed-Ex ($10.00 - $15.00)'],
+                ['FedEx Customer Charged', 'Fed-Ex charged to customer number']
+              ],
+              true
+          )}}
+
+          {{form.input(
+            "FedEx Customer Number", "Customer FedEx Account Number", "text", true,
+            "form_model['Delivery Method'] == 'FedEx Customer Charged'")}}
+
+          {{form.multi(
+              "Payment Method",
+              "Payment Method",
+              "radio",
+              [
+                ['Credit Card', 'Credit Card (A TNRIS staff member will call you to acquire your credit card information.)'],
+                'Check',
+                'Pay at Pickup',
+                ['Purchase Order', 'Purchase Order (Government agencies only)']
+              ],
+              true
+          )}}
+
+          {{form.input(
+            "Check Number", "Check Number", "text", true,
+            "form_model['Payment Method'] == 'Check'")}}
+
+          {{form.input(
+            "Purchase Order Number", "Purchase Order Number", "text", true,
+            "form_model['Payment Method'] == 'Purchase Order'")}}
+
+
+          {{form.submit("message")}}
+        {{form.after()}}
+      </div>
+    </div>
+  </div>
+{% endblock %}

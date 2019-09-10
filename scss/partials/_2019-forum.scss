@@ -1,0 +1,37 @@
+@import "variables";
+
+
+.forum-2019-top {
+  background: #222;
+  color: white;
+  position: relative;
+
+}
+
+#forum-training-2019 {
+  margin-top: 20px;
+
+  h2 {
+    color: $darkgrey;
+    font-size: 35px;
+  }
+}
+
+.welcome-logo-2019 {
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+  img {
+    max-width: 150px;
+
+    @media (min-width: $screen-sm) {
+    max-width: 100px;
+    }
+
+    @media (min-width: $screen-md) {
+    max-width: 150px;
+    }
+  }
+}

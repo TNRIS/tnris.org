@@ -1,0 +1,20 @@
+
+<ul class="news-list list-clean">
+{% for gio_item in geographic_information_office_news %}
+  {% if loop.index <= 4 %}
+    <li class="media">
+      <div class="media-left">
+        <a href="{{gio_item.preserved}}"><img src="{{gio_item.thumbnail}}" alt="Thumbnail image for {{gio_item.title}}"></a>
+      </div>
+      <div class="media-body">
+        <time>{{ gio_item.date|prettyDate }}</time>
+        <h3 class="media-heading">
+        <a href="{{gio_item.preserved}}">{{ gio_item.title }}</a></h3>
+        <p>
+          {{ gio_item.abstract }}
+        </p>
+      </div>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>

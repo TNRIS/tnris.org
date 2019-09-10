@@ -1,0 +1,91 @@
+
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+{% block styles %}
+  {{ super() }}
+  {{form.styles()}}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  {{form.scripts()}}
+  <script src="//cdn.jsdelivr.net/momentjs/2.10.6/moment.min.js"></script>
+  <script src="/forum.bundle.js"></script>
+{% endblock %}
+
+{% block topcontent %}
+  <div class="full forum-2017-top">
+    <div class="forum-2017-brand-container container">
+      <h1 class="forum-brand sr-only"><a href="/texas-gis-forum/2018"><span>Texas GIS Forum</span></a> October 22 – 26, 2018 | Austin, Texas</h1>
+      {% include "events/texas-gis-forum/2018/nav.njk" %}
+    </div>
+    <a href="/texas-gis-forum/2018">
+      {% if mainimage %}
+        <img src="{{mainimage}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
+      {% endif %}
+      {% if mainimagesm %}
+        <img src="{{mainimagesm}}" class="banner img-responsive hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
+      {% endif %}
+    </a>
+  </div>
+  <div class="_2016-forum-intro">
+    <div class="container">
+      <h2 class="forum-2017-page-title">{{title}}</h2>
+      <div class="col-sm-5 col-sm-push-7">
+        {% if title == '2018 Texas GIS Forum' %}
+          {% include "events/texas-gis-forum/2018/registration.njk" %}
+          {% endif %}
+          {% if title == 'Sponsors & Exhibitors' %}
+            {% include "events/texas-gis-forum/2018/sponsorbox.njk" %}
+            {% if buttontext %}
+            <a class="btn btn-lg btn-darkgrey btn-block" href="{{buttonurl}}">
+              <i class="glyphicon glyphicon-pencil"></i> {{buttontext}}
+            </a>
+            {% endif %}
+          {% endif %}
+
+          {% if title == 'Call for Papers' %}
+        {% endif %}
+      </div>
+      <div class="col-sm-7 col-sm-pull-5">
+        {% if title == 'Sponsors & Exhibitors' %}
+            {% include "events/texas-gis-forum/2018/sponsortext.njk" %}
+        {% endif %}
+        {% if title == 'Call for Papers' %}
+            {% include "events/texas-gis-forum/2018/cfp-text.njk" %}
+        {% endif %}
+        {% if title == 'Forum Pre-Conference Workshops' %}
+          {{contents|safe}}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block contentsOne %}
+  <div id="contentMain" class="container">
+    <div class="row">
+      <div class="col-md-7">
+        {{contents|safe}}
+      </div>
+      {% if title == 'Sponsors & Exhibitors' %}
+        <div class="col-md-5">
+          <h3>Job Board</h3>
+          <p>
+            <img class="pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/sticky_job_square.jpg" alt="now hiring post-it note">If you're looking to fill GIS positions, there's no better place to put out the call than at the Forum, where the most highly qualified GIS practicioners in Texas will be gathered in one place. Submit your job opening, and we'll have it posted up at the conference.
+          </p>
+          <a class="btn btn-tnris btn-md" href="/texas-gis-forum/2018/job-board">Submit to the Job Board</a>
+          <hr class="clearfix">
+          <a href="#co-sponsor-the-forum-social-1000"><img src="https://tnris-org-static.s3.amazonaws.com/images/forum_sponsor_promo.jpg" class="img-responsive" alt="Sponsor the social"></a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}
+
+{% block contentsTwo %}
+  <section class="forum-sponsors">
+    {% include "events/texas-gis-forum/2018/sponsors.njk" %}
+  </section>
+{% endblock %}

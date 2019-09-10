@@ -1,0 +1,440 @@
+
+{% macro styles() %}
+  {# note: this rule is included here to avoid distracting
+  flashes/glitches if css file is slow or fails to load #}
+  <style type="text/css">
+    [ng\:cloak], [ng-cloak], .ng-cloak {
+      display: none !important;
+    }
+  </style>
+  <link href="/contact-forms.css" rel="stylesheet">
+{% endmacro %}
+
+{% macro scripts() %}
+  <script src="//www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&render=explicit" async defer></script>
+  <script src="/contact-forms.bundle.js"></script>
+{% endmacro %}
+
+{% macro before(form_id) %}
+  <div id="ng-app" ng-app="ContactFormApp">
+    <div ng-controller="FormController">
+      <div ng-show="status == 'success'" class="alert alert-success">
+        Your form has been successfully submitted.
+      </div>
+      <form ng-hide="status == 'success'" name="form" role="form" novalidate ng-cloak>
+        {{hidden('form_id', form_id)}}
+{% endmacro %}
+
+{% macro hidden(name, value) %}
+  <input
+    type="hidden"
+    name="{{name}}"
+    ng-value="{{value}}"
+    ng-model="form_model['{{name}}']"
+    ng-init="form_model['{{name}}']='{{value}}'">
+{% endmacro %}
+
+{% macro after() %}
+      </form>
+    </div>
+  </div>
+{% endmacro %}
+
+{% macro checkbox(name, label, description, required, show) %}
+  {{_item_before(name, label, type, required, show)}}
+    {% set type = 'checkbox' %}
+    <div class="checkbox">
+      <label>
+        <input
+          type="{{type}}"
+          name="{{name}}"
+          ng-model="form_model['{{name}}']"
+          ng-change="updateItem(form['{{name}}'])"
+          {{requiredAttr(required, show)}} />
+        {{description}}
+      </label>
+    </div>
+  {{_item_after(name, label, type, required)}}
+{% endmacro %}
+
+{% macro input(name, display, type, required, show) %}
+  {% set label = display.label or display %}
+  {% set placeholder = display.placeholder or label %}
+  {% set pattern = '' %}
+
+  {% if type == "email" %}
+    {% set pattern = 'pattern=".*@.*\..*"' %}
+  {% endif %}
+
+  {{_item_before(name, display, type, required, show)}}
+    <input
+      type="{{type}}"
+      name="{{name}}"
+      class="form-control"
+      placeholder="{{placeholder}}"
+      ng-model="form_model['{{name}}']"
+      ng-blur="updateItem(form['{{name}}'])"
+      {{requiredAttr(required, show)}}
+      {{pattern|safe}}/>
+    <span
+      ng-show="errors['{{name}}']"
+      class="glyphicon glyphicon-remove form-control-feedback"
+      aria-hidden="true">
+    </span>
+  {{_item_after(name, display, type, required)}}
+{% endmacro %}
+
+{% macro multi(name, display, type, options, required, show) %}
+  {{_item_before(name, display, type, required, show)}}
+    {% set model_name = "form_model['" + name + "']" %}
+
+    {% for option in options %}
+      {% if option|checkIfArray %}
+        {% set value = option[0] %}
+        {% set text = option[1] %}
+       {% else  %}
+        {% set value = option %}
+        {% set text = option %}
+      {% endif %}
+
+      {% if type == 'checkbox' %}
+        {% set model_name = "form_model['" + name + "_checkbox_" + value.replace(' ', '_').toLowerCase + "']" %}
+        <div class="{{type}}">
+          <label>
+            <input
+              type="{{type}}"
+              name="{{name}}"
+              ng-model="{{model_name}}"
+              ng-click="updateItem(form['{{name}}'])"
+              value="{{value}}"
+              {{requiredAttr(required, show)}}>
+              {{text}}
+            </input>
+          </label>
+        </div>
+      {% endif %}
+
+      <div class="{{type}}">
+        <label>
+          <input
+            type="{{type}}"
+            ng-model="{{model_name}}"
+            value="{{value}}"
+            {{requiredAttr(required, show)}}>
+            {{text}}
+          </input>
+        </label>
+      </div>
+    {% endfor %}
+  {{_item_after(name, display, type, required)}}
+{% endmacro %}
+
+{% macro select(name, display, options, required, show, add_other_option) %}
+  {% set type="select" %}
+  {% if add_other_option %}
+    {% set options = options.concat('Other') %}
+  {% endif %}
+  {{_item_before(name, display, type, required, show)}}
+    <select
+      name="{{name}}"
+      class="form-control"
+      ng-model="form_model['{{name}}']"
+      ng-change="updateItem(form['{{name}}'])"
+      ng-options="option for option in ['{{ options|join("','") }}']"
+      ng-class="{'placeholder': !form_model['{{name}}']}"
+      {{requiredAttr(required, show)}}>
+      <option value="">Select {{display}}</option>
+    </select>
+  {{_item_after(name, display, type, required)}}
+
+  {% if add_other_option %}
+    {% set other_name = name + '_other' %}
+    {% set other_display = display + ' (other)' %}
+    {% if show %}
+      {% set other_show = "(" + show + ") && form_model['" + name + "'] == 'Other'" %}
+     {% else  %}
+      {% set other_show = "form_model['" + name + "'] == 'Other'" %}
+    {% endif %}
+    {{input(other_name, other_display, 'text', true, other_show)}}
+  {% endif %}
+{% endmacro %}
+
+{% macro submit(form_name) %}
+  {% import '_macros.njk' as macros %}
+
+  <div class="form-group has-feedback row" ng-class="{'has-error': errors['recaptcha']}">
+    <div class="col-xs-12">
+      <div
+        vc-recaptcha
+        class="recaptcha"
+        theme="'light'"
+        key="recaptchaModel.key"
+        on-success="recaptchaSuccess(response)">
+      </div>
+      <div
+        ng-show="errors['recaptcha']"
+        class="centered">
+        reCAPTCHA is required for submission
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="submit center-block" ng-switch="status">
+      <div ng-switch-when="error">
+        <div class="row">
+          <button
+            type="submit"
+            class="btn btn-lg btn-danger btn-block"
+            ng-click="submit(form_model)">
+            Not Sent
+          </button>
+        </div>
+        <div class="row">
+          <div class="has-error">
+            {{macros.ngCurly('serverError')}}
+          </div>
+        </div>
+      </div>
+      <div ng-switch-when="invalid" >
+        <div class="row">
+          <button
+            type="submit"
+            class="btn btn-lg btn-danger btn-block"
+            ng-click="submit(form_model)">
+            Not Sent
+          </button>
+        </div>
+        <div class="row">
+          <div class="has-error">
+            The form is invalid due to at least one invalid or missing field. Please fix and try again.
+          </div>
+        </div>
+      </div>
+      <button
+        ng-switch-when="submitting"
+        type="submit"
+        class="btn btn-lg btn-tnris btn-block"
+        ng-click="submit(form_model)">
+        Sending...
+      </button>
+      <button
+        ng-switch-when="success"
+        type="submit"
+        class="btn btn-lg btn-success btn-block"
+        ng-click="submit(form_model)"
+        disabled>
+        Your {{form_name}} has been sent.
+      </button>
+      <button
+        ng-switch-default
+        type="submit"
+        class="btn btn-lg btn-tnris btn-block"
+        ng-click="submit(form_model)">
+        Submit
+      </button>
+    </div>
+  </div>
+{% endmacro %}
+
+{% macro textarea(name, display, required, show) %}
+  {% set label = display.label or display %}
+  {% set placeholder = display.placeholder or label %}
+
+  {% set type="textarea" %}
+  {{_item_before(name, display, type, required, show)}}
+    <textarea
+      class="form-control"
+      name="{{name}}"
+      rows="4"
+      maxlength="500"
+      placeholder="{{placeholder}}"
+      ng-model="form_model['{{name}}']"
+      ng-blur="updateItem(form['{{name}}'])"
+      {{requiredAttr(required, show)}}>
+    </textarea>
+    <span
+      ng-show="errors['{{name}}']"
+      class="glyphicon glyphicon-remove form-control-feedback"
+      aria-hidden="true">
+    </span>
+  {{_item_after(name, display, type, required)}}
+{% endmacro %}
+
+{% macro uploadZip(name, display, required, show) %}
+  {% set type="file" %}
+  <div class="ie-all-hide" ng-hide="isUploadUnsupported">
+    {{_item_before(name, display, type, required, show)}}
+      <div ng-hide="isUploading">
+        <input type="file" ng-file-select ng-model="files"
+          ng-multiple="false" name="{{name}}" accept=".zip"
+          ng-file-change="uploadZipFile($files, $event)"
+          {{requiredAttr(required, show)}}>
+      </div>
+
+      <div class="row" ng-show="isUploading || uploadSuccess">
+        <div class="col-md-12">
+          <div progress-bar value="uploadProgress" type="progressBarType"></div>
+        </div>
+      </div>
+      <p class="text-success" ng-show="uploadSuccess">
+        File successfully uploaded.
+      </p>
+      <p class="text-danger" ng-show="uploadError" ng-bind="uploadErrorMessage">
+      </p>
+    {{_item_after(name, display, type, required)}}
+  </div>
+{% endmacro %}
+
+{% macro uploadFile(name, display, accept, required, show) %}
+  {% set type="file" %}
+  <div class="ie-all-hide" ng-hide="isUploadUnsupported">
+    {{_item_before(name, display, type, required, show)}}
+      <div ng-hide="isUploading">
+        <input type="file" ng-file-select ng-model="files"
+          ng-multiple="false" name="{{name}}" accept="{{accept}}"
+          ng-file-change="uploadFile($files, $event)"
+          {{requiredAttr(required, show)}}>
+      </div>
+
+      <div class="row" ng-show="isUploading || uploadSuccess">
+        <div class="col-md-12">
+          <div progress-bar value="uploadProgress" type="progressBarType"></div>
+        </div>
+      </div>
+      <p class="text-success" ng-show="uploadSuccess">
+        File successfully uploaded.
+      </p>
+      <p class="text-danger" ng-show="uploadError" ng-bind="uploadErrorMessage">
+      </p>
+    {{_item_after(name, display, type, required)}}
+  </div>
+{% endmacro %}
+
+{% macro uploadImage(name, display, required, show) %}
+  {% set type="file" %}
+  <div class="ie-all-hide" ng-hide="isUploadUnsupported">
+    {{_item_before(name, display, type, required, show)}}
+    <div ng-hide="isUploading">
+      <input type="file" ng-file-select ng-model="imageFiles"
+        ng-multiple="false" name="{{name}}" accept="image/*"
+        ng-file-change="uploadImageFile($files, $event)"
+        {{requiredAttr(required, show)}}>
+    </div>
+
+    <div class="row" ng-show="isUploading || uploadSuccess">
+      <div class="col-md-12">
+        <div progress-bar value="uploadProgress" type="progressBarType"></div>
+      </div>
+    </div>
+    <p class="text-success" ng-show="uploadSuccess">
+      Image successfully uploaded.
+    </p>
+    <p class="text-danger" ng-show="uploadError" ng-bind="uploadErrorMessage">
+    </p>
+    {{_item_after(name, display, type, required)}}
+  </div>
+{% endmacro %}
+
+{# reused input components #}
+{% macro industry() %}
+  {% set industries = [
+    'Agriculture',
+    'Cartography',
+    'Conservation',
+    'Construction',
+    'Consulting',
+    'Education',
+    'Emergency Management',
+    'Environmental',
+    'Forestry',
+    'Government',
+    'Insurance',
+    'Law Enforcement',
+    'Oil and Gas',
+    'Public Health',
+    'Retail',
+    'Utilities',
+    'Urban Planning'
+  ] %}
+  {{select("Industry", "Industry", industries, true, true, true)}}
+{% endmacro %}
+
+{% macro software_inputs(show_software) %}
+  {{select(
+      "Software",
+      "Software",
+      [
+        'ArcMap',
+        'ENVI',
+        'ERDAS',
+        'Global Mapper',
+        'Integraph',
+        'LP360',
+        'Microstation',
+        'PostGIS',
+        'QGIS'
+      ],
+      true,
+      show_software,
+      true
+  )}}
+
+  {{input(
+      "Software Version",
+      "Software Version",
+      "text",
+      true,
+      show_software
+  )}}
+{% endmacro %}
+
+{# internal macros - these are only intended to be used by other macros in this file #}
+{% macro requiredAttr(required, show) %}
+  {% if show == undefined %}
+    {% set requiredStr = required %}
+   {% else  %}
+    {% set requiredStr = show %}
+  {% endif %}
+
+  {% if required %}ng-required="{{requiredStr}}"{% endif %}
+{% endmacro %}
+
+{% macro _item_before(name, display, type, required, show) %}
+  {% set label = display.label or display %}
+
+  <div
+    class="form-group has-feedback"
+    ng-class="{'has-error': errors['{{name}}']}"
+    {% if show %}ng-show="{{show|safe}}"{% endif %}>
+    <label
+      for="{{name}}"
+      class="control-label">
+      {{label}} {% if required %}
+      <span ng-show="{{required}}" class="required-symbol">*</span>{% endif %} </label>
+    {% if type == 'radio' or type == 'checkbox' %}
+      {{errors_and_help(name, display, type, required, 'error-' + type)}}
+    {% endif %}
+{% endmacro %}
+
+{% macro _item_after(name, display, type, required) %}
+  {% if type != 'radio' and type != 'checkbox' %}
+    {{errors_and_help(name, display, required, type, 'pull-right')}}
+  {% endif %}
+  </div>
+{% endmacro %}
+
+{% macro errors_and_help(name, display, type, required, error_side) %}
+  {% set label = display.label or display %}
+  <div ng-show="errors['{{name}}']" class="error{% if error_side %} {{error_side}}{% endif %}">
+    {% if required %}
+      <div ng-show="form['{{name}}'].$error.required">{{label}} is required.</div>
+    {% endif %}
+    <div
+      ng-show="form['{{name}}'].$error.{{type}} || form['{{name}}'].$error.pattern">
+      {{label}} must be valid.
+    </div>
+  </div>
+  {% if display.help %}
+    <div id="help-block-{{name}}" class="help-block">{{display.help}}</div>
+  {% endif %}
+{% endmacro %}

@@ -1,0 +1,448 @@
+@import "variables";
+
+
+#_2015-forum-container {
+
+  .well {
+    margin-top: 30px;
+  }
+
+  .keynote-feature {
+    margin-top: 55px;
+  }
+
+  ._2015-forum-intro {
+    background: url('https://tnris-org-static.s3.amazonaws.com/images/recap_bg.jpg') right 0 no-repeat $forum2015blue;
+    color: white;
+    font-size: 20px;
+    min-height: 150px;
+    padding: 30px 0;
+
+    .lead {
+      font-size: 28px;
+      margin-bottom: 0;
+      text-shadow: 1px 1px 1px $darkgrey;
+      max-width: 300px;
+    }
+
+    .btn-lg {
+      font-size: 16px;
+
+      @media (min-width: $screen-sm) {
+        font-size: 20px;
+         min-width: 300px;
+      }
+    }
+  }
+
+  h2 {
+    color: $forum2015blue;
+  }
+
+  .training-list {
+
+    .forum-course {
+    border-bottom: 1px solid $midlightgrey;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+
+  .forum-training-header {
+    background: $white;
+    margin-bottom: 10px;
+
+      i {
+        float: left;
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+      }
+
+      h3 {
+        margin: 0;
+      }
+    }
+  }
+
+ .container-fluid.full {
+    margin-bottom: 0;
+
+      img.banner {
+        min-width: 100%;
+        display: block;
+      }
+
+      .forum-logo-container {
+        position: relative;
+        top: 0;
+    }
+
+     .top-container {
+       margin-bottom: 0;
+
+        .top-header h2 {
+          color: $white;
+        }
+     }
+  }
+}
+
+h2.logo-2015 {
+  background: url('https://tnris-org-static.s3.amazonaws.com/images/logo_white_lg.png')  0 0 no-repeat;
+  display: block;
+  height: 126px;
+  text-indent: -9999px;
+  width: 607px;
+}
+
+.forum-map {
+  background: $forum2015blue;
+  color: white;
+  padding: 20px 0;
+
+  h2 {
+    margin-top: 0;
+    color: $midgrey !important;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  iframe {
+    margin: 0;
+
+    @media (min-width: $screen-sm) {
+      margin: -20px 0;
+    }
+  }
+}
+
+.forum-bar {
+  background: $forum2015blue;
+  font-size: 20px;
+  margin-top: 30px;
+
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover {
+    background-color: lighten($forum2015blue, 5%);
+  }
+}
+
+.forum-sponsors {
+  background: $lightgrey;
+  padding-bottom: 40px;
+
+  img {
+    margin-right: 30px;
+  }
+
+  .sponsors-platinum {
+    display: block;
+    width: 100%;
+
+    @media (min-width: $screen-sm){
+      overflow: auto;
+    }
+
+    img {
+    max-width: 300px;
+
+      @media (min-width: $screen-sm){
+        float: left;
+      }
+
+      @media (min-width: $screen-md) {
+        max-width: 260px;
+      }
+      @media (min-width: $screen-lg) {
+        max-width: 260px;
+      }
+    }
+  }
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+  hr {
+    margin: 10px 0;
+  }
+}
+
+
+img.keynote-portrait {
+   width: 125px;
+ }
+
+.agenda-bg {
+  background: $lightgrey;
+}
+
+.agenda-full {
+  .row {
+    margin: 0;
+    padding: 15px 0;
+
+    h3 {
+      color: $forum2015blue;
+      margin-top: 0;
+    }
+
+    .col-sm-3 {
+        color: $forum2015blue;
+        font-size: 17px;
+
+      @media (min-width: $screen-sm) {
+        background: none;
+        color: $forum2015blue;
+      }
+    }
+  }
+}
+
+.agenda-track {
+  margin-bottom: 15px;
+
+  & + & {
+    margin-bottom: 0;
+  }
+
+  .agenda-track-item.media:last-child {
+    border-bottom: none;
+
+      margin-bottom: 0;
+      padding-bottom: 0;
+  }
+
+  .media {
+    border-bottom: 1px solid $midgrey;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+
+    &.starred button.star-btn {
+      color: $forum2015blue;
+    }
+
+    small {
+    color: $middarkgrey;
+    }
+
+    &.starred small {
+      color: $forum2015blue;
+    }
+  }
+
+  &.has-stars .media:not(.starred) {
+    color: $middishgrey;
+
+    a {
+      color: $fadedblue;
+    }
+
+  }
+
+  button.star-btn {
+    background: 0;
+    border: 0;
+    color: $midgrey;
+    font-size: 25px;
+    padding: 0;
+    margin: 2px;
+
+    &:hover {
+      color: $middarkgrey;
+    }
+  }
+}
+
+.lead-forum {
+  font-size: 16px;
+  font-weight: 300;
+  text-shadow: 2px 2px 1px $white;
+
+  @media (min-width: $screen-sm) {
+    font-size: 21px;
+  }
+}
+
+.forum-training-location {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+// front page keynotes
+
+.keynote-feature {
+  margin-bottom: 20px;
+
+  .col-sm-4 {
+    padding: 0 10px;
+  }
+
+  .col-xs-12 {
+    margin-top: 15px;
+    padding: 0 10px;
+  }
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+
+    img.img-responsive {
+
+      @media (max-width: $screen-md) {
+          max-width: 50%;
+        }
+
+      &:hover {
+        box-shadow: 0 0 3px $forum2015blue;
+      }
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 1em;
+    margin: 0;
+
+    small {
+    line-height: .5em;
+
+    }
+  }
+}
+
+.registration-box {
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.well.personalize-agenda {
+  background: $bsinfoblue;
+  overflow: auto;
+
+  p {
+    color: $forum2015blue;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  .checkbox {
+    margin-top: 5px;
+    width: auto;
+
+    label {
+      font-size: 20px;
+      padding-left: 0;
+    }
+
+    .show-starred-check[disabled]+label {
+      color: $middarkgrey;
+    }
+  }
+}
+
+
+.dont-break {
+   @media (max-width: $screen-sm) {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    }
+}
+
+.well-holl {
+  background: url('https://tnris-org-static.s3.amazonaws.com/images/holl-bg.jpg') 0 0 !important;
+}
+
+.modal-header.abstract {
+  background: $forum2015blue;
+  color: white;
+  padding-top: 10px;
+
+  h4 {
+    font-size: 22px;
+  }
+
+  .close {
+    color: $white;
+    opacity: .5;
+  }
+}
+
+.forum-thin-promo {
+  border-bottom: 5px solid $forum2015blue;
+  display: block;
+  margin-top: -5px;
+  margin-bottom: 15px;
+  max-width: 100%;
+  min-height: 150px;
+  overflow: hidden;
+
+  img {
+    min-height: 150px;
+    position: relative;
+    min-width: 100%;
+
+    @media (min-width: $screen-sm) {
+      margin-left: -40%;
+    }
+    @media (min-width: $screen-md) {
+      margin-left: -25%;
+    }
+    @media (min-width: $screen-lg) {
+      margin-left: -20%;
+    }
+    @media (min-width: 1700px) {
+      margin-left: 0;
+    }
+  }
+}
+
+#stratmap .forum-thin-promo,
+#training .forum-thin-promo,
+.data-spotlight .forum-thin-promo,
+#_2015-statewide-orthoimagery-project .forum-thin-promo {
+  margin-bottom: 5px;
+}
+
+#index .forum-thin-promo,
+#_2015-gis-forum .forum-thin-promo,
+#_2015-gis-forum-agenda .forum-thin-promo,
+#_2015-gis-forum-training .forum-thin-promo,
+#_2015-gis-forum-poster-gallery .forum-thin-promo,
+#_2015-gis-forum-sponsors-and-exhibitors .forum-thin-promo,
+#_2015-gis-forum-job-board .forum-thin-promo,
+._2015-forum-training .forum-thin-promo {
+  display: none;
+}
+
+.closed-reg {
+  float: right;
+  font-size: 14px;
+  width: 30%;
+
+  @media (min-width: $screen-sm) {
+    font-size: 18px;
+  }
+}
+
+#news-2015-11-03-forum-thank-you-photo-recap .blog-main {
+  p {
+    margin-bottom: 10px;
+  }
+
+  img {
+    margin-top: 15px;
+    max-width: 100%;
+  }
+}

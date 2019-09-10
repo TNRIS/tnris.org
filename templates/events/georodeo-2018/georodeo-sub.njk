@@ -1,0 +1,60 @@
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+
+{% block styles %}
+  {{ super() }}
+
+  {{form.styles()}}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  {{form.scripts()}}
+{% endblock %}
+
+{% block topcontent %}
+<div class="georodeo-masthead gr-top-2018 container-fluid full">
+    <div class="top-container">
+        <div class="sr-only">
+            <h1>{{title}}</h1>
+            {{abstract}}
+        </div>
+          <a href="/georodeo">
+            <img class="main hidden-sm hidden-xs" src="{{mainimage}}" alt="Masthead for {{title}}">
+            <img class="main hidden-md hidden-lg" src="{{mainimagesm}}" alt="Masthead for {{title}}">
+          </a>
+      <div class=" sr-only ">
+          <div class="container">
+                    May 4, 2018 * Austin, TX
+                  </div>
+        </div>
+    </div>
+</div>
+<div id="intro" class="georodeo-intro gr-2018">
+
+    <div class="container">
+
+            {% include "events/georodeo-2018/nav.njk" %}
+        <div class="row">
+          <div class="col-md-8">
+                <h1>{{title}}</h1>
+              <p class="lead">
+                {{abstract}}
+              </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block contentsOne %}
+<div id="contentMain" class="container">
+<div class="row">
+    <div class="col-md-8">
+        {{ contents|safe }}
+    </div>
+</div>
+</div>
+{% endblock %}

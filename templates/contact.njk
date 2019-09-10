@@ -1,0 +1,110 @@
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+{% block styles %}
+  {{ super() }}
+  {{ form.styles() }}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  {{ form.scripts() }}
+{% endblock %}
+
+{% block contentsOne %}
+  <div>
+    <iframe width="100%" height="420" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/ee67fbf1-5028-4d82-a082-b4bcfd626ee0/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+    <div id="contentMain" class="container">
+      <div class="row">
+      	<div class="col-md-8">
+      		<h1>{{title}}</h1>
+      		{% if abstract %}<div class="mainBlurb">{{abstract}}</div>{% endif %}
+      	</div>
+
+      	{% block sidebarLeft %}
+      	{% endblock %}
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-md-7">
+          <div class="hidden-lg hidden-md">
+             <strong>TNRIS Offices</strong>
+             <address>
+                1700 N. Congress, Room B-40<br>
+                Austin, Texas, 78701
+              </address>
+              <p><i class="glyphicon glyphicon-earphone"></i> <a href="tel:5124638337">512-463-8337</a></p>
+              <p>
+                RDC Office Hours:<br />
+                Monday-Friday, 8am-4pm<br />
+                By Appointment Only<br />
+              </p>
+          </div>
+
+          {{contents|safe}}
+
+          <section>
+            {{form.before("contact")}}
+            {{form.multi(
+              "Reason",
+              "Reason for contacting",
+              "radio",
+              ['General Question or Comment', 'Help with Data', 'Order Map'],
+              false
+            )}}
+
+            <div ng-hide="!form_model['Reason']">
+              <div class="form-group form-callout bg-warning" ng-show="form_model['Reason'] == 'Order Map'">
+                <p>
+                  Please use this <a href="/order-map">order form</a> to order a map or request map pricing information.
+                </p>
+              </div>
+
+              <div class="form-group form-callout bg-warning" ng-show="form_model['Reason'] == 'Help with Data'">
+                <p>
+                  Please open the dataset in the <a href="https://data.tnris.org">DataHub</a> and click the 'Contact' tab. Then complete the form to submit a data help request.
+                </p>
+                <p>
+                  Browse, download, order, and inquire about data within the <a href="https://data.tnris.org">DataHub</a>.
+                </p>
+              </div>
+
+              <div ng-show="form_model['Reason'] == 'General Question or Comment'">
+                {{form.textarea(
+                    "Question or Comments",
+                    "Question / Comments",
+                    true,
+                    true
+                )}}
+
+                {{form.input("Name", "Name", "text", true)}}
+                {{form.input("Email", "Email address", "email", true)}}
+                {{form.input("Phone", "Phone number", "tel", false)}}
+                {{form.input("Address", "Address", "text", true)}}
+                {{form.input("Organization", "Organization", "text", false)}}
+                {{form.industry()}}
+
+                {{form.submit("Message")}}
+              </div>
+            </div>
+            {{form.after()}}
+          </section>
+        </div>
+        <div class="col-xs-12 col-md-5 hidden-sm hidden-xs">
+            <h3>TNRIS Offices</h3>
+            <address>
+              1700 N. Congress, Room B-40<br>
+              Austin, Texas, 78701
+            </address>
+            <p><i class="glyphicon glyphicon-earphone"></i> <a href="tel:5124638337">512-463-8337</a></p>
+            <p>
+              RDC Office Hours:<br />
+              Monday-Friday, 8am-4pm<br />
+              By Appointment Only<br />
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

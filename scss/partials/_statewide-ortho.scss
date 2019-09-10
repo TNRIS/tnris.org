@@ -1,0 +1,885 @@
+@import "variables";
+
+
+#_2015-statewide-orthoimagery-project {
+  display: visible;
+
+  hr {
+    border: 0;
+    clear: both;
+    height: 1px;
+  }
+
+  h1 {
+    font-size: 36px;
+
+    @media (min-width: $screen-sm){
+      font-size: 50px;
+    }
+
+    @media (min-width: $screen-md){
+      font-size: 45px;
+    }
+  }
+
+  .twentytwenty, .twenty-twenty-container, .twentytwenty-wrapper {
+    min-height: 511px;
+  }
+
+// Image expand //
+// .img-responsive.img-expand {
+//   @media (min-width: $screen-md) {
+//     max-width: none;
+//   }
+// }
+
+// Custom Masthead title BG //
+  .container-fluid.full {
+    margin-bottom: 0;
+
+    .top-container {
+      min-height: 300px;
+      overflow: hidden;
+
+      @media (min-width: $screen-sm) {
+        min-height: 350px;
+      }
+
+      .top-header {
+        background: none;
+        background-image: linear-gradient(to top, rgba(50, 50, 50, 1),  rgba(255, 255, 255, 0));
+      }
+    }
+
+    img.logo {
+      min-width: 0 !important;
+    }
+
+    img.orthobanner {
+      max-height: 300px;
+      margin-left: -250px;
+
+      @media (min-width: $screen-sm) {
+        margin-left: -200px;
+        max-height: 500px;
+        min-width: 100%;
+      }
+
+      @media (min-width: $screen-md) {
+        margin-left: 0;
+        max-height: 500px;
+      }
+    }
+
+    a.btn {
+      text-shadow: none;
+      margin-bottom: 35px;
+    }
+  }
+
+  .blog-sidebar {
+    date {
+      text-transform: uppercase;
+    }
+  }
+
+  .modal-dialog {
+
+    @media (min-width: $screen-md) {
+      width: 800px;
+    }
+  }
+}
+
+
+#orthofront {
+  position: relative;
+
+  img {
+    position: relative;
+  }
+
+  .orthobox {
+    left: 30%;
+    position: absolute;
+    top: 3%;
+    width: 68%;
+
+    h2 {
+      color: $darkgrey;
+      font-size: 25px;
+      font-weight: 300;
+      margin: 0;
+
+      strong {
+        font-size: 30px;
+        font-weight: 500;
+      }
+
+      @media (min-width: $screen-xs) {
+        font-size: 30px;
+
+        strong {
+          font-size: 35px;
+        }
+      }
+
+      @media (min-width: $screen-sm) {
+        font-size: 35px;
+
+        strong {
+          font-size: 43px;
+        }
+      }
+
+      @media (min-width: $screen-lg) {
+        font-size: 50px;
+        line-height: 45px;
+
+        strong {
+          font-size: 60px;
+        }
+      }
+    }
+
+    p {
+      font-family: $pragmatica;
+      font-size: 15px;
+      font-weight: 400;
+      padding-left: 5px;
+      padding-right: 30%;
+
+      @media (min-width: $screen-lg) {
+        font-size: 17px;
+      }
+    }
+
+    a {
+      &.btn {
+        @media (min-width: $screen-sm) {
+          position: relative;
+          margin-right: 5%;
+          padding: 10px 15px;
+          font-size: 18px;
+        }
+
+        &.btn-black {
+          background: $darkgrey;
+          border: 1px solid $black;
+          border-radius: 4px;
+          box-shadow: inset $black 0 0 7px;
+          color: $white;
+          font-family: $pragmatica;
+
+          &:hover {
+            background: $black;
+            color: $midgrey;
+          }
+        }
+      }
+    }
+  }
+}
+
+#allUpdates .article {
+  border-bottom: 1px solid $lightergrey;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+ul.dash {
+    list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+.ortho-top {
+  background: $lightgrey;
+  padding-bottom: 20px;
+
+  h3 {
+    font-size: 22px;
+  }
+
+  hr {
+    background-color: $white;
+  }
+
+  date {
+    text-transform: uppercase;
+  }
+}
+
+// updates header //
+// .updates-header {
+//   background: $lightgrey;
+//   margin: 0;
+//   padding: 10px 0;
+
+//   h2 {
+//     font-weight: 100;
+//     margin: 0;
+//     padding: 0;
+//   }
+// }
+
+h2.updates-header {
+  font-size: 30px;
+  font-weight: 100;
+
+  strong {
+    font-size: 40px;
+  }
+}
+
+// custom bar graph //
+.data-progress {
+
+  progress,
+  progress[role] {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: none;
+    background-size: auto;
+    height: 40px;
+    width: 100%;
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+
+  p {
+    margin-left: 10px;
+  }
+}
+
+.data-progress-final {
+
+  progress,
+  progress[role] {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: none;
+    background-size: auto;
+    height: 40px;
+    width: 100%;
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+
+  p {
+    margin-left: 10px;
+  }
+}
+
+// bar gradients
+.level-five::-webkit-progress-value {
+    background: linear-gradient(to right, $error, #f44, $orange, $yield, $yellowgreen, $successgreen);
+}
+
+.level-five::-moz-progress-bar {
+    background: -moz-linear-gradient(to right, $error, #f44, $orange, $yield, $yellowgreen, $successgreen);
+}
+
+
+.level-four::-webkit-progress-value {
+    background: linear-gradient(to right, $error, #f44, $orange, $yield, $yellowgreen);
+}
+
+.level-four::-moz-progress-bar {
+    background: -moz-linear-gradient(to right, $error, #f44, $orange, $yield, $yellowgreen);
+}
+
+
+.level-three::-webkit-progress-value {
+    background-image:
+     -webkit-linear-gradient(left, $error, #f44, $yield);
+}
+
+.level-three::-moz-progress-bar {
+    background: -moz-linear-gradient(left, $error, #f44, $yield);
+}
+
+.level-two::-webkit-progress-value {
+    background-image:
+     -webkit-linear-gradient(left, $error, #f44, $orange);
+
+}
+
+.level-two::-moz-progress-bar {
+    background: -moz-linear-gradient(left, $error, #f44, $orange);
+
+}
+
+.level-one::-webkit-progress-value {
+    background-image:
+     -webkit-linear-gradient(left, $error, #f44);
+}
+
+.level-one::-moz-progress-bar {
+    background-image:
+     -moz-webkit-linear-gradient(left, $error, #f44);
+}
+
+
+.level-orange::-webkit-progress-value {
+    background-image:
+     -webkit-linear-gradient(left, #ff8e52, #ff8e52);
+}
+
+.level-orange::-moz-progress-bar {
+    background-image:
+     -moz-webkit-linear-gradient(left, #ff8e52, #ff8e52);
+}
+
+.status {
+  margin-bottom: 1em;
+  position: relative;
+
+  .amount {
+    float: right;
+    font-size: 1.7em;
+    margin-top: 7px;
+    position: absolute;
+    left: 10px;
+    top: 0;
+  }
+
+  ::-webkit-progress-value {
+    -webkit-animation: bar-fill 2s;
+    width: 0px;
+  }
+
+  .fa-plane {
+    color: $canary;
+    font-size: 30px;
+    left: 90%;
+    position: absolute;
+    text-shadow: -1px -1px 1px $orange;
+    top: 7px;
+
+    @media (min-width: $screen-sm) {
+      left: 95%;
+    }
+    }
+
+    .fa-check {
+    color: $canary;
+    font-size: 30px;
+    left: 90%;
+    position: absolute;
+    text-shadow: -1px -1px 1px $orange;
+    top: 7px;
+
+      @media (min-width: $screen-sm) {
+        left: 95%;
+        }
+    }
+}
+
+// Color Level Classes //
+.level-zero {
+  color: $error;
+
+  &.indent {
+    padding-left: 7%;
+  }
+}
+
+.level-one {
+  color: $canary;
+}
+
+
+// Intro section
+
+.ortho-intro {
+  background: $darkgrey;
+  color: $white;
+  padding-bottom: 60px;
+
+  @media (min-width: $screen-sm) {
+    background: url(https://tnris-org-static.s3.amazonaws.com/images/pivotpoints_bg.jpg) right bottom repeat-y $darkgrey;
+  }
+
+  .lead {
+    text-shadow: 0 0 1px $darkgrey;
+  }
+
+  h2 {
+    color: $canary;
+    font-weight: 300;
+    font-size: 40px;
+    text-shadow: 0 0 1px solid $darkgrey;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
+
+  a {
+    color: $orange;
+
+    &:hover {
+      color: $yield;
+    }
+  }
+
+  figure {
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+    img {
+      border: 1px solid $midgrey;
+      max-height: 250px;
+    }
+
+    h3 {
+      font-weight: 300;
+      margin-bottom: 5px;
+    }
+  }
+
+  .modal-header {
+    h3 {
+      color: $darkgrey;
+    }
+  }
+}
+
+.bar {
+  background:#eee;
+  height: 4px;
+  top: 79px;
+  margin-left: 9%;
+  margin-right: 17%;
+  position: absolute;
+  width: 75%;
+
+  @media (min-width: $screen-md) {
+    top: 57px;
+  }
+}
+
+.bar-vertical {
+    background:#eee;
+    height: 380px;
+    top: 50px;
+    position: absolute;
+    right: 50%;
+    width: 4px;
+
+    @media (min-width: $screen-sm) {
+      display: none;
+    }
+}
+/* Timeline */
+.timeline {
+  position: relative;
+  margin-bottom: 30px;
+
+  @media (min-width: $screen-sm) {
+    height: $timelineheight;
+
+    div.col-sm-2, div.col-sm-4 {
+      height: $timelineheight;
+    }
+  }
+
+  @media (min-width: $screen-md) {
+    height: $timelineheightsm;
+
+    div.col-sm-2, div.col-sm-4 {
+      height: $timelineheightsm;
+    }
+  }
+
+  .phase {
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px $darkgrey;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 5px 10px;
+    text-align: center;
+    width: 80%;
+
+    &.no-bottom {
+      margin-bottom: 0;
+    }
+
+    strong {
+      font-size: 20px;
+    }
+
+    @media (min-width: $screen-sm) and (max-width: $screen-md) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-sm) {
+      bottom: 0;
+      margin-bottom: 0;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      height: 90px;
+
+      &:after {
+        content:'';
+        display: block;
+        background: $midgrey;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        border: 2px solid $middarkgrey;
+        position: absolute;
+        left: 50%;
+        top: -40px;
+        margin-left: -10px;
+      }
+
+      &:before {
+        content:'';
+        display: block;
+        background: #eee;
+        width: 5px;
+        height: 20px;
+        position: absolute;
+        left: 50%;
+        top: -20px;
+        margin-left: -2px;
+      }
+    }
+
+    @media (min-width: $screen-md) {
+      height: 70px;
+    }
+  }
+
+  .phase-1 {
+    background: $infoblue;
+  }
+
+  .phase-2 {
+    background: $orange;
+  }
+  .phase-3 {
+    background: $successgreen;
+  }
+
+  .timeframe {
+    background: $darkgrey;
+    border-radius: 20px;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-align: center;
+    text-shadow: 0 0 5px $black;
+
+     h4 {
+      margin: 0;
+    }
+
+    @media (min-width: $screen-sm) {
+      background: none;
+      height: 63px;
+      margin-bottom: 0;
+      position: absolute;
+      text-shadow: 0 0 1px $black;
+      top: 0;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+
+      h4.sticky {
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+      }
+    }
+    @media (min-width: $screen-md) {
+      height: 40px;
+    }
+  }
+}
+
+//Buy up image
+
+.buy-up {
+  background: $lightgrey;
+  border: 1px solid $midgrey;
+  border-radius: 5px;
+  float: right;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  width: 200px;
+
+  h4 {
+    margin: 0;
+    float: left;
+    width: 50%;
+
+    @media (min-width: $screen-md) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  img {
+    width: 50%;
+
+    @media (min-width: $screen-md) {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: $screen-md) {
+    float: none;
+    margin-right: -290px;
+    margin-top: -10px;
+    position: absolute;
+    right: 0;
+    width: 200px;
+  }
+
+  @media (min-width: $screen-lg) {
+    margin-top: -26px;
+  }
+
+  .glyphicon-arrow-up {
+    bottom: 0;
+    color: $infoblue;
+    font-size: 40px;
+    position: absolute;
+    right: 50%;
+    width: 40px;
+  }
+}
+
+// contributor info-graphic
+.contributor-box {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px $middarkgrey;
+  color: $white;
+  float: left;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $screen-md) {
+    font-size: 28px;
+  }
+}
+
+.base-collection {
+  margin-bottom: 70px;
+
+  @media (min-width: $screen-md) {
+    width: 930px;
+  }
+
+  @media (min-width: $screen-lg) {
+    width: 1030px;
+  }
+
+  .glyphicon {
+    color: $successgreen;
+    display: block;
+    font-size: 40px;
+    margin: 0 auto;
+    width: 40px;
+  }
+
+  .contributor-box {
+    background: $successgreen;
+  }
+}
+
+.buy-ups  {
+  margin-bottom: 70px;
+
+  .glyphicon {
+    color: $infoblue;
+    display: block;
+    font-size: 40px;
+    margin: 0 auto;
+    width: 40px;
+  }
+
+  .partner-container {
+    @media (min-width: $screen-md) {
+      width: 700px;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 840px;
+    }
+  }
+
+  .contributor-box {
+    background: $infoblue;
+
+    @media (min-width: $screen-md) {
+      width: 960px;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 1060px;
+    }
+  }
+
+  @media (max-width: $screen-md) {
+    clear: both;
+  }
+}
+
+.partner {
+  border: 1px solid $midgrey;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $screen-md) {
+  }
+
+  &:hover {
+    border-color: $tnrisblue;
+  }
+
+  @media (min-width: $screen-sm){
+    min-height: 200px;
+  }
+
+  @media (min-width: $screen-md){
+    min-height: 200px;
+  }
+
+  @media (min-width: $screen-lg){
+    min-height: 180px;
+  }
+}
+
+.qc-box {
+  background: url(https://tnris-org-static.s3.amazonaws.com/images/qc_bg.jpg) 0 0 no-repeat $darkgrey;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 125px;
+  position: relative;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  .green-check {
+    position: absolute;
+    left: 25px;
+    top: 27%;
+  }
+}
+
+#_2015-ortho-qc {
+  .img-circle {
+    border: 7px solid $yellowgreen;
+    max-width: 200px;
+  }
+}
+
+
+// year in review article
+
+.preview-thumb {
+  float: left;
+  margin-right: 10%;
+  width: 40%;
+}
+
+// year in review front
+h2.statewide-title-front {
+  bottom: 0;
+  color: $white;
+  margin: 0;
+  padding: 30px;
+  padding-bottom: 15px;
+  position: absolute;
+  text-shadow: 0 0 4px black;
+  width: 100%;
+
+  background-image: linear-gradient(to top, $darkgrey, transparent);
+
+  @media (min-width: $screen-md) {
+    font-size: 45px;
+  }
+
+  small {
+    clear: both;
+    color: $white;
+    display: block;
+    font-family: $adelle;
+    font-weight: normal;
+  }
+}
+
+#news-2015-12-10-year-in-review-2015-statewide-orthoimagery-project {
+
+  p {
+    margin: 15px 0;
+
+    &.lead {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  .container-fluid.full .top-container .top-header {
+    background: 0;
+    background-image: linear-gradient(to top, $darkgrey, transparent);
+  }
+}
+
+// esri logo
+.esri-replace-md {
+    background: url(https://tnris-org-static.s3.amazonaws.com/images/esri_web_md.png) 0 0 no-repeat;
+  display: inline-block;
+  height: 74px;
+  text-indent: -9999px;
+  vertical-align: text-bottom;
+  width: 150px;
+}
+
+.esri-replace-sm {
+  background: url(https://tnris-org-static.s3.amazonaws.com/images/esri_logo_sm.png) 0 0 no-repeat;
+  display: inline-block;
+  height: 38px;
+  text-indent: -9999px;
+  vertical-align: text-bottom;
+  width: 100px;
+}

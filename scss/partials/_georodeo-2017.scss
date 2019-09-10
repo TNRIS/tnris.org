@@ -1,0 +1,26 @@
+@import "variables";
+
+.georodeo-masthead.gr-top-2017 {
+  background: url('https://tnris-org-static.s3.amazonaws.com/images/sky_bg.jpg') 0 0 no-repeat;
+  background-size: cover;
+  margin-top: -5px;
+}
+
+.navbar.georodeo-2017 {
+  background: $danger;
+  border-color: $dangeroutline;
+  font-family: $adelle;
+
+  .active a {
+    background: $dangeroutline !important;
+  }
+}
+
+.georodeo-intro.gr-2017 {
+    h2, h3, h4 {
+      color: $danger;
+    }
+
+    img.basic-sponsor {
+      max-width: 70%;}
+}

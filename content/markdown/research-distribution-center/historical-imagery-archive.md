@@ -1,0 +1,97 @@
+---
+layout: rdc/rdc-sub.njk
+title: Historical Imagery Archive
+mainimage: https://tnris-org-static.s3.amazonaws.com/images/aerial_index_banner.jpg
+abstract: Our archive consists of over 1,000,000 frames with dates as far back as the 1920s.
+---
+<p class="lead">
+    The Historical Imagery Archive maintained by TNRIS is one of our most used and important data collections. It is comprised of over 1 million frames of photos covering all parts of Texas from dates as far back as the 1920s
+</p>
+<p class="lead">
+    The RDC is charged with preserving this collection, distributing it to the public, and continuing with the large task of digitizing the frames.
+</p>
+<h2>Acquiring Agencies</h2>
+<p>The following are the collections we maintain according to the original acquiring agencies.</p>
+<div class="acquiring-agency">
+    <h3>United States Geological Survey</h3>
+    <a href="https://tnris-org-static.s3.amazonaws.com/images/usgs_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="United States Geological Survey (USGS)">
+        <img class="thumbnail pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/usgs_th.jpg">
+    </a>
+    <ul class="list-clean">
+        <li><strong>Media Type:</strong> Black and White, Color, and Color Infrared prints</li>
+        <li><strong>General Scales:</strong> 1:3000 – 1:125000</li>
+        <li>TNRIS houses extensive United States Geological Survey (USGS) collections encompassing the state of Texas.  Dates of collections span from the early 1930s to the late 2000s.</li>
+        <li><strong>About the USGS:</strong><br> The Aerial Photography Single Frame Records collection is a large and diverse group of imagery acquired by federal organizations from 1937 to present.  The USGS, one of the participating federal organizations, houses it’s historical imagery at the USGS Long Term Archive (LTA) at the National Center for Earth Resources Observations and Sciences (EROS) in Sioux Falls, SD.</li>
+    </ul>
+</div>
+<div class="acquiring-agency">
+    <h3>Texas General Land Office</h3>
+    <a href="https://tnris-org-static.s3.amazonaws.com/images/glo_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Texas General Land Office (GLO)">
+        <img class="thumbnail pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/glo_th.jpg">
+    </a>
+    <ul class="list-clean">
+        <li><strong>Media Type:</strong> Black and White, Color Infrared, Natural Color prints</li>
+        <li><strong>General Scales:</strong> 1:3000</li>
+        <li>TNRIS houses collections from the Texas General Land Office (GLO) from the early 1970s to the 1980s.  The majority of the collections archived at TNRIS are of the Texas coast, neighboring cities and communities, and of mining sites owned by the GLO in west Texas.</li>
+        <li><strong>About the GLO:</strong><br>The GLO was the first Texas public agency established in 1836 responsible for managing lands and mineral rights owned by the state. The agency has historical imagery collections for Texas from the 1930s to present.</li>
+    </ul>
+</div>
+<div class="acquiring-agency">
+    <h3>Army Map Service</h3>
+    <a href="https://tnris-org-static.s3.amazonaws.com/images/ams_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Army Map Service (AMS)">
+        <img class="thumbnail pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/ams_th.jpg">
+    </a>
+    <ul class="list-clean">
+        <li><strong>Media Type:</strong> Black and White prints </li>
+        <li><strong>General Scale: </strong>1:60000</li>
+        <li>TNRIS houses extensive Army Map Service (AMS) high altitude collections of Texas from the late 1940s to mid 1950s.</li>
+        <li><strong>About the AMS:</strong><br>The AMS of the U.S. Army Corps of Engineers was the premier map making agency of the U.S. Department of Defense from 1941-1968.  The major task of the AMS was the compilation, publication, and distribution of aerial imagery, military topographic maps, and related products required by the Armed Forces of the United States.</li>
+    </ul>
+</div>
+<div class="acquiring-agency">
+    <h3>Texas Department of Transportation</h3>
+    <a href="https://tnris-org-static.s3.amazonaws.com/images/txdot_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Texas Department of Transportation (TXDOT)">
+        <img class="thumbnail pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/txdot_th.jpg">
+    </a>
+    <ul class="list-clean">
+        <li><strong>Media Type:</strong> Black and White prints. Line Indexes also available for most counties</li>
+        <li><strong>General scale:</strong> 1:24000</li>
+        <li>Texas Department of Transportation's (TXDOT) aerial film archives include high altitude block-area stereo coverage of most of the state's urban counties and some rural areas. The earliest flight was made in 1956. The majority of the urban areas were first flown in the late 1970s and early 1980s.</li>
+        <li><strong>About TxDOT:</strong><br>TxDOT is Texas state agency responsible for construction and maintenance of the state’s immense highway system.  It also oversees aviation, rail, and public transportation systems in the state.  </li>
+    </ul>
+</div>
+<div class="acquiring-agency">
+    <h3>Miller</h3>
+    <a href="https://tnris-org-static.s3.amazonaws.com/images/miller_full.jpg" data-toggle="lightbox" data-gallery="example-gallery"  data-title="Miller">
+        <img class="thumbnail pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/miller_th.jpg">
+    </a>
+    <ul class="list-clean">
+        <li><strong>Media Type:</strong> Black and White prints</li>
+        <li><strong>General Scales:</strong> 1:24000</li>
+        <li>TNRIS houses most of Miller’s historical imagery collection in addition to hard copy maps.  The collection is primarily of the central Texas area and covers the mid 1960s through 1990s.</li>
+        <li><strong>About Miller:</strong><br>Miller Imaging and Digital Solutions, previously Miller Blueprint, is a family owned business located in Austin, TX that has been creating photographs, maps, and other printed material for close to a century.</li>
+    </ul>
+</div>
+<div class="acquiring-agency"><h3>United States Air Force</h3>
+    <a href="https://tnris-org-static.s3.amazonaws.com/images/usaf_full.jpg" data-toggle="lightbox" data-gallery="example-gallery"data-title="United States Air Force (USAF)">
+        <img class="thumbnail pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/usaf_th.jpg">
+    </a>
+    <ul class="list-clean">
+        <li><strong>Media Type:</strong> Black and White prints</li>
+        <li><strong>General Scale:</strong> 1:56000</li>
+        <li>TNRIS has a small collection of images from the United States Air Force (USAF) spanning the mid 1950s to late 1960s.</li>
+        <li><strong>About the USAF:</strong><br>The Air Force Historical Research Agency, established in 1943, was designated custodian of documents, narratives, reports, orders, and photographs for the Air Force in times of war and peace.  The AFHR serves as a resource for scholars, researchers, government agencies, and the general public.</li>
+    </ul>
+</div>
+<div class="acquiring-agency">
+    <h3>United States Department of Agriculture and Agricultural Stabilization and Conservation Service</h3>
+    <a href="https://tnris-org-static.s3.amazonaws.com/images/usda_acs_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="United States Department of Agriculture (USDA) and Agricultural Stabilization and Conservation Service (ASCS)">
+        <img class="thumbnail pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/usda_acs_th.jpg">
+    </a>
+    <ul class="list-clean">
+        <li><strong>Media Type:</strong> Black and White, Color Infrared, Natural Color prints.  Line Indexes also available for most counties</li>
+        <li><strong>General Scale:</strong> 1:2000 (ASCS/USDA), 1:60000(NHAP), 1:40000(NAPP)</li>
+        <li>In addition to the United States Department of Agriculture and Agricultural Stabilization and Conservation Service (USDA/ASCS) collections, TNRIS also houses collections from the National High Altitude Program (NHAP) 1980-1989 and the National Aerial Photography Program (NAPP) 1987-2003 both being USGS interagency coordinated programs.</li>
+        <li><strong>About the USDA:</strong><br>The USDA is home to one of the country’s largest aerial film libraries housing more than 10 million images.  Images date back from 1955 to present with coverage of most of the United States and its territories.</li>
+    </ul>
+</div>

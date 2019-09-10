@@ -1,0 +1,79 @@
+@import "variables";
+
+
+.keynote-welcome-2018 {
+
+  a {
+    max-width: 50%;
+  }
+
+  img {
+    margin-left: 15px;
+
+    &.img-circle {
+    	max-width: 200px;
+    }
+  }
+
+  h3 {
+    font-size: 30px;
+    margin-top: 0;
+
+    small {
+      font-size: 20px;
+    }
+  }
+}
+
+ul li.forumTrainingContainer{
+  border-bottom: 1px solid $midlightgrey;
+  margin-bottom: 15px;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.forum-2018-top {
+  background: #222;
+  color: white;
+  position: relative;
+
+  @media (min-width: $screen-md) {
+     margin-bottom: -189px;
+  }
+
+
+}
+
+.plat-logo-top {
+  max-width: 225px;
+
+  @media (max-width: $screen-sm) {
+    float: left;
+    width: 45%;
+  }
+}
+
+.agenda-full {
+  img.headshot{
+    max-width: 150px;
+    margin-right: 20px;
+  }
+}
+
+.forum-sub-2018 {
+  .agenda-full {
+    .row {
+      margin: 15px 0;
+    }
+  }
+}
+
+.lead-forum .btn-tnris {
+  text-shadow: none;
+}
+
+.forum-2018-top .img-responsive {
+width: 100%;
+}

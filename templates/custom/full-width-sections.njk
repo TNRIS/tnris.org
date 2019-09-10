@@ -1,0 +1,36 @@
+{% extends "base.njk" %}
+{% block topcontent %}
+<div class="container-fluid full lidar-project-main">
+  <div class="top-container">
+     <video id="demvideo" width="100%" loop autoplay="autoplay">
+        
+        <source src="https://tnris-org-static.s3.amazonaws.com/images/slider2_dem_2.webm" type="video/webm">
+          <source src="https://tnris-org-static.s3.amazonaws.com/images/slider2_dem_2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+
+
+      <div class="top-header center-block">
+          <div class="container">
+            <h1>{{title}}</h1>
+            {% if abstract %}
+              <div class="lead">{{abstract}}</div>
+            {% endif %}
+          </div>
+      </div>
+      </div>
+</div>
+{% endblock %}
+
+{% block contentsTwo %}
+
+{{ contents|safe }} 
+
+{% endblock %}
+
+
+</div>
+
+
+
+

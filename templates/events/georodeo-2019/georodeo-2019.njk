@@ -1,0 +1,67 @@
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+
+{% block styles %}
+  {{ super() }}
+
+  {{form.styles()}}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  {{form.scripts()}}
+{% endblock %}
+
+{% block topcontent %}
+<div class="georodeo-masthead gr-top-2019 container-fluid full">
+    <div class="top-container">
+        <div class="sr-only">
+            <h1>{{title}}</h1>
+            {{abstract}}
+        </div>
+          <a href="/georodeo">
+            <img class="main hidden-sm hidden-xs" src="{{mainimage}}" alt="Masthead for {{title}}">
+            <img class="main hidden-md hidden-lg" src="{{mainimagesm}}" alt="Masthead for {{title}}">
+          </a>
+
+      <div class=" sr-only ">
+          <div class="container">
+                    May 16 & 17 * Austin, TX
+                  </div>
+        </div>
+    </div>
+</div>
+
+<div id="intro" class="georodeo-intro gr-2019">
+
+    <div class="container">
+
+       {% include "events/georodeo-2019/nav.njk" %}
+        <div class="row">
+            {% include "events/georodeo-2019/georodeo-intro.njk" %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block contentsOne %}
+<div id="contentMain" class="container">
+<div class="row">
+    <div class="col-md-4 col-md-push-8">
+        {% block sidebarLeft %}
+            <div class="georodeo-side hidden-xs hidden-sm">
+                {% include "events/georodeo-2019/georodeo-side.njk" %}
+            </div>
+        {% endblock %}
+    </div>
+    <div class="col-md-8 col-md-pull-4 gr-content-2019">
+        {{ contents|safe }}
+    </div>
+</div>
+</div>
+<section class="georodeo-bottom-2019">
+ {% include "events/georodeo-2019/georodeo-map.njk" %}
+</section>
+{% endblock %}

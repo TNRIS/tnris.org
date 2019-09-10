@@ -1,0 +1,5 @@
+{% macro ngCurly(str) %}
+  {% set start = '{{' %}
+  {% set end = '}}' %}
+  {{ start + str + end}}
+{% endmacro %}

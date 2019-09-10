@@ -1,0 +1,87 @@
+
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+
+{% block styles %}
+  {{ super() }}
+
+  {{form.styles()}}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  {{form.scripts()}}
+{% endblock %}
+
+
+
+{% block topcontent %}
+<div id="_2015-forum-container">
+  <div class="container-fluid full">
+
+      <div class="top-container">
+          {% if mainimage %}
+          <div class="hidden-sm hidden-xs">
+            <img src="{{mainimage}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          </div>
+          {% endif %}
+          {% if mainimagesm %}
+          <div class="hidden-xs hidden-md hidden-lg">
+            <img src="{{mainimagesm}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          </div>
+          {% endif %}
+
+          {% if mainimagexs %}
+          <div class="hidden-sm hidden-md hidden-lg">
+            <img src="{{mainimagexs}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          </div>
+          {% endif %}
+      </div>
+  </div>
+<div class="_2015-forum-intro">
+    <div class="container">
+      <p class="lead">
+          Revisit the 2015 Forum.
+      </p>
+      <a class="btn btn-lg btn-danger" href="/news/2015-11-03/forum-thank-you-photo-recap"><i class="glyphicon glyphicon-camera"></i> View the Photo Recap</a>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block contentsOne %}
+<div id="contentMain" class="container">
+{% include "partials/2015-forum/forum-nav.njk" %}
+
+<div class="row">
+    <div class="col-md-8">
+        {{contents|safe}}
+    </div>
+    <div class="col-md-4">
+      {% if sidebar == 'postersubmission' %}
+        <h2>Submit Your Info</h2>
+        <p>Please enter your information below if you plan on submitting a poster to the gallery. This info will be displayed along with your poster.</p>
+        {% include "partials/2015-forum/poster-submission.njk" %}
+
+      {% endif %}
+    </div>
+</div>
+</div>
+</div>
+{% endblock %}
+
+{% block contentsTwo %}
+<section class="forum-map">
+    <div class="container">
+        <div class="row">
+                {% include "partials/2015-forum/forum-map.njk" %}
+        </div>
+    </div>
+</section>
+<section class="forum-sponsors">
+  {% include "partials/2015-forum/forum-sponsors.njk" %}
+</section>
+
+{% endblock %}

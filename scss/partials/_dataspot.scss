@@ -1,0 +1,241 @@
+// _dataspotlight.scss
+@import "variables";
+
+/* Main */
+
+#dataSpot {
+  padding: 0;
+  position: relative;
+
+  // Carousel
+  height: $dataspot-height;
+  .carousel-indicators {
+    bottom: -5px !important;
+
+    li {
+      border-radius: 0;
+      height: 18px;
+      width: 18px;
+
+      &.active {
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
+  // end Carousel
+
+
+  .spotText {
+    background: rgba(0,0,0,.75);
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    position: absolute;
+    width: 75%;
+    left: 12%;
+    bottom: 40px;
+
+    padding: 10px;
+    text-align: center;
+    z-index: 2000;
+  }
+
+  .item{
+    margin-top: 0;
+    padding: 0;
+    height: $dataspot-height;
+    overflow: hidden;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    img {
+      min-height: 100%;
+      position: absolute;
+      min-width: 100%;
+
+      @media (min-width: $screen-md) and (max-width: $screen-lg) {
+        height: 400px !important;
+        min-width: 400px;
+      }
+    }
+
+    a {
+      position: relative;
+      display: block;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    h4 {
+      @include alpha-attribute("background-color", rgba($tnrisblue, 0.85), white);
+      color: white;
+      font-family: "pragmatica-web-condensed",sans-serif;
+      font-size: 28px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      margin-bottom: 0;
+      margin-top: 0;
+      padding: 10px 20px 10px 30px;
+      position: absolute;
+      text-shadow: 1px 1px 2px $facebook;
+      width: 100%;
+      z-index: 1000;
+
+      small {
+        clear: both;
+        color: $lightgrey;
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+/* Single Page Version */
+
+.blog-sidebar {
+  h2:first-child {
+    margin-top: 0;
+  }
+}
+
+#spotlight-full-image {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  background: $darkgrey;
+  max-height: 500px;
+  box-shadow: inset 0px 0px 20px black;
+  margin-top: -5px;
+
+  a {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+
+    img {
+      max-height: 600px;
+      max-width: 1170px;
+      margin: 0 auto;
+      box-shadow: 0px 0px 20px black;
+    }
+
+    &:hover {
+      .spot-zoom {
+        color: $sky;
+      }
+    }
+  }
+
+  .spot-title {
+    @include alpha-attribute("background-color", rgba($tnrisblue, 0.6), white);
+    color: white;
+    position: absolute;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px;
+    font-weight: 100;
+    font-family: $pragmatica;
+    text-shadow: 1px 1px 2px $darkgrey;
+    width: 100%;
+
+    h1 {
+      font-size: 50px;
+      font-weight: 300;
+      margin: 0;
+    }
+
+    small {
+      color: $lightgrey;
+      font-weight: 300;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    .byline {
+      text-transform: none;
+      font-family: $opensans;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    author {
+      text-transform: none;
+    }
+
+    .spot-zoom {
+      color: white;
+      font-family: $opensans;
+      font-size: 16px;
+      text-shadow: 0 0 2px black;
+      line-height: 30px;
+      margin: 20px 20px 0 0;
+
+      @media (min-width: $screen-md) {
+        float: right;
+        font-size: 20px;
+        margin-top: -40px;
+        right: 10%;
+      }
+
+      @media (min-width: $screen-lg) {
+        right: 20%;
+      }
+
+      .glyphicon {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .container {
+    position: relative;
+    bottom: 0;
+  }
+}
+
+// Full Screen Modal
+
+.full-spot {
+  z-index: 11000;
+
+    .modal-header {
+      border: none;
+      padding-bottom: 0;
+      text-align: center;
+
+      .close {
+        color: white;
+        font-size: 40px;
+      }
+    }
+
+    .modal-footer {
+      border: none;
+      padding-top: 0;
+    }
+
+    .modal-dialog {
+      width: 100%;
+      padding: 0;
+      background: $darkgrey;
+      color: white;
+      margin: 0;
+    }
+
+    .modal-content {
+      border-radius: 0;
+    background: $darkgrey;
+    color: white;
+    }
+}

@@ -1,0 +1,27 @@
+<nav class="navbar navbar-inverse stratmap-bar">
+  <div class="container">
+    <ul class="nav navbar-nav">
+        <li {% if (path == 'stratmap') %}class="active"{% endif %}>
+          <a href="/stratmap">Main</a>
+        </li>
+        <li {% if (path == 'stratmap/stratmap-contracts') %}class="active"{% endif %}>
+          <a href="/stratmap/stratmap-contracts">StratMap Contracts</a>
+        </li>
+        <li {% if (path == 'stratmap/orthoimagery') %}class="active"{% endif %}>
+          <a href="/stratmap/orthoimagery">Orthoimagery</a>
+        </li>
+        <li {% if (path == 'stratmap/elevation-lidar') %}class="active"{% endif %}>
+          <a href="/stratmap/elevation-lidar">Elevation - Lidar</a>
+        </li>
+        <li {% if (path == 'stratmap/hydrography') %}class="active"{% endif %}>
+          <a href="/stratmap/hydrography">Hydrography</a>
+        </li>
+        <li {% if (path == 'stratmap/land-parcels') %}class="active"{% endif %}>
+          <a href="/stratmap/land-parcels">Land Parcels</a>
+        </li>
+         <li {% if (path == 'stratmap/address-points') %}class="active"{% endif %}>
+          <a href="/stratmap/address-points">Address Points</a>
+        </li>
+      </ul>
+  </div>
+</nav>

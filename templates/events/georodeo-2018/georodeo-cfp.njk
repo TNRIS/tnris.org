@@ -1,0 +1,60 @@
+{% import "_form_macros.njk" as form %}
+
+{{form.before("georodeocfp")}}
+
+  {{form.input("Name", "Name", "text", true)}}
+
+  {{form.input("OrganizationTitle", {
+      label: "Organization & Title",
+      placeholder: "Who are you affiliated with and what is your role?"
+    }, "text", false)}}
+
+  {{form.input("Email", {
+      label: "Email",
+      placeholder: "Enter your email address"
+    }, "email", true)}}
+
+  {{form.input("Phone", {
+      label: "Phone",
+      placeholder: "Enter your phone number"
+    }, "tel", false)}}
+
+  {{form.textarea("Bio", {
+      label: "Bio (Max 500 Characters)",
+      placeholder: "Tell us about yourself"
+    }, false, true)}}
+
+  {{form.select("Category", "Presentation Category",
+     ['My First App',
+     '100 Lines of Code or Less',
+     'Internet of Things (Raspberry Pi, Smart Home App, etc.)',
+     'GeoProcessing Tool, Extension, or Add-On (ArcGIS, GDAL, QGIS)',
+     'I Automated a Routine!',
+     'Code Vigilante (Broke the Rules)',
+     'Sharp Shooter (Advanced App)',
+     'Elite Level Hacker',
+     'Analysis & Conclusions',
+     'Project Management',
+     'User Experience/Interface or App/Site Design',
+     'Other'
+     ],
+     true, true, false
+  )}}
+
+  {{form.input("Title", {
+      label: "Presentation Title",
+      placeholder: "Provide a title for your presentation"
+    }, "text", true)}}
+
+  {{form.textarea("Description", {
+      label: "Presentation Summary (Max 500 Characters)",
+      placeholder: "Write a summarized description of your presentation proposal"
+    }, true, true)}}
+
+  {{form.input("SupplementalLink", {
+      label: "Supplemental Link",
+      placeholder: "Add a link to a website, GitHub, etc."
+    }, "text", false)}}
+
+  {{form.submit("message")}}
+{{form.after()}}
