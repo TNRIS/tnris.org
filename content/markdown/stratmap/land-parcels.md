@@ -21,7 +21,7 @@ progress_2: 229
           <progress class="level-orange" max="100" value="{{progress_1}}">
           </progress>
           <h3 class="amount"><strong>{{progress_2}}</strong></h3>
-          <p><strong>of <span style="font-size: 20px;">of 254 land parcel GIS datasets</span> are now available in a common schema</strong></p>
+          <p><strong>of <span style="font-size: 20px;">of 254 land parcel GIS datasets</span><br>are now available in a common schema</strong></p>
         </li>
       </ul>
       <p><a class="btn btn-lg btn-tnris pull-right" href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a> See available datasets in the map below. To download the parcel data visit the DataHub.
