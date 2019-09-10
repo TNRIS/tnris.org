@@ -29,7 +29,6 @@ progress_2: 232
 
 <iframe width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/ba0229b0-b91c-4775-98ae-93844e146496/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-
 </div>
 </div>
 </div>
@@ -64,10 +63,8 @@ progress_2: 232
 
 </section>
 
-
 <div class="container">
 <div class="row">
-
 
 <div id="agency-parcel-uses" class="col-md-6">
 <h2>Program Flow</h2>
@@ -140,7 +137,6 @@ progress_2: 232
 
 <hr class="clearfix hidden-xs hidden-sm">
 
-
 <div class="row">
 <div class="col-md-6">
 <img src="https://tnris-org-static.s3.amazonaws.com/images/tceq_logo_sm.jpg" class="center-block">
@@ -186,17 +182,22 @@ progress_2: 232
 <h2>FAQ - Frequently Asked Questions</h2>
 
 <h3>What is a geographic parcel?</h3>
-<p>A geographic parcel is a spatial reference to tabular information of a property regarding ownership, land use, legal description, ownership, etc. from the computer assisted mass appraisal (CAMA) software of an appraisal district.</p>
-<h3>What format are the data provided?</h3>
-<p>Most of the parcels are in shapefile format and require a geographic information system (GIS) software for viewing.  Some datasets are .dgn or .kmz format.  Software to view this data is not provided by TNRIS.</p>
-<h3>Who created these geographic parcels?</h3>
-<p>These geographic parcel data are created by county appraisal districts or their third party vendor.  TNRIS compiles these data for statewide distribution and does not edit these data. A directory of appraisal districts is located on the Texas Comptroller of Public Accounts website here: <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/">https://comptroller.texas.gov/taxes/property-tax/county-directory/</a></p>
-<h3>What is the purpose of these geographic parcels?</h3>
-<p>TNRIS collects these data to allow end users to acquire statewide parcel data in one location for FREE.  These geographic parcel data are created by appraisal districts or their third party vendor to supplement the appraisal process with a visual representation of property.  They are not survey grade and should not be used for legal purposes.</p>
-<h3>How frequently does TNRIS acquire geographic parcel data?</h3>
-<p>TNRIS will attempt to refresh annually from each appraisal district or their third party vendor.  The refresh rate will vary across the state.  Some counties may refresh multiple times within one year.  The year and month of the parcel dataset is included in the file name as YYYYMM. </p>
-<h3>Is this data available at other locations?</h3>
-<p>The purpose of this initiative is to provide statewide parcel data in one location for FREE.  Yes, this data may sometimes be acquired through appraisal districts, their 3rd party vendor, or commercial vendors.  More current data and greater volume of information may be available from them as compared to the FREE TNRIS statewide version.  A directory of appraisal districts is located on the Texas Comptroller of Public Accounts website here: <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory">https://comptroller.texas.gov/taxes/property-tax/county-directory</a></p>
+<p>A geographic land parcel is a spatial reference to tabular information of a property regarding ownership, land use, legal description, ownership, etc. from the Computer Assisted Mass Appraisal (CAMA) software of an appraisal district.</p>
+<h3>What format and files are provided?</h3>
+  <p>
+    The land parcels are in shapefile and geodatabase format and require a geographic information system (GIS) software for viewing. Software to view this data is not provided by TNRIS.  Other files provided include metadata and conversion file.
+  </p>
+<h3>What schema are the data provided?</h3>
+  <p>
+    The data were transformed into the TNRIS land parcel schema.  TNRIS facilitated a land parcel committee to discuss the data needs of stakeholders across Texas.  Land parcels have a large quantity of data stored in Computer Assisted Mass Appraisal (CAMA) and a lowest common denominator of details were agreed upon for the TNRIS land parcel schema.
+  </p>
+<h3>Why are some of the attributes missing or null?</h3>
+  <p>
+    TNRIS received the data from the appraisal districts or their vendors “as-is.”  If data are missing, the data were not shared with the request for information.  Over time, we hope to get as many of the TNRIS land parcel schema attributes as possible.  If additional information is needed, please contact the appraisal district.  A directory of appraisal districts is located on the Texas Comptroller of Public Accounts website here: https://comptroller.texas.gov/taxes/property-tax/county-directory/
+  </p>
+<h3>Who created these geographic land parcels?</h3>
+<p>The purpose of this initiative is to provide statewide parcel data in one location for FREE.  Yes, this data may sometimes be acquired through appraisal districts, their 3rd party vendor, or commercial vendors.  More current data and greater volume of information may be available from them as compared to the FREE TNRIS statewide version.  A directory of appraisal districts is located on the Texas Comptroller of Public Accounts website here: <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory">https://comptroller.texas.gov/taxes/property-tax/county-directory</a>
+</p>
 <h3>How many appraisal districts exist in Texas?</h3>
 <p>There are 254 counties and 253 appraisal districts in Texas (Potter and Randall counties have a joint office).</p>
 <h3>Why does each parcel file have different attributes, codes, and definitions?</h3>
@@ -210,8 +211,6 @@ progress_2: 232
 <a class="btn btn-lg btn-primary" href="/contact"><i class="glyphicon glyphicon-document"></i>Contact Us</a>
 
 </div>
-
-
 
 </div>
 </div>
