@@ -10,7 +10,7 @@ progress_2: 229
   <div class="row">
     <div class="col-md-6">
       <p class="lead">
-      In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS land parcel schema. This format of land parcel data consists of the most commonly utilized information as determined by the land parcel  committee. The data contributed from county appraisal districts or their service providers were translated into this common schema and are now available on the <a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448">TNRIS DataHub</a>.</p>
+      In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized <a href="https://tnris-org-static.s3.amazonaws.com/documents/tnris-land-parcel-schema.pdf">GIS land parcel schema</a>. This format of land parcel data consists of the most commonly utilized information as determined by the land parcel  committee. The data contributed from county appraisal districts or their service providers were translated into this common schema and are now available on the <a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448">TNRIS DataHub</a>.</p>
       <p class="lead">Land parcels are boundaries that have associated information such as property owner, land use, value, and location attributes. This property information is recorded and maintained at the county level in Texas at local appraisal districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
       <p class="lead">In August 2019, an extension of the <a href="https://tnris-org-static.s3.amazonaws.com/documents/update-on-digital-parcel-data-in-texas-20190903.pdf">statewide parcel study was published</a> to evaluate the existence of GIS parcel data and barriers to conversion. The report found that nearly all Texas appraisal districts now maintain a GIS parcel layer or are in the process of converting. It includes recommendations of 1) how TNRIS can facilitate local GIS  conversion and 2) how to continue success of the land parcel program.</p>
     </div>
@@ -21,7 +21,7 @@ progress_2: 229
           <progress class="level-orange" max="100" value="{{progress_1}}">
           </progress>
           <h3 class="amount"><strong>{{progress_2}}</strong></h3>
-          <p><strong>of <span style="font-size: 20px;">of 254 land parcel GIS datasets</span><br>are now available in a common schema</strong></p>
+          <p><strong><span style="font-size: 20px;">of 254 land parcel GIS datasets</span><br> are now available in a common schema</strong></p>
         </li>
       </ul>
       <p><a class="btn btn-lg btn-tnris pull-right" href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a> See available datasets in the map below. To download the parcel data visit the DataHub.
@@ -175,13 +175,11 @@ progress_2: 229
       </p>
       <h3>What schema are the data provided?</h3>
       <p>
-        The data were transformed into the TNRIS land parcel schema. TNRIS facilitated a land parcel committee to discuss the data needs of stakeholders across Texas. Land parcels have a large quantity of data stored in Computer Assisted Mass
-        Appraisal (CAMA) and a lowest common denominator of details were agreed upon for the TNRIS land parcel schema.
+        The data were transformed into the <a href="https://tnris-org-static.s3.amazonaws.com/documents/tnris-land-parcel-schema.pdf">TNRIS land parcel schema</a>. TNRIS facilitated a land parcel committee to discuss the data needs of stakeholders across Texas. Land parcels have a large quantity of data stored in Computer Assisted Mass Appraisal (CAMA) and a lowest common denominator of details were agreed upon for the TNRIS land parcel schema.
       </p>
       <h3>Why are some of the attributes missing or null?</h3>
       <p>
-        TNRIS received the data from the appraisal districts or their vendors “as-is.” If data are missing, the data were not shared with the request for information. Over time, we hope to get as many of the TNRIS land parcel schema attributes as
-        possible. If additional information is needed, please contact the appraisal district. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/>Texas Comptroller of Public Accounts website</a>.
+        TNRIS received the data from the appraisal districts or their vendors “as-is.” If data are missing, the data were not shared with the request for information. Over time, we hope to get as many of the <a href="https://tnris-org-static.s3.amazonaws.com/documents/tnris-land-parcel-schema.pdf">TNRIS land parcel schema</a> attributes as possible. If additional information is needed, please contact the appraisal district. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/>Texas Comptroller of Public Accounts website</a>.
       </p>
       <h3>Who created these geographic land parcels?</h3>
       <p>These geographic land parcel data are created by county appraisal districts or their third party vendor. TNRIS compiles and transforms these data for statewide distribution and does not edit the geometry of this data. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/>Texas Comptroller of Public Accounts website</a>.
