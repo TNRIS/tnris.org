@@ -179,29 +179,28 @@ progress_2: 229
       </p>
       <h3>Why are some of the attributes missing or null?</h3>
       <p>
-        TNRIS received the data from the appraisal districts or their vendors “as-is.” If data are missing, the data were not shared with the request for information. Over time, we hope to get as many of the <a href="https://tnris-org-static.s3.amazonaws.com/documents/tnris-land-parcel-schema.pdf">TNRIS land parcel schema</a> attributes as possible. If additional information is needed, please contact the appraisal district. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/>Texas Comptroller of Public Accounts website</a>.
+        TNRIS received the data from the appraisal districts or their vendors “as-is.” If data are missing, the data were not shared with the request for information. Over time, we hope to get as many of the <a href="https://tnris-org-static.s3.amazonaws.com/documents/tnris-land-parcel-schema.pdf">TNRIS land parcel schema</a> attributes as possible. If additional information is needed, please contact the appraisal district. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/">Texas Comptroller of Public Accounts website</a>.
       </p>
       <h3>Who created these geographic land parcels?</h3>
-      <p>These geographic land parcel data are created by county appraisal districts or their third party vendor. TNRIS compiles and transforms these data for statewide distribution and does not edit the geometry of this data. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/>Texas Comptroller of Public Accounts website</a>.
+      <p>These geographic land parcel data are created by county appraisal districts or their third party vendor. TNRIS compiles and transforms these data for statewide distribution and does not edit the geometry of this data. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/">Texas Comptroller of Public Accounts website</a>.
       </p>
       <h3>What is the purpose of these geographic land parcels?</h3>
       <p>TNRIS collects these data to allow end users to acquire statewide land parcel data in one location at no cost. These geographic land parcel data are created by appraisal districts or their third party vendor to supplement the appraisal process with a visual representation of property. They are not survey grade and should not be used for legal purposes.</p>
       <h3>How frequently does TNRIS acquire geographic land parcel data?</h3>
       <p>TNRIS will attempt to refresh annually from each appraisal district or their third party vendor. The refresh rate will vary across the state. Some counties may refresh multiple times within one year. The year and month of the land parcel dataset is included in the file name as YYYYMM.</p>
       <h3>Is this data available at other locations?</h3>
-      <p>The purpose of this initiative is to provide statewide land parcel data in one location at no cost. Yes, this data may sometimes be acquired through appraisal districts, their 3rd party vendor, or commercial vendors. More current data and greater volume of information may be available from them as compared to the no cost TNRIS statewide version. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/>Texas Comptroller of Public Accounts website</a>.
+      <p>The purpose of this initiative is to provide statewide land parcel data in one location at no cost. Yes, this data may sometimes be acquired through appraisal districts, their 3rd party vendor, or commercial vendors. More current data and greater volume of information may be available from them as compared to the no cost TNRIS statewide version. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/">Texas Comptroller of Public Accounts website</a>.</p>
       <h3>How many appraisal districts exist in Texas?</h3>
-      <p>There are 254 counties and 253 appraisal districts in Texas (Potter and Randall counties have a joint office).</p
+      <p>There are 254 counties and 253 appraisal districts in Texas (Potter and Randall counties have a joint office).</p>
       <h3>Why does each land parcel file have different attributes, codes, and definitions?</h3>
       <p>There is no state mandate for a standardized land parcel schema in Texas. Therefore, the individual appraisal district attributes are dictated by their business needs or based on their third party standards.</p>
       <h3>How do I report a “problem” with the land parcel data?</h3>
-      <p>These geographic land parcel data are created by county appraisal districts or their third party vendor. TNRIS compiles these data for statewide distribution and does not edit the geometry of this data. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/>Texas Comptroller of Public Accounts website</a>.</p>
+      <p>These geographic land parcel data are created by county appraisal districts or their third party vendor. TNRIS compiles these data for statewide distribution and does not edit the geometry of this data. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/">Texas Comptroller of Public Accounts website</a>.</p>
       <h3>What if the county land parcel dataset that I need is not available for download?</h3>
-      <p>Not all counties are available for download from TNRIS. We continue to work with appraisal districts to provide as many county land parcel datasets as possible. As they are available, they will be posted online for download and the availability map updated. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/>Texas Comptroller of Public Accounts website</a>.</p>
+      <p>Not all counties are available for download from TNRIS. We continue to work with appraisal districts to provide as many county land parcel datasets as possible. As they are available, they will be posted online for download and the availability map updated. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/">Texas Comptroller of Public Accounts website</a>.</p>
       <hr>
       <p>Contact TNRIS with any further questions regarding this program and someone from StratMap will get in touch with you.</p>
       <a class="btn btn-lg btn-primary" href="/contact"><i class="glyphicon glyphicon-document"></i>Contact Us</a>
     </div>
-
   </div>
 </div>
