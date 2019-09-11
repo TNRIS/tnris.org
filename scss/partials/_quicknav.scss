@@ -3,9 +3,7 @@
 /* Quick Nav */
 /**************************************************/
 .quick-nav {
-  margin: 0 -15px;
   margin-bottom: 0;
-  height: 370px;
   z-index: 0;
   padding-top: 0px;
   margin-top: 3px;
@@ -46,10 +44,8 @@
   }
 
   .list-clean {
-    height: 360px;
 
     .datahub-item {
-      height: 280px;
       padding-top: 20px;
       padding-bottom: 20px;
     }
