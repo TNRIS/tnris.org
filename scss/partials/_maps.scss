@@ -1,0 +1,53 @@
+@import "variables";
+
+// Maps */
+html {
+  scroll-behavior: smooth;
+}
+
+.maps-list {
+  .maps-header {
+    background: $lightgrey;
+    min-height: 40px;
+    line-height: normal;
+    margin: 0 0 15px 0;
+    padding: 10px !important;
+
+    .left-sidebar {
+      padding: 0;
+      text-align: center;
+
+      .maps-thumbnail {
+        display:block;
+        margin:auto;
+        width: 65%;
+      }
+    }
+
+    .right-mainbar {
+      h3 {
+        margin-top: 0;
+      }
+
+      .maps-description {
+        margin-bottom: 0;
+      }
+    }
+
+    .available-sheets {
+      overflow-x: auto;
+
+      h4 {
+        text-align: center;
+      }
+
+      table {
+        margin-bottom: 0;
+
+        .size-column {
+          min-width: 85px;
+        }
+      }
+    }
+  }
+}

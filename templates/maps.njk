@@ -1,0 +1,31 @@
+{% extends "base.njk" %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="/maps.bundle.js"></script>
+{% endblock %}
+
+{% block topcontent %}{% endblock %}
+
+{% block contentsOne %}
+  <div class="container">
+    <h1 id="title">{{title}}</h1>
+    {% if abstract %}
+      <div class="lead">{{abstract}}</div>
+    {% endif %}
+  </div>
+  <div id="contentMain" class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {{ contents|safe }}
+        {# <h2 id="education-schedule-h2">Course Schedule</h2> #}
+        <div id="insert-maps" class="maps-list" data-spy="scroll" data-target=".maps-header">
+          <!-- map collections get inserted here from the tnris api -->
+        </div>
+      </div>
+      {# <div class="col-md-4">
+        {% block sidebarLeft %}{% endblock %}
+      </div> #}
+    </div>
+  </div>
+{% endblock %}
