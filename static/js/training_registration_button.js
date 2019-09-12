@@ -24,7 +24,7 @@ function retrieveOpenTrainingLimited() {
       button =
         `
         <a href="#" class="btn btn-danger btn-lg btn-block disabled">
-          <i class="glyphicon glyphicon-remove"></i> Registration Closed
+          <i class="glyphicon glyphicon-remove"></i> REGISTRATION CLOSED
         </a>
         <hr>
         `;
