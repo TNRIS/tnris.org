@@ -41,6 +41,27 @@ function buildDownloadsTable(downloads) {
   return downloadsTable;
 }
 
+function buildCollectionsList(collections) {
+  var listItems = '';
+  var mapCollections = JSON.parse('[' + collections + ']');
+  mapCollections.forEach(function(c){
+    var uuid = Object.keys(c)[0];
+    var item = 
+    `
+      <li><a href="https://data.tnris.org/collection/${uuid}">${c[uuid]}</a></li>
+    `;
+    listItems += item;
+  });
+  var collectionsList =
+  `
+    <h4><a href="https://data.tnris.org">DataHub</a> Layers In Map Collection</h4>
+    <ul>
+      ${listItems}
+    </ul>
+  `;
+  return collectionsList;
+}
+
 // main function
 function retrieveMaps() {
   var mapsUrl = 'https://api.tnris.org/api/v1/map/collections';
@@ -74,6 +95,7 @@ function retrieveMaps() {
       var publishDate = new Date(m.publish_date);
 
       var downloadsList = buildDownloadsTable(m.map_downloads);
+      var collectionsList = m.data_collections ? buildCollectionsList(m.data_collections) : '';
 
       record.innerHTML =
         `<div class="row maps-header">
@@ -100,7 +122,7 @@ function retrieveMaps() {
             </div>
           </div>
           <div id="${m.collection_id}Sheets" class="available-sheets col-xs-12 collapse" style="padding:20px;">
-            ${downloadsList}
+            ${downloadsList}${collectionsList}
           </div>
         </div>`;
 

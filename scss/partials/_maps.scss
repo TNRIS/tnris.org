@@ -48,6 +48,14 @@ html {
           min-width: 85px;
         }
       }
+
+      ul {
+        columns: 3;
+        -webkit-columns: 3;
+        -moz-columns: 3;
+        list-style: none;
+        padding-left: 0;
+      }
     }
   }
 }
