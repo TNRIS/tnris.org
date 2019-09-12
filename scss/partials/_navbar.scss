@@ -84,22 +84,26 @@
   }
 
   &.gio {
-    background: url('https://tnris-org-static.s3.amazonaws.com/images/tx_icon.svg') 0 13px no-repeat;
-    background-size: 23px;
-    padding-left: 28px;
+    @media (min-width: $screen-md) {
+      background: url('https://tnris-org-static.s3.amazonaws.com/images/tx_icon.svg') 0 13px no-repeat;
+      background-size: 23px;
+      padding-left: 28px;
 
-    &:hover {
-      opacity: 0.8;
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 
   &.events {
-    background: url('https://tnris-org-static.s3.amazonaws.com/images/baseline_people_24px_white.svg') 0 13px no-repeat;
-    background-size: 23px;
-    padding-left: 28px;
+    @media (min-width: $screen-md) {
+      background: url('https://tnris-org-static.s3.amazonaws.com/images/baseline_people_24px_white.svg') 0 13px no-repeat;
+      background-size: 23px;
+      padding-left: 28px;
 
-    &:hover {
-      opacity: 0.8;
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 }

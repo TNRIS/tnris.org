@@ -5,39 +5,39 @@
       <a href="/" class="navbar-brand logo-link" title="TNRIS Logo and back home">
         <span class="sr-only">Texas Natural Resources Information System</span>
       </a>
-      <span class="tnris-name">Texas Natural Resources Information System</span>
+      <span class="tnris-name hidden-xs">Texas Natural Resources Information System</span>
       <a class="skip" href="#mainContentAnchor">Skip to Main Content</a>
       <a class="navbar-twdb pull-right hidden-xs" href="http://www.twdb.texas.gov/">A Division of the <span class="hidden-sm">Texas Water Development Board</span> <abbr class="hidden-md hidden-lg" title="Texas Water Development Board">TWDB</abbr></a>
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
     </div>
   </div>
   <div class="container nav-bg">
-    <div class="navbar-header">
-      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse navbar-inverse" role="navigation">
       <ul class="nav navbar-nav">
         <li class="dropdown navbar-inverse">
           <a href="#" class="dropdown-toggle data-hub-logo" data-toggle="dropdown">Data &amp; Maps</a>
           <ul class="dropdown-menu inverse-dropdown" role="menu">
             <li>
-              <a href="https://data.tnris.org" title="Visit the New DataHub!">DataHub</a>
+              <a href="https://data.tnris.org" title="Visit the New DataHub!" class="main-program">DataHub</a>
+            </li>
+            <li {% if id == 'research-distribution-center' %}class="active"{% endif %}>
+              <a href="/research-distribution-center" class="main-program">Research &amp; Distribution Center (RDC)</a>
             </li>
             {# <li {% if id == 'maps' %}class="active"{% endif %}>
               <a href="/maps" >Maps</a>
             </li> #}
             <li {% if id == 'texas-imagery-service' %}class="active"{% endif %}>
-              <a href="/texas-imagery-service">Texas Imagery Service</a>
+              <a href="/texas-imagery-service" class="main-program">Texas Imagery Service</a>
             </li>
             <li {% if id == 'applications-and-utilities' %}class="active"{% endif %}>
-              <a href="/applications-and-utilities">Applications &amp; Utilities</a>
-            </li>
-            <li {% if id == 'research-distribution-center' %}class="active"{% endif %}>
-              <a href="/research-distribution-center">Research &amp; Distribution Center (RDC)</a>
+              <a href="/applications-and-utilities" class="main-program">Applications &amp; Utilities</a>
             </li>
           </ul>
         </li>
@@ -45,10 +45,18 @@
           <a href="#" class="dropdown-toggle programs-nav" data-toggle="dropdown"><i class="fa fa-tasks hidden-xs hidden-sm"></i> Programs</a>
           <ul class="dropdown-menu inverse-dropdown" role="menu">
             <li {% if id == 'stratmap' %}class="active"{% endif %}>
-              <a href="/stratmap">Strategic Mapping Program (StratMap)</a>
+              <a href="/stratmap" class="main-program">Strategic Mapping Program (StratMap)<br></a>
+              <ul>
+                <li {% if id == 'stratmap-stratmap-contracts' %}class="active"{% endif %}><a href="/stratmap/stratmap-contracts">StratMap Contracts</a></li>
+                <li {% if id == 'stratmap-orthoimagery' %}class="active"{% endif %}><a href="/stratmap/orthoimagery">Orthoimagery</a></li>
+                <li {% if id == 'stratmap-elevation-lidar' %}class="active"{% endif %}><a href="/stratmap/elevation-lidar">Elevation - Lidar</a></li>
+                <li {% if id == 'stratmap-hydrography' %}class="active"{% endif %}><a href="/stratmap/hydrography">Hydrography</a></li>
+                <li {% if id == 'stratmap-land-parcels' %}class="active"{% endif %}><a href="/stratmap/land-parcels">Land Parcels</a></li>
+                <li {% if id == 'stratmap-address-points' %}class="active"{% endif %}><a href="/stratmap/address-points">Address Points</a></li>
+              </ul>
             </li>
             <li {% if id == 'education' %}class="active"{% endif %}>
-              <a href="/education">Education</a>
+              <a href="/education" class="main-program">Education and Training</a>
             </li>
           </ul>
         </li>
