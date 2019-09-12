@@ -5,6 +5,12 @@
 function buildDownloadsTable(downloads) {
   var tableRows = '';
   var mapDownloads = JSON.parse('[' + downloads + ']');
+  mapDownloads = mapDownloads.sort(function(a,b) {
+    var aName = a.label.toUpperCase(), bName = b.label.toUpperCase();
+    if(aName < bName) {return -1;}
+    if(aName > bName) {return 1;}
+    return 0;
+  });
   mapDownloads.forEach(function(d){
     var row = 
     `
