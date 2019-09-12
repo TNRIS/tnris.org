@@ -7,9 +7,7 @@ function buildDownloadsTable(downloads) {
   var mapDownloads = JSON.parse('[' + downloads + ']');
   mapDownloads = mapDownloads.sort(function(a,b) {
     var aName = a.label.toUpperCase(), bName = b.label.toUpperCase();
-    if(aName < bName) {return -1;}
-    if(aName > bName) {return 1;}
-    return 0;
+    return aName.localeCompare(bName, undefined, { numeric: true, sensitivity: 'base' });
   });
   mapDownloads.forEach(function(d){
     var row = 
@@ -141,8 +139,6 @@ function retrieveMaps() {
     var clickId = location.hash.replace("#", "");
     var element = document.getElementById(clickId + "ClickSheets");
     var button = element ? element.children[0] : '';
-    console.log(location.hash);
-    console.log(element);
     if (location.hash) {
       element.click();
       button.className = 'btn btn-warning btn-sm';
