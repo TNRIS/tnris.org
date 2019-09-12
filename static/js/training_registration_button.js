@@ -12,7 +12,7 @@ function retrieveOpenTrainingLimited() {
   .then(function(data) {
     var button;
     if (data.count > 0) {
-      button = 
+      button =
         `
         <a href="${process.env.TRAINING_REGISTRATION_LINK}" class="btn btn-success btn-lg btn-block">
           Register Online Today
@@ -21,10 +21,10 @@ function retrieveOpenTrainingLimited() {
         `;
     }
     else {
-      button = 
+      button =
         `
-        <a href="#" class="btn btn-danger btn-lg disabled">
-          <i class="glyphicon glyphicon-remove"></i> REGISTRATION CURRENTLY CLOSED
+        <a href="#" class="btn btn-danger btn-lg btn-block disabled">
+          <i class="glyphicon glyphicon-remove"></i> Registration Closed
         </a>
         <hr>
         `;
