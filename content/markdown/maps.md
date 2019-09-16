@@ -1,5 +1,5 @@
 ---
 layout: maps.njk
 title: Maps
-abstract: Browse available maps
+abstract: Browse and download pre-made maps
 ---
