@@ -8,31 +8,28 @@ abstract:
    High resolution 6-inch aerial imagery are now available from TNRIS for Smith County and the surrounding East Texas area.
 ---
 
-
 <figure class="data-preview">
   <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
     <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/GreggCoCourthouse_NC_6in_1to700.jpg" alt="Natural Color preview of Statewide Imagery">
     <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/GreggCoCourthouse_CIR_6in_1to700.jpg" alt="Color infra red of Statewide Imagery">
   </div>
-  <figcaption>Gregg County Courthouse/figcaption>
+  <figcaption>Gregg County Courthouse</figcaption>
 </figure>
 
 High resolution 6-inch aerial imagery are now available from TNRIS for Smith County and the surrounding East Texas area. Six local entities contributed funds to collect the new imagery.
 
-- City of Tyler
-- East Texas Council of Governments
-- Smith County
-- Smith County 9-1-1
-- Smith County Appraisal District
-- Texas Eastern 9-1-1
+-   City of Tyler
+-   East Texas Council of Governments
+-   Smith County
+-   Smith County 9-1-1
+-   Smith County Appraisal District
+-   Texas Eastern 9-1-1
 
 Surdex Corp. was selected from the Strategic Mapping (StratMap) state contract as the orthoimagery data provider. The TNRIS StratMap Program administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
 
 The new orthoimagery are used for city engineering and planning, emergency 9-1-1 routing, appraisal valuations, infrastructure mapping, and other applications.
 
 The new orthoimagery were acquired in early January 2018 during leaf-off conditions. Leaf-off imagery allows the user to identify more on-the-ground features underneath deciduous tree cover than imagery acquired during full leaf-out time periods. Further, the difference between deciduous and evergreen vegetation is easier to identify in imagery acquired during the leaf-off period.
-
-
 
 ## Data Access
 
@@ -44,7 +41,7 @@ The new orthoimagery were acquired in early January 2018 during leaf-off conditi
   </div>
 </div>
 
-****
+* * *
 
 ## Coverage Area
 
@@ -54,25 +51,26 @@ View coverage areas in the map below:
 
 ## Products
 
-- GeoTIFF and JPEG2000 DO4Q (~1 sq. mi.) image tiles
-- JPEG2000 Compressed county mosaics
-- Index SHP
-- Seamline SHP
-- Metadata XMLs per image tile
+-   GeoTIFF and JPEG2000 DO4Q (~1 sq. mi.) image tiles
+-   JPEG2000 Compressed county mosaics
+-   Index SHP
+-   Seamline SHP
+-   Metadata XMLs per image tile
 
 ## Product Specification
 
 ![USGS Quarter Quad Breakdown](https://tnris-org-static.s3.amazonaws.com/images/usgs_quad.jpg)
 
-- 6-inch pixel resolution
-- 4-band, natural color and color infrared
-- StatePlane TX S Central 4202 NAD83 coordinate system
-- Units in feet
-- DO4Q (approx. 1 sq. mi.) image tiles, 1/64th USGS 7.5-minute quadrangle
-
+-   6-inch pixel resolution
+-   4-band, natural color and color infrared
+-   StatePlane TX S Central 4202 NAD83 coordinate system
+-   Units in feet
+-   DO4Q (approx. 1 sq. mi.) image tiles, 1/64th USGS 7.5-minute quadrangle
 
 ## Imagery Preview
+
 ### UT in Tyler | Scale 1:1,000
+
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
   <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/UT_Tyler_NC_6in_1to1000.jpg" alt="Natural Color preview of UT in Tyler">
@@ -91,7 +89,6 @@ View coverage areas in the map below:
 <figcaption>Rail yard in Longview, TX, SCALE 1:1,000</figcaption>
 </figure>
 
-
 ### Neighborhood in Tyler | Scale 1:720
 
 <figure class="data-preview">
@@ -102,9 +99,7 @@ View coverage areas in the map below:
 <figcaption>Neighborhood in Tyler, TX, SCALE 1:720</figcaption>
 </figure>
 
-
 ### Pine Plantations | Scale 1:3,000
-
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
@@ -114,9 +109,7 @@ View coverage areas in the map below:
 <figcaption>Pine plantations in Gregg County, SCALE 1:3,000</figcaption>
 </figure>
 
-
 ### Plant Farm | Scale 1:600
-
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
