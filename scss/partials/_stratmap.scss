@@ -8,41 +8,6 @@
   }
 }
 
-.stratmap-releases {
-  background: $lightgrey;
-  padding: 10px;
-
-  h3 {
-    color: $auburn;
-    margin: 0;
-  }
-
-  .media {
-    margin-top: 15px;
-
-    .media-left {
-      img {
-        max-width: 100px;
-      }
-    }
-
-    .media-body {
-      h4 {
-        font-size: 20px;
-
-        a {
-          color: $darkgrey;
-        }
-      }
-    }
-
-    hr {
-      margin-top: 15px;
-      margin-bottom: 0;
-    }
-  }
-}
-
 .stratmap-project {
 
     .thumbnail {

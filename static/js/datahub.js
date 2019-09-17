@@ -18,7 +18,7 @@ function retrieveLatestDatasets() {
     data.results.slice(0, 3).forEach(function(d) {
       // create empty dom div element then populate with api response information
       var collection = document.createElement('div');
-      collection.setAttribute('class', 'latest-data-front');
+      collection.setAttribute('class', 'latest-data-item');
       var year = new Date(d.acquisition_date).getFullYear();
       // fill dom list element with collection details
       collection.innerHTML =
@@ -32,7 +32,7 @@ function retrieveLatestDatasets() {
           </a>
         `;
       // append li element into template html
-      document.getElementById('latest-data-collections').appendChild(collection);
+      document.getElementById('latest-data-frontpage').appendChild(collection);
     });
   })
 }
