@@ -10,23 +10,37 @@
 
 .stratmap-releases {
   background: $lightgrey;
-  padding-bottom: 30px;
+  padding: 10px;
 
   h3 {
     color: $auburn;
+    margin: 0;
   }
 
-  h4 a {
-    color: $darkgrey;
+  .media {
+    margin-top: 15px;
+
+    .media-left {
+      img {
+        max-width: 100px;
+      }
+    }
+
+    .media-body {
+      h4 {
+        font-size: 20px;
+
+        a {
+          color: $darkgrey;
+        }
+      }
+    }
+
+    hr {
+      margin-top: 15px;
+      margin-bottom: 0;
+    }
   }
-
-    img {
-      max-width: 100px;
-    }
-
-    h4 {
-      font-size: 20px;
-    }
 }
 
 .stratmap-project {

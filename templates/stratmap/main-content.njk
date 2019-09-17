@@ -27,59 +27,23 @@
   ]
 %}
 
-{% set stratmap_items = [
-  {
-    name: '2016-2018 USGS Lidar Data Release',
-    date: 'June 19, 2019',
-    image: 'https://tnris-org-static.s3.amazonaws.com/images/usgs2019_th.jpg',
-    link: '/news/2019-06-19/2016-2018-usgs-lidar-releases'
-  }, {
-    name: '2018 Lidar Data Release for the H-GAC Operating Area & Coastal Region',
-    date: 'February 6, 2019',
-    image: 'https://tnris-org-static.s3.amazonaws.com/images/2018_coastal_lidar_release_th.jpg',
-    link: '/news/2019-02-06/2018-lidar-release-hgac-operating-area-coastal-region'
-  }, {
-    name: 'New 2018 Capital Area Aerial Imagery Now Available',
-    date: 'December 4, 2018',
-    image: 'https://tnris-org-static.s3.amazonaws.com/images/stratmap18-caparea-mclennan-detail.jpg',
-    link: '/news/2018-12-04/new-2018-capitol-area-aerial-imagery-available'
-  }
-  ]
-%}
-
 <section class="container">
-    <div class="col-sm-8">
-      <p class="lead">StratMap was originally established in 1997 by Senate Bill 1 to <strong>develop consistent statewide digital data layers</strong>. Since then, its primary goal has been to acquire and improve digital geographic data for statewide mapping applications.</p>
-      <p class="lead">
-        StratMap also maintains comprehensive data standard specifications to ensure consistent, high quality data products across the State. <strong>StratMap personnel at TNRIS</strong> work with multiple agencies on cost-share initiatives in order to provide the State of Texas with best value data products.</p>
-        <h2>How does this work?</h2>
-        <ul class="stratmap-work">
-          <li><strong>The StratMap team communicates regularly</strong> with State, Federal, regional and local government entities to discuss mapping needs.</li>
-          <li><strong>New projects are formed</strong> by identifying type of data required, location, specification, budget and timeline for delivery. </li>
-          <li><strong>Data acquisition, production and independent quality assurance and quality control (QA/QC)</strong> are awarded to private geospatial contractors through the <a href="/stratmap/stratmap-contracts">Texas Strategic Mapping Contracts</a>.</li>
-          <li><strong>After the final data deliverables are accepted</strong>, they are placed in the public domain for use by local, regional and federal government, academia, private industry and the public.</li>
-        </ul>
-      </div>
-
-
-      <div class="col-sm-4 stratmap-releases">
-        <h3>Latest StratMap Data Releases</h3>
-{% for article in stratmap_items %}
-    <div class="media">
-        <div class="media-left">
-            <a href="{{article.link}}">
-                <img class="media-object" src="{{article.image}}" alt="...">
-            </a>
-        </div>
-        <div class="media-body">
-            <h4 class="media-heading">
-              <a href="{{article.link}}">{{article.name}}</a><br><small>{{article.date}}</small></h4>
-            <p class="sr-only">{{article.teaser}}</p>
-        </div>
-    </div>
-    <hr>
-{% endfor %}
-      </div>
+  <div class="col-sm-8">
+    <p class="lead">StratMap was originally established in 1997 by Senate Bill 1 to <strong>develop consistent statewide digital data layers</strong>. Since then, its primary goal has been to acquire and improve digital geographic data for statewide mapping applications.</p>
+    <p class="lead">
+      StratMap also maintains comprehensive data standard specifications to ensure consistent, high quality data products across the State. <strong>StratMap personnel at TNRIS</strong> work with multiple agencies on cost-share initiatives in order to provide the State of Texas with best value data products.
+    </p>
+    <h2>How does this work?</h2>
+    <ul class="stratmap-work">
+      <li><strong>The StratMap team communicates regularly</strong> with State, Federal, regional and local government entities to discuss mapping needs.</li>
+      <li><strong>New projects are formed</strong> by identifying type of data required, location, specification, budget and timeline for delivery. </li>
+      <li><strong>Data acquisition, production and independent quality assurance and quality control (QA/QC)</strong> are awarded to private geospatial contractors through the <a href="/stratmap/stratmap-contracts">Texas Strategic Mapping Contracts</a>.</li>
+      <li><strong>After the final data deliverables are accepted</strong>, they are placed in the public domain for use by local, regional and federal government, academia, private industry and the public.</li>
+    </ul>
+  </div>
+  <div class="col-sm-4">
+    {% include "partials/latest-stratmap-datasets.njk" %}
+  </div>
 </section>
 <section id="stratmap-by-the-numbers">
     <div class="container">
@@ -94,9 +58,6 @@
             <div class="col-sm-4">
               <strong>$20.4 Million</strong><br> total spent on orthoimagery and Lidar data products for the State of Texas since 2009 through cost-share initiatives.
             </div>
-            <!-- <div class="col-xs-12">
-              Timeline? --- StratMap Program direct funding over time
-            </div> -->
           </div>
       </div>
 </section>
@@ -122,5 +83,4 @@
         </div>
         {% endfor %}
     </div>
-
 </section>
