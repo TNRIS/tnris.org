@@ -259,12 +259,7 @@ h2.forum-title-front {
     font-size: 22px;
     margin-top: 5px;
   }
-
-  .media:last-child {
-    @media (max-width: $screen-md) {
-      display: none;
-    }
-  }
+  
   .media:nth-child(3) {
     @media (max-width: $screen-md) {
       border-bottom: 0;
