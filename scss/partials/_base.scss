@@ -83,12 +83,25 @@ h2 {
   color: white;
   background-color: $tnrisblue;
   border-color: $urgentblue;
-  box-shadow: inset $urgentblue 0 0 7px;
   margin-top: 5px;
 
   &:hover {
     background: $urgentblue;
     color: white;
+  }
+}
+
+.btn-map-expander {
+  color: $tnrisblue;
+  background-color: $sky;
+  border-color: 0;
+  box-shadow: 0 !important;
+  border-radius: 0 !important;
+  margin-top: 5px;
+
+  &:hover {
+    background: $midsky;
+    color: $darkerblue;
   }
 }
 

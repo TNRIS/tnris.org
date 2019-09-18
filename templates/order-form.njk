@@ -10,190 +10,234 @@
 			</div>
 		</div>
 		<div class="row">
-		  <div class="col-md-8">
-		    <p>
-		      This form is used to initiate an order for a custom map or request pricing
-		      information for maps. The total price will be based on the amount staff
-		      time and reproduction costs.
-		    </p>
-		    <p>
-		      Please fill out all the information below and TNRIS staff will begin
-		      processing your request. You will be sent a quote before any work begins.
-		      After receiving the quote, you can proceed or cancel the order. Orders are
-		      completed in 3-10 business days.
-		    </p>
-		    <p>
-		      For other inquiries please use the <a href="/contact">general
-		      contact form</a>. Browse, download, order, and inquire about data within
+			<div class="col-md-8">
+				<p>
+					This form is used to initiate an order for a print of an existing map,
+					the creation of a custom map, or to request pricing information for maps.
+					The total price will be based on the amount staff time required to fulfill
+					the request and reproduction costs.
+				</p>
+				<p>
+					Please fill out all the information below and TNRIS staff will begin
+					processing your request. You will be sent a quote before any work begins.
+					After receiving the quote, you can proceed or cancel the order. Orders are
+					completed in 3-10 business days.
+				</p>
+				<p>
+					For other inquiries please use the <a href="/contact">general
+					contact form</a>. Browse, download, order, and inquire about data within
 					the <a href="https://data.tnris.org">DataHub</a>.
-		    </p>
-		  </div>
-
-			{% block sidebarLeft %}
-			{% endblock %}
-		</div>
-		<div class="row">
-		  <div class="col-xs-12 col-sm-10 col-md-8">
-		    {{form.before("order-map")}}
+				</p>
+				{{form.before("order-map")}}
 				{{form.hidden('Type of Data', 'Maps')}}
 
-		      <div ng-hide="!form_model['Type of Data']">
-			        {% set is_maps = "form_model['Type of Data'] == 'Maps'" %}
-			          {{form.multi(
-			              "Type of Map",
-			              "Type of Map",
-			              "radio",
-			              [
-			                ['Not TNRIS', 'Maps (USGS, NWI, FEMA)'],
-			                ['TNRIS', 'Custom Map (TNRIS)']
-			              ],
-			              true,
-			              is_maps
-			          )}}
+				<div ng-hide="!form_model['Type of Data']">
+					{% set map_type = "form_model['Type of Data'] == 'Maps'" %}
+						{{form.multi(
+							"Type of Map",
+							"Type of Map",
+							"radio",
+							[
+								['Federal Print', 'Federal Map Print (USGS, NWI, FEMA)'],
+								['Pre-Made Print', 'Pre-Made Map Print (TWDB, TNRIS)'],
+								['Custom', 'Custom Map']
+							],
+							true,
+							map_type
+						)}}
 
-		          {% set is_not_tnris = is_maps + " && form_model['Type of Map'] == 'Not TNRIS'" %}
-		            {{form.multi(
-		                "Map Option",
-		                "Map Option",
-		                "radio",
-		                [
-		                  ['USGS', 'USGS (7.5 Minute)'],
-		                  ['NWI', 'NWI (7.5 Minute)'],
-		                  ['FEMA', 'FEMA (panel)']
-		                ],
-		                true,
-		                is_not_tnris
-		            )}}
+					{% set is_federal_print = map_type + " && form_model['Type of Map'] == 'Federal Print'" %}
+						<div class="form-group form-callout" ng-show="{{is_federal_print}}">
+							<p>
+								Federal Map Prints are only available as original replicas and cannot be re-sized.
+								Provide the form information below to place an order.
+							</p>
+						</div>
 
-		            {{form.textarea(
-		                "Map Description",
-		                {
-		                  label: 'Map Description',
-		                  help: "List all quads/panels and specify quantity for each map"
-		                },
-		                true,
-		                is_not_tnris
-		            )}}
+						{{form.multi(
+							"Map Option",
+							"Map Option",
+							"radio",
+							[
+							['USGS', 'USGS (7.5 Minute)'],
+							['NWI', 'NWI (7.5 Minute)'],
+							['FEMA', 'FEMA (panel)']
+							],
+							true,
+							is_federal_print
+						)}}
 
-		          {% set is_tnris = is_maps + " && form_model['Type of Map'] == 'TNRIS'" %}
-		            {{form.multi(
-		                "Map Size",
-		                "Map size",
-		                "radio",
-		                [
-		                  ['8_by_11', '8 x 11'],
-		                  ['11_by_17', '11 x 17'],
-		                  ['24_by_24', '24 x 24'],
-		                  ['36_by_36', '36 x 36'],
-		                  ['custom', 'Custom Size']
-		                ],
-		                true,
-		                is_tnris
-		            )}}
+						{{form.textarea(
+							"Map Description",
+							{
+							label: 'Map Description',
+							help: "List all quads/panels and specify quantity for each map"
+							},
+							true,
+							is_federal_print
+						)}}
 
-		            {% set is_custom = is_tnris + " && form_model['Map Size'] == 'custom'" %}
-		              {{form.input(
-		                  "Custom Map Size",
-		                  "Custom Size",
-		                  "text",
-		                  true,
-		                  is_custom
-		              )}}
+					{% set is_premade_print = map_type + " && form_model['Type of Map'] == 'Pre-Made Print'" %}
+						<div class="form-group form-callout" ng-show="{{is_premade_print}}">
+							<p>
+								Visit the <a href="/maps">TNRIS Maps</a> page to browse the available pre-made maps. Copy 
+								the map collection name and sheet name into the form fields below to place an order for a print 
+								of one of the pre-made maps.
+								Pre-Made Map Prints are only available in the dimensions of the sheet as listed on the 
+								<a href="/maps">TNRIS Maps</a> page.
+							</p>
+						</div>
 
+						{{form.input(
+							"Map Collection Name",
+							"Map Collection Name",
+							"text",
+							true,
+							is_premade_print
+						)}}
 
-		          {% set show_scale = "(" + is_tnris + ") || form_model['Historical Imagery Medium'] == 'Paper'" %}
-		            {{form.input(
-		                "Map Scale",
-		                {
-		                  label: 'Scale',
-		                  help: 'For example: 1" = 500"'
-		                },
-		                "text",
-		                true,
-		                show_scale
-		            )}}
+						{{form.input(
+							"Map Sheet",
+							"Map Sheet",
+							"text",
+							true,
+							is_premade_print
+						)}}
 
-		            {{form.input(
-		                "Map Title",
-		                "Map Title",
-		                "text",
-		                true,
-		                is_tnris
-		            )}}
+						{{form.checkbox(
+							"Legislative Request",
+							"Is this a Legislative Request?",
+							"Yes",
+							false,
+							is_premade_print
+						)}}
 
-		            {{form.input(
-		                "Map Date",
-		                "Map Date",
-		                "text",
-		                true,
-		                is_tnris
-		            )}}
+					{% set is_custom = map_type + " && form_model['Type of Map'] == 'Custom'" %}
+						{{form.multi(
+							"Map Size",
+							"Map Size",
+							"radio",
+							[
+							['8.5_by_11', '8.5" x 11"'],
+							['11_by_17', '11" x 17"'],
+							['24_by_24', '24" x 24"'],
+							['24_by_28', '24" x 28"'],
+							['30_by_30', '30" x 30"'],
+							['36_by_36', '36" x 36"'],
+							['60_by_60', '60" x 60"'],
+							['custom_xlarge', 'Custom Size larger than 60" x 60"']
+							],
+							true,
+							is_custom
+						)}}
 
-							{# standard general form info #}
-			        {{form.textarea(
-			            "Additional Info",
-			            {
-			              label: 'Additional Information',
-			              placeholder: 'Additional information or comments about your order'
-			            },
-			            false
-			        )}}
+						{% set map_size_custom = is_custom + " && form_model['Map Size'] == 'custom_xlarge'" %}
+						{{form.input(
+							"Custom Map Size",
+							{
+							label: 'Custom Size',
+							help: "Custom sizes requests are only accepted for sizes greater than 60 x 60"
+							},
+							"text",
+							true,
+							map_size_custom
+						)}}
 
-			        {{form.input("Name", "Name", "text", true)}}
-			        {{form.input("Organization", "Organization", "text", false)}}
+						{{form.input(
+							"Map Scale",
+							{
+							label: 'Scale',
+							help: 'For example: 1" = 500"'
+							},
+							"text",
+							true,
+							is_custom
+						)}}
 
-			        {{form.industry()}}
-			        {{form.input("Address_1", "Address 1", "text", true)}}
-			        {{form.input("Address_2", "Address 2", "text", false)}}
-			        {{form.input("City", "City", "text", true)}}
-			        {{form.input("State", "State", "text", true)}}
-			        {{form.input("Zip", "Zip", "text", true)}}
-			        {{form.input("Email", "Email Address", "email", true)}}
-			        {{form.input("Phone", "Phone Number", "tel", false)}}
-			        {{form.input("Fax", "Fax Number", "tel", false)}}
+						{{form.input(
+							"Map Title",
+							"Map Title",
+							"text",
+							true,
+							is_custom
+						)}}
 
-			        {{form.multi(
-			            "Delivery Method",
-			            "Delivery Method",
-			            "radio",
-			            [
-			              ['Digital Download', 'Digital Download'],
-			              ['USPS', 'U.S.P.S'],
-			              ['FedEx', 'Fed-Ex ($10.00 - $15.00)'],
-			              ['FedEx Customer Charged', 'Fed-Ex charged to customer number']
-			            ],
-			            true
-			        )}}
+						{{form.input(
+							"Map Date",
+							"Map Date",
+							"text",
+							true,
+							is_custom
+						)}}
 
-			        {{form.input(
-			          "FedEx Customer Number", "Customer FedEx Account Number", "text", true,
-			          "form_model['Delivery Method'] == 'FedEx Customer Charged'")}}
+						{# standard general form info #}
+						{{form.textarea(
+							"Additional Info",
+							{
+							label: 'Additional Information',
+							placeholder: 'Additional information or comments about your order'
+							},
+							false
+						)}}
 
-			        {{form.multi(
-			            "Payment Method",
-			            "Payment Method",
-			            "radio",
-			            [
-			              ['Credit Card', 'Credit Card (A TNRIS staff member will call you to acquire your credit card information.)'],
-			              'Check',
-			              'Pay at Pickup',
-			              ['Purchase Order', 'Purchase Order (Government agencies only)']
-			            ],
-			            true
-			        )}}
+						{{form.input("Name", "Name", "text", true)}}
+						{{form.input("Organization", "Organization", "text", false)}}
 
-			        {{form.input(
-			          "Check Number", "Check Number", "text", true,
-			          "form_model['Payment Method'] == 'Check'")}}
+						{{form.industry()}}
+						{{form.input("Address_1", "Address 1", "text", true)}}
+						{{form.input("Address_2", "Address 2", "text", false)}}
+						{{form.input("City", "City", "text", true)}}
+						{{form.input("State", "State", "text", true)}}
+						{{form.input("Zip", "Zip", "text", true)}}
+						{{form.input("Email", "Email Address", "email", true)}}
+						{{form.input("Phone", "Phone Number", "tel", false)}}
+						{{form.input("Fax", "Fax Number", "tel", false)}}
 
-			        {{form.input(
-			          "Purchase Order Number", "Purchase Order Number", "text", true,
-			          "form_model['Payment Method'] == 'Purchase Order'")}}
+						{{form.multi(
+							"Delivery Method",
+							"Delivery Method",
+							"radio",
+							[
+							['Digital Download', 'Digital Download'],
+							['USPS', 'U.S.P.S'],
+							['FedEx', 'Fed-Ex ($10.00 - $15.00)'],
+							['FedEx Customer Charged', 'Fed-Ex charged to customer number']
+							],
+							true
+						)}}
 
-			        {{form.submit("order")}}
-		      </div>
-		    {{form.after()}}
-		  </div>
+						{{form.input(
+						"FedEx Customer Number", "Customer FedEx Account Number", "text", true,
+						"form_model['Delivery Method'] == 'FedEx Customer Charged'")}}
+
+						{{form.multi(
+							"Payment Method",
+							"Payment Method",
+							"radio",
+							[
+							['Credit Card', 'Credit Card (A TNRIS staff member will call you to acquire your credit card information.)'],
+							'Check',
+							'Pay at Pickup',
+							['Purchase Order', 'Purchase Order (Government agencies only)']
+							],
+							true
+						)}}
+
+						{{form.input(
+						"Check Number", "Check Number", "text", true,
+						"form_model['Payment Method'] == 'Check'")}}
+
+						{{form.input(
+						"Purchase Order Number", "Purchase Order Number", "text", true,
+						"form_model['Payment Method'] == 'Purchase Order'")}}
+
+						{{form.submit("order")}}
+				</div>
+				{{form.after()}}
+			</div>
+			<div class="col-md-4">
+				{% include "rdc/custom-pricing.njk" %}
+			</div>
 		</div>
 	</div>
 {% endblock %}
