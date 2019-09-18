@@ -93,7 +93,7 @@ function retrieveMaps() {
       record.setAttribute('class', 'map-collection-record');
       record.setAttribute('id', urlName);
 
-      var thumbnail = m.thumbnail_link ? `<img class="maps-thumbnail" src="${m.thumbnail_link}" /><br>` : '';
+      var thumbnail = m.thumbnail_link ? `<a href="${m.thumbnail_link}" data-toggle="lightbox" data-gallery="example-gallery" data-title="${m.name}"><img class="maps-thumbnail img-responsive" src="${m.thumbnail_link}" /><small><i class="glyphicon glyphicon-zoom-in"></i> Click to Preview</small></a>` : '';
 
       var monthNames = ["January", "February", "March", "April", "May","June","July", "August", "September", "October", "November","December"];
       var publishDate = new Date(m.publish_date);
