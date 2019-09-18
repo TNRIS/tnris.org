@@ -98,6 +98,7 @@ function retrieveMaps() {
       var monthNames = ["January", "February", "March", "April", "May","June","July", "August", "September", "October", "November","December"];
       var publishDate = new Date(m.publish_date);
 
+      var moreInfo = m.more_info_link ? `&nbsp;<a href="${m.more_info_link}">More Info</a>` : '';
       var downloadsList = buildDownloadsTable(m.map_downloads);
       var collectionsList = m.data_collections ? buildCollectionsList(m.data_collections) : '';
 
@@ -121,7 +122,7 @@ function retrieveMaps() {
                 <h3>
                   ${m.name}
                 </h3>
-                <p class="maps-description">${m.description}</p>
+                <p class="maps-description">${m.description}${moreInfo}</p>
               </div>
             </div>
           </div>
