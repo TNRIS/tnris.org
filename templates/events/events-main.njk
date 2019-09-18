@@ -25,20 +25,8 @@
       <div class="col-md-8">
         {{ contents|safe }}
       </div>
-      <div class="col-md-3 meeting-box">
-        <h3>
-          <strong>October 21-25, 2019
-            <i class="glyphicon glyphicon-star" style="color: #1e8dc1:"></i>
-          </strong><br>Texas GIS Forum/4th Quarter Community Meeting
-        </h3>
-        <p>The Annual Texas GIS Forum serves as the 4th Quarter Community Meeting.</p>
-          {# <time>
-            <i class="glyphicon glyphicon-time"></i>
-            2PM-4PM</time><br> #}
-        <location>
-          <strong>Location:</strong><br>Commons Conference Center Austin, Texas</location>
-          <p><a href="/texas-gis-forum/2019"><i class="glyphicon glyphicon-new-window"></i> Event Link</a></p>
-      </div>
+      <script src="/gio_calendar_next_cm.bundle.js"></script>
+      <div id="gio-calendar-next-cm" class="col-md-3"></div> 
     </div>
   </div>
 {% endblock %}
