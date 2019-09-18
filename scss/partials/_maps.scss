@@ -6,6 +6,17 @@ html {
 }
 
 .maps-list {
+  .map-collection-record {
+      a:hover {
+        text-decoration: none;
+      }
+
+      .full-details-btn {
+        border-radius: 0 !important;
+        box-shadow: 0 !important;
+      }
+  }
+
   .maps-header {
     background: $lightgrey;
     min-height: 40px;
@@ -30,7 +41,6 @@ html {
       }
 
       .maps-description {
-        margin-bottom: 0;
       }
     }
 
@@ -46,6 +56,10 @@ html {
 
         .size-column {
           min-width: 85px;
+        }
+
+        .download-column {
+          min-width: 113px;
         }
       }
 

@@ -10,7 +10,7 @@ function buildDownloadsTable(downloads) {
     return aName.localeCompare(bName, undefined, { numeric: true, sensitivity: 'base' });
   });
   mapDownloads.forEach(function(d){
-    var row = 
+    var row =
     `
       <tr>
         <td>${d.label}</td>
@@ -18,7 +18,7 @@ function buildDownloadsTable(downloads) {
         <td>${d.width}"</td>
         <td>${d.length}"</td>
         <td>${d.ppi}</td>
-        <td><a href="${d.url}">Download</a></td>
+        <td class="download-column"><a href="${d.url}"><i class="glyphicon glyphicon-download-alt"></i> Download</a></td>
       </tr>
     `;
     tableRows += row;
@@ -50,7 +50,7 @@ function buildCollectionsList(collections) {
   var mapCollections = JSON.parse('[' + collections + ']');
   mapCollections.forEach(function(c){
     var uuid = Object.keys(c)[0];
-    var item = 
+    var item =
     `
       <li><a href="https://data.tnris.org/collection/${uuid}">${c[uuid]}</a></li>
     `;
@@ -98,7 +98,7 @@ function retrieveMaps() {
       var monthNames = ["January", "February", "March", "April", "May","June","July", "August", "September", "October", "November","December"];
       var publishDate = new Date(m.publish_date);
 
-      var moreInfo = m.more_info_link ? `&nbsp;<a href="${m.more_info_link}">More Info</a>` : '';
+      var moreInfo = m.more_info_link ? `<a href="${m.more_info_link}"><i class="glyphicon glyphicon-new-window"></i> More Info</a>` : '';
       var downloadsList = buildDownloadsTable(m.map_downloads);
       var collectionsList = m.data_collections ? buildCollectionsList(m.data_collections) : '';
 
@@ -106,15 +106,6 @@ function retrieveMaps() {
         `<div class="row maps-header">
           <div class="col-xs-12 col-sm-3 left-sidebar">
             ${thumbnail}
-            <span class="glyphicon glyphicon-calendar"></span>
-            ${monthNames[publishDate.getMonth()]} ${publishDate.getDay()}, ${publishDate.getFullYear()}
-            <br>
-            <a id="${urlName}ClickSheets" data-toggle="collapse" aria-expanded="false" data-target="#${m.collection_id}Sheets" href="#${urlName}">
-              <button id="full-details-btn" class="btn btn-primary btn-sm" type="button" style="margin:7px;">
-                <span class="glyphicon glyphicon-download-alt"></span>
-                Available Sheets
-              </button>
-            </a>
           </div>
           <div class="col-xs-12 col-sm-9 right-mainbar">
             <div class="row">
@@ -122,9 +113,22 @@ function retrieveMaps() {
                 <h3>
                   ${m.name}
                 </h3>
-                <p class="maps-description">${m.description}${moreInfo}</p>
+                <p>
+                  <span class="glyphicon glyphicon-calendar"></span>
+                  ${monthNames[publishDate.getMonth()]} ${publishDate.getDay()}, ${publishDate.getFullYear()}
+                </p>
+                <p class="maps-description">${m.description}</p>
+                <p>${moreInfo}</p>
               </div>
             </div>
+          </div>
+          <div class="col-xs-12">
+            <a id="${urlName}ClickSheets" data-toggle="collapse" aria-expanded="false" data-target="#${m.collection_id}Sheets" href="#${urlName}">
+              <button class="btn btn-map-expander btn-lg btn-block full-details-btn" type="button">
+                <i class="glyphicon glyphicon-arrow-down"></i>
+                Expand Available Maps
+              </button>
+            </a>
           </div>
           <div id="${m.collection_id}Sheets" class="available-sheets col-xs-12 collapse" style="padding:20px;">
             ${downloadsList}${collectionsList}
@@ -142,8 +146,8 @@ function retrieveMaps() {
     var button = element ? element.children[0] : '';
     if (location.hash) {
       element.click();
-      button.className = 'btn btn-warning btn-sm';
-      button.innerHTML = "<span class='glyphicon glyphicon-minus'></span> Close Sheets";
+      button.className = 'btn btn-lg btn-block btn-tnris full-details-btn';
+      button.innerHTML = "<i class='glyphicon glyphicon-arrow-up'></i> Close Avaliable Maps";
       element.scrollIntoView({
         behavior: 'smooth'
       });
@@ -157,8 +161,8 @@ function retrieveMaps() {
     function clicker(x) {
       x.addEventListener("click", function() {
         var button = x.children[0];
-        button.classList.contains('btn-primary') ? button.className = 'btn btn-warning btn-sm' : button.className = 'btn btn-primary btn-sm';
-        button.innerHTML.includes('Available') ? button.innerHTML = "<span class='glyphicon glyphicon-minus'></span> Close Sheets" : button.innerHTML = "<span class='glyphicon glyphicon-download-alt'></span> Available Sheets";
+        button.classList.contains('btn-map-expander') ? button.className = 'btn btn-tnris btn-lg btn-block full-details-btn' : button.className = 'btn btn-map-expander btn-lg btn-block full-details-btn';
+        button.innerHTML.includes('Available') ? button.innerHTML = "<i class='glyphicon glyphicon-arrow-up'></i> Close Avaliable Maps" : button.innerHTML = "<i class='glyphicon glyphicon-arrow-down'></i> Expand Available Maps";
       });
     }
 
