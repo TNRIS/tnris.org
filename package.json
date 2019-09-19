@@ -44,7 +44,7 @@
     "file-loader": "^4.2.0",
     "glob": "^7.1.4",
     "gulp": "^4.0.2",
-    "gulp-front-matter": "^1.3.0",
+    "gulp-front-matter": "^2.0.0-7",
     "gulpsmith": "^0.6.0",
     "js-beautify": "^1.10.2",
     "jsdom": "^15.1.1",
