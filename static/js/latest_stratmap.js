@@ -1,10 +1,10 @@
-// get data collection records from tnris api
+// get stratmap data collection records from tnris api
 // inject collections into html; append html to template html
-function retrieveLatestDatasets() {
-  var dataUrl = 'https://api.tnris.org/api/v1/collections';
+function retrieveStratmapDatasets() {
+  var dataUrl = 'https://api.tnris.org/api/v1/collections?source_abbreviation=StratMap';
   return fetch(dataUrl).then(function(response) {
     if (!response.ok) {
-      throw new Error('Could not retrieve TNRIS API response for latest datasets.');
+      throw new Error('Could not retrieve TNRIS API response for latest stratmap datasets.');
     }
     return response.json();
   })
@@ -23,18 +23,18 @@ function retrieveLatestDatasets() {
       // fill dom list element with collection details
       collection.innerHTML =
         `
-          <a href="https://data.tnris.org/collection/${d.collection_id}" title="View ${d.name} on the DataHub">
-              <img class="" src="${d.thumbnail_image}" alt="Thumbnail image of ${d.name} data collection">
+          <a href="https://data.tnris.org/collection/${d.collection_id}">
+              <img class="" src="${d.thumbnail_image}" alt="${d.name} Thumbnail">
               <h3>
-                <strong>${year} - ${d.source_abbreviation}</strong><br>
+                <strong>${year}</strong><br>
                 ${d.name}
               </h3>
           </a>
         `;
       // append li element into template html
-      document.getElementById('latest-data-frontpage').appendChild(collection);
+      document.getElementById('latest-stratmap-datasets').appendChild(collection);
     });
   })
 }
 
-retrieveLatestDatasets();
+retrieveStratmapDatasets();
