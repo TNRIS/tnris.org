@@ -34,7 +34,7 @@ Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builde
 -   Hydro-flattening breaklines in SHP or Geodatabase
 -   Project-level FGDC metadata in XML
 
-#### 3-D Point Cloud Image of Lower Colorado San Bernard Lidar
+#### Bare Earth Digital Elevation Model of Lower Colorado San Bernard Lidar
 
 <img class="img-responsive" src="https://s3.amazonaws.com/data.tnris.org/b246f8f7-9c79-4c89-91f7-9c7f44955fca/assets/587cf3fe-c28f-4d2e-82c3-ee4d1586f10c.jpg" alt="detail image of the Lower Colorado San Bernard Lidar">
 
