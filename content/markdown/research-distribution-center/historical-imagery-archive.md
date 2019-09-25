@@ -93,7 +93,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
 <div class="row">
   <div class="col-md-6 acquiring-agency">
       <h3>United States Department of Agriculture and Agricultural Stabilization and Conservation Service</h3>
-      <a href="https://tnris-org-static.s3.amazonaws.com/images/usda_historical_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="United States Department of Agriculture (USDA) and Agricultural Stabilization and Conservation Service (ASCS)">
+      <a href="https://tnris-org-static.s3.amazonaws.com/images/usda_acs_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="United States Department of Agriculture (USDA) and Agricultural Stabilization and Conservation Service (ASCS)">
           <img class="thumbnail pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/usda_historical_th.jpg">
       </a>
       <ul class="list-clean">
