@@ -16,12 +16,13 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/stratmap_website_ban
 <div class="col-md-4">
 <div class="well well-md">
 <h2>Special Announcement:</h2>
-<p>After four years of success, the re-bid of StratMap contracts is coming up this November 2019! For the solicitation release date and other official posting information, please see the <a href="https://dir.texas.gov/View-Information-For-Vendors/Current-Contracting-Initiatives/Landing.aspx">DIR Current Contracting Initiatives site</a>. The new Request for Offer is listed as:</p>
+<p>After four years of success, the re-bid of StratMap contracts is coming up this <strong>November 2019</strong>! For the solicitation release date and other official posting information, please see the <a href="https://dir.texas.gov/View-Information-For-Vendors/Current-Contracting-Initiatives/Landing.aspx">DIR Current Contracting Initiatives site</a>. The new Request for Offer is listed as:</p>
 <h3>Type of Service/Products</h3>
 <p>Geographic Information Systems (GIS) Hardware, Software, and Services and Information Technology (IT) Based Land Surveying Hardware, Software and Related Services.</p>
 <h3>Description</h3>
 <p>DIR-CPO-TMP-444 Geographic Information Systems (GIS) Hardware, Software, and Services and Information Technology (IT) Based Land Surveying Hardware, Software and Related Services_</p>
 <p><strong>All current contract holders are required to re-submit.</strong></p>
+<a class"btn btn-lg btn-tnris" href="https://dir.texas.gov/View-Information-For-Vendors/Current-Contracting-Initiatives/Landing.aspx"></a>
 </div>
 </div>
 <hr>
