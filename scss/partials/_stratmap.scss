@@ -24,14 +24,19 @@
   color: white;
   font-size: 18px;
   padding-bottom: 30px;
-  text-shadow: 2px 2px 2px #333
+  text-shadow: 2px 2px 2px #333;
 
   h2 {
     color: $lightgrey;
+    font-size: 40px;
   }
 
   strong {
     font-size: 50px;
+  }
+
+  &.lidar-feature {
+    background: url(https://tnris-org-static.s3.amazonaws.com/images/buffalo_lidar_bg.jpg) 0 0;
   }
 
   &.lidar-numbers {
