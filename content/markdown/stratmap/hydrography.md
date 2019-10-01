@@ -25,8 +25,11 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/hydro_banner.jpg
 <figure><img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/hydrosample.jpg" alt="Map of WBD regions">
 <figcaption>Overlay of NHD on Aerial Image</figcaption></figure>
 
-<figure><img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/wbd_subregions.jpg" alt="Map of WBD regions">
-<figcaption>Overview of the Watershed Boundary Dataset</figcaption></figure>
+<figure>
+<a href="https://tnris-org-static.s3.amazonaws.com/images/wbd_subregions_lg.png" data-toggle="lightbox" data-gallery="example-gallery" data-title="Watershed Boundary Dataset (WBD) Sub Regions">
+    <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/wbd_subregions_lg.png">
+</a>
+<figcaption><i class="glyphicon glyphicon-zoom-in"></i> Click to Enlarge. Overview of the Watershed Boundary Dataset. </figcaption></figure>
 </div>
 
 </div>
@@ -50,7 +53,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/hydro_banner.jpg
 
 <h2>NHD Plus HR Beta</h2>
 
-[NHD Plus HR Beta]( https://www.usgs.gov/core-science-systems/ngp/national-hydrography/nhdplus-high-resolution) is the newest iteration of the NHD product currently available for Texas. NHDPlus HR is comprised of a nationally seamless network of stream reaches, elevation-based catchment areas, flow surfaces, and value-added attributes that enhance stream network navigation, analysis, and data display.
+[NHD Plus HR Beta](https://www.usgs.gov/core-science-systems/ngp/national-hydrography/nhdplus-high-resolution) is the newest iteration of the NHD product currently available for Texas. NHDPlus HR is comprised of a nationally seamless network of stream reaches, elevation-based catchment areas, flow surfaces, and value-added attributes that enhance stream network navigation, analysis, and data display.
 
 <p>In Texas NHD Plus HR is currently available for all regions of Texas and beta QC is either in progress or completed. </p>
 

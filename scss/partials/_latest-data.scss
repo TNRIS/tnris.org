@@ -1,5 +1,5 @@
 /* styles for latest-datahub-collections partial */
-#latest-data-container {
+.latest-data-container {
   position: relative;
   width: 100%;
 
@@ -7,8 +7,8 @@
     font-size: 22px;
   }
 
-  #latest-data-collections {
-    div.latest-data-front {
+  .latest-data-collection {
+    div.latest-data-item {
       clear: both;
       float: left;
       margin-bottom: 10px;
@@ -37,11 +37,13 @@
 
       img {
         position: absolute;
-        width: 100%;
 
-        @media (min-width: $screen-md) {
-          height: 150px;
-          width: auto;
+        @media (min-width: $screen-sm) {
+          max-height: 100%;
+        }
+
+        @media (min-width: $screen-lg) {
+          width: 100%;
         }
       }
 
