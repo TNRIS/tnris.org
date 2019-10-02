@@ -6,9 +6,13 @@
   line-height: 1.4;
 
   .event-circle {
-    text-align: center;
+    padding: 20px 10px 20px 10px;
+    max-width: 300px;
 
-    a {
+    .shadow-wrapper {
+      filter: drop-shadow(3px 6px 5px rgba(0,0,0,0.55));
+
+      a {
         background: $black;
         clip-path: circle(50% at 50% 50%);
         -webkit-clip-path: circle(50% at 50% 50%);
@@ -24,18 +28,23 @@
           opacity: .9;
           }
         }
-    }
+      }
 
-    h3 {
-      color: $white;
-      font-size: 50px;
-      position: absolute;
-      top: 40%;
-      text-align: center;
-      width: 65%;
-      padding: 0;
-      margin: 0;
-      text-shadow: 1px 1px 2px #000;
+      h3 {
+        color: $white;
+        font-size: 45px;
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        width: 65%;
+        padding: 0;
+        margin: 0;
+        text-shadow: 1px 1px 2px #000;
+
+        @media (max-width: $screen-sm) {
+          font-size: 30px;
+        }
+      }
     }
   }
 
