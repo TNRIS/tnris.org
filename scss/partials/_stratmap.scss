@@ -51,22 +51,21 @@
     background: $lightergrey;
     color: $darkgrey;
   }
+}
 
-  &.parcel-numbers {
-    background: $lightgrey;
+#parcel-numbers {
+  background: $lightgrey;
+  color: $darkgrey;
+  font-size: 18px;
+  padding-bottom: 30px;
+
+  h2 {
     color: $darkgrey;
-    font-size: 18px;
-    padding-bottom: 30px;
-
-    h2 {
-      color: $darkgrey;
-    }
-
-    strong {
-      font-size: 25px;
-    }
   }
 
+  strong {
+    font-size: 25px;
+  }
 }
 
 .thumbnail.vendor-box {
