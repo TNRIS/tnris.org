@@ -2,18 +2,18 @@
 title: New 2018-2019 NAIP Aerial Imagery Now Available
 layout: news-article.njk
 author: StratMap
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/zilerparkfull_th.jpg
-thumbalt: Small thumb of 2019 Capital Area Imagery
+thumbnail: https://tnris-org-static.s3.amazonaws.com/images/naip2018_2019_th.jpg
+thumbalt: NAIP 2018 to 2019 Imagery
 abstract:
-   High resolution 6-inch and 12-inch aerial imagery are now available from TNRIS for the Capital Area and Brazos County.
+   High resolution 60-cm (2-foot) aerial imagery for statewide NAIP imagery from 2018-2019 are now available from TNRIS
 ---
 
 <figure class="data-preview">
-  <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-    <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/zilkerpark_nc.jpg" alt="Natural Color preview of Zilker Park">
-    <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/zilkerpark_cir.jpg" alt="Color infra red of Zilker Park">
-  </div>
-  <figcaption>Zilker Park, January 12, 2019, SCALE 1:2500</figcaption>
+<div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_nc_1to32000_galveston_20181204.jpg" alt="Natural Color preview of Galveston Island">
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_cir_1to32000_galveston_20181204.jpg" alt="Color infra red of Galveston Island">
+</div>
+<figcaption>Galveston Island,  SCALE 1:32,000, December 4, 2018</figcaption>
 </figure>
 
 High resolution 60-cm (2-foot) aerial imagery are now available statewide from TNRIS.
@@ -37,8 +37,8 @@ The GeoTIFFs and JPEG2000 images are in the public domain. The JPEG2000s are ava
 
 ## Acquisition Areas
 
-View coverage areas in the map below:
-<img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/stratmap19_capcog_brazos.jpg" alt="Coverage Map of New Capital Area Imagery">
+The NAIP 2018-2019 has statewide coverage:
+<img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/statewide_nc.jpg" alt="Statewide mosaic of 2018-2019 NAIP imagery">
 
 * * *
 
@@ -60,9 +60,15 @@ View coverage areas in the map below:
 -   Units in meters
 -   DOQQ (approx. 16 sq. mi.) image tiles, 1/4th USGS 7.5-minute quadrangle
 
-<Insert hwycompare.....jpg>
+### Compare the 2018 60CM imagery to 2016 1M imagery below
 
-Comparison of previous 1-meter NAIP with the new 60-cm NAIP.  SCALE 1:2,200  December 10, 2018.
+<figure class="data-preview">
+<div id="imageCompare1" class='twentytwenty-container naip-compare-2018-2019'>
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_nc_1to2200_hwycompare_20181210.jpg" alt="2018 60CM NAIP imagery">
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2016_naip_1m_nc_1to2200_hwycompare_20181210.jpg" alt="2016 1M NAIP Imagery">
+</div>
+<figcaption>Comparison of new 60-cm NAIP (left) with previous 1-meter NAIP (right).  SCALE 1:2,200, December 10, 2018</figcaption>
+</figure>
 
 * * *
 
@@ -70,46 +76,40 @@ Comparison of previous 1-meter NAIP with the new 60-cm NAIP.  SCALE 1:2,200  Dec
 
 ### Oil pads in Irion County | SCALE 1:26,000
 
-<Insert irioncounty.....jpg>
-
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2019_caparea_6in_nc_1to2300_appleinc_20190112.jpg" alt="Natural Color preview of Apple Inc">
-  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2019_caparea_6in_cir_1to2300_appleinc_20190112.jpg" alt="Color infra red of Apple Inc">
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_nc_1to26000_irioncounty_20181009.jpg" alt="Natural Color preview of Irion County">
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_nc_1to26000_irioncounty_20181009.jpg" alt="Color infra red of Irion County">
 </div>
 <figcaption>Oil pads in Irion County, SCALE 1:26,000, October 9, 2018</figcaption>
 </figure>
 
 ### AIBA in Austin | SCALE 1:2,700
 
-<Insert abi.....jpg>
-
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2019_caparea_6in_nc_1to650_austinneighborhood_20190112.jpg" alt="Natural Color preview of Austin Neighborhood">
-  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2019_caparea_6in_cir_1to650_austinneighborhood_20190112.jpg" alt="Color infra red of Austin Neighborhood">
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_nc_1to2700_abia_20181101.jpg" alt="Natural Color preview of AIBA">
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_cir_1to2700_abia_20181101.jpg" alt="Color infra red of AIBA">
 </div>
 <figcaption>Austin-Bergstrom International Airport (AIBA) in Austin, TX,  SCALE 1:2,700,  November 1, 2018</figcaption>
 </figure>
 
 ### Snow in the Davis Mountains | SCALE 1:20,000
 
-<Insert davismountains-snow.....jpg>
-
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/zilkerparking1.jpg" alt="Natural Color preview of Zilker Park Parking">
-  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/zilkerparking2.jpg" alt="Color infra red of Zilker Park Parking">
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_nc_1to20000_davismountains-snow_20181214.jpg" alt="Natural Color preview of Davis Mountains">
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_cir_1to20000_davismountains-snow_20181214.jpg" alt="Color infra red of Davis Mountains">
 </div>
 <figcaption>Snow in the Davis Mountains off Hwy 118, SCALE 1:20,000, December 14, 2018</figcaption>
 </figure>
 
-### Neighborhood in Austin | SCALE 1:2,200
+### Neighborhood in Austin, TX | SCALE 1:2,200
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/downtown1.jpg" alt="Natural Color preview of Downtown Austin">
-  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/downtown2.jpg" alt="Color infra red of Downtown Austin">
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_nc_1to2200_austinneighborhood_20181103.jpg" alt="Natural Color preview of Neighborhood in Austin">
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_cir_1to2200_austinneighborhood_20181103.jpg" alt="Color infra red of Neighborhood Austin">
 </div>
 <figcaption>Neighborhood in Austin, TX  SCALE 1:2,200,  November 3, 2018</figcaption>
 </figure>
