@@ -68,10 +68,18 @@
   }
 }
 
+.naip-compare-2018-2019 {
+  .twentytwenty-before-label:before {
+    content: '60CM 2018-2019 NAIP';
+  }
+
+  .twentytwenty-after-label:before {
+    content: '1M 2016 NAIP';
+  }
+}
 
 
-
-.twentytwenty-before-label, 
+.twentytwenty-before-label,
 .twentytwenty-after-label {
   &:before {
     background: rgba(0, 0, 0, .5);
@@ -88,7 +96,7 @@
 
 figure.data-preview {
   margin-bottom: 30px;
-  
+
   figcaption {
     font-size: 16px;
     padding-left: 20px;
