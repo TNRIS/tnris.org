@@ -31,7 +31,7 @@ _Note: Per FSA, full coverage along the TX/MX border is not available in some ar
 
 The GeoTIFFs and JPEG2000 images are in the public domain. The JPEG2000s are available for direct download from the DataHub.
 
-<a class="btn btn-lg btn-tnris" href="#"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<a class="btn btn-lg btn-tnris" href="https://data.tnris.org/collection/f1d66250-4021-47df-9fe9-9fca286b0f50"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
 
 * * *
 
