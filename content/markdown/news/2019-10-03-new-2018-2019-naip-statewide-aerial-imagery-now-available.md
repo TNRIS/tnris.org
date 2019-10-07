@@ -67,7 +67,7 @@ The NAIP 2018-2019 has statewide coverage:
   <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_nc_1to2200_hwycompare_20181210.jpg" alt="2018 60CM NAIP imagery">
   <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2016_naip_1m_nc_1to2200_hwycompare_20181210.jpg" alt="2016 1M NAIP Imagery">
 </div>
-<figcaption>Comparison of new 60-cm NAIP (left) with previous 1-meter NAIP (right).  SCALE 1:2,200, December 10, 2018</figcaption>
+<figcaption>Comparison of new 60-cm NAIP (left) with previous 1-meter NAIP (right). SCALE 1:2,200</figcaption>
 </figure>
 
 * * *
@@ -79,7 +79,7 @@ The NAIP 2018-2019 has statewide coverage:
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
   <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_nc_1to26000_irioncounty_20181009.jpg" alt="Natural Color preview of Irion County">
-  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_nc_1to26000_irioncounty_20181009.jpg" alt="Color infra red of Irion County">
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/2018-2019_naip_60cm_cir_1to26000_irioncounty_20181009.jpg" alt="Color infra red of Irion County">
 </div>
 <figcaption>Oil pads in Irion County, SCALE 1:26,000, October 9, 2018</figcaption>
 </figure>
