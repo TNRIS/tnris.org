@@ -28,10 +28,15 @@
 
   h2 {
     color: $lightgrey;
+    font-size: 40px;
   }
 
   strong {
     font-size: 50px;
+  }
+
+  &.lidar-feature {
+    background: url(https://tnris-org-static.s3.amazonaws.com/images/buffalo_lidar_bg.jpg) 0 0;
   }
 
   &.lidar-numbers {
@@ -46,22 +51,21 @@
     background: $lightergrey;
     color: $darkgrey;
   }
+}
 
-  &.parcel-numbers {
-    background: $lightgrey;
+#parcel-numbers {
+  background: $lightgrey;
+  color: $darkgrey;
+  font-size: 18px;
+  padding-bottom: 30px;
+
+  h2 {
     color: $darkgrey;
-    font-size: 18px;
-    padding-bottom: 30px;
-
-    h2 {
-      color: $darkgrey;
-    }
-
-    strong {
-      font-size: 25px;
-    }
   }
 
+  strong {
+    font-size: 25px;
+  }
 }
 
 .thumbnail.vendor-box {
