@@ -5,6 +5,8 @@
 // markdown content div within rdc-sub.njk
 .rdc-sub-content-column {
     .acquiring-agency {
-        min-height: 610px;
+      img.thumbnail {
+        max-width: 30%;
+      }
     }
 }
