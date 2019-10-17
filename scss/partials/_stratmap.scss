@@ -8,27 +8,6 @@
   }
 }
 
-.stratmap-releases {
-  background: $lightgrey;
-  padding-bottom: 30px;
-
-  h3 {
-    color: $auburn;
-  }
-
-  h4 a {
-    color: $darkgrey;
-  }
-
-    img {
-      max-width: 100px;
-    }
-
-    h4 {
-      font-size: 20px;
-    }
-}
-
 .stratmap-project {
 
     .thumbnail {
@@ -41,18 +20,23 @@
 }
 
 #stratmap-by-the-numbers {
-  background: $darkgrey;
-  color: white;
+  background: $lightgrey;
+  color: $darkgrey;
   font-size: 18px;
   padding-bottom: 30px;
-  text-shadow: 2px 2px 2px #333
+  // text-shadow: 2px 2px 2px #333;
 
   h2 {
-    color: $lightgrey;
+    color: $darkgrey;
+    // font-size: 40px;
   }
 
   strong {
-    font-size: 50px;
+    font-size: 25px;
+  }
+
+  &.lidar-feature {
+    background: url(https://tnris-org-static.s3.amazonaws.com/images/buffalo_lidar_bg.jpg) 0 0;
   }
 
   &.lidar-numbers {
@@ -67,22 +51,21 @@
     background: $lightergrey;
     color: $darkgrey;
   }
+}
 
-  &.parcel-numbers {
-    background: $lightgrey;
+#parcel-numbers {
+  background: $lightgrey;
+  color: $darkgrey;
+  font-size: 18px;
+  padding-bottom: 30px;
+
+  h2 {
     color: $darkgrey;
-    font-size: 18px;
-    padding-bottom: 30px;
-
-    h2 {
-      color: $darkgrey;
-    }
-
-    strong {
-      font-size: 25px;
-    }
   }
 
+  strong {
+    font-size: 25px;
+  }
 }
 
 .thumbnail.vendor-box {
