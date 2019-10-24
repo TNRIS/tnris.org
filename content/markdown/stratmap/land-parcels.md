@@ -3,7 +3,7 @@ title: Land Parcels
 layout: stratmap/main.njk
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/landparcels.jpg
 progress_1: 86
-progress_2: 229
+progress_2: 228
 ---
 
 <div class="container">
