@@ -9,6 +9,5 @@ bodyClass: forum-sub-2016
 intro: false
 abstract: Save the date for the Texas GIS Forum, the state's premier conference for the geospatial professional community.
 ---
-<div>
-  {% include "events/texas-gis-forum/2016/job-board-upload.njk" %}
-</div>
+
+<p class="lead"><em>No Longer Active</em></p>
