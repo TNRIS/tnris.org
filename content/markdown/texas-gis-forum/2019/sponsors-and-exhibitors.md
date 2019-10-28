@@ -174,11 +174,9 @@ Exhibitor Only option is reserved for government agencies, educational instituti
 -   Thursday PM - $250 – 2 available
 -   Friday AM - $250 – 1 available
 
-* * *
-
-<p class="lead">
+<!-- <p class="lead">
    After viewing the <a href="https://tnris-org-static.s3.amazonaws.com/documents/tx-gis-forum-sponsor-rules-and-regulations-2019.pdf"><strong> Sponsor Rules and Regulations</strong></a>, visit the link  to register as a sponsor.
 </p>
 <p>
   <a class="btn btn-lg btn-periwinkle pull-left" href="{{buttonurl}}" target="_blank"><i class="glyphicon glyphicon-pencil"></i> {{buttontext}}</a>
-</p>
+</p> -->

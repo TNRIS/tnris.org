@@ -34,6 +34,7 @@ function generate(env) {
       'gio_calendar_next_sgm': [path.resolve(__dirname, 'static/js/gio_calendar_next_sgm.js')],
       'gio_calendar_quad': [path.resolve(__dirname, 'static/js/gio_calendar_quad.js')],
       'latest_stratmap': [path.resolve(__dirname, 'static/js/latest_stratmap.js')],
+      'maps': [path.resolve(__dirname, 'static/js/maps.js')],
       'mapserver': [path.resolve(__dirname, 'static/js/mapserver.js')],
       'processed': processedHTML,
       'static': staticFiles,

@@ -98,7 +98,7 @@ function retrieveMaps() {
       var monthNames = ["January", "February", "March", "April", "May","June","July", "August", "September", "October", "November","December"];
       var publishDate = new Date(m.publish_date);
 
-      var moreInfo = m.more_info_link ? `<a href="${m.more_info_link}"><i class="glyphicon glyphicon-new-window"></i> More Info</a>` : '';
+      var moreInfo = m.more_info_link ? `<a href="${m.more_info_link}" target="_blank" title="Open More Info on ${m.name} in New Window"><i class="glyphicon glyphicon-new-window"></i> More Info</a>` : '';
       var downloadsList = buildDownloadsTable(m.map_downloads);
       var collectionsList = m.data_collections ? buildCollectionsList(m.data_collections) : '';
 

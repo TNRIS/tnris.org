@@ -7,26 +7,21 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/addresspoints.jpg
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <p class="lead">
-       Geographic address points are a vital tool to conduct state business, such as emergency management, flood planning, permitting, and development. The statewide address point aggregation initiative will save time for state agencies that currently acquire this data to conduct business. Relationships throughout the state with local creators of address point data will allow TNRIS to collect and share this dataset publicly.
-      </p>
-      <h3>Download Dataset</h3>
-      <p>This first statewide address point dataset was compiled in 2017 by The University of Texas Center for Water and the Environment to assist the Texas Division of Emergency Management with flooding events.</p>
-      <p>Use the DataHub to download the Address Points dataset:
-        <a class="btn btn-lg btn-tnris pull-right" href="https://data.tnris.org/collection/c56ff69b-efe7-46e7-89c7-43e655188382"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
-      </p>
-      <i class="glyphicon glyphicon-info-sign"></i> See full information on UT's project at the following link:
-      <br>
-      <a href="https://ut-austin.maps.arcgis.com/apps/MapSeries/index.html?appid=557660a6c1ae40be8a2a084b0ad51a79">2017 Texas Address and Base Layers Story Map</a>
+      <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://tnris-org-static.s3.amazonaws.com/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
+      <p class="lead">Address points are site or structure point data that have associated information such as house number, street name, postal community, and postal code. This information is recorded and maintained at the city and county level in Texas and aggregated to Regional Planning Commissions or Emergency Communications Districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
     </div>
     <div class="col-md-4">
+      <h2 style="margin-top: 0">Download Dataset</h2>
+      <p>Data were received from across 247 counties and may not be complete coverage.  Please see the SOURCE field on each record to determine the data creator or aggregator.</p>
+      <p>Use the DataHub to download the Address Points dataset:</p>
+      <a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/collection/c56ff69b-efe7-46e7-89c7-43e655188382"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
       <h2>Contact Us</h2>
       <p>Contact TNRIS with any further questions regarding this program and someone from StratMap will get in touch with you.</p>
-      <a class="btn btn-md btn-tnris btn-lg" href="/contact"><i class="glyphicon glyphicon-document"></i>Contact Us</a>
+      <a class="btn btn-md btn-tnris btn-lg center-block" href="/contact"><span class="glyphicon glyphicon-comment"></span> Contact Us</a>
     </div>
   </div>
 </div>
-<section id="stratmap-by-the-numbers" class="parcel-numbers">
+<section id="stratmap-by-the-numbers">
 <div class="container">
     <h2>Program Timeline</h2>
     <p class="lead">This timeline documents past events and estimates future milestones. As milestones are met, this timeline will be updated. Please check each county for the most recent version of data.</p>
@@ -124,7 +119,6 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/addresspoints.jpg
 </div>
 
 <hr class="clearfix hidden-xs hidden-sm">
-
 
 <div class="row">
 <div class="col-md-6">

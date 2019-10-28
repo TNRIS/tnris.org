@@ -11,15 +11,15 @@ require('../config');
 
 angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'ngFileUpload', 'vcRecaptcha'])
   .controller('FormController',
-    ['$scope', '$http', '$log', '$window', 'UploadService', 'CONTACT_SUBMIT_URL', 'RECAPTCHA_MODEL_KEY',
-    function($scope, $http, $log, $window, UploadService, CONTACT_SUBMIT_URL, RECAPTCHA_MODEL_KEY) {
+    ['$scope', '$http', '$log', '$window', 'UploadService', 'CONTACT_SUBMIT_URL', 'RECAPTCHA_SITE_KEY',
+    function($scope, $http, $log, $window, UploadService, CONTACT_SUBMIT_URL, RECAPTCHA_SITE_KEY) {
 
       $scope.master = {};
       $scope.errors = {};
       $scope.status = 'not submitted';
       $scope.widgetId = null;
       $scope.recaptchaModel = {
-        key: RECAPTCHA_MODEL_KEY
+        key: RECAPTCHA_SITE_KEY
       };
 
       $scope.recaptchaSetResponse = function (response) {
