@@ -20,19 +20,19 @@
 }
 
 #stratmap-by-the-numbers {
-  background: $darkgrey;
-  color: white;
+  background: $lightgrey;
+  color: $darkgrey;
   font-size: 18px;
   padding-bottom: 30px;
-  text-shadow: 2px 2px 2px #333;
+  // text-shadow: 2px 2px 2px #333;
 
   h2 {
-    color: $lightgrey;
-    font-size: 40px;
+    color: $darkgrey;
+    // font-size: 40px;
   }
 
   strong {
-    font-size: 50px;
+    font-size: 25px;
   }
 
   &.lidar-feature {
@@ -396,7 +396,7 @@ ul.stratmap-work {
 
     .phase-7-b {
       left: 450px;
-      background: $auburn;
+      background: #4a9e4a;
 
       @media (min-width: $screen-md) {
           left: 600px;
