@@ -210,7 +210,31 @@ gulp.task('dist-metal', function () {
         .use(each(function(file) {
           // append list of random images to use in 404
           if (file.filename == '404.md') {
-            file.contents = new Buffer.from(file.contents+'<script>var a =["past_gis@2x.jpg","ryan.jpg","lauren.jpg","joey.jpg","jason.jpg","erik.jpg","david.jpg","adam.jpg","felicia.jpg","gayla.jpg","miguel.jpg","patricia.jpg","richard.jpg","richard_1987.jpg","giscat.jpg","henry.jpg"];var i =a[Math.floor(Math.random()*a.length)];document.getElementById("fourohfour").src="https://tnris-org-static.s3.amazonaws.com/images/"+i;</script>');
+            file.contents = new Buffer.from(
+              file.contents + `<script>
+                                var a = [
+                                  "past_gis@2x.jpg",
+                                  "ryan.jpg",
+                                  "lauren.jpg",
+                                  "joey.jpg",
+                                  "jason.jpg",
+                                  "erik.jpg",
+                                  "david.jpg",
+                                  "adam.jpg",
+                                  "felicia.jpg",
+                                  "gayla.jpg",
+                                  "miguel.jpg",
+                                  "patricia.jpg",
+                                  "richard.jpg",
+                                  "richard_1987.jpg",
+                                  "giscat.jpg",
+                                  "henry.jpg",
+                                  "baby_food.jpg"
+                                ];
+                                var i =a[Math.floor(Math.random()*a.length)];
+                                document.getElementById("fourohfour").src="https://tnris-org-static.s3.amazonaws.com/images/"+i;
+                              </script>`
+            );
           }
         }))
         // process .md files into HTML
