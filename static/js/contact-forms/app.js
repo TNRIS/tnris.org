@@ -11,15 +11,15 @@ require('../config');
 
 angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'ngFileUpload', 'vcRecaptcha'])
   .controller('FormController',
-    ['$scope', '$http', '$log', '$window', 'UploadService', 'CONTACT_SUBMIT_URL', 'RECAPTCHA_MODEL_KEY',
-    function($scope, $http, $log, $window, UploadService, CONTACT_SUBMIT_URL, RECAPTCHA_MODEL_KEY) {
+    ['$scope', '$http', '$log', '$window', 'UploadService', 'CONTACT_SUBMIT_URL', 'RECAPTCHA_SITE_KEY',
+    function($scope, $http, $log, $window, UploadService, CONTACT_SUBMIT_URL, RECAPTCHA_SITE_KEY) {
 
       $scope.master = {};
       $scope.errors = {};
       $scope.status = 'not submitted';
       $scope.widgetId = null;
       $scope.recaptchaModel = {
-        key: RECAPTCHA_MODEL_KEY
+        key: RECAPTCHA_SITE_KEY
       };
 
       $scope.recaptchaSetResponse = function (response) {
@@ -81,6 +81,7 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'ngFileUpload', 'vcR
         resetUpload();
 
         if (!$files || !$files.length) {
+          setUploadError("Zipfile not uploaded! Only zipfiles are accepted. Please check your file type and ensure the selected file's size is less than 20 MB.");
           return;
         }
 
@@ -112,6 +113,7 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'ngFileUpload', 'vcR
         resetUpload();
 
         if (!$files || !$files.length) {
+          setUploadError("File not uploaded! Please check your file type and ensure the selected file's size is less than 5 MB.");
           return;
         }
 
@@ -138,6 +140,7 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'ngFileUpload', 'vcR
         resetUpload();
 
         if (!$files || !$files.length) {
+          setUploadError("Image not uploaded! Only image files are accepted. Please check your file type and ensure the selected image file's size is less than 5 MB.");
           return;
         }
 

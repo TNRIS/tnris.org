@@ -37,21 +37,21 @@ angular.module('ContactFormApp')
       service.uploadZip = function uploadZip(file, form_id) {
         return getPolicy(ZIP_UPLOAD_POLICY_URL)
           .then(function (s3policy) {
-            return $upload.upload(uploadParams(file, form_id, "application/zip", s3policy));
+            return Upload.upload(uploadParams(file, form_id, "application/zip", s3policy));
           });
       };
 
       service.uploadImage = function uploadImage(file, form_id) {
         return getPolicy(IMAGE_UPLOAD_POLICY_URL)
           .then(function (s3policy) {
-            return $upload.upload(uploadParams(file, form_id, file.type, s3policy));
+            return Upload.upload(uploadParams(file, form_id, file.type, s3policy));
           });
       };
 
       service.uploadFile = function uploadFile(file, form_id) {
         return getPolicy(FILE_UPLOAD_POLICY_URL)
           .then(function (s3policy) {
-            return $upload.upload(uploadParams(file, form_id, file.type, s3policy));
+            return Upload.upload(uploadParams(file, form_id, file.type, s3policy));
           });
       };
 

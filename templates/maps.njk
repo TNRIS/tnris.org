@@ -1,0 +1,36 @@
+{% extends "base.njk" %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="/maps.bundle.js"></script>
+{% endblock %}
+
+{% block topcontent %}{% endblock %}
+
+{% block contentsOne %}
+  <div class="container">
+    <h1 id="title">{{title}}</h1>
+    {% if abstract %}
+      <div class="lead">{{abstract}}</div>
+    {% endif %}
+  </div>
+  <div id="contentMain" class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {{ contents|safe }}
+        <div id="insert-maps" class="maps-list" data-spy="scroll" data-target=".maps-header">
+          <!-- map collections get inserted here from the tnris api -->
+        </div>
+      </div>
+      <div class="col-md-4">
+        {% block sidebarLeft %}
+          <h3>Order Map</h3>
+          <p>Use the online form to order a print of a map listed or a customized map. Please review the pricing list below before placing an order.</p>
+          <a href="/order-map" class="btn btn-lg btn-success btn-block"><span class="fa fa-hand-o-right"></span> Order Map</a>
+          <hr>
+          {% include "rdc/custom-pricing.njk" %}
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

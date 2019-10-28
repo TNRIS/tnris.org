@@ -3,7 +3,7 @@ title: Land Parcels
 layout: stratmap/main.njk
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/landparcels.jpg
 progress_1: 86
-progress_2: 229
+progress_2: 228
 ---
 
 <div class="container">
@@ -30,7 +30,7 @@ progress_2: 229
     </div>
   </div>
 </div>
-<section id="stratmap-by-the-numbers" class="parcel-numbers">
+<section id="parcel-numbers">
   <div class="container">
     <h2>Program Timeline</h2>
     <p class="lead">This timeline documents past events and estimates future milestones. As milestones are met, this timeline will be updated. Please check each county for the most recent version of data.</p>
