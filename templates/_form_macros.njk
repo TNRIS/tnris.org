@@ -119,6 +119,7 @@
           <input
             type="{{type}}"
             ng-model="{{model_name}}"
+            name="{{name}}"
             value="{{value}}"
             {{requiredAttr(required, show)}}>
             {{text}}
@@ -265,9 +266,9 @@
   <div class="ie-all-hide" ng-hide="isUploadUnsupported">
     {{_item_before(name, display, type, required, show)}}
       <div ng-hide="isUploading">
-        <input type="file" ng-file-select ng-model="files"
-          ng-multiple="false" name="{{name}}" accept=".zip"
-          ng-file-change="uploadZipFile($files, $event)"
+        <input type="file" ng-model="file" ngf-max-size="20MB"
+          name="{{name}}" ngf-pattern="'.zip'" ngf-accept="'.zip*'"
+          ngf-select="uploadZipFile($files, $event)"
           {{requiredAttr(required, show)}}>
       </div>
 
@@ -290,9 +291,9 @@
   <div class="ie-all-hide" ng-hide="isUploadUnsupported">
     {{_item_before(name, display, type, required, show)}}
       <div ng-hide="isUploading">
-        <input type="file" ng-file-select ng-model="files"
-          ng-multiple="false" name="{{name}}" accept="{{accept}}"
-          ng-file-change="uploadFile($files, $event)"
+        <input type="file" ng-model="file" ngf-max-size="5MB"
+          name="{{name}}" ngf-accept="'{{accept}}'"
+          ngf-select="uploadFile($files, $event)"
           {{requiredAttr(required, show)}}>
       </div>
 
@@ -315,9 +316,9 @@
   <div class="ie-all-hide" ng-hide="isUploadUnsupported">
     {{_item_before(name, display, type, required, show)}}
     <div ng-hide="isUploading">
-      <input type="file" ng-file-select ng-model="imageFiles"
-        ng-multiple="false" name="{{name}}" accept="image/*"
-        ng-file-change="uploadImageFile($files, $event)"
+      <input type="file" ng-model="file" ngf-max-size="5MB"
+        name="{{name}}" ngf-pattern="'image/*'" ngf-accept="'image/*'"
+        ngf-select="uploadImageFile($files, $event)"
         {{requiredAttr(required, show)}}>
     </div>
 

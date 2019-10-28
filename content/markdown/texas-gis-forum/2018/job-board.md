@@ -6,6 +6,5 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/forum_2018_sapling_l
 mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/forum_2018_sapling_larger_sm_front.jpg
 bodyClass: forum-sub-2017
 ---
-<div>
-  {% include "events/texas-gis-forum/2018/job-board-upload.njk" %}
-</div>
+
+<p class="lead"><em>No Longer Active</em></p>

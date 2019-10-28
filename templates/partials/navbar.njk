@@ -27,12 +27,12 @@
             <li>
               <a href="https://data.tnris.org" title="Visit the New DataHub!" class="main-program">DataHub</a>
             </li>
+            {# <li {% if id == 'maps' %}class="active"{% endif %}>
+              <a href="/maps" class="main-program">Maps</a>
+            </li> #}
             <li {% if id == 'research-distribution-center' %}class="active"{% endif %}>
               <a href="/research-distribution-center" class="main-program">Research &amp; Distribution Center (RDC)</a>
             </li>
-            {# <li {% if id == 'maps' %}class="active"{% endif %}>
-              <a href="/maps" >Maps</a>
-            </li> #}
             <li {% if id == 'texas-imagery-service' %}class="active"{% endif %}>
               <a href="/texas-imagery-service" class="main-program">Texas Imagery Service</a>
             </li>
@@ -42,7 +42,7 @@
           </ul>
         </li>
         <li class="dropdown navbar-inverse">
-          <a href="#" class="dropdown-toggle programs-nav" data-toggle="dropdown"><i class="fa fa-tasks hidden-xs hidden-sm"></i> Programs</a>
+          <a href="#" class="dropdown-toggle programs-nav" data-toggle="dropdown"><i class="fas fa-tasks hidden-sm hidden-xs"></i> Programs</a>
           <ul class="dropdown-menu inverse-dropdown" role="menu">
             <li {% if id == 'stratmap' %}class="active"{% endif %}>
               <a href="/stratmap" class="main-program">Strategic Mapping Program (StratMap)<br></a>
@@ -61,7 +61,7 @@
           </ul>
         </li>
         <li {% if id === 'events' %}class="active"{% endif %}>
-          <a class="events" href="/events">Events</a>
+          <a class="events" href="/events"><i class="fas fa-user-friends hidden-sm hidden-xs"></i> Events</a>
         </li>
         <li {% if id === 'geographic-information-office' %}class="active"{% endif %}>
           <a class="gio" href="/geographic-information-office">Geographic Information Office</a>
