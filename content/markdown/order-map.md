@@ -1,4 +1,4 @@
 ---
-layout: order-form.njk
+layout: order-map.njk
 title: Order Map
 ---
