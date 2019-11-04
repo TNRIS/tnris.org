@@ -6,18 +6,17 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/addresspoints.jpg
 
 <div class="container">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-6">
       <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://tnris-org-static.s3.amazonaws.com/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
       <p class="lead">Address points are site or structure point data that have associated information such as house number, street name, postal community, and postal code. This information is recorded and maintained at the city and county level in Texas and aggregated to Regional Planning Commissions or Emergency Communications Districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
     </div>
-    <div class="col-md-4">
-      <h2 style="margin-top: 0">Download Dataset</h2>
-      <p>Data were received from across 247 counties and may not be complete coverage.  Please see the SOURCE field on each record to determine the data creator or aggregator.</p>
+    <div class="col-md-6">
+      <h2 style="margin-top: 0">Available Datasets</h2>
+      <p>The map below shows available address points across Texas. Data were received from across 247 counties and may not be complete coverage.  Please see the SOURCE field on each record to determine the data creator or aggregator. Use the <a href="https://data.tnris.org">DataHub</a> to download.</p>
+      <iframe width="100%" height="400" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/9ea89bcc-63b5-4ed5-924d-e6c1910bb6f4/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      <h2>Download</h2>
       <p>Use the DataHub to download the Address Points dataset:</p>
-      <a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/collection/c56ff69b-efe7-46e7-89c7-43e655188382"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
-      <h2>Contact Us</h2>
-      <p>Contact TNRIS with any further questions regarding this program and someone from StratMap will get in touch with you.</p>
-      <a class="btn btn-md btn-tnris btn-lg center-block" href="/contact"><span class="glyphicon glyphicon-comment"></span> Contact Us</a>
+      <a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
     </div>
   </div>
 </div>
@@ -166,33 +165,53 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/addresspoints.jpg
 
 <p>The authoritative data source for these address points are the 9-1-1 coordinators across Texas.  This includes a combination of city, county, and regional sources that vary by community.  TNRIS created partnerships with these entities and their authorized aggregators to compile and share this statewide address point dataset available to the public for FREE.  Authorized aggregators include the <a href="https://www.csec.texas.gov">Commission on State Emergency Communications</a> and the <a href="https://www.texas911alliance.org/ ">Texas 9-1-1 Alliance</a> or their respective third party vendors.  TNRIS does not edit these data.  </p>
 
+* * *
+
 <h3>What is the purpose of these address points?</h3>
 
 <p>These address points were created for 9-1-1 call routing purposes; however, they are now available for public use.  The <a href="https://www.911.gov/issue_nextgeneration911.html">Next Generation 9-1-1 (NG911)</a> system will rely heavily on the accuracy of geospatial data, including address points.  As a result, these data are continually scrubbed and analyzed for use within the NG911 system by the authoritative data sources and their vendors.  Over time, these data may change based on GIS standards established by the <a href="https://www.nena.org/page/NG911GISDataModel">National Emergency Number Association (NENA)</a> or for other reasons.  TNRIS does not edit these data.</p>
+
+* * *
 
 <h3>Why is TNRIS compiling a statewide address point dataset?</h3>
 
 <p>The 2016 Geographic Information Office Report identified a need for statewide address points.  These data are required for non-9-1-1 purposes to conduct state business including the following agencies: Texas Parks and Wildlife Department, Texas Animal Health Commission, Texas General Land Office, Texas Water Development Board, Texas Department of Public Safety, Texas Department of Aging and Disability Services, Texas Department of Insurance, and Texas Commission for Environmental Quality.</p>
 
+* * *
+
 <h3>How frequently are these address points updated?</h3>
 
 <p>TNRIS will attempt an annual refresh from authoritative data sources or their authorized aggregator.  The refresh rate will vary across the state.  Some data may refresh multiple times within one year.  The date of the address point dataset is included in the file name as YYYYMM.</p>
+
+* * *
 
 <h3>Where are the points placed?  Rooftop, parcel centroid, along street centerline?</h3>
 
 <p>Each authoritative data source has their own guideline and policy on the placement of the point data.  TNRIS is not able to influence or edit the point placement or attributes.  TNRIS does not edit these data.</p>
 
+* * *
+
 <h3>What is the Commission on State Emergency Communications?</h3>
 
 <p>The <a href="https://www.csec.texas.gov/">Commission on State Emergency Communications (CSEC)</a> is an agency of the State of Texas and the state’s authority on emergency communications. CSEC is charged with administering the State 9-1-1 Service Program and the Statewide Poison Control Program. The Commission consists of 12 members representing various public and private sector interests. Nine members are appointed by the Governor, Lieutenant Governor and the Speaker of the House of Representatives to represent cities, regional planning commissions, county government, emergency communications districts, and the general public. Three members are ex-officio, non-voting members named in statute.</p>
+
+* * *
 
 <h3>What is the Texas 9-1-1 Alliance?</h3>
 
 <p>The <a href="https://www.texas911alliance.org/"> Texas 9-1-1 Alliance</a> is an interlocal cooperation entity composed of 27 Texas emergency communication districts with E9-1-1 service and related public safety responsibility for more than approximately 70% of the population of Texas. These emergency communication districts were created pursuant to Texas Health and Safety Code Chapter 772 and are defined under Texas Health and Safety Code Section 771.001(3)(B).</p>
 
+* * *
+
 <h3>What is the National Emergency Number Association?</h3>
 
 <p>The <a href="https://www.nena.org/">National Emergency Number Association (NENA)</a> serves the public safety community as the only professional organization solely focused on 9-1-1 policy, technology, operations, and education issues. With more than 13,000 members in 48 chapters across North America and around the globe, NENA promotes the implementation and awareness of 9-1-1 and international three-digit emergency communications systems.  NENA works with public policy leaders; emergency services and telecommunications industry partners; like-minded public safety associations; and other stakeholder groups to develop and carry out critical programs and initiatives; to facilitate the creation of an IP-based Next Generation 9-1-1 system; and to establish industry leading standards, training, and certifications.</p>
+
+* * *
+
+<h2>Contact Us</h2>
+<p>Contact TNRIS with any further questions regarding this program and someone from StratMap will get in touch with you.</p>
+<a class="btn btn-md btn-tnris btn-lg center-block" href="/contact"><span class="glyphicon glyphicon-comment"></span> Contact Us</a>
 
 </div>
 </div>
