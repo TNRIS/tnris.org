@@ -13,9 +13,9 @@ abstract:
 
 We thank everyone who joined us this year for another great event.
 
-We hope you enjoyed it as much as we did! We are sharing our photos from the conference, and have also shared the available slideshows from this year's presenters on the <a href="/texas-gis-forum/2019/agenda">agenda page</a>. We'll have videos of the Keynotes and our video skit up in the near future as well.
+We hope you enjoyed it as much as we did! We are sharing our photos from the conference, and have also shared the available slideshows from this year's presenters on the [agenda page](/texas-gis-forum/2019/agenda). We'll have videos of the Keynotes and our video skit up in the near future as well.
 
-Be sure to take a look at the great cartography that one the top spots in this year's Poster Gallery & Contest.
+Be sure to [take a look at the great cartography](/news/2019-11-03/poster-gallery-winners-2019-texas-gis-forum) that won the top spots in this year's Poster Gallery & Contest.
 
 Finally, be sure to **save the dates for next year, October 19-23, 2019**, when we'll return to the Commons Center for the 33rd Annual Texas GIS Forum. In the meantime, please send us any comments or ideas that will make next year's event even better. We are always looking for ways to improve and ensure that the Forum serves you, the Texas GIS community.
 
