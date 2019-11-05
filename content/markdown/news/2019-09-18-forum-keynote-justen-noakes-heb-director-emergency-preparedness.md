@@ -20,7 +20,7 @@ As director of Public Affairs for H-E-B in Central Texas, Leslie Sweet is respon
 
 Leslie is passionate about food education and understanding the farming process from the roots on up. She has traveled from produce fields in California to coffee fields in Panama, expanding her agricultural knowledge and experience. She served on the advisory board of the Texas Organic Agricultural Industry where she assisted the Texas Department of Agriculture in assessing the state of the organic agricultural industry.
 
-In 2012 Leslie helped launch a personal labor of love with H-E-B’s statewide military appreciation campaign.  This campaign honors the service and sacrifice of military service members and their families in Texas.  Since the launch, H-E-B has recognized and honored over 4,5000 H-E-B employees who are veterans, built 27 homes for severely wounded heroes, and continues to give strategic support to help military families where they need it most.
+In 2012 Leslie helped launch a personal labor of love with H-E-B’s statewide military appreciation campaign.  This campaign honors the service and sacrifice of military service members and their families in Texas.  Since the launch, H-E-B has recognized and honored over 45,000 H-E-B employees who are veterans, built 27 homes for severely wounded heroes, and continues to give strategic support to help military families where they need it most.
 
 Leslie holds a B.A. from Baylor University and is finishing her M.B.A. from The University of Dallas.  She is also a graduate of Leadership Austin, class of 2006. Aside from enjoying her current role with H-E-B, Leslie celebrates the joy in each day with her husband and two young daughters living in Austin, TX.
 
