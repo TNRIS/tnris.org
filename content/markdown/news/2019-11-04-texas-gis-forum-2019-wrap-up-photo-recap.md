@@ -11,13 +11,13 @@ abstract:
 
 <p class="lead">Thank you to the many people who helped make the <a href="/texas-gis-forum/2019">32nd Texas GIS Forum</a> a success!</p>
 
-We thank everyone who joined us this year for another great event.
+Thank you for attending the 2019 Texas GIS Forum. Your participation and enthusiasm contributed to another great event.
 
-We hope you enjoyed it as much as we did! We are sharing our photos from the conference, and have also shared the available slideshows from this year's presenters on the [agenda page](/texas-gis-forum/2019/agenda). We'll have videos of the Keynotes and our video skit up in the near future as well.
+We hope you enjoyed it as much as we did! Our photo recap is posted below, and we have also shared the available slideshows from this year's presenters on the [agenda page](/texas-gis-forum/2019/agenda). Videos of the Keynotes and our video skit will also be on the website in the near future.
 
-Be sure to [take a look at the great cartography](/news/2019-11-03/poster-gallery-winners-2019-texas-gis-forum) that won the top spots in this year's Poster Gallery & Contest.
+To see the ways our community turns data into beautiful cartography, don't miss[the winners of the Poster Gallery & Contest](/news/2019-11-03/poster-gallery-winners-2019-texas-gis-forum). 
 
-Finally, be sure to **save the dates for next year, October 19-23, 2019**, when we'll return to the Commons Center for the 33rd Annual Texas GIS Forum. In the meantime, please send us any comments or ideas that will make next year's event even better. We are always looking for ways to improve and ensure that the Forum serves you, the Texas GIS community.
+Finally, be sure to **save the dates for next year, October 19-23, 2019**, when we'll return to the Commons Conference Center in Austin for the 33rd Annual Texas GIS Forum. In the meantime, please send us any comments or ideas that will make next year's event even better. We are always looking for ways to improve and ensure that the Forum serves you, the Texas GIS community.
 
 ### Conference Day One - Wednesday, October 23
 
