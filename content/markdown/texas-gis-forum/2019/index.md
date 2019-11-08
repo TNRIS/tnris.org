@@ -18,13 +18,17 @@ buttontext: Register Now!
   <a href="/news/2019-06-11/forum-keynote-leon-logothetis-host-kindness-diaries"><i class="glyphicon glyphicon-arrow-right"></i> Learn More</a></p>
   <hr class="clearfix">
   <a class="pull-right" href="/news/2019-09-18/forum-keynote-justen-noakes-heb-director-emergency-preparedness">
-  <img class="img-circle kn-headshot-2019" src="https://tnris-org-static.s3.amazonaws.com/images/justen_noakes_heb_th.jpg" alt="Justen Noakes Headshot">
+  <img class="img-circle kn-headshot-2019" src="https://tnris-org-static.s3.amazonaws.com/images/leslie_sweet_headshot.jpg" alt="Leslie Sweet Headshot">
   </a>
-  <h3><small>Keynote Speaker</small><br><strong>Justen Noakes</strong></h3>
-  <p>Justen Noakes is the Director of Emergency Preparedness at H-E-B, and has coordinated responses to nearly every major Texas disaster event of the past decade.<br><br>
+  <h3><small>Keynote Speaker</small><br><strong>Leslie Sweet</strong></h3>
+  <p>Leslie Sweet is H-E-B's Senior Director of Public Affairs, who gave an overview of H-E-B's robust and dedicated Disaster Response work.<br><br>
   <a href="/news/2019-09-18/forum-keynote-justen-noakes-heb-director-emergency-preparedness"><i class="glyphicon glyphicon-arrow-right"></i> Learn More</a></p>
 </div>
-<div class="col-sm-6 ">  <h3>Thanks to Our Platinum Sponsors</h3>
+<div class="col-sm-6 ">  
+<a href="/news/2019-11-04/texas-gis-forum-2019-wrap-up-photo-recap">
+  <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/txgisforum2019wrapup_md.jpg" alt="Silohuette of speaker in front of screen, Texas GIS Forum Wrap-Up">
+</a>
+<h3>Thanks to Our Platinum Sponsors</h3>
   <p>
     <a class="welcome-logo-2019" href="http://www.surdex.com/">
       <img alt="Surdex geospatial logo and link" src="https://tnris-org-static.s3.amazonaws.com/images/surdex_logo.png">
@@ -36,6 +40,5 @@ buttontext: Register Now!
       <img alt="Esri logo and link to website" src="https://tnris-org-static.s3.amazonaws.com/images/esri_where_logo.png">
     </a>
   </p>
-  {% include "events/texas-gis-forum/2019/registration.njk" %}
 </div>
 <hr class="clearfix">
