@@ -22,18 +22,18 @@ Finally, be sure to **save the dates for next year, October 19-23, 2020**, when 
 ### Conference Day One - Wednesday, October 23
 
 <div class="row">
-     <a href="https://tnris-org-static.s3.amazonaws.com/images/003_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Director of TNRIS and GIO Richard Wade kicks off the Conference">
+     <a href="https://tnris-org-static.s3.amazonaws.com/images/003_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Deputy Executive Administrator of TNRIS and GIO Richard Wade kicks off the Conference">
         <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/003_2019_forum.jpg">
     </a>
-    <a href="https://tnris-org-static.s3.amazonaws.com/images/004_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Director of TNRIS and GIO Richard Wade kicks off the Conference">
+    <a href="https://tnris-org-static.s3.amazonaws.com/images/004_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Deputy Executive Administrator of TNRIS and GIO Richard Wade kicks off the Conference">
         <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/004_2019_forum.jpg">
     </a>
-    <a href="https://tnris-org-static.s3.amazonaws.com/images/005_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Keynote Speaker - Leon Logothetis, Host of The Kindness Diaries">
+    <a href="https://tnris-org-static.s3.amazonaws.com/images/005_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Keynote Speaker - Leon Logothetis, Host of 'The Kindness Diaries'">
         <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/005_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
-    <a href="https://tnris-org-static.s3.amazonaws.com/images/006_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Keynote Speaker - Leon Logothetis, Host of The Kindness Diaries">
+    <a href="https://tnris-org-static.s3.amazonaws.com/images/006_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Keynote Speaker - Leon Logothetis, Host of 'The Kindness Diaries'">
         <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/006_2019_forum.jpg">
     </a>
     <a href="https://tnris-org-static.s3.amazonaws.com/images/007_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="The crowd stands after Leon Logothetis asks if their lives have ever been changed by another person">
@@ -44,10 +44,10 @@ Finally, be sure to **save the dates for next year, October 19-23, 2020**, when 
     </a>
 </div>
 <div class="row">  
-  <a href="https://tnris-org-static.s3.amazonaws.com/images/001_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Richard Wade and TWDB Board Member Peter Lake">
+  <a href="https://tnris-org-static.s3.amazonaws.com/images/001_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Richard Wade and TWDB Chairman of the Board Peter Lake">
       <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/001_2019_forum.jpg">
   </a>
-    <a href="https://tnris-org-static.s3.amazonaws.com/images/002_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="TWDB Board Member Peter Lake Loving the Camera">
+    <a href="https://tnris-org-static.s3.amazonaws.com/images/002_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="TWDB Chairman of the Board Peter Lake Loving the Camera">
         <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/002_2019_forum.jpg">
     </a>
     <a href="https://tnris-org-static.s3.amazonaws.com/images/009_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23">
@@ -88,7 +88,7 @@ Finally, be sure to **save the dates for next year, October 19-23, 2020**, when 
     </a>
 </div>
 <div class="row">
-    <a href="https://tnris-org-static.s3.amazonaws.com/images/019_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the Aecom Booth">
+    <a href="https://tnris-org-static.s3.amazonaws.com/images/019_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the AECOM Booth">
         <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/019_2019_forum.jpg">
     </a>
     <a href="https://tnris-org-static.s3.amazonaws.com/images/020_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the KCI Booth">
