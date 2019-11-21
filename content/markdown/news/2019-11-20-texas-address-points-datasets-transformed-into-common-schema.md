@@ -15,7 +15,9 @@ abstract: Address Point Data from statewide stakeholders have been processed int
 
 Previously, address point data for non-emergency purposes was time-consuming to acquire and standardize due to the many authoritative sources.  
 
-According to Michelle Culver of the Beach Access & Dune Protection Program at the Texas General Land Office, “…standardized and easily accessible data like the statewide address points and statewide parcel data increases the efficiency in which our program is able to review permit applications, ultimately shortening our review time. So this allows us to provide expedient support to local governments during their review process and to provide property owners with responses to their permit applications within a shorter timeframe.”  
+According to Michelle Culver of the Beach Access & Dune Protection Program at the Texas General Land Office:
+
+> “…standardized and easily accessible data like the statewide address points and statewide parcel data increases the efficiency in which our program is able to review permit applications, ultimately shortening our review time. So this allows us to provide expedient support to local governments during their review process and to provide property owners with responses to their permit applications within a shorter timeframe.”  
 
 Data were received from across 247 counties and may not be complete in coverage.  Each file identifies the source and date of data.  Please see the [StratMap Address Points](/stratmap/address-points) website for timeline, frequently asked questions, and program flow.
 
