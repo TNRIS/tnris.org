@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/tnris/site-mockup",
   "dependencies": {
-    "angular": "^1.7.8",
+    "angular": "^1.7.9",
     "angular-animate": "^1.7.8",
     "angular-recaptcha": "^4.2.0",
     "bootstrap": "^3.4.1",
