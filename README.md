@@ -12,9 +12,8 @@ you're in the right place.
 
 First, make sure these things are installed:
 
- - nodejs `v12.4`
- - npm `v6.9`
- - gulp (`npm install -g gulp`)
+ - nodejs `v12.13`
+ - npm `v6.12`
 
 ### Setup
 
