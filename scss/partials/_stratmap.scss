@@ -21,13 +21,13 @@
 
 #stratmap-by-the-numbers {
   background: $lightgrey;
-  color: $darkgrey;
+  color: $white;
   font-size: 18px;
   padding-bottom: 30px;
   // text-shadow: 2px 2px 2px #333;
 
   h2 {
-    color: $darkgrey;
+    color: $white;
     // font-size: 40px;
   }
 
@@ -50,6 +50,10 @@
   &.hydrocallout {
     background: $lightergrey;
     color: $darkgrey;
+
+    h2 {
+      color: $darkgrey;
+    }
   }
 }
 
