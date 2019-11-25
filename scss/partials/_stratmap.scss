@@ -31,6 +31,14 @@
     // font-size: 40px;
   }
 
+  &.front-sm-numbers {
+    color: $darkgrey;
+
+    h2 {
+      color: $darkgrey;
+    }
+  }
+
   strong {
     font-size: 25px;
   }
