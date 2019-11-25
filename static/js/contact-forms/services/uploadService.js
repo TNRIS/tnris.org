@@ -19,9 +19,11 @@ angular.module('ContactFormApp')
           fields: {
             key: presignedUrl.fields.key,
             acl: 'private',
-            AWSAccessKeyId: presignedUrl.fields.AWSAccessKeyId,
             policy: presignedUrl.fields.policy,
-            signature: presignedUrl.fields.signature,
+            'x-amz-algorithm': presignedUrl.fields['x-amz-algorithm'],
+            'x-amz-credential': presignedUrl.fields['x-amz-credential'],
+            'x-amz-date': presignedUrl.fields['x-amz-date'],
+            'x-amz-signature': presignedUrl.fields['x-amz-signature'],
             'Content-Type': fileType,
             'Content-Length': file.size,
             'success_action_status': '201',
