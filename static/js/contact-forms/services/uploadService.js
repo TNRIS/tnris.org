@@ -2,8 +2,8 @@
 
 angular.module('ContactFormApp')
   .service('UploadService',
-    ['$http', 'Upload', 'ZIP_UPLOAD_POLICY_URL', 'IMAGE_UPLOAD_POLICY_URL', 'FILE_UPLOAD_POLICY_URL', 'CONTACT_UPLOAD_BUCKET',
-    function ($http, Upload, ZIP_UPLOAD_POLICY_URL, IMAGE_UPLOAD_POLICY_URL, FILE_UPLOAD_POLICY_URL, CONTACT_UPLOAD_BUCKET) {
+    ['$http', 'Upload', 'ZIP_UPLOAD_POLICY_URL', 'IMAGE_UPLOAD_POLICY_URL', 'FILE_UPLOAD_POLICY_URL',
+    function ($http, Upload, ZIP_UPLOAD_POLICY_URL, IMAGE_UPLOAD_POLICY_URL, FILE_UPLOAD_POLICY_URL) {
 
       function getPolicy(policyUrl, key) {
         return $http.post(policyUrl, {key: key})
