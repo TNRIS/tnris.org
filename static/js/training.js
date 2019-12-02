@@ -88,7 +88,7 @@ function retrieveTraining() {
     });
 
     // update header in template to include this year
-    var thisYear = new Date().getFullYear();
+    var thisYear = data.results[0].year;
     document.getElementById('education-schedule-h2').innerHTML = `${thisYear} Course Schedule`;
   })
   .then(function() {
