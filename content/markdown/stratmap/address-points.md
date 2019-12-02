@@ -20,7 +20,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/addresspoints.jpg
     </div>
   </div>
 </div>
-<section id="stratmap-by-the-numbers">
+<section id="parcel-numbers" >
 <div class="container">
     <h2>Program Timeline</h2>
     <p class="lead">This timeline documents past events and estimates future milestones. As milestones are met, this timeline will be updated. Please check each county for the most recent version of data.</p>
