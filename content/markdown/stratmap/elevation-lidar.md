@@ -11,7 +11,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/lidar_banner.jpg
       <p class="lead"> TNRIS acquires lidar data through partnerships with other federal and state agencies through the <a href="/stratmap/stratmap-contracts"><strong>StratMap Contract</strong></a>, which operates through the <a href="https://dir.texas.gov/">Texas Department of Information Resources (TxDIR)</a>.
       <h2>TNRIS Lidar Coverage</h2>
       <iframe width="100%" height="600" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/03970fcc-1040-4819-a08b-30c139add308/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-      <p>Lidar coverage varies across the state. Lidar coverage and project details (date, nominal point spacing, vendor, etc.) can be found on the [Lidar Status Map](https://tnris.carto.com/builder/03970fcc-1040-4819-a08b-30c139add308/embed). All details about each dataset in our collection can be found in the supplemental reports for each project.</p>
+      <p>Lidar coverage varies across the state. Lidar coverage and project details (date, nominal point spacing, vendor, etc.) can be found on the <a href="https://tnris.carto.com/builder/03970fcc-1040-4819-a08b-30c139add308/embed">Lidar Status Map</a>. All details about each dataset in our collection can be found in the supplemental reports for each project.</p>
       <p>You can <a href="https://s3.amazonaws.com/data.tnris.org/5751f066-28be-46af-b795-08387a27da6e/resources/tnris-lidar_48_vector.zip">download</a> a complete index of all available lidar data at TNRIS.</p>
     </div>
     <div class="col-md-4">
