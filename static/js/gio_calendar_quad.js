@@ -17,6 +17,7 @@ function retrieveNextFourEvents() {
       // if a community meeting, apply meeting-box to classname
       var classname = e.community_meeting ? 'col-md-3 meeting-box' : 'col-md-3';
       var communityMeetingStar = e.community_meeting ? ` <i class="glyphicon glyphicon-star" style="color: #1e8dc1;"></i>` : '';
+      var communityMeetingAgenda = e.community_meeting ? ` <a class="btn btn-tnris btn-md" href="https://tnris-org-static.s3.amazonaws.com/documents/GISComm_Agenda_20200114.pdf">Download Agenda</a>` : '';
       event.setAttribute('class', classname);
       // check if various properties exist, and set variables if so
       var timeRange = e.pretty_time ? `<time><i class="glyphicon glyphicon-time"></i> ${e.pretty_time}</time><br>` : '';
@@ -35,6 +36,7 @@ function retrieveNextFourEvents() {
         ${shortDescription}
         ${generalLocation}
         ${eventLink}
+        ${communityMeetingAgenda}
         `;
       // append div element contents into template html
       document.getElementById('gio-calendar-quad').appendChild(event);

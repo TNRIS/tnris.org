@@ -33,6 +33,7 @@ function retrieveNextCommunityMeeting() {
         ${shortDescription}
         ${generalLocation}
         ${eventLink}
+        <a class="btn btn-tnris btn-md" href="https://tnris-org-static.s3.amazonaws.com/documents/GISComm_Agenda_20200114.pdf">Download Agenda</a>
         `;
       // append div element contents into template html
       document.getElementById('gio-calendar-next-cm').appendChild(event);
