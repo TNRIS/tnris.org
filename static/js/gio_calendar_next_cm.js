@@ -21,6 +21,7 @@ function retrieveNextCommunityMeeting() {
       var shortDescription = e.short_description ? `<p>${e.short_description}</p>` : '';
       var generalLocation = e.location ? `<location><strong>Location:</strong><br>${e.location}</location><hr>` : '';
       var eventLink = e.event_url ? `<p><a href="${e.event_url}"><i class="glyphicon glyphicon-new-window"></i> Event Link</a></p>` : '';
+      var communityMeetingAgenda = e.community_meeting ? ` <a class="btn btn-tnris btn-md" href="https://tnris-org-static.s3.amazonaws.com/documents/GISComm_Agenda_20200114.pdf">Download Agenda</a>` : '';
       // fill dom list element with event details
       event.innerHTML =
         `
@@ -33,7 +34,7 @@ function retrieveNextCommunityMeeting() {
         ${shortDescription}
         ${generalLocation}
         ${eventLink}
-        <a class="btn btn-tnris btn-md" href="https://tnris-org-static.s3.amazonaws.com/documents/GISComm_Agenda_20200114.pdf">Download Agenda</a>
+        ${communityMeetingAgenda}
         `;
       // append div element contents into template html
       document.getElementById('gio-calendar-next-cm').appendChild(event);
