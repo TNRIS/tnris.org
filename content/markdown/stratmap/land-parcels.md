@@ -1,9 +1,9 @@
 ---
 title: Land Parcels
-layout: stratmap/main.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/landparcels.jpg
+layout: stratmap/ap-lp-page.njk
 progress_1: 86
 progress_2: 228
+youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
 ---
 
 <div class="container">

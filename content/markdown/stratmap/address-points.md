@@ -1,7 +1,7 @@
 ---
 title: Address Points
-layout: stratmap/main.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/addresspoints.jpg
+layout: stratmap/ap-lp-page.njk
+youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 ---
 
 <div class="container">
