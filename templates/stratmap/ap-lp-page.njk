@@ -1,6 +1,11 @@
 {% extends "base.njk" %}
 
 {% block topcontent %}
+<div id="stratmap-top-header">
+  <div class="container">
+    <h1 id="ap-lp-title"><small>StratMap</small><br>{{title}}</h1>
+  </div>
+</div>
 <div class="container-fluid full">
   <div class="top-container">
       <div class="container" class="embed-responsive embed-responsive-16by9">
@@ -18,7 +23,6 @@
 
 {% block contentsTwo %}
   <div class="container">
-    <h1 id="ap-lp-title"><small>StratMap</small><br>{{title}}</h1>
     {% include "stratmap/nav.njk" %}</div>
      {{ contents|safe }}
   </div>

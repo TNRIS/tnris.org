@@ -7,8 +7,8 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://tnris-org-static.s3.amazonaws.com/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
       <p class="lead">Address points are site or structure point data that have associated information such as house number, street name, postal community, and postal code. This information is recorded and maintained at the city and county level in Texas and aggregated to Regional Planning Commissions or Emergency Communications Districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
+      <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://tnris-org-static.s3.amazonaws.com/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
     </div>
     <div class="col-md-6">
       <h2 style="margin-top: 0">Available Datasets</h2>

@@ -507,6 +507,13 @@ ul.stratmap-work {
     }
 }
 
-h1#ap-lp-title {
-  margin-top: 0;
+// Address Points and Parcel customization
+
+#stratmap-top-header {
+  background: $darkgrey;
+  color: $white;
+
+  h1 {
+    margin-top: 0;
+  }
 }
