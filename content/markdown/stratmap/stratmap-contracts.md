@@ -21,10 +21,10 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/stratmap_website_ban
           <div class="col-md-6">
             <h3>Description</h3>
             <p>DIR-CPO-TMP-444 Geographic Information Systems (GIS) Hardware, Software, and Services and Information Technology (IT) Based Land Surveying Hardware, Software and Related Services_</p>
-            <p><strong>All current contract holders are required to re-submit.</strong></p>
             <a class"btn btn-lg btn-tnris" href="https://dir.texas.gov/View-Information-For-Vendors/Current-Contracting-Initiatives/Landing.aspx"></a>
           </div>
         </div>
+        <p class="lead center-block text-center"><strong>Note:</strong> All current contract holders are required to re-submit.</p>
       </div>
     </div>
   </div>
