@@ -113,20 +113,33 @@ h2.forum-title-front {
         font-weight: 100;
         color: $white;
         line-height: normal;
+
+        @media (max-width: $screen-sm) {
+          font-size: 25px;
+        }
+      }
+
+      @media (max-width: $screen-sm) {
+        font-size: 35px;
       }
     }
 
     p {
       font-size: 18px;
-    }
 
-    @media (min-width: $screen-md) {
+      @media (max-width: $screen-sm) {
+        font-size: 14px;
+      }
     }
 
     a {
       color: $midsky;
       text-transform: uppercase;
       font-size: 24px;
+
+      @media (max-width: $screen-sm) {
+        font-size: 20px;
+      }
 
       &:hover {
       color: $boltblue;
@@ -136,6 +149,8 @@ h2.forum-title-front {
         font-size: 14px;
       }
     }
+
+
   }
 
   .featureText {
