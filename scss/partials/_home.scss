@@ -93,6 +93,51 @@ h2.forum-title-front {
   img {
   }
 
+  .smContract2020 {
+    top: 5%;
+    color: $white;
+    cursor: text;
+    left: 5%;
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+
+    h3 {
+      font-size: 50px;
+      font-weight: 600;
+      margin: 0;
+      margin-bottom: 20px;
+
+      small {
+        font-size: 30px;
+        font-weight: 100;
+        color: $white;
+        line-height: normal;
+      }
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    @media (min-width: $screen-md) {
+    }
+
+    a {
+      color: $midsky;
+      text-transform: uppercase;
+      font-size: 24px;
+
+      &:hover {
+      color: $boltblue;
+      }
+
+      i {
+        font-size: 14px;
+      }
+    }
+  }
+
   .featureText {
     background-color: rgba(5,29,66,.85);
     border-radius: 10px;
@@ -259,7 +304,7 @@ h2.forum-title-front {
     font-size: 22px;
     margin-top: 5px;
   }
-  
+
   .media:nth-child(3) {
     @media (max-width: $screen-md) {
       border-bottom: 0;
