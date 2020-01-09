@@ -12,7 +12,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/stratmap_website_ban
       <div class="col-md-12">
         <h2>Special Announcement:</h2>
         <img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/dir_logo_md.png" alt="Texas Department of Information Resources">
-        <p class="lead">After four years of success, the re-bid of StratMap contracts is  <strong>happening now</strong>! For the solicitation release date and other official posting information, please see the <a href="https://dir.texas.gov/View-Information-For-Vendors/Current-Contracting-Initiatives/Landing.aspx">DIR Current Contracting Initiatives site</a>. The new Request for Offer is listed as:</p>
+        <p class="lead">After four years of success, the re-bid of StratMap contracts is  <strong>happening now</strong>! For the solicitation response due date and other official posting information, please see the <a href="https://dir.texas.gov/View-Information-For-Vendors/Current-Contracting-Initiatives/Landing.aspx">DIR Current Contracting Initiatives site</a>. The new Request for Offer is listed as:</p>
         <div class="row">
           <div class="col-md-6">
             <h3>Type of Service/Products</h3>
