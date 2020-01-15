@@ -11,7 +11,7 @@ function retrieveLatestDatasets() {
   .then(function(data) {
     // sort api data collections response by date reversed (newest first)
     data.results = data.results.sort(function(a,b) {
-      var dateA = new Date(a.acquisition_date), dateB = new Date(b.acquisition_date);
+      var dateA = new Date(a.publication_date), dateB = new Date(b.publication_date);
       return dateB - dateA;
     });
     // iterate over first 3 collections in the array of objects in the response
