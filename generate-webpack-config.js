@@ -151,7 +151,7 @@ function generate(env) {
           "FORUM_YEAR": JSON.stringify("2016"),
           "FORUM_DAY_ONE": JSON.stringify("2016-10-26"),
           "FORUM_DAY_TWO": JSON.stringify("2016-10-27"),
-          "TRAINING_REGISTRATION_LINK": JSON.stringify("https://events.eply.com/TNRISTraining20192740526"),
+          "TRAINING_REGISTRATION_LINK": JSON.stringify("https://events.eply.com/TNRIS2020"),
           "FORUM_REGISTRATION_LINK": JSON.stringify("https://events.eply.com/2019GISForumRegistration")
         }
       }),
