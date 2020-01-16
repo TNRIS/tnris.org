@@ -1,17 +1,17 @@
 ---
 title: Land Parcels
-layout: stratmap/main.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/landparcels.jpg
+layout: stratmap/ap-lp-page.njk
 progress_1: 86
 progress_2: 228
+youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
 ---
 
 <div class="container">
   <div class="row">
     <div class="col-md-6">
+      <p class="lead">Land parcels are boundaries that have associated information such as property owner, land use, value, and location attributes. This property information is recorded and maintained at the county level in Texas at local appraisal districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
       <p class="lead">
       In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized <a href="https://tnris-org-static.s3.amazonaws.com/documents/tnris-land-parcel-schema.pdf">GIS land parcel schema</a>. This format of land parcel data consists of the most commonly utilized information as determined by the land parcel  committee. The data contributed from county appraisal districts or their service providers were translated into this common schema and are now available on the <a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448">TNRIS DataHub</a>.</p>
-      <p class="lead">Land parcels are boundaries that have associated information such as property owner, land use, value, and location attributes. This property information is recorded and maintained at the county level in Texas at local appraisal districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
       <p class="lead">In August 2019, an extension of the <a href="https://tnris-org-static.s3.amazonaws.com/documents/update-on-digital-parcel-data-in-texas-20190903.pdf">statewide parcel study was published</a> to evaluate the existence of GIS parcel data and barriers to conversion. The report found that nearly all Texas appraisal districts now maintain a GIS parcel layer or are in the process of converting. It includes recommendations of 1) how TNRIS can facilitate local GIS  conversion and 2) how to continue success of the land parcel program.</p>
     </div>
     <div class="col-md-6">
