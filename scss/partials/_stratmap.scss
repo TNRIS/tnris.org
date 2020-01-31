@@ -506,3 +506,14 @@ ul.stratmap-work {
       display: none;
     }
 }
+
+// Address Points and Parcel customization
+
+#stratmap-top-header {
+  background: $darkgrey;
+  color: $white;
+
+  h1 {
+    margin-top: 0;
+  }
+}

@@ -67,21 +67,25 @@
 
 
 #texas-imagery-service {
-    .container-fluid.full {
+  .container-fluid.full {
     margin-bottom: 0;
-    }
+  }
 }
 
 #google-request {
-    .container-fluid.full {
+  .container-fluid.full {
     margin-bottom: 0;
-    }
+  }
 }
 
 #contentMain {
+
   #faq-side-container {
+    display: inline-block;
+    position: relative;
+
     #imagery-service-faq-side {
-      height: 75%;
+      // height: 75%;
       border: 1px solid $midgrey;
       border-radius: 10px 10px 0 0;
       margin-top: 15px;
@@ -100,16 +104,16 @@
       }
     }
 
-    .sticky {
-      position: fixed;
-      top: 0;
-      overflow-y: scroll;
-    }
+    // .sticky {
+    //   position: fixed;
+    //   top: 0;
+    //   overflow-y: scroll;
+    // }
 
-    .sticky-downloads {
-      position: fixed;
-      top: 78%;
-    }
+    // .sticky-downloads {
+    //   position: fixed;
+    //   top: 78%;
+    // }
   }
 }
 
@@ -123,19 +127,16 @@
     strong {
       background: $midgrey;
       display: inline-block;
-      font-size: 10px;
+      font-size: 16px;
       float: right;
-      padding: 20px 10px;
-    }
-
-    &:hover {
+      padding: 10px 10px;
     }
 
     a {
       color: $auburn;
       display: block;
-      font-size: 20px;
-      padding: 20px 10px;
+      font-size: 16px;
+      padding: 10px 10px;
       text-decoration: none;
 
       &:active {
@@ -152,6 +153,6 @@
 ul.helpful {
   li {
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
