@@ -3,7 +3,18 @@
 <div class="well dcs-meeting-container">
   {# solution group meetings/events not needed on frontend - as of 01/27/20 - requested by felicia #}
   {# <div id="gio-calendar-next-sgm"></div> #}
-  <p><strong>Past Meeting Notes:</strong></p>
+  <p>
+    <strong>Past Meeting Notes:</strong>
+  </p>
   {# auto populate sgm meeting notes docs from tnris api for the last 12 documents #}
   <ul id="gio-sgm-notes" class="list-clean"></ul>
+  <p style="padding-top:20px;">
+    <small>
+      <em>
+        <strong>Note:</strong> Meeting documents are provided for each month when a meeting is actually held.
+        If there is no meeting, no notes will be available for that month. Documents are in order from top
+        (most recent) to bottom (oldest) with a maximum of 12 documents available at any time.
+      </em>
+    </small>
+  </p>
 </div>

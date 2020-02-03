@@ -40,7 +40,8 @@ function retrieveSgmNotes() {
     return response.json();
   })
   .then(function(data) {
-    // sort results from api based on file name (file names should always start like YYYY-MM-DD-)
+    // sort results from api based on file name (file names should always start like YYYY-MM-DD-) which should
+    // put the docs in order from most recent to oldest
     data.results.sort(function (a,b) {
       return a.document_name.localeCompare(b.name);
     });
