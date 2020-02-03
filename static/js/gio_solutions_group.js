@@ -41,16 +41,17 @@ function retrieveSgmNotes() {
   })
   .then(function(data) {
     // sort results from api based on file name (file names should always start like YYYY-MM-DD-)
-    // data.results.sort(function (a,b) {
-    //   return a.document_name.localeCompare(b.name);
-    // });
+    data.results.sort(function (a,b) {
+      return a.document_name.localeCompare(b.name);
+    });
 
     var count = 0;
     var list = document.getElementById('gio-sgm-notes');
 
     data.results.forEach(function(i) {
-      count += 1;
-      while (count <= 12) {
+      // add one to the count
+      count++;
+      if (count <= 12) {
         var item = document.createElement('li');
         item.innerHTML = `<a href="${i.document_url}"><br><i class="glyphicon glyphicon-file"></i> ${i.document_name}</a>`;
         list.appendChild(item);
