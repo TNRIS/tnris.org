@@ -5,7 +5,7 @@ layout: news-article.njk
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/countbecounted_census2020.jpg
 thumbnail: https://tnris-org-static.s3.amazonaws.com/images/countbecounted_census2020_th.jpg
 thumbalt: Count. Be Counted. Texas Census graphic
-abstract: The efforts to ensure a full count of Texas for the 2020 Census are fully underway. TNRIS is proud to be doing its part to support this major undertaking.
+abstract: The efforts to ensure a full count of Texas for the 2020 Census are fully underway. Learn more about the efforts to 'Make Texas Count!'
 ---
 
 Texas state statute establishes TNRIS “as a centralized clearinghouse and referral center for:” specific data, including census data. Though TNRIS no longer handles requests for population data, TNRIS remains a state partner with the United States Census Bureau (U.S. Census) via the State Demographer and the Texas Demographic Center. For the state demographer and the U.S. Census, the biggest and most important task is the fast approaching decennial population count. Extensive work and preparations leading up to the April 1 population count have been taking place throughout the state.
