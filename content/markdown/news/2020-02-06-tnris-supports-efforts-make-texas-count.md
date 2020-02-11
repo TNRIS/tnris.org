@@ -1,5 +1,5 @@
 ---
-title: 'Make Texas Count' in the 2020 Census
+title: "'Make Texas Count!' in the 2020 Census"
 author: Felicia Retiz, Director of TNRIS & Dr. Lila Valencia, Texas Demographer's Office
 layout: news-article.njk
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/countbecounted_census2020.jpg
@@ -36,9 +36,9 @@ As GIS professionals, the importance of census data was understood before we mad
 
 For additional information, or to get involved, please contact Lloyd Potter or Lila Valencia at the Texas Demographic Center - email: tdc@utsa.edu or phone: 512-936-3542.
 
-### Additional resources:
+## Additional resources
 
-Mapping Hard to Count Communities for a Fair and Accurate 2020 Census
+### Mapping Hard to Count Communities for a Fair and Accurate 2020 Census
 
 <https://www.censushardtocountmaps2020.us/>
 
