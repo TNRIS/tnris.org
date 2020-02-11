@@ -1,5 +1,5 @@
 ---
-title: TNRIS Supports the 2020 Census Efforts to 'Make Texas Count!'
+title: 'Make Texas Count' in the 2020 Census
 author: Felicia Retiz, Director of TNRIS & Dr. Lila Valencia, Texas Demographer's Office
 layout: news-article.njk
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/countbecounted_census2020.jpg
@@ -22,7 +22,7 @@ For our agency, the Texas Water Development Board (TWDB), population figures are
 
 For several decades, the Texas Natural Resources Information System (TNRIS) partnered with the U.S. Census serving as the state’s central data center for each decennial census until the early 2000s. Requests for population information came in from all corners of the state, prompting staff to pull notebooks containing computer tapes and eventually compact discs to produce paper reports of a specific socioeconomic or demographic population. Cities and towns relied on population counts to receive the appropriate amount of infrastructure funding and social programs for their residents. Our diligence in pulling the correct information helped communities get the services and funding they needed.
 
-While this process is now centralized at the federal level, it still requires partnerships with state governments. State funding to promote, educate, and locate hard-to-count communities is not widely available in Texas. However, leaders throughout the state are working hard to ensure an accurate and complete count of Texans in 2020.
+While this process is now centralized at the federal level, it still requires partnerships with state governments. But the state has limited resources to promote, educate, and locate hard-to-count communities. However, leaders throughout the state are working hard to ensure an accurate and complete count of Texans in 2020.
 
 <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/whycensusmatters.jpg" alt="Why the Census Matters to Texas">
 
