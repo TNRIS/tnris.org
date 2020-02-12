@@ -38,7 +38,7 @@ function retrieveNextCommunityMeeting() {
         `;
       // append div element contents into template html
       document.getElementById('gio-calendar-next-cm').appendChild(event);
-      document.getElementById('gio-calendar-next-cm').setAttribute('class', 'col-md-3 meeting-box');
+      document.getElementById('gio-calendar-next-cm').setAttribute('class', 'meeting-box');
     }
   })
 }
