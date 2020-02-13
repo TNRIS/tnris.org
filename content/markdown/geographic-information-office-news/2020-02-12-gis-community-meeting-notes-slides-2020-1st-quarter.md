@@ -2,7 +2,8 @@
 layout: gio-news.njk
 title: "Texas GIS Community Meeting 2020 1st Quarter - Notes and Slides"
 author: Felicia Retiz, Deputy GIO
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/3rdqtrslides_th.jpg
+mainimage: https://tnris-org-static.s3.amazonaws.com/images/1stqtr2020article_main.png
+thumbnail: https://tnris-org-static.s3.amazonaws.com/images/1stqtr2020article_thumb.png
 abstract:
     The 1st quarter GIS Community meeting took place on January 14, 2020 at the Texas Parks and Wildlife Headquarters in Austin, TX.
 ---
