@@ -262,6 +262,32 @@ hr.noMarg {
   border: 1px solid $tnrisblue;
   border-top: 0;
   padding-bottom: 20px;
+  border-radius: 0 0 5px 5px;
+
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.blog-sidebar {
+  .meeting-box {
+    border-top: 1px solid $tnrisblue;
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+}
+
+#events-container {
+  .meeting-box {
+    border-top: 1px solid $tnrisblue;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
 }
 
 // newsletter

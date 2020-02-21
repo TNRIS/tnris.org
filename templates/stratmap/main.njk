@@ -10,13 +10,13 @@
       <div class="top-header center-block">
           <div class="container">
             <h1>
-            {% if title == 'StratMap - Strategic Mapping Program' or title == 'StratMap Contracts' %}
-
-            {% else %}
-              <small>StratMap</small>
-            {% endif %}
-
-              {{title}}</h1>
+              {% if 'StratMap' in title %}
+                {{title}}
+              {% else %}
+                <small>StratMap</small>
+                {{title}}
+              {% endif %}
+            </h1>
           </div>
       </div>
     </div>
