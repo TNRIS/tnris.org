@@ -1,8 +1,6 @@
 ---
 title: Texas Geographic Information Office
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/texas_gio_slim_banner.jpg
-mainimagemd: https://tnris-org-static.s3.amazonaws.com/images/texas_gio_slim_banner_md.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/texas_gio_slim_banner_sm.jpg
+mainimage: https://tnris-org-static.s3.amazonaws.com/images/gio_meeting_fromback.jpg
 layout: gio/gio.njk
 ---
 
