@@ -259,12 +259,18 @@ address {
 }
 
 author {
-  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .article {
   .byline {
+    font-size: 18px;
     margin-bottom: 5px;
+
+    time {
+      font-size: 16px;
+      text-transform: uppercase;
+    }
   }
 
   h1.headline, h2.headline {
@@ -382,13 +388,14 @@ blockquote {
 
 /* for making full images at top on full-top template */
 .container-fluid.full {
-  padding: 0;
-  margin-top: -5px;
-  overflow: hidden;
+  background: $black;
+  clear: both;
   height: auto;
+  margin-bottom: 15px;
+  margin-top: -5px;
+  padding: 0;
   position: relative;
-    clear: both;
-    margin-bottom: 15px;
+  overflow: hidden;
 
   img {
     min-width: 100%;

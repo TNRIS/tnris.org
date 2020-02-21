@@ -45,13 +45,11 @@ function retrieveOpenTraining() {
 
         record.innerHTML =
           `
-          <i class="glyphicon glyphicon-calendar"></i>
-          <div>
+          <i class="glyphicon glyphicon-calendar extended"></i>
             <time> ${month} ${day}, ${t.year}</time>
             <h4>
               <a href="/education#${urlTitle}"> ${t.title}</a>
             </h4>
-          </div>
           `;
 
         document.getElementById('next-two-open-classes').appendChild(record);

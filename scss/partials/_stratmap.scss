@@ -21,14 +21,22 @@
 
 #stratmap-by-the-numbers {
   background: $lightgrey;
-  color: $darkgrey;
+  color: $white;
   font-size: 18px;
   padding-bottom: 30px;
   // text-shadow: 2px 2px 2px #333;
 
   h2 {
-    color: $darkgrey;
+    color: $white;
     // font-size: 40px;
+  }
+
+  &.front-sm-numbers {
+    color: $darkgrey;
+
+    h2 {
+      color: $darkgrey;
+    }
   }
 
   strong {
@@ -50,6 +58,10 @@
   &.hydrocallout {
     background: $lightergrey;
     color: $darkgrey;
+
+    h2 {
+      color: $darkgrey;
+    }
   }
 }
 
@@ -493,4 +505,15 @@ ul.stratmap-work {
     @media (min-width: $screen-sm) {
       display: none;
     }
+}
+
+// Address Points and Parcel customization
+
+#stratmap-top-header {
+  background: $darkgrey;
+  color: $white;
+
+  h1 {
+    margin-top: 0;
+  }
 }

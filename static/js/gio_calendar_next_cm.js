@@ -21,6 +21,7 @@ function retrieveNextCommunityMeeting() {
       var shortDescription = e.short_description ? `<p>${e.short_description}</p>` : '';
       var generalLocation = e.location ? `<location><strong>Location:</strong><br>${e.location}</location><hr>` : '';
       var eventLink = e.event_url ? `<p><a href="${e.event_url}"><i class="glyphicon glyphicon-new-window"></i> Event Link</a></p>` : '';
+      var communityMeetingAgenda = e.community_meeting_agenda_url ? ` <a class="btn btn-tnris btn-md" href="${e.community_meeting_agenda_url}">Download Agenda</a>` : '';
       // fill dom list element with event details
       event.innerHTML =
         `
@@ -33,10 +34,11 @@ function retrieveNextCommunityMeeting() {
         ${shortDescription}
         ${generalLocation}
         ${eventLink}
+        ${communityMeetingAgenda}
         `;
       // append div element contents into template html
       document.getElementById('gio-calendar-next-cm').appendChild(event);
-      document.getElementById('gio-calendar-next-cm').setAttribute('class', 'col-md-3 meeting-box');
+      document.getElementById('gio-calendar-next-cm').setAttribute('class', 'meeting-box');
     }
   })
 }
