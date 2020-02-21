@@ -31,8 +31,8 @@ function generate(env) {
       'forum': [path.resolve(__dirname, 'static/js/forum.js')],
       'forum_training': [path.resolve(__dirname, 'static/js/forum_training.js')],
       'gio_calendar_next_cm': [path.resolve(__dirname, 'static/js/gio_calendar_next_cm.js')],
-      'gio_calendar_next_sgm': [path.resolve(__dirname, 'static/js/gio_calendar_next_sgm.js')],
       'gio_calendar_quad': [path.resolve(__dirname, 'static/js/gio_calendar_quad.js')],
+      'gio_solutions_group': [path.resolve(__dirname, 'static/js/gio_solutions_group.js')],
       'latest_stratmap': [path.resolve(__dirname, 'static/js/latest_stratmap.js')],
       'maps': [path.resolve(__dirname, 'static/js/maps.js')],
       'mapserver': [path.resolve(__dirname, 'static/js/mapserver.js')],
@@ -151,7 +151,7 @@ function generate(env) {
           "FORUM_YEAR": JSON.stringify("2016"),
           "FORUM_DAY_ONE": JSON.stringify("2016-10-26"),
           "FORUM_DAY_TWO": JSON.stringify("2016-10-27"),
-          "TRAINING_REGISTRATION_LINK": JSON.stringify("https://events.eply.com/TNRISTraining20192740526"),
+          "TRAINING_REGISTRATION_LINK": JSON.stringify("https://events.eply.com/TNRIS2020"),
           "FORUM_REGISTRATION_LINK": JSON.stringify("https://events.eply.com/2019GISForumRegistration")
         }
       }),
