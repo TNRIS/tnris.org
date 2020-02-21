@@ -1,14 +1,14 @@
 ---
 title: Address Points
-layout: stratmap/main.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/addresspoints.jpg
+layout: stratmap/ap-lp-page.njk
+youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 ---
 
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://tnris-org-static.s3.amazonaws.com/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
       <p class="lead">Address points are site or structure point data that have associated information such as house number, street name, postal community, and postal code. This information is recorded and maintained at the city and county level in Texas and aggregated to Regional Planning Commissions or Emergency Communications Districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
+      <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://tnris-org-static.s3.amazonaws.com/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
     </div>
     <div class="col-md-6">
       <h2 style="margin-top: 0">Available Datasets</h2>
@@ -20,7 +20,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/addresspoints.jpg
     </div>
   </div>
 </div>
-<section id="stratmap-by-the-numbers">
+<section id="parcel-numbers" >
 <div class="container">
     <h2>Program Timeline</h2>
     <p class="lead">This timeline documents past events and estimates future milestones. As milestones are met, this timeline will be updated. Please check each county for the most recent version of data.</p>

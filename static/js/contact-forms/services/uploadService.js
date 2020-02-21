@@ -2,27 +2,28 @@
 
 angular.module('ContactFormApp')
   .service('UploadService',
-    ['$http', 'Upload', 'ZIP_UPLOAD_POLICY_URL', 'IMAGE_UPLOAD_POLICY_URL', 'FILE_UPLOAD_POLICY_URL', 'CONTACT_UPLOAD_BUCKET',
-    function ($http, Upload, ZIP_UPLOAD_POLICY_URL, IMAGE_UPLOAD_POLICY_URL, FILE_UPLOAD_POLICY_URL, CONTACT_UPLOAD_BUCKET) {
+    ['$http', 'Upload', 'ZIP_UPLOAD_POLICY_URL', 'IMAGE_UPLOAD_POLICY_URL', 'FILE_UPLOAD_POLICY_URL',
+    function ($http, Upload, ZIP_UPLOAD_POLICY_URL, IMAGE_UPLOAD_POLICY_URL, FILE_UPLOAD_POLICY_URL) {
 
-      function getPolicy(policyUrl) {
-        return $http.get(policyUrl)
-          .then(function (response) {
-            return response.data;
-          });
+      function getPolicy(policyUrl, key) {
+        return $http.post(policyUrl, {key: key})
+        .then(function (response) {
+          return response.data;
+        });
       }
-
-      function uploadParams(file, form_id, fileType, s3policy) {
-        var fileKey = form_id + '/' + Date.now() + '_' + file.name;
+      
+      function uploadParams(file, presignedUrl, fileType) {
         return {
-          url: 'https://' + CONTACT_UPLOAD_BUCKET + '.s3.amazonaws.com/',
+          url: presignedUrl.url,
           method: 'POST',
           fields: {
-            key: fileKey,
+            key: presignedUrl.fields.key,
             acl: 'private',
-            AWSAccessKeyId: s3policy.key,
-            Policy: s3policy.policy,
-            Signature: s3policy.signature,
+            policy: presignedUrl.fields.policy,
+            'x-amz-algorithm': presignedUrl.fields['x-amz-algorithm'],
+            'x-amz-credential': presignedUrl.fields['x-amz-credential'],
+            'x-amz-date': presignedUrl.fields['x-amz-date'],
+            'x-amz-signature': presignedUrl.fields['x-amz-signature'],
             'Content-Type': fileType,
             'Content-Length': file.size,
             'success_action_status': '201',
@@ -35,23 +36,26 @@ angular.module('ContactFormApp')
       var service = {};
 
       service.uploadZip = function uploadZip(file, form_id) {
-        return getPolicy(ZIP_UPLOAD_POLICY_URL)
-          .then(function (s3policy) {
-            return Upload.upload(uploadParams(file, form_id, "application/zip", s3policy));
+        var fileKey = form_id + '/' + Date.now() + '_' + file.name;
+        return getPolicy(ZIP_UPLOAD_POLICY_URL, fileKey)
+          .then(function (presignedUrl) {
+            return Upload.upload(uploadParams(file, presignedUrl, "application/zip"));
           });
       };
 
       service.uploadImage = function uploadImage(file, form_id) {
-        return getPolicy(IMAGE_UPLOAD_POLICY_URL)
-          .then(function (s3policy) {
-            return Upload.upload(uploadParams(file, form_id, file.type, s3policy));
+        var fileKey = form_id + '/' + Date.now() + '_' + file.name;
+        return getPolicy(IMAGE_UPLOAD_POLICY_URL, fileKey)
+          .then(function (presignedUrl) {
+            return Upload.upload(uploadParams(file, presignedUrl, file.type));
           });
       };
 
       service.uploadFile = function uploadFile(file, form_id) {
-        return getPolicy(FILE_UPLOAD_POLICY_URL)
-          .then(function (s3policy) {
-            return Upload.upload(uploadParams(file, form_id, file.type, s3policy));
+        var fileKey = form_id + '/' + Date.now() + '_' + file.name;
+        return getPolicy(FILE_UPLOAD_POLICY_URL, fileKey)
+          .then(function (presignedUrl) {
+            return Upload.upload(uploadParams(file, presignedUrl, file.type));
           });
       };
 
