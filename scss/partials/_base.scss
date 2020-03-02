@@ -903,6 +903,10 @@ del {
   margin: 0 10px 10px 0;
   position: relative;
 
+  &:hover {
+    background: $lightergrey;
+  }
+
   @media (min-width: $screen-sm) {
     width: 45%;
   }

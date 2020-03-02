@@ -4,7 +4,7 @@ layout: education/teachers.njk
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
 ---
 
-TNRIS has many maps and data resources available to the public at no charge from our website that can be incorporated into teacher's lesson plans for all levels. In addition to these resources, we are able to give tours on a limited basis to students and their educators.
+<p class="lead">TNRIS has many maps and data resources available to the public at no charge from our website that can be incorporated into teacher's lesson plans for all levels. In addition to these resources, we are able to give tours on a limited basis to students and their educators.</p>
 
 ## Map Collections
 
