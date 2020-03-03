@@ -21,31 +21,29 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
 </div>
 <div class='col-md-6'>
 <h3 style="margin-top: 0;">Historical Imagery Costs</h3>
+<h4>Research:</h4>
 <ul>
-  <li><strong>Research:</strong><br>
-    Full Historical Search (multiple years or sites): $60.00<br>
-    Single Year Search (one site and one year): $30<br>
-    Frame Search (customer must be able to identify specific frames needed): $15
-  </li>
-  <li><strong>Imagery:</strong><br>
-    Scanned Historical Frame: $10.00 per image<br>
-    Scanned + georeferenced frame (all frames will be georeferenced to WGS 1984): $20
-  </li>
+  <li>Full Historical Search (multiple years or sites): <strong>$60.00</strong></li>
+    <li>Single Year Search (one site and one year): <strong>$30.00</strong></li>
+    <li>Frame Search (customer must be able to identify specific frames needed): <strong>$15.00</strong></li>
 </ul>
-<h3>Bulk Collection Delivery Option</h3>
+<h4>Imagery:</h4>
+<ul>
+  <li>Scanned Historical Frame: <strong>$10.00 per image</strong></li>
+  <li>Scanned + georeferenced frame (all frames will be georeferenced to WGS 1984): <strong>$20.00</strong></li>
+</ul>
+<h3>Bulk Collection Option</h3>
 <p>Customers have the option of ordering any collection that has already been <strong>scanned in full</strong> for the data size price (see Data Reproduction Costs), rather than paying by frame.</p>
 <ul>
-  <li>Staff time: $46.00 per TB</li>
-  <li>Server/computer time: $0.15 per GB</li>
+  <li>Staff time: <strong>$46.00 per TB</strong></li>
+  <li>Server/computer time: <strong>$0.15 per GB</strong></li>
 </ul>
 <h3>Delivery Options and Policy</h3>
 <p>TNRIS requests 3-10 business days for data requests and product turn around. We do not accommodate any expedited orders.</p>
 <ul>
-  <li><strong>Delivery Options:</strong><br>
-    $7 digital download delivery (0-10gb)<br>
-  </li>
-  <li>TNRIS-provided USB flash drive (64GB): $40.00</li>
-  <li>TNRIS-provided external hard drive (1TB): $100.00</li>
+  <li>Digital download delivery (0-10gb): <strong>$7.00</strong></li>
+  <li>TNRIS-provided USB flash drive (64GB): <strong>$40.00</strong></li>
+  <li>TNRIS-provided external hard drive (1TB): <strong>$100.00</strong></li>
 </ul>
 <div class="bs-callout bs-callout-danger">
   <p><strong>No Refund Policy:</strong> TNRIS does not offer refunds for services rendered. All data is available through the Public Domain at no cost. All applicable fees are associated with the cost of data reproduction.</p>
