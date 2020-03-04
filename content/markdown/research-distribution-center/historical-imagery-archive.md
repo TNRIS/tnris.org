@@ -41,7 +41,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
 <h3>Delivery Options and Policy</h3>
 <p>TNRIS requests 3-10 business days for data requests and product turn around. We do not accommodate any expedited orders.</p>
 <ul>
-  <li>Digital download delivery (0-10gb): <strong>$7.00</strong></li>
+  <li>Digital download delivery (0-10GB): <strong>$7.00</strong></li>
   <li>TNRIS-provided USB flash drive (64GB): <strong>$40.00</strong></li>
   <li>TNRIS-provided external hard drive (1TB): <strong>$100.00</strong></li>
 </ul>
