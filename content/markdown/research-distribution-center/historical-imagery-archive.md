@@ -30,7 +30,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
 <h4>Imagery:</h4>
 <ul>
   <li>Scanned Historical Frame: <strong>$10.00 per image</strong></li>
-  <li>Scanned + georeferenced frame (all frames will be georeferenced to WGS 1984): <strong>$20.00</strong></li>
+  <li>Scanned + georeferenced frame (all frames will be georeferenced to WGS 1984): <strong>$20.00 per image</strong></li>
 </ul>
 <h3>Bulk Collection Option</h3>
 <p>Customers have the option of ordering any collection that has already been <strong>scanned in full</strong> for the data size price (see Data Reproduction Costs), rather than paying by frame.</p>
