@@ -31,25 +31,7 @@
 
       <div class="col-md-4">
         {% block sidebarLeft %}
-          {% if (title == 'Purchaser Resources') %}
             {% include "education/education-side.njk" %}
-          {% endif %}
-          {% if (title == 'Texas GIS Mentorship Program') %}
-            <h3>Participate</h3>
-            <p class="lead">Visit the link below to apply to be a Mentor or Mentee</p>
-
-            <a class="btn btn-lg btn-tnris" href="http://bit.ly/TxGISMentor"><i class="glyphicon glyphicon-pencil"></i> Sign Up for the Program</a>
-            <h3>Supplemental Docs</h3>
-            <ul class="list-clean">
-              <li>
-              <a href="https://tnris-org-static.s3.amazonaws.com/documents/tips-for-mentors.pdf"><br><i class="glyphicon glyphicon-file"></i> Tips for Mentors</a>
-              </li>
-
-              <li>
-              <a href="https://tnris-org-static.s3.amazonaws.com/documents/tips-for-mentees.pdf"><br><i class="glyphicon glyphicon-file"></i> Tips for Mentees</a>
-              </li>
-            </ul>
-          {% endif %}
         {% endblock %}
       </div>
     </div>
