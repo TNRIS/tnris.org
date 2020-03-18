@@ -2,17 +2,17 @@
 title: TNRIS Training Suspended, Course Providers Still Conducting Online Courses
 author: Ilyanna Kadich, StratMap
 layout: news-article.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/addresspointsshapetexas.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/addresspointsshapetexas_th.jpg
+mainimage: https://tnris-org-static.s3.amazonaws.com/images/trainingsuspended.jpg
+thumbnail: https://tnris-org-static.s3.amazonaws.com/images/onlinecourses_th.jpg
 thumbalt: Address Point Data Shapes Texas Graphic
-abstract: Address Point Data from statewide stakeholders have been processed into a common schema, now available for download on DataHub.
+abstract: TNRIS Training Courses have suspended until further notice to follow health guidelines. Our valued course providers are still providing online courses to keep your professional development on track.
 ---
 
 ## Important Notice from TNRIS Training
 
 <p class="lead">All courses have been suspended until further notice resulting from preventative measures guidance from the Centers for Disease Control, the World Health Organization, and the U.S. State Department about social distancing.</p>
 
-In place of an in-person course, consider taking advantage of other training options available from our talented and creative instructors for you to take from your home office!
+In place of an in-person course, consider taking advantage of other training options available from our talented and creative instructors for you to take from your home or remote office!
 
 ## GeoSpatial Training Services
 
