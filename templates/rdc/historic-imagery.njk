@@ -1,0 +1,45 @@
+{% extends "base.njk" %}
+
+
+{% block topcontent %}
+<div class="container-fluid full">
+
+      <div class="top-container">
+      {% if mainimage %}
+        <img class="img-responsive center-block" src="{{mainimage}}" alt="Masthead for {{title}}">
+      {% endif %}
+
+      <div class="top-header center-block">
+          <div class="container">
+            <h1>{{title}}</h1>
+            {% if abstract %}
+              <div class="lead">{{abstract}}</div>
+            {% endif %}
+          </div>
+      </div>
+      </div>
+</div>
+{% endblock %}
+
+{% block contentsOne %}
+<div class="container">  {% include "rdc/nav.njk" %}</div>
+
+<div id="contentMain" class="container">
+
+    <div class="col-md-12 rdc-sub-content-column">
+      {{ contents|safe }}
+    </div>
+    {# <div class="col-md-4">
+
+
+      <h3>RDC Office Hours</h3>
+      <p>
+        Monday-Friday, 8am-4pm<br />
+        By Appointment Only<br />
+        <i class="glyphicon glyphicon-earphone"></i> <a href="tel:5124638337">512-463-8337</a>
+      </p>
+
+    </div> #}
+
+</div>
+{% endblock %}

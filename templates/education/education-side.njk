@@ -1,5 +1,14 @@
 <script src="/training_registration_button.bundle.js"></script>
+
 <div id="training-registration-button"></div>
+
+{% if title !== 'Course Cancellation Policy' %}
+<div class="alert alert-warning">
+  <h3 style="margin-top: 0;">Course Cancellation Policy</h3>
+  <p><strong>Important:</strong> Please read our cancellation policy before registering for courses.</p>
+  <a href="/education/course-cancellations" class="btn btn-lg btn-block btn-tnris">View Cancellation Policy</a>
+</div>
+{% endif %}
 <h3>Training Facilities</h3>
 <h4>TCEQ Computer Training Lab</h4>
 <address>
@@ -11,8 +20,6 @@
     <span class="glyphicon glyphicon-new-window"></span> View Map
 </a>
 <hr>
-{% include "partials/course-cancellation.njk" %}
-<hr>
 <div class="well well-bg">
-    <p><strong>Download the IRS form W-9 for your use:</strong><br><a class="btn btn-lg btn-tnris" href="https://tnris-org-static.s3.amazonaws.com/documents/tnris-training-courses-w9.pdf"><i class="glyphicon glyphicon-file"></i> Download W-9</a></p>
+    <p><strong>Download the IRS form W-9 for your use:</strong><br><a class="btn btn-lg btn-tnris btn-block" href="https://tnris-org-static.s3.amazonaws.com/documents/tnris-training-courses-w9.pdf"><i class="glyphicon glyphicon-file"></i> Download W-9</a></p>
 </div>
