@@ -12,7 +12,7 @@ abstract: TNRIS Training Courses have been suspended until further notice to fol
 
 <p class="lead">All <a href="/education">TNRIS Training courses</a> in the month of April have been suspended until further notice resulting from preventative measures guidance from the Centers for Disease Control, the World Health Organization, and the U.S. State Department about social distancing.</p>
 
-In place of an in-person course, consider taking advantage of other training options available from our talented and creative instructors for you to take from your home or remote office!
+<p class="lead">In place of an in-person course, consider taking advantage of other training options available from our talented and creative instructors for you to take from your home or remote office!</p>
 
 * * *
 
