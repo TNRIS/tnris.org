@@ -16,7 +16,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/lidar_banner.jpg
     </div>
     <div class="col-md-4">
       <h3>Lidar Specifications</h3>
-      <a class="btn btn-lg btn-success" href="https://tnris-org-static.s3.amazonaws.com/documents/lidar_spec.pdf"><i class="glyphicon glyphicon-document"></i> Download Lidar Specifications</a>
+      <a class="btn btn-lg btn-success" href="https://tnris-org-static.s3.amazonaws.com/documents/state_of_texas_stratmap_lidar_specification_ver_XIII.pdf"><i class="glyphicon glyphicon-document"></i> Download Lidar Specifications</a>
       <h3>Download Lidar</h3>
       <a class="btn btn-lg btn-tnris" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
       <hr class="clearfix">
