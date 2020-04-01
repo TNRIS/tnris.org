@@ -62,24 +62,50 @@ function getIndexes() {
 }
 
 function getMapfiles() {
-	$.get("https://api.tnris.org/api/v1/historical/mapserver/", function( data ) {
-		var template = '<tr><td class="col-md-4">__label__</td><td class="col-md-8"><div class="input-group copy-url-container" style="width:100%;"><span class="input-group-btn"><button class="btn btn-tnris copy-url-btn" type="button" style="margin-top:0;"><i class="fa fa-clipboard"></i> Copy URL</button></span><input class="wms-url copy-url-input form-control" type="text" readonly value="__wms__"></div></td></tr>';
+	var collections = [];
 
-		function compare(a,b) {
-		  if (a.label < b.label)
-		    return -1;
-		  if (a.label > b.label)
-		    return 1;
-		  return 0;
+	function titleCase(str) {
+		str = str.split(' ');
+		for (var i = 0; i < str.length; i++) {
+			str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
 		}
+		return str.join(' ');
+	  }
 
-		data.sort(compare);
+	function getter (url) {
+		$.get(url, function( data ) {
+			data.results.forEach(function(c) {
+				if (c.index_service_url && c.index_service_url !== "") {
+					collections.push({
+						wms: c.index_service_url,
+						label: titleCase(c.index_service_url.split("/")[c.index_service_url.split("/").length - 1].replace(".map","").replace(/_/g, " "))
+					});
+				}
+			});
 
-		data.forEach(function (i) {
-			var service =  template.replace("__label__", i.label).replace(/__wms__/g, i.wms);
-			$("#mapserver-services-tbody:last-child").append(service);
-		})
-	});
+			if (data.next !== null) {
+				getter(data.next);
+			}
+			else {
+				function compare(a,b) {
+					if (a.label < b.label)
+						return -1;
+					if (a.label > b.label)
+						return 1;
+					return 0;
+				}
+
+				collections.sort(compare);
+				collections.forEach(function (i) {
+					var template = '<tr><td class="col-md-4">__label__</td><td class="col-md-8"><div class="input-group copy-url-container" style="width:100%;"><span class="input-group-btn"><button class="btn btn-tnris copy-url-btn" type="button" style="margin-top:0;"><i class="fa fa-clipboard"></i> Copy URL</button></span><input class="wms-url copy-url-input form-control" type="text" readonly value="__wms__"></div></td></tr>';
+					var service =  template.replace("__label__", i.label).replace(/__wms__/g, i.wms);
+					$("#mapserver-services-tbody:last-child").append(service);
+				})
+			}
+		});
+	}
+
+	getter('https://api.tnris.org/api/v1/historical/collections');
 }
 
 $(document).ready(getIndexes());
