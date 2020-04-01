@@ -1,16 +1,56 @@
 ---
-layout: rdc/rdc-sub.njk
+layout: rdc/historic-imagery.njk
 title: Historical Imagery Archive
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/aerial_index_banner.jpg
 abstract: Our archive consists of over 1,000,000 frames with dates as far back as the 1920s.
 ---
 
+<div class="row">
+<div class="col-md-6">
 <p class="lead">
-    The Historical Imagery Archive maintained by TNRIS is one of our most used and important data collections. It is comprised of over 1 million frames of photos covering all parts of Texas from dates as far back as the 1920s
+    The Historical Imagery Archive maintained by TNRIS is one of our most utilized and important data collections. It is comprised of over 1 million frames of photos covering all parts of Texas from dates as far back as the 1920s.
 </p>
 <p class="lead">
     The RDC is charged with preserving this collection, distributing it to the public, and continuing with the large task of digitizing the frames.
 </p>
+<hr>
+<h3>Online Photo Search</h3>
+<p class="lead"> Customers can perform a <strong>cursory</strong> search of the the TNRIS Historic photo archive and submit an order by using the DataHub.</p>
+<a style="width: 50%; margin-bottom: 10px;" class="btn btn-lg btn-tnris btn-block center-block" href="https://data.tnris.org/catalog/%7B%22filters%22%3A%7B%22category%22%3A[%22Historic_Imagery%22]%7D%7D"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<img src="https://tnris-org-static.s3.amazonaws.com/images/historicphotocatalog.jpg" class="img-responsive img-rounded" alt="A historical aerial photo is pulled out of a row of other photos">
+</div>
+<div class='col-md-6'>
+<h3 style="margin-top: 0;">Historical Imagery Costs</h3>
+<h4>Research:</h4>
+<ul>
+  <li>Full Historical Search (multiple years or sites): <strong>$60.00</strong></li>
+    <li>Single Year Search (one site and one year): <strong>$30.00</strong></li>
+    <li>Frame Search (customer must be able to identify specific frames needed): <strong>$15.00</strong></li>
+</ul>
+<h4>Imagery:</h4>
+<ul>
+  <li>Scanned Historical Frame: <strong>$10.00 per image</strong></li>
+  <li>Scanned + georeferenced frame (all frames will be georeferenced to WGS 1984): <strong>$20.00 per image</strong></li>
+</ul>
+<h3>Bulk Collection Option</h3>
+<p>Customers have the option of ordering any collection that has already been <strong>scanned in full</strong> for the data size price (see Data Reproduction Costs), rather than paying by frame.</p>
+<ul>
+  <li>Staff time: <strong>$46.00 per TB</strong></li>
+  <li>Server/computer time: <strong>$0.15 per GB</strong></li>
+</ul>
+<h3>Delivery Options and Policy</h3>
+<p>TNRIS requests 3-10 business days for data requests and product turn around. We do not accommodate any expedited orders.</p>
+<ul>
+  <li>Digital download delivery (0-10GB): <strong>$7.00</strong></li>
+  <li>TNRIS-provided USB flash drive (64GB): <strong>$40.00</strong></li>
+  <li>TNRIS-provided external hard drive (1TB): <strong>$100.00</strong></li>
+</ul>
+<div class="bs-callout bs-callout-danger">
+  <p><strong>No Refund Policy:</strong> TNRIS does not offer refunds for services rendered. All data is available through the Public Domain at no cost. All applicable fees are associated with the cost of data reproduction.</p>
+</div>
+</div>
+</div>
+<hr class="clearfix">
 <h2>Acquiring Agencies</h2>
 <p>The following are the collections we maintain according to the original acquiring agencies.</p>
 <div class="row">
