@@ -6,9 +6,33 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
 
 <p class="lead">TNRIS has many maps and data resources available to the public at no charge from our website that can be incorporated into teacher's lesson plans for all levels. In addition to these resources, we are able to give tours on a limited basis to students and their educators.</p>
 
-## Map Collections
+## TNRIS Tours
 
-TNRIS has numerous static maps available for download that can be used in digital format or printed out. The majority of maps are part of the Texas Water Development Board's Maps depicting water resources.
+<img style="width: 50%;" class="pull-right img-rounded" src="https://tnris-org-static.s3.amazonaws.com/images/rovers2.jpg">
+
+<p class="lead">Visit TNRIS to see first-hand the TNRIS offices and meet the staff.  Two tour spots are available each month, and are booked on a first-come, first-serve basis.</p>
+
+-   **Front Desk** – Meet at the front desk to meet the staff who are available to help the public research archive photos, search for map data sets and hard copy maps.
+-   **Flat Files** – Learn about the USGS Texas quadrangle maps and see how Texas is composed of 4,425 'quads'.  
+    -   Examine Texas topographic maps
+    -   Learn that the USGS updates their topographic maps about every ten years.
+-   **Photo Archive** – Learn about the reason the photo archive is valuable, the uses and efforts to preserve this unique collection.
+-   **Augmented Reality** – See a demonstration of elevation and contour data in the context of changes to the surface when rain falls in the sandbox.
+    -   Make your own sand scape
+    -   Visualize the impacts of rain on the surface.
+-   **Staff Office** – Learn about 3D and 2D building footprints and compare different data collections vintages.
+-   **Scanning Room** – View and learn about the scanners used to digitize the aerial photos from the archive.
+-   **Plotter Room** – Learn about the different size plotters and their uses.
+-   **Information Services** – Learn about the team that creates the applications so that we can view and download the geospatial data acquired by the StratMap team project managers.
+-   **Q&A** – We’ll be happy to answer your questions and introduce you to the staff (unless they’re in a meeting).
+-   **Contact** – Felicia Retiz, TNRIS Director at Felicia.Retiz@twdb.texas.gov
+
+<hr class="clearfix">
+
+<div style="clear: both; width: 70%;">
+<h2>Map Collections</h2>
+<p class="lead">TNRIS has numerous static maps available for download that can be used in digital format or printed out. The majority of maps are part of the Texas Water Development Board's Maps depicting water resources.</p>
+</div>
 
 <div class="education-chip-container">
   <div class="map-card">
@@ -105,56 +129,48 @@ TNRIS has numerous static maps available for download that can be used in digita
 
 <hr class="clearfix">
 
-## Geographic Data
+<div class="row">
+<div class="col-md-4">
+<h2>Geographic Data</h2>
 
-### DataHub
+<h3>DataHub</h3>
+<img style="width: 50%" class="center-block" src="https://tnris-org-static.s3.amazonaws.com/images/datahub_frontpage_icon.jpg" alt="Icon for TNRIS DataHub">
+<p>The DataHub allows users to browse, download, order and inquire about digital geographic data used for analysis or to make maps.</p>
+<p>
+<a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+</p>
+</div>
+<div class="col-md-4">
 
-The DataHub allows users to browse, download, order and inquire about digital geographic data used for analysis or to make maps.
+<h2>Photo Archive Collection</h2>
 
-## Photo Archive Collection
+<h3>Historical Imagery Archive</h3>
+<img class="img-responsive img-rounded" src="https://tnris-org-static.s3.amazonaws.com/images/historicphotocatalog.jpg" alt="Historic Imagery in filing cabinet">
+<p>TNRIS maintains over 1 million frames of photos covering all parts of Texas from dates as far back as the 1920’s.
+<p class="lead">
+<strong>Learn more on our <a href="/research-distribution-center/historical-imagery-archive">Historical Imagery Archive page</a></strong>.
+</p>
+</div>
+<div class="col-md-4">
+<h2>Outside GIS resources</h2>
 
-### Historical Imagery Archive
+<h3>Esri training catalog</h3>
 
-TNRIS maintains over 1 million frames of photos covering all parts of Texas from dates as far back as the 1920’s.
+<p>Learn about the various courses offered by Esri including online, free courses to help you get started: https://www.esri.com/training/catalog/search/">www.esri.com/training</a>
+</p>
 
-## TNRIS Tours
+<h3>ArcGIS Student License</h3>
 
-<img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/rovers2.jpg">
+<p>Esri offers ArcGIS for Student use to learn GIS technical skills. Learn More:
+https://www.esri.com/en-us/arcgis/products/arcgis-desktop-student-trial
 
-Visit TNRIS to see first-hand the TNRIS offices and meet the staff.  Two tour spots are available each month, and are booked on a first-come, first-serve basis.
+<h3>Austin Community College</h3>
 
--   **Front Desk** – Meet at the front desk to meet the staff who are available to help the public research archive photos, search for map data sets and even hard copy maps.
--   **Flat Files** – Learn about the USGS Texas quadrangle maps and learn that Texas is composed of 4,425 quads.  
-    -   Examine Texas topographic maps
-    -   Learn that the USGS updates their topographic maps about every ten years.
--   **Photo Archive** – Learn about the reason the photo archive is valuable, the uses and efforts to preserve this unique collection.
--   **Augmented Reality** – See a demonstration of elevation and contour data in the context of changes to the surface when rain falls in the sandbox.
-    -   Make your own sand scape
-    -   Visualize the impacts of rain on the surface.
--   **Staff Office** – Learn about 3D and 2D building footprints and compare different data collections vintages.
--   **Scanning Room** – View and learn about the scanners used to digitize the aerial photos from the archive.
--   **Plotter Room** – Learn about the different size plotters and their uses.
--   **Information Services** – Learn about the team that creates the applications so that we can view and download the geospatial data acquired by the StratMap team project managers.
--   **Q&A** – We’ll be happy to answer your questions and introduce you to the staff (unless they’re in a meeting).
--   **Contact** – Felicia Retiz, TNRIS Director at Felicia.Retiz@twdb.texas.gov
-
-## Outside GIS resources
-
-### Esri training catalog
-
-Learn about the various courses offered by Esri including online, free courses to help you get started.  
-
-<https://www.esri.com/training/catalog/search/>
-
-### ArcGIS Student License
-
-Esri offers ArcGIS for Student use to learn GIS technical skills.
-
-<https://www.esri.com/en-us/arcgis/products/arcgis-desktop-student-trial>
-
-### Austin Community College
-
-Geographic Information Systems Program
+<p><strong>Geographic Information Systems Program</strong>
 The program starts with basic GIS principles and techniques then progresses through GIS projects and performing sophisticated analysis.
 
 <http://continue.austincc.edu/gis>
+
+</p>
+</div>
+</div>
