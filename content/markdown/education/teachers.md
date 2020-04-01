@@ -6,27 +6,6 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
 
 <p class="lead">TNRIS has many maps and data resources available to the public at no charge from our website that can be incorporated into teacher's lesson plans for all levels. In addition to these resources, we are able to give tours on a limited basis to students and their educators.</p>
 
-## TNRIS Tours
-
-<img style="width: 50%;" class="pull-right img-rounded" src="https://tnris-org-static.s3.amazonaws.com/images/rovers2.jpg">
-
-<p class="lead">Visit TNRIS to see first-hand the TNRIS offices and meet the staff.  Two tour spots are available each month, and are booked on a first-come, first-serve basis.</p>
-
--   **Front Desk** – Meet at the front desk to meet the staff who are available to help the public research archive photos, search for map data sets and hard copy maps.
--   **Flat Files** – Learn about the USGS Texas quadrangle maps and see how Texas is composed of 4,425 'quads'.  
-    -   Examine Texas topographic maps
-    -   Learn that the USGS updates their topographic maps about every ten years.
--   **Photo Archive** – Learn about the reason the photo archive is valuable, the uses and efforts to preserve this unique collection.
--   **Augmented Reality** – See a demonstration of elevation and contour data in the context of changes to the surface when rain falls in the sandbox.
-    -   Make your own sand scape
-    -   Visualize the impacts of rain on the surface.
--   **Staff Office** – Learn about 3D and 2D building footprints and compare different data collections vintages.
--   **Scanning Room** – View and learn about the scanners used to digitize the aerial photos from the archive.
--   **Plotter Room** – Learn about the different size plotters and their uses.
--   **Information Services** – Learn about the team that creates the applications so that we can view and download the geospatial data acquired by the StratMap team project managers.
--   **Q&A** – We’ll be happy to answer your questions and introduce you to the staff (unless they’re in a meeting).
--   **Contact** – Felicia Retiz, TNRIS Director at Felicia.Retiz@twdb.texas.gov
-
 <hr class="clearfix">
 
 <div style="clear: both; width: 70%;">
@@ -154,23 +133,43 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
 <div class="col-md-4">
 <h2>Outside GIS resources</h2>
 
-<h3>Esri training catalog</h3>
+<h3>Esri Training Catalog</h3>
 
-<p>Learn about the various courses offered by Esri including online, free courses to help you get started: https://www.esri.com/training/catalog/search/">www.esri.com/training</a>
+<p><a class="btn btn-tnris btn-md pull-right" href="https://www.esri.com/training/catalog/search/">Learn more</a> Esri offers online, free courses to help you get started with their software.
 </p>
 
 <h3>ArcGIS Student License</h3>
 
-<p>Esri offers ArcGIS for Student use to learn GIS technical skills. Learn More:
-https://www.esri.com/en-us/arcgis/products/arcgis-desktop-student-trial
+<p><a class="btn btn-tnris btn-md pull-right" href="https://www.esri.com/en-us/arcgis/products/arcgis-desktop-student-trial">Learn more</a> Esri offers ArcGIS for Student use to learn GIS technical skills.
+</p>
 
 <h3>Austin Community College</h3>
 
-<p><strong>Geographic Information Systems Program</strong>
-The program starts with basic GIS principles and techniques then progresses through GIS projects and performing sophisticated analysis.
-
-<http://continue.austincc.edu/gis>
-
+<p><a class="btn btn-tnris btn-md pull-right" href="https://www.austincc.edu/academic-and-career-programs/areas-of-study/design-manufacturing-construction-and-applied-technologies/geographic-information-systems">Learn more</a> ACC's Geographic Information Systems Program starts with basic GIS principles and techniques then progresses through GIS projects and performing sophisticated analysis.
 </p>
 </div>
 </div>
+
+* * *
+
+## TNRIS Tours
+
+<img style="width: 50%;" class="pull-right img-rounded" src="https://tnris-org-static.s3.amazonaws.com/images/rovers2.jpg">
+<div class="alert alert-warning">
+<p class="lead"><strong>Tours are unavailable until measures in response to the COVID-19 outbreak have been lifted. We apologize for the inconvenience.</strong></p>
+</div>
+<p class="lead">Visit TNRIS to see first-hand the TNRIS offices and meet the staff.  Two tour spots are available each month, and are booked on a first-come, first-serve basis.</p>
+
+-   **Front Desk** – Meet at the front desk to meet the staff who are available to help the public research archive photos, search for map data sets and hard copy maps.
+-   **Flat Files** – Learn about the USGS Texas quadrangle maps and see how Texas is composed of 4,425 'quads'.  
+    -   Examine Texas topographic maps
+    -   Learn that the USGS updates their topographic maps about every ten years.
+-   **Photo Archive** – Learn about the reason the photo archive is valuable, the uses and efforts to preserve this unique collection.
+-   **Augmented Reality** – See a demonstration of elevation and contour data in the context of changes to the surface when rain falls in the sandbox.
+    -   Make your own sand scape
+    -   Visualize the impacts of rain on the surface.
+-   **Staff Office** – Learn about 3D and 2D building footprints and compare different data collections vintages.
+-   **Scanning Room** – View and learn about the scanners used to digitize the aerial photos from the archive.
+-   **Plotter Room** – Learn about the different size plotters and their uses.
+-   **Information Services** – Learn about the team that creates the applications so that we can view and download the geospatial data acquired by the StratMap team project managers.
+-   **Q&A** – We’ll be happy to answer your questions and introduce you to the staff (unless they’re in a meeting).
