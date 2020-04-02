@@ -42,7 +42,7 @@ New classes for April and May delivered live-online:
 
 <h2 class="teachmegis-header">TeachMeGIS</h2>
 
-TeachmeGIS has announced that any of their in-person classes can be taken by logging in to the class virtually.  Remote students will be able to fully participate in the class, ask questions and contribute to discussions.
+TeachMeGIS has announced that any of their in-person classes can be taken by logging in to the class virtually.  Remote students will be able to fully participate in the class, ask questions and contribute to discussions.
 
 Inform TeachMeGIS at least one week in advance that you will register to participate remotely, and they will ship the book to you.
 
