@@ -8,11 +8,11 @@ abstract:
 tags: GIO, Data Sharing, GIS, Geospatial, DIR, DCS
 ---
 
-
 <p class="lead"><a href="https://dir.texas.gov/"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/dir_logo_med.jpg" alt="DIR Logo and link to website"></a>
 The Texas Natural Resources Information System, along with the <a href="https://dir.texas.gov/View-About-DIR/Data-Center/Landing.aspx">Texas Department of Information Resources</a>, established the <strong>Data Center Services (DCS) GIS Solutions Group</strong> to help address the complexities of geographic information systems in the state. The Solutions Group provides a platform for sharing information and making unified decisions that will better serve geographic information departments at state agencies. The DCS GIS Solutions Group meets monthly.</p>
 
 ## Data Governance Model
+
 <figure>
 <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/dcs_groups.jpg" alt="A flowchart of the DCS solutions groups structure">
 <figcaption class="right-align">The DCS solutions groups structure</figcaption>
@@ -46,7 +46,7 @@ The DCS GIS Solutions Group was created to meet the need for a formal team of ag
         <div class="col-xs-5ths">
         <span class="glyphicon glyphicon-arrow-down member"></span>
         <a class="gio-agency" href="https://www.tceq.texas.gov">
-          <img title="Visit the Texas Commission on Environmental Quality (TCEQ) website" class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/tceq_logo.jpg" alt="Texas Commission on Environmental Quality (TCEQ) Logo and Link to website">
+          <img title="Visit the Texas Commission on Environmental Quality (TCEQ) website" class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/tceq_logo_sm.jpg" alt="Texas Commission on Environmental Quality (TCEQ) Logo and Link to website">
         </a>
       </div>
       <div class="col-xs-5ths">
@@ -65,11 +65,12 @@ The DCS GIS Solutions Group was created to meet the need for a formal team of ag
 </section>
 
 The first meeting of the DCS GIS Solutions Group was held on March 25, 2015 with current participating member agencies:
-- [Department of Information Resources (DIR)](https://dir.texas.gov/)
-- [Commission on State Emergency Communications (CSEC)](http://www.csec.texas.gov/)
-- [Texas Commission on Environmental Quality (TCEQ)](https://www.tceq.texas.gov/)
-- [Texas Department of Transportation (TXDOT)](https://www.txdot.gov/)
-- [Texas Water Development Board (TWDB)](http://www.twdb.texas.gov/) (via TNRIS).
+
+-   [Department of Information Resources (DIR)](https://dir.texas.gov/)
+-   [Commission on State Emergency Communications (CSEC)](http://www.csec.texas.gov/)
+-   [Texas Commission on Environmental Quality (TCEQ)](https://www.tceq.texas.gov/)
+-   [Texas Department of Transportation (TXDOT)](https://www.txdot.gov/)
+-   [Texas Water Development Board (TWDB)](http://www.twdb.texas.gov/) (via TNRIS).
 
 <section class="gio-agency-collection container">
    <div class="row">
@@ -100,9 +101,9 @@ The first meeting of the DCS GIS Solutions Group was held on March 25, 2015 with
 
 Serving as associate members are:
 
-- [Texas Parks and Wildlife Department](http://tpwd.texas.gov/)
-- [Texas Department of Public Safety](https://www.dps.texas.gov/)
-- [Texas General Land Office](http://www.glo.texas.gov/)
+-   [Texas Parks and Wildlife Department](http://tpwd.texas.gov/)
+-   [Texas Department of Public Safety](https://www.dps.texas.gov/)
+-   [Texas General Land Office](http://www.glo.texas.gov/)
 
 ## Ongoing Projects
 
@@ -112,26 +113,25 @@ The DCS GIS Solutions Group gathers each month. Topics of discussion include:
 
 The DCS GIS Solutions Group is tasked with monitoring, managing, and marketing the Google Imagery Service, including imagery update approval and procurement. The following is a list of specific tasks the group is charged to consider and make decisions on. For more information regarding project participation, please visit the [Google Imagery Project Page](/texas-imagery-service)
 
-- Software and application access experience
-- Usage metrics and cost model
-- Imagery updates to the service
-- Prioritization of new imagery purchases
-- Progress updates from Google
+-   Software and application access experience
+-   Usage metrics and cost model
+-   Imagery updates to the service
+-   Prioritization of new imagery purchases
+-   Progress updates from Google
 
 ### Geographic Data
 
 The DCS GIS Solutions Group discussions include distribution and access to geographic data. Current topics and issues include the following:
 
-- **Authoritative Sources** – geographic data produced by trusted and reliable sources that are documented and managed by a credible designated authoritative source (state or local agency).
+-   **Authoritative Sources** – geographic data produced by trusted and reliable sources that are documented and managed by a credible designated authoritative source (state or local agency).
 
-- **Barriers to Sharing** – understanding existing barriers and resolving the challenges of data sharing through collaboration.
+-   **Barriers to Sharing** – understanding existing barriers and resolving the challenges of data sharing through collaboration.
 
-- **Statewide Address/Parcel Data** – discussions center on the need for a statewide address and/or parcel dataset. The need is present but funding lacks. The DCS GIS Solutions Group is addressing the pros and cons of commercially licensed data vs. maintenance of a public domain dataset.
+-   **Statewide Address/Parcel Data** – discussions center on the need for a statewide address and/or parcel dataset. The need is present but funding lacks. The DCS GIS Solutions Group is addressing the pros and cons of commercially licensed data vs. maintenance of a public domain dataset.
 
-- **Enterprise Data Storage and Access** – a work in progress to determine the most cost-effective way to create an enterprise system that would allow storage and access to centrally stored geographic data ready to display in an OGC-compliant geographic information.
+-   **Enterprise Data Storage and Access** – a work in progress to determine the most cost-effective way to create an enterprise system that would allow storage and access to centrally stored geographic data ready to display in an OGC-compliant geographic information.
 
-
-****
+* * *
 
 ## Group Charter
 
