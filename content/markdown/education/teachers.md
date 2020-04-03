@@ -23,7 +23,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
 <div class="row">
 <div class="education-chip-container col-md-8">
 <h2>Map Collections</h2>
-<p class="lead">TNRIS has numerous static maps available for download that can be used in digital format or printed out. The majority of maps are part of the Texas Water Development Board's Maps depicting water resources.</p>
+<p class="lead">TNRIS has numerous static maps available for download that can be used in digital format or printed out, providing useful tools for teaching cartography and learning how to read maps. The majority of maps are part of the Texas Water Development Board's Maps depicting water resources.</p>
   <div class="map-card">
     <a href="https://tnris.org/maps/#tnris-county-map-series">
     <div class="map-card-img" style="background: 0 0 url(https://s3.amazonaws.com/data.tnris.org/6f5ee354-ff2e-443a-afe1-f3a3be3cb744/assets/thumbnail.jpg) no-repeat;">
@@ -84,7 +84,9 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
     </div>
     </a>
   </div>
+  <p><a class="btn btn-tnris btn-lg center-block" style="width: 50%; clear: both;" href="/maps">See All Map Collections</a></p>
 </div>
+
 <hr class="clearfix hidden-md hidden-lg">
   <div class="col-md-4">
   <h2 style="margin-top: 0;">Other Agency Resources</h2>
