@@ -48,22 +48,22 @@ Inform TeachMeGIS at least one week in advance that you will register to partici
 
 Contact TeachMeGIS to let them know you’re interested in taking a class virtually.
 
-**Email:** sales@teachmegis.com
+<a style="width: 50%" class="btn btn-lg btn-tnris center-block" href="mailto:sales@teachmegis.com">Email TeachMeGIS</a>
 
-### ArcGIS Pro Quick-Start for the GIS Professional
+### GISP Exam Preparation Course
 
-**Date:** March 23-24
+**Date:** April 23-25
+
+**Price:** $400
+
+### Fundamentals of ArcGIS (ArcMap)
+
+**Date:** May 4-5
 
 **Price:** $960
 
-### Python for ArcGIS – Writing Scripts to Manipulate GIS Data (ArcMAP)
+### Python for Pro - Writing Scripts to Manipulate GIS Data
 
-**Date:** March 24-26
+**Date:** May 11-13
 
-**Price:** $1,460
-
-### Scripting in ArcGIS with Arcade
-
-**Date:** March 27
-
-**Price:** $480
+**Price:** $1440
