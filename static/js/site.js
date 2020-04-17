@@ -2,7 +2,6 @@ require('jquery');
 require('bootstrap');
 require('jquery-ui');
 
-require('imports-loader?this=>window!holderjs');
 require('lodash');
 require('zurb-twentytwenty/js/jquery.event.move.js');
 require('zurb-twentytwenty/js/jquery.twentytwenty.js');
@@ -13,73 +12,8 @@ require('../../scss/tnris.scss');
 require('ekko-lightbox/dist/ekko-lightbox.css');
 require('ekko-lightbox/dist/ekko-lightbox.min.js');
 
-
-var Clipboard = require('clipboard/dist/clipboard.min');
-
 (function($) {
   'use strict';
-
-  $(function() {
-    // Nav scroll spy
-    $('body').scrollspy({ target: '.wms-nav-container', offset: 130 });
-
-    // Tool Tip
-    $('.copy-tip').tooltip({'placement': 'top'});
-
-    // Beta/development alert message
-    if (window.location.hostname !== 'tnris.org' && window.location.hostname !== 'localhost') {
-      $('.alert-holder-2')
-        .html('<div class="alert alert-warning beta-alert text-center"><strong>Warning!</strong> You are currently viewing a development version of the TNRIS website. For the official version, go to <a href="http://tnris.org">http://tnris.org</a>.</div>');
-    }
-
-    // from http://zenorocha.github.io/clipboard.js/assets/scripts/tooltips.js
-    // not flawless, but close enough
-    function fallbackMessage(action) {
-      var actionMsg = '';
-      var actionKey = (action === 'cut' ? 'X' : 'C');
-
-      if(/iPhone|iPad/i.test(navigator.userAgent)) {
-        actionMsg = 'Copy manually';
-      }
-      else if (/Mac/i.test(navigator.userAgent)) {
-        actionMsg = 'Press ⌘-' + actionKey + ' to ' + action;
-      }
-      else {
-        actionMsg = 'Press Ctrl-' + actionKey + ' to ' + action;
-      }
-
-      return actionMsg;
-    }
-
-    var clipboard = new Clipboard('.copy-url-btn', {
-      target: function(trigger) {
-        return trigger.parentElement.nextElementSibling;
-      }
-    });
-
-    clipboard.on('success', function(e) {
-      var $btn = $(e.trigger);
-      var origInner = $btn.html();
-      $btn.html('Copied!');
-      setTimeout(function () {
-        $btn.html(origInner)
-      }, 4000);
-      e.clearSelection();
-    });
-
-    clipboard.on('error', function(e) {
-      var $btn = $(e.trigger);
-      var origInner = $btn.html();
-      $btn.html(fallbackMessage(e.action));
-      setTimeout(function () {
-        $btn.html(origInner)
-      }, 4000);
-    });
-
-    $("a[href^='\#']").each(function(){
-      this.href=location.href.split("#")[0]+'#'+this.href.substr(this.href.indexOf('#')+1);
-    });
-  });
 
   $(window).on('load', function() {
     // Image Slider
