@@ -1,32 +1,46 @@
+{% extends "base.njk" %}
 {% import "_form_macros.njk" as form %}
-<h2 id="contact-pm">Contact and Feedback Form</h2>
 
-<p class="lead">Use this form to ask us general questions, give us feedback about the service, or report an issue.</p>
+{% block styles %}
+  {{ super() }}
+  {{ form.styles() }}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  {{ form.scripts() }}
+{% endblock %}
+
+{% block topcontent %}
+  <div class="container-fluid full">
+    <div class="top-container">
+      {% if mainimage %}
+        <img class="img-responsive center-block hidden-sm hidden-xs" src="{{mainimage}}" alt="Masthead for {{title}}">
+      {% endif %}
+      {% if smallimage %}
+        <img class="img-responsive center-block hidden-md hidden-lg" src="{{smallimage}}" alt="Masthead for {{title}}">
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}
+
+{% block contentsOne %}
+<div class="container">
+  {% include "education/nav.njk" %}
+</div>
+<div class="container">
+  <h1 id="title">{{title}}</h1>
+  {% if abstract %}
+    <div class="lead">{{abstract}}</div>
+  {% endif %}
+</div>
+<div class="container">
+    <div class="row">
+      <div class="col-md-8">
+
 
 {{form.before("education")}}
   {{form.input("Name", "Name", "text", true)}}
-
-  {{form.multi(
-    "Reason",
-    "Reason for contacting",
-    "radio",
-    [
-      'Feedback/General Inquiry',
-      'Issue Reporting'
-    ],
-    true
-  )}}
-
-  {% set show_image_upload="form_model['Reason']=='Issue Reporting'" %}
-  {{form.uploadImage(
-    "Issue Screenshot",
-    {
-      label: "Upload Screenshot",
-      help: "Upload an image that shows the problem area. Maximum allowed image size is 5 MB."
-    },
-    false,
-    show_image_upload
-  )}}
 
   {{form.input(
     "Email",
@@ -67,3 +81,9 @@
 
   {{form.submit("message")}}
 {{form.after()}}
+</div>
+</div>
+</div>
+
+
+{% endblock %}
