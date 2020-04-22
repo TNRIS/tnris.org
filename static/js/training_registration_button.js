@@ -17,7 +17,6 @@ function retrieveOpenTrainingLimited() {
         <a href="${process.env.TRAINING_REGISTRATION_LINK}" class="btn btn-success btn-lg btn-block">
           Register Online Today
         </a>
-        <hr>
         `;
     }
     else {
@@ -26,7 +25,6 @@ function retrieveOpenTrainingLimited() {
         <a href="#" class="btn btn-danger btn-lg btn-block disabled">
           <i class="glyphicon glyphicon-remove"></i> REGISTRATION CLOSED
         </a>
-        <hr>
         `;
     }
     document.getElementById('training-registration-button').innerHTML = button;
