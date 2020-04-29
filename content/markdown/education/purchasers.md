@@ -1,5 +1,5 @@
 ---
-title: Purchaser Resources
+title: Purchaser Information
 layout: education/education-sub.njk
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/keep_pace_banner.jpg
 smallimage: https://tnris-org-static.s3.amazonaws.com/images/training_keep_pace_md.jpg
@@ -12,9 +12,10 @@ Online registration and payment processing is managed through a third party, [CM
 ### Payment Options
 
 Forms of acceptable payment include:
-- Credit card
-- Purchase Order
-- Check
+
+-   Credit card
+-   Purchase Order
+-   Check
 
 Checks made payable to CMP Management/TNRIS Training can be sent to:
 

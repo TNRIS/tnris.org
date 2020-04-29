@@ -275,3 +275,152 @@ h1 {
     margin: 0 auto;
   }
 }
+
+
+h2.geospatial-header {
+  background: 0 0 url('https://tnris-org-static.s3.amazonaws.com/images/geospatialtrainingservices_md.jpg') no-repeat;
+  background-size: contain;
+  width: 428px;
+  height: 90px;
+  text-indent: -9999px;
+}
+
+h2.teachmegis-header {
+  background: 0 0 url('https://tnris-org-static.s3.amazonaws.com/images/teachmegis_md.jpg') no-repeat;
+  background-size: contain;
+  width: 428px;
+  height: 90px;
+  text-indent: -9999px;
+}
+
+
+.resources-highlight-box {
+  color: $white !important;
+  display: block;
+  float: left;
+  margin-bottom: 20px;
+  position: relative;
+
+
+  a {
+    color: $white;
+  }
+
+  img {
+    position: absolute;
+  }
+
+  h3 {
+    margin-bottom: 5px;
+    margin-top: 0;
+    text-shadow: 2px 2px 0px $darkgrey;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .resources-highlight-text-container {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    right: 20px;
+  }
+
+  @media (max-width: $screen-sm) {
+    width: 100%;
+    min-height:245px;
+  }
+
+  @media (min-width: $screen-sm) {
+    width: 45%;
+    height: 230px;
+    margin-right: 10px;
+  }
+
+  @media (min-width: $screen-md) {
+    height: 200px;
+    width: 100%;
+  }
+
+  @media (min-width: $screen-lg) {
+    height: 245px;
+  }
+}
+
+
+// Info Chips
+.education-chip-container {
+  .col-md-2 {
+    padding-right: 0;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  @media (min-width: $screen-md) {
+    border-right: 1px solid $lightgrey;
+  }
+}
+
+.map-card {
+  border-radius: 5px;
+  float: left;
+  background-color: #fff;
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+  margin: 0 10px 10px 0;
+  position: relative;
+
+  &:hover {
+    background: $lightergrey;
+  }
+
+  @media (max-width: $screen-sm) {
+    width: 100%;
+  }
+
+  @media (min-width: $screen-sm) {
+    width: 45%;
+  }
+
+  @media (min-width: $screen-md) {
+    width: 45%
+  }
+
+  .map-card-img {
+    width: 30%;
+    min-height: 130px;
+    float: left;
+    background-size: 175px 175px !important;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .map-card-text {
+    float: left;
+    max-width: 70%;
+
+      h3 {
+        font-size: 18px;
+        color: $darkgrey;
+        text-decoration: none;
+        padding: 0 5px;
+        margin:  5px 0;
+      }
+      p {
+        padding: 0 5px 5px 5px;
+        color: $darkgrey;
+        font-size: 14px;
+      }
+  }
+}
+
+.education-divider {
+  @media (min-width: $screen-sm) {
+    border-right: 1px solid $lightgrey;
+  }
+}

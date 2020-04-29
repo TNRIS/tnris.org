@@ -4,7 +4,7 @@
     logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/aecom_logo.png',
     vendor_home_url: 'https://www.aecom.com',
     vendor_page_url: 'http://www.aecomconnect.com/arcgisportal/apps/MapJournal/index.html?appid=f8ec753f87964dd980bee9f79b16ead7',
-    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3423&keyword=aecom'
+    status: 'unavailable'
   }, {
     name: 'AppGeo',
     logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/appgeo_logo_sm.png',
@@ -17,7 +17,7 @@
     logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/dewberry_logo.png',
     vendor_home_url: 'http://www.dewberry.com/  ',
     vendor_page_url: 'http://www.dewberry.com/services/geospatial/texas-dir',
-    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3389&keyword=dewberry'
+    status: 'unavailable'
   },
   {
     name: 'Esri',
@@ -45,14 +45,14 @@
     logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/geophex_logo.png',
     vendor_home_url: 'http://www.geophex.com/',
     vendor_page_url: 'http://geophexsurveys.com/dir-contractor-geographic-data-provider/',
-    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3411&keyword=geophex'
+    status: 'unavailable'
   },
   {
     name: 'Merrick',
     logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/merrick_logo.png',
     vendor_home_url: 'http://www.merrick.com/',
     vendor_page_url: 'https://www.merrick.com/services/geospatial-services/',
-    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3388&keyword=merrick'
+    status: 'unavailable'
   },
   {
     name: 'PenBay',
@@ -87,7 +87,7 @@
     logo_url: 'https://tnris-org-static.s3.amazonaws.com/images/surdex_logo_sm.jpg',
     vendor_home_url: 'https://www.surdex.net/',
     vendor_page_url: 'https://www.texas-geospatial.com/',
-    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3394&keyword=Surdex'
+    status: 'unavailable'
   },
   {
     name: 'Tessellations',
@@ -133,7 +133,7 @@
                 {% if item.dir_page_url %}
                 <a href="{{item.dir_page_url}}"><i class="glyphicon glyphicon-new-window"></i> DIR Vendor Contract Page</a>
                 {% else %}
-                <em>DIR Contract Page in progress</em>
+                <em>DIR Contract Expired</em>
                  {% endif %}
                 </li>
               </ul>

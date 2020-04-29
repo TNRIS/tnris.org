@@ -1,0 +1,89 @@
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+{% block styles %}
+  {{ super() }}
+  {{ form.styles() }}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  {{ form.scripts() }}
+{% endblock %}
+
+{% block topcontent %}
+  <div class="container-fluid full">
+    <div class="top-container">
+      {% if mainimage %}
+        <img class="img-responsive center-block hidden-sm hidden-xs" src="{{mainimage}}" alt="Masthead for {{title}}">
+      {% endif %}
+      {% if smallimage %}
+        <img class="img-responsive center-block hidden-md hidden-lg" src="{{smallimage}}" alt="Masthead for {{title}}">
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}
+
+{% block contentsOne %}
+<div class="container">
+  {% include "education/nav.njk" %}
+</div>
+<div class="container">
+  <h1 id="title">{{title}}</h1>
+  {% if abstract %}
+    <div class="lead">{{abstract}}</div>
+  {% endif %}
+</div>
+<div class="container">
+    <div class="row">
+      <div class="col-md-8">
+
+
+{{form.before("education")}}
+  {{form.input("Name", "Name", "text", true)}}
+
+  {{form.input(
+    "Email",
+    {
+      label: "Email",
+      placeholder: "Enter email address"
+    },
+    "email",
+    true
+  )}}
+
+  {{form.input(
+    "Phone",
+    {
+      label: "Phone",
+      placeholder: "Enter your phone number"
+    },
+    "tel",
+    false
+  )}}
+
+  {{form.input(
+    "Government Agency or Affiliation",
+    {
+      label: "What Is Your Government Agency or Affiliation?",
+      placeholder: "Name of Agency or Organization"
+    },
+    "text",
+    false
+  )}}
+
+  {{form.textarea(
+    "Question or Comments",
+    "Question / Comments",
+    true,
+    true
+  )}}
+
+  {{form.submit("message")}}
+{{form.after()}}
+</div>
+</div>
+</div>
+
+
+{% endblock %}
