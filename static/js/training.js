@@ -35,7 +35,7 @@ function retrieveTraining() {
       if ((t.registration_open) && (today < endCompare)) {
         console.log('open and green active register here button', t.title)
         status = `<a href="${process.env.TRAINING_REGISTRATION_LINK}" class="btn btn-success btn-sm">
-                    <i class="glyphicon glyphicon-pencil"></i> Register Here
+                    <i class="glyphicon glyphicon-new-window"></i> Register
                   </a>`;
       }
       else if (!t.registration_open) {
@@ -43,7 +43,7 @@ function retrieveTraining() {
         if (today < endCompare) {
           console.log('disabled register here button')
           status = `<a href="${process.env.TRAINING_REGISTRATION_LINK}" class="btn btn-default btn-sm disabled">
-                      <i class="glyphicon glyphicon-pencil"></i> Pending
+                      <i class="glyphicon glyphicon-new-window"></i> Register
                     </a>`;
         }
         else if (today >= endCompare) {
