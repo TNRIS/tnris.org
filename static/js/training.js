@@ -22,6 +22,40 @@ function retrieveTraining() {
       var startDateArray = t.start_date_time.split(' ');
       var endDateArray = t.end_date_time.split(' ');
       var month = startDateArray[1];
+      var status;
+      ////////////////////////////////////////////////
+      // start - date time work to determine register button status
+      // build custom training date for comparison to today date
+      var monthsArray = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+      var endCompare = t.year + "-" + (monthsArray.indexOf(endDateArray[1])+1) + "-" + endDateArray[2];
+      // build custom formatted today date for comparison to end date
+      var d = new Date();
+      var today = d.getFullYear() + "-" + (d.getMonth()+1) + "-" + d.getDate();
+      // use today date/time compared to end date/time and registration_open status to determine button used in training record
+      if ((t.registration_open) && (today < endCompare)) {
+        console.log('open and green active register here button', t.title)
+        status = `<a href="${process.env.TRAINING_REGISTRATION_LINK}" class="btn btn-success btn-sm">
+                    <i class="glyphicon glyphicon-pencil"></i> Register Here
+                  </a>`;
+      }
+      else if (!t.registration_open) {
+        console.log('closed', t.title)
+        if (today < endCompare) {
+          console.log('disabled register here button')
+          status = `<a href="${process.env.TRAINING_REGISTRATION_LINK}" class="btn btn-default btn-sm disabled">
+                      <i class="glyphicon glyphicon-pencil"></i> Pending
+                    </a>`;
+        }
+        else if (today >= endCompare) {
+          console.log('closed disabled button', t.title)
+          status = `<a href="#" class="btn btn-danger btn-sm disabled">
+                      <i class="glyphicon glyphicon-remove"></i> Closed
+                    </a>`;
+        }
+      }
+      // end - date time work to determine register button status
+      ////////////////////////////////////////////////
+
       // check to make sure start day and end day are not the same; if so, return just one day
       var day;
       startDateArray[2] === endDateArray[2] ? day = startDateArray[2] : day = `${startDateArray[2]}-${endDateArray[2]}`;
@@ -33,15 +67,6 @@ function retrieveTraining() {
       var urlTitle = month.toLowerCase() + "-" + t.year + "-" + t.title.replace(/[\s,:-]+/g , '-').toLowerCase();
       record.setAttribute('class', 'training-record');
       record.setAttribute('id', urlTitle);
-      // check registration_open prop for truthiness, then assign html button accordingly
-      var status;
-      t.registration_open ?
-        status = `<a href="${process.env.TRAINING_REGISTRATION_LINK}" class="btn btn-success btn-sm">
-                    <i class="glyphicon glyphicon-pencil"></i> Register Here
-                  </a>` :
-        status = `<a href="#" class="btn btn-danger btn-sm disabled">
-                    <i class="glyphicon glyphicon-remove"></i> CLOSED
-                  </a>`;
 
       record.innerHTML =
         `<div class="row training-header">
