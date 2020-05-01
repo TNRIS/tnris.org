@@ -68,7 +68,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/stratmap_website_ban
 
 <div class="col-sm-7">
 <h2 class="text-center">Vendors 2016 - 2020</h2>
-<em class="text-center">Note: New vendor pool coming soon.</em>
+<div class="alert alert-warning text-center"><p class="lead">Note: New vendor pool coming soon.</p></div>
 <div>
 {% include "stratmap/contract-vendors.njk" %}
 </div>

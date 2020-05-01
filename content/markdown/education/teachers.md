@@ -11,9 +11,9 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
 <div class="col-md-4">
   <div class="well well-bg">
   <p>
-    We encourage teachers and students to reach out to us with any suggestions or questions.
+    Contact us about our Education &amp; Training Program.
   </p>
-  <a class="btn btn-tnris btn-lg btn-block" href="/contact"><i class="glyphicon glyphicon-comment"></i> Contact Us</a>
+  <a class="btn btn-tnris btn-lg btn-block" href="/education/contact"><i class="glyphicon glyphicon-comment"></i> Contact Us</a>
   </div>
 </div>
 </div>
