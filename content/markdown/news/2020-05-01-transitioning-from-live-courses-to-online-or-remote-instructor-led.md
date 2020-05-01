@@ -4,8 +4,8 @@ author: TNRIS Education
 layout: news-article.njk
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/training_keep_pace.jpg
 thumbnail: https://tnris-org-static.s3.amazonaws.com/images/training_keep_pace_md.jpg
-thumbalt: This is just some placeholder text
-abstract: TNRIS transitions from live, instructor-led courses to online, or remote instructor-led classes.
+thumbalt: TNRIS Training
+abstract: TNRIS is working with our training partners to transition from our traditional in-person classes to self-paced or instructor-led remote sessions. The details are being finalized with the full schedule update soon to follow.
 ---
 
 ## Important Notice from TNRIS Training
