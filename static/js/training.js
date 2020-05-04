@@ -27,24 +27,26 @@ function retrieveTraining() {
       // start - date time work to determine register button status
       // build custom training date for comparison to today date
       var monthsArray = ["January","February","March","April","May","June","July","August","September","October","November","December"]
-      var endCompare = t.year + "-" + (monthsArray.indexOf(endDateArray[1])+1) + "-" + endDateArray[2];
+      var endCompare = t.year + (monthsArray.indexOf(endDateArray[1])+1) + endDateArray[2];
       // build custom formatted today date for comparison to end date
       var d = new Date();
-      var today = d.getFullYear() + "-" + (d.getMonth()+1) + "-" + d.getDate();
+      var today = d.getFullYear().toString() + (d.getMonth()+1).toString() + d.getDate().toString();
       // use today date/time compared to end date/time and registration_open status to determine button used in training record
-      if ((t.registration_open && t.training_link) && (today < endCompare)) {
+      if (t.registration_open && (today < endCompare)) {
+        console.log("open and " + today + "<" + endCompare)
         status = `<a href="${t.training_link}" class="btn btn-success btn-sm">
                     <i class="glyphicon glyphicon-new-window"></i> Register
                   </a>`;
       }
-      else if (!t.registration_open && t.training_link) {
+      else if (!t.registration_open) {
         if (today < endCompare) {
-          console.log('disabled register here button')
-          status = `<a href="${t.training_link}" class="btn btn-default btn-sm disabled">
-                      <i class="glyphicon glyphicon-new-window"></i> Register
+          console.log("closed and " + today + "<" + endCompare)
+          status = `<a href="#" class="btn btn-default btn-sm disabled">
+                      <i class="glyphicon glyphicon-option-horizontal"></i> Pending
                     </a>`;
         }
         else if (today >= endCompare) {
+          console.log("closed and " + today + ">=" + endCompare)
           status = `<a href="#" class="btn btn-danger btn-sm disabled">
                       <i class="glyphicon glyphicon-remove"></i> Closed
                     </a>`;
