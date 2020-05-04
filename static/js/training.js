@@ -32,15 +32,15 @@ function retrieveTraining() {
       var d = new Date();
       var today = d.getFullYear() + "-" + (d.getMonth()+1) + "-" + d.getDate();
       // use today date/time compared to end date/time and registration_open status to determine button used in training record
-      if ((t.registration_open) && (today < endCompare)) {
-        status = `<a href="${process.env.TRAINING_REGISTRATION_LINK}" class="btn btn-success btn-sm">
+      if ((t.registration_open && t.training_link) && (today < endCompare)) {
+        status = `<a href="${t.training_link}" class="btn btn-success btn-sm">
                     <i class="glyphicon glyphicon-new-window"></i> Register
                   </a>`;
       }
-      else if (!t.registration_open) {
+      else if (!t.registration_open && t.training_link) {
         if (today < endCompare) {
           console.log('disabled register here button')
-          status = `<a href="${process.env.TRAINING_REGISTRATION_LINK}" class="btn btn-default btn-sm disabled">
+          status = `<a href="${t.training_link}" class="btn btn-default btn-sm disabled">
                       <i class="glyphicon glyphicon-new-window"></i> Register
                     </a>`;
         }
