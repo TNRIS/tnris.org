@@ -24,35 +24,39 @@ function retrieveTraining() {
       var month = startDateArray[1];
       var status;
       ////////////////////////////////////////////////
-      // start - date time work to determine register button status
-      // build custom training date for comparison to today date
-      var monthsArray = ["January","February","March","April","May","June","July","August","September","October","November","December"]
-      var endCompare = t.year + (monthsArray.indexOf(endDateArray[1])+1) + endDateArray[2];
-      // build custom formatted today date for comparison to end date
-      var d = new Date();
-      var today = d.getFullYear().toString() + (d.getMonth()+1).toString() + d.getDate().toString();
-      // use today date/time compared to end date/time and registration_open status to determine button used in training record
-      if (t.registration_open && (today < endCompare)) {
-        console.log("open and " + today + "<" + endCompare)
+      // START - date time work to determine register button status
+      // used for reference in building comparison dates
+      var monthsArray = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+      // // re-format dates for comparison
+      var d1 = new Date().toString().split(' ');
+      var d2 = new Date(t.end_date_time).toString().split(' ');
+      var today = d1[3]+(monthsArray.indexOf(d1[1])+1)+d1[2];
+      var end = t.year+(monthsArray.indexOf(d2[1])+1)+d2[2];
+      // use today date compared to end date and registration_open status to determine button used in training record
+      // if registration is open and today is prior to the training end date
+      if (t.registration_open && (today < end)) {
+        // set to active enabled register button with proper link to external registration page
         status = `<a href="${t.training_link}" class="btn btn-success btn-sm">
                     <i class="glyphicon glyphicon-new-window"></i> Register
                   </a>`;
       }
       else if (!t.registration_open) {
-        if (today < endCompare) {
-          console.log("closed and " + today + "<" + endCompare)
+        // if registration is closed and today is prior to training end date
+        if (today < end) {
+          // set to disabled register icon button - could be set to 'pending' or similar if needed
           status = `<a href="#" class="btn btn-default btn-sm disabled">
-                      <i class="glyphicon glyphicon-option-horizontal"></i> Pending
+                      <i class="glyphicon glyphicon-new-window"></i> Register
                     </a>`;
         }
-        else if (today >= endCompare) {
-          console.log("closed and " + today + ">=" + endCompare)
+        // if registration is closed and today is equal to or past the training end date
+        else if (today >= end) {
+          // set to disabled close/remove icon button
           status = `<a href="#" class="btn btn-danger btn-sm disabled">
                       <i class="glyphicon glyphicon-remove"></i> Closed
                     </a>`;
         }
       }
-      // end - date time work to determine register button status
+      // END - date time work to determine register button status
       ////////////////////////////////////////////////
 
       // check to make sure start day and end day are not the same; if so, return just one day
