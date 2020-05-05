@@ -40,6 +40,13 @@ function retrieveTraining() {
                     <i class="glyphicon glyphicon-new-window"></i> Register
                   </a>`;
       }
+      else if (t.registration_open && (today >= end)) {
+        // set to disabled close/remove button if for some reason registration is set to True for a
+        // training record that has past
+        status = `<a href="#" class="btn btn-danger btn-sm disabled">
+                    <i class="glyphicon glyphicon-remove"></i> Closed
+                  </a>`;
+      }
       else if (!t.registration_open) {
         // if registration is closed and today is prior to training end date
         if (today < end) {
