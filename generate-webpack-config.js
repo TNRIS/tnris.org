@@ -41,7 +41,7 @@ function generate(env) {
       'site': [path.resolve(__dirname, 'static/js/site.js')],
       'training': [path.resolve(__dirname, 'static/js/training.js')],
       'training_partial': [path.resolve(__dirname, 'static/js/training_partial.js')],
-      'training_registration_button': [path.resolve(__dirname, 'static/js/training_registration_button.js')],
+      'training_discount_copy': [path.resolve(__dirname, 'static/js/training_discount_copy.js')],
       'webfontloader': ['file-loader?name=webfontloader.js!webfontloader'],
       'xdomain': ['file-loader?name=xdomain.js!xdomain'],
     },
@@ -151,7 +151,6 @@ function generate(env) {
           "FORUM_YEAR": JSON.stringify("2016"),
           "FORUM_DAY_ONE": JSON.stringify("2016-10-26"),
           "FORUM_DAY_TWO": JSON.stringify("2016-10-27"),
-          "TRAINING_REGISTRATION_LINK": JSON.stringify("https://events.eply.com/TNRIS2020"),
           "FORUM_REGISTRATION_LINK": JSON.stringify("https://events.eply.com/2019GISForumRegistration")
         }
       }),
