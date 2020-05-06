@@ -22,6 +22,50 @@ function retrieveTraining() {
       var startDateArray = t.start_date_time.split(' ');
       var endDateArray = t.end_date_time.split(' ');
       var month = startDateArray[1];
+      var status;
+      ////////////////////////////////////////////////
+      // START - date time work to determine register button status
+      // used for reference in building comparison dates
+      var monthsArray = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+      // // re-format dates for comparison
+      var d1 = new Date().toString().split(' ');
+      var d2 = new Date(t.end_date_time).toString().split(' ');
+      var today = d1[3]+(monthsArray.indexOf(d1[1])+1)+d1[2];
+      var end = t.year+(monthsArray.indexOf(d2[1])+1)+d2[2];
+      // use today date compared to end date and registration_open status to determine button used in training record
+      // if registration is open and today is prior to the training end date
+      if (t.registration_open && (today < end)) {
+        // set to active enabled register button with proper link to external registration page
+        status = `<a href="${t.training_link}" class="btn btn-success btn-sm">
+                    <i class="glyphicon glyphicon-new-window"></i> Register
+                  </a>`;
+      }
+      else if (t.registration_open && (today >= end)) {
+        // set to disabled close/remove button if for some reason registration is set to True for a
+        // training record that has past
+        status = `<a href="#" class="btn btn-danger btn-sm disabled">
+                    <i class="glyphicon glyphicon-remove"></i> Closed
+                  </a>`;
+      }
+      else if (!t.registration_open) {
+        // if registration is closed and today is prior to training end date
+        if (today < end) {
+          // set to disabled register icon button - could be set to 'pending' or similar if needed
+          status = `<a href="#" class="btn btn-default btn-sm disabled">
+                      <i class="glyphicon glyphicon-new-window"></i> Register
+                    </a>`;
+        }
+        // if registration is closed and today is equal to or past the training end date
+        else if (today >= end) {
+          // set to disabled close/remove icon button
+          status = `<a href="#" class="btn btn-danger btn-sm disabled">
+                      <i class="glyphicon glyphicon-remove"></i> Closed
+                    </a>`;
+        }
+      }
+      // END - date time work to determine register button status
+      ////////////////////////////////////////////////
+
       // check to make sure start day and end day are not the same; if so, return just one day
       var day;
       startDateArray[2] === endDateArray[2] ? day = startDateArray[2] : day = `${startDateArray[2]}-${endDateArray[2]}`;
@@ -33,15 +77,6 @@ function retrieveTraining() {
       var urlTitle = month.toLowerCase() + "-" + t.year + "-" + t.title.replace(/[\s,:-]+/g , '-').toLowerCase();
       record.setAttribute('class', 'training-record');
       record.setAttribute('id', urlTitle);
-      // check registration_open prop for truthiness, then assign html button accordingly
-      var status;
-      t.registration_open ?
-        status = `<a href="${process.env.TRAINING_REGISTRATION_LINK}" class="btn btn-success btn-sm">
-                    <i class="glyphicon glyphicon-pencil"></i> Register Here
-                  </a>` :
-        status = `<a href="#" class="btn btn-danger btn-sm disabled">
-                    <i class="glyphicon glyphicon-remove"></i> CLOSED
-                  </a>`;
 
       record.innerHTML =
         `<div class="row training-header">
