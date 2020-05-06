@@ -123,7 +123,7 @@ function retrieveTraining() {
     });
 
     // update header in template to include this year
-    var thisYear = data.results[0].year;
+    var thisYear = data.results.count > 0 ? data.results[0].year : "";
     document.getElementById('education-schedule-h2').innerHTML = `${thisYear} Course Schedule`;
   })
   .then(function() {
