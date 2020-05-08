@@ -89,10 +89,10 @@ Ben Guhin, [City of Austin's](http://austintexas.gov) Chief Innovation Officer, 
 - How to Reach Everyone
 - The Right Thing to Do
 
-Ben also pointed us to the [Mobile Content Mandate](https://karenmcgrane.com/2014/01/13/the-mobile-content-mandate/), which provides more principles that address the responsbility designers and developers have to users, especially on mobile devices, which are rapidly becoming the primary way people engage with digital content.
+<!---Ben also pointed us to the [Mobile Content Mandate](https://karenmcgrane.com/2014/01/13/the-mobile-content-mandate/), which provides more principles that address the responsbility designers and developers have to users, especially on mobile devices, which are rapidly becoming the primary way people engage with digital content.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/benguhin">@benguhin</a> cites the Mobile Content Mandate <a href="https://t.co/Bu7IxWZt9l">https://t.co/Bu7IxWZt9l</a> <a href="https://twitter.com/hashtag/GeoRodeo?src=hash">#GeoRodeo</a></p>&mdash; TNRIS (@TNRIS) <a href="https://twitter.com/TNRIS/status/733764295184375808">May 20, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> --->
 
 ### Lightning Talks - the Brave, the Bold, and the Speedy!
 

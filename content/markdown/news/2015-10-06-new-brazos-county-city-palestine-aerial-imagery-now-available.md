@@ -40,10 +40,10 @@ The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG200
   Browse, download, order, and inquire about data within the <a href="https://data.tnris.org">DataHub</a>.
 </p>
 
-## Acquisition Areas
+<!--- ## Acquisition Areas
 View coverage areas in the interactive map below:
 
-<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/f420e7ee-6612-11e5-bfdc-0e76aec36da9/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/f420e7ee-6612-11e5-bfdc-0e76aec36da9/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> --->
 
 ## Products
 

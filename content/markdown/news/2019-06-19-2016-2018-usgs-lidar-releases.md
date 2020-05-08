@@ -23,7 +23,7 @@ Details regarding these acquisitions can be found by downloading the supplementa
 
 <a class="btn btn-lg btn-tnris" href="https://data.tnris.org/catalog/%7B%22filters%22%3A%7B%22category%22%3A%5B%22Lidar%22%5D%7D%2C%22search%22%3A%22USGS%20FEMA%22%2C%22sort%22%3A%22AZ%22%7D"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
 
-Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builder/a5dfc759-9a90-4acd-a8d1-57d521c7e1fe/public_map) for statewide lidar coverage.
+Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris/builder/03970fcc-1040-4819-a08b-30c139add308/embed) for statewide lidar coverage.
 
 
 ## PRODUCTS

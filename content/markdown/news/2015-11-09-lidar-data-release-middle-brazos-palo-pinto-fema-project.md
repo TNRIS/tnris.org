@@ -26,11 +26,11 @@ The primary purpose of this project was to develop a consistent and accurate sur
   </div>
 </div>
 
-## Coverage Area
+<!---## Coverage Area
 
 View coverage areas in the interactive map below:
 
-<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/d698a32c-87b6-11e5-9eed-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/d698a32c-87b6-11e5-9eed-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> --->
 
 Please check our [Lidar status map](http://tnris.maps.arcgis.com/apps/Viewer/index.html?appid=3a5712b6cc36472f8036446e7b49c52d) for exact coverage.
 ## Products

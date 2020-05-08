@@ -52,7 +52,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 <div class="row well well-lg">
   <div class="col-sm-7">
     <h3><small>Forum Keynotes</small><br>Bringing the Best, Not Just In GIS</h3>
-    <p class="lead-forum">The Forum has made a name for itself by bringing top-tier speakers to keynote the conference. In addition to those at the top of the GIS field, we have hosted astronauts, TV personalities, reknowned historians, and more.
+    <p class="lead-forum">The Forum has made a name for itself by bringing top-tier speakers to keynote the conference. In addition to those at the top of the GIS field, we have hosted astronauts, TV personalities, renowned historians, and more.
     </p>
     <p class="lead-forum">
       This year continues that record of exciting thinkers with Digital Humanitarian, <a href="/texas-gis-forum/2015/agenda#keynote-meier">Patrick Meier</a>, UCGIS Fellow, <a href="/texas-gis-forum/2015/agenda#keynote-humphreys">David Cowen</a>, and Aerospace Engineer, <a href="https://tnris-org-static.s3.amazonaws.com/images/humphreys_square.jpg">Todd Humphreys</a>.

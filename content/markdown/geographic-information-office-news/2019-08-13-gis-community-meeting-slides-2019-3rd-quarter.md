@@ -11,7 +11,7 @@ abstract:
 
 View the presentation slides and roll call notes below.
 
-Note: The [Annual Texas GIS Forum](https://www.tnris.org/texas-gis-forum/2019/index), from October 21-25, in Austin, will serve as the 4th Quarter GIS Community Meeting.
+Note: The [Annual Texas GIS Forum](https://www.tnris.org/texas-gis-forum/2019/), from October 21-25, in Austin, will serve as the 4th Quarter GIS Community Meeting.
 
 <script async class="speakerdeck-embed" data-id="4ae0541d6ab24f04ac98fa4b0006b007" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 

@@ -38,7 +38,7 @@ Using SAS and GIS, analyzing license sales based on impacts from Hurricane Harve
 
 #### Coastal Fisheries
 
-Resource specialists in the field are continuously creating and updating resource data that is supplied to GLO in support of applications such as the resource management codes
+Resource Specialists in the field are continuously creating and updating resource data that is supplied to GLO in support of applications such as the resource management codes
 
 ****
 <h3><a href="https://www.twdb.texas.gov"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/twdb_logo.jpg" alt="TWDB logo and link to website"></a>  Texas Water Development Board</h3>
@@ -47,7 +47,7 @@ Searching for SQL Server DBA level I, II, or III
 
 ****
 
-<h3><a href="https://www.dshs.texas.gov"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/txdshs_logo.jpgg" alt="DSHS logo and link to website"></a> Department of State Health Services</h3>
+<h3><a href="https://www.dshs.texas.gov"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/txdshs_logo.jpg" alt="DSHS logo and link to website"></a> Department of State Health Services</h3>
 
 Unpaid intern opportunity coming up
 

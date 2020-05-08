@@ -13,7 +13,7 @@ tags: lidar, data
 
 The Texas Natural Resources Information System (TNRIS) is pleased to announce the release of recently acquired high resolution Lidar data for 3,700 square miles of Harris County, Texas and surrounding areas. Aerial collection took place from February 1, 2008 through March 4, 2008 during the leaf-off season.  Merrick & company performed data acquisition/processing on behalf of the Houston-Galveston Area Council (HGAC).
 
-This project was administered by the Houston-Galveston Area Council as part of ther Lidar Cost-Share Acquisition of 2008.
+This project was administered by the Houston-Galveston Area Council as part of there Lidar Cost-Share Acquisition of 2008.
 
 ## Data Access
 <div class="media">

@@ -49,7 +49,7 @@ Raj proposal to set thresholds to not have to buy imagery that is less than 8 mo
 ## Governor’s Report v 1.8 Discussion
 - Report v 1.8 Distributed
 - Thanks for the comments and feedback.
-- Looking for input on pecadillos and any thoughts for discussions among several agenies.
+- Looking for input on pecadillos and any thoughts for discussions among several agencies.
 - Next major release 2.0 is intended to be more widely distributed. No date yet, but in July.
 - Veg map and strat map are ongoing, but now complete.
 - No branding name for the core set of shared data layers. 

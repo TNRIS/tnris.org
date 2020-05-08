@@ -14,7 +14,7 @@ Esri has played a key role in the <a href="/texas-gis-forum/2017">Texas GIS Foru
 
 This year we're proud to welcome Bern Szukalski, Esri's well known and highly regarded technical and product evangelist, to kick off this year's event. His experiences provide a perspective only someone who has dedicated his career to GIS can describe.
 
-<p class="lead">Bern has witnessed the development of GIS from the mid-80s when he began his geospatial career with Esri as an applications specialist. His abilities were quickly recognized, providing him with opportunities to be involved in a broad spectrum of GIS implementation and software development projects.</p>
+<p class="lead">Bern has witnessed the development of GIS from the mid-80s when he began his geospatial career with Esri as an applications Specialist. His abilities were quickly recognized, providing him with opportunities to be involved in a broad spectrum of GIS implementation and software development projects.</p>
 
 <p class="lead">Highlights of his career include authoring Esri’s first user call and bug tracking system, developing the first GUI for ARC/INFO (ArcTools), and teaching/promoting Avenue (scripting language for ArcView 2.0). Bern has also served as the product manager for MapObjects, MapObjects IMS, ArcIMS, ArcGIS Explorer Desktop, and ArcGIS Online. In addition to ArcGIS Online, he’s recently been involved with product management for the Living Atlas and Story Maps.</p>
 

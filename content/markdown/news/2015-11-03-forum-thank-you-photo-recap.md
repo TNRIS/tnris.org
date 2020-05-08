@@ -41,7 +41,7 @@ Meier compares the work of digital humanitarians to a superhero team.
 Attendees mingled in the atrium during the breaks.
 
 ![The Augmented Reality Sandbox was a popular hang-out this year.](https://tnris-org-static.s3.amazonaws.com/images/05_web.jpg)
-The [Augmented Reality sandbox](/news/2015-11-05/digging-into-augmented-reality-sandbox) was a hit at this year's forum. [View the page](http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/) of original creator of the sandbox to find the software and specs to build your own!
+The [Augmented Reality sandbox](/news/2015-11-05/digging-into-augmented-reality-sandbox) was a hit at this year's forum.
 
 ![TNRIS showcased 3-D Lidar at our booth.](https://tnris-org-static.s3.amazonaws.com/images/08_web.jpg)
 TNRIS showcased flythroughs of 3-D Lidar at our booth.
@@ -107,7 +107,7 @@ Keynote Dr. David Cowen is presented with a map of his hometown of Columbia, Sou
 Attendees looking over poster gallery submissions and determining their favorite.
 
 ![A mini reunion of former TNRIS employee, Blake Matejowsky, now at Austin energy, and Tom Roehrig, current manager of the RDC at TNRIS.](https://tnris-org-static.s3.amazonaws.com/images/30_web.jpg)
-A mini-reunion between former TNRIS employee, Blake Matejowsky, now at Austin energy, and Tom Roehrig, Senior Research Specialis at TNRIS's [Research and Distribution Center (RDC)](/research-distribution-center).
+A mini-reunion between former TNRIS employee, Blake Matejowsky, now at Austin energy, and Tom Roehrig, Senior Research Specialist at TNRIS's [Research and Distribution Center (RDC)](/research-distribution-center).
 
 ![Jurassic era beachfront property in the Sandbox.](https://tnris-org-static.s3.amazonaws.com/images/32_web.jpg)
 Jurassic beachfront property in the Sandbox.
