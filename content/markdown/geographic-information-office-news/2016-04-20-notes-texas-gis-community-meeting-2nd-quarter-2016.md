@@ -34,7 +34,7 @@ tags: GIO, Data Sharing, GIS, Geospatial
 ### Imagery for Texas
 #### Gayla Mullins
 
-Final data from the 2015 Texas Orthoimagery Project (TOP) captured at 0.5-meter resolution during the 2014/2015 and 2015/2016 winter seasons is near completion and has been delivered in full to TNRIS. The southernmost tip of Texas is the most recent delivery to TNRIS and will be made available for download from the TNRIS website in about two weeks along with the exisiting data for the rest of the state. The TOP imagery is also being shared with the Esri Community Imagery Program. Imagery is gradually appearing in the Esri imagery basemap available in Arc products starting now. Check the [project website](https://tnris.org/2015-statewide-orthoimagery-project/) for additional updates and data download and WMS connection information.
+Final data from the 2015 Texas Orthoimagery Project (TOP) captured at 0.5-meter resolution during the 2014/2015 and 2015/2016 winter seasons is near completion and has been delivered in full to TNRIS. The southernmost tip of Texas is the most recent delivery to TNRIS and will be made available for download from the TNRIS website in about two weeks along with the existing data for the rest of the state. The TOP imagery is also being shared with the Esri Community Imagery Program. Imagery is gradually appearing in the Esri imagery basemap available in Arc products starting now.
 The Buy-Up areas at 6-inch/1-foot resolution are also complete and available and in various stages of download and WMS access. See chart on slide 10 of the QtrlyMtg2_2016.pdf
 All products from the 2015 TOP project are 4-band and in the public domain.
 

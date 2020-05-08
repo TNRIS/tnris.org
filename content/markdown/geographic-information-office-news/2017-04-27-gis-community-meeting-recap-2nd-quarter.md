@@ -21,13 +21,13 @@ tags: GIO, Data Sharing, GIS, Geospatial
 
 -	Texas Imagery Service will begin charging participating entities (now over 370 participating public agencies) beginning September 1, 2017.
 
--	The Statewide Parcel Study, a study conducted to understand the availabilty of digital parcel data at the county appraisal district level, is in version 3 draft. Final study release expected by May 17, 2017.
+-	The Statewide Parcel Study, a study conducted to understand the availability of digital parcel data at the county appraisal district level, is in version 3 draft. Final study release expected by May 17, 2017.
 
 -	The <a href="https://tnris.org/georodeo/2017/">2017 GeoRodeo</a>, an annual gathering of geospatial developers, is set for Friday, May 19, 2017.
 
 -	The 30th annual Texas GIS Forum is taking shape with a new special format to commemorate 30 years of geospatial education, GIS professional networking, and real-world GIS application sharing. The 2017 GIS Forum will take place October 23-27, 2017. The special format will include an additional 1/2 day of activity on Friday and two social events.
 
--	<a href= "https://tnris.org/education">TNRIS training</a> opportunities are open to the public year around. We constantly look for training topics to better serve GIS professional development and encourage suggestions for addtional training classes.
+-	<a href= "https://tnris.org/education">TNRIS training</a> opportunities are open to the public year around. We constantly look for training topics to better serve GIS professional development and encourage suggestions for additional training classes.
 
 ### 85th Legislature Update
 #### Felicia Retiz, Deputy State GIO
@@ -79,7 +79,7 @@ Imagery products from the 2016 NAIP acquisition are <a href= "https://tnris.org/
   - 4-band
   - DO4Qs (.jp2)
   - Status: COMPLETE
-  - Availble Now! https://tnris.org
+  - Available Now! https://tnris.org
 
 Upcoming orthoimagery projects
   - GLO Coastal Beaches - to be acquired Summer 2017

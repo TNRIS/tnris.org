@@ -10,14 +10,14 @@ abstract:
 tags: forum
 ---
 
-The poster contest at the 2017 Texas GIS Forum had some amazing work and we're excited to share the top three winners with you. Thank you to all the GIS practicioners who attended the Forum and submitted posters! 
+The poster contest at the 2017 Texas GIS Forum had some amazing work and we're excited to share the top three winners with you. Thank you to all the GIS practicioners who attended the Forum and submitted posters!
 
 The attendees judged each poster based on style, technical ability and creativity. Congratulations to:
 
 - **1st Place: Logan Hope & Jamison Brandenburg**, Arthur Temple College of Forestry & Agriculture: Stephen F. Austin State University
 - **2nd Place: James Harkins, Buck Cole, Brandice Nelson, Lance McIlhany & Joan Kilpatrick**, Texas General Land Office.
 - **3rd Place: Holly Wiese**, Austin Community College
- 
+
 ## 1st Place - Trammel's Trace: The First Road to Texas from the North
 
 ### Created by: Logan Hope & Jamison Brandenburg of Arthur Temple College of Forestry & Agriculture: Stephen F. Austin State University
@@ -51,10 +51,10 @@ A historic map depicting the location of the first road to Texas from the north 
 
 ## 2nd Place - Texas and the Great War
 
-### Created by: James Harkins, Buck Cole, Brandice Nelson, Lance McIlhany & Joan Kilpatrick – Texas General Land Office 
+### Created by: James Harkins, Buck Cole, Brandice Nelson, Lance McIlhany & Joan Kilpatrick – Texas General Land Office
 
 Texas and the Great War examines the role of Texas and Texans in World War I. This map features 74 people and places that were significant to the war effort, is everything a 4th or 7th-grade Texas History student would need for the classroom, and sheds light on an oft-forgotten chapter in our nation’s, and state’s, history. For more information, and to purchase this map, please visit:
-http://www.glo.texas.gov/history/archives/map-store/index.cfm#item/94412
+https://s3.glo.texas.gov/glo/history/archives/map-store/index.cfm#search
 
 
 <p class="text-center"><strong><i class="glyphicon glyphicon-zoom-in"></i> Click on Image to View full screen</strong></p>

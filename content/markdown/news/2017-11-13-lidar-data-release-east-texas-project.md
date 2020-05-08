@@ -30,9 +30,9 @@ Further details regarding these acquisitions can be found by downloading the Pro
 
 View coverage areas in the interactive map below:
 
-<iframe width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/bbedf274-2141-4b1c-a443-8d339e7a9e7c/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<!---<iframe width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/bbedf274-2141-4b1c-a443-8d339e7a9e7c/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> --->
 
-Please check our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/viz/a47e9bc6-2454-11e7-bcd5-0e3ebc282e83/public_map) for exact coverage.
+Please check our [Lidar status map](https://tnris-twdb.carto.com/u/tnris/builder/03970fcc-1040-4819-a08b-30c139add308/embed) for exact coverage.
 
 ## PRODUCTS
 - Classified all-return lidar in DO4Q tiles (1/64th of USGS Quad) or National Grid tiles in LAS 1.4 format

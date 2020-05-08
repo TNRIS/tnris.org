@@ -26,11 +26,11 @@ This project was administered by the TNRIS Strategic Mapping Program (StratMap) 
   </div>
 </div>
 
-## Coverage Area
+<!---## Coverage Area
 
 View coverage areas in the interactive map below:
 
-<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/9214a5fa-63b4-11e5-9475-0e73ffd62169/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/9214a5fa-63b4-11e5-9475-0e73ffd62169/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>--->
 
 Please check our [Lidar status map](http://tnris.maps.arcgis.com/apps/Viewer/index.html?appid=3a5712b6cc36472f8036446e7b49c52d) for exact coverage.
 ## Products

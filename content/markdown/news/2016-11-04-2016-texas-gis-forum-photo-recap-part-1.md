@@ -69,7 +69,7 @@ Courtney Roe, from Pape-Dawson Engineers, stands with her poster, 'It's Flooding
 <img class="img-responsive"  src="https://tnris-org-static.s3.amazonaws.com/images/10_sandbox_montage.jpg" alt="The Virtual Reality Sandbox was a popular spot again this year.">
 
 The Virtual Reality Sandbox was a popular spot again this year.
-Read how we built it last year: [Digging Into the Augmented Reality Sandbox](/news/2015-11-05/digging-into-augmented-reality-sandbox). You can also visit the [original source](http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/) page.
+Read how we built it last year: [Digging Into the Augmented Reality Sandbox](/news/2015-11-05/digging-into-augmented-reality-sandbox).
 
 <blockquote class="twitter-tweet" data-lang="en">
   <p lang="en" dir="ltr">Playing with the topography sandbox at the <a href="https://twitter.com/TNRIS">@TNRIS</a> 2016 <a href="https://twitter.com/hashtag/txgisforum?src=hash">#txgisforum</a>. <a href="https://twitter.com/hashtag/GIS?src=hash">#GIS</a> <a href="https://t.co/PgNsRl7hvn">pic.twitter.com/PgNsRl7hvn</a></p>&mdash; Daniele Baker (@AquaBaker) <a href="https://twitter.com/AquaBaker/status/791362080448184320">October 26, 2016</a></blockquote>
@@ -79,7 +79,7 @@ Read how we built it last year: [Digging Into the Augmented Reality Sandbox](/ne
 
 <img class="img-responsive"  src="https://tnris-org-static.s3.amazonaws.com/images/11_holl_1.jpg" alt="ESRI's HOLL courses were available throughout the Forum">
 
-ESRI's HOLL courses were available throughout the Forum. With an ESRI instuctor on-hand to assist, attendees were able to run through lessons on basic ArcGIS functionality at their own pace.
+ESRI's HOLL courses were available throughout the Forum. With an ESRI instructor on-hand to assist, attendees were able to run through lessons on basic ArcGIS functionality at their own pace.
 
 <img class="img-responsive"  src="https://tnris-org-static.s3.amazonaws.com/images/12_holl_2.jpg" alt="ESRI's HOLL courses were available throughout the Forum">
 

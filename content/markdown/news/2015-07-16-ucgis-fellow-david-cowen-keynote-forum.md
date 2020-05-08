@@ -19,7 +19,7 @@ You can learn about his studies of the status of land parcel data in the United 
 
 <blockquote>
   <p>
-    <a href="http://ucgis.org/ucgis-fellow/david-j-cowen">UCGIS Fellow Announcement - Dr. David Cowen</a>
+    UCGIS Fellow Announcement - Dr. David Cowen
   </p>
 
 <p><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/cowen_head.jpg"> Dr. Cowen received his B.A. (1966) and M.A. (1971) in Geography from the State University of New York at Buffalo, and his Ph.D. in Geography from The Ohio State University in 1971. Currently, Dr. Cowen is Distinguished Professor Emeritus and is a former chair of the Department of Geography at the University of South Carolina. While an active faculty member, he started one of the ﬁrst academic GIS programs, and advised 14 Ph.D. and 47 master’s students to completion of their degrees. Professor Cowen also directed the college computer center for 22 years, and served as interim university vice president for computing for an eight month period. In addition to his university activities, Dr. Cowen is the current Chair of the National Geospatial Advisory Committee. He also chaired the Mapping Science Committee of the National Research Council for six years, and is a member of the NRC Board on Earth Sciences and Resources and he recently chaired the NRC Study Committee “Land Parcel Databases: A National Vision”. Professor Cowen served as the first elected president of the AAG GISS specialty group, and ran the group’sits central office for more than 20 years. He was one of the cofounders of UCGIS. He has also served as the President of the Cartography and Geographic Information Society (CaGIS)</p>

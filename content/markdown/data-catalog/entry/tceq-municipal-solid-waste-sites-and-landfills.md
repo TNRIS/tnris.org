@@ -43,7 +43,7 @@ overview_image_url: images/data-catalog/entry/tceq_municipal_solid_waste_sites_a
 thumb_url: images/data-catalog/entry/tceq_municipal_solid_waste_sites_and_landfills_th.jpg
 ---
 
-This layer contains all permitted or registered landfills and associated Municipal Solid Waste (MSW) facilities for the State of Texas as of the publication date shown below. The dataset contains both closed and open landfills. The associated facilities represent various categories including transfer stations, waste processing facilities, and recyling centers. The type of facility is indicatd by the Facility Type (FACILITY_T) field. Landfills are represented by Facility Types 1 - 4. Type 2 and 3 are historical facility types that are no longer used for new permits.
+This layer contains all permitted or registered landfills and associated Municipal Solid Waste (MSW) facilities for the State of Texas as of the publication date shown below. The dataset contains both closed and open landfills. The associated facilities represent various categories including transfer stations, waste processing facilities, and recycling centers. The type of facility is indicatd by the Facility Type (FACILITY_T) field. Landfills are represented by Facility Types 1 - 4. Type 2 and 3 are historical facility types that are no longer used for new permits.
 
 
 

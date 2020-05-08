@@ -23,7 +23,7 @@ tags: GIO, Data Sharing, GIS, Geospatial
 
 -	TNRIS intern/ACC student Lauren Kirk won 2nd place in the [Student Map - Post Secondary](http://www.esri.com/events/user-conference/exhibits/map-gallery-results#Student_Map_Post_Secondary) category at the ESRI UC.
 
--	Austin Community College recieved Special Achievement in GIS award at the ESRI UC.
+-	Austin Community College received Special Achievement in GIS award at the ESRI UC.
 
 -	GeoRodeo 2016 occurred May 20, 2016. Highlights from the event can be viewed [here](https://tnris.org/news/2016-05-27/2016-georodeo-recap-highlights/).
 
@@ -148,7 +148,7 @@ National 3DEP webinars on August 11, 2pm Central and August 15, noon Central. No
 ### Interactive Energy Map of Texas
 #### Scot Friedman, Alex Sanders - General Land Office
 
-The General Land Office developed and released an interactive version of Commissioner Bush’s [Energy Map](http://commissionerbushmaps.com/) of Texas using Esri’s Story Map web application. Printed copies of the map can also be ordered from the [Archive Map Store](http://www.glo.texas.gov/history/archives/map-store/index.cfm#item/93978).
+The General Land Office developed and released an interactive version of Commissioner Bush’s [Energy Map](http://commissionerbushmaps.com/) of Texas using Esri’s Story Map web application. Printed copies of the map can also be ordered from the [Archive Map Store](https://s3.glo.texas.gov/glo/history/archives/map-store/index.cfm#search).
 
 *****
 
