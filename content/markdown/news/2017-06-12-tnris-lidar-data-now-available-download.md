@@ -17,9 +17,9 @@ Lidar is a very large data set and the process to download large areas can take 
 
 TNRIS continues to actively acquire and maintain Lidar data for Texas. Currently over 25 terabytes of Lidar data reside in our inventory from years 2006 – 2016, with much more to come.
 
-Lidar data is available in LAS file formats. Recent acquisitions will have additional data including Digital Elevation Model (DEM) formats and break line information. Download the [tile index](https://tnris-datadownload.s3.amazonaws.com/d/tnris-lidar/state/tx/tnris-lidar_tx.zip) to view Lidar data available through the TNRIS website. Another helpful resource is the [Lidar online status map](https://tnris-twdb.carto.com/u/tnris-sm/viz/a47e9bc6-2454-11e7-bcd5-0e3ebc282e83/public_map) which provides additional details about the Lidar collections.
+Lidar data is available in LAS file formats. Recent acquisitions will have additional data including Digital Elevation Model (DEM) formats and break line information. Download the [tile index](https://s3.amazonaws.com/data.tnris.org/5751f066-28be-46af-b795-08387a27da6e/resources/tnris-lidar_48_vector.zip) to view Lidar data available through the TNRIS website. Another helpful resource is the [Lidar online status map](https://tnris-twdb.carto.com/u/tnris/builder/03970fcc-1040-4819-a08b-30c139add308/embed) which provides additional details about the Lidar collections.
 
-<iframe width='100%' height='520' frameborder='0' src='https://tnris-twdb.carto.com/u/tnris-sm/viz/a47e9bc6-2454-11e7-bcd5-0e3ebc282e83/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width='100%' height='520' frameborder='0' src='https://tnris-twdb.carto.com/u/tnris/builder/03970fcc-1040-4819-a08b-30c139add308/embed' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 ### Available Tools:
 

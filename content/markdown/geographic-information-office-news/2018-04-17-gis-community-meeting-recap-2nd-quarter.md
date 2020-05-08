@@ -55,7 +55,7 @@ The <a href="https://tnris.org/texas-imagery-service/">Texas Imagery Service</a>
 ### New Geographic Data Coordinator
 #### Ilyanna Kadich
 
-Ilyanna Kadich, who recently joined TNRIS, was introduced as the new Geographic Data Coordinator for the state. She presented a background on the needs, benefits and challenges of developing statewide address points and land parcel information, referencing the <a href="https://tnris.org/geographic-information-office/2016-12-01/texas-geographic-information-landscape-inaugural-gio-report/">Inaugural GIO Report</a> and <a href="https://tnris-org-static.s3.amazonaws.com/documents/texas-statewide-parcel-data-report-20190802.pdf">Parcel Study Report</a>. She outlined a plan for the first year of coordinated efforts to establish these first-of-a-kind layers through the <a href="https://tnris.org/stratmap/">TNRIS Strategic Mapping (StratMap) Program</a>. These year 1 goals include developing sub-committees, re-collecting coastal county parcels, strategizing a marketing and communication plan, and conducting stakeholder meetings across the state. Updates will soon be available on the <a href="https://tnris.org/stratmap/">StratMap site</a>.
+Ilyanna Kadich, who recently joined TNRIS, was introduced as the new Geographic Data Coordinator for the state. She presented a background on the needs, benefits and challenges of developing statewide address points and land parcel information, referencing the <a href="https://tnris-org-static.s3.amazonaws.com/documents/Geographic-Information-Officer-REPORT-digital.pdf">Inaugural GIO Report</a> and <a href="https://tnris-org-static.s3.amazonaws.com/documents/texas-statewide-parcel-data-report-20190802.pdf">Parcel Study Report</a>. She outlined a plan for the first year of coordinated efforts to establish these first-of-a-kind layers through the <a href="https://tnris.org/stratmap/">TNRIS Strategic Mapping (StratMap) Program</a>. These year 1 goals include developing sub-committees, re-collecting coastal county parcels, strategizing a marketing and communication plan, and conducting stakeholder meetings across the state. Updates will soon be available on the <a href="https://tnris.org/stratmap/">StratMap site</a>.
 
 
 *****
@@ -139,7 +139,7 @@ Working on GIS governance.  Working on 2017 Roadways Data. New Project Tracker u
 
 *****
 
-<h3><a href="http://www.txdmv.gov/"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/dmv_logo.jpg"></a>Texas Deparment of Motor Vehicles</h3>
+<h3><a href="http://www.txdmv.gov/"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/dmv_logo.jpg"></a>Texas Department of Motor Vehicles</h3>
 
 
 #### John Arkinson
@@ -148,7 +148,7 @@ Creating Portable Roadbed Network with a vendor to develop this layer. C. Bardas
 
 *****
 
-<h3><a href="https://www.dshs.texas.gov/Mobile/Mobile.aspx"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/txdshs_logo.jpg"></a>Texas Deparment of State Health Services</h3>
+<h3><a href="https://www.dshs.texas.gov/Mobile/Mobile.aspx"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/txdshs_logo.jpg"></a>Texas Department of State Health Services</h3>
 
 
 #### Aja Davidson

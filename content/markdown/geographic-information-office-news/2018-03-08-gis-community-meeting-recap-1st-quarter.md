@@ -58,7 +58,7 @@ Imagery for Smith county is 90% acquired. 2018 marks the 5th time Smith county h
 
 The Capital Area Council of Government and McLennan County have teamed up with StratMap for the first time to capture imagery over an 11 county region in central Texas. The deliverables will be a mix of 6-inch and 1-foot resolution, 4-band imagery with an expected delivery date of Fall 2018.
 
-The National Agriculture Imagery Program (NAIP) has announced it will not collect imagery over Texas in 2018. Budget cuts have hindered the bi-annual imagery collection program and 2019 is still in question. Alternatives for statewide imagery are a <a href="https://tnris.org/texas-imagery-service/">Texas Imagery Service</a> subscription or a 2019 Texas Orthoimagery Program (TOP) statewide acquistion project based on interest.
+The National Agriculture Imagery Program (NAIP) has announced it will not collect imagery over Texas in 2018. Budget cuts have hindered the bi-annual imagery collection program and 2019 is still in question. Alternatives for statewide imagery are a <a href="https://tnris.org/texas-imagery-service/">Texas Imagery Service</a> subscription or a 2019 Texas Orthoimagery Program (TOP) statewide acquisition project based on interest.
 
 The Texas Imagery Service is available to Texas public agencies and their contractors through a subscription. Qualifying entities can gain access to the service at any time during the year at a prorated cost for the current period. A subscription follows the state fiscal calendar (September 1 - August 31) and can be canceled at the end of each fiscal year. TNRIS and the Department of Information Resources will host webinars beginning in March to explain the DIR purchase process, the structured cost tiers, and funding options.
 

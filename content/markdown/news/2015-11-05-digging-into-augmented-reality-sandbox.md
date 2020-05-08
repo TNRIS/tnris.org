@@ -17,7 +17,7 @@ After the success of the [Google Liquid Galaxy](http://www.google.com/earth/expl
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/UTB1roPJ4mc" frameborder="0" allowfullscreen></iframe>
 
-I started my research by watching videos on how the AR sandbox works. I also found good documentation online written by [University of California Davis’ Oliver Kreylos](http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/) showing exactly how to build it. The components are very basic: all I needed to build a simple prototype is a Microsoft kinect sensor for a Xbox 360, LCD projector and decent desktop PC running linux OS.
+I started my research by watching videos on how the AR sandbox works. I also found good documentation online written by University of California Davis’ Oliver Kreylos showing exactly how to build it. The components are very basic: all I needed to build a simple prototype is a Microsoft kinect sensor for a Xbox 360, LCD projector and decent desktop PC running linux OS.
 
 Once I had everything, I cobbled all the components together at my office and began mapping a paper cone that I had taped to the wall.  It took a while to get everything working together as expected, but once I did, I was able to design and build the final structure that we used at the 2015 Texas GIS Forum.
 
@@ -43,7 +43,7 @@ But, aside from all that educational stuff, no matter how old you get, no one ca
 
 All the software and techniques for building the Augmented Reality Sandbox are free and open source. The primary costs to you are the components, materials and your time.
 
-<a class="btn btn-md btn-danger btn-center" href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/">Visit the AR Sandbox Instructional Page</a>
+<!--- <a class="btn btn-md btn-danger btn-center" href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/">Visit the AR Sandbox Instructional Page</a> --->
 
 In order to assist do-it-yourself efforts, Mr. Kreylos recently created a series of videos illustrating the core steps necessary to add the AR component to an already existing sandbox. These videos elaborate on steps described in the AR Sandbox software’s README file, but sometimes videos can be worth more than words.
 

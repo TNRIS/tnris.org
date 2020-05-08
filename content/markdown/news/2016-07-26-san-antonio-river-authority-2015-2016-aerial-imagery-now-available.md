@@ -15,7 +15,7 @@ High resolution 6-inch/12-inch aerial imagery are now available from TNRIS for t
 - Wilson, Karnes and Goliad Counties at 6-inch resolution
 - Refugio and Aransas Counties at 12-inch resolution
 
-The San Antonio River Authority contributed funds to collect the new imagery as part of the [2015 Statewide Orthoimagery Project](https://tnris.org/2015-statewide-orthoimagery-project/) BUY-UP option to increase pixel resolution beyond 0.5-meter.
+The San Antonio River Authority contributed funds to collect the new imagery as part of the 2015 Statewide Orthoimagery Project BUY-UP option to increase pixel resolution beyond 0.5-meter.
 
 [Surdex Corp.](https://www.surdex.net) was selected under the legacy High Priority Imagery and Data Sets (HPIDS) state contract as the orthoimagery data provider. The TNRIS Strategic Mapping Program [(StratMap)](https://tnris.org/stratmap/) administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
 
@@ -29,10 +29,10 @@ The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG200
 <p>
   Browse, download, order, and inquire about data within the <a href="https://data.tnris.org">DataHub</a>.
 </p>
-## Acquisition Areas
+<!--- ## Acquisition Areas
 View coverage areas in the interactive map below:
 
-<iframe width="100%" height="520" frameborder="0" src="http://tnris.cartodb.com/viz/74be531c-897e-11e5-9e0b-0e5db1731f59/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="http://tnris.cartodb.com/viz/74be531c-897e-11e5-9e0b-0e5db1731f59/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> --->
 
 
 ## Products

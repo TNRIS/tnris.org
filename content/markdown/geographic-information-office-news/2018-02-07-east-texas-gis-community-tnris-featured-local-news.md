@@ -19,7 +19,7 @@ The local news outlet in Nacogdoches, KTRE was there to cover the event, produci
 
 > Primarily because the science is used everywhere. The state of Texas even maintains a data clearinghouse.
 >
-> "We basically go out and compile statewide data for base maps,” said Felicia Retiz, a deputy geographic information specialist.
+> "We basically go out and compile statewide data for base maps,” said Felicia Retiz, a deputy geographic information Specialist.
 >
 > The Texas Natural Resources System serves primarily developers, realtors, and environmental assessors to name just a few. However, you can have fun at the site from the comfort of your own home.
 >

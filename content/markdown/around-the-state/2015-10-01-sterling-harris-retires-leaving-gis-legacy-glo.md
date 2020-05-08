@@ -18,7 +18,7 @@ Sterling Harris, from the [General Land Office (GLO)](http://www.glo.texas.gov/)
 
 Sterling: I grew up in Wimberley Texas, the heartland of the Hill Country.  I grew up in a ranching and farming family, enjoyed being outside and swimming in the pristine waters of the Blanco River!
 
-<p><div class="pull-quote right" title="A pulled quote, out of order with text flow"><em>What would you consider to be your greatest acheivement?</em><br>Being able to build an enterpise GIS system that now supports the entire business areas of the GLO.</div><strong>T: Where did you get your education? College, degree...</strong></p>
+<p><div class="pull-quote right" title="A pulled quote, out of order with text flow"><em>What would you consider to be your greatest achievement?</em><br>Being able to build an enterpise GIS system that now supports the entire business areas of the GLO.</div><strong>T: Where did you get your education? College, degree...</strong></p>
 
 S: Sul Ross State University, Alpine Texas. I received a BS in Industrial Technology and a minor in Business (1979).
 
@@ -28,13 +28,13 @@ S: I started working in the Oil business for Clayton Williams mapping Oil and Ga
 
 **T: How long have you been practicing GIS?**
 
-S: In 1991, the GLO started an Oil Spill Response division. Part of the responsibilty of that division was to create a GIS system. I was one of the first to start working on creating this new GIS system.
+S: In 1991, the GLO started an Oil Spill Response division. Part of the responsibility of that division was to create a GIS system. I was one of the first to start working on creating this new GIS system.
 
 **T: What was the single biggest challenge you faced in your work with GIS in the State?**
 
 S: Funding, GIS systems are costly and funding can be hard to achieve.  Luckily we were able to obtain grants for certain mapping projects related to the Oil Spill division.
 
-<p><figure class="pull-left" ><a href="http://events.esri.com/conference/sagList/?fa=Detail&SID=2019"><img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/glo-sag.jpg" alt="A photo of the GLO's GIS team with Jack Dangermond"><figcaption style="max-width: 400px;"></a>The GLO's GIS team accepts the ESRI SAG award from Jack Dangermond</figcaption></figure><strong>T: What would you consider to be your greatest acheivement?</strong></p>
+<p><figure class="pull-left" ><a href="http://events.esri.com/conference/sagList/?fa=Detail&SID=2019"><img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/glo-sag.jpg" alt="A photo of the GLO's GIS team with Jack Dangermond"><figcaption style="max-width: 400px;"></a>The GLO's GIS team accepts the ESRI SAG award from Jack Dangermond</figcaption></figure><strong>T: What would you consider to be your greatest achievement?</strong></p>
 
 S: Being able to build an enterpise GIS system that now supports the entire business areas of the GLO.
 

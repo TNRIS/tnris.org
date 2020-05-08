@@ -16,7 +16,7 @@ High resolution 6-inch/12-inch aerial imagery are now available from TNRIS for t
 - [Powderhorn Ranch](http://tpwd.texas.gov/newsmedia/releases/?req=20140821a)
 - [Hueco Tanks State Park & Historic Site](http://tpwd.texas.gov/state-parks/hueco-tanks).
 
-Texas Parks and Wildlife contributed funds to collect the new imagery as part of the [2015 Statewide Orthoimagery Project](https://tnris.org/2015-statewide-orthoimagery-project/) BUY-UP option to increase pixel resolution beyond 0.5-meter.
+Texas Parks and Wildlife contributed funds to collect the new imagery as part of the 2015 Statewide Orthoimagery Project BUY-UP option to increase pixel resolution beyond 0.5-meter.
 
 [Surdex Corp.](https://www.surdex.net) was selected under the High Priority Imagery and Data Sets (HPIDS) state contract as the orthoimagery data provider. The TNRIS Strategic Mapping Program (StratMap) administered the project providing coordination and project management services. TNRIS also performed QA/QC for the project which included inspection of interim and final orthoimagery products.
 
@@ -30,10 +30,10 @@ The orthoimagery files (GeoTIFF, JPEG2000) are in the public domain. The JPEG200
 <p>
   Browse, download, order, and inquire about data within the <a href="https://data.tnris.org">DataHub</a>.
 </p>
-## Acquisition Areas
+<!--- ## Acquisition Areas
 View coverage areas in the interactive map below:
 
-<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/dd5ba2c6-df05-11e5-90a3-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/dd5ba2c6-df05-11e5-90a3-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> --->
 
 ## Products
 

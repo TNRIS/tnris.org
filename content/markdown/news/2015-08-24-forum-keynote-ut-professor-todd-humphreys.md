@@ -26,4 +26,3 @@ In the News: [Todd Humphreys' Research Team Demonstrates First Successful GPS Sp
 Register to attend today for the opportunity to hear about Dr. Humphreys latest work and other innovations from across the Texas GIS Community.
 
 <a href="/texas-gis-forum/2015" class="btn btn-lg btn-danger">Visit the 2015 Forum Home</a>
-

@@ -5,7 +5,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/custom_banner.jpg
 abstract: From customized contour maps to historical imagery posters of your hometown, we can make the map you’re looking for.
 ---
 
-<p class="lead">The trained cartographers and data specialists in the TNRIS Research & Distribution Center can create a custom map to meet your needs.</p>
+<p class="lead">The trained cartographers and data Specialists in the TNRIS Research & Distribution Center can create a custom map to meet your needs.</p>
 
 <p class="lead"><strong>Custom mapping products include:</strong>
 <ul class="lead">

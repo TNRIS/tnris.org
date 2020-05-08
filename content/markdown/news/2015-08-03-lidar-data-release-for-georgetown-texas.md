@@ -25,10 +25,10 @@ The Texas Natural Resources Information System (TNRIS) is pleased to announce th
     </p>
   </div>
 </div>
-## Interactive AOI (Area of Interest) Map
+<!--- ## Interactive AOI (Area of Interest) Map
 <iframe width="100%" height="520" frameborder="0" src="https://tnris.cartodb.com/viz/a3cf9e14-3a1d-11e5-9323-0e0c41326911/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-The map above shows the area of acquisition. The data is available in DO4Q tiles.
+The map above shows the area of acquisition. The data is available in DO4Q tiles. --->
 
 ## Products
 

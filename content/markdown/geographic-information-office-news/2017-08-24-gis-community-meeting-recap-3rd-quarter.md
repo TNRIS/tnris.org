@@ -19,7 +19,7 @@ tags: GIO, Data Sharing, GIS, Geospatial
 ### Since we last met...
 #### Richard Wade, State Geographic Information Officer
 
--	The Statewide Parcel Study, a study conducted to understand the availabilty of digital parcel data at the county appraisal district level, was received May 21, 2017.
+-	The Statewide Parcel Study, a study conducted to understand the availability of digital parcel data at the county appraisal district level, was received May 21, 2017.
 
 -	The 2017 GeoRodeo, an annual gathering of geospatial developers, was a great success this year with 200+ attendees. Presentation slides from guest speakers can be found on the <a href="https://tnris.org/georodeo/2017/">2017 GeoRodeo</a> page. 
 
