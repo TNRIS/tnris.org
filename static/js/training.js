@@ -114,26 +114,28 @@ function retrieveTraining() {
             </div>
           </div>
           <div id="${t.training_id}" class="course-description col-xs-12 collapse" style="padding:20px;">
-          <h3>Training Description</h3>
+            <h3>Description</h3>
             ${t.description}
+            <!-- if there are public registration_open records, insert discount copy content in each record html -->
+            <div id="training-discount-copy-record" style="padding:25px 0 0 0;"></div>
           </div>
         </div>`;
 
       document.getElementById('insert-here').appendChild(record);
     });
-
-    // update header in template to include this year
-    var thisYear = data.results.count > 0 ? data.results[0].year : "";
-    document.getElementById('education-schedule-h2').innerHTML = `${thisYear} Course Schedule`;
+    // update header in template to include "(year) Course Schedule" if there are any public records
+    // otherwise input empty string in header tag
+    var headerText = data.count > 0 ? `${data.results[0].year} Course Schedule` : ``;
+    document.getElementById('education-schedule-h2').innerText = headerText;
   })
-  .then(function() {
+  .then(function(data) {
     // check if hash exists; if so, smooth scroll to div id and open description by click
     // this is for sharing urls to training records
     var clickId = location.hash.replace("#", "");
     var element = document.getElementById(clickId + "Click");
     var button = element ? element.children[0] : '';
 
-    if (location.hash) {
+    if (location.hash && document.getElementById(clickId)) {
       element.scrollIntoView({
         behavior: 'smooth'
       });
