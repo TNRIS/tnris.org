@@ -32,6 +32,8 @@ function retrieveOpenTrainingLimited() {
           </span>
           <input class="wms-url copy-url-input form-control" type="text" readonly value="${discountValue}">
         </div>
+
+        <hr class="clearfix">
         `;
       // used to insert the discount copy code into the education-side template
       document.getElementById('training-discount-copy').innerHTML = copy;
