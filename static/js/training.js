@@ -117,7 +117,7 @@ function retrieveTraining() {
             <h3>Description</h3>
             ${t.description}
             <!-- if there are public registration_open records, insert discount copy content in each record html -->
-            <div id="training-discount-copy-record" style="padding:25px 0 0 0;"></div>
+            <!-- <div id="training-discount-copy-record" style="padding:25px 0 0 0;"></div> -->
           </div>
         </div>`;
 
