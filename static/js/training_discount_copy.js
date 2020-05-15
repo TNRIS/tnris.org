@@ -38,7 +38,7 @@ function retrieveOpenTrainingLimited() {
       // used to insert the discount copy code into the education-side template
       document.getElementById('training-discount-copy').innerHTML = copy;
       // used to insert the discount copy code into each education record that comes from the api
-      document.getElementById('training-discount-copy-record').innerHTML = copy;
+      // document.getElementById('training-discount-copy-record').innerHTML = copy;
     }
   })
 }
