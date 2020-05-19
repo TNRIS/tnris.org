@@ -11,7 +11,14 @@ function retrieveTraining() {
   .then(function(data) {
     // sort api trainings response by date
     data.results = data.results.sort(function(a,b) {
-      var dateA = new Date(a.start_date_time), dateB = new Date(b.start_date_time);
+      // split start_date_time string into array to add 'year'
+      var aAry = a.start_date_time.split(" ");
+      aAry[2] = aAry[2] + `, ${a.year}`;
+      var bAry = b.start_date_time.split(" ");
+      bAry[2] = bAry[2] + `, ${b.year}`;
+      // convert to date object
+      var dateA = new Date(aAry.join(" ")), dateB = new Date(bAry.join(" "));
+      // return sorted relative positions
       return dateA - dateB;
     });
     // iterate over array of objects in response and do the stuff
