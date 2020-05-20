@@ -17,6 +17,7 @@ h1 {
   line-height: normal;
   margin: 0 0 15px 0;
   padding: 10px 0;
+  border: 1px solid rgba(0, 2, 34, .35);
 }
 
 .training-date {
@@ -74,19 +75,24 @@ h1 {
       padding: 5px;
     }
 
-    div>div {
+    div > div {
       padding: 5px;
       vertical-align: top;
 
-      .course-date {
-        strong {
-          text-transform: uppercase;
-        }
+      #full-details-btn {
+        margin-top: 10px;
       }
     }
 
     .course-info {
       font-size: 14px;
+    }
+
+    .course-info-category {
+      font-size: 12px;
+      text-align: center;
+      color: #ffffff;
+      background-color: rgba(0, 2, 34, .35);
     }
 
     .course-description {
@@ -105,6 +111,11 @@ h1 {
     h3 {
       font-size: 22px;
       margin-top: 0;
+    }
+
+    .row {
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 }

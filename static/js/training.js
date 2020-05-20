@@ -90,7 +90,12 @@ function retrieveTraining(queryField, queryValue) {
 
       record.innerHTML =
         `<div class="row training-header">
-          <div class="col-xs-12 col-sm-3">
+          <div class="row">
+            <div class="col-xs-12 course-info-category">
+              ${t.category}
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-3 course-date-time">
             <strong>
               <span class="glyphicon glyphicon-calendar"></span>
               ${month} ${day}, ${t.year}
@@ -98,7 +103,7 @@ function retrieveTraining(queryField, queryValue) {
             <i class="glyphicon glyphicon-time"></i>
             ${start_time} - ${end_time} <br>
             <a id="${urlTitle}Click" data-toggle="collapse" aria-expanded="false" data-target="#${t.training_id}" href="#${urlTitle}">
-              <button id="full-details-btn" class="btn btn-primary btn-sm" type="button" style="margin:7px;">
+              <button id="full-details-btn" class="btn btn-primary btn-sm" type="button">
                 <span class="glyphicon glyphicon-info-sign"></span>
                 Expand Details
               </button>
