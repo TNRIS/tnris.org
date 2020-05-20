@@ -32,6 +32,39 @@ h1 {
 
 #training, #education-index {
 
+  #category-filter-dropdown {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    #category-filter-dropdown-btn {
+      width: 240px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: left;
+    }
+
+    #category-dropdown-menu {
+      max-width: 90vw;
+
+      li {
+        display: block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: 400;
+        line-height: 1.42857143;
+        color: #333;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &:not(.divider):hover {
+          cursor: pointer;
+          background-color: $lightergrey;
+        }
+      }
+    }
+  }
+
   .training-list {
 
     .head {
