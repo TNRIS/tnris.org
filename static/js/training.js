@@ -39,7 +39,9 @@ function retrieveTraining(queryField, queryValue) {
       var monthsArray = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
       // // re-format dates for comparison
       var d1 = new Date().toString().split(' ');
-      var d2 = new Date(t.end_date_time).toString().split(' ');
+      var d2parts = t.end_date_time.split(" ");
+      d2parts[2] = d2parts[2] + `, ${t.year}`;
+      var d2 = new Date(d2parts.join(" ")).toString().split(' ');
       var today = d1[3]+(monthsArray.indexOf(d1[1])+1)+d1[2];
       var end = t.year+(monthsArray.indexOf(d2[1])+1)+d2[2];
       // use today date compared to end date and registration_open status to determine button used in training record
