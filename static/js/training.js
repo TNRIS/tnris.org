@@ -104,12 +104,10 @@ function retrieveTraining(queryField, queryValue) {
             </strong><br>
             <i class="glyphicon glyphicon-time"></i>
             ${start_time} - ${end_time} <br>
-            <a id="${urlTitle}Click" data-toggle="collapse" aria-expanded="false" data-target="#${t.training_id}" href="#${urlTitle}">
-              <button id="full-details-btn" class="btn btn-primary btn-sm" type="button">
-                <span class="glyphicon glyphicon-info-sign"></span>
-                Expand Details
-              </button>
-            </a>
+            <button class="btn btn-primary btn-sm full-details-btn" type="button" data-toggle="collapse" aria-expanded="false" data-target="#${t.training_id}">
+              <span class="glyphicon glyphicon-info-sign"></span>
+              Expand Details
+            </button>
           </div>
           <div class="col-xs-12 col-sm-9">
             <div class="row">
@@ -118,15 +116,24 @@ function retrieveTraining(queryField, queryValue) {
                   ${t.title}
                 </h3>
               </div>
-              <div class="col-xs-4 course-info">
+              <div class="col-xs-3 course-info">
                 <strong>Taught by:</strong>
                 <br> ${t.instructor}
               </div>
-              <div class="col-xs-4 course-info">
+              <div class="col-xs-3 course-info">
                 <strong>Cost:</strong><br> $${t.cost}
               </div>
-              <div class="col-xs-4 course-info">
+              <div class="col-xs-3 course-info">
                 <strong>Status:</strong><br> ${status}
+              </div>
+              <div class="col-xs-3 course-info">
+                <strong>Share Course:</strong><br>
+                <span class="input-group-btn">
+                  <button class="btn btn-tnris btn-sm copy-url-btn" type="button" style="margin-top:0;">
+                    <i class="fa fa-clipboard"></i> Copy Link
+                  </button>
+                </span>
+                <input class="form-control hidden-clipboard-input" type="text" readonly value="http://localhost:8000/education#${urlTitle}">
               </div>
             </div>
           </div>
@@ -146,36 +153,38 @@ function retrieveTraining(queryField, queryValue) {
     document.getElementById('education-schedule-h2').innerText = headerText;
   })
   .then(function(data) {
-    // check if hash exists; if so, smooth scroll to div id and open description by click
+    // check if hash exists; if so, smooth scroll to div id and open description
+    // by simulating click on the great-grandchil button element
     // this is for sharing urls to training records
     var clickId = location.hash.replace("#", "");
-    var element = document.getElementById(clickId + "Click");
-    var button = element ? element.children[0] : '';
-
+    var element = document.getElementById(clickId);
+    var button = element ? element.children[0].children[1].children[4] : '';
     if (location.hash && document.getElementById(clickId)) {
       element.scrollIntoView({
         behavior: 'smooth'
       });
-      element.click();
-      button.className = 'btn btn-warning btn-sm';
+      button.click();
+      button.className = 'btn btn-warning btn-sm full-details-btn';
       button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details";
     }
   })
   .then(function() {
     // add event listener to all anchor tags with ids so onclick (expand and close) runs function
     // to swap out button class/color
-    var anchors = document.querySelectorAll('a');
+    var buttons = document.querySelectorAll('.full-details-btn');
 
-    function clicker(x) {
-      x.addEventListener("click", function() {
-        var button = x.children[0];
-        button.classList.contains('btn-primary') ? button.className = 'btn btn-warning btn-sm' : button.className = 'btn btn-primary btn-sm';
-        button.innerHTML.includes('Expand') ? button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details" : button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Expand Details";
+    buttons.forEach(function(b) {
+      b.addEventListener("click", function() {
+        // if event is fired to expand description, scroll to course great-grandparent ".training-record"
+        // if event is fired to collapse, no scrolling
+        if (b.innerHTML.includes('Expand')) {
+          b.parentNode.parentNode.parentNode.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+        b.classList.contains('btn-primary') ? b.className = 'btn btn-warning btn-sm full-details-btn' : b.className = 'btn btn-primary btn-sm full-details-btn';
+        b.innerHTML.includes('Expand') ? b.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details" : b.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Expand Details";
       });
-    }
-
-    anchors.forEach(function(a) {
-      a.id ? clicker(a) : '';
     });
   });
 }

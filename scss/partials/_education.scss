@@ -86,6 +86,15 @@ h1 {
 
     .course-info {
       font-size: 14px;
+
+      // display: none & input type=hidden disrupts functionality
+      // of clipboard, so we make the object invisible using opacity
+      // and then position it away so that it doesn't still take up space
+      .hidden-clipboard-input {
+        position: absolute;
+        right: -100px;
+        opacity: 0;
+      }
     }
 
     .course-info-category {
