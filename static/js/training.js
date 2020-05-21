@@ -89,7 +89,6 @@ function retrieveTraining(queryField, queryValue) {
       var urlTitle = month.toLowerCase() + "-" + t.year + "-" + t.title.replace(/[\s,:-]+/g , '-').toLowerCase();
       record.setAttribute('class', 'training-record');
       record.setAttribute('id', urlTitle);
-
       record.innerHTML =
         `<div class="row training-header">
           <div class="row">
@@ -124,16 +123,16 @@ function retrieveTraining(queryField, queryValue) {
                 <strong>Cost:</strong><br> $${t.cost}
               </div>
               <div class="col-xs-3 course-info">
-                <strong>Status:</strong><br> ${status}
-              </div>
-              <div class="col-xs-3 course-info">
                 <strong>Share Course:</strong><br>
                 <span class="input-group-btn">
                   <button class="btn btn-tnris btn-sm copy-url-btn" type="button" style="margin-top:0;">
                     <i class="fa fa-clipboard"></i> Copy Link
                   </button>
                 </span>
-                <input class="form-control hidden-clipboard-input" type="text" readonly value="http://localhost:8000/education#${urlTitle}">
+                <input class="form-control hidden-clipboard-input" type="text" readonly value="${location.origin}/education#${urlTitle}">
+              </div>
+              <div class="col-xs-3 course-info">
+                <strong>Status:</strong><br> ${status}
               </div>
             </div>
           </div>
