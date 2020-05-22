@@ -25,7 +25,7 @@ tags: GIO, Data Sharing, GIS, Geospatial
 
 -	Austin Community College received Special Achievement in GIS award at the ESRI UC.
 
--	GeoRodeo 2016 occurred May 20, 2016. Highlights from the event can be viewed [here](https://tnris.org/news/2016-05-27/2016-georodeo-recap-highlights/).
+-	GeoRodeo 2016 occurred May 20, 2016.
 
 -	New AOI for Lidar 2016-2017 project. Check out the latest on the project page.
 
@@ -42,7 +42,7 @@ Imagery products from the 2015 TOP project are now available for download from [
 
 Uncompressed GeoTIFF tiles can be ordered by visiting the TNRIS [DataHub](https://data.tnris.org).
 
-The 2015 TOP imagery can also be accessed via the [Esri Basemap Imagery Service](https://tnris.org/news/2016-08-15/2015-orthoimagery-now-available-esri-basemap-imagery-service/).
+The 2015 TOP imagery can also be accessed via the Esri Basemap Imagery Service.
 
 
 *****

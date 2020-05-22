@@ -84,7 +84,6 @@ The imagery can also be accessed via a USDA-APFO WMS link:
   <input class="wms-url copy-url-input form-control" type="text" readonly value="http://gis.apfo.usda.gov/arcgis/services">
 </div>
 
-[--> Read More about the 2014 NAIP Imagery](/news/2015-01-09/naip-2014-statewide-aerial-available)
 
 ****
 
