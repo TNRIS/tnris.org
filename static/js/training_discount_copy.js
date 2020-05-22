@@ -21,7 +21,7 @@ function retrieveOpenTrainingLimited() {
         `
         <h3>Discount Code</h3>
         <p>
-          To recieve a discounted price on all TNRIS trainings provided through our service partners, copy the link below to use during the registration process.
+          To receive a discounted price on all TNRIS trainings provided through our service partners, copy the coupon code below to use during the registration process.
         </p>
 
         <div class="input-group copy-url-container">
