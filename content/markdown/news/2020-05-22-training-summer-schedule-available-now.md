@@ -26,7 +26,9 @@ abstract: In collaboration with our training partners, the 2020 summer schedule 
   We remain dedicated to the delivery of high-quality training presented by our experienced and highly rated training instructors.  Discounted prices are listed for trending topics GIS professionals can use to update and enhance their technical skills. To take advantage of the discount offer, use the code provided on the <a href="/education">Education page</a> when registering.
 </p>
 
-<h2>For our colleagues:</h2>
+* * *
+
+<h2>For Our Colleagues</h2>
 <p>
   Select the best training delivery method for your learning style and preferences:
   <ul>
