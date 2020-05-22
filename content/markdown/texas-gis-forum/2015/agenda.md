@@ -846,7 +846,6 @@ Note: Agenda and speakers subject to change without notice.
   <h3 id="keynote-cowen"><small>Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
   <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/keynote-speaker-david-cowen-the-changing-geospatial-landscape"><i class="fa fa-play-circle"></i> View Slides</a></p>
   <p><img class="pull-right img-circle keynote-portrait" src="https://tnris-org-static.s3.amazonaws.com/images/david_cowen.jpg"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
-  <p><i class="glyphicon glyphicon-user"></i> <a href="/news/2015-07-16/ucgis-fellow-david-cowen-keynote-forum">Full Bio</a></p>
   <p><strong>Watch Video:</strong>
     <iframe width="100%" height="400" src="https://www.youtube.com/embed/FXp4RiZ34TA" frameborder="0" allowfullscreen></iframe>
   </p>
@@ -1316,9 +1315,6 @@ Note: Agenda and speakers subject to change without notice.
   <p>
   <img class="pull-right img-circle keynote-portrait" src="https://tnris-org-static.s3.amazonaws.com/images/humphreys_head.jpg">
   Todd E. Humphreys is an assistant professor in the department of Aerospace Engineering and Engineering Mechanics at the University of Texas at Austin, and Director of the UT Radionavigation Laboratory. He specializes in the application of optimal detection and estimation techniques to problems in satellite navigation, autonomous systems, and signal processing.His recent focus has been on secure perception for autonomous systems, including navigation, timing, and collision avoidance, and on centimeter-accurate location for the mass market.
-  </p>
-  <p>
-  <i class="glyphicon glyphicon-user"></i> <a href="/news/2015-08-24/forum-keynote-ut-professor-todd-humphreys">Full Bio</a>
   </p>
   </div>
   </div>

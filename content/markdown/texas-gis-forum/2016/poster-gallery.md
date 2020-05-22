@@ -21,7 +21,7 @@ The purpose of the poster gallery is to promote and recognize the advances of ma
 <div class="well well-md">
   <h3>Winners</h3>
 
-<p>The top 3 vote earners will be highlighted on the TNRIS website under the '<a href="/news/2014-10-30/morris-sheppard-dam-lidar" >Data Spotlight</a>' section following the forum. </p>
+<p>The top 3 vote earners will be highlighted on the TNRIS website.</p>
 <p>The top vote earner will also receive a small gift.</p>
 </div>
 
