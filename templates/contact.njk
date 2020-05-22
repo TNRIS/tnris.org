@@ -48,23 +48,29 @@
               "Reason",
               "Reason for contacting",
               "radio",
-              ['General Question or Comment', 'Help with Data', 'Order Map'],
+              ['General Question or Comment', 'Help with Data', 'Order Map', 'Education/Training'],
               false
             )}}
 
             <div ng-hide="!form_model['Reason']">
-              <div class="form-group form-callout bg-warning" ng-show="form_model['Reason'] == 'Order Map'">
-                <p>
-                  Please use this <a href="/order-map">order form</a> to order a map or request map pricing information.
-                </p>
-              </div>
-
               <div class="form-group form-callout bg-warning" ng-show="form_model['Reason'] == 'Help with Data'">
                 <p>
                   Please open the dataset in the <a href="https://data.tnris.org">DataHub</a> and click the 'Contact' tab. Then complete the form to submit a data help request.
                 </p>
                 <p>
                   Browse, download, order, and inquire about data within the <a href="https://data.tnris.org">DataHub</a>.
+                </p>
+              </div>
+
+              <div class="form-group form-callout bg-warning" ng-show="form_model['Reason'] == 'Order Map'">
+                <p>
+                  Please use this <a href="/order-map">order form</a> to order a map or request map pricing information.
+                </p>
+              </div>
+
+              <div class="form-group form-callout bg-warning" ng-show="form_model['Reason'] == 'Education/Training'">
+                <p>
+                  Please use this <a href="/education/contact">form</a> to inquire directly with our Education coordinator about our Education program and Training Courses.
                 </p>
               </div>
 
