@@ -1,7 +1,10 @@
 // get training records from tnris api
 // inject training records into html; append html to template html
-function retrieveTraining() {
+function retrieveTraining(queryField, queryValue) {
   var trainingUrl = 'https://api.tnris.org/api/v1/tnris_org/training';
+  if (queryField) {
+    trainingUrl = trainingUrl + "?" + queryField + "=" + queryValue;
+  }
   return fetch(trainingUrl).then(function(response) {
     if (!response.ok) {
       throw new Error('Could not retrieve TNRIS API response for training events.');
@@ -11,7 +14,14 @@ function retrieveTraining() {
   .then(function(data) {
     // sort api trainings response by date
     data.results = data.results.sort(function(a,b) {
-      var dateA = new Date(a.start_date_time), dateB = new Date(b.start_date_time);
+      // split start_date_time string into array to add 'year'
+      var aAry = a.start_date_time.split(" ");
+      aAry[2] = aAry[2] + `, ${a.year}`;
+      var bAry = b.start_date_time.split(" ");
+      bAry[2] = bAry[2] + `, ${b.year}`;
+      // convert to date object
+      var dateA = new Date(aAry.join(" ")), dateB = new Date(bAry.join(" "));
+      // return sorted relative positions
       return dateA - dateB;
     });
     // iterate over array of objects in response and do the stuff
@@ -29,7 +39,9 @@ function retrieveTraining() {
       var monthsArray = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
       // // re-format dates for comparison
       var d1 = new Date().toString().split(' ');
-      var d2 = new Date(t.end_date_time).toString().split(' ');
+      var d2parts = t.end_date_time.split(" ");
+      d2parts[2] = d2parts[2] + `, ${t.year}`;
+      var d2 = new Date(d2parts.join(" ")).toString().split(' ');
       var today = d1[3]+(monthsArray.indexOf(d1[1])+1)+d1[2];
       var end = t.year+(monthsArray.indexOf(d2[1])+1)+d2[2];
       // use today date compared to end date and registration_open status to determine button used in training record
@@ -77,22 +89,24 @@ function retrieveTraining() {
       var urlTitle = month.toLowerCase() + "-" + t.year + "-" + t.title.replace(/[\s,:-]+/g , '-').toLowerCase();
       record.setAttribute('class', 'training-record');
       record.setAttribute('id', urlTitle);
-
       record.innerHTML =
         `<div class="row training-header">
-          <div class="col-xs-12 col-sm-3">
+          <div class="row">
+            <div class="col-xs-12 course-info-category">
+              ${t.category}
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-3 course-date-time">
             <strong>
               <span class="glyphicon glyphicon-calendar"></span>
               ${month} ${day}, ${t.year}
             </strong><br>
             <i class="glyphicon glyphicon-time"></i>
             ${start_time} - ${end_time} <br>
-            <a id="${urlTitle}Click" data-toggle="collapse" aria-expanded="false" data-target="#${t.training_id}" href="#${urlTitle}">
-              <button id="full-details-btn" class="btn btn-primary btn-sm" type="button" style="margin:7px;">
-                <span class="glyphicon glyphicon-info-sign"></span>
-                Expand Details
-              </button>
-            </a>
+            <button class="btn btn-primary btn-sm full-details-btn" type="button" data-toggle="collapse" aria-expanded="false" data-target="#${t.training_id}">
+              <span class="glyphicon glyphicon-info-sign"></span>
+              Expand Details
+            </button>
           </div>
           <div class="col-xs-12 col-sm-9">
             <div class="row">
@@ -101,67 +115,130 @@ function retrieveTraining() {
                   ${t.title}
                 </h3>
               </div>
-              <div class="col-xs-4 course-info">
+              <div class="col-xs-3 course-info">
                 <strong>Taught by:</strong>
                 <br> ${t.instructor}
               </div>
-              <div class="col-xs-4 course-info">
+              <div class="col-xs-3 course-info">
                 <strong>Cost:</strong><br> $${t.cost}
               </div>
-              <div class="col-xs-4 course-info">
+              <div class="col-xs-3 course-info">
+                <strong>Share Course:</strong><br>
+                <span class="input-group-btn">
+                  <button class="btn btn-tnris btn-sm copy-url-btn" type="button" style="margin-top:0;">
+                    <i class="fa fa-clipboard"></i> Copy Link
+                  </button>
+                </span>
+                <input class="form-control hidden-clipboard-input" type="text" readonly value="${location.origin}/education#${urlTitle}">
+              </div>
+              <div class="col-xs-3 course-info">
                 <strong>Status:</strong><br> ${status}
               </div>
             </div>
           </div>
           <div id="${t.training_id}" class="course-description col-xs-12 collapse" style="padding:20px;">
-          <h3>Training Description</h3>
+            <h3>Description</h3>
             ${t.description}
+            <!-- if there are public registration_open records, insert discount copy content in each record html -->
+            <!-- <div id="training-discount-copy-record" style="padding:25px 0 0 0;"></div> -->
           </div>
         </div>`;
 
       document.getElementById('insert-here').appendChild(record);
     });
-
-    // update header in template to include this year
-    var thisYear = data.results[0].year;
-    document.getElementById('education-schedule-h2').innerHTML = `${thisYear} Course Schedule`;
+    // update header in template to include "(year) Course Schedule" if there are any public records
+    // otherwise input empty string in header tag
+    var headerText = data.count > 0 ? `${data.results[0].year} Course Schedule` : ``;
+    document.getElementById('education-schedule-h2').innerText = headerText;
   })
-  .then(function() {
-    // check if hash exists; if so, smooth scroll to div id and open description by click
+  .then(function(data) {
+    // check if hash exists; if so, smooth scroll to div id and open description
+    // by simulating click on the great-grandchil button element
     // this is for sharing urls to training records
     var clickId = location.hash.replace("#", "");
-    var element = document.getElementById(clickId + "Click");
-    var button = element ? element.children[0] : '';
-
-    if (location.hash) {
+    var element = document.getElementById(clickId);
+    var button = element ? element.children[0].children[1].children[4] : '';
+    if (location.hash && document.getElementById(clickId)) {
       element.scrollIntoView({
         behavior: 'smooth'
       });
-      element.click();
-      button.className = 'btn btn-warning btn-sm';
+      button.click();
+      button.className = 'btn btn-warning btn-sm full-details-btn';
       button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details";
     }
   })
   .then(function() {
     // add event listener to all anchor tags with ids so onclick (expand and close) runs function
     // to swap out button class/color
-    var anchors = document.querySelectorAll('a');
+    var buttons = document.querySelectorAll('.full-details-btn');
 
-    function clicker(x) {
-      x.addEventListener("click", function() {
-        var button = x.children[0];
-        button.classList.contains('btn-primary') ? button.className = 'btn btn-warning btn-sm' : button.className = 'btn btn-primary btn-sm';
-        button.innerHTML.includes('Expand') ? button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details" : button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Expand Details";
+    buttons.forEach(function(b) {
+      b.addEventListener("click", function() {
+        // if event is fired to expand description, scroll to course great-grandparent ".training-record"
+        // if event is fired to collapse, no scrolling
+        if (b.innerHTML.includes('Expand')) {
+          b.parentNode.parentNode.parentNode.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+        b.classList.contains('btn-primary') ? b.className = 'btn btn-warning btn-sm full-details-btn' : b.className = 'btn btn-primary btn-sm full-details-btn';
+        b.innerHTML.includes('Expand') ? b.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details" : b.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Expand Details";
       });
-    }
+    });
+  });
+}
 
-    anchors.forEach(function(a) {
-      a.id ? clicker(a) : '';
-    })
+// get training records from tnris api to create categories filter of courses
+// inject category filter into html; append html to template html
+// this action is performed in a separate function so that the retrieveTraining()
+// function remains independent and can be re-used when filter applied
+function retrieveTrainingCategories() {
+  var trainingUrl = 'https://api.tnris.org/api/v1/tnris_org/training';
+  return fetch(trainingUrl).then(function(response) {
+    if (!response.ok) {
+      throw new Error('Could not retrieve TNRIS API response for training events.');
+    }
+    return response.json();
+  })
+  .then(function(data) {
+    // set aside categories array for creating unique list from courses
+    var categories = [];
+    // iterate over array of objects in response and do the stuff
+    data.results.forEach(function(t) {
+      // if course category not in array, add it
+      if (!categories.includes(t.category)) {
+        categories.push(t.category);
+      }
+    });
+
+    // loop unique categories array to add options to filter dropdown
+    categories.sort().forEach((c) => {
+      var cat = document.createElement('li');
+      cat.innerHTML = c;
+      cat.setAttribute('class', 'category-dropdown-menu-item');
+      document.getElementById('category-dropdown-menu').appendChild(cat);
+    });
+  })
+  .then(function() {
+    // add event listerner to all category-dropdown-menu-item li tags so onclick
+    // filters displayed courses
+    var menuItems = document.querySelectorAll(".category-dropdown-menu-item");
+
+    menuItems.forEach(function(i) {
+      i.addEventListener("click", function() {
+        // update dropdown to display chosen filter
+        document.getElementById("selected-category-filter").innerHTML = i.innerHTML;
+        // clear all courses which were injected into the training-list
+        document.getElementById("insert-here").innerHTML = "";
+        // re-retrieve the trainings with chosen filter applied to api call as query
+        i.innerHTML === 'All Courses' ? retrieveTraining() : retrieveTraining('category', i.innerHTML);
+      });
+    });
   })
 }
 
 // run main retrieveTraining function when on education page
 if (location.pathname.includes('/education')) {
   retrieveTraining();
+  retrieveTrainingCategories();
 }

@@ -3,6 +3,7 @@
 {% block scripts %}
   {{ super() }}
   <script src="/training.bundle.js"></script>
+  <script src="/training_discount_copy.bundle.js"></script>
 {% endblock %}
 
 {% block topcontent %}
@@ -33,9 +34,28 @@
     <div class="row">
       <div class="col-md-8">
         {{ contents|safe }}
-        <h2 id="education-schedule-h2">Course Schedule</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h2 id="education-schedule-h2">
+              <!-- Year + Course Schedule text inserted here if there are public records (see training.js) -->
+            </h2>
+          </div>
+          <div class="col-md-6">
+            <div id="category-filter-dropdown" class="dropdown pull-right">
+              Filter Courses:	&nbsp;
+              <button id="category-filter-dropdown-btn" class="btn btn-default dropdown-toggle" type="button" id="categoryFilterMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <span class="caret"></span>
+                <span id="selected-category-filter">All Courses</span>
+              </button>
+              <ul id="category-dropdown-menu" class="dropdown-menu" aria-labelledby="categoryFilterMenu">
+                <li class="category-dropdown-menu-item">All Courses</li>
+                <li role="separator" class="divider"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div id="insert-here" class="training-list" data-spy="scroll" data-target=".training-header">
-          <!-- training records get inserted here from the tnris api -->
+          <!-- training records get inserted here from the tnris api (see training.js) -->
         </div>
       </div>
       <div class="col-md-4">

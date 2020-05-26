@@ -19,7 +19,7 @@ function retrieveOpenTraining() {
       </p>
       `;
 
-      document.getElementById('next-two-open-classes').innerHTML = noRegistration;
+      // document.getElementById('next-two-open-classes').innerHTML = noRegistration;
     }
     else {
       // sort api trainings response by date

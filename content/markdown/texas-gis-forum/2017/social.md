@@ -50,17 +50,11 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     </p>
     <div class="media">
       <div class="media-left">
-        <a href="/news/2017-06-29/lost-as-child-online-maps-pointed-hometown-forum-keynote-saroo-brierley">
           <img class="media-object" src="https://tnris-org-static.s3.amazonaws.com/images/saroo-alley.jpg" alt="Saroo Brierley">
-        </a>
       </div>
       <div class="media-body">
         <h3 class="media-heading">Keynote Speaker: Saroo Brierley</h3>
         <p>Lost as a child, Saroo tracked down his hometown in India using Google Earth and his memories. His story inspired the Oscar-nominated film, <em>Lion</em>.
-          <br><br>
-          <a href="/news/2017-06-29/lost-as-child-online-maps-pointed-hometown-forum-keynote-saroo-brierley">
-            <i class="glyphicon glyphicon-arrow-right"></i> Learn More
-          </a>
         </p>
       </div>
     </div>

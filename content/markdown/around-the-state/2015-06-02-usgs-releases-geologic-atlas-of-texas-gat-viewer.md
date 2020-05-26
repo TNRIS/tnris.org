@@ -21,12 +21,12 @@ In 2014, the USGS Texas Water Science Center decided it was time to bring the Ge
 
 <blockquote>
   <p>
-    <a href="http://www.usgs.gov/blogs/features/usgs_top_story/the-history-of-texas-is-under-your-feet-and-at-your-fingertips/">
+    <a href="https://www.usgs.gov/news/history-texas-under-your-feet-and-your-fingertips/">
     <img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/gat_usgs_example.jpg" alt="USGS example of the GAT Viewer"></a>The new map viewer is an interactive web-based tool that allows a broad range of users to explore the geology of the Lone Star State at a scale of 1:250,000. Users can navigate the map with a simple click-and-point tool, or by using the location search tool to find common geographic place names, latitude/longitude coordinates and other areas of interest. The interactive map viewer allows users to turn data layers on or off, identify layers of interest and retrieve detailed information about each geologic formation, such as the feature name, geologic age and feature description.
   </p>
   <p>
-    <strong>From the USGS: <a href="http://www.usgs.gov/blogs/features/usgs_top_story/the-history-of-texas-is-under-your-feet-and-at-your-fingertips/">The History of Texas is Under Your Feet and at Your Fingertips!</a></strong>
+    <strong>From the USGS: <a href="https://www.usgs.gov/news/history-texas-under-your-feet-and-your-fingertips/">The History of Texas is Under Your Feet and at Your Fingertips!</a></strong>
   </p>
 </blockquote>
 
-Visit the [full post on the USGS's site](http://www.usgs.gov/blogs/features/usgs_top_story/the-history-of-texas-is-under-your-feet-and-at-your-fingertips) to learn all about this new tool for exploring Texas's geologic foundation.
+Visit the [full post on the USGS's site](https://www.usgs.gov/news/history-texas-under-your-feet-and-your-fingertips) to learn all about this new tool for exploring Texas's geologic foundation.
