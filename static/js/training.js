@@ -181,6 +181,9 @@ function retrieveTraining(queryField, queryValue) {
             behavior: 'smooth'
           });
         }
+        if (location.hash) {
+          window.history.pushState(null, "", window.location.href.replace(location.hash, ""));
+        }
         b.classList.contains('btn-primary') ? b.className = 'btn btn-warning btn-sm full-details-btn' : b.className = 'btn btn-primary btn-sm full-details-btn';
         b.innerHTML.includes('Expand') ? b.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details" : b.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Expand Details";
       });
