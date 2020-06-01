@@ -140,7 +140,7 @@ function retrieveTraining(queryField, queryValue) {
             <h3>Description</h3>
             ${t.description}
             <!-- if there are public registration_open records, insert discount copy content in each record html -->
-            <!-- <div id="training-discount-copy-record" style="padding:25px 0 0 0;"></div> -->
+            <div id="training-discount-copy-record" style="padding:25px 0 0 0;"></div>
           </div>
         </div>`;
 
@@ -240,8 +240,58 @@ function retrieveTrainingCategories() {
   })
 }
 
-// run main retrieveTraining function when on education page
+// check to see if atleast one education record from the api is set to registration open
+// if there is at least one available, return the discount code copy html at top right of page
+// and in each record details (expand details button) in the list from the api
+function insertDiscountCopy() {
+  // both public and registration_open have to be equal to true for discount copy html to be inserted
+  var trainingUrl = 'https://api.tnris.org/api/v1/tnris_org/training?registration_open=True'
+
+  return fetch(trainingUrl).then(function(response) {
+    if (!response.ok) {
+      throw new Error('Could not retrieve TNRIS API response for training events with open registration.');
+    }
+    return response.json();
+  })
+  .then(function(data) {
+    // change this string when a new discount code is needed
+    var discountValue = "TNRIS2020";
+
+    // check if any education records are public and registration_open from api, if so insert html
+    console.log('data count =', data.count);
+    if (data.count > 0) {
+      var copy =
+        `
+          <h3>Discount Code</h3>
+          <p>
+            To receive a discounted price on all TNRIS trainings provided through our service partners, copy the coupon code below to use during the registration process.
+          </p>
+
+          <div class="input-group copy-url-container">
+            <span class="input-group-btn">
+              <button class="btn btn-tnris copy-url-btn" type="button" style="margin-top:0;">
+                <i class="fa fa-clipboard"></i> Copy
+              </button>
+            </span>
+            <input class="wms-url copy-url-input form-control" type="text" readonly value="${discountValue}">
+          </div>
+        `;
+      // used to insert the discount copy code into the education-side template at top right of page
+      // add the <hr> tag at the end for styling separation
+      document.getElementById('training-discount-copy').innerHTML = copy + "<hr class='clearfix'>";
+      // used to insert the discount copy code into each education record that comes from the api
+      // do not include the <hr> tag
+      var records = document.querySelectorAll('#training-discount-copy-record');
+      records.forEach(function(r) {
+        r.innerHTML = copy;
+      });
+    }
+  })
+}
+
+// run functions when on education page
 if (location.pathname.includes('/education')) {
   retrieveTraining();
   retrieveTrainingCategories();
+  insertDiscountCopy();
 }
