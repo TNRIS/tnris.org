@@ -41,7 +41,6 @@ function generate(env) {
       'site': [path.resolve(__dirname, 'static/js/site.js')],
       'training': [path.resolve(__dirname, 'static/js/training.js')],
       'training_partial': [path.resolve(__dirname, 'static/js/training_partial.js')],
-      'training_discount_copy': [path.resolve(__dirname, 'static/js/training_discount_copy.js')],
       'webfontloader': ['file-loader?name=webfontloader.js!webfontloader'],
       'xdomain': ['file-loader?name=xdomain.js!xdomain'],
     },
