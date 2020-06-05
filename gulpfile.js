@@ -203,10 +203,10 @@ gulp.task('dist-metal', function () {
           pattern: '*.md'
         }))
         // paginate the news articles for use as "/news-archive"
-        .use(paginate({
-          perPage: 10,
-          path: 'news'
-        }))
+        // .use(paginate({
+        //   perPage: 10,
+        //   path: 'news'
+        // }))
         .use(each(function(file) {
           // append list of random images to use in 404
           if (file.filename == '404.md') {
@@ -245,10 +245,10 @@ gulp.task('dist-metal', function () {
         }))
         // nest files based on metalsmith collections. a.k.a. subdirectory
         // the news articles by date in filename
-        .use(permalinks({
-          pattern: ':collection/:date/:urlEnd',
-          date: 'YYYY-MM-DD'
-        }))
+        // .use(permalinks({
+        //   pattern: ':collection/:date/:urlEnd',
+        //   date: 'YYYY-MM-DD'
+        // }))
         .use(function (files, metalsmith, done) {
           Object.keys(files).forEach(function(f){
             // iterate files and remove the index.html filename from 'preserved' links
@@ -283,14 +283,14 @@ gulp.task('dist-metal', function () {
           crossrefObj = metalsmith._metadata.crossref;
           done();
         })
-        .use(function (files, metalsmith, done) {
-          // combine news, around the state, and gio news into an news-archive stream
-          var news_archive = metalsmith._metadata.news
-            .concat(metalsmith._metadata.geographic_information_office_news)
-            .concat(metalsmith._metadata.around_the_state);
-          metalsmith._metadata.news_archive = _.sortBy(news_archive, 'date').reverse();
-          done();
-        })
+        // .use(function (files, metalsmith, done) {
+        //   // combine news, around the state, and gio news into an news-archive stream
+        //   var news_archive = metalsmith._metadata.news
+        //     .concat(metalsmith._metadata.geographic_information_office_news)
+        //     .concat(metalsmith._metadata.around_the_state);
+        //   metalsmith._metadata.news_archive = _.sortBy(news_archive, 'date').reverse();
+        //   done();
+        // })
         .use(function (files, metalsmith, done) {
           // replace file suffix with templating engine so that
           // metalsmith-in-place can template in current context properly
