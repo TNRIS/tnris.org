@@ -29,3 +29,7 @@ directory of the repository:
 * `npm run dist` to do a production build of the site. The output static site will be dumped into the `.dist` folder.
 
 If you're looking to edit some content, see our [repo wiki documentation](https://github.com/TNRIS/tnris.org/wiki).
+
+### Updating Runtime or Dependencies
+
+* updating the nodejs version, build commands, or build process requires updating the relative `buildspec` ".yml" file within the deployment repo and pushing the update to the artifact s3 bucket as this is the build recipe utilized by the CodeBuild CI/CD
