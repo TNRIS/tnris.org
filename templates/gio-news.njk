@@ -11,7 +11,7 @@
       <li>
         <a href="/geographic-information-office">Geographic Information Office</a>
       </li>
-      <li class="active">GIO News</li>
+      {# <li class="active">GIO News</li> #}
     </ol>
   </div>
   <div class="row article">
@@ -33,8 +33,8 @@
       <div class="col-sm-12 col-md-4 blog-sidebar">
         <script src="/gio_calendar_next_cm.bundle.js"></script>
         <div id="gio-calendar-next-cm"></div>
-        <h3>More GIO News</h3>
-        <ul class="news-list list-clean">
+        <h3 id="more-gio-news">More GIO News</h3>
+        {# <ul class="news-list list-clean">
           {% set count = 1 %}
           {% for gio_item in geographic_information_office_news %}
             {% if (gio_item.id != id) and count <= 3 %}
@@ -54,7 +54,7 @@
               </li>
             {% endif %}
           {% endfor %}
-        </ul>
+        </ul> #}
       </div>
     {% endblock %}
   </div>

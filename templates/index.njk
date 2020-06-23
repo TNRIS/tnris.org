@@ -2,9 +2,9 @@
 
 {% block topcontent %}
   <div class="hidden-md hidden-lg quicknav-small-container">
-    <div class="container quicknav-small">
+    {# <div class="container quicknav-small">
       {% include "partials/quicknav-sm.njk" %}
-    </div>
+    </div> #}
   </div>
   <div id="home-top-content">
     <div class="container">
@@ -26,17 +26,35 @@
     <h1 class="sr-only">Texas Natural Resources Information System</h1>
     <div class="row">
       <div id="updates-front" class="col-md-5 col-sm-12 col-md-push-3">
-        <h2>News <i class="fas fa-newspaper"></i></h2>
-        {# twitter embed stuff for news -- testing / under development #}
-        <a
-          class="twitter-timeline"
-          data-width="500"
-          data-height="800"
-          data-chrome="noheader nofooter noborders"
-          data-theme="light"
-          href="https://twitter.com/TNRIS?ref_src=twsrc%5Etfw">
-        </a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <h2><i class="fas fa-newspaper"></i> News</h2>
+
+          {# <a class="btn btn-lg btn-block btn-twitter" role="button" href="https://twitter.com/tnris" title="Follow Us on Twitter">
+            <i class="fab fa-twitter"></i> <span class="hidden-xs">Follow Us</span> <span class="hidden-sm hidden-xs">On Twitter</span>
+          </a> #}
+
+          <a
+            href="https://twitter.com/TNRIS"
+            class="twitter-follow-button"
+            data-size="large"
+            data-lang="en"
+            data-dnt="true"
+            data-show-count="false"> {# change this value to true to show number of followers #}
+              Follow @TNRIS
+          </a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+          {# twitter embed stuff for news -- testing / under development #}
+          <div style='padding-top: 10px;'>
+            <a
+              class="twitter-timeline"
+              data-width="500"
+              data-height="800"
+              data-chrome="noheader nofooter noborders"
+              data-theme="light"
+              href="https://twitter.com/TNRIS?ref_src=twsrc%5Etfw">
+            </a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
 
         {# <ul class="news-list list-clean">
           {% for news_item in news_archive %}
