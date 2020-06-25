@@ -87,11 +87,14 @@ layout: gio/gio.njk
 		</div>
 	</div>
 </section>
-<section class="container">
+
+<!-- below is commented out as of 6/25/20 due to the news migration effort to twitter timeline embed; -->
+<!-- news archive page still accessible at tnris.org/news -->
+<!-- <section class="container">
 	<div class="row">
 		<div class="col-md-8">
 			<h2>GIO News</h2>
 			{% include "gio/gio-news-collection.njk" %}
 		</div>
 	</div>
-</section>
+</section> -->
