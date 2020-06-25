@@ -1,23 +1,23 @@
 {% extends "base.njk" %}
 
 {% block topcontent %}
-  <div class="hidden-md hidden-lg quicknav-small-container">
-    {# <div class="container quicknav-small">
+  {# <div class="hidden-md hidden-lg quicknav-small-container">
+    <div class="container quicknav-small">
       {% include "partials/quicknav-sm.njk" %}
-    </div> #}
-  </div>
+    </div>
+  </div> #}
   <div id="home-top-content">
     <div class="container">
-      <div class="row">
-        <div class="col-md-3 hidden-xs hidden-sm">
+      {# <div class="row"> #}
+        {# <div class="col-md-3">
           <div class="quick-nav">
             {% include "partials/quicknav.njk" %}
           </div>
-        </div>
-        <div id="front-image-container" class="col-md-9 col-sm-12 col-xs-12">
+        </div> #}
+        <div id="front-image-container" class="col-md-12">
           {% include "partials/mainfeature.njk" %}
         </div>
-      </div>
+      {# </div> #}
     </div>
   </div>
 {% endblock %}
@@ -25,16 +25,16 @@
   <div id="contentMain" class="container">
     <h1 class="sr-only">Texas Natural Resources Information System</h1>
     <div class="row">
-      {# left side - latest datahub collections #}
-      <div id="front-left" class="col-md-3">
-        {% include "partials/latest-datahub-collections.njk" %}
-      </div>
-      {# middle - twitter embed #}
-      <div id="front-middle" class="col-md-5">
+      {# twitter timeline embed #}
+      <div id="front-news" class="col-md-5 col-sm-12 col-md-push-3">
         {% include "partials/twitter-timeline.njk" %}
       </div>
-      {# right side - education/training information #}
-      <div id="front-right" class="col-md-4">
+      {# latest datahub collections #}
+      <div id="front-data" class="col-md-3 col-sm-12 col-md-pull-5">
+        {% include "partials/latest-datahub-collections.njk" %}
+      </div>
+      {# education/training information #}
+      <div id="front-education" class="col-md-4 col-sm-12 col-xs-12">
         {% include "education/education-front.njk" %}
       </div>
     </div>
