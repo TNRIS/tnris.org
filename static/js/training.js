@@ -123,9 +123,9 @@ function retrieveTraining(queryField, queryValue) {
                 <strong>Cost:</strong><br> $${t.cost}
               </div>
               <div class="col-xs-3 course-info">
-                <strong>Share Course:</strong><br>
+                <strong>Share:</strong><br>
                 <span class="input-group-btn">
-                  <button class="btn btn-tnris btn-sm copy-url-btn" type="button" style="margin-top:0;">
+                  <button class="btn btn-tnris btn-sm copy-url-btn" type="button" style="margin-top:0; width:95%;">
                     <i class="fa fa-clipboard"></i> Copy Link
                   </button>
                 </span>
