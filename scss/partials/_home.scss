@@ -65,184 +65,196 @@ h2.forum-title-front {
     width: 358px;
 }
 
-
-
-.main-image-front {
-  cursor: pointer;
-  overflow: hidden;
-  width: 100%;
-  border: 4px solid white;
-
-  @media (max-width: $screen-xs) {
-    overflow: auto;
-  }
-
-  @media (min-width: $screen-xs) {
-    overflow: auto;
-  }
-
-  // @media (min-width: $screen-sm) {
-  //   border: 3px solid white;
-  //   min-height: 415px;
-  // }
-
-  @media (min-width: $screen-md) {
-    min-height: 315px;
-  }
-
-  @media (min-width: $screen-lg) {
-    min-height: 366px;
-  }
-
-  img {
-  }
-
-  .smContract2020 {
-    top: 5%;
-    color: $white;
-    cursor: text;
-    left: 5%;
-    position: absolute;
-    width: 50%;
-    z-index: 1;
-
-    h3 {
-      font-size: 50px;
-      font-weight: 600;
-      margin: 0;
-      margin-bottom: 20px;
-
-      small {
-        font-size: 30px;
-        font-weight: 100;
-        color: $white;
-        line-height: normal;
-
-        @media (max-width: $screen-sm) {
-          font-size: 25px;
-        }
-      }
-
-      @media (max-width: $screen-sm) {
-        font-size: 35px;
-      }
-    }
-
-    p {
-      font-size: 18px;
-
-      @media (max-width: $screen-sm) {
-        font-size: 14px;
-      }
-    }
-
-    a {
-      color: $midsky;
-      text-transform: uppercase;
-      font-size: 24px;
-
-      @media (max-width: $screen-sm) {
-        font-size: 20px;
-      }
-
-      &:hover {
-      color: $boltblue;
-      }
-
-      i {
-        font-size: 14px;
-      }
-    }
-
-
-  }
-
-  .featureText {
-    background-color: rgba(5,29,66,.85);
-    border-radius: 10px;
-    color: $white;
-    bottom: 5%;
-    left: 10%;
-    width: 80%;
-    padding: 10px;
-    position: absolute;
-    text-align: center;
-    z-index: 1;
-    text-decoration: none;
-
-    h3 {
-      margin: 0;
-    }
-
-    @media (min-width: $screen-md) {
-      bottom: auto;
-      left: 80px;
-      text-align: left;
-      top: 75px;
-      width: auto;
-      padding-bottom: 0;
-    }
-
-     &:hover {
-      text-decoration: none;
-     }
-  }
-
-  .featureLinkContainer {
-    bottom: 5%;
-    position: absolute;
-    text-align: center;
-    z-index: 1000;
-
-
-    @media (min-width: $screen-sm) {
-      bottom: 10%;
-      text-align: left;
-      padding-right: 3%;
-      right: 0;
-    }
-
-    a {
-      color: $white;
-    }
-  }
-
-  // p {
-  //     bottom: 160px;
-  //     font-size: 15px;
-  //     left: 265px;
-  //     position: absolute;
-  //     width: 455px;
-
-  //     @media (min-width: $screen-lg) {
-  //       bottom: 180px;
-  //       font-size: 18px;
-  //       left: 325px;
-  //       width: 505px;
-  //     }
-
-  // }
-
-
-  // a.btn {
-  //     background: $darkgrey;
-  //     bottom: 28px;
-  //     color: $white;
-  //     left: 20px;
-  //     position: absolute;
-
-  //     @media (min-width: $screen-lg) {
-  //     bottom: 28px;
-  //     left: 20px;
-  //     }
-
-  //     @media (min-width: $screen-sm) {
-  //       margin-right: 5%;
-  //       padding: 10px 15px;
-  //       font-size: 18px;
-  //   }
-  // }
+// bootstrap carousel - force images to be at 21:9 aspect ratio
+.item {
+  position: relative;
+  padding-bottom: 42.86%; /* 21:9 wide aspect ratio */
 }
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// .main-image-front {
+//   cursor: pointer;
+//   overflow: hidden;
+//   width: 100%;
+//   border: 4px solid white;
+//
+//   @media (max-width: $screen-xs) {
+//     overflow: auto;
+//   }
+//
+//   @media (min-width: $screen-xs) {
+//     overflow: auto;
+//   }
+//
+//   // @media (min-width: $screen-sm) {
+//   //   border: 3px solid white;
+//   //   min-height: 415px;
+//   // }
+//
+//   @media (min-width: $screen-md) {
+//     min-height: 315px;
+//   }
+//
+//   @media (min-width: $screen-lg) {
+//     min-height: 366px;
+//   }
+//
+//   img {
+//   }
+//
+//   .smContract2020 {
+//     top: 5%;
+//     color: $white;
+//     cursor: text;
+//     left: 5%;
+//     position: absolute;
+//     width: 50%;
+//     z-index: 1;
+//
+//     h3 {
+//       font-size: 50px;
+//       font-weight: 600;
+//       margin: 0;
+//       margin-bottom: 20px;
+//
+//       small {
+//         font-size: 30px;
+//         font-weight: 100;
+//         color: $white;
+//         line-height: normal;
+//
+//         @media (max-width: $screen-sm) {
+//           font-size: 25px;
+//         }
+//       }
+//
+//       @media (max-width: $screen-sm) {
+//         font-size: 35px;
+//       }
+//     }
+//
+//     p {
+//       font-size: 18px;
+//
+//       @media (max-width: $screen-sm) {
+//         font-size: 14px;
+//       }
+//     }
+//
+//     a {
+//       color: $midsky;
+//       text-transform: uppercase;
+//       font-size: 24px;
+//
+//       @media (max-width: $screen-sm) {
+//         font-size: 20px;
+//       }
+//
+//       &:hover {
+//       color: $boltblue;
+//       }
+//
+//       i {
+//         font-size: 14px;
+//       }
+//     }
+//
+//
+//   }
+//
+//   .featureText {
+//     background-color: rgba(5,29,66,.85);
+//     border-radius: 10px;
+//     color: $white;
+//     bottom: 5%;
+//     left: 10%;
+//     width: 80%;
+//     padding: 10px;
+//     position: absolute;
+//     text-align: center;
+//     z-index: 1;
+//     text-decoration: none;
+//
+//     h3 {
+//       margin: 0;
+//     }
+//
+//     @media (min-width: $screen-md) {
+//       bottom: auto;
+//       left: 80px;
+//       text-align: left;
+//       top: 75px;
+//       width: auto;
+//       padding-bottom: 0;
+//     }
+//
+//      &:hover {
+//       text-decoration: none;
+//      }
+//   }
+//
+//   .featureLinkContainer {
+//     bottom: 5%;
+//     position: absolute;
+//     text-align: center;
+//     z-index: 1000;
+//
+//
+//     @media (min-width: $screen-sm) {
+//       bottom: 10%;
+//       text-align: left;
+//       padding-right: 3%;
+//       right: 0;
+//     }
+//
+//     a {
+//       color: $white;
+//     }
+//   }
+//
+//   // p {
+//   //     bottom: 160px;
+//   //     font-size: 15px;
+//   //     left: 265px;
+//   //     position: absolute;
+//   //     width: 455px;
+//
+//   //     @media (min-width: $screen-lg) {
+//   //       bottom: 180px;
+//   //       font-size: 18px;
+//   //       left: 325px;
+//   //       width: 505px;
+//   //     }
+//
+//   // }
+//
+//
+//   // a.btn {
+//   //     background: $darkgrey;
+//   //     bottom: 28px;
+//   //     color: $white;
+//   //     left: 20px;
+//   //     position: absolute;
+//
+//   //     @media (min-width: $screen-lg) {
+//   //     bottom: 28px;
+//   //     left: 20px;
+//   //     }
+//
+//   //     @media (min-width: $screen-sm) {
+//   //       margin-right: 5%;
+//   //       padding: 10px 15px;
+//   //       font-size: 18px;
+//   //   }
+//   // }
+// }
 
 
 /* Front Page Highlights */
