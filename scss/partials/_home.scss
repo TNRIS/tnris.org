@@ -66,17 +66,20 @@ h2.forum-title-front {
 }
 
 // bootstrap carousel - force images to be at 21:9 aspect ratio
-.item {
-  position: relative;
-  padding-bottom: 42.86%; /* 21:9 wide aspect ratio */
-}
+.carousel-inner {
 
-.image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  .item {
+    position: relative;
+    padding-bottom: 42.857%; /* 21:9 wide aspect ratio */
+
+    .image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
 }
 
 // .main-image-front {
