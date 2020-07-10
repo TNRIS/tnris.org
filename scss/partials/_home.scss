@@ -65,10 +65,11 @@ h2.forum-title-front {
     width: 358px;
 }
 
-// bootstrap carousel - force images to be at 21:9 aspect ratio
+// bootstrap carousel stuff
+// force images to be at 21:9 aspect ratio
 .item {
   position: relative;
-  padding-bottom: 42.86%; /* 21:9 wide aspect ratio */
+  padding-bottom: 42.857%; /* 21:9 wide aspect ratio */
 }
 
 .image {
