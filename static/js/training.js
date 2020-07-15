@@ -140,7 +140,7 @@ function retrieveTraining(queryField, queryValue) {
             <h3>Description</h3>
             ${t.description}
             <!-- if there are public registration_open records, insert discount copy content in each record html -->
-            <div id="training-discount-copy-record" style="padding:25px 0 0 0;"></div>
+            <!-- <div id="training-discount-copy-record" style="padding:25px 0 0 0;"></div> -->
           </div>
         </div>`;
 
@@ -153,12 +153,12 @@ function retrieveTraining(queryField, queryValue) {
   })
   .then(function(data) {
     // check if hash exists; if so, smooth scroll to div id and open description
-    // by simulating click on the great-grandchil button element
+    // by simulating click on the great-grandchild button element
     // this is for sharing urls to training records
     var clickId = location.hash.replace("#", "");
-    var element = document.getElementById(clickId);
+    var element = clickId ? document.getElementById(clickId) : "";
     var button = element ? element.children[0].children[1].children[4] : '';
-    if (location.hash && document.getElementById(clickId)) {
+    if (location.hash) {
       element.scrollIntoView({
         behavior: 'smooth'
       });
@@ -242,7 +242,6 @@ function retrieveTrainingCategories() {
 
 // check to see if atleast one education record from the api is set to registration open
 // if there is at least one available, return the discount code copy html at top right of page
-// and in each record details (expand details button) in the list from the api
 function insertDiscountCopy() {
   // both public and registration_open have to be equal to true for discount copy html to be inserted
   var trainingUrl = 'https://api.tnris.org/api/v1/tnris_org/training?registration_open=True'
@@ -258,7 +257,6 @@ function insertDiscountCopy() {
     var discountValue = "TNRIS2020";
 
     // check if any education records are public and registration_open from api, if so insert html
-    console.log('data count =', data.count);
     if (data.count > 0) {
       var copy =
         `
@@ -281,10 +279,10 @@ function insertDiscountCopy() {
       document.getElementById('training-discount-copy').innerHTML = copy + "<hr class='clearfix'>";
       // used to insert the discount copy code into each education record that comes from the api
       // do not include the <hr> tag
-      var records = document.querySelectorAll('#training-discount-copy-record');
-      records.forEach(function(r) {
-        r.innerHTML = copy;
-      });
+      // var records = document.querySelectorAll('#training-discount-copy-record');
+      // records.forEach(function(r) {
+      //   r.innerHTML = copy;
+      // });
     }
   })
 }
