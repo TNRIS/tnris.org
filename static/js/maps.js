@@ -95,8 +95,9 @@ function retrieveMaps() {
 
       var thumbnail = m.thumbnail_link ? `<a href="${m.thumbnail_link}" data-toggle="lightbox" data-gallery="example-gallery" data-title="${m.name}"><img class="maps-thumbnail img-responsive" src="${m.thumbnail_link}" /><small><i class="glyphicon glyphicon-zoom-in"></i> Click to Preview</small></a>` : '';
 
-      var monthNames = ["January", "February", "March", "April", "May","June","July", "August", "September", "October", "November","December"];
+      var monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November","December"];
       var publishDate = new Date(m.publish_date);
+      publishDate.setDate(publishDate.getDate()+1);
 
       var moreInfo = m.more_info_link ? `<a href="${m.more_info_link}" target="_blank" title="Open More Info on ${m.name} in New Window"><i class="glyphicon glyphicon-new-window"></i> More Info</a>` : '';
       var downloadsList = buildDownloadsTable(m.map_downloads);
@@ -115,7 +116,7 @@ function retrieveMaps() {
                 </h3>
                 <p>
                   <span class="glyphicon glyphicon-calendar"></span>
-                  ${monthNames[publishDate.getMonth()]} ${publishDate.getDay()}, ${publishDate.getFullYear()}
+                  ${monthNames[publishDate.getMonth()]} ${publishDate.getDate()}, ${publishDate.getFullYear()}
                 </p>
                 <p class="maps-description">${m.description}</p>
                 <p>${moreInfo}</p>
