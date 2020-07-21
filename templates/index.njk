@@ -1,23 +1,23 @@
 {% extends "base.njk" %}
 
 {% block topcontent %}
-  <div class="hidden-md hidden-lg quicknav-small-container">
+  {# <div class="hidden-md hidden-lg quicknav-small-container">
     <div class="container quicknav-small">
       {% include "partials/quicknav-sm.njk" %}
     </div>
-  </div>
+  </div> #}
   <div id="home-top-content">
     <div class="container">
-      <div class="row">
-        <div class="col-md-3 hidden-xs hidden-sm">
+      {# <div class="row"> #}
+        {# <div class="col-md-3">
           <div class="quick-nav">
             {% include "partials/quicknav.njk" %}
           </div>
-        </div>
-        <div id="front-image-container" class="col-md-9 col-sm-12 col-xs-12">
+        </div> #}
+        <div id="front-image-container" class="col-md-12">
           {% include "partials/mainfeature.njk" %}
         </div>
-      </div>
+      {# </div> #}
     </div>
   </div>
 {% endblock %}
@@ -25,41 +25,20 @@
   <div id="contentMain" class="container">
     <h1 class="sr-only">Texas Natural Resources Information System</h1>
     <div class="row">
-      <div id="updates-front" class="col-md-5 col-sm-12 col-md-push-3">
-        <h2>News <i class="fas fa-newspaper"></i></h2>
-        <ul class="news-list list-clean">
-          {% for news_item in news_archive %}
-            {% if loop.index<=3 %}
-              <li class="media">
-                <a class="media-left" href="{{news_item.preserved}}" title="Read {{news_item.title}}">
-                  <img class="media-object" src="{{news_item.thumbnail}}" alt="{{news_item.thumbalt}}">
-                </a>
-                <div class="media-body">
-                  <h3 class="media-heading">
-                  <a href="{{news_item.preserved}}">{{news_item.title}}</a>
-                </h3>
-                <p>
-                  {{news_item.abstract}}
-                </p>
-              </div>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-
-      <p class="text-center">
-        <a class="btn btn-tnris" href="/news" role="button">More News <span class="glyphicon glyphicon-chevron-right"></a>
-      </p>
-    </div>
-
-    <div id="front-sidebar" class="col-md-3 col-sm-12 col-md-pull-5">
-      {% include "partials/latest-datahub-collections.njk" %}
-    </div>
-      <div id="front-right" class="col-sm-12 col-md-4">
+      {# twitter timeline embed #}
+      <div id="front-news" class="col-md-5 col-sm-12 col-md-push-3">
+        {% include "partials/twitter-timeline.njk" %}
+      </div>
+      {# latest datahub collections #}
+      <div id="front-data" class="col-md-3 col-sm-12 col-md-pull-5">
+        {% include "partials/latest-datahub-collections.njk" %}
+      </div>
+      {# education/training information #}
+      <div id="front-education" class="col-md-4 col-sm-12 col-xs-12">
         {% include "education/education-front.njk" %}
       </div>
+    </div>
   </div>
-</div>
 {% endblock %}
 {% block contentsTwo %}
   {% include "partials/highlights.njk" %}
