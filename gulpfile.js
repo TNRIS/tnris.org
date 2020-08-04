@@ -228,8 +228,7 @@ gulp.task('dist-metal', function () {
                                   "richard.jpg",
                                   "richard_1987.jpg",
                                   "giscat.jpg",
-                                  "henry.jpg",
-                                  "baby_food.jpg"
+                                  "henry.jpg"
                                 ];
                                 var i =a[Math.floor(Math.random()*a.length)];
                                 document.getElementById("fourohfour").src="https://tnris-org-static.s3.amazonaws.com/images/"+i;

@@ -44,7 +44,7 @@ layout: gio/gio.njk
 			</div>
 			<!--End mc_embed_signup-->
 		</div>
-		<div id="gioBios" class="col-md-5">
+		<!-- <div id="gioBios" class="col-md-5">
 			<figure class="media">
 				<div class="media-left">
 					<img class="img-circle headshot" src="https://tnris-org-static.s3.amazonaws.com/images/richard_headshot.jpg" alt="Headshopt of GIO Richard Wade">
@@ -64,7 +64,7 @@ layout: gio/gio.njk
 				  <p>Felicia Retiz works closely with the GIS community to establish strategic targets and goals for GIS initiatives in Texas. She began her career in GIS at TNRIS in 1999 after receiving a Geography degree from the University of Texas at Austin. In 2017, she completed an Executive Masters in Public Affairs from the LBJ School at UT Austin.</p>
 				</div>
 			</figure>
-		</div>
+		</div> -->
 	</div>
 </div>
 <section id="gio-reports">

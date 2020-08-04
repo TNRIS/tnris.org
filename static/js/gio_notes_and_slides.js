@@ -47,19 +47,56 @@ function retrieveSgmNotes() {
     });
 
     var count = 0;
-    var list = document.getElementById('gio-sgm-notes');
+    var notesList = document.getElementById('gio-sgm-notes');
 
     data.results.forEach(function(i) {
       // add one to the count
       count++;
       if (count <= 12) {
-        var item = document.createElement('li');
-        item.innerHTML = `<a href="${i.document_url}"><br><i class="glyphicon glyphicon-file"></i> ${i.document_name}</a>`;
-        list.appendChild(item);
+        var noteItem = document.createElement('li');
+        noteItem.innerHTML = `<a href="${i.document_url}"><br><i class="glyphicon glyphicon-file"></i> ${i.document_name}</a>`;
+        notesList.appendChild(noteItem);
       }
     });
   });
 }
 
-// retrieveNextSgmEvent();
-retrieveSgmNotes();
+function retrieveCommunitySlides() {
+  // query api endpoint for solutions group meeting notes
+  var commSlidesUrl = 'https://api.tnris.org/api/v1/tnris_org/comm_note';
+  return fetch(commSlidesUrl).then(function(response) {
+    if (!response.ok) {
+      throw new Error('Could not retrieve TNRIS API response for GIS Community Meeting Slides.');
+    }
+    return response.json();
+  })
+  .then(function(data) {
+    // sort results from api based on document name (document names should always start like YYYY-MM-DD-) which should
+    // put the docs in order from oldest (top) to most recent (bottom)
+    // data.results.sort(function (a,b) {
+    //   return a.document_name.localeCompare(b.document_name);
+    // });
+    console.log('test log');
+
+    var count = 0;
+    var slideList = document.getElementById('community-meeting-slides');
+
+    data.results.forEach(function(i) {
+      // add one to the count
+      count++;
+      if (count <= 4) {
+        var slideItem = document.createElement('li');
+        slideItem.innerHTML = `<a href="${i.document_url}"><br><i class="glyphicon glyphicon-file"></i> ${i.document_name}</a>`;
+        slideList.appendChild(slideItem);
+      }
+    });
+  });
+}
+
+// run functions based on pathname
+if (location.pathname.includes('/gis-solutions-group')) {
+  retrieveSgmNotes();
+}
+if (location.pathname.includes('/geographic-information-office') && !location.pathname.includes('/gis-solutions-group')) {
+  retrieveCommunitySlides();
+}
