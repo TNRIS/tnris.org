@@ -21,12 +21,24 @@
   </div>
 {% endblock %}
 
-{% block contentsOne %}{% endblock %}
+{% block contentsOne %}
 
-{% block contentsTwo %}
   {% include "gio/gio-nav.njk" %}
   <div class="container meeting-bar">
     {% include "gio/gio-calendar-quad.njk" %}
   </div>
   {{ contents|safe }}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-7">
+        {% include "gio/gio-main.njk" %}
+      </div>
+      <div class="col-sm-12 col-md-5 blog-sidebar">
+        {% include "gio/gio-bios.njk" %}
+        {% include "gio/gis-community-meeting.njk" %}
+      </div>
+    </div>
+  </div>
+  {% include "gio/gio-reports.njk" %}
+
 {% endblock %}
