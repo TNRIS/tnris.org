@@ -62,7 +62,7 @@ function retrieveSgmNotes() {
 }
 
 function retrieveCommunitySlides() {
-  // query api endpoint for solutions group meeting notes
+  // query api endpoint for gis community meeting presentation documents
   var commSlidesUrl = 'https://api.tnris.org/api/v1/tnris_org/comm_note';
   return fetch(commSlidesUrl).then(function(response) {
     if (!response.ok) {
@@ -73,10 +73,9 @@ function retrieveCommunitySlides() {
   .then(function(data) {
     // sort results from api based on document name (document names should always start like YYYY-MM-DD-) which should
     // put the docs in order from oldest (top) to most recent (bottom)
-    // data.results.sort(function (a,b) {
-    //   return a.document_name.localeCompare(b.document_name);
-    // });
-    console.log('test log');
+    data.results.sort(function (a,b) {
+      return a.document_name.localeCompare(b.document_name);
+    });
 
     var count = 0;
     var slideList = document.getElementById('community-meeting-slides');

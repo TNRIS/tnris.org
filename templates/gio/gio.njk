@@ -28,22 +28,17 @@
     {% include "gio/gio-calendar-quad.njk" %}
   </div>
   {{ contents|safe }}
-  <section class="container">
-    <div class="row article">
-      <div class="col-sm-12 col-md-8 blog-main">
-
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-7">
+        {% include "gio/gio-main.njk" %}
       </div>
-
-      {% block rightContent %}
-        <div class="col-sm-12 col-md-4 blog-sidebar">
-          {% include "gio/gio-bios.njk" %}
-          {% include "gio/gis-community-meeting.njk" %}
-        </div>
-      {% endblock %}
+      <div class="col-sm-12 col-md-5 blog-sidebar">
+        {% include "gio/gio-bios.njk" %}
+        {% include "gio/gis-community-meeting.njk" %}
+      </div>
     </div>
-  </section>
+  </div>
+  {% include "gio/gio-reports.njk" %}
 
-{% endblock %}
-
-{% block contentsTwo %}
 {% endblock %}
