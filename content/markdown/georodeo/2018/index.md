@@ -43,9 +43,9 @@ Cristy Burch, Regional GIS Specialist, <a href="https://tpwd.texas.gov/">Texas P
 
 Cristy is a Regional GIS Specialist for Texas Parks and Wildlife. Cristy programmed an automated python routine which generates a weekly report on data collected statewide regarding Chronic Wasting Disease (CWD).
 
-<a href="https://s3.amazonaws.com/tnris-public-data/georodeo/burch/ArcPy_Pandas.pdf">Presentation Slides PDF: ArcPy Pandas</a>
+<a href="https://tnris-org-static.s3.amazonaws.com/documents/birch_ArcPy_Pandas.pdf">Presentation Slides PDF: ArcPy Pandas</a>
 <br />
-<a href="https://s3.amazonaws.com/tnris-public-data/georodeo/burch/Weekly_report.pdf">Presentation Slides PDF: Example Weekly Report</a>
+<a href="https://tnris-org-static.s3.amazonaws.com/documents/birch_Weekly_report.pdf">Presentation Slides PDF: Example Weekly Report</a>
 
 *****
 
@@ -70,7 +70,7 @@ Michael Potts, Geodatabase Administrator, <a href="https://tpwd.texas.gov/state-
 
 Michael Potts earned an MS in Geography from Texas A&amp;M University and interned for both Washington College and the National Park Service. Casey Trees hired him as a GIS Specialist in Washington DC, where he worked for 5 years. He has 10 years of experience in Python and has taken programming classes through TNRIS.  He also works in SQL, HTML, and JavaScript. Currently, he serves as Geodatabase Administrator for Texas State Parks in Austin.
 
-<a href="https://s3.amazonaws.com/tnris-public-data/georodeo/potts-georodeo-20180514.pdf">Presentation Slides PDF: Automating Enterprise Geodatabase Maintenance</a>
+<a href="https://tnris-org-static.s3.amazonaws.com/documents/potts-georodeo-20180514.pdf">Presentation Slides PDF: Automating Enterprise Geodatabase Maintenance</a>
 
 ****
 
@@ -109,7 +109,7 @@ Todd Smith, Product Manager, <a href="https://cesiumjs.org/">Cesium</a></h3>
 
 Todd has been with the team from the beginning. While he works out of the Exton, PA office, he spends lots of time on the road, interfacing between the Cesium development team and the user community and forging partnerships. As the original Cesium ion power user, he has driven many of the improvements to ion. Todd is a Penn State GIS graduate and has been in the web mapping world for over 15 years.
 
-<a href="https://s3.amazonaws.com/tnris-public-data/georodeo/CesiumOverview.pdf">Presentation Slides PDF: Cesium Ion</a>
+<a href="https://tnris-org-static.s3.amazonaws.com/documents/CesiumOverview.pdf">Presentation Slides PDF: Cesium Ion</a>
 
 ******
 
@@ -134,7 +134,7 @@ Ibrahim Demir, Assistant Professor,<a href="https://uiowa.edu/">University of Io
 
 Ibrahim Demir is an assistant research professor at the University of Iowa. His research focuses on hydroinformatics, environmental information systems, scientific visualization, big data analytics, intelligent systems, and information communication. He has led the design and development of many research and operational cyber systems including Iowa Flood Information System, Iowa Water Quality Information System, NASA IFloodS Information Systems, and Iowa Watershed Approach Information System.
 
-<a href="https://s3.amazonaws.com/tnris-public-data/georodeo/Demir_Talk.pdf">Presentation Slides PDF: Disaster Communication Using Intelligent Systems</a>
+<a href="https://tnris-org-static.s3.amazonaws.com/documents/Demir_Talk.pdf">Presentation Slides PDF: Disaster Communication Using Intelligent Systems</a>
 
 ****
 
