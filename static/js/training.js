@@ -45,35 +45,29 @@ function retrieveTraining(queryField, queryValue) {
       var today = d1[3]+(monthsArray.indexOf(d1[1])+1)+d1[2];
       var end = t.fiscal_year+(monthsArray.indexOf(d2[1])+1)+d2[2];
       // use today date compared to end date and registration_open status to determine button used in training record
-      // if registration is open and today is prior to the training end date
-      if (t.registration_open && (today < end)) {
-        // set to active enabled register button with proper link to external registration page
-        status = `<a href="${t.training_link}" class="btn btn-success btn-sm">
-                    <i class="glyphicon glyphicon-new-window"></i> Register
-                  </a>`;
-      }
-      else if (t.registration_open && (today >= end)) {
-        // set to disabled close/remove button if for some reason registration is set to True for a
-        // training record that has past
-        status = `<a href="#" class="btn btn-danger btn-sm disabled">
-                    <i class="glyphicon glyphicon-remove"></i> Closed
-                  </a>`;
-      }
-      else if (!t.registration_open) {
-        // if registration is closed and today is prior to training end date
+      // NOTE: this is really meant to catch any courses that haven't been updated properly in the api, so the user doesn't
+      // see innaccurate information on the education page.
+      if (t.registration_open) {
+        // if registration is open and today is prior to the training end date
         if (today < end) {
-          // set to disabled register icon button - could be set to 'pending' or similar if needed
-          status = `<a href="#" class="btn btn-default btn-sm disabled">
+          // set to active enabled register button with proper link to external registration page
+          status = `<a href="${t.training_link}" class="btn btn-success btn-sm">
                       <i class="glyphicon glyphicon-new-window"></i> Register
                     </a>`;
         }
-        // if registration is closed and today is equal to or past the training end date
         else if (today >= end) {
-          // set to disabled close/remove icon button
+          // set to disabled close/remove button if for some reason registration is set to True for a
+          // training record that has past
           status = `<a href="#" class="btn btn-danger btn-sm disabled">
                       <i class="glyphicon glyphicon-remove"></i> Closed
                     </a>`;
         }
+      }
+      else if (!t.registration_open) {
+        // if registration is closed, always set to close/remove icon button
+        status = `<a href="#" class="btn btn-danger btn-sm disabled">
+                    <i class="glyphicon glyphicon-remove"></i> Closed
+                  </a>`;
       }
       // END - date time work to determine register button status
       ////////////////////////////////////////////////
