@@ -5,7 +5,7 @@ function getIndexes() {
 	function getter (url) {
 		$.get(url, function( data ) {
 			data.results.forEach(function(c) {
-				if (c.scanned_index_ls4_links !== "") {
+				if (c.scanned_index_ls4_links && c.scanned_index_ls4_links !== "") {
 					var linkList = JSON.parse("[" + c.scanned_index_ls4_links + "]");
 					linkList.forEach(function(l) {
 						l.county = c.counties;
