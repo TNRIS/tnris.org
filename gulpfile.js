@@ -231,7 +231,7 @@ gulp.task('dist-metal', function () {
                                   "henry.jpg"
                                 ];
                                 var i =a[Math.floor(Math.random()*a.length)];
-                                document.getElementById("fourohfour").src="https://tnris-org-static.s3.amazonaws.com/images/"+i;
+                                document.getElementById("fourohfour").src="https://cdn.tnris.org/images/"+i;
                               </script>`
             );
           }

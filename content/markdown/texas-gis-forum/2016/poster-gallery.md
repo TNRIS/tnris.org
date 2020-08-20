@@ -1,9 +1,9 @@
 ---
 title: "Forum Poster Gallery & Contest"
 layout: events/texas-gis-forum/2016/poster-gallery.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/2016_forum_front_mock.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/montage.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/montagesm.jpg
+mainimage: https://cdn.tnris.org/images/2016_forum_front_mock.jpg
+mainimagesm: https://cdn.tnris.org/images/montage.jpg
+mainimagexs: https://cdn.tnris.org/images/montagesm.jpg
 abstract: As technology moves forward, maps are still at the heart of the GIS field. The poster gallery showcases ongoing cartographic innovation in the community.
 intro: true
 bodyClass: poster-gallery

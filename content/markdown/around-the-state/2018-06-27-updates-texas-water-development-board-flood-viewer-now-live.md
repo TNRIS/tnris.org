@@ -2,8 +2,8 @@
 layout: aroundthestate.njk
 title: "Updates to the Texas Water Development Board Flood Viewer Now Live"
 author: TNRIS IS
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/flood_viewer_screenshot.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/flood_viewer_screenshot_th.jpg
+mainimage: https://cdn.tnris.org/images/flood_viewer_screenshot.jpg
+thumbnail: https://cdn.tnris.org/images/flood_viewer_screenshot_th.jpg
 thumbalt: Flood viewer Screenshot
 abstract:
     The Texas Water Development Board (TWDB) recently released updates to the TWDB Flood Viewer with contributions from the TNRIS development team.

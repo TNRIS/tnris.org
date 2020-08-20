@@ -2,12 +2,12 @@
 title: Rob Aanstoos – Thank you for an amazing 35 years!
 layout: aroundthestate.njk
 author: Richard Wade, TNRIS Director/GIO
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/rob-aanstoos-th.jpg
+thumbnail: https://cdn.tnris.org/images/rob-aanstoos-th.jpg
 thumbalt: A headshot of Rob Aanstoos
 abstract:
     TNRIS had the chance to talk to Rob Aanstoos, a key figure in Texas GIS, on the eve of his retirement from 35 years of service to the state.
 ---
-<img class="pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/rob-aanstoos-th.jpg">
+<img class="pull-left" src="https://cdn.tnris.org/images/rob-aanstoos-th.jpg">
 <p class="lead">Every day, people retire from their jobs and go off quietly to enjoy free time with their family and pursue the interests they love. For the colleagues left behind, we simply pick up where they left off without too much fanfare. But every so often, a key player retires who has made a big difference and impact in your industry.</p>
 
 This is exactly the case with Mr. Rob Aanstoos. Rob is officially retiring at the end of February from Texas Department of Information Resources (DIR) where he has worked in the Technology Planning, Policy and Governance section. Rob has been involved with GIS since the earliest days at the State.  After 35 years, it will be difficult to see him go.
@@ -21,7 +21,7 @@ TNRIS had the opportunity to interview Rob recently about his past 35 years and 
 **TNRIS: Where did you grow up?**
 
 Rob: I was born and raised at Lat.30.576546, Lon -97.430609, better known as Taylor, Williamson County, Texas.
-<img alt="A young Rob Aanstoos from 1980 sits on a chair" class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/1980_prints_023.jpg">
+<img alt="A young Rob Aanstoos from 1980 sits on a chair" class="img-responsive" src="https://cdn.tnris.org/images/1980_prints_023.jpg">
 
 **T: Where did you get your education?**
 
@@ -35,7 +35,7 @@ R: My physics specialty was optical properties of solids. Plus, I was fascinated
 
 R: I started at TNRIS in 1979 and continued learning and practicing GIS in the 80's and 90's at the Railroad Commission and then the Water Commission (which became TNRCC, which became TCET:. More recently, I accepted a GIS coordination role at DIR, which inevitably led to a diminution of actually practicing GIS. By now, my GIS chops are more than a bit rusty. Anyone looking for an AML programmer?
 
-<img class="img-responsive" alt="A picture from the 1980s, Rob is marking a plotted map and referencing an aerial photo" src="https://tnris-org-static.s3.amazonaws.com/images/rob_2.jpg">
+<img class="img-responsive" alt="A picture from the 1980s, Rob is marking a plotted map and referencing an aerial photo" src="https://cdn.tnris.org/images/rob_2.jpg">
 
 **T: What influences did you have that shaped the person you are today?**
 
@@ -76,6 +76,6 @@ R: A lot of home projects, some learning, more time with my wife, some travel, m
 *Rob, from all your friends in the GIS community, we wish you all the best and we hope that our actions moving forward will make you proud.*
 
 <figure>
-  <img class="img-responsive" alt="Rob Today, along with colleagues past and present from TNRIS" src="https://tnris-org-static.s3.amazonaws.com/images/tnris_rob.jpg">
+  <img class="img-responsive" alt="Rob Today, along with colleagues past and present from TNRIS" src="https://cdn.tnris.org/images/tnris_rob.jpg">
   <figcaption><em><strong>TNRIS Past and Present from Left to Right</strong>: Hugh Bender (Former Director), Lou Falconieri (Former Aerial Photo Manager), Dr. Charles Palmer (Former Director), Charlotte Aanstoos (Former Data Specialist), Rob Aanstoos (Former GIS/Remote Sensing Specialist), Richard Wade (Current Director/GIO), Felicia Retiz (Deputy GIO), Brent Porter (Former Applications Developer)</em></figcaption>
 </figure>

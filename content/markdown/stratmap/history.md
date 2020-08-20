@@ -1,7 +1,7 @@
 ---
 title: History
 layout: stratmap/main.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/stratmap_website_banner_new.jpg
+mainimage: https://cdn.tnris.org/images/stratmap_website_banner_new.jpg
 abstract: StratMap History
 ---
 

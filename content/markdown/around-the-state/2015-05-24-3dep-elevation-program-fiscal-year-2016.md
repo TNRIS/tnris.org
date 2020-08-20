@@ -2,10 +2,10 @@
 title: "3D Elevation Program (3DEP) for Fiscal Year 2016"
 layout: aroundthestate.njk
 author: Joey Thomas, StratMap
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/3dep_main.jpg
+mainimage: https://cdn.tnris.org/images/3dep_main.jpg
 mainimagealt: Desired areas for 2016 3DEP acquisition
 mainimagecaption: Areas of Interest for 2016 3DEP acquisition
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/3dep_th.jpg
+thumbnail: https://cdn.tnris.org/images/3dep_th.jpg
 thumbalt: A thumbnail for the 3dep announcement
 abstract:
    The USGS is entering the 2nd year of its 3-D Elevation Program (3DEP) and is accepting proposals for LiDAR acquisitions for Fiscal Year 2016.

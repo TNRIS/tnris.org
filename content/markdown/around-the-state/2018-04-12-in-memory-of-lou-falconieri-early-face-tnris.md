@@ -2,9 +2,9 @@
 title: In Memory of Lou Falconieri, the Early 'Face of TNRIS'
 layout: aroundthestate.njk
 author: Rob Aanstoos & Charles Palmer
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/lou_files.jpg
+mainimage: https://cdn.tnris.org/images/lou_files.jpg
 mainimagecaption:  Lou had the uncanny ability to go to the exact canister of NASA film or the file drawer containing the needed imagery.
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/lou_memory_th.jpg
+thumbnail: https://cdn.tnris.org/images/lou_memory_th.jpg
 thumbalt: In memory of Lou Faclonieri, the Early 'Face of TNRIS'
 abstract:
    Lou Falconieri, a legend of Texas GIS and key figure in TNRIS's history, recently passed. We offer our humble remembrance to recognize his contributions to our community.
@@ -18,5 +18,5 @@ He will be remembered by hundreds of TNRIS users for his generosity and professi
 
 <p class="lead">Obituary: <a href="https://www.dignitymemorial.com/obituaries/austin-tx/louis-falconieri-7810317">https://www.dignitymemorial.com/obituaries/austin-tx/louis-falconieri-7810317</a></p>
 
-<img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/lou_memory.jpg" alt="Lou poses for photo in TNRIS map room">
+<img class="img-responsive" src="https://cdn.tnris.org/images/lou_memory.jpg" alt="Lou poses for photo in TNRIS map room">
 

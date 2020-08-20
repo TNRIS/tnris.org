@@ -1,7 +1,7 @@
 ---
 title: Teacher Resources (K-12, College)
 layout: education/teachers.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
+mainimage: https://cdn.tnris.org/images/rovers1.jpg
 ---
 
 <div class="row">
@@ -92,7 +92,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
   <h2 style="margin-top: 0;">Other Agency Resources</h2>
     <div class="resources-highlight-box">
       <a href="https://www.twdb.texas.gov/conservation/education/kids/index.asp">
-      <img class="img-responsive img-rounded" alt="highlight of TWDB kids page" src="https://tnris-org-static.s3.amazonaws.com/images/twdb-kids-highlight.jpg">
+      <img class="img-responsive img-rounded" alt="highlight of TWDB kids page" src="https://cdn.tnris.org/images/twdb-kids-highlight.jpg">
       <div class="resources-highlight-text-container">
         <h3>TWDB Kids</h3>
         <p class="hidden-md">The TWDB Kids Web site serves as the gateway to the agency's K-12 conservation education resources.</p>
@@ -101,7 +101,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
     </div>
     <div class="resources-highlight-box">
     <a href="https://www.usgs.gov/science-support/osqi/yes/resources-teachers">
-      <img class="img-responsive img-rounded" alt="A USGS staff member shows kids a map" src="https://tnris-org-static.s3.amazonaws.com/images/usgs-resources-highlight.jpg">
+      <img class="img-responsive img-rounded" alt="A USGS staff member shows kids a map" src="https://cdn.tnris.org/images/usgs-resources-highlight.jpg">
       <div class="resources-highlight-text-container">
         <h3>USGS Teacher Resources</h3>
         <p class="hidden-md">Tap into USGS lesson plans and activities, maps, podcasts, online lectures, videos and animations, and much more.</p>
@@ -118,10 +118,10 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
 <h2>Geographic Data</h2>
 
 <h3>DataHub</h3>
-<img style="width: 50%" class="center-block" src="https://tnris-org-static.s3.amazonaws.com/images/datahub_frontpage_icon.jpg" alt="Icon for TNRIS DataHub">
+<img style="width: 50%" class="center-block" src="https://cdn.tnris.org/images/datahub_frontpage_icon.jpg" alt="Icon for TNRIS DataHub">
 <p>The DataHub allows users to browse, download, order and inquire about digital geographic data used for analysis or to make maps.</p>
 <p>
-<a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
 </p>
 </div>
 <div class="col-sm-4 education-divider">
@@ -129,7 +129,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
 <h2>Photo Archive Collection</h2>
 
 <h3>Historical Imagery Archive</h3>
-<img class="img-responsive img-rounded" src="https://tnris-org-static.s3.amazonaws.com/images/historicphotocatalog.jpg" alt="Historic Imagery in filing cabinet">
+<img class="img-responsive img-rounded" src="https://cdn.tnris.org/images/historicphotocatalog.jpg" alt="Historic Imagery in filing cabinet">
 <p>TNRIS maintains over 1 million frames of photos covering all parts of Texas from dates as far back as the 1920’s.
 <p class="lead">
 <strong>Learn more on our <a href="/research-distribution-center/historical-imagery-archive">Historical Imagery Archive page</a></strong>.
@@ -159,7 +159,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/rovers1.jpg
 
 ## TNRIS Tours
 
-<img style="width: 50%;" class="pull-right img-rounded" src="https://tnris-org-static.s3.amazonaws.com/images/rovers2.jpg">
+<img style="width: 50%;" class="pull-right img-rounded" src="https://cdn.tnris.org/images/rovers2.jpg">
 <div class="alert alert-warning">
 <p class="lead"><strong>Tours are unavailable until measures in response to the COVID-19 outbreak have been lifted. We apologize for the inconvenience.</strong></p>
 </div>

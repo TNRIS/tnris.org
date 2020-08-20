@@ -1,7 +1,7 @@
 ---
 title: Orthoimagery
 layout: stratmap/main.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/orthoreview_main.jpg
+mainimage: https://cdn.tnris.org/images/orthoreview_main.jpg
 ---
 <div class="container">
   <div class="row">
@@ -12,9 +12,9 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/orthoreview_main.jpg
     </div>
     <div class="col-md-4">
       <h3>Orthoimagery Specifications</h3>
-      <a class="btn btn-lg btn-success" href="https://tnris-org-static.s3.amazonaws.com/documents/tx_orthoimagery_sow_v9.pdf"><i class="glyphicon glyphicon-document"></i> Download Orthoimagery Specifications</a>
+      <a class="btn btn-lg btn-success" href="https://cdn.tnris.org/documents/tx_orthoimagery_sow_v9.pdf"><i class="glyphicon glyphicon-document"></i> Download Orthoimagery Specifications</a>
       <h3>Download Orthoimagery</h3>
-      <a class="btn btn-lg btn-tnris" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+      <a class="btn btn-lg btn-tnris" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
     </div>
   </div>
 </div>

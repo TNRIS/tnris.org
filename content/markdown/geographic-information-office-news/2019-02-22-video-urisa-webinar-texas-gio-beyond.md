@@ -2,7 +2,7 @@
 layout: gio-news.njk
 title: "Video: URISA Webinar - Texas GIO and Beyond"
 author: GIO
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/txgioandbeyond_th.jpg
+thumbnail: https://cdn.tnris.org/images/txgioandbeyond_th.jpg
 abstract:
     TNRIS Deputy GIO, Felicia Retiz, along with StratMap staff, presented as part of URISA Texas's Online Speaker Series.
 tags: GIO, Data Sharing, GIS, Geospatial

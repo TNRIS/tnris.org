@@ -2,9 +2,9 @@
 layout: events/texas-gis-forum/2017/main.njk
 title: Sponsors & Exhibitors
 subtitle: Texas GIS Forum | October 23-27, 2017, Austin, Texas
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/ourpastinspires-banner-main.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/ourpastinspires-banner-main-sm.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/ourpastinspires-banner-main-sm.jpg
+mainimage: https://cdn.tnris.org/images/ourpastinspires-banner-main.jpg
+mainimagesm: https://cdn.tnris.org/images/ourpastinspires-banner-main-sm.jpg
+mainimagexs: https://cdn.tnris.org/images/ourpastinspires-banner-main-sm.jpg
 intro: true
 sidebar: sponsors
 button: sponsors
@@ -115,7 +115,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 **Note:** Companies do not need to be a selected sponsor level (Platinum, Gold, or Silver) in order to sponsor any of the options below. Sponsoring an option below by itself does not qualify you for a designated sponsor level. Platinum, Gold, and Silver level sponsors can purchase the additional options below. 
 
 ### Sponsor a Breakfast
-<p><img class="img-responsive pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/breakfast.jpg">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
+<p><img class="img-responsive pull-right" src="https://cdn.tnris.org/images/breakfast.jpg">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
 
 - Wednesday - $750
 - Thursday - $750
@@ -124,7 +124,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 ****
 
 ### Sponsor a Lunch
-<p><img class="img-responsive pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/lunch.jpg">During lunch, sponsors will be recognized with prominently displayed posters. Sponsors have the opportunity to place give-a-way items on the lunch tables.</p>
+<p><img class="img-responsive pull-right" src="https://cdn.tnris.org/images/lunch.jpg">During lunch, sponsors will be recognized with prominently displayed posters. Sponsors have the opportunity to place give-a-way items on the lunch tables.</p>
 
 - ~~Wednesday - $750~~ Already Claimed
 - ~~Thursday - $750~~ Already Claimed
@@ -133,7 +133,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 
 ### Sponsor a Coffee Break
 
-<p><img class="img-responsive pull-right alacarte" src="https://tnris-org-static.s3.amazonaws.com/images/coffee.jpg"> During the coffee breaks, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
+<p><img class="img-responsive pull-right alacarte" src="https://cdn.tnris.org/images/coffee.jpg"> During the coffee breaks, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
 
 - Wednesday AM - $500
 - Wednesday PM - $500
@@ -146,21 +146,21 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 
 ### ~~Name Tag Lanyards~~ - $500 (Already Claimed)
 
-<p><img class="img-responsive pull-right alacarte" src="https://tnris-org-static.s3.amazonaws.com/images/lanyard.png">Place your company logo on name tag holders that will be worn by each conference attendee for the duration of the conference. The GIS Forum conference management will work with the sponsor to select the badges. The GIS Forum conference committee will produce the badges and will be responsible for the purchase of the badges.</p>
+<p><img class="img-responsive pull-right alacarte" src="https://cdn.tnris.org/images/lanyard.png">Place your company logo on name tag holders that will be worn by each conference attendee for the duration of the conference. The GIS Forum conference management will work with the sponsor to select the badges. The GIS Forum conference committee will produce the badges and will be responsible for the purchase of the badges.</p>
 
 ****
 
 
 ### ~~Pens Sponsor~~ - $500 (Already Claimed)
 
-<p><img class="img-responsive pull-right alacarte" src="https://tnris-org-static.s3.amazonaws.com/images/pen-promo.png">Each attendee will be given a pen in their conference bag at registration.  Your company logo will be printed on the pens in addition to the Forum conference graphic. The GIS Forum conference management will work with the sponsor to select the pens.  The GIS Forum conference committee will produce the pens and will be responsible for the purchase of the pens.</p>
+<p><img class="img-responsive pull-right alacarte" src="https://cdn.tnris.org/images/pen-promo.png">Each attendee will be given a pen in their conference bag at registration.  Your company logo will be printed on the pens in addition to the Forum conference graphic. The GIS Forum conference management will work with the sponsor to select the pens.  The GIS Forum conference committee will produce the pens and will be responsible for the purchase of the pens.</p>
 
 ****
 
 
 <p class="lead"><a class="btn btn-lg btn-periwinkle pull-leftg" href="{{buttonurl}}">
    <i class="glyphicon glyphicon-pencil"></i> {{buttontext}}
-</a> After you've looked over the <a href="https://tnris-org-static.s3.amazonaws.com/documents/2017-sponsor-rules-and-regulations.pdf"><strong>Sponsor Rules and Regulations</strong></a>, visit the link  to register as a sponsor.</p>
+</a> After you've looked over the <a href="https://cdn.tnris.org/documents/2017-sponsor-rules-and-regulations.pdf"><strong>Sponsor Rules and Regulations</strong></a>, visit the link  to register as a sponsor.</p>
 
 
 

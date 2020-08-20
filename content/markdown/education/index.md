@@ -1,8 +1,8 @@
 ---
 title: Education and Training
 layout: education/main.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/keep_pace_banner.jpg
-smallimage: https://tnris-org-static.s3.amazonaws.com/images/training_keep_pace_md.jpg
+mainimage: https://cdn.tnris.org/images/keep_pace_banner.jpg
+smallimage: https://cdn.tnris.org/images/training_keep_pace_md.jpg
 abstract: Technical training courses bring the latest GIS technologies and skills to a range of professional skill levels in the workplace.
 ---
 

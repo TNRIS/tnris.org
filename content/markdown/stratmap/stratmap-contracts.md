@@ -1,7 +1,7 @@
 ---
 title: StratMap Contracts
 layout: stratmap/main.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/stratmap_website_banner_notext.jpg
+mainimage: https://cdn.tnris.org/images/stratmap_website_banner_notext.jpg
 ---
 
 <section class="container">
@@ -21,7 +21,7 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/stratmap_website_ban
   <div class="well well-md">
     <div class="row">
       <div class="col-md-12">
-        <img style="max-width: 150px;" src="https://tnris-org-static.s3.amazonaws.com/images/dir_logo_md.png" alt="Texas Department of Information Resources">
+        <img style="max-width: 150px;" src="https://cdn.tnris.org/images/dir_logo_md.png" alt="Texas Department of Information Resources">
         <h3>DIR-CPO-TMP-444</h3>
         <p>DIR's 2020 GIS contract initiative is listed as:</p>
             <h3>Type of Service/Products</h3>

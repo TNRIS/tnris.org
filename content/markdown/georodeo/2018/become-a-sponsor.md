@@ -1,8 +1,8 @@
 ---
 layout: events/georodeo-2018/georodeo-sponsors.njk
 title: Become a GeoRodeo sponsor
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/maythefourth_webbanner.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/maythefourthfront_sm.jpg
+mainimage: https://cdn.tnris.org/images/maythefourth_webbanner.jpg
+mainimagesm: https://cdn.tnris.org/images/maythefourthfront_sm.jpg
 abstract: Help Sponsor the GeoRodeo
 ---
 

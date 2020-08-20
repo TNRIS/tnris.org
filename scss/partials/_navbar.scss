@@ -73,7 +73,7 @@
 
   &.data-hub-logo {
     @media (min-width: $screen-md) {
-      background: url('https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png') 0 13px no-repeat;
+      background: url('https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png') 0 13px no-repeat;
       background-size: 23px;
       padding-left: 28px;
     }
@@ -85,7 +85,7 @@
 
   &.gio {
     @media (min-width: $screen-md) {
-      background: url('https://tnris-org-static.s3.amazonaws.com/images/tx_icon.svg') 0 13px no-repeat;
+      background: url('https://cdn.tnris.org/images/tx_icon.svg') 0 13px no-repeat;
       background-size: 23px;
       padding-left: 28px;
 
@@ -153,7 +153,7 @@ a.navbar-twdb {
 }
 
 .navbar-brand {
-  background: url('https://tnris-org-static.s3.amazonaws.com/images/tnris_logo.svg') 0 0 no-repeat;
+  background: url('https://cdn.tnris.org/images/tnris_logo.svg') 0 0 no-repeat;
   height: 36px;
   margin-right: 10px;
   margin-top: 5px;

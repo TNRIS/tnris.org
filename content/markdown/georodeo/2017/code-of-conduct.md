@@ -1,7 +1,7 @@
 ---
 layout: events/georodeo-2017/georodeo-sub.njk
 title: Conference Code of Conduct
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/lifeontheopencode_1.jpg
+mainimage: https://cdn.tnris.org/images/lifeontheopencode_1.jpg
 abstract: All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensure a safe environment for everybody.
 ---
 

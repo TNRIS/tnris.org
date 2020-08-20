@@ -226,7 +226,7 @@ var Clipboard = require('clipboard/dist/clipboard.min');
   var headshotOrig;
   $(".2018-georodeo-speaker").hover(function(){
       headshotOrig = $(this).attr("src");
-      $(this).attr("src", "https://tnris-org-static.s3.amazonaws.com/images/starwars-developer.jpg");
+      $(this).attr("src", "https://cdn.tnris.org/images/starwars-developer.jpg");
   }, function(){
       $(this).attr("src", headshotOrig);
   })

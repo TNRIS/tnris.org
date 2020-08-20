@@ -1,8 +1,8 @@
 ---
 layout: events/georodeo-2018/georodeo-sub.njk
 title: Register for the Rodeo
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/maythefourth_webbanner.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/maythefourthfront_sm.jpg
+mainimage: https://cdn.tnris.org/images/maythefourth_webbanner.jpg
+mainimagesm: https://cdn.tnris.org/images/maythefourthfront_sm.jpg
 abstract: Fill out the form below to register for the 2018 GeoRodeo. Registration is free and open to all. We look forward to seeing you at the GeoRodeo!
 ---
 
@@ -10,6 +10,6 @@ abstract: Fill out the form below to register for the 2018 GeoRodeo. Registratio
 
 <h3>Registration is now closed. But don't worry, if you'd still like to attend come on by...</h3>
 <br>
-<img src='https://tnris-org-static.s3.amazonaws.com/images/walkens.jpg' style='width:100%' border='0' alt='walkens welcome'>
+<img src='https://cdn.tnris.org/images/walkens.jpg' style='width:100%' border='0' alt='walkens welcome'>
 
 <!-- <div>{% include "events/georodeo-2018/georodeo-registration.njk" %}</div> -->

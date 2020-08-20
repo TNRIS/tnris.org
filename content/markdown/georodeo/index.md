@@ -1,8 +1,8 @@
 ---
 layout: events/georodeo-2019/georodeo-2019.njk
 title: 2019 GeoRodeo | Austin, Texas
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/vaporwave_banner.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/vaporwave_banner.jpg
+mainimage: https://cdn.tnris.org/images/vaporwave_banner.jpg
+mainimagesm: https://cdn.tnris.org/images/vaporwave_banner.jpg
 abstract: Annual Texas GeoDeveloper Round-Up, May 16 & 17, Austin, Texas
 ---
 
@@ -19,7 +19,7 @@ abstract: Annual Texas GeoDeveloper Round-Up, May 16 & 17, Austin, Texas
 ## 8:00AM to 9:00AM
 ### Registration – Breakfast – Social
 
-Sponsored by <a href="http://www.esri.com"><img src="https://tnris-org-static.s3.amazonaws.com/images/esri_web_md.png" alt="ESRI logo and link to website"></a>
+Sponsored by <a href="http://www.esri.com"><img src="https://cdn.tnris.org/images/esri_web_md.png" alt="ESRI logo and link to website"></a>
 
 ****
 
@@ -33,7 +33,7 @@ Sponsored by <a href="http://www.esri.com"><img src="https://tnris-org-static.s3
 <h3 id="mcgranaghan-2019">Patrick McGranaghan, Reddit Map Forum Creator</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://tnris-org-static.s3.amazonaws.com/images/pmcgranaghan.jpeg" alt="Head shot of Patrick McGranaghan">
+  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/pmcgranaghan.jpeg" alt="Head shot of Patrick McGranaghan">
 </h4>
 
 Denver, Colorado based geospatial geek. By day Patrick is a survey drafter for an engineering firm. After work, Patrick runs a popular Reddit map forum dedicated to the appreciation of beautiful maps and geographic data analysis. Patrick also contributes to OpenStreetMap humanitarian efforts in Denver and around the world. Patrick originally started land surveying in Austin, Texas.
@@ -45,7 +45,7 @@ Denver, Colorado based geospatial geek. By day Patrick is a survey drafter for a
 <h3 id="chapkowski-2019">Andrew Chapkowski, ESRI Software Developer</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://tnris-org-static.s3.amazonaws.com/images/achapkowski.jpg" alt="Head shot of Andrew Chapkowski">
+  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/achapkowski.jpg" alt="Head shot of Andrew Chapkowski">
   Demystifying Artificial Intelligence in Geo
 </h4>
 
@@ -58,7 +58,7 @@ Andrew Chapkowski is a software developer and Pythonista. He has over 15 years o
 <h3 id="shensky-2019">Michael Shensky, University of Texas at Austin (UT Libraries) – GIS and Geospatial Data Coordinator</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://tnris-org-static.s3.amazonaws.com/images/mshensky.jpg" alt="Head shot of Michael Shensky">
+  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/mshensky.jpg" alt="Head shot of Michael Shensky">
   A Scripted Approach for Normalizing Geospatial Data in a Relational Database and Assessing Alternative NoSQL Database Storage Options
 </h4>
 
@@ -78,7 +78,7 @@ Michael Shensky is the GIS & Geospatial Data Coordinator for the UT Libraries at
 <h3 id="pearson-2019">Daniel K. Pearson, US Geological Survey - Geospatial Science + Cyber Innovation Branch Chief</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://tnris-org-static.s3.amazonaws.com/images/dpearson.jpg" alt="Head shot of Daniel Pearson">
+  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/dpearson.jpg" alt="Head shot of Daniel Pearson">
   Thoughtful (and Data-Driven) Approaches to UI Design: Motivating Citizens to #BeWaterAware Before, During and After Storms
 </h4>
 
@@ -92,7 +92,7 @@ Daniel K. Pearson has been with the USGS since 2002. He currently serves as the 
 <h3 id="bell-sepulveda-2019">Laura Bell Sepulveda, Texas Water Development Board</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://tnris-org-static.s3.amazonaws.com/images/lbell.jpg" alt="Head shot of Laura Bell">
+  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/lbell.jpg" alt="Head shot of Laura Bell">
   Test Before you Build: How to use prototypes and think aloud user testing to build better products
 </h4>
 
@@ -115,7 +115,7 @@ Lunch will be provided to __Registered Participants__. You must have completed a
 <h3 id="carmona-2019">Jordan Carmona, City of McKinney | GIS Specialist</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://tnris-org-static.s3.amazonaws.com/images/jcarmona.jpg" alt="Head shot of Jordan Carmona">
+  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/jcarmona.jpg" alt="Head shot of Jordan Carmona">
   Integrating Google Sheets to an Esri SDE Feature Class
 </h4>
 
@@ -130,7 +130,7 @@ Jordan Carmona leads the geospatial program across four departments at the City 
 <h3 id="dufour-2019">Daniel J. Dufour, CEO of GeoSurge</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://tnris-org-static.s3.amazonaws.com/images/ddufour.jpg" alt="Head shot of Daniel Dufour">
+  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/ddufour.jpg" alt="Head shot of Daniel Dufour">
   Cool Stuff You Can Do with GeoBlaze, a Raster Analysis Engine for JavaScript
 </h4>
 
@@ -143,7 +143,7 @@ Daniel Dufour is passionate about advancing geospatial analysis in JavaScript.  
 <h3 id="drescher-2019">Aubrey Drescher, Texas Water Development Board, Programmer</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://tnris-org-static.s3.amazonaws.com/images/adrescher.jpg" alt="Head shot of Aubrey Drescher">
+  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/adrescher.jpg" alt="Head shot of Aubrey Drescher">
   Transitioning to vector tiles in your web map
 </h4>
 
@@ -163,7 +163,7 @@ Aubrey Drescher has an M.S. in Earth Systems Science from George Mason Universit
 <h3 id="montgomery-2019">Thomas Montgomery, City of Austin, Senior IT Applications Analyst</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://tnris-org-static.s3.amazonaws.com/images/tmontgomery.jpg" alt="Head shot of Thomas Montgomery">
+  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/tmontgomery.jpg" alt="Head shot of Thomas Montgomery">
   Municipal Government and the Internet of Things: Austin's New Smart Fleet
 </h4>
 
@@ -178,7 +178,7 @@ Thomas Montgomery works in Municipal IT where he enjoys learning and talking abo
 <h3 id="booth-2019">Kevin Booth, Texas State University, Graduate Assistant</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://tnris-org-static.s3.amazonaws.com/images/kbooth.jpeg" alt="Head shot of Kevin Booth">
+  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/kbooth.jpeg" alt="Head shot of Kevin Booth">
   Global Economic Analysis on a Budget
 </h4>
 
@@ -213,7 +213,7 @@ Following the presentation schedule, we invite our attendees to walk across the 
 <!-- <h3>Chelsea Goddard, Mapbox, Solutions Engineer</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://tnris-org-static.s3.amazonaws.com/images/cgoddard.jpg" alt="Head shot of Chelsea Goddard">
+  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/cgoddard.jpg" alt="Head shot of Chelsea Goddard">
   Map design: Visualizing large geospatial data with Crowd2Map
 </h4>
 

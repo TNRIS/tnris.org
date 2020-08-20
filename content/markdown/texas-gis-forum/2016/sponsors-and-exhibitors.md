@@ -2,9 +2,9 @@
 layout: events/texas-gis-forum/2016/sub.njk
 title: Sponsors & Exhibitors
 subtitle: Texas GIS Forum | October 24th-27th, 2016
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/2016_forum_front_mock.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/montage.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/montagesm.jpg
+mainimage: https://cdn.tnris.org/images/2016_forum_front_mock.jpg
+mainimagesm: https://cdn.tnris.org/images/montage.jpg
+mainimagexs: https://cdn.tnris.org/images/montagesm.jpg
 bodyClass: forum-sub-2016
 intro: true
 sidebar: sponsors
@@ -110,7 +110,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 
  
 ### Sponsor a Breakfast
-<p><img class="img-responsive pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/breakfast.jpg">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
+<p><img class="img-responsive pull-right" src="https://cdn.tnris.org/images/breakfast.jpg">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
 
 - Wednesday - $750
 - Thursday - $750
@@ -119,7 +119,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 
 ### Sponsor a Coffee Break
 
-<p><img class="img-responsive pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/coffee.jpg"> During the Coffee break, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
+<p><img class="img-responsive pull-right" src="https://cdn.tnris.org/images/coffee.jpg"> During the Coffee break, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
 
 - Wednesday AM - $500
 - Wednesday PM - $500
@@ -129,7 +129,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 ****
  
 ### Sponsor a Lunch
-<p><img class="img-responsive pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/lunch.jpg">During Lunch, sponsors will be recognized with prominently displayed posters. Sponsor has the opportunity to place giveaway items on the lunch tables.</p>
+<p><img class="img-responsive pull-right" src="https://cdn.tnris.org/images/lunch.jpg">During Lunch, sponsors will be recognized with prominently displayed posters. Sponsor has the opportunity to place giveaway items on the lunch tables.</p>
 
 - <s>Wednesday - $750</s> Sold Out
 - <s>Thursday - $750</s> Sold Out
@@ -137,7 +137,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 ****
 
 ### Sponsor a Keynote  
-<p><img class="img-responsive pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/podium.jpg">Keynote sponsor has the opportunity to introduce the speaker.</p>
+<p><img class="img-responsive pull-right" src="https://cdn.tnris.org/images/podium.jpg">Keynote sponsor has the opportunity to introduce the speaker.</p>
 
 - Wednesday - Robert Ballard - $2500
 - Thursday Morning - $1500

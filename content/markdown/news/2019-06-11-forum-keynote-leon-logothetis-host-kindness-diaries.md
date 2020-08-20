@@ -2,8 +2,8 @@
 layout: news-article.njk
 title: "Forum Keynote: Leon Logothetis, Host of Netflix's The Kindness Diaries"
 author: Texas GIS Forum
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/leon_headshot_th.jpg
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/kindnessdiaries.jpg
+thumbnail: https://cdn.tnris.org/images/leon_headshot_th.jpg
+mainimage: https://cdn.tnris.org/images/kindnessdiaries.jpg
 thumbalt: Headshot of Leon Logothetis
 abstract:
     Leon Logothetis hosts Netflix's The Kindness Diaries. He travels the world relying on the kindness of strangers, giving back to unsuspecting good samaritans.

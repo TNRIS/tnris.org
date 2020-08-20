@@ -2,14 +2,14 @@
 title: "Forum Poster Gallery & Contest"
 layout: events/texas-gis-forum/2019/poster-gallery.njk
 subtitle: October 21-25, 2019 | Austin, Texas
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/main_banner_lg.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/enchantedTopo-sm.jpg
+mainimage: https://cdn.tnris.org/images/main_banner_lg.jpg
+mainimagesm: https://cdn.tnris.org/images/enchantedTopo-sm.jpg
 abstract: As technology moves forward, maps are still at the heart of the GIS field. The poster gallery showcases ongoing cartographic innovation in the community.
 intro: true
 sidebar: postersubmission
 ---
 
-<img style="max-width: 50%" class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/forum_2017_12.jpg" alt="Forum Attendees looking at the Poster Gallery"> The purpose of the poster gallery is to promote and recognize the advances of map design, cartography, and GIS. The map gallery is open to all attendees and vendors. Attendees will have the opportunity to vote on each poster based on the following criteria:
+<img style="max-width: 50%" class="pull-right" src="https://cdn.tnris.org/images/forum_2017_12.jpg" alt="Forum Attendees looking at the Poster Gallery"> The purpose of the poster gallery is to promote and recognize the advances of map design, cartography, and GIS. The map gallery is open to all attendees and vendors. Attendees will have the opportunity to vote on each poster based on the following criteria:
 
 - Map design
 - Use of space

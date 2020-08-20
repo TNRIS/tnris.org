@@ -2,8 +2,8 @@
 title: April Training Suspended, Course Providers Still Conducting Online Courses
 author: TNRIS Education
 layout: news-article.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/trainingsuspended2.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/onlinecourses_th.jpg
+mainimage: https://cdn.tnris.org/images/trainingsuspended2.jpg
+thumbnail: https://cdn.tnris.org/images/onlinecourses_th.jpg
 thumbalt: Address Point Data Shapes Texas Graphic
 abstract: TNRIS Training Courses have been suspended until further notice to follow health guidelines. Our valued course providers are still providing online courses to keep your professional development on track.
 ---

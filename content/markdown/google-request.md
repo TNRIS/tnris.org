@@ -1,7 +1,7 @@
 ---
 layout: google-request.njk
 title: Request a Unique Link
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/texas-imagery-service-bg.jpg
+mainimage: https://cdn.tnris.org/images/texas-imagery-service-bg.jpg
 abstract: Request a Unique Link
 ---
 ## Organizational Usage Agreement, Google Imagery License

@@ -1,9 +1,9 @@
 ---
 title: "Forum Poster Gallery & Contest"
 layout: partials/2015-forum/poster.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/2015_forum_banner_lg.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/small-web-banner.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/xs-banner.jpg
+mainimage: https://cdn.tnris.org/images/2015_forum_banner_lg.jpg
+mainimagesm: https://cdn.tnris.org/images/small-web-banner.jpg
+mainimagexs: https://cdn.tnris.org/images/xs-banner.jpg
 abstract: As technology moves forward, maps are still at the heart of the GIS field. The poster gallery showcases ongoing cartographic innovation in the community.
 intro: true
 body_class: poster-gallery
