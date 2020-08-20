@@ -2,8 +2,8 @@
 layout: news-article.njk
 title: "2019 GeoRodeo Wrap-Up, Photos, and Presentations"
 author: TNRIS IS
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/001.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/001_th.jpg
+mainimage: https://cdn.tnris.org/images/001.jpg
+thumbnail: https://cdn.tnris.org/images/001_th.jpg
 thumbalt: 2019 GeoRodeo Recap
 abstract:
     Read our wrap-up from the 2019 GeoRodeo and view photos taken at the event.
@@ -77,80 +77,80 @@ Below are the slides and code demos that presenters have provided us. If we do n
 ## Photo Recap
 
 <div class="row">
-    <a href="https://tnris-org-static.s3.amazonaws.com/images/001.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Attendees arriving to the GeoRodeo held at the Austin Public Library this year">
-        <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/001_th.jpg">
+    <a href="https://cdn.tnris.org/images/001.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Attendees arriving to the GeoRodeo held at the Austin Public Library this year">
+        <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/001_th.jpg">
     </a>
-    <a href="https://tnris-org-static.s3.amazonaws.com/images/002.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Richard Wade, Deputy Executive Administrator of TNRIS, kicks off the event.">
-        <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/002_th.jpg">
+    <a href="https://cdn.tnris.org/images/002.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Richard Wade, Deputy Executive Administrator of TNRIS, kicks off the event.">
+        <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/002_th.jpg">
     </a>
-    <a href="https://tnris-org-static.s3.amazonaws.com/images/003.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Richard Wade Thanks the Sponsors">
-        <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/003_th.jpg">
-    </a>
-</div>
-<div class="row">
-    <a href="https://tnris-org-static.s3.amazonaws.com/images/004.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Patrick McGranaghan talks about his Reddit Map Forum">
-        <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/004_th.jpg">
-    </a>
-    <a href="https://tnris-org-static.s3.amazonaws.com/images/005.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Patrick McGranaghan shows one of his weekly map winners">
-        <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/005_th.jpg">
-    </a>
-    <a href="https://tnris-org-static.s3.amazonaws.com/images/006.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Andrew Chapkowski talks about integrating AI into GeoSpatial Analysis">
-        <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/006_th.jpg">
+    <a href="https://cdn.tnris.org/images/003.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Richard Wade Thanks the Sponsors">
+        <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/003_th.jpg">
     </a>
 </div>
 <div class="row">
-<a href="https://tnris-org-static.s3.amazonaws.com/images/007.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Michael Shensky from UT Austin's Map Library">
-        <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/007_th.jpg">
-</a>
-
-<a href="https://tnris-org-static.s3.amazonaws.com/images/008.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Michael Shensky from UT Austin's Map Library">
-        <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/008_th.jpg">
+    <a href="https://cdn.tnris.org/images/004.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Patrick McGranaghan talks about his Reddit Map Forum">
+        <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/004_th.jpg">
     </a>
-<a href="https://tnris-org-static.s3.amazonaws.com/images/009.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Daniel K. Pearson of the USGS talks about User centered approaches to App design">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/009_th.jpg">
+    <a href="https://cdn.tnris.org/images/005.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Patrick McGranaghan shows one of his weekly map winners">
+        <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/005_th.jpg">
+    </a>
+    <a href="https://cdn.tnris.org/images/006.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Andrew Chapkowski talks about integrating AI into GeoSpatial Analysis">
+        <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/006_th.jpg">
+    </a>
+</div>
+<div class="row">
+<a href="https://cdn.tnris.org/images/007.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Michael Shensky from UT Austin's Map Library">
+        <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/007_th.jpg">
+</a>
+
+<a href="https://cdn.tnris.org/images/008.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Michael Shensky from UT Austin's Map Library">
+        <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/008_th.jpg">
+    </a>
+<a href="https://cdn.tnris.org/images/009.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Daniel K. Pearson of the USGS talks about User centered approaches to App design">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/009_th.jpg">
 </a>
 
 
 </div>
 <div class="row">
-<a href="https://tnris-org-static.s3.amazonaws.com/images/010.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Daniel K. Pearson of the USGS talks about User centered approaches to App design">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/010_th.jpg">
+<a href="https://cdn.tnris.org/images/010.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Daniel K. Pearson of the USGS talks about User centered approaches to App design">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/010_th.jpg">
 </a>
-<a href="https://tnris-org-static.s3.amazonaws.com/images/011.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Laura Bell Sepulveda of TWDB discusses using design prototypes for user testing">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/011_th.jpg">
+<a href="https://cdn.tnris.org/images/011.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Laura Bell Sepulveda of TWDB discusses using design prototypes for user testing">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/011_th.jpg">
 </a>
 
-<a href="https://tnris-org-static.s3.amazonaws.com/images/012.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Laura Bell Sepulveda of TWDB discusses using design prototypes for user testing">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/012_th.jpg">
+<a href="https://cdn.tnris.org/images/012.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Laura Bell Sepulveda of TWDB discusses using design prototypes for user testing">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/012_th.jpg">
 </a>
 
 
 </div>
 
 <div class="row">
-<a href="https://tnris-org-static.s3.amazonaws.com/images/013.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Jordan Carmona from the City of McKinney and his Keyboard handling skills">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/013_th.jpg">
+<a href="https://cdn.tnris.org/images/013.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Jordan Carmona from the City of McKinney and his Keyboard handling skills">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/013_th.jpg">
 </a>
-<a href="https://tnris-org-static.s3.amazonaws.com/images/014.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Daniel J. Dufour, CEO of GeoSurge, interacts with the audience">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/014_th.jpg">
+<a href="https://cdn.tnris.org/images/014.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Daniel J. Dufour, CEO of GeoSurge, interacts with the audience">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/014_th.jpg">
 </a>
 
-<a href="https://tnris-org-static.s3.amazonaws.com/images/015.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Daniel J. Dufour demos some codeThe ">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/015_th.jpg">
+<a href="https://cdn.tnris.org/images/015.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Daniel J. Dufour demos some codeThe ">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/015_th.jpg">
 </a>
 
 </div>
 <div class="row">
-<a href="https://tnris-org-static.s3.amazonaws.com/images/016.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Lightning Talks sign up board">
-<img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/016_th.jpg">
+<a href="https://cdn.tnris.org/images/016.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Lightning Talks sign up board">
+<img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/016_th.jpg">
 </a>
 
-<a href="https://tnris-org-static.s3.amazonaws.com/images/017.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/017_th.jpg">
+<a href="https://cdn.tnris.org/images/017.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/017_th.jpg">
 </a>
 
-<a href="https://tnris-org-static.s3.amazonaws.com/images/018.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Aubrey Drescher of the TWDB discusses transitioning vector tiles to your web map">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/018_th.jpg">
+<a href="https://cdn.tnris.org/images/018.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Aubrey Drescher of the TWDB discusses transitioning vector tiles to your web map">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/018_th.jpg">
 </a>
 
 
@@ -160,68 +160,68 @@ Below are the slides and code demos that presenters have provided us. If we do n
 <div class="row">
 
 
-<a href="https://tnris-org-static.s3.amazonaws.com/images/019.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/019_th.jpg">
+<a href="https://cdn.tnris.org/images/019.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/019_th.jpg">
 </a>
 
 
-<a href="https://tnris-org-static.s3.amazonaws.com/images/020.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/020_th.jpg">
+<a href="https://cdn.tnris.org/images/020.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/020_th.jpg">
 </a>
 
-<a href="https://tnris-org-static.s3.amazonaws.com/images/021.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Thomas Montgomery from the City of Austin discusses how they used GIS to improve Austin's waste management Smart Fleet">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/021_th.jpg">
+<a href="https://cdn.tnris.org/images/021.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Thomas Montgomery from the City of Austin discusses how they used GIS to improve Austin's waste management Smart Fleet">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/021_th.jpg">
 </a>
 
 
-
-</div>
-
-<div class="row">
-
-<a href="https://tnris-org-static.s3.amazonaws.com/images/022.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Sara Safavi from Planet summons GIS sorcery in her lightning talk">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/022_th.jpg">
-</a>
-<a href="https://tnris-org-static.s3.amazonaws.com/images/023.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Mateo Clarke with the City of Austin shows Analysis of dockless vehicles in his Lightning Talk">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/023_th.jpg">
-</a>
-<a href="https://tnris-org-static.s3.amazonaws.com/images/024.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Adam Breznicky of TNRIS plugs the TNRIS DataHub">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/024_th.jpg">
-</a>
 
 </div>
 
 <div class="row">
 
-<a href="https://tnris-org-static.s3.amazonaws.com/images/025.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Richard Wade closes out the presentations">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/025_th.jpg">
+<a href="https://cdn.tnris.org/images/022.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Sara Safavi from Planet summons GIS sorcery in her lightning talk">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/022_th.jpg">
 </a>
-<a href="https://tnris-org-static.s3.amazonaws.com/images/026.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Google hosts the after-event social">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/026_th.jpg">
+<a href="https://cdn.tnris.org/images/023.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Mateo Clarke with the City of Austin shows Analysis of dockless vehicles in his Lightning Talk">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/023_th.jpg">
 </a>
-<a href="https://tnris-org-static.s3.amazonaws.com/images/027.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="The view from the top, overlooking Lady Bird Lake">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/027_th.jpg">
-</a>
-
-</div>
-
-<div class="row">
-
-<a href="https://tnris-org-static.s3.amazonaws.com/images/028.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/028_th.jpg">
-</a>
-<a href="https://tnris-org-static.s3.amazonaws.com/images/029.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/029_th.jpg">
-</a>
-<a href="https://tnris-org-static.s3.amazonaws.com/images/030.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/030_th.jpg">
+<a href="https://cdn.tnris.org/images/024.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Adam Breznicky of TNRIS plugs the TNRIS DataHub">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/024_th.jpg">
 </a>
 
 </div>
 
 <div class="row">
 
-<a href="https://tnris-org-static.s3.amazonaws.com/images/031.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="A view of this year's venue, the Austin Public Libary, from 29 floors up">
-    <img class="thumbnail img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/031_th.jpg">
+<a href="https://cdn.tnris.org/images/025.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Richard Wade closes out the presentations">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/025_th.jpg">
+</a>
+<a href="https://cdn.tnris.org/images/026.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="Google hosts the after-event social">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/026_th.jpg">
+</a>
+<a href="https://cdn.tnris.org/images/027.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="The view from the top, overlooking Lady Bird Lake">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/027_th.jpg">
+</a>
+
+</div>
+
+<div class="row">
+
+<a href="https://cdn.tnris.org/images/028.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/028_th.jpg">
+</a>
+<a href="https://cdn.tnris.org/images/029.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/029_th.jpg">
+</a>
+<a href="https://cdn.tnris.org/images/030.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/030_th.jpg">
+</a>
+
+</div>
+
+<div class="row">
+
+<a href="https://cdn.tnris.org/images/031.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="2019 GeoRodeo Photos" data-footer="A view of this year's venue, the Austin Public Libary, from 29 floors up">
+    <img class="thumbnail img-responsive" src="https://cdn.tnris.org/images/031_th.jpg">
 </a>
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: texas-imagery-service.njk
 title: Texas Imagery Service
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/texas-imagery-service-bg.jpg
+mainimage: https://cdn.tnris.org/images/texas-imagery-service-bg.jpg
 abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, Utilize and Incorporate into the Work you do for the Public.
 ---
 ### General FAQ
@@ -118,7 +118,7 @@ Click on the button for your GIS software to learn how to add the imagery servic
 
 <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" class="btn btn-default btn-lg">ArcMap</a>
 
-<a href="https://tnris-org-static.s3.amazonaws.com/documents/WMS2Pro.pdf" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-"></i>ArcGIS Pro</a>
+<a href="https://cdn.tnris.org/documents/WMS2Pro.pdf" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-"></i>ArcGIS Pro</a>
 
 <a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-default btn-lg">ArcGIS Online</a>
 
@@ -128,7 +128,7 @@ Click on the button for your GIS software to learn how to add the imagery servic
 
 <a href="http://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" class="btn btn-default btn-lg">AutoCAD CIVIL 3D 2013</a>
 
-<a href="https://tnris-org-static.s3.amazonaws.com/documents/MicroStationGoogleWMSDemo.pdf" class="btn btn-default btn-lg">MicroStation</a>
+<a href="https://cdn.tnris.org/documents/MicroStationGoogleWMSDemo.pdf" class="btn btn-default btn-lg">MicroStation</a>
 
 -----
 
@@ -138,13 +138,13 @@ A special thanks to the Texas Department of Transportation (TxDOT) for solving t
 
 Download a slideshow tutorial for this process below:
 
-<a class="btn btn-lg btn-success" href="https://tnris-org-static.s3.amazonaws.com/documents/google-wmts-with-esri-javascript-api.pdf"><i class="glyphicon glyphicon-file"></i> Download Tutorial</a>
+<a class="btn btn-lg btn-success" href="https://cdn.tnris.org/documents/google-wmts-with-esri-javascript-api.pdf"><i class="glyphicon glyphicon-file"></i> Download Tutorial</a>
 
 -----
 
 ## The Texas Imagery Service now contains layers by year. What are these new layers?
 
-<p><figure class="pull-right"><img alt="A view of the layers in ArcMap" src="https://tnris-org-static.s3.amazonaws.com/images/googlelayers_arcmap.jpg">
+<p><figure class="pull-right"><img alt="A view of the layers in ArcMap" src="https://cdn.tnris.org/images/googlelayers_arcmap.jpg">
 <figcaption>A view of the layers in ArcMap</figcaption>
 </figure>There are several layers in the WMTS and WMS Texas Imagery Service. The “Texas” layer contains the most current imagery available for Texas. As new imagery become available for 'block' areas in Texas (Ex. Dallas, Houston, etc), the older imagery are placed into the yearly layers depending on the year the imagery was flown. For example, the Austin block in the ‘texas-2016’ layer shows imagery flown in 2016 because this block was updated with imagery flown in 2017 represented in the ‘Texas’ layer.</p>
 
@@ -205,7 +205,7 @@ The WMS link is compatible in ArcGIS Online.
 If you are adding the **downloaded** imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the “**Apply Gamma Stretch**:” option and to set the “**Stretch**” type to None.
 
 <figure>
-<img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/layer-properties.jpg" alt="Highlighting the properties to change for better display">
+<img class="img-responsive" src="https://cdn.tnris.org/images/layer-properties.jpg" alt="Highlighting the properties to change for better display">
 <figcaption>The Layer properties dialog box on ArcGIS</figcaption>
 </figure>
 

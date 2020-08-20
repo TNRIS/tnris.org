@@ -1,8 +1,8 @@
 ---
 layout: events/georodeo-2018/georodeo-sub.njk
 title: Call for Presentations
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/maythefourth_webbanner.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/maythefourthfront_sm.jpg
+mainimage: https://cdn.tnris.org/images/maythefourth_webbanner.jpg
+mainimagesm: https://cdn.tnris.org/images/maythefourthfront_sm.jpg
 abstract: Submit a proposal to present at the 2018 GeoRodeo! We're looking for presenters who can highlight new techniques and innovative approaches built on open source products, cloud technology, and innovative uses of proprietary tools. We seek to have inclusive representation of the GeoSpatial developer community - we encourage everyone to apply!
 ---
 

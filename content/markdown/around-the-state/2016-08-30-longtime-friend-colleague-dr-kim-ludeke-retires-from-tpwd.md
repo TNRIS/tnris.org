@@ -2,13 +2,13 @@
 title: Longtime Friend and Colleague Dr. Kim Ludeke Retires from TPWD
 layout: aroundthestate.njk
 author: Richard Wade, TNRIS Director/GIO
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/kim_th.jpg
+thumbnail: https://cdn.tnris.org/images/kim_th.jpg
 thumbalt: A headshot of Kim Ludeke
 abstract:
     TNRIS had the chance to talk to Dr. Aaron Kim Ludeke, acclaimed advocate for GIS in state government and long-time GIS manager at Texas Parks and Wildlife Department during his last days of state service.
 ---
 
-<img class="pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/kim_headshot.jpg" alt="A headshot of Kim ludeke">
+<img class="pull-left" src="https://cdn.tnris.org/images/kim_headshot.jpg" alt="A headshot of Kim ludeke">
 <p class="lead">Only a handful of people still working in the Geographic Information Systems (GIS) field remember when this new technology was just taking root in Texas government.  One of the individuals that certainly made his mark in Texas GIS is our longtime friend and active member of the GIS community, Dr. Kim Ludeke.  Kim officially retired from Texas Parks and Wildlife Department (TPWD) on Wednesday, August 31st, 2016 after serving 28 years in state government.</p>
 
 Although Kim spent most of his career with TPWD, he spent several of those years at TNRIS helping to develop one of the first modern GIS environments in the state.
@@ -19,7 +19,7 @@ We had an opportunity to talk to Kim about his career and his time in GIS at the
 
 Kim: I grew up on a ranch on the banks of the Red River in Wichita County, Texas.  I remember working hard.  I milked a cow before school, spent summers on a tractor plowing and clearing brush, helped work cattle, built fences, and the usual work of a farm/ranch kid. Going to school was a respite.  In high school we started getting officers' kids from the nearby Sheppard Air Force Base as classmates  and I was intrigued by their more global experiences and perspectives.  In 1967 our family went to the World's Fair in Montreal and that opened me up to the broader world in a big way.
 
-<figure><img alt="From left to right: Ali Baird, Joyce Gilliam, Dr. Changxiang Liu, Dr. Kim Ludeke, Vivian Ackerson, Duane German, Cynthia Banks, Christine Coates, Michelle Valek, Jennifer Estes - 1996" class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/kim_past.jpg">
+<figure><img alt="From left to right: Ali Baird, Joyce Gilliam, Dr. Changxiang Liu, Dr. Kim Ludeke, Vivian Ackerson, Duane German, Cynthia Banks, Christine Coates, Michelle Valek, Jennifer Estes - 1996" class="img-responsive" src="https://cdn.tnris.org/images/kim_past.jpg">
 <figcaption>1996, from left to right: Ali Baird, Joyce Gilliam, Dr. Changxiang Liu, Dr. Kim Ludeke, Vivian Ackerson, Duane German, Cynthia Banks, Christine Coates, Michelle Valek, Jennifer Estes.</caption></figure>
 
 **T: Where did you get your education?**
@@ -27,7 +27,7 @@ Kim: I grew up on a ranch on the banks of the Red River in Wichita County, Texas
 K: The summer before my freshman year at UT I spent 3 weeks in a village 6 hours by mule from the nearest road in the mountains of Honduras where I provided vaccinations and minor medical care to the village of Soledad.  I graduated from UT in Plan II Liberal Arts Honors/biology.  A great contribution to my education was after graduation I spent 2 years traveling, first to Mexico, Central and South America, and then Europe, the Middle East, Indo-Asia, and South East Asia.  I worked briefly in Bangladesh as part of the global success in eradicating smallpox.  I then returned to UT for a semester of secondary science education training.  I followed up that with getting a Ph.D at Texas A&M in Conservation Planning.  I also taught graduate GIS courses at UT and Texas State which were always an education for me too.
 
 
-<figure class="pull-right"><img alt="Dr. Kim Ludeke and future Texas GIO Richard Wade, circa 1990.6" class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/kim_tnris.jpg">
+<figure class="pull-right"><img alt="Dr. Kim Ludeke and future Texas GIO Richard Wade, circa 1990.6" class="img-responsive" src="https://cdn.tnris.org/images/kim_tnris.jpg">
 <figcaption>Dr. Kim Ludeke and future Texas GIO Richard Wade, circa 1990.</caption></figure>
 
 **T: How did you arrive in this industry? What path brought you here?**
@@ -42,7 +42,7 @@ K: Since 1981.
 
 K: The work ethic learned early on the ranch on the Red.  The exposure to the larger world out there  through travel instilled in me a love of geograpy. Being raised in the country I developed an early love of the natural world.  Our ranch had been the horse ranch for the legendary 6666 Ranch and then was part of the historic North West Oil Field.  I early on observed the negative impact man could have on the natural world--as we tried to restore land and water damaged by unregulated oil production to  productive farm and ranch land.
 
-<figure><img class="img-responsive" alt="Kim in the field, 1993, with GPS backpack" src="https://tnris-org-static.s3.amazonaws.com/images/kim_backpack.jpg">
+<figure><img class="img-responsive" alt="Kim in the field, 1993, with GPS backpack" src="https://cdn.tnris.org/images/kim_backpack.jpg">
 <figcaption>Dr. Ludeke using GPS in 1993 to locate water guzzlers for desert bighorn sheep - Sierra Diablo Wildlife Management Area, Vicotorio Canyon.</figcaption></figure>
 
 **T: What was the single biggest challenge you faced in your work with GIS in the State?**
@@ -68,7 +68,7 @@ K: The people and how lucky I have been!
 K: I love to hike in wilderness!
 
 
-<figure><img alt="From left to right: Robert White, Bruce Barr, Mike Ouimet, Jack Dangermond, Kim Ludeke, Greg Smithhart, Claire DeVaughan" class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/kim_dangermond.jpg">
+<figure><img alt="From left to right: Robert White, Bruce Barr, Mike Ouimet, Jack Dangermond, Kim Ludeke, Greg Smithhart, Claire DeVaughan" class="img-responsive" src="https://cdn.tnris.org/images/kim_dangermond.jpg">
 <figcaption>From left to right: Robert White, Bruce Barr, Mike Ouimet, Jack Dangermond, Kim Ludeke, Greg Smithhart, Claire DeVaughan</caption></figure>
 
 **T: Any awards or medals, or even medallions? Personal okay, too.**
@@ -85,6 +85,6 @@ K: Volunteering at TPWD.  Hiking in wilderness. Travel. Reading. Volunteering at
 
 *Kim, from all your friends in the GIS community, we wish you all the best and we hope that our actions moving forward will make you proud.*
 
-<figure><img alt="Collecting wildflowers at Ludeke Ranch" class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/kim_flowers.jpg">
+<figure><img alt="Collecting wildflowers at Ludeke Ranch" class="img-responsive" src="https://cdn.tnris.org/images/kim_flowers.jpg">
 <figcaption>Collecting wildflowers at Ludeke Ranch</caption></figure>
 

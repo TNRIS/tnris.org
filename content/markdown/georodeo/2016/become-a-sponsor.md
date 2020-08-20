@@ -1,7 +1,7 @@
 ---
 layout: events/georodeo-2016/georodeo-sponsors.njk
 title: Become a GeoRodeo sponsor
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/cowsay_pasture_web_first.jpg
+mainimage: https://cdn.tnris.org/images/cowsay_pasture_web_first.jpg
 abstract: Help Sponsor the GeoRodeo
 ---
 

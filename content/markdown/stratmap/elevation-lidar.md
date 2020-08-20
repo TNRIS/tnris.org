@@ -1,7 +1,7 @@
 ---
 title: Elevation – Lidar
 layout: stratmap/main.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/lidar_banner.jpg
+mainimage: https://cdn.tnris.org/images/lidar_banner.jpg
 ---
 
 <div class="container">
@@ -16,9 +16,9 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/lidar_banner.jpg
     </div>
     <div class="col-md-4">
       <h3>Lidar Specifications</h3>
-      <a class="btn btn-lg btn-success" href="https://tnris-org-static.s3.amazonaws.com/documents/state_of_texas_stratmap_lidar_specification_ver_XIII.pdf"><i class="glyphicon glyphicon-document"></i> Download Lidar Specifications</a>
+      <a class="btn btn-lg btn-success" href="https://cdn.tnris.org/documents/state_of_texas_stratmap_lidar_specification_ver_XIII.pdf"><i class="glyphicon glyphicon-document"></i> Download Lidar Specifications</a>
       <h3>Download Lidar</h3>
-      <a class="btn btn-lg btn-tnris" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+      <a class="btn btn-lg btn-tnris" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
       <hr class="clearfix">
       <h3>Bulk Copies</h3>
       <p>Bulk copies of all lidar datasets are available at reproduction cost through our Research and Distribution center. Copies onto hard drives can be requested through the <a href="https://data.tnris.org">DataHub</a>.</p>
@@ -50,8 +50,8 @@ mainimage: https://tnris-org-static.s3.amazonaws.com/images/lidar_banner.jpg
   </p>
   <figure class="full-article-figure">
     <div id="imageCompare1" class='twentytwenty-container lidar-compare'>
-      <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/flyover_pointcloud_lidar_sample.jpg" alt="Lidar Point Cloud of College Station Texas">
-      <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/flyover_render_buildings_lidar_sample.jpg" alt="lidar 3-d render of buildings in College Station">
+      <img class="img-responsive" src="https://cdn.tnris.org/images/flyover_pointcloud_lidar_sample.jpg" alt="Lidar Point Cloud of College Station Texas">
+      <img class="img-responsive" src="https://cdn.tnris.org/images/flyover_render_buildings_lidar_sample.jpg" alt="lidar 3-d render of buildings in College Station">
     </div>
     <figcaption class="text-center">Left: Sample of 3-D point cloud of Area in College Station, TX | Right: 3-D rendering of Lidar with Aerial Imagery Overlay</figcaption>
   </figure>

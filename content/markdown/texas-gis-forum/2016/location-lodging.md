@@ -2,11 +2,11 @@
 layout: events/texas-gis-forum/2016/sub.njk
 title: Location & Lodging
 subtitle: Texas GIS Forum | October 24th-27th, 2016
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/2016_forum_front_mock.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/montage.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/montagesm.jpg
+mainimage: https://cdn.tnris.org/images/2016_forum_front_mock.jpg
+mainimagesm: https://cdn.tnris.org/images/montage.jpg
+mainimagexs: https://cdn.tnris.org/images/montagesm.jpg
 bodyClass: forum-sub-2016
-buttonurl: https://tnris-org-static.s3.amazonaws.com/documents/gis_forum_2016_parking_permit.pdf
+buttonurl: https://cdn.tnris.org/documents/gis_forum_2016_parking_permit.pdf
 buttontext: Download Parking Pass
 abstract: The Forum is held in the Commons Learning Center at the J.J. Pickle Research campus in North Austin.
 ---

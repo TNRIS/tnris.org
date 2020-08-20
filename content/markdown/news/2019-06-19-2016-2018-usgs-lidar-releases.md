@@ -2,8 +2,8 @@
 title: 2016-2018 USGS Lidar Data Release
 author: Joey Thomas, StratMap
 layout: news-article.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/usgs2019mainbanner.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/usgs2019_th.jpg
+mainimage: https://cdn.tnris.org/images/usgs2019mainbanner.jpg
+thumbnail: https://cdn.tnris.org/images/usgs2019_th.jpg
 thumbalt: A thumbnail for 2016-2018 USGS Lidar Data Release
 abstract: A collaborative initiative by federal agencies to capture high-quality lidar data for several regions of Texas.
 ---
@@ -16,12 +16,12 @@ Details regarding these acquisitions can be found by downloading the supplementa
 
 ## Data Access
 
-<img src="https://tnris-org-static.s3.amazonaws.com/images/usgs_2016_2018_collections.jpg" class="img-responsive" alt="Map showing 5 collections in different colors across texas">
+<img src="https://cdn.tnris.org/images/usgs_2016_2018_collections.jpg" class="img-responsive" alt="Map showing 5 collections in different colors across texas">
 
 
 <p>To download the USGS 2016-2018 lidar data products, please use the <a href="https://data.tnris.org/catalog/%7B%22filters%22%3A%7B%22category%22%3A%5B%22Lidar%22%5D%7D%2C%22search%22%3A%22USGS%20FEMA%22%2C%22sort%22%3A%22AZ%22%7D">DataHub</a>.</p>
 
-<a class="btn btn-lg btn-tnris" href="https://data.tnris.org/catalog/%7B%22filters%22%3A%7B%22category%22%3A%5B%22Lidar%22%5D%7D%2C%22search%22%3A%22USGS%20FEMA%22%2C%22sort%22%3A%22AZ%22%7D"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<a class="btn btn-lg btn-tnris" href="https://data.tnris.org/catalog/%7B%22filters%22%3A%7B%22category%22%3A%5B%22Lidar%22%5D%7D%2C%22search%22%3A%22USGS%20FEMA%22%2C%22sort%22%3A%22AZ%22%7D"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
 
 Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris/builder/03970fcc-1040-4819-a08b-30c139add308/embed) for statewide lidar coverage.
 

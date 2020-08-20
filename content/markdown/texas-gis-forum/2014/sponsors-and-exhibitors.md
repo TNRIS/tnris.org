@@ -2,7 +2,7 @@
 layout: events/texas-gis-forum/2014/forum.njk
 title: Sponsors & Exhibitors
 subtitle: October 20th-23rd | J.J. Pickle Center | Austin, Texas
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/forum2.jpg
+mainimage: https://cdn.tnris.org/images/forum2.jpg
 abstract: Partner with Texas's Premiere gathering for the Geospatial Professionals to reach your customers and your community.
 ---
 

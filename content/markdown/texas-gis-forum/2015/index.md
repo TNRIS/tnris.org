@@ -2,9 +2,9 @@
 layout: events/texas-gis-forum/2015/forum-main.njk
 title: 2015 Texas GIS Forum
 subtitle: At the Intersection of Geography and Technology
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/2015_forum_banner_lg.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/small-web-banner.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/xs-banner.jpg
+mainimage: https://cdn.tnris.org/images/2015_forum_banner_lg.jpg
+mainimagesm: https://cdn.tnris.org/images/small-web-banner.jpg
+mainimagexs: https://cdn.tnris.org/images/xs-banner.jpg
 intro: true
 abstract: Save the date for the Texas GIS Forum, the state's premier conference for the geospatial professional community.
 ---
@@ -55,26 +55,26 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <p class="lead-forum">The Forum has made a name for itself by bringing top-tier speakers to keynote the conference. In addition to those at the top of the GIS field, we have hosted astronauts, TV personalities, renowned historians, and more.
     </p>
     <p class="lead-forum">
-      This year continues that record of exciting thinkers with Digital Humanitarian, <a href="/texas-gis-forum/2015/agenda#keynote-meier">Patrick Meier</a>, UCGIS Fellow, <a href="/texas-gis-forum/2015/agenda#keynote-humphreys">David Cowen</a>, and Aerospace Engineer, <a href="https://tnris-org-static.s3.amazonaws.com/images/humphreys_square.jpg">Todd Humphreys</a>.
+      This year continues that record of exciting thinkers with Digital Humanitarian, <a href="/texas-gis-forum/2015/agenda#keynote-meier">Patrick Meier</a>, UCGIS Fellow, <a href="/texas-gis-forum/2015/agenda#keynote-humphreys">David Cowen</a>, and Aerospace Engineer, <a href="https://cdn.tnris.org/images/humphreys_square.jpg">Todd Humphreys</a>.
     </p>
   </div>
   <div class="col-sm-5">
     <div class="row keynote-feature">
       <div class="col-xs-4">
         <a href="/texas-gis-forum/2015/agenda#keynote-meier">
-          <img alt="Patrick Meier Small Headshot" class="img-responsive img-circle" src="https://tnris-org-static.s3.amazonaws.com/images/patrick_square.jpg">
+          <img alt="Patrick Meier Small Headshot" class="img-responsive img-circle" src="https://cdn.tnris.org/images/patrick_square.jpg">
           <h3><small>Digital Humanitarian</small><br>Patrick <br class="hidden-xs">Meier</h3>
         </a>
       </div>
       <div class="col-xs-4">
         <a href="/texas-gis-forum/2015/agenda#keynote-cowen">
-          <img alt="David Cowen Small Headshot" class="img-responsive img-circle" src="https://tnris-org-static.s3.amazonaws.com/images/cowen_square.jpg">
+          <img alt="David Cowen Small Headshot" class="img-responsive img-circle" src="https://cdn.tnris.org/images/cowen_square.jpg">
           <h3><small>UCGIS Fellow</small><br>David <br class="hidden-xs">Cowen</h3>
         </a>
       </div>
       <div class="col-xs-4">
         <a href="/texas-gis-forum/2015/agenda#keynote-humphreys">
-          <img alt="Todd Humphreys Small Headshot"  class="img-responsive img-circle" src="https://tnris-org-static.s3.amazonaws.com/images/humphreys_square.jpg">
+          <img alt="Todd Humphreys Small Headshot"  class="img-responsive img-circle" src="https://cdn.tnris.org/images/humphreys_square.jpg">
           <h3><small>UT Professor</small><br>Todd <br class="hidden-xs">Humphreys</h3>
         </a>
       </div>
@@ -84,7 +84,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 <div class="row">
   <div class="col-sm-4">
     <a href="/texas-gis-forum/2015/agenda#DayOne_1800">
-      <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/punchbowl.jpg" alt="A montage of images from Punch Bowl Social, Bowling, Beer Tap, Sandwich">
+      <img class="img-responsive" src="https://cdn.tnris.org/images/punchbowl.jpg" alt="A montage of images from Punch Bowl Social, Bowling, Beer Tap, Sandwich">
     </a>
     <h3>Forum Social at Punch Bowl Social<small><br>Sponsored by CartoDB</small></h3>
     <p>Great Food, Drinks, and Fun! Bring your badge to get two drink tickets and use reserved bowling, darts, and ping-pong! Bring quarters to play classic arcade games!</p>
@@ -94,7 +94,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   </div>
   <div class="col-sm-4">
     <a href="/texas-gis-forum/2015/job-board">
-      <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/sticky_job.jpg" alt="A sticky note with handwritten Now Hiring!">
+      <img class="img-responsive" src="https://cdn.tnris.org/images/sticky_job.jpg" alt="A sticky note with handwritten Now Hiring!">
     </a>
     <h3>Forum Job Board</h3>
     <p>We'll have a job board with GIS job openings from Forum sponsors, exhibitors, and anyone else wanting to tap the talent at the forum. If your organization has an open GIS-related position, <a href="/texas-gis-forum/2015/job-board">contact us</a>.</p>
@@ -104,7 +104,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   </div>
   <div class="col-sm-4">
     <a href="http://www.meetup.com/DevMeetUpTexas/events/225538428/">
-      <img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/meetup.jpg" alt="People holding drinks and smiling with Meetup logo on top">
+      <img class="img-responsive" src="https://cdn.tnris.org/images/meetup.jpg" alt="People holding drinks and smiling with Meetup logo on top">
     </a>
     <h3>ESRI GeoDev Meetup</h3>
     <p>Tuesday night, come to a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.</p>

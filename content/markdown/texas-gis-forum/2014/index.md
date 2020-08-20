@@ -2,7 +2,7 @@
 layout: events/texas-gis-forum/2014/forum.njk
 title: 2014 Texas GIS Forum
 subtitle: October 20th-23rd | J.J. Pickle Center | Austin, Texas
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/forum2.jpg
+mainimage: https://cdn.tnris.org/images/forum2.jpg
 abstract: Once a year, take a break from your screen to go social at the Texas GIS Forum, the premier, statewide conference dedicated to spatial technology advancements in the government and private sectors.
 ---
 
@@ -11,7 +11,7 @@ abstract: Once a year, take a break from your screen to go social at the Texas G
 <div class="row">
 <div class="media keynote col-md-6">
 	<div class="media-left">
-		<img class="media-object" src="https://tnris-org-static.s3.amazonaws.com/images/suri_th_0.jpg" alt="Jeremi Suri Head Shot">
+		<img class="media-object" src="https://cdn.tnris.org/images/suri_th_0.jpg" alt="Jeremi Suri Head Shot">
 	</div>
 	<div class="media-body">
 		<small>Wednesday, October 22nd, 9AM to 10AM</small>
@@ -21,7 +21,7 @@ abstract: Once a year, take a break from your screen to go social at the Texas G
 </div>
 <div class="media keynote col-md-6">
 	<div class="media-left">
-		<img class="media-object" src="https://tnris-org-static.s3.amazonaws.com/images/wolter_th.jpg" alt="Scott Wolter Head Shot">
+		<img class="media-object" src="https://cdn.tnris.org/images/wolter_th.jpg" alt="Scott Wolter Head Shot">
 	</div>
 	<div class="media-body">
 		<small>Thursday, October 23rd, 9AM to 10AM</small>

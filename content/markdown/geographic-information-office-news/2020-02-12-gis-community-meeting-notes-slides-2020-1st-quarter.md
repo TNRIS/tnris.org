@@ -2,8 +2,8 @@
 layout: gio-news.njk
 title: "Texas GIS Community Meeting 2020 1st Quarter - Notes and Slides"
 author: Felicia Retiz, Deputy GIO
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/1stqtr2020article_main.png
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/1stqtr2020article_thumb.png
+mainimage: https://cdn.tnris.org/images/1stqtr2020article_main.png
+thumbnail: https://cdn.tnris.org/images/1stqtr2020article_thumb.png
 abstract:
     The 1st quarter GIS Community meeting took place on January 14, 2020 at the Texas Parks and Wildlife Headquarters in Austin, TX.
 ---
@@ -35,55 +35,55 @@ View the presentation slides and roll call notes below.
 
 ## Roll Call notes
 
-<h3><a href="https://www.tceq.texas.gov"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/tceq_logo_sm.jpg" alt="TCEQ logo and link to website"></a>  Texas Commission on Environmental Quality, Megan Brown</h3>
+<h3><a href="https://www.tceq.texas.gov"><img class="pull-right" src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" alt="TCEQ logo and link to website"></a>  Texas Commission on Environmental Quality, Megan Brown</h3>
 
 Working on keeping the [TCEQ Water Rights Tracker](https://tceq.maps.arcgis.com/home/item.html?id=796b001513b9407a9818897b4dc1ec4d) application current and improving functionality. TCEQ is excited to add parcel data for ownership information. A web viewer is now available thanks to the work done by a 3rd contractor. The viewer continues to evolve.
 
 * * *
 
-<h3><a href="https://www.tamu.edu/"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/nri_black_md.png" alt="Texas A&M logo and link to website"></a> Texas A&amp;M University Natural Resources Institute, Matt Crawford</h3>
+<h3><a href="https://www.tamu.edu/"><img class="pull-right" src="https://cdn.tnris.org/images/nri_black_md.png" alt="Texas A&M logo and link to website"></a> Texas A&amp;M University Natural Resources Institute, Matt Crawford</h3>
 
 Just released new report on Texas land trends, use over time, market value, fragmentation and loss of farm size. Learn more at: Texaslandtrends.org
 
 * * *
 
-<h3><a href="http://www.txdot.gov/"><img class="pull-right" alt="" src="https://tnris-org-static.s3.amazonaws.com/images/txdot_logo.jpg"></a> Texas Department of Transportation (TxDOT), Jeremy Rogers</h3>
+<h3><a href="http://www.txdot.gov/"><img class="pull-right" alt="" src="https://cdn.tnris.org/images/txdot_logo.jpg"></a> Texas Department of Transportation (TxDOT), Jeremy Rogers</h3>
 
 Working with IT department to get an instance of Server and Portal. The plan is to move all ArcGIS Online apps to Portal. Workflows and customer friendly apps are also moving to ArcGIS Pro. Challenges are Python conversions to C#. We had to teach ourselves how to program in C# and thus have documentation on the process for sharing. Basic code and tools available on [TxDOT GitHub](https://github.com/TxDOT).
 
 * * *
 
-<h3><a href="https://tpwd.texas.gov/"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/tpwd_logo.jpg" alt="Texas Parks and Wildlife Logo"></a> Texas Parks and Wildlife Department (TPWD), Jeremy Nobles</h3>  
+<h3><a href="https://tpwd.texas.gov/"><img class="pull-right" src="https://cdn.tnris.org/images/tpwd_logo.jpg" alt="Texas Parks and Wildlife Logo"></a> Texas Parks and Wildlife Department (TPWD), Jeremy Nobles</h3>  
 
 Reassessing ArcGIS Online platform similar to TxDOT. [My Texas Hunt Harvest](https://tpwd.texas.gov/huntwild/hunt/hunt-harvest-app/) application is new mobile app created for logging hunt harvest and for private landowners reporting. Ran a quick report on the number of Texas Public Hunt apps that have been downloaded and right now we are at 8,500 downloads since hunting season opened.
 
 * * *
 
-<h3><a href="https://www.twdb.texas.gov/"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/twdb_web_med.jpg"></a>Texas Water Development Board, Taylor Christian</h3>
+<h3><a href="https://www.twdb.texas.gov/"><img class="pull-right" src="https://cdn.tnris.org/images/twdb_web_med.jpg"></a>Texas Water Development Board, Taylor Christian</h3>
 
 Working with TNRIS on new flood program. Also working on a water data hub for Texas. If anyone has public water data, Taylor would like to discuss the possibility of hosting in the new hub.
 
 * * *
 
-<h3><a href="http://www.austintexas.gov"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/coa_logo_sm.png" alt="City of Austin logo and link to website"></a>  City of Austin, Marna McClain</h3>
+<h3><a href="http://www.austintexas.gov"><img class="pull-right" src="https://cdn.tnris.org/images/coa_logo_sm.png" alt="City of Austin logo and link to website"></a>  City of Austin, Marna McClain</h3>
 
 Migrating to ArcGIS Pro with the assistance of Esri. Creating a change management plan for the migration. The city has about 1,500 desktop installs and 2,500 ArcGIS Online users. 87 servers are used to support the GIS users and infrastructure. Once the lesson learned and processes are documented, we can share with anyone embarking on a similar migration. Also, if there are any pointers from the crowd, we would appreciate hearing your story.
 
 * * *
 
-<h3><a href="https://www.dps.texas.gov/dem/"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/tdem_logo.jpg" alt="TDEM logo and link to website"></a>  Texas Division of Emergency Management, Mike Ouimet</h3>
+<h3><a href="https://www.dps.texas.gov/dem/"><img class="pull-right" src="https://cdn.tnris.org/images/tdem_logo.jpg" alt="TDEM logo and link to website"></a>  Texas Division of Emergency Management, Mike Ouimet</h3>
 
 In the process of rebuilding our technology staff. For the time being, we continue to be supported by the Texas Department of Public Safety until end of the year and are currently in the process of hiring additional support staff. Also moving from a “response” section to a true technology services section. In about 5 years, we expect to have a new state operations center near the airport.
 
 * * *
 
-<h3><a href="https://www.sara-tx.org/"><img class="pull-right" alt="SARA Logo and Link to website" src="https://tnris-org-static.s3.amazonaws.com/images/sara_logo.jpg"></a> San Antonio River Authority, Phillip Brown</h3>
+<h3><a href="https://www.sara-tx.org/"><img class="pull-right" alt="SARA Logo and Link to website" src="https://cdn.tnris.org/images/sara_logo.jpg"></a> San Antonio River Authority, Phillip Brown</h3>
 
 We are on our second year of Portal with ½ of our users on ArcGIS Pro. Now rebuilding our data infrastructure and working to support users with data hub for Pro users. Also standing up enterprise geodatabase with 18 TB of data. Also working with Gayla and Joey on the data infrastructure through StratMap.
 
 * * *
 
-<h3><a href="http://www.glo.texas.gov/"><img class="pull-right" alt="Texas General Land Office Logo and Link to website" src="https://tnris-org-static.s3.amazonaws.com/images/tx_glo_logo.jpg"></a> TX General Land Office, Zack Stern</h3>  
+<h3><a href="http://www.glo.texas.gov/"><img class="pull-right" alt="Texas General Land Office Logo and Link to website" src="https://cdn.tnris.org/images/tx_glo_logo.jpg"></a> TX General Land Office, Zack Stern</h3>  
 
 Several things going with the Harvey grant money. Building a statewide disaster data center. Also working on a project for public and elected officials to view where funds are being allocated. Worked with UT-Center for Space Research to develop a composite disaster index for the purposes of ranking severity of affected areas.
 

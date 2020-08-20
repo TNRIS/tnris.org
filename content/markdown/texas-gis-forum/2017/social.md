@@ -2,9 +2,9 @@
 layout: events/texas-gis-forum/2017/sub.njk
 title: Forum Social at The Oasis on Lake Travis
 subtitle: Texas GIS Forum | October 23-27, 2017, Austin, Texas
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/oasis_main.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/oasis_main.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/oasis_main.jpg
+mainimage: https://cdn.tnris.org/images/oasis_main.jpg
+mainimagesm: https://cdn.tnris.org/images/oasis_main.jpg
+mainimagexs: https://cdn.tnris.org/images/oasis_main.jpg
 bodyClass: forum-sub-2017
 intro: false
 abstract: Save the date for the Texas GIS Forum, the state's premier conference for the geospatial professional community.
@@ -14,16 +14,16 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     <h3>The Social is made possible thanks to our Platinum Sponsors</h3>
     <p>
       <a class="welcome-logo" href="http://appgeo.com">
-        <img  alt="appgeo logo and link to website" src="https://tnris-org-static.s3.amazonaws.com/images/appgeo_logo.png">
+        <img  alt="appgeo logo and link to website" src="https://cdn.tnris.org/images/appgeo_logo.png">
       </a>
       <a class="welcome-logo" href="http://www.esri.com">
-        <img   alt="Esri logo and link to website" src="https://tnris-org-static.s3.amazonaws.com/images/esri_where_logo.png">
+        <img   alt="Esri logo and link to website" src="https://cdn.tnris.org/images/esri_where_logo.png">
       </a>
       <a class="welcome-logo"  href="http://www.harrisgeospatial.com">
-        <img  alt="Harris logo and link to website" src="https://tnris-org-static.s3.amazonaws.com/images/harris_sm.png">
+        <img  alt="Harris logo and link to website" src="https://cdn.tnris.org/images/harris_sm.png">
       </a>
       <a class="welcome-logo"  href="http://www.boundlessgeo.com/">
-        <img alt="Boundless logo and link" src="https://tnris-org-static.s3.amazonaws.com/images/boundless_lg.png">
+        <img alt="Boundless logo and link" src="https://cdn.tnris.org/images/boundless_lg.png">
       </a>
     </p>
     <p>Your Forum registration includes admission to the social.</p>
@@ -50,7 +50,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     </p>
     <div class="media">
       <div class="media-left">
-          <img class="media-object" src="https://tnris-org-static.s3.amazonaws.com/images/saroo-alley.jpg" alt="Saroo Brierley">
+          <img class="media-object" src="https://cdn.tnris.org/images/saroo-alley.jpg" alt="Saroo Brierley">
       </div>
       <div class="media-body">
         <h3 class="media-heading">Keynote Speaker: Saroo Brierley</h3>

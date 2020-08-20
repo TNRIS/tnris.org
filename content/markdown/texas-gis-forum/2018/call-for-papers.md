@@ -2,8 +2,8 @@
 layout: events/texas-gis-forum/2018/main.njk
 title: Call for Papers
 subtitle: Texas GIS Forum | October 22-26, 2018, Austin, Texas
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/forum_2018_sapling_larger.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/forum_2018_sapling_larger_sm_front.jpg
+mainimage: https://cdn.tnris.org/images/forum_2018_sapling_larger.jpg
+mainimagesm: https://cdn.tnris.org/images/forum_2018_sapling_larger_sm_front.jpg
 abstract: Share your knowledge with a respected community of GIS professionals and network with your peers in the geospatial industry.
 body_class: call-for-presentations
 

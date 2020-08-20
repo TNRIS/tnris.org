@@ -2,9 +2,9 @@
 layout: events/texas-gis-forum/2017/main.njk
 title: Call for Papers
 subtitle: Texas GIS Forum | October 23-27, 2017, Austin, Texas
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/bigtex_empty.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/bigtex_empty_sm.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/bigtex_empty_sm.jpg
+mainimage: https://cdn.tnris.org/images/bigtex_empty.jpg
+mainimagesm: https://cdn.tnris.org/images/bigtex_empty_sm.jpg
+mainimagexs: https://cdn.tnris.org/images/bigtex_empty_sm.jpg
 abstract: Share your knowledge with a respected community of GIS professionals and network with your peers in the geospatial industry. 
 body_class: call-for-presentations
 ---

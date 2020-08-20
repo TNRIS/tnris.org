@@ -1,7 +1,7 @@
 ---
 layout: events/georodeo-2015/georodeo-sponsors.njk
 title: Become a GeoRodeo sponsor
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/georodeo_full_banner.jpg
+mainimage: https://cdn.tnris.org/images/georodeo_full_banner.jpg
 abstract: Help Sponsor the GeoRodeo
 ---
 

@@ -2,7 +2,7 @@
 layout: news-article.njk
 title: "Forum Keynote: Justen Noakes, Director of Emergency Preparedness for H-E-B"
 author: Texas GIS Forum
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/justen_noakes_heb_th.jpg
+thumbnail: https://cdn.tnris.org/images/justen_noakes_heb_th.jpg
 thumbalt: Headshot of Justen Noakes
 abstract:
     Justen Noakes is the Director of Emergency Preparedness at H-E-B, and has coordinated responses to nearly every major Texas disaster event of the past decade.
@@ -14,7 +14,7 @@ abstract:
 
 ## Leslie Sweet, H-E-B's Senior Director of Public Affairs
 
-<img style="max-width: 45%" class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/leslie_sweet_full.jpg" alt="Headshot of Leslie Sweet from H-E-B">
+<img style="max-width: 45%" class="pull-right" src="https://cdn.tnris.org/images/leslie_sweet_full.jpg" alt="Headshot of Leslie Sweet from H-E-B">
 
 As director of Public Affairs for H-E-B in Central Texas, Leslie Sweet is responsible for coordinating the company's community and public relations efforts in the region, with statewide strategic programming responsibilities.  
 
@@ -30,7 +30,7 @@ Leslie holds a B.A. from Baylor University and is finishing her M.B.A. from The 
 
 <p class="lead"><a class="btn btn-lg btn-success pull-right" href="/texas-gis-forum/2019">Visit the 2019 Forum Home</a> TNRIS is proud to announce <strong>Justen R. Noakes</strong>, the Director of Emergency Preparedness at H-E-B, as a keynote for the <a href="/texas-gis-forum/2019">2019 Texas GIS Forum</a>. Read more about Justen and join us at this year's Forum to be a part of Texas's premiere gathering for the Geospatial community.</p>
 
-<img style="max-width: 45%" class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/justen_noakes_heb.jpg" alt="Headshot of Justen Noakes from H-E-B">
+<img style="max-width: 45%" class="pull-right" src="https://cdn.tnris.org/images/justen_noakes_heb.jpg" alt="Headshot of Justen Noakes from H-E-B">
 
 Justen Noakes is the Director of Emergency Preparedness at H-E-B where he has been employed for the past 24 years. Fourteen of those have been in his current position, with past roles in supply chain logistics, retail operations, project management and IT. Justen has led the response and recovery efforts at H-E-B for 20 Major Disaster Declarations, including:
 

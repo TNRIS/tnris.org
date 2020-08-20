@@ -3,8 +3,8 @@ title: Sterling Harris Retires, Leaving GIS Legacy at GLO
 layout: aroundthestate.njk
 author: TNRIS
 aroundthestate: true
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/sterling-statue.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/sterling-capitol-th.jpg
+mainimage: https://cdn.tnris.org/images/sterling-statue.jpg
+thumbnail: https://cdn.tnris.org/images/sterling-capitol-th.jpg
 thumbalt: A headshot of Sterling Harris
 abstract:
     Sterling Harris is retiring from decades of service at the General Land Office, where he pioneered GIS use for state agencies.
@@ -34,7 +34,7 @@ S: In 1991, the GLO started an Oil Spill Response division. Part of the responsi
 
 S: Funding, GIS systems are costly and funding can be hard to achieve.  Luckily we were able to obtain grants for certain mapping projects related to the Oil Spill division.
 
-<p><figure class="pull-left" ><a href="http://events.esri.com/conference/sagList/?fa=Detail&SID=2019"><img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/glo-sag.jpg" alt="A photo of the GLO's GIS team with Jack Dangermond"><figcaption style="max-width: 400px;"></a>The GLO's GIS team accepts the ESRI SAG award from Jack Dangermond</figcaption></figure><strong>T: What would you consider to be your greatest achievement?</strong></p>
+<p><figure class="pull-left" ><a href="http://events.esri.com/conference/sagList/?fa=Detail&SID=2019"><img class="img-responsive" src="https://cdn.tnris.org/images/glo-sag.jpg" alt="A photo of the GLO's GIS team with Jack Dangermond"><figcaption style="max-width: 400px;"></a>The GLO's GIS team accepts the ESRI SAG award from Jack Dangermond</figcaption></figure><strong>T: What would you consider to be your greatest achievement?</strong></p>
 
 S: Being able to build an enterpise GIS system that now supports the entire business areas of the GLO.
 
@@ -59,5 +59,5 @@ S: Good bye Tension, Hello Pension!!
 *We can cheers to that!*
 
 <figure>
-<img class="img-responsive" alt="Sterling Harris along with friends, raise glasses in a restaurant" src="https://tnris-org-static.s3.amazonaws.com/images/sterling-3.jpg">
+<img class="img-responsive" alt="Sterling Harris along with friends, raise glasses in a restaurant" src="https://cdn.tnris.org/images/sterling-3.jpg">
 </figure>

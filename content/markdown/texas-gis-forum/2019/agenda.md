@@ -2,8 +2,8 @@
 layout: events/texas-gis-forum/2019/sub.njk
 title: 2019 Texas GIS Forum Agenda
 subtitle: Texas GIS Forum | October 21-25, 2019, Austin, Texas
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/main_banner_lg.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/enchantedTopo-sm.jpg
+mainimage: https://cdn.tnris.org/images/main_banner_lg.jpg
+mainimagesm: https://cdn.tnris.org/images/enchantedTopo-sm.jpg
 buttontext: Register Now!
 intro: true
 bodyClass: forum-sub-2018

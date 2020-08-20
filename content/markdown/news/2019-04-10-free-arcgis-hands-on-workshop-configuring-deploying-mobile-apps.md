@@ -2,8 +2,8 @@
 title: Free ArcGIS Hands-on Workshop - Configuring & Deploying Mobile Apps
 author: TNRIS Training
 layout: news-article.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/mobileapps_esri.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/mobileapps_esri_th.jpg
+mainimage: https://cdn.tnris.org/images/mobileapps_esri.jpg
+thumbnail: https://cdn.tnris.org/images/mobileapps_esri_th.jpg
 abstract: TNRIS and TCEQ are coordinating with Esri to host a Free ArcGis Hands-on Workshop to expand your mobile development skills!
 ---
 

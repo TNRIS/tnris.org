@@ -2,9 +2,9 @@
 layout: events/texas-gis-forum/2015/forum.njk
 title: Call for Presentations
 subtitle: Call for Presentations
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/2015_forum_banner_lg.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/small-web-banner.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/xs-banner.jpg
+mainimage: https://cdn.tnris.org/images/2015_forum_banner_lg.jpg
+mainimagesm: https://cdn.tnris.org/images/small-web-banner.jpg
+mainimagexs: https://cdn.tnris.org/images/xs-banner.jpg
 abstract: Share your knowledge with a respected community of GIS professionals and network with your peers in the geospatial industry.
 button: callforpapers
 button_link: https://www.surveymonkey.com/s/HZQZM8D

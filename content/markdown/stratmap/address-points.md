@@ -8,7 +8,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
   <div class="row">
     <div class="col-md-6">
       <p class="lead">Address points are site or structure point data that have associated information such as house number, street name, postal community, and postal code. This information is recorded and maintained at the city and county level in Texas and aggregated to Regional Planning Commissions or Emergency Communications Districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
-      <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://tnris-org-static.s3.amazonaws.com/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
+      <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://cdn.tnris.org/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
     </div>
     <div class="col-md-6">
       <h2 style="margin-top: 0">Available Datasets</h2>
@@ -16,7 +16,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
       <iframe width="100%" height="400" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/9ea89bcc-63b5-4ed5-924d-e6c1910bb6f4/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
       <h2>Download</h2>
       <p>Use the DataHub to download the Address Points dataset:</p>
-      <a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+      <a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
     </div>
   </div>
 </div>
@@ -51,13 +51,13 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 
 <h2>Program Flow</h2>
 <p>This iterative program flow will occur throughout the year. At no one time will there be a completed or final version of data as each data source has varying update schedules. Please check each county for the most recent version of data.</p>
-<img src="https://tnris-org-static.s3.amazonaws.com/images/data-circle.jpg" class="img-responsive">
+<img src="https://cdn.tnris.org/images/data-circle.jpg" class="img-responsive">
 <h2>Agency Address Point Uses</h2>
 <p class="lead">Texas State Agencies make extensive use of Address Point data for all types of operations and applications.</p>
 <hr class="clearfix">
 <div class="row">
 <div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/tx_glo_logo.jpg" class="center-block">
+<img src="https://cdn.tnris.org/images/tx_glo_logo.jpg" class="center-block">
 <p><strong>General Land Office (GLO)</strong></p>
 <ul>
 <li>Management of state lands and coastal land permitting</li>
@@ -66,7 +66,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 </ul>
 </div>
 <div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/tdem_logo.jpg" class="center-block">
+<img src="https://cdn.tnris.org/images/tdem_logo.jpg" class="center-block">
 <p><strong>Texas Division of Emergency Management (TDEM)</strong></p>
 <ul>
 <li>Mitigate emergency situations by accurately modeling and mapping areas to predict flooding along high-risk areas</li>
@@ -80,7 +80,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 <div class="row">
 
 <div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/txdot_logo.jpg" class="center-block">
+<img src="https://cdn.tnris.org/images/txdot_logo.jpg" class="center-block">
 <p><strong>Texas Department of Transportation (TXDOT)</strong></p>
 <ul>
 <li>Right of Way management for private or state-owned lands</li>
@@ -89,7 +89,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 </p>
 </div>
 <div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/hhs_logo.jpg" class="center-block img-responsive">
+<img src="https://cdn.tnris.org/images/hhs_logo.jpg" class="center-block img-responsive">
 <p><strong>Health and Human Services Commission (HHSC)</strong></p>
 <ul>
 <li>Determine structures in the path or vicinity of disease outbreak</li>
@@ -101,7 +101,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 <hr class="clearfix hidden-xs hidden-sm">
 <div class="row">
 <div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/twdb_web_med.jpg" class="center-block">
+<img src="https://cdn.tnris.org/images/twdb_web_med.jpg" class="center-block">
 <p><strong>Texas Water Development Board (TWDB)</strong></p>
 <ul>
 <li>Determine if structures will be affected by flood conditions for early evacuation</li>
@@ -109,7 +109,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 </ul>
 </div>
 <div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/tahc_logo.jpg" class="center-block">
+<img src="https://cdn.tnris.org/images/tahc_logo.jpg" class="center-block">
 <p><strong>Texas Animal Health Commission (TAHC)</strong></p>
 <ul>
 <li>Locate farms, ranches, feedlots, etc in the event of animal disease outbreak</li>
@@ -121,7 +121,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 
 <div class="row">
 <div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/tceq_logo_sm.jpg" class="center-block">
+<img src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" class="center-block">
 <p><strong>Texas Commission on Environmental Quality (TCEQ)</strong></p>
 <ul>
 <li>Air permitting and air quality monitoring/analysis</li>
@@ -130,7 +130,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 </ul>
 </div>
 <div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/tpwd_logo.jpg" class="center-block">
+<img src="https://cdn.tnris.org/images/tpwd_logo.jpg" class="center-block">
 <p><strong>Texas Parks and Wildlife Department (TPWD)</strong></p>
 <ul>
 <li>Land ownership notification</li>
@@ -144,14 +144,14 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 
 <div class="row">
 <div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/csec_logo_sm.jpg" class="center-block">
+<img src="https://cdn.tnris.org/images/csec_logo_sm.jpg" class="center-block">
 <p><strong>Commission on State Emergency Communications (CSEC)</strong></p>
 <ul>
 <li>Statewide emergency communications.</li>
 </ul>
 </div>
 <div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/tx_dps_logo.jpg" class="center-block">
+<img src="https://cdn.tnris.org/images/tx_dps_logo.jpg" class="center-block">
 <p><strong>Department of Public Safety (DPS)</strong></p>
 <ul>
 <li>Emergency management and response.</li>
