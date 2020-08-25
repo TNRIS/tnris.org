@@ -17,7 +17,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
       </iframe>
       <h2>Download</h2>
       <p>Use the DataHub to download the Address Points dataset:</p>
-      <a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+      <a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
     </div>
   </div>
 </div>
