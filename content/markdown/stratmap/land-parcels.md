@@ -15,18 +15,21 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       <p class="lead">In August 2019, an extension of the <a href="https://cdn.tnris.org/documents/update-on-digital-parcel-data-in-texas-20190903.pdf">statewide parcel study was published</a> to evaluate the existence of GIS parcel data and barriers to conversion. The report found that nearly all Texas appraisal districts now maintain a GIS parcel layer or are in the process of converting. It includes recommendations of 1) how TNRIS can facilitate local GIS  conversion and 2) how to continue success of the land parcel program.</p>
     </div>
     <div class="col-md-6">
-      <h3 style="margin-top: 0;">Parcel Data Download Availability</h3>
+      <h2 style="margin-top: 0">Available Datasets</h2>
       <ul class="list-clean data-progress">
         <li class="status">
           <progress class="level-orange" max="100" value="{{progress_1}}">
           </progress>
           <h3 class="amount"><strong>{{progress_2}}</strong></h3>
-          <p><strong><span style="font-size: 20px;">of 254 land parcel GIS datasets</span><br> are now available in a common schema</strong></p>
         </li>
       </ul>
-      <p><a class="btn btn-lg btn-tnris pull-right" href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a> See available datasets in the map below. To download the parcel data visit the DataHub.
-      </p>
-      <iframe width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/ba0229b0-b91c-4775-98ae-93844e146496/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen  msallowfullscreen></iframe>
+      <p><strong font-size: 20px;">of 254 land parcel GIS datasets are now available in a common schema.</strong></p>
+      <p>See available datasets in the map below:</p>
+      <iframe width="100%" height="520" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Land Parcels Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=7f5626b267a042a7869926b3d379f5b9&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
+      </iframe>
+      <h2>Download</h2>
+      <p>Use the DataHub to download the Land Parcels dataset:</p>
+      <a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
     </div>
   </div>
 </div>
