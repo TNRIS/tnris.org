@@ -70,7 +70,7 @@ Contact TeachMeGIS to let them know you’re interested in taking a class virtua
 
 * * *
 
-<div class="well well-bg">
+<div class="card card-body well-bg">
   <p>
     Contact us about our Education &amp; Training Program.
   </p>

@@ -21,5 +21,5 @@ Respondents will have thirty (30) days to submit proposals and a non-mandatory m
 
 <div class="alert alert-warning"><strong>Note:</strong> The contract is labeled as "​<strong>Geographic Information Systems (GIS) Hardware, Software, and Services RFO</strong>" on the DIR page. See image below.</div>
 
-<a href="https://dir.texas.gov/View-Information-For-Vendors/Current-Contracting-Initiatives/Landing.aspx"><img class="img-responsive" alt="A screenshot of the DIR contract page, highlighting the StratMap contract" src="https://cdn.tnris.org/images/dir_highlight.jpg"></a>
+<a href="https://dir.texas.gov/View-Information-For-Vendors/Current-Contracting-Initiatives/Landing.aspx"><img class="img-fluid" alt="A screenshot of the DIR contract page, highlighting the StratMap contract" src="https://cdn.tnris.org/images/dir_highlight.jpg"></a>
 

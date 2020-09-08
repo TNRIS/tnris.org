@@ -205,7 +205,7 @@ The WMS link is compatible in ArcGIS Online.
 If you are adding the **downloaded** imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the “**Apply Gamma Stretch**:” option and to set the “**Stretch**” type to None.
 
 <figure>
-<img class="img-responsive" src="https://cdn.tnris.org/images/layer-properties.jpg" alt="Highlighting the properties to change for better display">
+<img class="img-fluid" src="https://cdn.tnris.org/images/layer-properties.jpg" alt="Highlighting the properties to change for better display">
 <figcaption>The Layer properties dialog box on ArcGIS</figcaption>
 </figure>
 

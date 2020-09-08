@@ -9,7 +9,7 @@ mainimage: https://cdn.tnris.org/images/rovers1.jpg
 <p class="lead">TNRIS has many maps and data resources available to the public at no charge from our website that can be incorporated into teacher's lesson plans for all levels. In addition to these resources, we are able to give tours on a limited basis to students and their educators.</p>
 </div>
 <div class="col-md-4">
-  <div class="well well-bg">
+  <div class="card card-body well-bg">
   <p>
     Contact us about our Education &amp; Training Program.
   </p>
@@ -92,7 +92,7 @@ mainimage: https://cdn.tnris.org/images/rovers1.jpg
   <h2 style="margin-top: 0;">Other Agency Resources</h2>
     <div class="resources-highlight-box">
       <a href="https://www.twdb.texas.gov/conservation/education/kids/index.asp">
-      <img class="img-responsive img-rounded" alt="highlight of TWDB kids page" src="https://cdn.tnris.org/images/twdb-kids-highlight.jpg">
+      <img class="img-fluid img-rounded" alt="highlight of TWDB kids page" src="https://cdn.tnris.org/images/twdb-kids-highlight.jpg">
       <div class="resources-highlight-text-container">
         <h3>TWDB Kids</h3>
         <p class="hidden-md">The TWDB Kids Web site serves as the gateway to the agency's K-12 conservation education resources.</p>
@@ -101,7 +101,7 @@ mainimage: https://cdn.tnris.org/images/rovers1.jpg
     </div>
     <div class="resources-highlight-box">
     <a href="https://www.usgs.gov/science-support/osqi/yes/resources-teachers">
-      <img class="img-responsive img-rounded" alt="A USGS staff member shows kids a map" src="https://cdn.tnris.org/images/usgs-resources-highlight.jpg">
+      <img class="img-fluid img-rounded" alt="A USGS staff member shows kids a map" src="https://cdn.tnris.org/images/usgs-resources-highlight.jpg">
       <div class="resources-highlight-text-container">
         <h3>USGS Teacher Resources</h3>
         <p class="hidden-md">Tap into USGS lesson plans and activities, maps, podcasts, online lectures, videos and animations, and much more.</p>
@@ -129,7 +129,7 @@ mainimage: https://cdn.tnris.org/images/rovers1.jpg
 <h2>Photo Archive Collection</h2>
 
 <h3>Historical Imagery Archive</h3>
-<img class="img-responsive img-rounded" src="https://cdn.tnris.org/images/historicphotocatalog.jpg" alt="Historic Imagery in filing cabinet">
+<img class="img-fluid img-rounded" src="https://cdn.tnris.org/images/historicphotocatalog.jpg" alt="Historic Imagery in filing cabinet">
 <p>TNRIS maintains over 1 million frames of photos covering all parts of Texas from dates as far back as the 1920’s.
 <p class="lead">
 <strong>Learn more on our <a href="/research-distribution-center/historical-imagery-archive">Historical Imagery Archive page</a></strong>.

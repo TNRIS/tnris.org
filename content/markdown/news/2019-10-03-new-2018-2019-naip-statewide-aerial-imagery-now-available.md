@@ -10,8 +10,8 @@ abstract:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_nc_1to32000_galveston_20181204.jpg" alt="Natural Color preview of Galveston Island">
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_cir_1to32000_galveston_20181204.jpg" alt="Color infra red of Galveston Island">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_nc_1to32000_galveston_20181204.jpg" alt="Natural Color preview of Galveston Island">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_cir_1to32000_galveston_20181204.jpg" alt="Color infra red of Galveston Island">
 </div>
 <figcaption>Galveston Island,  SCALE 1:32,000, December 4, 2018</figcaption>
 </figure>
@@ -38,7 +38,7 @@ The GeoTIFFs and JPEG2000 images are in the public domain. The JPEG2000s are ava
 ## Acquisition Areas
 
 The NAIP 2018-2019 has statewide coverage:
-<img class="img-responsive" src="https://cdn.tnris.org/images/statewide_nc.jpg" alt="Statewide mosaic of 2018-2019 NAIP imagery">
+<img class="img-fluid" src="https://cdn.tnris.org/images/statewide_nc.jpg" alt="Statewide mosaic of 2018-2019 NAIP imagery">
 
 * * *
 
@@ -64,8 +64,8 @@ The NAIP 2018-2019 has statewide coverage:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container naip-compare-2018-2019'>
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_nc_1to2200_hwycompare_20181210.jpg" alt="2018 60CM NAIP imagery">
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2016_naip_1m_nc_1to2200_hwycompare_20181210.jpg" alt="2016 1M NAIP Imagery">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_nc_1to2200_hwycompare_20181210.jpg" alt="2018 60CM NAIP imagery">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2016_naip_1m_nc_1to2200_hwycompare_20181210.jpg" alt="2016 1M NAIP Imagery">
 </div>
 <figcaption>Comparison of new 60-cm NAIP (left) with previous 1-meter NAIP (right). SCALE 1:2,200</figcaption>
 </figure>
@@ -78,8 +78,8 @@ The NAIP 2018-2019 has statewide coverage:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_nc_1to26000_irioncounty_20181009.jpg" alt="Natural Color preview of Irion County">
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_cir_1to26000_irioncounty_20181009.jpg" alt="Color infra red of Irion County">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_nc_1to26000_irioncounty_20181009.jpg" alt="Natural Color preview of Irion County">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_cir_1to26000_irioncounty_20181009.jpg" alt="Color infra red of Irion County">
 </div>
 <figcaption>Oil pads in Irion County, SCALE 1:26,000, October 9, 2018</figcaption>
 </figure>
@@ -88,8 +88,8 @@ The NAIP 2018-2019 has statewide coverage:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_nc_1to2700_abia_20181101.jpg" alt="Natural Color preview of AIBA">
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_cir_1to2700_abia_20181101.jpg" alt="Color infra red of AIBA">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_nc_1to2700_abia_20181101.jpg" alt="Natural Color preview of AIBA">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_cir_1to2700_abia_20181101.jpg" alt="Color infra red of AIBA">
 </div>
 <figcaption>Austin-Bergstrom International Airport (AIBA) in Austin, TX,  SCALE 1:2,700,  November 1, 2018</figcaption>
 </figure>
@@ -98,8 +98,8 @@ The NAIP 2018-2019 has statewide coverage:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_nc_1to20000_davismountains-snow_20181214.jpg" alt="Natural Color preview of Davis Mountains">
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_cir_1to20000_davismountains-snow_20181214.jpg" alt="Color infra red of Davis Mountains">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_nc_1to20000_davismountains-snow_20181214.jpg" alt="Natural Color preview of Davis Mountains">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_cir_1to20000_davismountains-snow_20181214.jpg" alt="Color infra red of Davis Mountains">
 </div>
 <figcaption>Snow in the Davis Mountains off Hwy 118, SCALE 1:20,000, December 14, 2018</figcaption>
 </figure>
@@ -108,8 +108,8 @@ The NAIP 2018-2019 has statewide coverage:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_nc_1to2200_austinneighborhood_20181103.jpg" alt="Natural Color preview of Neighborhood in Austin">
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_cir_1to2200_austinneighborhood_20181103.jpg" alt="Color infra red of Neighborhood Austin">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_nc_1to2200_austinneighborhood_20181103.jpg" alt="Natural Color preview of Neighborhood in Austin">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2018-2019_naip_60cm_cir_1to2200_austinneighborhood_20181103.jpg" alt="Color infra red of Neighborhood Austin">
 </div>
 <figcaption>Neighborhood in Austin, TX  SCALE 1:2,200,  November 3, 2018</figcaption>
 </figure>

@@ -146,7 +146,7 @@ If you have something quick to share, come prepared with an idea of what you cou
 ### Mappy Hour at Black Star Co-op
 Join MaptimeATX and ATX-OSG after the GeoRodeo for a 'Mappy' Hour at [Black Star Co-op](https://goo.gl/maps/fyn2u).
 
-<img class="img-responsive" src="https://cdn.tnris.org/images/mappyhour_sm.jpg" alt="Maptimeatx and atx-osg Mappy Hour at black star graphic">
+<img class="img-fluid" src="https://cdn.tnris.org/images/mappyhour_sm.jpg" alt="Maptimeatx and atx-osg Mappy Hour at black star graphic">
 
 
 

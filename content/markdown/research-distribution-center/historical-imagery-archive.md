@@ -17,7 +17,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
 <h3>Online Photo Search</h3>
 <p class="lead"> Customers can perform a <strong>cursory</strong> search of the the TNRIS Historic photo archive and submit an order by using the DataHub.</p>
 <a style="width: 50%; margin-bottom: 10px;" class="btn btn-lg btn-tnris btn-block center-block" href="https://data.tnris.org/catalog/%7B%22filters%22%3A%7B%22category%22%3A[%22Historic_Imagery%22]%7D%7D"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
-<img src="https://cdn.tnris.org/images/historicphotocatalog.jpg" class="img-responsive img-rounded" alt="A historical aerial photo is pulled out of a row of other photos">
+<img src="https://cdn.tnris.org/images/historicphotocatalog.jpg" class="img-fluid img-rounded" alt="A historical aerial photo is pulled out of a row of other photos">
 </div>
 <div class='col-md-6'>
 <h3 style="margin-top: 0;">Historical Imagery Costs</h3>

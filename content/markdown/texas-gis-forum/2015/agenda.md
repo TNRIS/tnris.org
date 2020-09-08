@@ -64,7 +64,7 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <h2><small>Conference</small><br>Wednesday, October 28th</h2>
-  <div class="well well-sm well-dark well-holl">
+  <div class="card card-body well-sm well-dark well-holl">
     <div class="row">
       <div class="col-sm-3 col-md-2">
         9:00 a.m. - 5:00 p.m.
@@ -268,7 +268,7 @@ Note: Agenda and speakers subject to change without notice.
       </div>
     </div>
   </div>
-  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
+  <div class="col-sm-9 col-md-5 offset-sm-3 offset-md-0">
     <h3>
       <small>Session B (Li'l TEX)</small><br>Applied GIS (Putting GIS to Work)
     </h3>
@@ -506,7 +506,7 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   </div>
-  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
+  <div class="col-sm-9 col-md-5 offset-sm-3 offset-md-0">
   <h3><small>Session B (Li'l TEX)</small><br>Innovative Technology (New to You)</h3>
   <div class="agenda-track">
   <div id="one-B-1400-a" class="agenda-track-item media">
@@ -729,7 +729,7 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   </div>
-  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
+  <div class="col-sm-9 col-md-5 offset-sm-3 offset-md-0">
   <h3>
   <small>Session B (Li'l TEX)</small><br>
   State Initiatives (Cool Enough for Government Work)
@@ -811,7 +811,7 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <h2><small>Conference</small><br>Thursday, October 29th</h2>
-  <div class="well well-sm well-dark well-holl">
+  <div class="card card-body well-sm well-dark well-holl">
     <div class="row">
       <div class="col-sm-3 col-md-2">
         9:00 a.m. - 5:00 p.m.
@@ -961,7 +961,7 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   </div>
-  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
+  <div class="col-sm-9 col-md-5 offset-sm-3 offset-md-0">
   <h3><small>Session B (Li'l TEX)</small><br>Online Map Applications (Apps in the Cloud)</h3>
   <div class="agenda-track">
   <div id="two-B-1030-a" class="agenda-track-item media">
@@ -1190,7 +1190,7 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   </div>
-  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
+  <div class="col-sm-9 col-md-5 offset-sm-3 offset-md-0">
   <h3><small>Session B (Li'l TEX)</small><br>Lo-GIS-tics (Keeping Track)</h3>
   <div class="agenda-track">
     <div id="two-B-1400-a" class="agenda-track-item media">

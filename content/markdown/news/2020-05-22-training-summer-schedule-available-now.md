@@ -43,7 +43,7 @@ abstract: In collaboration with our training partners, the 2020 summer schedule 
 
 * * *
 
-<div class="well well-bg">
+<div class="card card-body well-bg">
   <p>
     Contact us about our Education &amp; Training Program.
   </p>

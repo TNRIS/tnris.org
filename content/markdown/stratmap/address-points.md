@@ -52,7 +52,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 
 <h2>Program Flow</h2>
 <p>This iterative program flow will occur throughout the year. At no one time will there be a completed or final version of data as each data source has varying update schedules. Please check each county for the most recent version of data.</p>
-<img src="https://cdn.tnris.org/images/data-circle.jpg" class="img-responsive">
+<img src="https://cdn.tnris.org/images/data-circle.jpg" class="img-fluid">
 <h2>Agency Address Point Uses</h2>
 <p class="lead">Texas State Agencies make extensive use of Address Point data for all types of operations and applications.</p>
 <hr class="clearfix">
@@ -90,7 +90,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 </p>
 </div>
 <div class="col-md-6">
-<img src="https://cdn.tnris.org/images/hhs_logo.jpg" class="center-block img-responsive">
+<img src="https://cdn.tnris.org/images/hhs_logo.jpg" class="center-block img-fluid">
 <p><strong>Health and Human Services Commission (HHSC)</strong></p>
 <ul>
 <li>Determine structures in the path or vicinity of disease outbreak</li>

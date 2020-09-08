@@ -49,14 +49,14 @@
 {% block contentsOne %}
 <div id="contentMain" class="container">
 <div class="row">
-    <div class="col-md-4 col-md-push-8">
+    <div class="col-md-4 order-md-2">
         {% block sidebarLeft %}
             <div class="georodeo-side hidden-xs hidden-sm">
                 {% include "events/georodeo-2019/georodeo-side.njk" %}
             </div>
         {% endblock %}
     </div>
-    <div class="col-md-8 col-md-pull-4 gr-content-2019">
+    <div class="col-md-8 order-md-1 gr-content-2019">
         {{ contents|safe }}
     </div>
 </div>

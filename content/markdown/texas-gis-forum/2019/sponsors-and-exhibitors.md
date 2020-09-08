@@ -132,7 +132,7 @@ Exhibitor Only option is reserved for government agencies, educational instituti
 </div>
 
 <p>
-  <img class="img-responsive pull-right alacarte" src="https://cdn.tnris.org/images/lanyard.png"> Place your company logo on name tag holders that will be worn by each conference attendee for the duration of the conference. The GIS Forum conference management will work with the sponsor to select the badges. The GIS Forum conference committee will produce the badges and will be responsible for the purchase of the badges.
+  <img class="img-fluid pull-right alacarte" src="https://cdn.tnris.org/images/lanyard.png"> Place your company logo on name tag holders that will be worn by each conference attendee for the duration of the conference. The GIS Forum conference management will work with the sponsor to select the badges. The GIS Forum conference committee will produce the badges and will be responsible for the purchase of the badges.
 </p>
 
 **Or provide your own lanyards with your company logo! Send us the lanyards by October 1 to take advantage of this option.**
@@ -142,7 +142,7 @@ Exhibitor Only option is reserved for government agencies, educational instituti
 ### Sponsor a Breakfast
 
 <p>
-  <img class="img-responsive pull-right" src="https://cdn.tnris.org/images/breakfast.jpg">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.
+  <img class="img-fluid pull-right" src="https://cdn.tnris.org/images/breakfast.jpg">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.
 </p>
 
 -   Wednesday - $500 - ~~2 Available~~ 1 Available
@@ -154,7 +154,7 @@ Exhibitor Only option is reserved for government agencies, educational instituti
 ### Sponsor a Lunch
 
 <p>
-  <img class="img-responsive pull-right" src="https://cdn.tnris.org/images/lunch.jpg">During lunch, sponsors will be recognized with prominently displayed posters. Sponsors have the opportunity to place giveaway items on the lunch tables.
+  <img class="img-fluid pull-right" src="https://cdn.tnris.org/images/lunch.jpg">During lunch, sponsors will be recognized with prominently displayed posters. Sponsors have the opportunity to place giveaway items on the lunch tables.
 </p>
 
 -   Wednesday - $750 - 2 Available
@@ -165,7 +165,7 @@ Exhibitor Only option is reserved for government agencies, educational instituti
 ### Sponsor a Coffee Break
 
 <p>
-  <img class="img-responsive pull-right alacarte" src="https://cdn.tnris.org/images/coffee.jpg"> During the coffee breaks, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.
+  <img class="img-fluid pull-right alacarte" src="https://cdn.tnris.org/images/coffee.jpg"> During the coffee breaks, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.
 </p>
 
 -   Wednesday AM - $250 – 2 available

@@ -3,7 +3,7 @@
 
 #_2015-forum-container {
 
-  .well {
+  .card.card-body {
     margin-top: 30px;
   }
 
@@ -295,7 +295,7 @@ img.keynote-portrait {
       text-decoration: none;
     }
 
-    img.img-responsive {
+    img.img-fluid {
 
       @media (max-width: $screen-md) {
           max-width: 50%;
@@ -325,7 +325,7 @@ img.keynote-portrait {
   }
 }
 
-.well.personalize-agenda {
+.card.card-body.personalize-agenda {
   background: $bsinfoblue;
   overflow: auto;
 
@@ -360,7 +360,7 @@ img.keynote-portrait {
     }
 }
 
-.well-holl {
+.card.card-body-holl {
   background: url('https://cdn.tnris.org/images/holl-bg.jpg') 0 0 !important;
 }
 

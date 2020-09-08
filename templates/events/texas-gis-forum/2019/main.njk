@@ -24,10 +24,10 @@
     </div>
     <a href="/texas-gis-forum/2019">
       {% if mainimage %}
-        <img src="{{mainimage}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
+        <img src="{{mainimage}}" class="banner img-fluid hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
       {% endif %}
       {% if mainimagesm %}
-        <img src="{{mainimagesm}}" class="banner img-responsive hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
+        <img src="{{mainimagesm}}" class="banner img-fluid hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
       {% endif %}
     </a>
     {% include "events/texas-gis-forum/2019/nav.njk" %}
@@ -37,7 +37,7 @@
     <div class="container">
       <h2 class="forum-2017-page-title">{{title}}</h2>
 
-      <div class="col-sm-5 col-sm-push-7">
+      <div class="col-sm-5 order-sm-2">
         {% if title == '2019 Texas GIS Forum' %}
           {% include "events/texas-gis-forum/2019/registration.njk" %}
         {% endif %}
@@ -60,7 +60,7 @@
         {% endif %}
       </div>
 
-      <div class="col-sm-7 col-sm-pull-5">
+      <div class="col-sm-7 order-sm-1">
         {% if title == 'Sponsors & Exhibitors' %}
           {% include "events/texas-gis-forum/2019/sponsortext.njk" %}
         {% endif %}

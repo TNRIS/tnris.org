@@ -18,7 +18,7 @@ mainimage: https://cdn.tnris.org/images/stratmap_website_banner_notext.jpg
 </div>
 
 <div class="col-md-4">
-  <div class="well well-md">
+  <div class="card card-body well-md">
     <div class="row">
       <div class="col-md-12">
         <img style="max-width: 150px;" src="https://cdn.tnris.org/images/dir_logo_md.png" alt="Texas Department of Information Resources">

@@ -29,14 +29,14 @@
       </div>
       <a href="/texas-gis-forum/2017">
         {% if mainimage %}
-          <img src="{{mainimage}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
+          <img src="{{mainimage}}" class="banner img-fluid hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
         {% endif %}
         {% if mainimagesm %}
-          <img src="{{mainimagesm}}" class="banner img-responsive hidden-xs hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
+          <img src="{{mainimagesm}}" class="banner img-fluid hidden-xs hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
         {% endif %}
 
         {% if mainimagexs %}
-          <img src="{{mainimagexs}}" class="banner img-responsive hidden-sm hidden-md hidden-lg"  alt="Texas GIS Forum Main Image">
+          <img src="{{mainimagexs}}" class="banner img-fluid hidden-sm hidden-md hidden-lg"  alt="Texas GIS Forum Main Image">
         {% endif %}
       </a>
 
@@ -47,7 +47,7 @@
       <div class="container">
         <h2 class="forum-2017-page-title">{{title}}</h2>
         {% if buttontext %}
-        <div class="col-sm-5 col-sm-push-7">
+        <div class="col-sm-5 order-sm-2">
       {#     {% if title == '2017 Texas GIS Forum' %}
             {% include "events/texas-gis-forum/2017/registration.njk" %}
           {% endif %}
@@ -62,10 +62,10 @@
         </div>
         {% else %}
 
-        <div class="col-sm-5 col-sm-push-7">
+        <div class="col-sm-5 order-sm-2">
         </div>
         {% endif %}
-        <div class="col-sm-7 col-sm-pull-5">
+        <div class="col-sm-7 order-sm-1">
           {% if title == '2016 Texas GIS Forum' %}
               {% include "events/texas-gis-forum/2017/welcome.njk" %}
           {% endif %}

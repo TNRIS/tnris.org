@@ -27,7 +27,7 @@ The results of this ACC Capstone project point to the benefit that playground tr
 <p class="text-center"><strong><i class="glyphicon glyphicon-zoom-in"></i> Click on Image to View full screen</strong></p>
 
 <a href="#full-spot" data-toggle="modal">
-<img class="img-responsive" src="https://cdn.tnris.org/images/1st_place_gillot.jpg" alt="A web preview of 1st Place poster winner" >
+<img class="img-fluid" src="https://cdn.tnris.org/images/1st_place_gillot.jpg" alt="A web preview of 1st Place poster winner" >
 </a>
 
 <div class="modal fade full-spot" id="full-spot" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -38,7 +38,7 @@ The results of this ACC Capstone project point to the benefit that playground tr
         <h3 class="modal-title" id="myModalLabel">1st Place - Do Playgrounds Matter?</h3>
       </div>
       <div class="modal-body">
-        <img class="media-object img-responsive center-block" src="https://cdn.tnris.org/images/1st_place_gillot_full.jpg" alt="A large preview of the image">
+        <img class="media-object img-fluid center-block" src="https://cdn.tnris.org/images/1st_place_gillot_full.jpg" alt="A large preview of the image">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -58,7 +58,7 @@ Shoreline Erosion Rates calculated from aerial photography delineation. Analyzed
 <p class="text-center"><strong><i class="glyphicon glyphicon-zoom-in"></i> Click on Image to View full screen</strong></p>
 
 <a href="#full-spot-2" data-toggle="modal">
-<img class="img-responsive" src="https://cdn.tnris.org/images/2nd_place_kinningham.jpg" alt="A web preview of 2nd Place poster winner" >
+<img class="img-fluid" src="https://cdn.tnris.org/images/2nd_place_kinningham.jpg" alt="A web preview of 2nd Place poster winner" >
 </a>
 
 <div class="modal fade full-spot" id="full-spot-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -69,7 +69,7 @@ Shoreline Erosion Rates calculated from aerial photography delineation. Analyzed
         <h3 class="modal-title" id="myModalLabel">2nd Place - Shoreline Erosion Rate</h3>
       </div>
       <div class="modal-body">
-        <img class="media-object img-responsive center-block" src="https://cdn.tnris.org/images/2nd_place_kinningham_full.jpg" alt="A large preview of the image">
+        <img class="media-object img-fluid center-block" src="https://cdn.tnris.org/images/2nd_place_kinningham_full.jpg" alt="A large preview of the image">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -92,7 +92,7 @@ Describes the history of Texas groundwater.
 <p class="text-center"><strong><i class="glyphicon glyphicon-zoom-in"></i> Click on Image to View full screen</strong></p>
 
 <a href="#full-spot-3" data-toggle="modal">
-<img class="img-responsive" src="https://cdn.tnris.org/images/3rd_place_olden.jpg" alt="A web preview of 3rd Place poster winner" >
+<img class="img-fluid" src="https://cdn.tnris.org/images/3rd_place_olden.jpg" alt="A web preview of 3rd Place poster winner" >
 </a>
 
 <div class="modal fade full-spot" id="full-spot-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -103,7 +103,7 @@ Describes the history of Texas groundwater.
         <h3 class="modal-title" id="myModalLabel">3rd Place - Texas Groundwater Management</h3>
       </div>
       <div class="modal-body">
-        <img class="media-object img-responsive center-block" src="https://cdn.tnris.org/images/3rd_place_olden_full.jpg" alt="A large preview of the image">
+        <img class="media-object img-fluid center-block" src="https://cdn.tnris.org/images/3rd_place_olden_full.jpg" alt="A large preview of the image">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

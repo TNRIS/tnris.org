@@ -26,7 +26,7 @@ buttontext: Register Now!
 </div>
 <div class="col-sm-6 ">  
 <a href="/news/2019-11-04/texas-gis-forum-2019-wrap-up-photo-recap">
-  <img class="img-responsive" src="https://cdn.tnris.org/images/txgisforum2019wrapup_md.jpg" alt="Silohuette of speaker in front of screen, Texas GIS Forum Wrap-Up">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/txgisforum2019wrapup_md.jpg" alt="Silohuette of speaker in front of screen, Texas GIS Forum Wrap-Up">
 </a>
 <h3>Thanks to Our Platinum Sponsors</h3>
   <p>

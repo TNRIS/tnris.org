@@ -22,17 +22,17 @@
     </div>
     <a href="/texas-gis-forum/2018">
       {% if mainimage %}
-        <img src="{{mainimage}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
+        <img src="{{mainimage}}" class="banner img-fluid hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
       {% endif %}
       {% if mainimagesm %}
-        <img src="{{mainimagesm}}" class="banner img-responsive hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
+        <img src="{{mainimagesm}}" class="banner img-fluid hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
       {% endif %}
     </a>
   </div>
   <div class="_2016-forum-intro">
     <div class="container">
       <h2 class="forum-2017-page-title">{{title}}</h2>
-      <div class="col-sm-5 col-sm-push-7">
+      <div class="col-sm-5 order-sm-2">
         {% if title == '2018 Texas GIS Forum' %}
           {% include "events/texas-gis-forum/2018/registration.njk" %}
           {% endif %}
@@ -48,7 +48,7 @@
           {% if title == 'Call for Papers' %}
         {% endif %}
       </div>
-      <div class="col-sm-7 col-sm-pull-5">
+      <div class="col-sm-7 order-sm-1">
         {% if title == 'Sponsors & Exhibitors' %}
             {% include "events/texas-gis-forum/2018/sponsortext.njk" %}
         {% endif %}
@@ -77,7 +77,7 @@
           </p>
           <a class="btn btn-tnris btn-md" href="/texas-gis-forum/2018/job-board">Submit to the Job Board</a>
           <hr class="clearfix">
-          <a href="#co-sponsor-the-forum-social-1000"><img src="https://cdn.tnris.org/images/forum_sponsor_promo.jpg" class="img-responsive" alt="Sponsor the social"></a>
+          <a href="#co-sponsor-the-forum-social-1000"><img src="https://cdn.tnris.org/images/forum_sponsor_promo.jpg" class="img-fluid" alt="Sponsor the social"></a>
         </div>
       {% endif %}
     </div>

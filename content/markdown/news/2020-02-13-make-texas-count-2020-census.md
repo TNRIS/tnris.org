@@ -24,7 +24,7 @@ For several decades, TNRIS partnered with the U.S. Census serving as the stateâ€
 
 While this process is now centralized at the federal level, it still requires partnerships with state governments. But the state has limited resources to promote, educate, and locate hard-to-count communities. However, leaders throughout the state are working hard to ensure an accurate and complete count of Texans in 2020.
 
-<img class="img-responsive" src="https://cdn.tnris.org/images/whycensusmatters.jpg" alt="Why the Census Matters to Texas">
+<img class="img-fluid" src="https://cdn.tnris.org/images/whycensusmatters.jpg" alt="Why the Census Matters to Texas">
 
 Texas Secretary of State Ruth Hughs recently convened a roundtable discussion of state agencies to coordinate efforts with the U.S. Census to achieve a complete count in the state. The secretary of stateâ€™s efforts compliment the ongoing Texas Counts Campaign, a statewide collaboration of community-based and philanthropic organizations spearheaded by the Center for Public Policy Priorities and Community Foundations of Texas.
 
