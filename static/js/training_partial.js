@@ -56,7 +56,7 @@ function retrieveOpenTraining() {
       });
     }
     // update header in template to include this year
-    document.getElementById('education-front-h3').innerHTML = `${thisYear} Training Courses`;
+    document.getElementById('education-front-h3') ? document.getElementById('education-front-h3').innerHTML = `${thisYear} Training Courses` : '';
   })
 }
 
