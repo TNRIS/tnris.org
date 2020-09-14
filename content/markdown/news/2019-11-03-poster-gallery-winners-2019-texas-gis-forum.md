@@ -41,7 +41,7 @@ The results of this ACC Capstone project point to the benefit that playground tr
         <img class="media-object img-fluid mx-auto d-block" src="https://cdn.tnris.org/images/1st_place_gillot_full.jpg" alt="A large preview of the image">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -72,7 +72,7 @@ Shoreline Erosion Rates calculated from aerial photography delineation. Analyzed
         <img class="media-object img-fluid mx-auto d-block" src="https://cdn.tnris.org/images/2nd_place_kinningham_full.jpg" alt="A large preview of the image">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -106,7 +106,7 @@ Describes the history of Texas groundwater.
         <img class="media-object img-fluid mx-auto d-block" src="https://cdn.tnris.org/images/3rd_place_olden_full.jpg" alt="A large preview of the image">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

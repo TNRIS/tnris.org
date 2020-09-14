@@ -1,4 +1,5 @@
 .stratmap-bar {
+  margin-bottom: 1rem;
   background: $darkgrey;
   font-size: 20px;
 
@@ -82,11 +83,13 @@
 
 .card.card-body.vendor-box {
   @media (min-width: $screen-sm) {
-    min-height: 250px;
+    min-height: 275px;
+    margin-bottom: 1rem;
   }
 
   @media (min-width: $screen-md) {
-    min-height: 200px;
+    min-height: 250px;
+    margin-bottom: 1rem;
   }
 
   li {

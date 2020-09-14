@@ -190,7 +190,7 @@ Note: Agenda and speakers subject to change without notice.
                 </p>
              </div>
              <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
              </div>
            </div>
         </div>
@@ -229,7 +229,7 @@ Note: Agenda and speakers subject to change without notice.
               <p><strong>Presenter Bio:</strong><br><em>Frank Obusek</em> is an Applications Engineer with Hexagon Geospatial.  He has a Master’s degree in Geology from Bowling Green State University in Ohio. Frank has worked in the field of remote sensing since the mid-90s.  He has worked with all sectors of government and many private industry vendors, including owning his own small business.  Frank’s expertise includes photogrammetry, image processing, feature extraction, landcover classification and 3D visualization.</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -261,7 +261,7 @@ Note: Agenda and speakers subject to change without notice.
               <p><strong>Presenter Bio:</strong><br><em>Joe Mostowy</em> has been with Hexagon Geospatial (formerly ERDAS Inc.) for over fifteen years working in various positions in technical sales, marketing and product management roles.  He is currently a Senior Software Consultant for geospatial products specializing in UAV and Photogrammetry. Joe has been a technical liaison across departments engineering solutions to support sales efforts, for clients and ensuring engineering is receiving the proper requirements.  Joe holds a Bachelor of Arts in Geography and Psychology from Lakehead University in Thunder Bay Ontario along with an Advanced Diploma in Remote Sensing/GIS from COGS in Lawrencetown, Nova Scotia, Canada.</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -305,7 +305,7 @@ Note: Agenda and speakers subject to change without notice.
              <p>He previously served as Vice President and Director of the Environmental Program at the Houston Advanced Research Center (HARC). He also served on the faculty of the Department of Civil Engineering at Louisiana State University where he was Associate Professor and Associate Director of the Remote Sensing and Image Processing Laboratory.</p>
            </div>
            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
            </div>
         </div>
       </div>
@@ -335,7 +335,7 @@ Note: Agenda and speakers subject to change without notice.
             <p><strong>Presenter Bio:</strong><br><em>Kim Paxton</em>, GISP and Support Engineer for Intrado, has been actively involved with the Public Safety 9-1-1 community for the past eight years.  With over 28 years experience in mapping and GIS, Kim is also a past 9-1-1 Coordinator, State of Florida E9-1-1 Board Member and Treasurer for the Florida NENA Executive Board.  She has been instrumental in implementing numerous Enterprise GIS Solutions, Geospatial Mapping, and 9-1-1 applications. Her expertise brings a broad perspective to the application of GIS solutions exclusively for 9-1-1 agencies.</p>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
         </div>
       </div>
@@ -367,7 +367,7 @@ Note: Agenda and speakers subject to change without notice.
     <p><strong>Presenter Bio:</strong><br><em>Devon Humphrey</em> has worked with emerging technologies for GIS for over 25 years. This includes State &amp; Local Government at both Lee County and Texas General Land Office, ESRI, ESRI Partner Company Geowarehouse, and now Waypoint Mapping. Waypoint is focused on GIS consulting for emergency management and critical infrastructure organizations. Devon has also taught GIS for Emergency Response at Texas A&amp;M University Corpus Christi for the past 21 years.</p>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
         </div>
       </div>
@@ -436,7 +436,7 @@ Note: Agenda and speakers subject to change without notice.
           <p><em>Alex Sun </em>is a computational hydrologist with the Bureau of Economic Geology at University of Texas at Austin. He received his Ph.D and MS in civil and environmental engineering from the University of California at Berkeley. He has extensive experience and strong interests in developing decision support systems using open-source technologies.</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -467,7 +467,7 @@ Note: Agenda and speakers subject to change without notice.
             <p><strong>Presenter Bio:</strong><br><em>Andy Eschbacher</em> is a physicist turned educator turned map scientist. At CartoDB he wears many hats. From finding out how to make web maps more scientific with hacks on open source software, to developing educational content, to sharing and learning from the diverse online mapping community, he and his colleagues keep very busy.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
       </div>
     </div>
@@ -499,7 +499,7 @@ Note: Agenda and speakers subject to change without notice.
   <p> <em>Phillip Davis, EdD</em> serves as project manager for the GIS program at Del Mar College.  He recently served as Director of the GeoTech Center (2008-2013) and is currently serving as the Project Manager for the National Information, Security and Geospatial Technology Consortium at Del Mar College.  In this role he is responsible for the creation of this GST 101 course and four others that make the Model GIS Curriculum now used in colleges nationwide.  His research interest is in the use and promotion of open source software solutions for GIS and higher education.</p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
@@ -535,7 +535,7 @@ Note: Agenda and speakers subject to change without notice.
           <p><em>Brady Hustad</em> is Director of Product and Business Development at Astadia, working to identify the full extent of solutions we can offer our customers by leveraging the technologies and products of our partners.  Brady has 20 years of experience in application and web development, architecture and software development with expertise ranging from cryptography to expert systems.  For the past 15 years, Brady has focused on spatial mapping systems, working with Esri, MapInfo, Google and Bing Maps and others.  With over 400 successful mapping applications delivered, Brady now helps guide Astadia to find and deliver innovative solutions to our customers across numerous industries.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -564,7 +564,7 @@ Note: Agenda and speakers subject to change without notice.
           <p>Now, there have been several advances in cloud computing and new research in algorithms for managing large volumes of data.  Fusing these two enhancements together provides a practical, reliable and convenient alternative to the distribution of these datasets, while reducing the process friction of the traditional approach.  In this talk, we will outline how such solutions are developed using real-life examples drawn from the need to collaboratively and interactively assess the quality of both imagery and LiDAR data.</p>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
         </div>
       </div>
@@ -599,7 +599,7 @@ Note: Agenda and speakers subject to change without notice.
             </p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -650,7 +650,7 @@ Note: Agenda and speakers subject to change without notice.
             <p>In October 2002, the USGS Texas Water Science Center, in cooperation with the Texas Natural Resources Information System, embarked on a project to digitize all 38 Geologic Atlas of Texas hardcopy map sheets (UT-Bureau of Economic Geology) and compile them into a single, stand-alone database. Completed in 2007, the project resulted in a rich, digital dataset containing more than 145,000 geologic features in Texas and portions of neighboring states.  The presentation will cover the entire life cycle of the project from data production, to application development and the use of social media outreach tools, as well as the public response</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
     </div>
@@ -685,7 +685,7 @@ Note: Agenda and speakers subject to change without notice.
               </p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -722,7 +722,7 @@ Note: Agenda and speakers subject to change without notice.
           <p><em>Cole Howard</em> is the GIS Systems Analyst at DrillingInfo.  He graduated from Lamar University with a B.S. in Political Science and earned his GIS Certification from Austin Community College. His experience with ArcGIS &amp; Open-Source software, programming languages, and relational database management systems is used to align and integrate DrillingInfo’s GIS department with our Information Technology and Configuration Management teams. He is responsible for the architecture and administration of our GIS Systems and Geospatial Web Services.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -759,7 +759,7 @@ Note: Agenda and speakers subject to change without notice.
             <p><strong>Presenter Bio:</strong><br><em>Kyle Campbell</em> has spent the last 20 years as a Technology Consultant specializing in Mobility, Wireless, Security and Geospatial Solutions.  During is career he has held positions at AT&T, Motorola, Internet Security Systems and Google.  Kyle has spent most of his career has been interfacing with State and Local customers.  Currently Kyle is the US Sales Lead for Google's Imagery Products for the US Public Sector.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
     </div>
@@ -788,7 +788,7 @@ Note: Agenda and speakers subject to change without notice.
           <div class="modal-body"><p>In developing TxCoasts.com, we utilized existing in-house expertise and tools to create a self-contained, dynamic, interactive, and platform-agnostic Web application. We faced numerous decision points during development that shaped the overall project.  This presentation will highlight some of the challenges and the team that worked on the project.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
       </div>
     </div>
@@ -892,7 +892,7 @@ Note: Agenda and speakers subject to change without notice.
           <p><strong>Presenter Bios:</strong><br><em>Robert Dzur</em> joined Bohannan Huston, Inc. (BHI) in 2004 and serves the company as a project manager responsible for the execution of a wide variety of GIS, remote sensing, and photogrammetric mapping projects.  Prior to coming to Albuquerque, NM, Mr. Dzur spent nearly 4 years working in Bolivia as an international technical consultant managing cadastral mapping development projects.  Mr. Dzur has a Bachelor's degree from the University of Arkansas where he completed a double major in Geography and Spanish. He also completed his Master's degree in Geography at the University of Arkansas and holds a current GISP certification.</p>
           </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
@@ -923,7 +923,7 @@ Note: Agenda and speakers subject to change without notice.
           <p><strong>Presenter Bios:</strong><br><em>Harold Rempel</em> began his mapping career in the Marine Corps as an intelligence analyst working with multiple, remote sensing technologies and developing data fusion products to provide critical and effective intelligence. After joining the private industry in 1997, Mr. Rempel became experienced in all phases of photogrammetric mapping, to include: aerial data acquisition, control surveys, aerial triangulation, stereo map compilation, orthophotography, IFSAR, and LiDAR acquisition and processing.  He has extensive project management and production experience with various state, federal, and local government projects as well as multi-year statewide and federal agency programs.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
               </div>
             </div>
@@ -954,7 +954,7 @@ Note: Agenda and speakers subject to change without notice.
           <p><strong>Presenter Bio:</strong><br><em>James Wilder Young C.P.(Jamie)</em> is currently a Sensor Geomatics Technologist for Merrick &amp; Co. located in Greenwood Village, Colorado. His experience includes all aspects of LiDAR including sensor development, applications development, data acquisition, data processing and project management.</p>
           </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
@@ -986,7 +986,7 @@ Note: Agenda and speakers subject to change without notice.
       <hr>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -1016,7 +1016,7 @@ Note: Agenda and speakers subject to change without notice.
           <p><strong>Presenter Bio:</strong><br><em>Santiago Giraldo Anduaga</em> is a Map Scientist for web-based GIS platform CartoDB. With professional training in urban design, information science, and environmental science, Santiago's notable achievements have included research and design projects for the Environmental Protection Agency, The Museum of Modern Art's Uneven Growth: Tactical Urbanism for Rapidly Expanding mega Cities Exhibit, and international intensive workshops in partnership with Docile Spaces Collective in Naples and Stalker Labs in Rome among many others. Published and recognized internationally for his investigations of public spaces and design, Santiago has sought to be a leader in working within and co-creating new ways of using and understanding geographic information systems for a broad range of professions and project applications.</p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
@@ -1047,7 +1047,7 @@ Note: Agenda and speakers subject to change without notice.
           <p><strong>Presenter Bio:</strong><br><em>Kate Hickey</em> a Vice President and the Director of Local Government Services at Applied Geographics (www.appgeo.com) where she has devoted more than a decade to managing GIS planning and application development projects and to expanding the uses of geospatial technology in county and municipal government.</p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
@@ -1114,7 +1114,7 @@ Note: Agenda and speakers subject to change without notice.
           <p><strong>Presenter Bio:</strong><br><em>Kate Hickey</em> is originally from Norwich, Vermont and came to Texas to attend Texas A&amp;M University in College Station. She graduated from A&amp;M in May of 2013 with a BS degree in Geography, with a concentration in GIS. She began working for the City of Temple shortly after graduation and has been with the City for just over two years. She works in the Mapping Dept. in Public Works assisting all other departments with their mapping needs.</p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
@@ -1149,7 +1149,7 @@ Note: Agenda and speakers subject to change without notice.
           <p><em>Dr. Samuel Brody</em> - Professor; Director for Center for Texas Beaches and Shores, Texas A&amp;M University Galveston, Marine Sciences. Research focus: hazard mitigation and spatial statistics.</p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
@@ -1183,7 +1183,7 @@ Note: Agenda and speakers subject to change without notice.
           </p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
@@ -1222,7 +1222,7 @@ Note: Agenda and speakers subject to change without notice.
               <p><em>Dr. Jeff Jordan</em> is a Senior Research Associate at the Institute for Demographic and Socioeconomic Research.  He has been involved in numerous research projects that investigate the relationship between demography and various other socioeconomic issues in Texas including transportation, energy, education, criminal justice, and social services.  Dr. Jordan received a Ph.D. in cognitive psychology in 1997 from Texas A&amp;M University.</p>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
         </div>
       </div>
@@ -1253,7 +1253,7 @@ Note: Agenda and speakers subject to change without notice.
             <p><em>John Clary</em> is a geospatial analyst with the Austin Code Department. He specializes in web mapping, data visualization, and process automation.</p>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
         </div>
       </div>
@@ -1288,7 +1288,7 @@ Note: Agenda and speakers subject to change without notice.
     <p><strong>Presenter Bio:</strong><br><em>Tim Williams</em> is a seasoned technology veteran, with a broad spectrum of experience ranging from designing chips at IBM, to a 5-year stint on video compression in Silicon Valley, to turning around Flytxt, a mobile marketing enterprise software solutions provider in India. Prior to what3words he headed business development at Shutl culminating in its sale to eBay at the end of 2013. Tim is a keen road cyclist and has more navigation apps than shirts. Tim is responsible for business development at what3words, working with businesses and large organisations to deliver the benefits of what3words’ universal addressing solution.</p>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
         </div>
       </div>

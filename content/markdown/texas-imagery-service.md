@@ -116,19 +116,19 @@ Yes. Your initial annual cost will begin at the lowest tier for your government 
 
 Click on the button for your GIS software to learn how to add the imagery service.
 
-<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" class="btn btn-default btn-lg">ArcMap</a>
+<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" class="btn btn-secondary btn-lg">ArcMap</a>
 
-<a href="https://cdn.tnris.org/documents/WMS2Pro.pdf" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-"></i>ArcGIS Pro</a>
+<a href="https://cdn.tnris.org/documents/WMS2Pro.pdf" class="btn btn-secondary btn-lg"><i class="glyphicon glyphicon-"></i>ArcGIS Pro</a>
 
-<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-default btn-lg">ArcGIS Online</a>
+<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-secondary btn-lg">ArcGIS Online</a>
 
-<a href="http://www.bluemarblegeo.com/knowledgebase/global-mapper/index.htm" class="btn btn-default btn-lg">GlobalMapper</a>
+<a href="http://www.bluemarblegeo.com/knowledgebase/global-mapper/index.htm" class="btn btn-secondary btn-lg">GlobalMapper</a>
 
-<a href="http://knowledge.autodesk.com/support/autocad-map-3d/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/MAP3D-Use/files/GUID-A9F620AD-6B9A-487D-9B33-7D365307D571-htm.html" class="btn btn-default btn-lg">AutoCAD MAP 3D</a>
+<a href="http://knowledge.autodesk.com/support/autocad-map-3d/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/MAP3D-Use/files/GUID-A9F620AD-6B9A-487D-9B33-7D365307D571-htm.html" class="btn btn-secondary btn-lg">AutoCAD MAP 3D</a>
 
-<a href="http://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" class="btn btn-default btn-lg">AutoCAD CIVIL 3D 2013</a>
+<a href="http://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" class="btn btn-secondary btn-lg">AutoCAD CIVIL 3D 2013</a>
 
-<a href="https://cdn.tnris.org/documents/MicroStationGoogleWMSDemo.pdf" class="btn btn-default btn-lg">MicroStation</a>
+<a href="https://cdn.tnris.org/documents/MicroStationGoogleWMSDemo.pdf" class="btn btn-secondary btn-lg">MicroStation</a>
 
 -----
 
@@ -251,7 +251,7 @@ No. Your current links should be updated automatically and always reflect the la
 
 ## What if I see errors or inconsistencies in the imagery?  How should I report it and to whom do I report it?
 Use the button below to go to the Questions and Feedback form located on this page.
-<a class="btn btn-default btn-lg smooth-scroll" href="/texas-imagery-service#contact-pm">
+<a class="btn btn-secondary btn-lg smooth-scroll" href="/texas-imagery-service#contact-pm">
 <i class="glyphicon glyphicon-question-sign"></i> General Questions or Feedback
 </a>
 
@@ -266,7 +266,7 @@ The map service tiles are  Web Mercator EPSG:3857.
 
 ## Can I download or get a physical copy of the original image that is in the service?
 Yes.  Individual agencies may download the imagery for use within the agency only. To learn more about downloading imagery, please contact TNRIS.
-<a class="btn btn-default btn-lg smooth-scroll" href="/texas-imagery-service#contact-pm">
+<a class="btn btn-secondary btn-lg smooth-scroll" href="/texas-imagery-service#contact-pm">
 <i class="glyphicon glyphicon-question-sign"></i> General Questions or Feedback
 </a>
 

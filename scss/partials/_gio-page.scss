@@ -207,6 +207,7 @@
 // nav bar
 
 .gio-bar {
+  margin-bottom: 1rem;
   background: $black;
   border-radius: 0;
   font-size: 20px;
@@ -246,6 +247,9 @@ hr.noMarg {
 #gioBios {
   h3 {
     margin-top: 0;
+  }
+  img {
+    padding: 1rem
   }
 }
 

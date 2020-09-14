@@ -27,7 +27,7 @@
   ]
 %}
 
-<section class="container">
+<section class="row mx-auto container">
   <div class="col-sm-8">
     <p class="lead">StratMap was originally established in 1997 by Senate Bill 1 to <strong>develop consistent statewide digital data layers</strong>. Since then, its primary goal has been to acquire and improve digital geographic data for statewide mapping applications.</p>
     <p class="lead">
@@ -77,7 +77,7 @@
                       {% endif %}
                       {{item.name|safe}}</h3>
                     <p>{{item.description}}</p>
-                    <a class="btn btn-default" href="{{item.link}}" role="button">{{item.button_text|safe}} <span class="glyphicon glyphicon-chevron-right"></a>
+                    <a class="btn btn-secondary" href="{{item.link}}" role="button">{{item.button_text|safe}} <span class="glyphicon glyphicon-chevron-right"></a>
                 </div>
             </div>
         </div>
