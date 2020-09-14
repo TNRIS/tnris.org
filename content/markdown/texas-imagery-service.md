@@ -144,7 +144,7 @@ Download a slideshow tutorial for this process below:
 
 ## The Texas Imagery Service now contains layers by year. What are these new layers?
 
-<p><figure class="pull-right"><img alt="A view of the layers in ArcMap" src="https://cdn.tnris.org/images/googlelayers_arcmap.jpg">
+<p><figure class="float-right"><img alt="A view of the layers in ArcMap" src="https://cdn.tnris.org/images/googlelayers_arcmap.jpg">
 <figcaption>A view of the layers in ArcMap</figcaption>
 </figure>There are several layers in the WMTS and WMS Texas Imagery Service. The “Texas” layer contains the most current imagery available for Texas. As new imagery become available for 'block' areas in Texas (Ex. Dallas, Houston, etc), the older imagery are placed into the yearly layers depending on the year the imagery was flown. For example, the Austin block in the ‘texas-2016’ layer shows imagery flown in 2016 because this block was updated with imagery flown in 2017 represented in the ‘Texas’ layer.</p>
 

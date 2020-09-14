@@ -48,7 +48,7 @@ Inform TeachMeGIS at least one week in advance that you will register to partici
 
 Contact TeachMeGIS to let them know you’re interested in taking a class virtually.
 
-<a style="width: 50%" class="btn btn-lg btn-tnris center-block" href="mailto:sales@teachmegis.com">Email TeachMeGIS</a>
+<a style="width: 50%" class="btn btn-lg btn-tnris mx-auto d-block" href="mailto:sales@teachmegis.com">Email TeachMeGIS</a>
 
 ### GISP Exam Preparation Course
 

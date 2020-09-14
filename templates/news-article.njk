@@ -12,7 +12,7 @@
 
         {% if mainimage %}
         <figure>
-          <img class="media-object img-fluid center-block" src="{{mainimage}}" alt="{{imagealt}}">
+          <img class="media-object img-fluid mx-auto d-block" src="{{mainimage}}" alt="{{imagealt}}">
 
         {% if mainimagecaption %}
           <figcaption>{{mainimagecaption}}<figcaption>
@@ -39,7 +39,7 @@
                   <time>{{news_item.date|prettyDate}}</time>
                   <h3 class="media-heading">
                   <a href="{{news_item.preserved}}">{{news_item.title}}</a></h3>
-                  <p class="hidden-md hidden-lg">
+                  <p class="d-md-none d-lg-none">
                     {{news_item.description}}
                   </p>
                 </div>

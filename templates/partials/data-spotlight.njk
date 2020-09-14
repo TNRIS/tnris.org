@@ -1,5 +1,5 @@
 <div id="dataSpot">
-        <div class="spotText hidden-md">
+        <div class="spotText d-md-none">
           <i class="glyphicon glyphicon-eye-open"></i> A closer look at featured data and maps from our own catalog and other sources.
         </div>
         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false" keyboard="true">
@@ -12,7 +12,7 @@
           <div class="carousel-inner" role="listbox">
             {% for spotlight in spotlights %}
               {% if loop.index <=4 %}
-                <div class="item">
+                <div class="carousel-item">
                   <a href="{{spotlight.preserved}}">
                     <img class="media-object" src="{{spotlight.thumb}}" alt="...">
                     <h4>

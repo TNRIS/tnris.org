@@ -8,7 +8,7 @@ abstract:
 tags: GIO, Data Sharing, GIS, Geospatial, DIR, DCS
 ---
 
-<p class="lead"><a href="https://dir.texas.gov/"><img class="pull-right" src="https://cdn.tnris.org/images/dir_logo_med.jpg" alt="DIR Logo and link to website"></a>
+<p class="lead"><a href="https://dir.texas.gov/"><img class="float-right" src="https://cdn.tnris.org/images/dir_logo_med.jpg" alt="DIR Logo and link to website"></a>
 The Texas Natural Resources Information System, along with the <a href="https://dir.texas.gov/View-About-DIR/Data-Center/Landing.aspx">Texas Department of Information Resources</a>, established the <strong>Data Center Services (DCS) GIS Solutions Group</strong> to help address the complexities of geographic information systems in the state. The Solutions Group provides a platform for sharing information and making unified decisions that will better serve geographic information departments at state agencies. The DCS GIS Solutions Group meets monthly.</p>
 
 ## Data Governance Model
@@ -79,19 +79,19 @@ The first meeting of the DCS GIS Solutions Group was held on March 25, 2015 with
       </div>
    </div>
     <div class="row">
-      <div class="col-xs-4">
+      <div class="col-4">
         <span class="glyphicon glyphicon-arrow-down associate"></span>
         <a class="gio-agency" href="http://www.tpwd.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/tpwd_logo.jpg" alt="Texas Parks and Wildlife Logo and Link to website">
         </a>
       </div>
-        <div class="col-xs-4">
+        <div class="col-4">
         <span class="glyphicon glyphicon-arrow-down associate"></span>
         <a class="gio-agency" href="https://www.dps.texas.gov/">
           <img class="img-fluid" src="https://cdn.tnris.org/images/tx_dps_logo.jpg" alt="Texas Department of Public Safety Logo and Link to website">
         </a>
       </div>
-      <div class="col-xs-4">
+      <div class="col-4">
         <span class="glyphicon glyphicon-arrow-down associate"></span>
         <a class="gio-agency" href="http://www.glo.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/glo_logo.jpg" alt="Texas General Land Office (GLO) Logo and Link to website">

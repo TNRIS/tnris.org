@@ -109,9 +109,9 @@
 {% for item in contract_vendors %}
   <div class="col-sm-6">
     {% if item.status == 'unavailable' %}
-    <div class="thumbnail vendor-box unavailable">
+    <div class="card card-body vendor-box unavailable">
     {% else %}
-      <div class="thumbnail vendor-box">
+      <div class="card card-body vendor-box">
     {% endif %}
           <a href="{{item.vendor_home_url}}"><img class="img-fluid" src="{{item.logo_url}}" alt="Logo and home page for {{item.name}}"></a>
           <div class="caption">

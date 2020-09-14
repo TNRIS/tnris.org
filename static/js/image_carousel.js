@@ -16,7 +16,7 @@
 //     var dataCount = data.count;
 //     var noCarouselImages =
 //       `
-//       <div class="item active">
+//       <div class="carousel-item active">
 //         <img class="image" src="https://cdn.tnris.org/images/cactus1_21:9.jpg" alt="">
 //       </div>
 //       `;

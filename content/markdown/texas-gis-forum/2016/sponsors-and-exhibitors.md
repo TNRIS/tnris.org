@@ -110,7 +110,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 
  
 ### Sponsor a Breakfast
-<p><img class="img-fluid pull-right" src="https://cdn.tnris.org/images/breakfast.jpg">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
+<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/breakfast.jpg">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
 
 - Wednesday - $750
 - Thursday - $750
@@ -119,7 +119,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 
 ### Sponsor a Coffee Break
 
-<p><img class="img-fluid pull-right" src="https://cdn.tnris.org/images/coffee.jpg"> During the Coffee break, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
+<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/coffee.jpg"> During the Coffee break, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
 
 - Wednesday AM - $500
 - Wednesday PM - $500
@@ -129,7 +129,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 ****
  
 ### Sponsor a Lunch
-<p><img class="img-fluid pull-right" src="https://cdn.tnris.org/images/lunch.jpg">During Lunch, sponsors will be recognized with prominently displayed posters. Sponsor has the opportunity to place giveaway items on the lunch tables.</p>
+<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/lunch.jpg">During Lunch, sponsors will be recognized with prominently displayed posters. Sponsor has the opportunity to place giveaway items on the lunch tables.</p>
 
 - <s>Wednesday - $750</s> Sold Out
 - <s>Thursday - $750</s> Sold Out
@@ -137,7 +137,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 ****
 
 ### Sponsor a Keynote  
-<p><img class="img-fluid pull-right" src="https://cdn.tnris.org/images/podium.jpg">Keynote sponsor has the opportunity to introduce the speaker.</p>
+<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/podium.jpg">Keynote sponsor has the opportunity to introduce the speaker.</p>
 
 - Wednesday - Robert Ballard - $2500
 - Thursday Morning - $1500

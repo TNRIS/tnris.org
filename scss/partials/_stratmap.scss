@@ -10,7 +10,7 @@
 
 .stratmap-project {
 
-    .thumbnail {
+    .card.card-body{
       border: none;
     }
 
@@ -80,7 +80,7 @@
   }
 }
 
-.thumbnail.vendor-box {
+.card.card-body.vendor-box {
   @media (min-width: $screen-sm) {
     min-height: 250px;
   }

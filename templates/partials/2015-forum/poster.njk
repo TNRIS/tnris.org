@@ -19,18 +19,18 @@
     <div class="container-fluid full">
       <div class="top-container">
           {% if mainimage %}
-          <div class="hidden-sm hidden-xs">
+          <div class="d-sm-none d-none">
             <img src="{{mainimage}}" class="banner img-fluid" alt="Texas GIS Forum Main Image">
           </div>
           {% endif %}
           {% if mainimagesm %}
-          <div class="hidden-xs hidden-md hidden-lg">
+          <div class="d-none d-md-none d-lg-none">
             <img src="{{mainimagesm}}" class="banner img-fluid" alt="Texas GIS Forum Main Image">
           </div>
           {% endif %}
 
           {% if mainimagexs %}
-          <div class="hidden-sm hidden-md hidden-lg">
+          <div class="d-sm-none d-md-none d-lg-none">
             <img src="{{mainimagexs}}" class="banner img-fluid" alt="Texas GIS Forum Main Image">
           </div>
           {% endif %}

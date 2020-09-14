@@ -23,167 +23,167 @@ Finally, be sure to **save the dates for next year, October 19-23, 2020**, when 
 
 <div class="row">
      <a href="https://cdn.tnris.org/images/003_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Deputy Executive Administrator of TNRIS and GIO Richard Wade kicks off the Conference">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/003_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/003_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/004_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Deputy Executive Administrator of TNRIS and GIO Richard Wade kicks off the Conference">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/004_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/004_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/005_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Keynote Speaker - Leon Logothetis, Host of 'The Kindness Diaries'">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/005_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/005_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/006_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Keynote Speaker - Leon Logothetis, Host of 'The Kindness Diaries'">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/006_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/006_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/007_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="The crowd stands after Leon Logothetis asks if their lives have ever been changed by another person">
-            <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/007_2019_forum.jpg">
+            <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/007_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/008_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="An audience member tells Leon what it's like to feel abandoned">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/008_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/008_2019_forum.jpg">
     </a>
 </div>
 <div class="row">  
   <a href="https://cdn.tnris.org/images/001_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Richard Wade and TWDB Chairman of the Board Peter Lake">
-      <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/001_2019_forum.jpg">
+      <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/001_2019_forum.jpg">
   </a>
     <a href="https://cdn.tnris.org/images/002_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="TWDB Chairman of the Board Peter Lake Loving the Camera">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/002_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/002_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/009_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/009_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/009_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/010_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the TNRIS Booth">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/010_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/010_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/011_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the SCAUG Booth">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/011_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/011_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/012_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the Surdex Booth">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/012_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/012_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/013_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the Fugro Booth">
-            <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/013_2019_forum.jpg">
+            <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/013_2019_forum.jpg">
         </a>
     <a href="https://cdn.tnris.org/images/014_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the Tyler Technologies Booth">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/014_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/014_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/015_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Poster Gallery & Contest">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/015_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/015_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/016_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Poster Gallery & Contest">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/016_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/016_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/017_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Poster Gallery & Contest">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/017_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/017_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/018_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="TWDB Executive Administrator Jeff Walker Admires a Poster">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/018_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/018_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/019_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the AECOM Booth">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/019_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/019_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/020_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the KCI Booth">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/020_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/020_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/021_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the Tesselations Booth">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/021_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/021_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/022_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the Miller Booth">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/022_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/022_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/023_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/023_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/023_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/024_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the TNRIS Booth">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/024_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/024_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/025_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="StratMap celebrates 10 years of the StratMap Contract">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/025_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/025_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/027_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Esri shares how important the DIR contracts are to them">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/027_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/027_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/028_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="The Big Tex Auditorium filled with Attendees">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/028_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/028_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/029_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Harold Rogers, Bureau of Economic Geology presents in Lil Tex">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/029_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/029_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/030_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="DIR talks about the Cooperative Contracts">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/030_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/030_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/031_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="DIR talks about the Cooperative Contracts">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/031_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/031_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/033_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Esri Platinum Demonstration">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/033_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/033_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/035_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/035_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/035_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/035_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/035_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/035_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/038_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Esri Hands On Learning Lab">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/038_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/038_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/037_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Esri Hands On Learning Lab">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/037_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/037_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/039_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the Merrick Booth">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/039_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/039_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/043_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="At the USGS Booth">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/043_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/043_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/040_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Checking out printed maps at Miller Booth">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/040_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/040_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/044_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Keith Dailey of Bexar County Appraisal District">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/044_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/044_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/045_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Archaelogical Field School at Palo Duro Canyon">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/045_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/045_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/046_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Michael Shensky of UT Austin Libraries">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/046_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/046_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/047_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Catching up outside Big Tex">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/047_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/047_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/048_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/048_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/048_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/049_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Carpe Geo Panel with moderator Bill Johnson">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/049_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/049_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/050_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day 1 - Wednesday, October 23" data-footer="Molly Schar on the Carpe Geo Panel">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/050_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/050_2019_forum.jpg">
     </a>
 </div>
 
@@ -191,51 +191,51 @@ Finally, be sure to **save the dates for next year, October 19-23, 2020**, when 
 
 <div class="row">
     <a href="https://cdn.tnris.org/images/052_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/052_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/052_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/053_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/053_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/053_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/054_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/054_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/054_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/055_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/055_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/055_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/056_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/056_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/056_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/057_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/057_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/057_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/058_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/058_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/058_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/059_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/059_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/059_2019_forum.jpg">
     </a>    
     <a href="https://cdn.tnris.org/images/060_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/060_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/060_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/063_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/063_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/063_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/062_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/062_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/062_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/061_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/061_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/061_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/051_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Wednesday Evening Forum Social">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/051_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/051_2019_forum.jpg">
     </a>
 </div>
 
@@ -243,124 +243,124 @@ Finally, be sure to **save the dates for next year, October 19-23, 2020**, when 
 
 <div class="row">
     <a href="https://cdn.tnris.org/images/067_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" data-footer="A makeshift sign announces Leslie Sweet from H-E-B, who stepped in for Justen Noakes">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/067_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/067_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/keynote_leslie_sweet_1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" data-footer="Keynote Leslie Sweet, from H-E-B">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/keynote_leslie_sweet_1.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/keynote_leslie_sweet_1.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/keynote_leslie_sweet_2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" data-footer="Keynote Leslie Sweet, from H-E-B">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/keynote_leslie_sweet_2.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/keynote_leslie_sweet_2.jpg">
     </a>
 </div>
 
 <div class="row">
     <a href="https://cdn.tnris.org/images/064_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/064_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/064_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/065_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/065_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/065_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/066_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/066_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/066_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/068_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/068_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/068_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/069_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/069_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/069_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/070_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/070_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/070_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/071_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/071_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/071_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/072_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/072_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/072_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/073_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/073_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/073_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/074_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/074_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/074_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/075_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/075_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/075_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/076_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/076_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/076_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/077_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/077_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/077_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/078_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/078_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/078_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/079_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/079_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/079_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/080_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/080_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/080_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/082_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/082_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/082_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/081_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/081_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/081_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/083_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/083_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/083_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/084_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/084_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/084_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/085_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/085_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/085_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/086_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/086_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/086_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/087_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/087_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/087_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/088_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/088_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/088_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/089_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/089_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/089_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/091_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/091_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/091_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/092_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/092_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/092_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/093_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/093_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/093_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/094_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/094_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/094_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/095_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="Conference Day Two - Thursday, October 24" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/095_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/095_2019_forum.jpg">
     </a>
 </div>
 
@@ -368,39 +368,39 @@ Finally, be sure to **save the dates for next year, October 19-23, 2020**, when 
 
 <div class="row">
     <a href="https://cdn.tnris.org/images/099_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="State of the State - Friday, October 25">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/099_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/099_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/098_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="State of the State - Friday, October 25">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/098_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/098_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/096_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="State of the State - Friday, October 25" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/096_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/096_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/097_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="State of the State - Friday, October 25">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/097_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/097_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/100_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="State of the State - Friday, October 25">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/100_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/100_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/101_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="State of the State - Friday, October 25" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/101_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/101_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/102_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="State of the State - Friday, October 25">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/102_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/102_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/103_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="State of the State - Friday, October 25">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/103_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/103_2019_forum.jpg">
     </a>
     <a href="https://cdn.tnris.org/images/104_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="State of the State - Friday, October 25" >
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/104_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/104_2019_forum.jpg">
     </a>
 </div>
 <div class="row">
     <a href="https://cdn.tnris.org/images/105_2019_forum.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" data-title="State of the State - Friday, October 25">
-        <img class="thumbnail img-fluid" src="https://cdn.tnris.org/images/105_2019_forum.jpg">
+        <img class="card card-body img-fluid" src="https://cdn.tnris.org/images/105_2019_forum.jpg">
     </a>
 </div>

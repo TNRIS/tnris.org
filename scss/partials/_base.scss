@@ -39,6 +39,11 @@ h2 {
   color: $auburn;
 }
 
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
 /* custom lead */
 .lead {
   max-width: 750px;
@@ -353,31 +358,31 @@ author {
 }
 
 img {
-  &.pull-left {
+  &.float-left {
     margin: 0 20px 20px 0;
   }
 
-  &.pull-right {
+  &.float-right {
     margin: 0 0px 30px 30px;
   }
 }
 
 .btn {
-  &.pull-left {
+  &.float-left {
     margin: 0 20px 20px 0;
   }
 
-   &.pull-right {
+   &.float-right {
     margin: 0 0px 20px 20px;
   }
 }
 
 figure {
-  &.pull-left {
+  &.float-left {
     margin: 0 20px 20px 0;
   }
 
-   &.pull-right {
+   &.float-right {
     margin: 0 0px 20px 20px;
   }
 }

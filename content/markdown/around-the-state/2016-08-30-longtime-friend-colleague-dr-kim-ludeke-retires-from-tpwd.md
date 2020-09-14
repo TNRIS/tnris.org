@@ -8,7 +8,7 @@ abstract:
     TNRIS had the chance to talk to Dr. Aaron Kim Ludeke, acclaimed advocate for GIS in state government and long-time GIS manager at Texas Parks and Wildlife Department during his last days of state service.
 ---
 
-<img class="pull-left" src="https://cdn.tnris.org/images/kim_headshot.jpg" alt="A headshot of Kim ludeke">
+<img class="float-left" src="https://cdn.tnris.org/images/kim_headshot.jpg" alt="A headshot of Kim ludeke">
 <p class="lead">Only a handful of people still working in the Geographic Information Systems (GIS) field remember when this new technology was just taking root in Texas government.  One of the individuals that certainly made his mark in Texas GIS is our longtime friend and active member of the GIS community, Dr. Kim Ludeke.  Kim officially retired from Texas Parks and Wildlife Department (TPWD) on Wednesday, August 31st, 2016 after serving 28 years in state government.</p>
 
 Although Kim spent most of his career with TPWD, he spent several of those years at TNRIS helping to develop one of the first modern GIS environments in the state.
@@ -27,7 +27,7 @@ Kim: I grew up on a ranch on the banks of the Red River in Wichita County, Texas
 K: The summer before my freshman year at UT I spent 3 weeks in a village 6 hours by mule from the nearest road in the mountains of Honduras where I provided vaccinations and minor medical care to the village of Soledad.  I graduated from UT in Plan II Liberal Arts Honors/biology.  A great contribution to my education was after graduation I spent 2 years traveling, first to Mexico, Central and South America, and then Europe, the Middle East, Indo-Asia, and South East Asia.  I worked briefly in Bangladesh as part of the global success in eradicating smallpox.  I then returned to UT for a semester of secondary science education training.  I followed up that with getting a Ph.D at Texas A&M in Conservation Planning.  I also taught graduate GIS courses at UT and Texas State which were always an education for me too.
 
 
-<figure class="pull-right"><img alt="Dr. Kim Ludeke and future Texas GIO Richard Wade, circa 1990.6" class="img-fluid" src="https://cdn.tnris.org/images/kim_tnris.jpg">
+<figure class="float-right"><img alt="Dr. Kim Ludeke and future Texas GIO Richard Wade, circa 1990.6" class="img-fluid" src="https://cdn.tnris.org/images/kim_tnris.jpg">
 <figcaption>Dr. Kim Ludeke and future Texas GIO Richard Wade, circa 1990.</caption></figure>
 
 **T: How did you arrive in this industry? What path brought you here?**

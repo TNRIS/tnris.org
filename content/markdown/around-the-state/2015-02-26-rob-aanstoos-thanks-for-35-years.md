@@ -7,7 +7,7 @@ thumbalt: A headshot of Rob Aanstoos
 abstract:
     TNRIS had the chance to talk to Rob Aanstoos, a key figure in Texas GIS, on the eve of his retirement from 35 years of service to the state.
 ---
-<img class="pull-left" src="https://cdn.tnris.org/images/rob-aanstoos-th.jpg">
+<img class="float-left" src="https://cdn.tnris.org/images/rob-aanstoos-th.jpg">
 <p class="lead">Every day, people retire from their jobs and go off quietly to enjoy free time with their family and pursue the interests they love. For the colleagues left behind, we simply pick up where they left off without too much fanfare. But every so often, a key player retires who has made a big difference and impact in your industry.</p>
 
 This is exactly the case with Mr. Rob Aanstoos. Rob is officially retiring at the end of February from Texas Department of Information Resources (DIR) where he has worked in the Technology Planning, Policy and Governance section. Rob has been involved with GIS since the earliest days at the State.  After 35 years, it will be difficult to see him go.

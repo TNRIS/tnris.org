@@ -60,22 +60,22 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
   </div>
   <div class="col-sm-5">
     <div class="row keynote-feature">
-      <div class="col-xs-4">
+      <div class="col-4">
         <a href="/texas-gis-forum/2015/agenda#keynote-meier">
-          <img alt="Patrick Meier Small Headshot" class="img-fluid img-circle" src="https://cdn.tnris.org/images/patrick_square.jpg">
-          <h3><small>Digital Humanitarian</small><br>Patrick <br class="hidden-xs">Meier</h3>
+          <img alt="Patrick Meier Small Headshot" class="img-fluid rounded-circle" src="https://cdn.tnris.org/images/patrick_square.jpg">
+          <h3><small>Digital Humanitarian</small><br>Patrick <br class="d-none">Meier</h3>
         </a>
       </div>
-      <div class="col-xs-4">
+      <div class="col-4">
         <a href="/texas-gis-forum/2015/agenda#keynote-cowen">
-          <img alt="David Cowen Small Headshot" class="img-fluid img-circle" src="https://cdn.tnris.org/images/cowen_square.jpg">
-          <h3><small>UCGIS Fellow</small><br>David <br class="hidden-xs">Cowen</h3>
+          <img alt="David Cowen Small Headshot" class="img-fluid rounded-circle" src="https://cdn.tnris.org/images/cowen_square.jpg">
+          <h3><small>UCGIS Fellow</small><br>David <br class="d-none">Cowen</h3>
         </a>
       </div>
-      <div class="col-xs-4">
+      <div class="col-4">
         <a href="/texas-gis-forum/2015/agenda#keynote-humphreys">
-          <img alt="Todd Humphreys Small Headshot"  class="img-fluid img-circle" src="https://cdn.tnris.org/images/humphreys_square.jpg">
-          <h3><small>UT Professor</small><br>Todd <br class="hidden-xs">Humphreys</h3>
+          <img alt="Todd Humphreys Small Headshot"  class="img-fluid rounded-circle" src="https://cdn.tnris.org/images/humphreys_square.jpg">
+          <h3><small>UT Professor</small><br>Todd <br class="d-none">Humphreys</h3>
         </a>
       </div>
     </div>

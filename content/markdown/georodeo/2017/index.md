@@ -22,7 +22,7 @@ Sponsored by <a href="http://www.esri.com"><img src="https://cdn.tnris.org/image
 
 ## 9:00AM to 10:00AM
 
-<h3><img class="img-circle pull-right presenter" src="https://cdn.tnris.org/images/todd_headshot.jpg" alt="Head shot of Todd Mostak from MapD"><small>Keynote Speaker</small><br>
+<h3><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/todd_headshot.jpg" alt="Head shot of Todd Mostak from MapD"><small>Keynote Speaker</small><br>
 Todd Mostak, Founder &amp; CEO at <a href="https://www.mapd.com/">MapD</a></h3>
 
 #### About Todd
@@ -42,7 +42,7 @@ Sponsored by <a href="https://boundlessgeo.com/"><img src="https://cdn.tnris.org
 
 <h3 id="diana-turner-brian-smith-design-technology-and-innovation-fellows-city-of-austin"><small>10:15AM to 10:45AM</small><br>  Diana Turner, Brian Smith, Design, Technology, and Innovation Fellows, City of Austin</h3>
 
-<h4><img class="img-circle pull-right presenter" src="https://cdn.tnris.org/images/brian_headshot.jpg" alt="Head shot of Brian Smith"><img class="img-circle pull-right presenter" src="https://cdn.tnris.org/images/diana_headshot.jpg" alt="Head shot of Diana Turner ">Flooded by Information: A Redesign of ATXfloods</h4>
+<h4><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/brian_headshot.jpg" alt="Head shot of Brian Smith"><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/diana_headshot.jpg" alt="Head shot of Diana Turner ">Flooded by Information: A Redesign of ATXfloods</h4>
 
 The City of Austin's Design, Technology, and Innovation Fellows program provides an opportunity for Austin’s passionate and civic-minded designers and developers to bring the principles, values, and practices of the technology sector into government. Inspired by the success of programs at 18F, Code for America, and the U.S. Digital Service, we partner with departments throughout the city to tackle some of their biggest challenges.
 
@@ -50,7 +50,7 @@ The City of Austin's Design, Technology, and Innovation Fellows program provides
 
 <h3 id="katherine-smyth-solution-engineer-esri"><small>10:45AM to 11:15AM</small><br>Katherine Smyth, ESRI</h3>
 
-<h4><img class="img-circle pull-right presenter" src="https://cdn.tnris.org/images/katherine_headshot.jpg" alt="Head shot of Katherine Smyth">Join the Open Data Revolution</h4>
+<h4><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/katherine_headshot.jpg" alt="Head shot of Katherine Smyth">Join the Open Data Revolution</h4>
 
 As a Solution Engineer at Esri, Katherine helps cities and counties create, maintain and use geospatial data to make decisions that help support their communities. She believes that sharing Open Data strengthens all communities and leads to innovation. When she isn't traveling to speak with local governments, she is likely doing archaeology or adventuring in the wilderness.
 
@@ -58,7 +58,7 @@ As a Solution Engineer at Esri, Katherine helps cities and counties create, main
 
 <h3 id="glynnis-ritchie-ux-engineer"><small>11:15AM to 11:45AM</small><br> Glynnis Ritchie, UX Engineer</h3>
 
-<h4><img class="img-circle pull-right presenter" src="https://cdn.tnris.org/images/glynnis_headshot.jpg" alt="Head shot of Glynnis Ritchie">Setting Fire to Silos: How to Bridge the Divide Between Development and Design</h4>
+<h4><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/glynnis_headshot.jpg" alt="Head shot of Glynnis Ritchie">Setting Fire to Silos: How to Bridge the Divide Between Development and Design</h4>
 
 Glynnis is passionate about creative collaboration, interdisciplinary teams, and the spaces where elegant code and delightful experiences overlap. When she's not designing for the web, she designs books and print collateral for Big Class, a New Orleans nonprofit that cultivates and supports voices of writers aged 6 to 18. People also know her as a calligrapher, tea connoisseur, and tabletop gaming nerd.
 
@@ -79,7 +79,7 @@ Lunch on your own. Here's a map of nearby lunch spots:
 ## 1:15PM to 2:15PM
 
 <h3 id="about_sara">
-<img class="img-circle pull-right presenter" src="https://cdn.tnris.org/images/sara_headshot.jpg" alt="Head shot of Sara Safavi from Boundless"><small>Keynote Speaker</small><br>
+<img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/sara_headshot.jpg" alt="Head shot of Sara Safavi from Boundless"><small>Keynote Speaker</small><br>
 Sara Safavi, Software Engineer at <a class="keynote-title" href="https://boundlessgeo.com/">Boundless</a></h3>
 
 **Sara Safavi** is a software engineer at Boundless who writes free and open source software that helps other people do cool geo-stuff. She is a core contributor to the open source GeoNode project, and currently spends much of her time working on the nonprofit MapStory Foundation's GeoNode-based web mapping platform. Outside of work, Sara is an organizer for MaptimeATX and frequent speaker in the Python and geospatial tech communities.
@@ -89,7 +89,7 @@ Sara Safavi, Software Engineer at <a class="keynote-title" href="https://boundle
 ******
 ## 2:15PM to 2:45PM
 
-<h3 id="christine-doig-senior-data-scientist"><img class="img-circle pull-right presenter" src="https://cdn.tnris.org/images/christine_headshot.jpeg" alt="Head shot of Christine Doig"> Christine Doig, Continuum Analytics</h3>
+<h3 id="christine-doig-senior-data-scientist"><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/christine_headshot.jpeg" alt="Head shot of Christine Doig"> Christine Doig, Continuum Analytics</h3>
 
 Continuum Analytics' Anaconda is the leading Python distribution for data science. Continuum Analytics sponsors several open source projects, which help empower GIS professionals. Bokeh, one of the open source projects, allows users to create interactive web visualizations using a variety of languages include Python, R and Scala. Datashader is a Python-powered, bin-based rasterization pipeline, which can help visualize billions of data points in a single image. Dask is a flexible parallel computing library, which helps scale your code from single-core to multi-core to multi-machine. Explore these exciting open source projects sponsored by Continuum Analytics in this Python-heavy session designed for GIS professionals.
 
@@ -107,13 +107,13 @@ Sponsored by <a href="https://www.mapd.com/"><img src="https://cdn.tnris.org/ima
 
 <h3 id="tim-renner-data-scientist"><small>3:00PM to 3:30PM</small><br>Tim Renner, Data Scientist</h3>
 
-<h4><img class="img-circle pull-right presenter" src="https://cdn.tnris.org/images/renner_headshot.jpg" alt="Head shot of Tim Renner"> Geo Data Science at HomeAway</h4>
+<h4><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/renner_headshot.jpg" alt="Head shot of Tim Renner"> Geo Data Science at HomeAway</h4>
 
 HomeAway and Expedia’s mission is to “revolutionize travel through the power of technology.” Geography is at the core of matching travelers to relevant vacation rentals for their destination. In this talk, Tim will discuss some of the unique aspects and challenges when matching travelers to destinations in a two sided marketplace.
 
 <br>
 
-<h3 id="jason-deckman-ktmpo"><img class="img-circle pull-right presenter" src="https://cdn.tnris.org/images/jason_headshot.jpg" alt="Head shot of Jason Deckman"><small>3:30PM to 4:00PM</small><br>Jason Deckman, KTMPO</h3>
+<h3 id="jason-deckman-ktmpo"><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/jason_headshot.jpg" alt="Head shot of Jason Deckman"><small>3:30PM to 4:00PM</small><br>Jason Deckman, KTMPO</h3>
 
 The Bike-Ped Map functions as both a geographic resource and a public engagement tool. Users can find existing bike lanes, trails, sidewalks, etc, as well as planned projects. Three publicly-editable layers allow people to suggest new projects or highlight gaps in the data. The Project App shows scoring and funding information for KTMPO projects listed in the MTP. I will discuss the challenges involved in configuring our local server and using the tools on ArcGIS Online to develop these apps.
 

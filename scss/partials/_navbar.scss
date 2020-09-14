@@ -46,7 +46,7 @@
   padding-right: 0;
 }
 
-.navbar-right {
+.navbar ml-auto {
   li:last-child a {
       padding-right: 0;
   }
@@ -172,7 +172,7 @@ a.navbar-twdb {
 }
 
 
-.navbar-right {
+.navbar-static-top .ml-auto {
   li {
     a {
       color: $white !important;

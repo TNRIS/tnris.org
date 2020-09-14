@@ -7,7 +7,7 @@ mainimage: https://cdn.tnris.org/images/stratmap_website_banner_notext.jpg
 <section class="container">
 <div class="row">
 
-<div class="col-md-8 center-block">
+<div class="col-md-8 mx-auto d-block">
 <p class="lead"><strong>After four years of success, the re-bid of StratMap Contracts is happening now!</strong> The solicitation response deadline has passed. We anticipate the new pool of vendors to be available with active DIR master contracts by Summer 2020.
 </p>
 <p>The <a href="https://dir.texas.gov/">Department of Information Resources (DIR)</a> maintains multiple Cooperative Contracts which are designed to strengthen Texas’ capabilities to procure quality digital map data, services and software. The contracts are for use by customers that include Texas state, regional and local government offices, including river and water authorities, and public education entities. The process for procuring GIS products, custom geospatial data and services and software is administered by TNRIS and known as the Texas Strategic Mapping (StratMap) Contracts.</p>

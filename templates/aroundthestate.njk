@@ -14,7 +14,7 @@
 
         {% if mainimage %}
         <figure>
-          <img class="media-object img-fluid center-block" src="{{mainimage}}" alt="{{imagealt}}">
+          <img class="media-object img-fluid mx-auto d-block" src="{{mainimage}}" alt="{{imagealt}}">
 
         {% if mainimagecaption %}
           <figcaption class="text-right"><em>{{mainimagecaption}}</em><figcaption>
@@ -41,7 +41,7 @@
                       <time>{{ats_item.date|prettyDate}}</time>
                       <h3 class="media-heading">
                       <a href="{{ats_item.preserved}}">{{ats_item.title}}</a></h3>
-                      <p class="hidden-md hidden-lg">
+                      <p class="d-md-none d-lg-none">
                         {{ats_item.description}}
                       </p>
                     </div>

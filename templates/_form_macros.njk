@@ -164,7 +164,7 @@
   {% import '_macros.njk' as macros %}
 
   <div class="form-group has-feedback row" ng-class="{'has-error': errors['recaptcha']}">
-    <div class="col-xs-12">
+    <div class="col-12">
       <div
         vc-recaptcha
         class="recaptcha"
@@ -180,7 +180,7 @@
     </div>
   </div>
   <div class="form-group">
-    <div class="submit center-block" ng-switch="status">
+    <div class="submit mx-auto d-block" ng-switch="status">
       <div ng-switch-when="error">
         <div class="row">
           <button
@@ -409,7 +409,7 @@
     {% if show %}ng-show="{{show|safe}}"{% endif %}>
     <label
       for="{{name}}"
-      class="control-label">
+      class="col-form-label">
       {{label}} {% if required %}
       <span ng-show="{{required}}" class="required-symbol">*</span>{% endif %} </label>
     {% if type == 'radio' or type == 'checkbox' %}
@@ -419,7 +419,7 @@
 
 {% macro _item_after(name, display, type, required) %}
   {% if type != 'radio' and type != 'checkbox' %}
-    {{errors_and_help(name, display, required, type, 'pull-right')}}
+    {{errors_and_help(name, display, required, type, 'float-right')}}
   {% endif %}
   </div>
 {% endmacro %}
@@ -436,6 +436,6 @@
     </div>
   </div>
   {% if display.help %}
-    <div id="help-block-{{name}}" class="help-block">{{display.help}}</div>
+    <div id="help-block-{{name}}" class="form-text">{{display.help}}</div>
   {% endif %}
 {% endmacro %}

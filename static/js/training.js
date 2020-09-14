@@ -85,12 +85,10 @@ function retrieveTraining(queryField, queryValue) {
       record.setAttribute('id', urlTitle);
       record.innerHTML =
         `<div class="row training-header">
-          <div class="row">
-            <div class="col-xs-12 course-info-category">
-              ${t.category}
-            </div>
+          <div class="col-12 course-info-category">
+            ${t.category}
           </div>
-          <div class="col-xs-12 col-sm-3 course-date-time">
+          <div class="col-12 col-sm-3 course-date-time">
             <strong>
               <span class="glyphicon glyphicon-calendar"></span>
               ${month} ${day}, ${t.year}
@@ -102,21 +100,21 @@ function retrieveTraining(queryField, queryValue) {
               Expand Details
             </button>
           </div>
-          <div class="col-xs-12 col-sm-9">
+          <div class="col-12 col-sm-9">
             <div class="row">
-              <div class="col-xs-12">
+              <div class="col-12">
                 <h3>
                   ${t.title}
                 </h3>
               </div>
-              <div class="col-xs-3 course-info">
+              <div class="col-3 course-info">
                 <strong>Taught by:</strong>
                 <br> ${t.instructor}
               </div>
-              <div class="col-xs-3 course-info">
+              <div class="col-3 course-info">
                 <strong>Cost:</strong><br> $${t.cost}
               </div>
-              <div class="col-xs-3 course-info">
+              <div class="col-3 course-info">
                 <strong>Share:</strong><br>
                 <span class="input-group-btn">
                   <button class="btn btn-tnris btn-sm copy-url-btn" type="button" style="margin-top:0; width:95%;">
@@ -125,12 +123,12 @@ function retrieveTraining(queryField, queryValue) {
                 </span>
                 <input class="form-control hidden-clipboard-input" type="text" readonly value="${location.origin}/education#${urlTitle}">
               </div>
-              <div class="col-xs-3 course-info">
+              <div class="col-3 course-info">
                 <strong>Status:</strong><br> ${status}
               </div>
             </div>
           </div>
-          <div id="${t.training_id}" class="course-description col-xs-12 collapse" style="padding:20px;">
+          <div id="${t.training_id}" class="course-description col-12 collapse" style="padding:20px;">
             <h3>Description</h3>
             ${t.description}
             <!-- if there are public registration_open records, insert discount copy content in each record html -->

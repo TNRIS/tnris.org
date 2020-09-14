@@ -21,7 +21,7 @@ mainimagexs: https://cdn.tnris.org/images/ourpastinspires-banner-main-sm.jpg
 <h3>Thanks to Our Platinum Sponsors</h3>
 <p>    <a class="welcome-logo" href="http://appgeo.com"><img  alt="appgeo logo and link to website" src="https://cdn.tnris.org/images/appgeo_logo.png"></a>
     <a class="welcome-logo" href="http://www.esri.com"><img   alt="Esri logo and link to website" src="https://cdn.tnris.org/images/esri_where_logo.png"></a>
-<br class="hidden-xs">
+<br class="d-none">
   <a class="welcome-logo"  href="http://www.harrisgeospatial.com"><img  alt="Harris logo and link to website" src="https://cdn.tnris.org/images/harris_sm.png"></a>
   <a class="welcome-logo" href="http://www.boundlessgeo.com/"><img alt="Boundless logo and link" src="https://cdn.tnris.org/images/boundless_lg.png"></a>
 </p>

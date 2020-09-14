@@ -105,12 +105,12 @@ function retrieveMaps() {
 
       record.innerHTML =
         `<div class="row maps-header">
-          <div class="col-xs-12 col-sm-3 left-sidebar">
+          <div class="col-12 col-sm-3 left-sidebar">
             ${thumbnail}
           </div>
-          <div class="col-xs-12 col-sm-9 right-mainbar">
+          <div class="col-12 col-sm-9 right-mainbar">
             <div class="row">
-              <div class="col-xs-12">
+              <div class="col-12">
                 <h3>
                   ${m.name}
                 </h3>
@@ -123,7 +123,7 @@ function retrieveMaps() {
               </div>
             </div>
           </div>
-          <div class="col-xs-12">
+          <div class="col-12">
             <a id="${urlName}ClickSheets" data-toggle="collapse" aria-expanded="false" data-target="#${m.collection_id}Sheets" href="#${urlName}">
               <button class="btn btn-map-expander btn-lg btn-block full-details-btn" type="button">
                 <i class="glyphicon glyphicon-arrow-down"></i>
@@ -131,7 +131,7 @@ function retrieveMaps() {
               </button>
             </a>
           </div>
-          <div id="${m.collection_id}Sheets" class="available-sheets col-xs-12 collapse" style="padding:20px;">
+          <div id="${m.collection_id}Sheets" class="available-sheets col-12 collapse" style="padding:20px;">
             ${downloadsList}${collectionsList}
           </div>
         </div>`;

@@ -42,7 +42,7 @@ Note: Agenda and speakers subject to change without notice.
     <div class="col-sm-9">
       <h3><small>Information Session</small></h3>
       <p>
-        <a href="http://www.infogroup.com/"><img class="pull-right" alt="Infogroup geospatial logo and link" src="https://cdn.tnris.org/images/infogroup_logo_sm.png"></a>
+        <a href="http://www.infogroup.com/"><img class="float-right" alt="Infogroup geospatial logo and link" src="https://cdn.tnris.org/images/infogroup_logo_sm.png"></a>
         <strong>Infogroup</strong> will present on their statewide enterprise license offer to the state of Texas. Attendees will learn about Infogroup business and residential data records and how it would benefit agency business matters. This meeting is open to the public.
       </p>
     </div>
@@ -54,7 +54,7 @@ Note: Agenda and speakers subject to change without notice.
     <div class="col-sm-9">
       <h3>Esri GeoDev Meetup</h3>
       <p>
-        <a href="http://www.meetup.com/DevMeetUpTexas/events/225538428/"><img class="pull-right" src="https://cdn.tnris.org/images/meetup_logo.png"></a> This event is a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.
+        <a href="http://www.meetup.com/DevMeetUpTexas/events/225538428/"><img class="float-right" src="https://cdn.tnris.org/images/meetup_logo.png"></a> This event is a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.
       </p>
       <p>Meetup RSVP:
         <a class="dont-break" href="http://www.meetup.com/DevMeetUpTexas/events/225538428">
@@ -72,7 +72,7 @@ Note: Agenda and speakers subject to change without notice.
       <div class="col-sm-9 col-md-10">
         <h4>ESRI HOLL (Hands-On Learning Labs)</h4>
         <p>
-          <button class="btn btn-md btn-danger pull-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button>
+          <button class="btn btn-md btn-danger float-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button>
           Throughout the day on Wednesday, ESRI will host self-guided courses in the <strong>Balcones Room</strong> covering ESRI software and key GIS techniques.
         </p>
       </div>
@@ -112,7 +112,7 @@ Note: Agenda and speakers subject to change without notice.
         Patrick Meier, Digital Humanitarian
       </h3>
       <p>
-        <img class="pull-right img-circle keynote-portrait" src="https://cdn.tnris.org/images/patrick.jpg">Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. He is the author of, “Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Action.”
+        <img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/patrick.jpg">Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. He is the author of, “Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Action.”
       </p>
       <p>
         He has consulted extensively for several international organizations including the United Nations and the World Bank. Patrick also founded/co-founded CrisisMappers, Digital Humanitarians, and many more. Patrick also writes the [iRevolutions](http://irevolution.net) blog, and tweets at [@patrickmeier](https://twitter.com/patrickmeier).
@@ -802,7 +802,7 @@ Note: Agenda and speakers subject to change without notice.
     </div>
     <div class="col-sm-9">
       <h3>Forum Social sponsored by <img src="https://cdn.tnris.org/images/cartodb_logo_sm.png"></h3>
-      <p><a href="http://punchbowlsocial.com/austin/"><img class="pull-right" src="https://cdn.tnris.org/images/pbs_social.jpg" alt="Logo for PBs Social"></a> <strong>This year's social is at <a href="http://punchbowlsocial.com/austin/">Punch Bowl Social</a>, located about 1.5 miles from the J.J Pickle Center.</strong> You will need to wear your GIS Forum name badge in order to gain access to the reserved activities:
+      <p><a href="http://punchbowlsocial.com/austin/"><img class="float-right" src="https://cdn.tnris.org/images/pbs_social.jpg" alt="Logo for PBs Social"></a> <strong>This year's social is at <a href="http://punchbowlsocial.com/austin/">Punch Bowl Social</a>, located about 1.5 miles from the J.J Pickle Center.</strong> You will need to wear your GIS Forum name badge in order to gain access to the reserved activities:
       <ul>
       <li>Each person will get two drink tickets, good for beer &amp; wine.</li>
       <li>We’ve rented bowling, darts, and ping pong.</li>
@@ -818,7 +818,7 @@ Note: Agenda and speakers subject to change without notice.
       </div>
       <div class="col-sm-9 col-md-10">
         <h4>ESRI HOLL (Hands-On Learning Labs)</h4>
-          <p><button class="btn btn-md btn-danger pull-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button> Throughout the day on Thursday, ESRI will host self-guided courses in the <strong>Balcones Room</strong> covering ESRI software and key GIS techniques.</p>
+          <p><button class="btn btn-md btn-danger float-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button> Throughout the day on Thursday, ESRI will host self-guided courses in the <strong>Balcones Room</strong> covering ESRI software and key GIS techniques.</p>
       </div>
     </div>
   </div>
@@ -845,7 +845,7 @@ Note: Agenda and speakers subject to change without notice.
   <div class="col-sm-9 col-md-10">
   <h3 id="keynote-cowen"><small>Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
   <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/keynote-speaker-david-cowen-the-changing-geospatial-landscape"><i class="fa fa-play-circle"></i> View Slides</a></p>
-  <p><img class="pull-right img-circle keynote-portrait" src="https://cdn.tnris.org/images/david_cowen.jpg"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
+  <p><img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/david_cowen.jpg"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
   <p><strong>Watch Video:</strong>
     <iframe width="100%" height="400" src="https://www.youtube.com/embed/FXp4RiZ34TA" frameborder="0" allowfullscreen></iframe>
   </p>
@@ -1313,7 +1313,7 @@ Note: Agenda and speakers subject to change without notice.
   <h4>Low-Cost Centimeter-Accurate Mobile Positioning</h4>
   <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/keynote-speaker-todd-humphreys-low-cost-centimer-accurate-mobile-positioning"><i class="fa fa-play-circle"></i> View Slides</a></p>
   <p>
-  <img class="pull-right img-circle keynote-portrait" src="https://cdn.tnris.org/images/humphreys_head.jpg">
+  <img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/humphreys_head.jpg">
   Todd E. Humphreys is an assistant professor in the department of Aerospace Engineering and Engineering Mechanics at the University of Texas at Austin, and Director of the UT Radionavigation Laboratory. He specializes in the application of optimal detection and estimation techniques to problems in satellite navigation, autonomous systems, and signal processing.His recent focus has been on secure perception for autonomous systems, including navigation, timing, and collision avoidance, and on centimeter-accurate location for the mass market.
   </p>
   </div>

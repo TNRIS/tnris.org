@@ -16,8 +16,8 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
 <hr>
 <h3>Online Photo Search</h3>
 <p class="lead"> Customers can perform a <strong>cursory</strong> search of the the TNRIS Historic photo archive and submit an order by using the DataHub.</p>
-<a style="width: 50%; margin-bottom: 10px;" class="btn btn-lg btn-tnris btn-block center-block" href="https://data.tnris.org/catalog/%7B%22filters%22%3A%7B%22category%22%3A[%22Historic_Imagery%22]%7D%7D"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
-<img src="https://cdn.tnris.org/images/historicphotocatalog.jpg" class="img-fluid img-rounded" alt="A historical aerial photo is pulled out of a row of other photos">
+<a style="width: 50%; margin-bottom: 10px;" class="btn btn-lg btn-tnris btn-block mx-auto d-block" href="https://data.tnris.org/catalog/%7B%22filters%22%3A%7B%22category%22%3A[%22Historic_Imagery%22]%7D%7D"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<img src="https://cdn.tnris.org/images/historicphotocatalog.jpg" class="img-fluid rounded" alt="A historical aerial photo is pulled out of a row of other photos">
 </div>
 <div class='col-md-6'>
 <h3 style="margin-top: 0;">Historical Imagery Costs</h3>
@@ -57,7 +57,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
   <div class="col-md-6 acquiring-agency">
       <h3>United States Geological Survey</h3>
       <a href="https://cdn.tnris.org/images/usgs_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="United States Geological Survey (USGS)">
-          <img class="thumbnail pull-left" src="https://cdn.tnris.org/images/usgs_historical_th.jpg">
+          <img class="card card-body float-left" src="https://cdn.tnris.org/images/usgs_historical_th.jpg">
       </a>
       <ul class="list-clean">
           <li><strong>Media Type:</strong> Black and White, Color, and Color Infrared prints</li>
@@ -69,7 +69,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
   <div class="col-md-6 acquiring-agency">
       <h3>Texas General Land Office</h3>
       <a href="https://cdn.tnris.org/images/glo_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Texas General Land Office (GLO)">
-          <img class="thumbnail pull-left" src="https://cdn.tnris.org/images/glo_historical_th.jpg">
+          <img class="card card-body float-left" src="https://cdn.tnris.org/images/glo_historical_th.jpg">
       </a>
       <ul class="list-clean">
           <li><strong>Media Type:</strong> Black and White, Color Infrared, Natural Color prints</li>
@@ -83,7 +83,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
 <div class="col-md-6 acquiring-agency">
     <h3>Army Map Service</h3>
     <a href="https://cdn.tnris.org/images/ams_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Army Map Service (AMS)">
-        <img class="thumbnail pull-left" src="https://cdn.tnris.org/images/armycorp_historical_th.jpg">
+        <img class="card card-body float-left" src="https://cdn.tnris.org/images/armycorp_historical_th.jpg">
     </a>
     <ul class="list-clean">
         <li><strong>Media Type:</strong> Black and White prints </li>
@@ -95,7 +95,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
 <div class="col-md-6 acquiring-agency">
     <h3>Texas Department of Transportation</h3>
     <a href="https://cdn.tnris.org/images/txdot_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Texas Department of Transportation (TXDOT)">
-        <img class="thumbnail pull-left" src="https://cdn.tnris.org/images/txdot_historical_th.jpg">
+        <img class="card card-body float-left" src="https://cdn.tnris.org/images/txdot_historical_th.jpg">
     </a>
     <ul class="list-clean">
         <li><strong>Media Type:</strong> Black and White prints. Line Indexes also available for most counties</li>
@@ -109,7 +109,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
   <div class="col-md-6 acquiring-agency">
       <h3>Miller</h3>
       <a href="https://cdn.tnris.org/images/miller_full.jpg" data-toggle="lightbox" data-gallery="example-gallery"  data-title="Miller">
-          <img class="thumbnail pull-left" src="https://cdn.tnris.org/images/miller_historical_th.jpg">
+          <img class="card card-body float-left" src="https://cdn.tnris.org/images/miller_historical_th.jpg">
       </a>
       <ul class="list-clean">
           <li><strong>Media Type:</strong> Black and White prints</li>
@@ -120,7 +120,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
   </div>
   <div class="col-md-6 acquiring-agency"><h3>United States Air Force</h3>
       <a href="https://cdn.tnris.org/images/usaf_full.jpg" data-toggle="lightbox" data-gallery="example-gallery"data-title="United States Air Force (USAF)">
-          <img class="thumbnail pull-left" src="https://cdn.tnris.org/images/airforce_historical_th.jpg">
+          <img class="card card-body float-left" src="https://cdn.tnris.org/images/airforce_historical_th.jpg">
       </a>
       <ul class="list-clean">
           <li><strong>Media Type:</strong> Black and White prints</li>
@@ -134,7 +134,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
   <div class="col-md-6 acquiring-agency">
       <h3>United States Department of Agriculture and Agricultural Stabilization and Conservation Service</h3>
       <a href="https://cdn.tnris.org/images/usda_acs_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="United States Department of Agriculture (USDA) and Agricultural Stabilization and Conservation Service (ASCS)">
-          <img class="thumbnail pull-left" src="https://cdn.tnris.org/images/usda_historical_th.jpg">
+          <img class="card card-body float-left" src="https://cdn.tnris.org/images/usda_historical_th.jpg">
       </a>
       <ul class="list-clean">
           <li><strong>Media Type:</strong> Black and White, Color Infrared, Natural Color prints.  Line Indexes also available for most counties</li>
