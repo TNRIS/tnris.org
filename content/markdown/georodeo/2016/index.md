@@ -21,7 +21,7 @@ Sponsored by <a href="http://www.esri.com"><img src="https://cdn.tnris.org/image
 
 ## 9:00AM to 10:00AM
 
-<h3><small>Keynote Address</small><br>
+<h3><small class="text-muted">Keynote Address</small><br>
 Waldo Jaquith, U.S. Open Data</h3>
 
 #### About Waldo

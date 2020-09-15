@@ -22,7 +22,7 @@ Sponsored by <a href="http://www.esri.com"><img src="https://cdn.tnris.org/image
 
 ## 9:00AM to 10:00AM
 
-<h3><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/todd_headshot.jpg" alt="Head shot of Todd Mostak from MapD"><small>Keynote Speaker</small><br>
+<h3><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/todd_headshot.jpg" alt="Head shot of Todd Mostak from MapD"><small class="text-muted">Keynote Speaker</small><br>
 Todd Mostak, Founder &amp; CEO at <a href="https://www.mapd.com/">MapD</a></h3>
 
 #### About Todd
@@ -40,7 +40,7 @@ Sponsored by <a href="https://boundlessgeo.com/"><img src="https://cdn.tnris.org
 
 ## 10:15AM to 11:45AM
 
-<h3 id="diana-turner-brian-smith-design-technology-and-innovation-fellows-city-of-austin"><small>10:15AM to 10:45AM</small><br>  Diana Turner, Brian Smith, Design, Technology, and Innovation Fellows, City of Austin</h3>
+<h3 id="diana-turner-brian-smith-design-technology-and-innovation-fellows-city-of-austin"><small class="text-muted">10:15AM to 10:45AM</small><br>  Diana Turner, Brian Smith, Design, Technology, and Innovation Fellows, City of Austin</h3>
 
 <h4><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/brian_headshot.jpg" alt="Head shot of Brian Smith"><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/diana_headshot.jpg" alt="Head shot of Diana Turner ">Flooded by Information: A Redesign of ATXfloods</h4>
 
@@ -48,7 +48,7 @@ The City of Austin's Design, Technology, and Innovation Fellows program provides
 
 <iframe src="https://docs.google.com/presentation/d/1pSOvzdt3zXl8cEpfShHjTfs13WHr8Ird_Ve9EP3q_Zg/embed?start=false&loop=false&delayms=5000&slide=id.g21bb358ab0_0_69" frameborder="0" width="100%" height="500" allowfullscreen></iframe>
 
-<h3 id="katherine-smyth-solution-engineer-esri"><small>10:45AM to 11:15AM</small><br>Katherine Smyth, ESRI</h3>
+<h3 id="katherine-smyth-solution-engineer-esri"><small class="text-muted">10:45AM to 11:15AM</small><br>Katherine Smyth, ESRI</h3>
 
 <h4><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/katherine_headshot.jpg" alt="Head shot of Katherine Smyth">Join the Open Data Revolution</h4>
 
@@ -56,7 +56,7 @@ As a Solution Engineer at Esri, Katherine helps cities and counties create, main
 
 <iframe src="https://myago.maps.arcgis.com/apps/MapJournal/index.html?appid=f3ec6afc32da4e1fa3a24bd1780db8e4" frameborder="0" width="100%" height="500" allowfullscreen></iframe>
 
-<h3 id="glynnis-ritchie-ux-engineer"><small>11:15AM to 11:45AM</small><br> Glynnis Ritchie, UX Engineer</h3>
+<h3 id="glynnis-ritchie-ux-engineer"><small class="text-muted">11:15AM to 11:45AM</small><br> Glynnis Ritchie, UX Engineer</h3>
 
 <h4><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/glynnis_headshot.jpg" alt="Head shot of Glynnis Ritchie">Setting Fire to Silos: How to Bridge the Divide Between Development and Design</h4>
 
@@ -79,7 +79,7 @@ Lunch on your own. Here's a map of nearby lunch spots:
 ## 1:15PM to 2:15PM
 
 <h3 id="about_sara">
-<img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/sara_headshot.jpg" alt="Head shot of Sara Safavi from Boundless"><small>Keynote Speaker</small><br>
+<img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/sara_headshot.jpg" alt="Head shot of Sara Safavi from Boundless"><small class="text-muted">Keynote Speaker</small><br>
 Sara Safavi, Software Engineer at <a class="keynote-title" href="https://boundlessgeo.com/">Boundless</a></h3>
 
 **Sara Safavi** is a software engineer at Boundless who writes free and open source software that helps other people do cool geo-stuff. She is a core contributor to the open source GeoNode project, and currently spends much of her time working on the nonprofit MapStory Foundation's GeoNode-based web mapping platform. Outside of work, Sara is an organizer for MaptimeATX and frequent speaker in the Python and geospatial tech communities.
@@ -105,7 +105,7 @@ Sponsored by <a href="https://www.mapd.com/"><img src="https://cdn.tnris.org/ima
 
 ## 3:00PM to 4:00PM
 
-<h3 id="tim-renner-data-scientist"><small>3:00PM to 3:30PM</small><br>Tim Renner, Data Scientist</h3>
+<h3 id="tim-renner-data-scientist"><small class="text-muted">3:00PM to 3:30PM</small><br>Tim Renner, Data Scientist</h3>
 
 <h4><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/renner_headshot.jpg" alt="Head shot of Tim Renner"> Geo Data Science at HomeAway</h4>
 
@@ -113,7 +113,7 @@ HomeAway and Expedia’s mission is to “revolutionize travel through the power
 
 <br>
 
-<h3 id="jason-deckman-ktmpo"><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/jason_headshot.jpg" alt="Head shot of Jason Deckman"><small>3:30PM to 4:00PM</small><br>Jason Deckman, KTMPO</h3>
+<h3 id="jason-deckman-ktmpo"><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/jason_headshot.jpg" alt="Head shot of Jason Deckman"><small class="text-muted">3:30PM to 4:00PM</small><br>Jason Deckman, KTMPO</h3>
 
 The Bike-Ped Map functions as both a geographic resource and a public engagement tool. Users can find existing bike lanes, trails, sidewalks, etc, as well as planned projects. Three publicly-editable layers allow people to suggest new projects or highlight gaps in the data. The Project App shows scoring and funding information for KTMPO projects listed in the MTP. I will discuss the challenges involved in configuring our local server and using the tools on ArcGIS Online to develop these apps.
 

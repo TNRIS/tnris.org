@@ -33,12 +33,12 @@ Take a look at the  <a href="/texas-gis-forum/2018/agenda">agenda</a> to see ava
 
 <div class="col-sm-6 keynote-welcome-2018">
   <img class="rounded-circle" src="https://cdn.tnris.org/images/unger_headshot_th.jpg" alt="Brian Unger Headshot">
-  <h3><small>Keynote Speaker</small><br><strong>Brian Unger</strong><br>9:30AM, Wed. Oct. 24</h3>
+  <h3><small class="text-muted">Keynote Speaker</small><br><strong>Brian Unger</strong><br>9:30AM, Wed. Oct. 24</h3>
   <p>Brian Unger, currently with the Travel Channel, has hosted across all media, including the History Channel's How the States Got their Shapes', and as a correspondent with Comedy Central's The Daily Show.<br><br>
 </div>
 <div class="col-sm-6 keynote-welcome-2018">
   <img class="rounded-circle"  src="https://cdn.tnris.org/images/johnson_headshot_th.jpg" alt="Bill Johnson Headshot">
-  <h3><small>Keynote Speaker</small><br><strong>Bill Johnson</strong><br>9:30AM, Thurs. Oct. 25</h3>
+  <h3><small class="text-muted">Keynote Speaker</small><br><strong>Bill Johnson</strong><br>9:30AM, Thurs. Oct. 25</h3>
   <p>Bill Johnson is AppGeo's 'Carpe Geo' Evangelist, an engaging speaker who shares his insights tying government initiatives to the most advanced GIS technology through collaboration, thoughtful investment, and consistent attention to excellence.<br><br>
 </div>
 

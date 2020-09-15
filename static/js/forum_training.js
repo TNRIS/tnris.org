@@ -40,10 +40,10 @@ function retrieveForumTraining() {
       var status;
       t.registration_open ?
         status = `<a href="${process.env.FORUM_REGISTRATION_LINK}" class="btn btn-success btn-sm">
-                    <i class="glyphicon glyphicon-pencil"></i> Register Here
+                    <i class="fa fa-pencil"></i> Register Here
                   </a>` :
         status = `<a href="#" class="btn btn-danger btn-sm disabled">
-                    <i class="glyphicon glyphicon-remove"></i> CLOSED
+                    <i class="fa fa-remove"></i> CLOSED
                   </a>`;
       // convert instructor_info from string to array of json; set up variables for use in array loop
       var instructorInfoArray = JSON.parse('[' + t.instructor_info + ']');
@@ -81,7 +81,7 @@ function retrieveForumTraining() {
       record.innerHTML =
         `<div class="row forum-training-header ">
           <div class="col-3 col-sm-2">
-            <i class="glyphicon glyphicon-time"></i>
+            <i class="fa fa-time"></i>
             ${start_time} - ${end_time} <br>
           </div>
           <div class="col-9 col-sm-6">
@@ -98,7 +98,7 @@ function retrieveForumTraining() {
           <div class="col-3 col-sm-2">
             <a id="${urlTitle}Click" data-toggle="collapse" aria-expanded="false" data-target="#${t.training_id}" href="#${urlTitle}">
               <button id="full-details-btn" class="btn btn-primary btn-sm" type="button" style="margin:7px;">
-                <span class="glyphicon glyphicon-info-sign"></span>
+                <span class="fa fa-info-sign"></span>
                 Expand Details
               </button>
             </a>
@@ -148,7 +148,7 @@ function retrieveForumTraining() {
       });
       element.click();
       button.className = 'btn btn-warning btn-sm';
-      button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details";
+      button.innerHTML = "<span class='fa fa-info-sign'></span> Close Details";
     }
   })
   .then(function() {
@@ -160,7 +160,7 @@ function retrieveForumTraining() {
       x.addEventListener("click", function() {
         var button = x.children[0];
         button.classList.contains('btn-primary') ? button.className = 'btn btn-warning btn-sm' : button.className = 'btn btn-primary btn-sm';
-        button.innerHTML.includes('Expand') ? button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details" : button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Expand Details";
+        button.innerHTML.includes('Expand') ? button.innerHTML = "<span class='fa fa-info-sign'></span> Close Details" : button.innerHTML = "<span class='fa fa-info-sign'></span> Expand Details";
       });
     }
 

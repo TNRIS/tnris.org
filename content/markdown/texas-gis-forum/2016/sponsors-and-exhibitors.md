@@ -102,7 +102,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 
 *****
 
-<h2 id="additional-sponsors"><small>New This Year!</small><br>Additional Sponsor Options</h2>
+<h2 id="additional-sponsors"><small class="text-muted">New This Year!</small><br>Additional Sponsor Options</h2>
 
 <p class="lead">Exclusive sponsorship of any of the options below include your logo printed and posted during the event timeframe. You also receive honorable mention in the conference program as well as verbal recognition.  </p>
 

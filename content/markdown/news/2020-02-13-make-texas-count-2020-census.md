@@ -46,12 +46,12 @@ For additional information or to get involved, please contact Lloyd Potter or Li
 
 The ROAM application was developed to make it easier to identify hard-to-survey areas and to provide socioeconomic and demographic characteristic profile of these areas using the American Community Survey.
 
-<a class="btn btn-lg btn-tnris" href="https://gis-portal.data.census.gov/arcgis/apps/webappviewer/index.html?id=3d16177a12b34c938adcf8c78e8b9699"><i class="glyphicon glyphicon-new-window
+<a class="btn btn-lg btn-tnris" href="https://gis-portal.data.census.gov/arcgis/apps/webappviewer/index.html?id=3d16177a12b34c938adcf8c78e8b9699"><i class="fa fa-new-window
 "></i> Launch Outreach Mapper</a>
 
 ### 2020 Census Recruiting Goals by County in All States
 
 The Census Bureau is still hiring! Text “texasjobs” to 313131 for more information. The map below demonstrates how close the Census Bureau is to meeting their recruiting goals.
 
-<a class="btn btn-lg btn-tnris" href="https://public.tableau.com/profile/us.census.bureau?fbclid=IwAR1Gov2tr1_2FmGDjYyOIQ4WfvE7QI16t1V0KeiSg_koePtVBZ78u_BMTGk#!/vizhome/RecruitingGoalsCensus2020/PercentofPeakOpsRecruitingGoal"><i class="glyphicon glyphicon-new-window
+<a class="btn btn-lg btn-tnris" href="https://public.tableau.com/profile/us.census.bureau?fbclid=IwAR1Gov2tr1_2FmGDjYyOIQ4WfvE7QI16t1V0KeiSg_koePtVBZ78u_BMTGk#!/vizhome/RecruitingGoalsCensus2020/PercentofPeakOpsRecruitingGoal"><i class="fa fa-new-window
 "></i> View Recruiting Goals</a>

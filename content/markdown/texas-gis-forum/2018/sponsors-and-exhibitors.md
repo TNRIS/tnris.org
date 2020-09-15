@@ -163,5 +163,5 @@ Place your company logo on the mobile application that the TNRIS developers will
 <p class="lead">
 After viewing the <a href="https://cdn.tnris.org/documents/2018-sponsor-rules-and-regulations.pdf"><strong> Sponsor Rules and Regulations</strong></a>, visit the link  to register as a sponsor.</p>
 <p><a class="btn btn-lg btn-periwinkle float-leftg" href="{{buttonurl}}" target="_blank">
-   <i class="glyphicon glyphicon-pencil"></i> {{buttontext}}
+   <i class="fa fa-pencil"></i> {{buttontext}}
 </a></p>

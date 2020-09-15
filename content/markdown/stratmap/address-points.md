@@ -212,7 +212,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 
 <h2>Contact Us</h2>
 <p>Contact TNRIS with any further questions regarding this program and someone from StratMap will get in touch with you.</p>
-<a class="btn btn-md btn-tnris btn-lg mx-auto d-block" href="/contact"><span class="glyphicon glyphicon-comment"></span> Contact Us</a>
+<a class="btn btn-md btn-tnris btn-lg mx-auto d-block" href="/contact"><span class="fa fa-comment"></span> Contact Us</a>
 
 </div>
 </div>

@@ -118,7 +118,7 @@ Click on the button for your GIS software to learn how to add the imagery servic
 
 <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" class="btn btn-secondary btn-lg">ArcMap</a>
 
-<a href="https://cdn.tnris.org/documents/WMS2Pro.pdf" class="btn btn-secondary btn-lg"><i class="glyphicon glyphicon-"></i>ArcGIS Pro</a>
+<a href="https://cdn.tnris.org/documents/WMS2Pro.pdf" class="btn btn-secondary btn-lg"><i class="fa fa-"></i>ArcGIS Pro</a>
 
 <a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-secondary btn-lg">ArcGIS Online</a>
 
@@ -138,7 +138,7 @@ A special thanks to the Texas Department of Transportation (TxDOT) for solving t
 
 Download a slideshow tutorial for this process below:
 
-<a class="btn btn-lg btn-success" href="https://cdn.tnris.org/documents/google-wmts-with-esri-javascript-api.pdf"><i class="glyphicon glyphicon-file"></i> Download Tutorial</a>
+<a class="btn btn-lg btn-success" href="https://cdn.tnris.org/documents/google-wmts-with-esri-javascript-api.pdf"><i class="fa fa-file"></i> Download Tutorial</a>
 
 -----
 
@@ -215,7 +215,7 @@ If you are adding the **downloaded** imagery tiles (not the Service) into ArcGIS
 There may be times when links will be updated to allow for access of newly added imagery.  Most likely, your agency would have been notified about these updates.  The fastest way to know whether this is the reason for your non-functioning links is to check status updates at the top of this page:
 
 <a href="/texas-imagery-service#project-updates" class="smooth-scroll btn btn-lg btn-tnris">
-<i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a>
+<i class="fa fa-menu-right"></i> View Status Updates</a>
 
 These updates will provide link status updates, announcements, and instructions on how to reestablish your link.
 
@@ -226,7 +226,7 @@ If there is nothing on the portal page regarding updates, please use the “Cont
 </a> if you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to obtain a link for your agency, visit the request form using the button below.
 
 <a class="btn btn-danger btn-lg" href="/google-request">
-<i class="glyphicon glyphicon-comment"></i> Request a Unique Link</a>
+<i class="fa fa-comment"></i> Request a Unique Link</a>
 
 **Note:** Because the Texas Imagery Service is a restricted license, it is only for use by public organizations in the State of Texas.
 
@@ -238,7 +238,7 @@ Contractors or any individual working on behalf of a public organization are per
 To learn about new imagery or any updates to the Texas Imagery Service, please visit the status section at the top of this page.
 
 <a href="/texas-imagery-service#project-updates" class="smooth-scroll">
-<i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a>
+<i class="fa fa-menu-right"></i> View Status Updates</a>
 
 We will continually monitor and update this section to provide the information and history of all updates relating to the service.
 
@@ -252,7 +252,7 @@ No. Your current links should be updated automatically and always reflect the la
 ## What if I see errors or inconsistencies in the imagery?  How should I report it and to whom do I report it?
 Use the button below to go to the Questions and Feedback form located on this page.
 <a class="btn btn-secondary btn-lg smooth-scroll" href="/texas-imagery-service#contact-pm">
-<i class="glyphicon glyphicon-question-sign"></i> General Questions or Feedback
+<i class="fa fa-question-sign"></i> General Questions or Feedback
 </a>
 
 TNRIS will log these issues and work with Google staff to find solutions to correct them in future releases.
@@ -267,7 +267,7 @@ The map service tiles are  Web Mercator EPSG:3857.
 ## Can I download or get a physical copy of the original image that is in the service?
 Yes.  Individual agencies may download the imagery for use within the agency only. To learn more about downloading imagery, please contact TNRIS.
 <a class="btn btn-secondary btn-lg smooth-scroll" href="/texas-imagery-service#contact-pm">
-<i class="glyphicon glyphicon-question-sign"></i> General Questions or Feedback
+<i class="fa fa-question-sign"></i> General Questions or Feedback
 </a>
 
 -----
@@ -288,7 +288,7 @@ After the pilot year, the CIR image download may be done at an additional cost. 
 To learn about upcoming flights in Texas and any other updates to the Texas Imagery Service, please visit the status section at the top of this page.
 
  <a href="/texas-imagery-service#project-updates" class="smooth-scroll">
- <i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a>
+ <i class="fa fa-menu-right"></i> View Status Updates</a>
 
 This section will provide the information about the upcoming scheduled flights for specific areas in Texas.
 
@@ -305,5 +305,5 @@ Contact TNRIS for a usage report.
 If you feel all your questions have been answered, and are ready to get connected, please use the button below to request a unique link for your organization.
 
 <a class="btn btn-danger btn-lg" href="/google-request">
-<i class="glyphicon glyphicon-comment"></i> Request a Unique Link Today
+<i class="fa fa-comment"></i> Request a Unique Link Today
 </a>

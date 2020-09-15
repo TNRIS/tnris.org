@@ -32,31 +32,31 @@ The DCS GIS Solutions Group was created to meet the need for a formal team of ag
    </div>
     <div class="row">
       <div class="col-xs-5ths">
-        <span class="glyphicon glyphicon-arrow-down member"></span>
+        <span class="fa fa-arrow-down member"></span>
         <a class="gio-agency" href="http://www.dir.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/dir_logo_padded.jpg" alt="Department of Information Resources Logo and Link to website">
         </a>
       </div>
       <div class="col-xs-5ths">
-        <span class="glyphicon glyphicon-arrow-down member"></span>
+        <span class="fa fa-arrow-down member"></span>
         <a class="gio-agency" href="http://www.csec.texas.gov/">
           <img class="img-fluid" src="https://cdn.tnris.org/images/csec_logo_med.jpg" alt="Commission on Emergency Communications (CSEC) Logo and Link to website">
         </a>
       </div>
         <div class="col-xs-5ths">
-        <span class="glyphicon glyphicon-arrow-down member"></span>
+        <span class="fa fa-arrow-down member"></span>
         <a class="gio-agency" href="https://www.tceq.texas.gov">
           <img title="Visit the Texas Commission on Environmental Quality (TCEQ) website" class="img-fluid" src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" alt="Texas Commission on Environmental Quality (TCEQ) Logo and Link to website">
         </a>
       </div>
       <div class="col-xs-5ths">
-        <span class="glyphicon glyphicon-arrow-down member"></span>
+        <span class="fa fa-arrow-down member"></span>
         <a title="Visit the Texas Department of Transportation website" class="gio-agency" href="http://www.txdot.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/txdot.jpg" alt="Texas Department of Transportation (TxDOT) Logo and Link to website">
         </a>
       </div>
       <div class="col-xs-5ths">
-        <span class="glyphicon glyphicon-arrow-down member"></span>
+        <span class="fa fa-arrow-down member"></span>
         <a class="gio-agency" href="http://www.twdb.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/twdb_web_med_rect.jpg" alt="Texas Water Development Board Logo and Link to website">
         </a>
@@ -80,19 +80,19 @@ The first meeting of the DCS GIS Solutions Group was held on March 25, 2015 with
    </div>
     <div class="row">
       <div class="col-4">
-        <span class="glyphicon glyphicon-arrow-down associate"></span>
+        <span class="fa fa-arrow-down associate"></span>
         <a class="gio-agency" href="http://www.tpwd.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/tpwd_logo.jpg" alt="Texas Parks and Wildlife Logo and Link to website">
         </a>
       </div>
         <div class="col-4">
-        <span class="glyphicon glyphicon-arrow-down associate"></span>
+        <span class="fa fa-arrow-down associate"></span>
         <a class="gio-agency" href="https://www.dps.texas.gov/">
           <img class="img-fluid" src="https://cdn.tnris.org/images/tx_dps_logo.jpg" alt="Texas Department of Public Safety Logo and Link to website">
         </a>
       </div>
       <div class="col-4">
-        <span class="glyphicon glyphicon-arrow-down associate"></span>
+        <span class="fa fa-arrow-down associate"></span>
         <a class="gio-agency" href="http://www.glo.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/glo_logo.jpg" alt="Texas General Land Office (GLO) Logo and Link to website">
         </a>
@@ -135,4 +135,4 @@ The DCS GIS Solutions Group discussions include distribution and access to geogr
 
 ## Group Charter
 
-<a href="https://cdn.tnris.org/documents/gis-solution-group-charter-final.pdf"><i class="glyphicon glyphicon-file"></i> View the DCS GIS Solutions Group Charter</a>
+<a href="https://cdn.tnris.org/documents/gis-solution-group-charter-final.pdf"><i class="fa fa-file"></i> View the DCS GIS Solutions Group Charter</a>

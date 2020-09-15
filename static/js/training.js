@@ -52,21 +52,21 @@ function retrieveTraining(queryField, queryValue) {
         if (today < end) {
           // set to active enabled register button with proper link to external registration page
           status = `<a href="${t.training_link}" class="btn btn-success btn-sm">
-                      <i class="glyphicon glyphicon-new-window"></i> Register
+                      <i class="fa fa-new-window"></i> Register
                     </a>`;
         }
         else if (today >= end) {
           // set to disabled close/remove button if for some reason registration is set to True for a
           // training record that has past
           status = `<a href="#" class="btn btn-danger btn-sm disabled">
-                      <i class="glyphicon glyphicon-remove"></i> Closed
+                      <i class="fa fa-remove"></i> Closed
                     </a>`;
         }
       }
       else if (!t.registration_open) {
         // if registration is closed, always set to close/remove icon button
         status = `<a href="#" class="btn btn-danger btn-sm disabled">
-                    <i class="glyphicon glyphicon-remove"></i> Closed
+                    <i class="fa fa-remove"></i> Closed
                   </a>`;
       }
       // END - date time work to determine register button status
@@ -90,13 +90,13 @@ function retrieveTraining(queryField, queryValue) {
           </div>
           <div class="col-12 col-sm-3 course-date-time">
             <strong>
-              <span class="glyphicon glyphicon-calendar"></span>
+              <span class="fa fa-calendar"></span>
               ${month} ${day}, ${t.year}
             </strong><br>
-            <i class="glyphicon glyphicon-time"></i>
+            <i class="fa fa-time"></i>
             ${start_time} - ${end_time} <br>
             <button class="btn btn-primary btn-sm full-details-btn" type="button" data-toggle="collapse" aria-expanded="false" data-target="#${t.training_id}">
-              <span class="glyphicon glyphicon-info-sign"></span>
+              <span class="fa fa-info-sign"></span>
               Expand Details
             </button>
           </div>
@@ -156,7 +156,7 @@ function retrieveTraining(queryField, queryValue) {
       });
       button.click();
       button.className = 'btn btn-warning btn-sm full-details-btn';
-      button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details";
+      button.innerHTML = "<span class='fa fa-info-sign'></span> Close Details";
     }
   })
   .then(function() {
@@ -177,7 +177,7 @@ function retrieveTraining(queryField, queryValue) {
           window.history.pushState(null, "", window.location.href.replace(location.hash, ""));
         }
         b.classList.contains('btn-primary') ? b.className = 'btn btn-warning btn-sm full-details-btn' : b.className = 'btn btn-primary btn-sm full-details-btn';
-        b.innerHTML.includes('Expand') ? b.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details" : b.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Expand Details";
+        b.innerHTML.includes('Expand') ? b.innerHTML = "<span class='fa fa-info-sign'></span> Close Details" : b.innerHTML = "<span class='fa fa-info-sign'></span> Expand Details";
       });
     });
   });

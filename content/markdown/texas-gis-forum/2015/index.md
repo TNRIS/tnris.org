@@ -51,7 +51,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 </div>
 <div class="row well well-lg">
   <div class="col-sm-7">
-    <h3><small>Forum Keynotes</small><br>Bringing the Best, Not Just In GIS</h3>
+    <h3><small class="text-muted">Forum Keynotes</small><br>Bringing the Best, Not Just In GIS</h3>
     <p class="lead-forum">The Forum has made a name for itself by bringing top-tier speakers to keynote the conference. In addition to those at the top of the GIS field, we have hosted astronauts, TV personalities, renowned historians, and more.
     </p>
     <p class="lead-forum">
@@ -63,19 +63,19 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       <div class="col-4">
         <a href="/texas-gis-forum/2015/agenda#keynote-meier">
           <img alt="Patrick Meier Small Headshot" class="img-fluid rounded-circle" src="https://cdn.tnris.org/images/patrick_square.jpg">
-          <h3><small>Digital Humanitarian</small><br>Patrick <br class="d-none">Meier</h3>
+          <h3><small class="text-muted">Digital Humanitarian</small><br>Patrick <br class="d-none">Meier</h3>
         </a>
       </div>
       <div class="col-4">
         <a href="/texas-gis-forum/2015/agenda#keynote-cowen">
           <img alt="David Cowen Small Headshot" class="img-fluid rounded-circle" src="https://cdn.tnris.org/images/cowen_square.jpg">
-          <h3><small>UCGIS Fellow</small><br>David <br class="d-none">Cowen</h3>
+          <h3><small class="text-muted">UCGIS Fellow</small><br>David <br class="d-none">Cowen</h3>
         </a>
       </div>
       <div class="col-4">
         <a href="/texas-gis-forum/2015/agenda#keynote-humphreys">
           <img alt="Todd Humphreys Small Headshot"  class="img-fluid rounded-circle" src="https://cdn.tnris.org/images/humphreys_square.jpg">
-          <h3><small>UT Professor</small><br>Todd <br class="d-none">Humphreys</h3>
+          <h3><small class="text-muted">UT Professor</small><br>Todd <br class="d-none">Humphreys</h3>
         </a>
       </div>
     </div>

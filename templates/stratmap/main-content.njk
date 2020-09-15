@@ -73,11 +73,11 @@
                     <h3>
 
                       {% if item.acronym %}
-                        <small>{{item.acronym}}</small><br>
+                        <small class="text-muted">{{item.acronym}}</small><br>
                       {% endif %}
                       {{item.name|safe}}</h3>
                     <p>{{item.description}}</p>
-                    <a class="btn btn-secondary" href="{{item.link}}" role="button">{{item.button_text|safe}} <span class="glyphicon glyphicon-chevron-right"></a>
+                    <a class="btn btn-secondary" href="{{item.link}}" role="button">{{item.button_text|safe}} <span class="fa fa-chevron-right"></a>
                 </div>
             </div>
         </div>

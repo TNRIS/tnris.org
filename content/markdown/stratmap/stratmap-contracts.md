@@ -32,7 +32,7 @@ mainimage: https://cdn.tnris.org/images/stratmap_website_banner_notext.jpg
 </div>
 <hr>
 <div class="row">
-<div class="col-sm-5">
+<div class="col-md-5">
 <h2>How does this work?</h2>
 
 <p><ul class="stratmap-work">
@@ -66,7 +66,7 @@ mainimage: https://cdn.tnris.org/images/stratmap_website_banner_notext.jpg
 <p>Each of the selected companies were carefully evaluated for project experience and success. Qualifications include project experience, technology innovation, professional staff, and available resources.</p>
 </div>
 
-<div class="col-sm-7">
+<div class="col-md-7">
 <h2 class="text-center">Vendors 2016 - 2020</h2>
 <div class="alert alert-warning text-center"><p class="lead">Note: New vendor pool coming soon.</p></div>
 <div class="row">

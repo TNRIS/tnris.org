@@ -47,5 +47,5 @@ abstract: In collaboration with our training partners, the 2020 summer schedule 
   <p>
     Contact us about our Education &amp; Training Program.
   </p>
-  <a class="btn btn-tnris btn-lg btn-block" href="/education/contact"><i class="glyphicon glyphicon-comment"></i> Contact Us</a>
+  <a class="btn btn-tnris btn-lg btn-block" href="/education/contact"><i class="fa fa-comment"></i> Contact Us</a>
 </div>

@@ -24,7 +24,7 @@ The attendees judged each poster based on style, technical ability and creativit
 
 The results of this ACC Capstone project point to the benefit that playground trees give to lower income students. Disadvantaged students who have larger playground tree canopies have higher math test scores and fewer behavioral infractions. This study looked at a local school district covering parts of Leander, Cedar Park, Austin, and Georgetown.
 
-<p class="text-center"><strong><i class="glyphicon glyphicon-zoom-in"></i> Click on Image to View full screen</strong></p>
+<p class="text-center"><strong><i class="fa fa-zoom-in"></i> Click on Image to View full screen</strong></p>
 
 <a href="#full-spot" data-toggle="modal">
 <img class="img-fluid" src="https://cdn.tnris.org/images/1st_place_gillot.jpg" alt="A web preview of 1st Place poster winner" >
@@ -55,7 +55,7 @@ The results of this ACC Capstone project point to the benefit that playground tr
 
 Shoreline Erosion Rates calculated from aerial photography delineation. Analyzed 21 miles of shoreline morphology to prioritize the areas of shoreline needing protection.
 
-<p class="text-center"><strong><i class="glyphicon glyphicon-zoom-in"></i> Click on Image to View full screen</strong></p>
+<p class="text-center"><strong><i class="fa fa-zoom-in"></i> Click on Image to View full screen</strong></p>
 
 <a href="#full-spot-2" data-toggle="modal">
 <img class="img-fluid" src="https://cdn.tnris.org/images/2nd_place_kinningham.jpg" alt="A web preview of 2nd Place poster winner" >
@@ -89,7 +89,7 @@ Describes the history of Texas groundwater.
 -   How much data Texas has on groundwater.
 -   How Texas plans for the future regarding water.
 
-<p class="text-center"><strong><i class="glyphicon glyphicon-zoom-in"></i> Click on Image to View full screen</strong></p>
+<p class="text-center"><strong><i class="fa fa-zoom-in"></i> Click on Image to View full screen</strong></p>
 
 <a href="#full-spot-3" data-toggle="modal">
 <img class="img-fluid" src="https://cdn.tnris.org/images/3rd_place_olden.jpg" alt="A web preview of 3rd Place poster winner" >

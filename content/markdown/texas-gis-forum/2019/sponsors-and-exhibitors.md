@@ -178,5 +178,5 @@ Exhibitor Only option is reserved for government agencies, educational instituti
    After viewing the <a href="https://cdn.tnris.org/documents/tx-gis-forum-sponsor-rules-and-regulations-2019.pdf"><strong> Sponsor Rules and Regulations</strong></a>, visit the link  to register as a sponsor.
 </p>
 <p>
-  <a class="btn btn-lg btn-periwinkle float-left" href="{{buttonurl}}" target="_blank"><i class="glyphicon glyphicon-pencil"></i> {{buttontext}}</a>
+  <a class="btn btn-lg btn-periwinkle float-left" href="{{buttonurl}}" target="_blank"><i class="fa fa-pencil"></i> {{buttontext}}</a>
 </p> -->

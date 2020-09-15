@@ -159,7 +159,7 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 
 
 <p class="lead"><a class="btn btn-lg btn-periwinkle float-leftg" href="{{buttonurl}}">
-   <i class="glyphicon glyphicon-pencil"></i> {{buttontext}}
+   <i class="fa fa-pencil"></i> {{buttontext}}
 </a> After you've looked over the <a href="https://cdn.tnris.org/documents/2017-sponsor-rules-and-regulations.pdf"><strong>Sponsor Rules and Regulations</strong></a>, visit the link  to register as a sponsor.</p>
 
 

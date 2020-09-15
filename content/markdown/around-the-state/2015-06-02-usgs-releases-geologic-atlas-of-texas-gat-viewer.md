@@ -15,7 +15,7 @@ The Geologic Atlas of Texas is now online and available at your fingertips!
 
 In October 2002, the [USGS Texas Water Science Center](http://tx.usgs.gov/), in cooperation with the Texas Natural Resources Information System, embarked on a project to digitize all 38 Geologic Atlas of Texas hardcopy map sheets and compile them into a single, stand-alone database. Completed in 2007, the project resulted in a rich, digital dataset containing more than 145,000 geologic features in Texas and portions of neighboring states.
 
-<a class="btn btn-lg btn-success mx-auto d-block" style="width: 250px;" href="http://txpub.usgs.gov/dss/texasgeology/"><i class="glyphicon glyphicon-new-window"></i> Launch the Viewer</a>
+<a class="btn btn-lg btn-success mx-auto d-block" style="width: 250px;" href="http://txpub.usgs.gov/dss/texasgeology/"><i class="fa fa-new-window"></i> Launch the Viewer</a>
 
 In 2014, the USGS Texas Water Science Center decided it was time to bring the Geologic Atlas of Texas to the masses by developing a comprehensive online viewer. From the USGS:
 
