@@ -252,7 +252,7 @@ function insertDiscountCopy() {
     if (data.count > 0) {
       var copy =
         `
-          <h3>Discount Code</h3>
+          <h3 style="margin-top:0;">Discount Code</h3>
           <p>
             To receive a discounted price on all TNRIS trainings provided through our service partners, copy the coupon code below to use during the registration process.
           </p>
