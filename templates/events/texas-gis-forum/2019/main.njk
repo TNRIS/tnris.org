@@ -1,4 +1,3 @@
-
 {% extends "base.njk" %}
 {% import "_form_macros.njk" as form %}
 
@@ -20,14 +19,17 @@
 {% block topcontent %}
   <div class="full forum-2019-top">
     <div class="forum-2017-brand-container container">
-      <h1 class="forum-brand sr-only"><a href="/texas-gis-forum/2019"><span>Texas GIS Forum</span></a> October 21 – 25, 2019 | Austin, Texas</h1>
+      <h1 class="forum-brand sr-only">
+        <a href="/texas-gis-forum/2019">
+          <span>Texas GIS Forum</span></a>
+        October 21 – 25, 2019 | Austin, Texas</h1>
     </div>
     <a href="/texas-gis-forum/2019">
       {% if mainimage %}
-        <img src="{{mainimage}}" class="banner img-fluid d-none d-md-block" alt="Texas GIS Forum Main Image">
+        <img src="{{mainimage}}" class="banner img-fluid mx-auto d-none d-md-block" alt="Texas GIS Forum Main Image">
       {% endif %}
       {% if mainimagesm %}
-        <img src="{{mainimagesm}}" class="banner img-fluid d-md-none d-lg-none" alt="Texas GIS Forum Main Image">
+        <img src="{{mainimagesm}}" class="banner img-fluid mx-auto d-md-none d-lg-none" alt="Texas GIS Forum Main Image">
       {% endif %}
     </a>
     {% include "events/texas-gis-forum/2019/nav.njk" %}
@@ -36,28 +38,30 @@
   <div class="_2016-forum-intro">
     <div class="container">
       <h2 class="forum-2017-page-title">{{title}}</h2>
-
-      <div class="col-sm-5 order-sm-2">
-        {% if title == '2019 Texas GIS Forum' %}
-          {% include "events/texas-gis-forum/2019/registration.njk" %}
-        {% endif %}
-        {% if title == 'Sponsors & Exhibitors' %}
-          {% include "events/texas-gis-forum/2019/sponsorbox.njk" %}
-          {% if buttontext %}
-            <a class="btn btn-lg btn-darkgrey btn-block" href="{{buttonurl}}">
-              <i class="fa fa-pencil"></i> {{buttontext}}
-            </a>
+      <div class="row mx-auto">
+        <div class="col-sm-5 order-sm-2">
+          {% if title == '2019 Texas GIS Forum' %}
+            {% include "events/texas-gis-forum/2019/registration.njk" %}
           {% endif %}
+          {% if title == 'Sponsors & Exhibitors' %}
+            {% include "events/texas-gis-forum/2019/sponsorbox.njk" %}
+            {% if buttontext %}
+              <a class="btn btn-lg btn-darkgrey btn-block" href="{{buttonurl}}">
+                <i class="fa fa-pencil"></i>
+                {{buttontext}}
+              </a>
+            {% endif %}
+          {% endif %}
+          {% if title == 'Call for Papers' %}{% endif %}
+          {% if title == 'Forum Pre-Conference Workshops' %}
+            <div class="alert alert-warning">
+              <p>
+                <strong>Notice:</strong>
+                Online Registration is now closed. Please register onsite.</strong>
+            </p>
+          </div>
         {% endif %}
-        {% if title == 'Call for Papers' %}
-        {% endif %}
-        {% if title == 'Forum Pre-Conference Workshops' %}
-        <div class="alert alert-warning">
-          <p><strong>Notice:</strong> Online Registration is now closed. Please register onsite.</strong></p>
-        </div>
-        {% endif %}
-        {% if title == '2019 Texas GIS Forum Agenda' %}
-        {% endif %}
+        {% if title == '2019 Texas GIS Forum Agenda' %}{% endif %}
       </div>
 
       <div class="col-sm-7 order-sm-1">
@@ -78,24 +82,24 @@
       </div>
     </div>
   </div>
+</div>
 {% endblock %}
 
 {% block contentsOne %}
-  <div id="contentMain" class="container">
-    <div class="row">
-      <div class="col-md-7">
-        {{contents|safe}}
-      </div>
-      {% if title == 'Sponsors & Exhibitors' %}
-        <div class="col-md-5">
-        </div>
-      {% endif %}
+<div id="contentMain" class="container">
+  <div class="row">
+    <div class="col-md-7">
+      {{contents|safe}}
     </div>
+    {% if title == 'Sponsors & Exhibitors' %}
+      <div class="col-md-5"></div>
+    {% endif %}
   </div>
+</div>
 {% endblock %}
 
 {% block contentsTwo %}
-  <section class="forum-sponsors">
-    {% include "events/texas-gis-forum/2019/sponsors.njk" %}
-  </section>
+<section class="forum-sponsors">
+  {% include "events/texas-gis-forum/2019/sponsors.njk" %}
+</section>
 {% endblock %}

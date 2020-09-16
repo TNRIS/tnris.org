@@ -50,7 +50,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     </p>
     <div class="media">
       <div class="media-left">
-          <img class="media-object" src="https://cdn.tnris.org/images/saroo-alley.jpg" alt="Saroo Brierley">
+          <img class="media-object px-2" src="https://cdn.tnris.org/images/saroo-alley.jpg" alt="Saroo Brierley">
       </div>
       <div class="media-body">
         <h3 class="media-heading">Keynote Speaker: Saroo Brierley</h3>

@@ -13,7 +13,7 @@ For over three decades, the Texas GIS Forum has been the premiere gathering for 
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-4 col-6 event-circle">
+    <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">
         <a href="/texas-gis-forum/2019">
           <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/forum_2019_th.jpg" alt="2019 Forum graphic"/>
@@ -21,7 +21,7 @@ For over three decades, the Texas GIS Forum has been the premiere gathering for 
         </a>
       </div>
     </div>
-    <div class="col-sm-4 col-6 event-circle">
+    <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">
         <a href="/texas-gis-forum/2018">
           <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/forum_2018_th.jpg" alt="2018 Forum graphic"/>
@@ -29,7 +29,7 @@ For over three decades, the Texas GIS Forum has been the premiere gathering for 
         </a>
       </div>
     </div>
-    <div class="col-sm-4 col-6 event-circle">
+    <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">
         <a href="/texas-gis-forum/2017">
           <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/forum_2017_th.jpg" alt="2017 Forum graphic"/>
@@ -37,7 +37,7 @@ For over three decades, the Texas GIS Forum has been the premiere gathering for 
         </a>
       </div>
     </div>
-    <div class="col-sm-4 col-6 event-circle">
+    <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">
         <a href="/texas-gis-forum/2016">
           <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/forum_2016_th.jpg" alt="2016 Forum graphic"/>
@@ -45,7 +45,7 @@ For over three decades, the Texas GIS Forum has been the premiere gathering for 
         </a>
       </div>
     </div>
-    <div class="col-sm-4 col-6 event-circle">
+    <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">
         <a href="/texas-gis-forum/2015">
           <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/forum_2015_th.jpg" alt="2015 Forum graphic"/>
@@ -53,7 +53,7 @@ For over three decades, the Texas GIS Forum has been the premiere gathering for 
         </a>
       </div>
     </div>
-    <div class="col-sm-4 col-6 event-circle">
+    <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">
         <a href="/texas-gis-forum/2014">
           <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/forum_2014_th.jpg" alt="2014 Forum graphic"/>
@@ -72,7 +72,7 @@ The GeoRodeo is a roundup of geodevelopers, coders, and professionals from acros
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-4 col-6 event-circle">
+    <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">
         <a href="/georodeo">
           <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/georodeo_2019_th.jpg" alt="2019 GeoRodeo graphic"/>
@@ -80,7 +80,7 @@ The GeoRodeo is a roundup of geodevelopers, coders, and professionals from acros
         </a>
       </div>
     </div>
-    <div class="col-sm-4 col-6 event-circle">
+    <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">
         <a href="/georodeo/2018">
           <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/georodeo_2018_th.jpg" alt="2018 GeoRodeo graphic"/>
@@ -88,7 +88,7 @@ The GeoRodeo is a roundup of geodevelopers, coders, and professionals from acros
         </a>
       </div>
     </div>
-    <div class="col-sm-4 col-6 event-circle">
+    <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">
         <a href="/georodeo/2017">
           <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/georodeo_2017_th.jpg" alt="2017 GeoRodeo graphic"/>
@@ -96,7 +96,7 @@ The GeoRodeo is a roundup of geodevelopers, coders, and professionals from acros
         </a>
       </div>
     </div>
-    <div class="col-sm-4 col-6 event-circle">
+    <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">
         <a href="/georodeo/2016">
           <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/georodeo_2016_th.jpg" alt="2016 GeoRodeo graphic"/>
@@ -104,7 +104,7 @@ The GeoRodeo is a roundup of geodevelopers, coders, and professionals from acros
         </a>
       </div>
     </div>
-    <div class="col-sm-4 col-6 event-circle">
+    <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">
         <a href="/georodeo/2015">
           <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/georodeo_2015_th.jpg" alt="2015 GeoRodeo graphic"/>

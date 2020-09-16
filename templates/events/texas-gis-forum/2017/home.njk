@@ -1,7 +1,5 @@
-
 {% extends "base.njk" %}
 {% import "_form_macros.njk" as form %}
-
 
 {% block styles %}
   {{ super() }}
@@ -16,70 +14,79 @@
 
 {% endblock %}
 
-
 {% block topcontent %}
-    <div class="full forum-2017-top">
+  <div class="full forum-2017-top">
 
-      <div class="forum-2017-brand-container container">
-        <h1 class="forum-brand"><span>Texas GIS Forum</span>October 23 – 27, 2017 | Austin, Texas
-        </h1>
-        {% include "events/texas-gis-forum/2017/nav.njk" %}
+    <div class="py-4 forum-2017-brand-container container">
+      <h1 class="forum-brand">
+        <span>Texas GIS Forum</span>October 23 – 27, 2017 | Austin, Texas
+      </h1>
+      {% include "events/texas-gis-forum/2017/nav.njk" %}
 
-      </div>
-        {% if mainimage %}
-          <img src="{{mainimage}}" class="banner img-fluid d-none d-md-block" alt="Texas GIS Forum Main Image">
-        {% endif %}
-        {% if mainimagesm %}
-          <img src="{{mainimagesm}}" class="banner img-fluid d-none d-md-none d-lg-none" alt="Texas GIS Forum Main Image">
-        {% endif %}
+    </div>
+    {% if mainimage %}
+      <img src="{{mainimage}}" class="banner img-fluid mx-auto d-none d-md-block" alt="Texas GIS Forum Main Image">
+    {% endif %}
+    {% if mainimagesm %}
+      <img src="{{mainimagesm}}" class="banner img-fluid mx-auto d-none d-md-none d-lg-none" alt="Texas GIS Forum Main Image">
+    {% endif %}
 
-        {% if mainimagexs %}
-          <img src="{{mainimagexs}}" class="banner img-fluid d-sm-none d-md-none d-lg-none"  alt="Texas GIS Forum Main Image">
-        {% endif %}
-      </div>
+    {% if mainimagexs %}
+      <img src="{{mainimagexs}}" class="banner img-fluid mx-auto d-sm-none d-md-none d-lg-none" alt="Texas GIS Forum Main Image">
+    {% endif %}
+  </div>
 {% endblock %}
-
 
 {% block contentsOne %}
   <div class="container">
-      {{contents|safe}}
+    {{contents|safe}}
   </div>
-
-
 
 {% endblock %}
 
 {% block contentsTwo %}
   <section class="grey-bg">
-      <div class="container">
-        <div class="row">
-                <h2>Featured Guest Speakers</h2>
-              <div class="col-md-3 featured-speaker-2017">
-                  <a href="/texas-gis-forum/2017/agenda#todd-mostak"><img class="rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/todd_headshot.jpg" alt="Head shot of Todd Mostak">
-                  <h3>Todd Mostak<br><small>CEO of MapD</small></h3></a>
-              </div>
-              <div class="col-md-3 featured-speaker-2017">
-                  <a href="/texas-gis-forum/2017/agenda#joanna-sanchez"><img class="rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/joanna_headshot.jpg" alt="Head shot of Joanna Sanchez">
+    <div class="py-2 container">
+      <h2>Featured Guest Speakers</h2>
+      <div class="py-2 row">
+        <div class="col-md-3 featured-speaker-2017">
+          <a href="/texas-gis-forum/2017/agenda#todd-mostak"><img class="rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/todd_headshot.jpg" alt="Head shot of Todd Mostak">
+            <h3>Todd Mostak<br>
+              <small>CEO of MapD</small>
+            </h3>
+          </a>
+        </div>
+        <div class="col-md-3 featured-speaker-2017">
+          <a href="/texas-gis-forum/2017/agenda#joanna-sanchez"><img class="rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/joanna_headshot.jpg" alt="Head shot of Joanna Sanchez">
 
-                <h3>Joanna Sanchez<br><small>Educational Policy Expert at Howard University</small></h3></a>
-              </div>
-              <div class="col-md-3 featured-speaker-2017">
-                  <a href="/texas-gis-forum/2017/agenda#kyle-walker"><img class="rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/kylewalker_headshot.jpg" alt="Head shot of Kyle Walker">
-                <h3>Kyle Walker<br><small>Urban Studies Expert at Texas Christian University</small></h3></a>
-              </div>
-              <div class="col-md-3 featured-speaker-2017">
-                  <a href="/texas-gis-forum/2017/agenda#sean-wohltman"><img class="rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/sean_headshot.jpg" alt="Head shot of Sean Wohltman">
-                <h3>Sean Wohltman<br><small>Geospatial Scientist at Google</small></h3></a>
-              </div>
-          </div>
+            <h3>Joanna Sanchez<br>
+              <small>Educational Policy Expert at Howard University</small>
+            </h3>
+          </a>
+        </div>
+        <div class="col-md-3 featured-speaker-2017">
+          <a href="/texas-gis-forum/2017/agenda#kyle-walker"><img class="rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/kylewalker_headshot.jpg" alt="Head shot of Kyle Walker">
+            <h3>Kyle Walker<br>
+              <small>Urban Studies Expert at Texas Christian University</small>
+            </h3>
+          </a>
+        </div>
+        <div class="col-md-3 featured-speaker-2017">
+          <a href="/texas-gis-forum/2017/agenda#sean-wohltman"><img class="rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/sean_headshot.jpg" alt="Head shot of Sean Wohltman">
+            <h3>Sean Wohltman<br>
+              <small>Geospatial Scientist at Google</small>
+            </h3>
+          </a>
+        </div>
       </div>
+    </div>
   </section>
   <section>
-      <div class="container">
-        {% include "events/texas-gis-forum/2017/map.njk" %}
-      </div>
+    <div class="container">
+      {% include "events/texas-gis-forum/2017/map.njk" %}
+    </div>
   </section>
-<section class="forum-sponsors">
+  <section class="forum-sponsors">
     {% include "events/texas-gis-forum/2017/sponsors.njk" %}
   </section>
 {% endblock %}

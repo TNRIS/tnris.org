@@ -12,7 +12,7 @@
           {% set pagination_end = pagination.end + 1 %}
           {% for news_item in news_archive.slice(pagination.start, pagination_end) %}
             <li class="media">
-              <a class="float-left" href="{{news_item.preserved}}"><img class="media-object" src="{{news_item.thumbnail}}" alt="{{news_item.thumbalt}}">
+              <a class="float-left" href="{{news_item.preserved}}"><img class="media-object px-2" src="{{news_item.thumbnail}}" alt="{{news_item.thumbalt}}">
               </a>
               <div class="media-body">
                 <h3 class="media-heading">
