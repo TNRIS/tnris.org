@@ -16,7 +16,7 @@ Details regarding these acquisitions can be found by downloading the supplementa
 
 ## Data Access
 
-<img src="https://cdn.tnris.org/images/usgs_2016_2018_collections.jpg" class="img-responsive" alt="Map showing 5 collections in different colors across texas">
+<img src="https://cdn.tnris.org/images/usgs_2016_2018_collections.jpg" class="img-fluid" alt="Map showing 5 collections in different colors across texas">
 
 
 <p>To download the USGS 2016-2018 lidar data products, please use the <a href="https://data.tnris.org/catalog/%7B%22filters%22%3A%7B%22category%22%3A%5B%22Lidar%22%5D%7D%2C%22search%22%3A%22USGS%20FEMA%22%2C%22sort%22%3A%22AZ%22%7D">DataHub</a>.</p>

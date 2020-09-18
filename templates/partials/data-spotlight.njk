@@ -1,6 +1,6 @@
 <div id="dataSpot">
-        <div class="spotText hidden-md">
-          <i class="glyphicon glyphicon-eye-open"></i> A closer look at featured data and maps from our own catalog and other sources.
+        <div class="spotText d-md-none">
+          <i class="fa fa-eye-open"></i> A closer look at featured data and maps from our own catalog and other sources.
         </div>
         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false" keyboard="true">
           <ol class="carousel-indicators">
@@ -12,9 +12,9 @@
           <div class="carousel-inner" role="listbox">
             {% for spotlight in spotlights %}
               {% if loop.index <=4 %}
-                <div class="item">
+                <div class="carousel-item">
                   <a href="{{spotlight.preserved}}">
-                    <img class="media-object" src="{{spotlight.thumb}}" alt="...">
+                    <img class="media-object px-2" src="{{spotlight.thumb}}" alt="...">
                     <h4>
                       <small>Data Spotlight</small>
                       {{ spotlight.title }}
@@ -25,11 +25,11 @@
             {% endfor %}
           </div>
           <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="fa fa-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
           <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="fa fa-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>

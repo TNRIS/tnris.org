@@ -62,7 +62,7 @@ body.forum-sub-2016, body.poster-gallery, body._2016-forum-training {
     position: relative;
   }
 
-  .well {
+  .card.card-body {
     margin-top: 30px;
   }
 
@@ -256,7 +256,7 @@ h2#exhibitor-only-1-500-limit-10- {
   border-bottom: 5px solid $forum2015blue;
 }
 
-.well.sponsor-box {
+.card.card-body.sponsor-box {
   margin-top: 0 !important;
 
   .btn-success {

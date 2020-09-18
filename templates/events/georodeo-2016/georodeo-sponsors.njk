@@ -21,8 +21,8 @@
             <h1>{{title}}</h1> 
             {{abstract}}
         </div>
-          <a href="/georodeo/2016"><img class="main hidden-xs" src="{{mainimage}}" alt="Masthead for {{title}}">
-          <img class="img-responsive hidden-lg hidden-md hidden-sm" src="https://cdn.tnris.org/images/cowsay_pasture_sm.jpg" alt="Small Masthead for {{title}}">
+          <a href="/georodeo/2016"><img class="main d-none d-md-block" src="{{mainimage}}" alt="Masthead for {{title}}">
+          <img class="img-fluid d-block d-md-none" src="https://cdn.tnris.org/images/cowsay_pasture_sm.jpg" alt="Small Masthead for {{title}}">
         </a>
         <div class="georodeo-date-bar">
           <div class="container">The Annual Texas GeoDeveloper Roundup<br>
@@ -39,7 +39,7 @@
             {{ contents|safe }} 
           </div>
           <div class="col-sm-4">
-              <a class="btn btn-danger btn-lg btn-block" href="https://www.regonline.com/Register/Checkin.aspx?EventID=1814545"><i class="glyphicon glyphicon-edit"></i> Become a Sponsor</a>
+              <a class="btn btn-danger btn-lg btn-block" href="https://www.regonline.com/Register/Checkin.aspx?EventID=1814545"><i class="fa fa-edit"></i> Become a Sponsor</a>
           </div>
         </div>
     </div>

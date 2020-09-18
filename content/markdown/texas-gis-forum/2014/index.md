@@ -11,7 +11,7 @@ abstract: Once a year, take a break from your screen to go social at the Texas G
 <div class="row">
 <div class="media keynote col-md-6">
 	<div class="media-left">
-		<img class="media-object" src="https://cdn.tnris.org/images/suri_th_0.jpg" alt="Jeremi Suri Head Shot">
+		<img class="media-object px-2" src="https://cdn.tnris.org/images/suri_th_0.jpg" alt="Jeremi Suri Head Shot">
 	</div>
 	<div class="media-body">
 		<small>Wednesday, October 22nd, 9AM to 10AM</small>
@@ -21,7 +21,7 @@ abstract: Once a year, take a break from your screen to go social at the Texas G
 </div>
 <div class="media keynote col-md-6">
 	<div class="media-left">
-		<img class="media-object" src="https://cdn.tnris.org/images/wolter_th.jpg" alt="Scott Wolter Head Shot">
+		<img class="media-object px-2" src="https://cdn.tnris.org/images/wolter_th.jpg" alt="Scott Wolter Head Shot">
 	</div>
 	<div class="media-body">
 		<small>Thursday, October 23rd, 9AM to 10AM</small>

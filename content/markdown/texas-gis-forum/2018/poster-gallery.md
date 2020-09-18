@@ -9,7 +9,7 @@ intro: true
 sidebar: postersubmission
 ---
 
-<img style="max-width: 50%" class="pull-right" src="https://cdn.tnris.org/images/forum_2017_12.jpg" alt="Forum Attendees looking at the Poster Gallery"> The purpose of the poster gallery is to promote and recognize the advances of map design, cartography, and GIS. The map gallery is open to all attendees and vendors. Attendees will have the opportunity to vote on each poster based on the following criteria:
+<img style="max-width: 50%" class="float-right" src="https://cdn.tnris.org/images/forum_2017_12.jpg" alt="Forum Attendees looking at the Poster Gallery"> The purpose of the poster gallery is to promote and recognize the advances of map design, cartography, and GIS. The map gallery is open to all attendees and vendors. Attendees will have the opportunity to vote on each poster based on the following criteria:
 
 - Map design
 - Use of space
@@ -18,7 +18,7 @@ sidebar: postersubmission
 - Creativity
 - Originality
 
-<div class="well well-md">
+<div class="card card-body well-md">
   <h3>Winners</h3>
 
 <p>The top 3 vote earners will be highlighted on the TNRIS website under the 'Latest News' section following the forum. </p>

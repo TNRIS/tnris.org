@@ -18,5 +18,5 @@ He will be remembered by hundreds of TNRIS users for his generosity and professi
 
 <p class="lead">Obituary: <a href="https://www.dignitymemorial.com/obituaries/austin-tx/louis-falconieri-7810317">https://www.dignitymemorial.com/obituaries/austin-tx/louis-falconieri-7810317</a></p>
 
-<img class="img-responsive" src="https://cdn.tnris.org/images/lou_memory.jpg" alt="Lou poses for photo in TNRIS map room">
+<img class="img-fluid" src="https://cdn.tnris.org/images/lou_memory.jpg" alt="Lou poses for photo in TNRIS map room">
 

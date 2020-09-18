@@ -1,4 +1,3 @@
-
 {% extends "base.njk" %}
 {% import "_form_macros.njk" as form %}
 
@@ -17,38 +16,40 @@
   <script src="/forum.bundle.js"></script>
 {% endblock %}
 
-
 {% block topcontent %}
-    <div class="full forum-2017-top">
+  <div class="full forum-2017-top">
 
-      <div class="forum-2017-brand-container container">
-        <h1 class="forum-brand"><a href="/texas-gis-forum/2017"><span>Texas GIS Forum</span></a> October 23 – 27, 2017 | Austin, Texas
-        </h1>
+    <div class="py-4 forum-2017-brand-container container">
+      <h1 class="forum-brand">
+        <a href="/texas-gis-forum/2017">
+          <span>Texas GIS Forum</span></a>
+        October 23 – 27, 2017 | Austin, Texas
+      </h1>
 
-        {% include "events/texas-gis-forum/2017/nav.njk" %}
-      </div>
-      <a href="/texas-gis-forum/2017">
-        {% if mainimage %}
-          <img src="{{mainimage}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
-        {% endif %}
-        {% if mainimagesm %}
-          <img src="{{mainimagesm}}" class="banner img-responsive hidden-xs hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
-        {% endif %}
+      {% include "events/texas-gis-forum/2017/nav.njk" %}
+    </div>
+    <a href="/texas-gis-forum/2017">
+      {% if mainimage %}
+        <img src="{{mainimage}}" class="banner img-fluid mx-auto d-none d-md-block" alt="Texas GIS Forum Main Image">
+      {% endif %}
+      {% if mainimagesm %}
+        <img src="{{mainimagesm}}" class="banner img-fluid mx-auto d-none d-md-none d-lg-none" alt="Texas GIS Forum Main Image">
+      {% endif %}
 
-        {% if mainimagexs %}
-          <img src="{{mainimagexs}}" class="banner img-responsive hidden-sm hidden-md hidden-lg"  alt="Texas GIS Forum Main Image">
-        {% endif %}
-      </a>
+      {% if mainimagexs %}
+        <img src="{{mainimagexs}}" class="banner img-fluid mx-auto d-sm-none d-md-none d-lg-none" alt="Texas GIS Forum Main Image">
+      {% endif %}
+    </a>
 
-      </div>
+  </div>
 
-    <div class="_2016-forum-intro">
+  <div class="_2016-forum-intro">
 
-      <div class="container">
-        <h2 class="forum-2017-page-title">{{title}}</h2>
-        {% if buttontext %}
-        <div class="col-sm-5 col-sm-push-7">
-      {#     {% if title == '2017 Texas GIS Forum' %}
+    <div class="container">
+      <h2 class="forum-2017-page-title">{{title}}</h2>
+      {% if buttontext %}
+        <div class="col-sm-5 order-sm-2">
+          {#     {% if title == '2017 Texas GIS Forum' %}
             {% include "events/texas-gis-forum/2017/registration.njk" %}
           {% endif %}
 
@@ -57,45 +58,42 @@
           {% endif %}
 
           <a class="btn btn-lg btn-darkgrey btn-block" href="{{buttonurl}}">
-            <i class="glyphicon glyphicon-pencil"></i> {{buttontext}}
+            <i class="fa fa-pencil"></i> {{buttontext}}
           </a> #}
         </div>
-        {% else %}
+      {% else %}
 
-        <div class="col-sm-5 col-sm-push-7">
-        </div>
+        <div class="col-sm-5 order-sm-2"></div>
+      {% endif %}
+      <div class="col-sm-7 order-sm-1">
+        {% if title == '2016 Texas GIS Forum' %}
+          {% include "events/texas-gis-forum/2017/welcome.njk" %}
         {% endif %}
-        <div class="col-sm-7 col-sm-pull-5">
-          {% if title == '2016 Texas GIS Forum' %}
-              {% include "events/texas-gis-forum/2017/welcome.njk" %}
-          {% endif %}
 
+        {% if title == 'Sponsors & Exhibitors' %}
+          {% include "events/texas-gis-forum/2017/sponsortext.njk" %}
+        {% endif %}
 
-          {% if title == 'Sponsors & Exhibitors' %}
-              {% include "events/texas-gis-forum/2017/sponsortext.njk" %}
-          {% endif %}
-
-          {% if title == 'Forum Pre-Conference Workshops' %}
+        {% if title == 'Forum Pre-Conference Workshops' %}
           {{contents|safe}}
-            {% endif %}
-        </div>
+        {% endif %}
       </div>
     </div>
+  </div>
 {% endblock %}
 
-
 {% block contentsOne %}
-<div id="contentMain" class="container">
-  <div class="row">
-    <div class="col-md-8">
-      {{contents|safe}}
+  <div id="contentMain" class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {{contents|safe}}
+      </div>
     </div>
   </div>
-</div>
 {% endblock %}
 
 {% block contentsTwo %}
-<section class="forum-sponsors">
+  <section class="forum-sponsors">
     {% include "events/texas-gis-forum/2017/sponsors.njk" %}
   </section>
 {% endblock %}

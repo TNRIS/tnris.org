@@ -22,7 +22,7 @@ Further details regarding this acquisition can be found by downloading the Proje
 
 ## Data coverage
 
-<img src="https://cdn.tnris.org/images/lcb_coveragemap.jpg" class="img-responsive" alt="Map showing coverage of the USGS 2018 Lower Colorado San Bernard lidar project">
+<img src="https://cdn.tnris.org/images/lcb_coveragemap.jpg" class="img-fluid" alt="Map showing coverage of the USGS 2018 Lower Colorado San Bernard lidar project">
 
 Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builder/a5dfc759-9a90-4acd-a8d1-57d521c7e1fe/public_map) for statewide lidar coverage.
 
@@ -36,7 +36,7 @@ Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builde
 
 #### Bare Earth Digital Elevation Model of Lower Colorado San Bernard Lidar
 
-<img class="img-responsive" src="https://s3.amazonaws.com/data.tnris.org/b246f8f7-9c79-4c89-91f7-9c7f44955fca/assets/587cf3fe-c28f-4d2e-82c3-ee4d1586f10c.jpg" alt="detail image of the Lower Colorado San Bernard Lidar">
+<img class="img-fluid" src="https://s3.amazonaws.com/data.tnris.org/b246f8f7-9c79-4c89-91f7-9c7f44955fca/assets/587cf3fe-c28f-4d2e-82c3-ee4d1586f10c.jpg" alt="detail image of the Lower Colorado San Bernard Lidar">
 
 ## Product Specification
 

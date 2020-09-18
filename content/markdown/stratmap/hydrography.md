@@ -22,14 +22,14 @@ mainimage: https://cdn.tnris.org/images/hydro_banner.jpg
 </div>
 
 <div class="col-md-6" style="margin-top: 15px;" >
-<figure><img class="img-responsive" src="https://cdn.tnris.org/images/hydrosample.jpg" alt="Map of WBD regions">
+<figure><img class="img-fluid" src="https://cdn.tnris.org/images/hydrosample.jpg" alt="Map of WBD regions">
 <figcaption>Overlay of NHD on Aerial Image</figcaption></figure>
 
 <figure>
 <a href="https://cdn.tnris.org/images/wbd_subregions_lg.png" data-toggle="lightbox" data-gallery="example-gallery" data-title="Watershed Boundary Dataset (WBD) Sub Regions">
-    <img class="img-responsive" src="https://cdn.tnris.org/images/wbd_subregions_lg.png">
+    <img class="img-fluid" src="https://cdn.tnris.org/images/wbd_subregions_lg.png">
 </a>
-<figcaption><i class="glyphicon glyphicon-zoom-in"></i> Click to Enlarge. Overview of the Watershed Boundary Dataset. </figcaption></figure>
+<figcaption><i class="fa fa-zoom-in"></i> Click to Enlarge. Overview of the Watershed Boundary Dataset. </figcaption></figure>
 </div>
 
 </div>
@@ -43,7 +43,7 @@ mainimage: https://cdn.tnris.org/images/hydro_banner.jpg
 <p>The <a href="https://edits.nationalmap.gov/markup-app">Markup Application</a> is a web-based mapping tool allowing public users to submit edits, or markups, to the NHD, WBD, and NHDPlus HR. Users can log in with any gmail account to suggest corrections and improvements to the data using local knowledge. For more information and details on how to use the tool see the USGS new <a href="https://www.youtube.com/watch?v=4hnvgPZxY5Q">Markup App Video</a> for help using the tool.</p>
 </div>
 <div class="col-md-6" style="margin-top: 15px;">
-<img class="img-responsive" src="https://cdn.tnris.org/images/markup_tool_image.jpg" alt="screenshot of NHD Markup tool editor">
+<img class="img-fluid" src="https://cdn.tnris.org/images/markup_tool_image.jpg" alt="screenshot of NHD Markup tool editor">
 </div>
 </div>
 </section>
@@ -79,7 +79,7 @@ mainimage: https://cdn.tnris.org/images/hydro_banner.jpg
 
 </div>
 <div class="col-md-6" style="margin-top: 15px;">
-<figure><img class="img-responsive" src="https://cdn.tnris.org/images/nhd_editor.jpg" alt="screenshot of NHD online markup editor">
+<figure><img class="img-fluid" src="https://cdn.tnris.org/images/nhd_editor.jpg" alt="screenshot of NHD online markup editor">
 <figcaption>Overview of the NHDPlus</figcaption></figure>
 </div>
 </div>

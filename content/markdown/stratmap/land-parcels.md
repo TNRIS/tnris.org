@@ -29,7 +29,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       </iframe>
       <h2>Download</h2>
       <p>Use the DataHub to download the Land Parcels dataset:</p>
-      <a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+      <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
     </div>
   </div>
 </div>
@@ -38,7 +38,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
     <h2>Program Timeline</h2>
     <p class="lead">This timeline documents past events and estimates future milestones. As milestones are met, this timeline will be updated. Please check each county for the most recent version of data.</p>
     <div class="timeline-stratmap">
-      <div class="bar-stratmap hidden-xs"></div>
+      <div class="bar-stratmap d-none"></div>
       <div class="bar-vertical-stratmap"></div>
       <div class="phase-top phase-1"><strong>Texas GIO Report 2016</strong> identifies parcels as most requested dataset</div>
       <div class="phase phase-2"><strong>Texas Parcel Study 2017</strong> evaluated parcels in Texas and five states across USA
@@ -68,13 +68,13 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
     <div id="agency-parcel-uses" class="col-md-6">
       <h2>Program Flow</h2>
       <p>This iterative program flow will occur throughout the year. At no one time will there be a completed or final version of data as each data source has varying update schedules. Please check each county for the most recent version of data.</p>
-      <img src="https://cdn.tnris.org/images/data-circle.jpg" class="img-responsive">
+      <img src="https://cdn.tnris.org/images/data-circle.jpg" class="img-fluid">
       <h2>Agency Parcel Uses</h2>
       <p class="lead">Texas State Agencies make extensive use of Land Parcel data for all types of operations and applications.</p>
       <hr class="clearfix">
       <div class="row">
         <div class="col-md-6">
-          <img src="https://cdn.tnris.org/images/tx_glo_logo.jpg" class="center-block">
+          <img src="https://cdn.tnris.org/images/tx_glo_logo.jpg" class="mx-auto d-block">
           <p><strong>General Land Office (GLO)</strong></p>
           <ul>
             <li>Management of state landscoastal land permitting</li>
@@ -83,17 +83,17 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
           </ul>
         </div>
         <div class="col-md-6">
-          <img src="https://cdn.tnris.org/images/tdem_logo.jpg" class="center-block">
+          <img src="https://cdn.tnris.org/images/tdem_logo.jpg" class="mx-auto d-block">
           <p><strong>Texas Division of Emergency Management (TDEM)</strong></p>
           <ul>
             <li>Mitigate emergency situations by accurately modeling and mapping areas to predict flooding along high-risk areas</li>
             <li>Planning and early evacuation procedure</li>
           </ul>
         </div>
-        <hr class="clearfix hidden-xs hidden-sm">
+        <hr class="clearfix d-none d-sm-none">
         <div class="row">
           <div class="col-md-6">
-            <img src="https://cdn.tnris.org/images/txdot_logo.jpg" class="center-block">
+            <img src="https://cdn.tnris.org/images/txdot_logo.jpg" class="mx-auto d-block">
             <p><strong>Texas Department of Transportation (TXDOT)</strong></p>
             <ul>
               <li>Right of Way management for private or state-owned lands</li>
@@ -102,7 +102,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
             </p>
           </div>
           <div class="col-md-6">
-            <img src="https://cdn.tnris.org/images/hhs_logo.jpg" class="center-block img-responsive">
+            <img src="https://cdn.tnris.org/images/hhs_logo.jpg" class="mx-auto d-block img-fluid">
             <p><strong>Health and Human Services Commission (HHSC)</strong></p>
             <ul>
               <li>Determine structures in the path or vicinity of disease outbreak</li>
@@ -110,10 +110,10 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
             </ul>
           </div>
         </div>
-        <hr class="clearfix hidden-xs hidden-sm">
+        <hr class="clearfix d-none d-sm-none">
         <div class="row">
           <div class="col-md-6">
-            <img src="https://cdn.tnris.org/images/twdb_web_med.jpg" class="center-block">
+            <img src="https://cdn.tnris.org/images/twdb_web_med.jpg" class="mx-auto d-block">
             <p><strong>Texas Water Development Board (TWDB)</strong></p>
             <ul>
               <li>Determine if structures will be affected by flood conditions for early evacuation</li>
@@ -121,7 +121,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
             </ul>
           </div>
           <div class="col-md-6">
-            <img src="https://cdn.tnris.org/images/tahc_logo.jpg" class="center-block">
+            <img src="https://cdn.tnris.org/images/tahc_logo.jpg" class="mx-auto d-block">
             <p><strong>Texas Animal Health Commission (TAHC)</strong></p>
             <ul>
               <li>Locate farms, ranches, feedlots, etc in the event of animal disease outbreak</li>
@@ -129,10 +129,10 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
           </div>
         </div>
       </div>
-      <hr class="clearfix hidden-xs hidden-sm">
+      <hr class="clearfix d-none d-sm-none">
       <div class="row">
         <div class="col-md-6">
-          <img src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" class="center-block">
+          <img src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" class="mx-auto d-block">
           <p><strong>Texas Commission on Environmental Quality (TCEQ)</strong></p>
           <ul>
             <li>Air permitting and air quality monitoring/analysis</li>
@@ -141,7 +141,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
           </ul>
         </div>
         <div class="col-md-6">
-          <img src="https://cdn.tnris.org/images/tpwd_logo.jpg" class="center-block">
+          <img src="https://cdn.tnris.org/images/tpwd_logo.jpg" class="mx-auto d-block">
           <p><strong>Texas Parks and Wildlife Department (TPWD)</strong></p>
           <ul>
             <li>Land ownership notification</li>
@@ -150,17 +150,17 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
           </ul>
         </div>
       </div>
-      <hr class="clearfix hidden-xs hidden-sm">
+      <hr class="clearfix d-none d-sm-none">
       <div class="row">
         <div class="col-md-6">
-          <img src="https://cdn.tnris.org/images/csec_logo_sm.jpg" class="center-block">
+          <img src="https://cdn.tnris.org/images/csec_logo_sm.jpg" class="mx-auto d-block">
           <p><strong>Commission on State Emergency Communications (CSEC)</strong></p>
           <ul>
             <li>Statewide emergency communications.</li>
           </ul>
         </div>
         <div class="col-md-6">
-          <img src="https://cdn.tnris.org/images/tx_dps_logo.jpg" class="center-block">
+          <img src="https://cdn.tnris.org/images/tx_dps_logo.jpg" class="mx-auto d-block">
           <p><strong>Department of Public Safety (DPS)</strong></p>
           <ul>
             <li>Emergency management and response.</li>
@@ -203,7 +203,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       <p>Not all counties are available for download from TNRIS. We continue to work with appraisal districts to provide as many county land parcel datasets as possible. As they are available, they will be posted online for download and the availability map updated. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/">Texas Comptroller of Public Accounts website</a>.</p>
       <hr>
       <p>Contact TNRIS with any further questions regarding this program and someone from StratMap will get in touch with you.</p>
-      <a class="btn btn-lg btn-primary" href="/contact"><i class="glyphicon glyphicon-document"></i>Contact Us</a>
+      <a class="btn btn-lg btn-primary" href="/contact"><i class="fa fa-file"></i>Contact Us</a>
     </div>
   </div>
 </div>

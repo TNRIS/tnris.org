@@ -109,21 +109,21 @@
 {% for item in contract_vendors %}
   <div class="col-sm-6">
     {% if item.status == 'unavailable' %}
-    <div class="thumbnail vendor-box unavailable">
+    <div class="card card-body vendor-box unavailable">
     {% else %}
-      <div class="thumbnail vendor-box">
+      <div class="card card-body vendor-box">
     {% endif %}
-          <a href="{{item.vendor_home_url}}"><img class="img-responsive" src="{{item.logo_url}}" alt="Logo and home page for {{item.name}}"></a>
+          <a href="{{item.vendor_home_url}}"><img class="img-fluid" src="{{item.logo_url}}" alt="Logo and home page for {{item.name}}"></a>
           <div class="caption">
               <h3 class="sr-only">{{item.name|safe}}</h3>
               <ul class="list-clean">
                 <li><a href="{{item.vendor_home_url}}">
-                  <i class="glyphicon glyphicon-home"></i> Vendor Home</a>
+                  <i class="fa fa-home"></i> Vendor Home</a>
                 </li>
 
                 <li>
                 {% if item.vendor_page_url %}
-                <a href="{{item.vendor_page_url}}"><i class="glyphicon glyphicon-new-window"></i> Vendor Contract Page</a>
+                <a href="{{item.vendor_page_url}}"><i class="fa fa-new-window"></i> Vendor Contract Page</a>
                 {% else %}
                 <em>Vendor Contract Page in progress</em>
                 {% endif %}
@@ -131,7 +131,7 @@
 
                 <li>
                 {% if item.dir_page_url %}
-                <a href="{{item.dir_page_url}}"><i class="glyphicon glyphicon-new-window"></i> DIR Vendor Contract Page</a>
+                <a href="{{item.dir_page_url}}"><i class="fa fa-new-window"></i> DIR Vendor Contract Page</a>
                 {% else %}
                 <em>DIR Contract Expired</em>
                  {% endif %}

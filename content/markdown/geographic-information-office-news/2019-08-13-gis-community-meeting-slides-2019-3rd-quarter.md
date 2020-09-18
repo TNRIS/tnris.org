@@ -21,31 +21,31 @@ Note: The [Annual Texas GIS Forum](https://www.tnris.org/texas-gis-forum/2019/),
 
 ## Roll Call notes
 
-<h3><a href="http://www.glo.texas.gov/"><img class="pull-right" alt="Texas General Land Office Logo and Link to website" src="https://cdn.tnris.org/images/tx_glo_logo.jpg"></a> TX General Land Office, Scot Friedman</h3>  
+<h3><a href="http://www.glo.texas.gov/"><img class="float-right" alt="Texas General Land Office Logo and Link to website" src="https://cdn.tnris.org/images/tx_glo_logo.jpg"></a> TX General Land Office, Scot Friedman</h3>  
 
 Happy about parcel standardization; GLO clips out shoreline areas; Using aerials and lidar from UT-Bureau on Economic Geology (BEG) for audit resources program of mines on PSL lands, will move into maintenance phase; Beginning “strategic plans” for drone use. Some have certification of authority(?) from Texas A&M University-Corpus Christi at GLO: Want to put together a “how to” manual on mapping projects.
 
 ****
 
-<h3><a href="http://www.txdot.gov/"><img class="pull-right" alt="" src="https://cdn.tnris.org/images/txdot_logo.jpg"></a> Texas Department of Transportation (TxDOT), Michael Chamberlain</h3>
+<h3><a href="http://www.txdot.gov/"><img class="float-right" alt="" src="https://cdn.tnris.org/images/txdot_logo.jpg"></a> Texas Department of Transportation (TxDOT), Michael Chamberlain</h3>
 
 Focusing on roadway network, publishing things this summer that have never been shared before; Building a routable network with TxDOT data.
 
 ****
 
-<h3><a href="http://www.rrc.state.tx.us"><img class="pull-right" src="https://cdn.tnris.org/images/rrc_logo_sm.png" alt="Railroad Commission logo and link to website"></a>  Railroad Commission of Texas – Jared Ware</h3>
+<h3><a href="http://www.rrc.state.tx.us"><img class="float-right" src="https://cdn.tnris.org/images/rrc_logo_sm.png" alt="Railroad Commission logo and link to website"></a>  Railroad Commission of Texas – Jared Ware</h3>
 
 Moving from 10.2 to 10.6 server; getting into data analytics; Annual conference is next month.
 
 ****
 
-<h3><a href="http://www.austintexas.gov"><img class="pull-right" src="https://cdn.tnris.org/images/coa_logo_sm.png" alt="City of Austin logo and link to website"></a>  City of Austin, Marna McClain</h3>
+<h3><a href="http://www.austintexas.gov"><img class="float-right" src="https://cdn.tnris.org/images/coa_logo_sm.png" alt="City of Austin logo and link to website"></a>  City of Austin, Marna McClain</h3>
 
 Change management project moving hundreds of users off Desktop and on to Pro.
 
 ****
 
-<h3><a href="https://www.dps.texas.gov/dem/"><img class="pull-right" src="https://cdn.tnris.org/images/tdem_logo.jpg" alt="TDEM logo and link to website"></a>  Texas Division of Emergency Management, Michael Ouimet</h3>
+<h3><a href="https://www.dps.texas.gov/dem/"><img class="float-right" src="https://cdn.tnris.org/images/tdem_logo.jpg" alt="TDEM logo and link to website"></a>  Texas Division of Emergency Management, Michael Ouimet</h3>
 
 Administratively moving under Texas A&M University umbrella on September 1. TDEM will become own standalone state agency similar to Texas Forest Service and will remain in Travis County. A new security operations center will be built in 4-5 years; State to have conversations about post disaster imagery collection amid federal declarations.
 
@@ -55,16 +55,16 @@ Administratively moving under Texas A&M University umbrella on September 1. TDEM
 Pushing into the 3D space and working with drones.
 
 ****
-<h3><a href="https://www.tceq.texas.gov"><img class="pull-right" src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" alt="TCEQ logo and link to website"></a>  Texas Commission on Environmental Quality</h3>
+<h3><a href="https://www.tceq.texas.gov"><img class="float-right" src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" alt="TCEQ logo and link to website"></a>  Texas Commission on Environmental Quality</h3>
 
 Migrating from Desktop to Pro.
 
 ****
-<h3><a href="https://hhs.texas.gov"><img class="pull-right" src="https://cdn.tnris.org/images/hhs_logo_sm.png" alt="THHS logo and link to website"></a>  Texas Health and Human Services</h3>
+<h3><a href="https://hhs.texas.gov"><img class="float-right" src="https://cdn.tnris.org/images/hhs_logo_sm.png" alt="THHS logo and link to website"></a>  Texas Health and Human Services</h3>
 
 Working on an application to compute drive times for Medicaid and CHIP recipients; Looking for a better network dataset.
 
 ****
-<h3><a href="https://www.roundrocktexas.gov/"><img class="pull-right" src="https://cdn.tnris.org/images/roundrock_logo_sm.png" alt="City of Round Rock logo and link to website"></a>  City of Round Rock, Nathan Smith</h3>
+<h3><a href="https://www.roundrocktexas.gov/"><img class="float-right" src="https://cdn.tnris.org/images/roundrock_logo_sm.png" alt="City of Round Rock logo and link to website"></a>  City of Round Rock, Nathan Smith</h3>
 
 Moving users to AGO, service oriented city. No more connections to local network. ArcGIS Urban from Esri UK will be big for the city.

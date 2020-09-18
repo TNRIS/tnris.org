@@ -35,7 +35,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
       <li><strong>6:45PM</strong> - Sunset</li>
       <li><strong>7:00PM</strong> - Shuttles begin leaving the Oasis back to the J.J Pickle Center</li>
     </ul>
-    <div class="well well-bg">
+    <div class="card card-body well-bg">
       <h4>Arrive on your own</h4>
       If you wish to drive instead of taking the shuttle, the Oasis Restaurant is located at:<br>
       <address>
@@ -51,7 +51,7 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     </p>
     <div class="media">
       <div class="media-left">
-          <img class="media-object" src="https://cdn.tnris.org/images/saroo-alley.jpg" alt="Saroo Brierley">
+          <img class="media-object px-2" src="https://cdn.tnris.org/images/saroo-alley.jpg" alt="Saroo Brierley">
       </div>
       <div class="media-body">
         <h3 class="media-heading">Keynote Speaker: Saroo Brierley</h3>

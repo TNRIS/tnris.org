@@ -11,6 +11,7 @@ html, body {
 }
 
 body {
+  
   font-family: $proxima;
   font-weight: 400;
   position: relative;
@@ -26,10 +27,6 @@ body {
   }
 }
 
-.row {
-  padding: 0 !important;
-}
-
 h1, h2, h3, h4 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
@@ -37,6 +34,27 @@ h1, h2, h3, h4 {
 
 h2 {
   color: $auburn;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.h1, h1 {
+  font-size: 2rem
+}
+.h2, h2 {
+  font-size: 1.75rem;
+}
+.h3, h3 {
+  font-size: 1.5rem;
+}
+.h4, h4 {
+  font-size: 1.25rem;
+}
+.h5, h5 {
+  font-size: 1.15rem;
 }
 
 /* custom lead */
@@ -353,31 +371,31 @@ author {
 }
 
 img {
-  &.pull-left {
+  &.float-left {
     margin: 0 20px 20px 0;
   }
 
-  &.pull-right {
+  &.float-right {
     margin: 0 0px 30px 30px;
   }
 }
 
 .btn {
-  &.pull-left {
+  &.float-left {
     margin: 0 20px 20px 0;
   }
 
-   &.pull-right {
+   &.float-right {
     margin: 0 0px 20px 20px;
   }
 }
 
 figure {
-  &.pull-left {
+  &.float-left {
     margin: 0 20px 20px 0;
   }
 
-   &.pull-right {
+   &.float-right {
     margin: 0 0px 20px 20px;
   }
 }
@@ -450,12 +468,11 @@ blockquote {
 }
 
 /* Media box resets */
-.media:first-child {
+/* .media:first-child {
   margin-top: 15px;
-}
+} */
 
 /* Alert Box */
-
 .navbar-static-top {
   .alert-custom {
     padding: 0;
@@ -510,7 +527,7 @@ blockquote {
 /* Side Bar on blogs */
 
 .col-md-4 {
-  .panel:first-child {
+  .card:first-child {
     margin-top: 20px;
   }
 }
@@ -707,7 +724,7 @@ button.data-access-toggle {
 }
 
 // Custom Well
-.well-dark {
+.card.card-body-dark {
   background: $darkgrey;
   color: $white;
   margin-top: 0px !important;
@@ -730,7 +747,7 @@ button.data-access-toggle {
   }
 }
 
-.well {
+.card.card-body {
   h1, h2, h3, h4 {
     margin-top: 0;
   }
@@ -886,4 +903,11 @@ video {display: block;}
 // strikethrough
 del {
   color: #a94442
+}
+
+// x-axis nav-link padding for navigations on small screens
+.navbar-nav .nav-link {
+  @media(max-width: 574px){
+    padding-left: .5rem !important;
+  }
 }

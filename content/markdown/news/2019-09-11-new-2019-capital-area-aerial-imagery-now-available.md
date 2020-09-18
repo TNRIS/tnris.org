@@ -10,8 +10,8 @@ abstract:
 
 <figure class="data-preview">
   <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-    <img class="img-responsive" src="https://cdn.tnris.org/images/zilkerpark_nc.jpg" alt="Natural Color preview of Zilker Park">
-    <img class="img-responsive" src="https://cdn.tnris.org/images/zilkerpark_cir.jpg" alt="Color infra red of Zilker Park">
+    <img class="img-fluid" src="https://cdn.tnris.org/images/zilkerpark_nc.jpg" alt="Natural Color preview of Zilker Park">
+    <img class="img-fluid" src="https://cdn.tnris.org/images/zilkerpark_cir.jpg" alt="Color infra red of Zilker Park">
   </div>
   <figcaption>Zilker Park, January 12, 2019, SCALE 1:2500</figcaption>
 </figure>
@@ -51,7 +51,7 @@ The GeoTIFFs and JPEG2000 images are in the public domain. The JPEG2000s are ava
 ## Acquisition Areas
 
 View coverage areas in the map below:
-<img class="img-responsive" src="https://cdn.tnris.org/images/stratmap19_capcog_brazos.jpg" alt="Coverage Map of New Capital Area Imagery">
+<img class="img-fluid" src="https://cdn.tnris.org/images/stratmap19_capcog_brazos.jpg" alt="Coverage Map of New Capital Area Imagery">
 
 * * *
 
@@ -83,8 +83,8 @@ View coverage areas in the map below:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2019_caparea_6in_nc_1to2300_appleinc_20190112.jpg" alt="Natural Color preview of Apple Inc">
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2019_caparea_6in_cir_1to2300_appleinc_20190112.jpg" alt="Color infra red of Apple Inc">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2019_caparea_6in_nc_1to2300_appleinc_20190112.jpg" alt="Natural Color preview of Apple Inc">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2019_caparea_6in_cir_1to2300_appleinc_20190112.jpg" alt="Color infra red of Apple Inc">
 </div>
 <figcaption>Apple Inc., January 12, 2019, SCALE 1:2300</figcaption>
 </figure>
@@ -93,8 +93,8 @@ View coverage areas in the map below:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2019_caparea_6in_nc_1to650_austinneighborhood_20190112.jpg" alt="Natural Color preview of Austin Neighborhood">
-  <img class="img-responsive" src="https://cdn.tnris.org/images/2019_caparea_6in_cir_1to650_austinneighborhood_20190112.jpg" alt="Color infra red of Austin Neighborhood">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2019_caparea_6in_nc_1to650_austinneighborhood_20190112.jpg" alt="Natural Color preview of Austin Neighborhood">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/2019_caparea_6in_cir_1to650_austinneighborhood_20190112.jpg" alt="Color infra red of Austin Neighborhood">
 </div>
 <figcaption>Neighborhood in Austin, TX, January 12, 2019, SCALE 1:650</figcaption>
 </figure>
@@ -103,8 +103,8 @@ View coverage areas in the map below:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://cdn.tnris.org/images/zilkerparking1.jpg" alt="Natural Color preview of Zilker Park Parking">
-  <img class="img-responsive" src="https://cdn.tnris.org/images/zilkerparking2.jpg" alt="Color infra red of Zilker Park Parking">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/zilkerparking1.jpg" alt="Natural Color preview of Zilker Park Parking">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/zilkerparking2.jpg" alt="Color infra red of Zilker Park Parking">
 </div>
 <figcaption>Zilker Park zoom in Austin, TX, January 12, 2019, SCALE 1:600</figcaption>
 </figure>
@@ -113,8 +113,8 @@ View coverage areas in the map below:
 
 <figure class="data-preview">
 <div id="imageCompare1" class='twentytwenty-container natural-color-infrared'>
-  <img class="img-responsive" src="https://cdn.tnris.org/images/downtown1.jpg" alt="Natural Color preview of Downtown Austin">
-  <img class="img-responsive" src="https://cdn.tnris.org/images/downtown2.jpg" alt="Color infra red of Downtown Austin">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/downtown1.jpg" alt="Natural Color preview of Downtown Austin">
+  <img class="img-fluid" src="https://cdn.tnris.org/images/downtown2.jpg" alt="Color infra red of Downtown Austin">
 </div>
 <figcaption>Downtown Austin, January 12, 2019, SCALE 1:900</figcaption>
 </figure>
