@@ -16,14 +16,14 @@ function retrieveNextFourEvents() {
       var event = document.createElement('div');
       // if a community meeting, apply meeting-box to classname
       var classname = e.community_meeting ? 'col-md-3 meeting-box' : 'col-md-3';
-      var communityMeetingStar = e.community_meeting ? ` <i class="glyphicon glyphicon-star" style="color: #1e8dc1;"></i>` : '';
+      var communityMeetingStar = e.community_meeting ? ` <i class="fa fa-star" style="color: #1e8dc1;"></i>` : '';
       var communityMeetingAgenda = e.community_meeting_agenda_url ? ` <a class="btn btn-tnris btn-md" href="${e.community_meeting_agenda_url}">Download Agenda</a>` : '';
       event.setAttribute('class', classname);
       // check if various properties exist, and set variables if so
-      var timeRange = e.pretty_time ? `<time><i class="glyphicon glyphicon-time"></i> ${e.pretty_time}</time><br>` : '';
+      var timeRange = e.pretty_time ? `<time><i class="fa fa-time"></i> ${e.pretty_time}</time><br>` : '';
       var shortDescription = e.short_description ? `<p>${e.short_description}</p>` : '';
       var generalLocation = e.location ? `<location><strong>Location:</strong><br>${e.location}</location><hr>` : '';
-      var eventLink = e.event_url ? `<p><a href="${e.event_url}"><i class="glyphicon glyphicon-new-window"></i> Event Link</a></p>` : '';
+      var eventLink = e.event_url ? `<p><a href="${e.event_url}"><i class="fa fa-new-window"></i> Event Link</a></p>` : '';
       // fill dom list element with event details
       event.innerHTML =
         `

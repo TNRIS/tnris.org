@@ -33,7 +33,7 @@ Sponsored by <a href="http://www.esri.com"><img src="https://cdn.tnris.org/image
 <h3 id="mcgranaghan-2019">Patrick McGranaghan, Reddit Map Forum Creator</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/pmcgranaghan.jpeg" alt="Head shot of Patrick McGranaghan">
+  <img class="rounded-circle float-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/pmcgranaghan.jpeg" alt="Head shot of Patrick McGranaghan">
 </h4>
 
 Denver, Colorado based geospatial geek. By day Patrick is a survey drafter for an engineering firm. After work, Patrick runs a popular Reddit map forum dedicated to the appreciation of beautiful maps and geographic data analysis. Patrick also contributes to OpenStreetMap humanitarian efforts in Denver and around the world. Patrick originally started land surveying in Austin, Texas.
@@ -45,7 +45,7 @@ Denver, Colorado based geospatial geek. By day Patrick is a survey drafter for a
 <h3 id="chapkowski-2019">Andrew Chapkowski, ESRI Software Developer</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/achapkowski.jpg" alt="Head shot of Andrew Chapkowski">
+  <img class="rounded-circle float-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/achapkowski.jpg" alt="Head shot of Andrew Chapkowski">
   Demystifying Artificial Intelligence in Geo
 </h4>
 
@@ -58,13 +58,13 @@ Andrew Chapkowski is a software developer and Pythonista. He has over 15 years o
 <h3 id="shensky-2019">Michael Shensky, University of Texas at Austin (UT Libraries) – GIS and Geospatial Data Coordinator</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/mshensky.jpg" alt="Head shot of Michael Shensky">
+  <img class="rounded-circle float-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/mshensky.jpg" alt="Head shot of Michael Shensky">
   A Scripted Approach for Normalizing Geospatial Data in a Relational Database and Assessing Alternative NoSQL Database Storage Options
 </h4>
 
 Michael Shensky is the GIS & Geospatial Data Coordinator for the UT Libraries at the University of Texas at Austin. In this role he develops GIS training resources, provides personalized research consultation services for the university community, and designs GIS solutions for improving access to geospatial resources in the UT Libraries’ collections. He earned his MA in Geography from California State University, Fullerton in 2013.
 
-<a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/a-scripted-approach-for-normalizing-geospatial-data-in-a-relational-database-and-assessing-alternative-nosql-database-storage-options"><i class="glyphicon glyphicon-new-window"></i> Slide Presentation Link</a>
+<a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/a-scripted-approach-for-normalizing-geospatial-data-in-a-relational-database-and-assessing-alternative-nosql-database-storage-options"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
 
 ****
 
@@ -78,13 +78,13 @@ Michael Shensky is the GIS & Geospatial Data Coordinator for the UT Libraries at
 <h3 id="pearson-2019">Daniel K. Pearson, US Geological Survey - Geospatial Science + Cyber Innovation Branch Chief</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/dpearson.jpg" alt="Head shot of Daniel Pearson">
+  <img class="rounded-circle float-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/dpearson.jpg" alt="Head shot of Daniel Pearson">
   Thoughtful (and Data-Driven) Approaches to UI Design: Motivating Citizens to #BeWaterAware Before, During and After Storms
 </h4>
 
 Daniel K. Pearson has been with the USGS since 2002. He currently serves as the Geospatial Science + Cyber Innovation Branch Chief in Austin, TX. He provides technical expertise to both cooperators and staff, and oversees a team of developers, geographers and hydrologists whose function is to produce innovative geospatial solutions; perform complex hydrologic and spatial analyses; and contribute to ongoing research across the Nation.
 
-<a href="https://www.slideshare.net/slideshow/embed_code/key/nSe08kDDJyumHp"><i class="glyphicon glyphicon-new-window"></i> Slide Presentation Link</a>
+<a href="https://www.slideshare.net/slideshow/embed_code/key/nSe08kDDJyumHp"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
 ****
 
 ## 11:30AM to 12:00PM
@@ -92,13 +92,13 @@ Daniel K. Pearson has been with the USGS since 2002. He currently serves as the 
 <h3 id="bell-sepulveda-2019">Laura Bell Sepulveda, Texas Water Development Board</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/lbell.jpg" alt="Head shot of Laura Bell">
+  <img class="rounded-circle float-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/lbell.jpg" alt="Head shot of Laura Bell">
   Test Before you Build: How to use prototypes and think aloud user testing to build better products
 </h4>
 
 Laura’s background is in GIS mapping and government data. This type of work has allowed her to flex her creativity and strategic thinking strengths to innovate workflows, and improve decision making through data-driven insights. She is passionate about making information accessible and useful for stakeholders and recently graduated with a certificate in Interaction Design and Social Entrepreneurship from the Austin Center for Design.
 
-<a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/test-before-you-build-how-to-use-prototypes-and-think-aloud-user-testing-to-build-better-products"><i class="glyphicon glyphicon-new-window"></i> Slide Presentation Link</a>
+<a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/test-before-you-build-how-to-use-prototypes-and-think-aloud-user-testing-to-build-better-products"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
 
 ****
 
@@ -115,13 +115,13 @@ Lunch will be provided to __Registered Participants__. You must have completed a
 <h3 id="carmona-2019">Jordan Carmona, City of McKinney | GIS Specialist</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/jcarmona.jpg" alt="Head shot of Jordan Carmona">
+  <img class="rounded-circle float-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/jcarmona.jpg" alt="Head shot of Jordan Carmona">
   Integrating Google Sheets to an Esri SDE Feature Class
 </h4>
 
 Jordan Carmona leads the geospatial program across four departments at the City of McKinney’s Development Services Division as a GIS Specialist. Since the beginning of 2017, he has established multiple citizen-centric web applications, integrated non-spatial databases into the GIS, forged two public-private partnerships, and launched the City’s first spatial drone program. Jordan has a dual BA in History and Political Science from the University of North Texas.
 
-<a href="https://github.com/FeralCatColonist/GeoRodeo2019"><i class="glyphicon glyphicon-new-window"></i> Slide Presentation Link</a>
+<a href="https://github.com/FeralCatColonist/GeoRodeo2019"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
 
 ****
 
@@ -130,7 +130,7 @@ Jordan Carmona leads the geospatial program across four departments at the City 
 <h3 id="dufour-2019">Daniel J. Dufour, CEO of GeoSurge</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/ddufour.jpg" alt="Head shot of Daniel Dufour">
+  <img class="rounded-circle float-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/ddufour.jpg" alt="Head shot of Daniel Dufour">
   Cool Stuff You Can Do with GeoBlaze, a Raster Analysis Engine for JavaScript
 </h4>
 
@@ -143,13 +143,13 @@ Daniel Dufour is passionate about advancing geospatial analysis in JavaScript.  
 <h3 id="drescher-2019">Aubrey Drescher, Texas Water Development Board, Programmer</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/adrescher.jpg" alt="Head shot of Aubrey Drescher">
+  <img class="rounded-circle float-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/adrescher.jpg" alt="Head shot of Aubrey Drescher">
   Transitioning to vector tiles in your web map
 </h4>
 
 Aubrey Drescher has an M.S. in Earth Systems Science from George Mason University. She fell in love with GIS in college. Over time, programming began to look interesting to her, so she took classes in .NET. She got her first developer job at a small company and learned JavaScript on the job. 5 years ago, she moved to Austin and into local government where she learned about python and map services. She currently works at the Texas Water Development Board and helps to plan each year’s ATX GIS Day.
 
-<a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/transitioning-to-vector-tiles-in-your-web-map"><i class="glyphicon glyphicon-new-window"></i> Slide Presentation Link</a>
+<a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/transitioning-to-vector-tiles-in-your-web-map"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
 
 ****
 
@@ -163,13 +163,13 @@ Aubrey Drescher has an M.S. in Earth Systems Science from George Mason Universit
 <h3 id="montgomery-2019">Thomas Montgomery, City of Austin, Senior IT Applications Analyst</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/tmontgomery.jpg" alt="Head shot of Thomas Montgomery">
+  <img class="rounded-circle float-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/tmontgomery.jpg" alt="Head shot of Thomas Montgomery">
   Municipal Government and the Internet of Things: Austin's New Smart Fleet
 </h4>
 
 Thomas Montgomery works in Municipal IT where he enjoys learning and talking about automation, spatial technology, and data analysis. Thomas' technical interests include open data advocacy, python data manipulation, spatial database management, and the internet of things. Currently employed with the City of Austin, he works in the Austin Resource Recovery department where he hacks together solutions and does analysis. Growing up in Georgetown, his hobbies include mycology, cooking, and writing.
 
-<a href="https://docs.google.com/presentation/d/1lh1B56gQ195YMc-0RqzVvKpuggQnJQAaVpBHHTIIc3I/edit"><i class="glyphicon glyphicon-new-window"></i> Slide Presentation Link</a>
+<a href="https://docs.google.com/presentation/d/1lh1B56gQ195YMc-0RqzVvKpuggQnJQAaVpBHHTIIc3I/edit"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
 
 ****
 
@@ -178,13 +178,13 @@ Thomas Montgomery works in Municipal IT where he enjoys learning and talking abo
 <h3 id="booth-2019">Kevin Booth, Texas State University, Graduate Assistant</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/kbooth.jpeg" alt="Head shot of Kevin Booth">
+  <img class="rounded-circle float-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/kbooth.jpeg" alt="Head shot of Kevin Booth">
   Global Economic Analysis on a Budget
 </h4>
 
 Kevin is a graduate student and graduate assistant at Texas State University. When not working on his thesis research you can find him teaching students in a GeoProgramming or Fundamentals of GIS lab. His interests include leveraging all types of technologies in unique ways to solve difficult research tasks on a limited budget.
 
-<a href="http://kb.gg/georodeo"><i class="glyphicon glyphicon-new-window"></i> Slide Presentation Link</a>
+<a href="http://kb.gg/georodeo"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
 
 ****
 
@@ -213,7 +213,7 @@ Following the presentation schedule, we invite our attendees to walk across the 
 <!-- <h3>Chelsea Goddard, Mapbox, Solutions Engineer</h3>
 
 <h4>
-  <img class="img-circle pull-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/cgoddard.jpg" alt="Head shot of Chelsea Goddard">
+  <img class="rounded-circle float-right georodeo-speaker-2019" src="https://cdn.tnris.org/images/cgoddard.jpg" alt="Head shot of Chelsea Goddard">
   Map design: Visualizing large geospatial data with Crowd2Map
 </h4>
 

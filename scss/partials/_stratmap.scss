@@ -1,4 +1,5 @@
 .stratmap-bar {
+  margin-bottom: 1rem;
   background: $darkgrey;
   font-size: 20px;
 
@@ -10,7 +11,7 @@
 
 .stratmap-project {
 
-    .thumbnail {
+    .card.card-body{
       border: none;
     }
 
@@ -32,6 +33,7 @@
   }
 
   &.front-sm-numbers {
+    padding: 1rem;
     color: $darkgrey;
 
     h2 {
@@ -44,18 +46,22 @@
   }
 
   &.lidar-feature {
+    padding: 1rem;
     background: url(https://cdn.tnris.org/images/buffalo_lidar_bg.jpg) 0 0;
   }
 
   &.lidar-numbers {
+    padding: 1rem;
     background: url(https://cdn.tnris.org/images/capcog_2012_140cm_overview.jpg) 0 0;
   }
 
   &.ortho-numbers {
+    padding: 1rem;
     background: url(https://cdn.tnris.org/images/texas_orthoimagery_program_top_2008_50cm_nc_cir_natural.jpg) 0 0;
   }
 
   &.hydrocallout {
+    padding: 1rem;
     background: $lightergrey;
     color: $darkgrey;
 
@@ -80,13 +86,15 @@
   }
 }
 
-.thumbnail.vendor-box {
+.card.card-body.vendor-box {
   @media (min-width: $screen-sm) {
-    min-height: 250px;
+    min-height: 275px;
+    margin-bottom: 1rem;
   }
 
   @media (min-width: $screen-md) {
-    min-height: 200px;
+    min-height: 250px;
+    margin-bottom: 1rem;
   }
 
   li {

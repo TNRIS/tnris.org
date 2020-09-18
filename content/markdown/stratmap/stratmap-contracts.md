@@ -7,7 +7,7 @@ mainimage: https://cdn.tnris.org/images/stratmap_website_banner_notext.jpg
 <section class="container">
 <div class="row">
 
-<div class="col-md-8 center-block">
+<div class="col-md-8 mx-auto d-block">
 <p class="lead"><strong>After four years of success, the re-bid of StratMap Contracts is happening now!</strong> The solicitation response deadline has passed. We anticipate the new pool of vendors to be available with active DIR master contracts by Summer 2020.
 </p>
 <p>The <a href="https://dir.texas.gov/">Department of Information Resources (DIR)</a> maintains multiple Cooperative Contracts which are designed to strengthen Texas’ capabilities to procure quality digital map data, services and software. The contracts are for use by customers that include Texas state, regional and local government offices, including river and water authorities, and public education entities. The process for procuring GIS products, custom geospatial data and services and software is administered by TNRIS and known as the Texas Strategic Mapping (StratMap) Contracts.</p>
@@ -18,7 +18,7 @@ mainimage: https://cdn.tnris.org/images/stratmap_website_banner_notext.jpg
 </div>
 
 <div class="col-md-4">
-  <div class="well well-md">
+  <div class="card card-body well-md">
     <div class="row">
       <div class="col-md-12">
         <img style="max-width: 150px;" src="https://cdn.tnris.org/images/dir_logo_md.png" alt="Texas Department of Information Resources">
@@ -32,7 +32,7 @@ mainimage: https://cdn.tnris.org/images/stratmap_website_banner_notext.jpg
 </div>
 <hr>
 <div class="row">
-<div class="col-sm-5">
+<div class="col-md-5">
 <h2>How does this work?</h2>
 
 <p><ul class="stratmap-work">
@@ -66,10 +66,10 @@ mainimage: https://cdn.tnris.org/images/stratmap_website_banner_notext.jpg
 <p>Each of the selected companies were carefully evaluated for project experience and success. Qualifications include project experience, technology innovation, professional staff, and available resources.</p>
 </div>
 
-<div class="col-sm-7">
+<div class="col-md-7">
 <h2 class="text-center">Vendors 2016 - 2020</h2>
 <div class="alert alert-warning text-center"><p class="lead">Note: New vendor pool coming soon.</p></div>
-<div>
+<div class="row">
 {% include "stratmap/contract-vendors.njk" %}
 </div>
 

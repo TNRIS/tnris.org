@@ -29,7 +29,7 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 - On-site promotions
 - Technical demos
 
-<a href="https://cdn.tnris.org/documents/Rules-and-Regulations-2015.pdf" class="btn btn-danger btn-lg"><i class="glyphicon glyphicon-chevron-right"></i> Download the Sponsor Rules &amp; Regulations</a>
+<a href="https://cdn.tnris.org/documents/Rules-and-Regulations-2015.pdf" class="btn btn-danger btn-lg"><i class="fa fa-chevron-right"></i> Download the Sponsor Rules &amp; Regulations</a>
 
 ## Platinum Sponsor/Exhibitor ($4,000 - limit 3)
 

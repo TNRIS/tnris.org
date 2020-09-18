@@ -21,7 +21,7 @@
 //       var timeRange = e.pretty_time ? `<br>${e.pretty_time}` : '';
 //       // put next solutions group meeting details into placeholder div
 //       document.getElementById('gio-calendar-next-sgm').innerHTML =
-//         `<h3><small>Next Meeting</small><br>${e.pretty_date}${timeRange}</h3>`;
+//         `<h3><small class="text-muted">Next Meeting</small><br>${e.pretty_date}${timeRange}</h3>`;
 //     }
 //   });
 // }
@@ -54,7 +54,7 @@ function retrieveSgmNotes() {
       count++;
       if (count <= 12) {
         var noteItem = document.createElement('li');
-        noteItem.innerHTML = `<a href="${i.document_url}"><br><i class="glyphicon glyphicon-file"></i> ${i.document_name}</a>`;
+        noteItem.innerHTML = `<a href="${i.document_url}"><br><i class="fa fa-file"></i> ${i.document_name}</a>`;
         notesList.appendChild(noteItem);
       }
     });
@@ -85,7 +85,7 @@ function retrieveCommunitySlides() {
       count++;
       if (count <= 4) {
         var slideItem = document.createElement('li');
-        slideItem.innerHTML = `<a href="${i.document_url}"><br><i class="glyphicon glyphicon-file"></i> ${i.document_name}</a>`;
+        slideItem.innerHTML = `<a href="${i.document_url}"><br><i class="fa fa-file"></i> ${i.document_name}</a>`;
         slideList.appendChild(slideItem);
       }
     });

@@ -18,7 +18,7 @@ The purpose of the poster gallery is to promote and recognize the advances of ma
 - Creativity
 - Originality
 
-<div class="well well-md">
+<div class="card card-body well-md">
   <h3>Winners</h3>
 
 <p>The top 3 vote earners will be highlighted on the TNRIS website under the 'Latest News' section following the forum. </p>

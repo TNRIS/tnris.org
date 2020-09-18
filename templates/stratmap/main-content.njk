@@ -27,7 +27,7 @@
   ]
 %}
 
-<section class="container">
+<section class="row mx-auto container">
   <div class="col-sm-8">
     <p class="lead">StratMap was originally established in 1997 by Senate Bill 1 to <strong>develop consistent statewide digital data layers</strong>. Since then, its primary goal has been to acquire and improve digital geographic data for statewide mapping applications.</p>
     <p class="lead">
@@ -67,17 +67,17 @@
     <div class="row">
         {% for item in highlight_items %}
         <div class="col-sm-4 stratmap-project">
-            <div class="thumbnail ">
-                <a href="{{item.link}}"><img class="img-responsive" src="{{item.image}}" alt="{{item.alt_text}}"></a>
+            <div class="card card-body ">
+                <a href="{{item.link}}"><img class="img-fluid" src="{{item.image}}" alt="{{item.alt_text}}"></a>
                 <div class="caption">
                     <h3>
 
                       {% if item.acronym %}
-                        <small>{{item.acronym}}</small><br>
+                        <small class="text-muted">{{item.acronym}}</small><br>
                       {% endif %}
                       {{item.name|safe}}</h3>
                     <p>{{item.description}}</p>
-                    <a class="btn btn-default" href="{{item.link}}" role="button">{{item.button_text|safe}} <span class="glyphicon glyphicon-chevron-right"></a>
+                    <a class="btn btn-secondary" href="{{item.link}}" role="button">{{item.button_text|safe}} <span class="fa fa-chevron-right"></a>
                 </div>
             </div>
         </div>

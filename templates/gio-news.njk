@@ -6,7 +6,7 @@
   <div class="row">
     <ol class="breadcrumb">
       <li>
-        <a href="/"><span class="glyphicon glyphicon-home"></span></a>
+        <a href="/"><span class="fa fa-home"></span></a>
       </li>
       <li>
         <a href="/geographic-information-office">Geographic Information Office</a>
@@ -22,7 +22,7 @@
       </div>
 
       {% if mainimage %}
-        <img class="media-object img-responsive center-block" src="{{mainimage}}" alt="{{ imagealt }}">
+        <img class="media-object px-2 img-fluid mx-auto d-block" src="{{mainimage}}" alt="{{ imagealt }}">
       {% endif %}
       <div class="gio-news-content">
         {{ contents|safe }}

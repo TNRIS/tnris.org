@@ -22,8 +22,8 @@
             {{abstract}}
         </div>
           <a href="/georodeo">
-            <img class="main hidden-sm hidden-xs" src="{{mainimage}}" alt="Masthead for {{title}}">
-            <img class="main hidden-md hidden-lg" src="{{mainimagesm}}" alt="Masthead for {{title}}">
+            <img class="main d-none d-md-block" src="{{mainimage}}" alt="Masthead for {{title}}">
+            <img class="main d-block d-md-none" src="{{mainimagesm}}" alt="Masthead for {{title}}">
           </a>
 
       <div class=" sr-only ">
@@ -35,12 +35,13 @@
 </div>
 
 <div id="intro" class="georodeo-intro gr-2019">
+    <div class="row">
+        <div class="container">
 
-    <div class="container">
-
-       {% include "events/georodeo-2019/nav.njk" %}
-        <div class="row">
-            {% include "events/georodeo-2019/georodeo-intro.njk" %}
+        {% include "events/georodeo-2019/nav.njk" %}
+            <div class="row">
+                {% include "events/georodeo-2019/georodeo-intro.njk" %}
+            </div>
         </div>
     </div>
 </div>
@@ -49,14 +50,14 @@
 {% block contentsOne %}
 <div id="contentMain" class="container">
 <div class="row">
-    <div class="col-md-4 col-md-push-8">
+    <div class="col-md-4 order-md-2">
         {% block sidebarLeft %}
-            <div class="georodeo-side hidden-xs hidden-sm">
+            <div class="georodeo-side d-none d-sm-none">
                 {% include "events/georodeo-2019/georodeo-side.njk" %}
             </div>
         {% endblock %}
     </div>
-    <div class="col-md-8 col-md-pull-4 gr-content-2019">
+    <div class="col-md-8 order-md-1 gr-content-2019">
         {{ contents|safe }}
     </div>
 </div>

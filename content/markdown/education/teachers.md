@@ -9,11 +9,11 @@ mainimage: https://cdn.tnris.org/images/rovers1.jpg
 <p class="lead">TNRIS has many maps and data resources available to the public at no charge from our website that can be incorporated into teacher's lesson plans for all levels. In addition to these resources, we are able to give tours on a limited basis to students and their educators.</p>
 </div>
 <div class="col-md-4">
-  <div class="well well-bg">
+  <div class="card card-body well-bg">
   <p>
     Contact us about our Education &amp; Training Program.
   </p>
-  <a class="btn btn-tnris btn-lg btn-block" href="/education/contact"><i class="glyphicon glyphicon-comment"></i> Contact Us</a>
+  <a class="btn btn-tnris btn-lg btn-block" href="/education/contact"><i class="fa fa-comment"></i> Contact Us</a>
   </div>
 </div>
 </div>
@@ -84,27 +84,27 @@ mainimage: https://cdn.tnris.org/images/rovers1.jpg
     </div>
     </a>
   </div>
-  <p><a class="btn btn-tnris btn-lg center-block" style="width: 50%; clear: both;" href="/maps">See All Map Collections</a></p>
+  <p><a class="btn btn-tnris btn-lg mx-auto d-block" style="width: 50%; clear: both;" href="/maps">See All Map Collections</a></p>
 </div>
 
-<hr class="clearfix hidden-md hidden-lg">
+<hr class="clearfix d-md-none d-lg-none">
   <div class="col-md-4">
   <h2 style="margin-top: 0;">Other Agency Resources</h2>
     <div class="resources-highlight-box">
       <a href="https://www.twdb.texas.gov/conservation/education/kids/index.asp">
-      <img class="img-responsive img-rounded" alt="highlight of TWDB kids page" src="https://cdn.tnris.org/images/twdb-kids-highlight.jpg">
+      <img class="img-fluid rounded" alt="highlight of TWDB kids page" src="https://cdn.tnris.org/images/twdb-kids-highlight.jpg">
       <div class="resources-highlight-text-container">
         <h3>TWDB Kids</h3>
-        <p class="hidden-md">The TWDB Kids Web site serves as the gateway to the agency's K-12 conservation education resources.</p>
+        <p class="d-md-none">The TWDB Kids Web site serves as the gateway to the agency's K-12 conservation education resources.</p>
       </div>
       </a>
     </div>
     <div class="resources-highlight-box">
     <a href="https://www.usgs.gov/science-support/osqi/yes/resources-teachers">
-      <img class="img-responsive img-rounded" alt="A USGS staff member shows kids a map" src="https://cdn.tnris.org/images/usgs-resources-highlight.jpg">
+      <img class="img-fluid rounded" alt="A USGS staff member shows kids a map" src="https://cdn.tnris.org/images/usgs-resources-highlight.jpg">
       <div class="resources-highlight-text-container">
         <h3>USGS Teacher Resources</h3>
-        <p class="hidden-md">Tap into USGS lesson plans and activities, maps, podcasts, online lectures, videos and animations, and much more.</p>
+        <p class="d-md-none">Tap into USGS lesson plans and activities, maps, podcasts, online lectures, videos and animations, and much more.</p>
       </div>
     </a>
     </div>
@@ -118,10 +118,10 @@ mainimage: https://cdn.tnris.org/images/rovers1.jpg
 <h2>Geographic Data</h2>
 
 <h3>DataHub</h3>
-<img style="width: 50%" class="center-block" src="https://cdn.tnris.org/images/datahub_frontpage_icon.jpg" alt="Icon for TNRIS DataHub">
+<img style="width: 50%" class="mx-auto d-block" src="https://cdn.tnris.org/images/datahub_frontpage_icon.jpg" alt="Icon for TNRIS DataHub">
 <p>The DataHub allows users to browse, download, order and inquire about digital geographic data used for analysis or to make maps.</p>
 <p>
-<a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
 </p>
 </div>
 <div class="col-sm-4 education-divider">
@@ -129,7 +129,7 @@ mainimage: https://cdn.tnris.org/images/rovers1.jpg
 <h2>Photo Archive Collection</h2>
 
 <h3>Historical Imagery Archive</h3>
-<img class="img-responsive img-rounded" src="https://cdn.tnris.org/images/historicphotocatalog.jpg" alt="Historic Imagery in filing cabinet">
+<img class="img-fluid rounded" src="https://cdn.tnris.org/images/historicphotocatalog.jpg" alt="Historic Imagery in filing cabinet">
 <p>TNRIS maintains over 1 million frames of photos covering all parts of Texas from dates as far back as the 1920’s.
 <p class="lead">
 <strong>Learn more on our <a href="/research-distribution-center/historical-imagery-archive">Historical Imagery Archive page</a></strong>.
@@ -140,17 +140,17 @@ mainimage: https://cdn.tnris.org/images/rovers1.jpg
 
 <h3>Esri Training Catalog</h3>
 
-<p><a class="btn btn-tnris btn-md pull-right" href="https://www.esri.com/training/catalog/search/">Learn more</a> Esri offers online, free courses to help you get started with their software.
+<p><a class="btn btn-tnris btn-md float-right" href="https://www.esri.com/training/catalog/search/">Learn more</a> Esri offers online, free courses to help you get started with their software.
 </p>
 
 <h3>ArcGIS Student License</h3>
 
-<p><a class="btn btn-tnris btn-md pull-right" href="https://www.esri.com/en-us/arcgis/products/arcgis-desktop-student-trial">Learn more</a> Esri offers ArcGIS for Student use to learn GIS technical skills.
+<p><a class="btn btn-tnris btn-md float-right" href="https://www.esri.com/en-us/arcgis/products/arcgis-desktop-student-trial">Learn more</a> Esri offers ArcGIS for Student use to learn GIS technical skills.
 </p>
 
 <h3>Austin Community College</h3>
 
-<p><a class="btn btn-tnris btn-md pull-right" href="https://www.austincc.edu/academic-and-career-programs/areas-of-study/design-manufacturing-construction-and-applied-technologies/geographic-information-systems">Learn more</a> ACC's Geographic Information Systems Program starts with basic GIS principles and techniques then progresses through GIS projects and performing sophisticated analysis.
+<p><a class="btn btn-tnris btn-md float-right" href="https://www.austincc.edu/academic-and-career-programs/areas-of-study/design-manufacturing-construction-and-applied-technologies/geographic-information-systems">Learn more</a> ACC's Geographic Information Systems Program starts with basic GIS principles and techniques then progresses through GIS projects and performing sophisticated analysis.
 </p>
 </div>
 </div>
@@ -159,7 +159,7 @@ mainimage: https://cdn.tnris.org/images/rovers1.jpg
 
 ## TNRIS Tours
 
-<img style="width: 50%;" class="pull-right img-rounded" src="https://cdn.tnris.org/images/rovers2.jpg">
+<img style="width: 50%;" class="float-right rounded" src="https://cdn.tnris.org/images/rovers2.jpg">
 <div class="alert alert-warning">
 <p class="lead"><strong>Tours are unavailable until measures in response to the COVID-19 outbreak have been lifted. We apologize for the inconvenience.</strong></p>
 </div>

@@ -21,8 +21,8 @@
             <h1>{{title}}</h1>
             {{abstract}}
         </div>
-        <img class="main hidden-xs" src="{{mainimage}}" alt="Masthead for {{title}}">
-        <img class="img-responsive hidden-lg hidden-md hidden-sm" src="https://cdn.tnris.org/images/cowsay_pasture_sm.jpg" alt="Small Masthead for {{title}}">
+        <img class="main d-none d-md-block" src="{{mainimage}}" alt="Masthead for {{title}}">
+        <img class="img-fluid d-block d-md-none" src="https://cdn.tnris.org/images/cowsay_pasture_sm.jpg" alt="Small Masthead for {{title}}">
 
 
         <div class="georodeo-date-bar">
@@ -44,14 +44,14 @@
 {% block contentsOne %}
 <div id="contentMain" class="container">
 <div class="row">
-    <div class="col-md-4 col-md-push-8">
+    <div class="col-md-4 order-md-2">
         {% block sidebarLeft %}
             <div class="georodeo-side">
                 {% include "events/georodeo-2016/georodeo-side.njk" %}
             </div>
         {% endblock %}
     </div>
-    <div class="col-md-8 col-md-pull-4">
+    <div class="col-md-8 order-md-1">
         {{ contents|safe }}
     </div>
 </div>

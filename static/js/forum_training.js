@@ -40,10 +40,10 @@ function retrieveForumTraining() {
       var status;
       t.registration_open ?
         status = `<a href="${process.env.FORUM_REGISTRATION_LINK}" class="btn btn-success btn-sm">
-                    <i class="glyphicon glyphicon-pencil"></i> Register Here
+                    <i class="fa fa-pencil"></i> Register Here
                   </a>` :
         status = `<a href="#" class="btn btn-danger btn-sm disabled">
-                    <i class="glyphicon glyphicon-remove"></i> CLOSED
+                    <i class="fa fa-remove"></i> CLOSED
                   </a>`;
       // convert instructor_info from string to array of json; set up variables for use in array loop
       var instructorInfoArray = JSON.parse('[' + t.instructor_info + ']');
@@ -59,19 +59,19 @@ function retrieveForumTraining() {
         namesList.push(" " + i.instructor_name);
         i.instructor_company && i.instructor_bio ? company = ", " + i.instructor_company : company = "";
         // if headshot image & bio exists, assign value to variables to use in html
-        i.instructor_headshot ? image = `<img class="img-circle pull-left keynote-portrait" src="${i.instructor_headshot}" alt="headshot of instructor ${i.instructor_name}"><br>` : image = "";
+        i.instructor_headshot ? image = `<img class="rounded-circle float-left keynote-portrait" src="${i.instructor_headshot}" alt="headshot of instructor ${i.instructor_name}"><br>` : image = "";
         i.instructor_bio ? bio = i.instructor_bio : bio = "";
         i.instructor_bio ? name = i.instructor_name : name = "";
         i.instructor_bio ? instructorBioHeader = "<h3>Instructor Bio(s)</h3>" : instructorBioHeader = "";
         // condition to add instructor bio to instrucotr bios (for multiple instructors)
         instructorInfo = instructorInfo ? instructorInfo +
           `<h4 style="margin-top:20px;">${name} ${company}</h4>
-            <p class="col-xs-12">
+            <p class="col-12">
               ${image}
               ${bio}
             </p>` :
           `<h4 style="margin-top:20px;">${name} ${company}</h4>
-            <p class="col-xs-12">
+            <p class="col-12">
               ${image}
               ${bio}
             </p>`;
@@ -80,39 +80,39 @@ function retrieveForumTraining() {
       // html for 'record' variable div element
       record.innerHTML =
         `<div class="row forum-training-header ">
-          <div class="col-xs-3 col-sm-2">
-            <i class="glyphicon glyphicon-time"></i>
+          <div class="col-3 col-sm-2">
+            <i class="fa fa-time"></i>
             ${start_time} - ${end_time} <br>
           </div>
-          <div class="col-xs-9 col-sm-6">
+          <div class="col-9 col-sm-6">
             <h3>${t.title}</h3>
           </div>
-          <div class="col-xs-6 col-sm-2 course-info">
+          <div class="col-6 col-sm-2 course-info">
             <strong>Taught by:</strong><br>${namesList}
           </div>
-          <div class="col-xs-3 col-sm-1 course-info">
+          <div class="col-3 col-sm-1 course-info">
             <strong>Cost:</strong><br>$${t.cost}
           </div>
         </div>
         <div class="row course-description forum-course">
-          <div class="col-xs-3 col-sm-2">
+          <div class="col-3 col-sm-2">
             <a id="${urlTitle}Click" data-toggle="collapse" aria-expanded="false" data-target="#${t.training_id}" href="#${urlTitle}">
               <button id="full-details-btn" class="btn btn-primary btn-sm" type="button" style="margin:7px;">
-                <span class="glyphicon glyphicon-info-sign"></span>
+                <span class="fa fa-info-sign"></span>
                 Expand Details
               </button>
             </a>
           </div>
-          <div class="col-xs-5 col-sm-6">${t.teaser}</div>
-          <div class="col-xs-2  col-sm-2">
+          <div class="col-5 col-sm-6">${t.teaser}</div>
+          <div class="col-2  col-sm-2">
             <strong>Location:</strong><br>${locationRoom}
           </div>
           <div class="col-sm-2" style="margin-bottom: 10px;">
             <strong>Status:</strong><br>${status}
           </div>
-          <div id="${t.training_id}" class="col-xs-12 collapse">
+          <div id="${t.training_id}" class="col-12 collapse">
             <div class="col-sm-2"></div>
-            <div class="col-xs-12" style="margin:10px 0 10px 0; padding-left:0;">
+            <div class="col-12" style="margin:10px 0 10px 0; padding-left:0;">
               <h3 style="margin-top:10px;">Training Description</h3>
               <p style="margin-bottom:10px;">
                 ${t.description}
@@ -148,7 +148,7 @@ function retrieveForumTraining() {
       });
       element.click();
       button.className = 'btn btn-warning btn-sm';
-      button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details";
+      button.innerHTML = "<span class='fa fa-info-sign'></span> Close Details";
     }
   })
   .then(function() {
@@ -160,7 +160,7 @@ function retrieveForumTraining() {
       x.addEventListener("click", function() {
         var button = x.children[0];
         button.classList.contains('btn-primary') ? button.className = 'btn btn-warning btn-sm' : button.className = 'btn btn-primary btn-sm';
-        button.innerHTML.includes('Expand') ? button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details" : button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Expand Details";
+        button.innerHTML.includes('Expand') ? button.innerHTML = "<span class='fa fa-info-sign'></span> Close Details" : button.innerHTML = "<span class='fa fa-info-sign'></span> Expand Details";
       });
     }
 

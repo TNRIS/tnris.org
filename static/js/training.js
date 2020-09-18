@@ -52,21 +52,21 @@ function retrieveTraining(queryField, queryValue) {
         if (today < end) {
           // set to active enabled register button with proper link to external registration page
           status = `<a href="${t.training_link}" class="btn btn-success btn-sm">
-                      <i class="glyphicon glyphicon-new-window"></i> Register
+                      <i class="fa fa-new-window"></i> Register
                     </a>`;
         }
         else if (today >= end) {
           // set to disabled close/remove button if for some reason registration is set to True for a
           // training record that has past
           status = `<a href="#" class="btn btn-danger btn-sm disabled">
-                      <i class="glyphicon glyphicon-remove"></i> Closed
+                      <i class="fa fa-remove"></i> Closed
                     </a>`;
         }
       }
       else if (!t.registration_open) {
         // if registration is closed, always set to close/remove icon button
         status = `<a href="#" class="btn btn-danger btn-sm disabled">
-                    <i class="glyphicon glyphicon-remove"></i> Closed
+                    <i class="fa fa-remove"></i> Closed
                   </a>`;
       }
       // END - date time work to determine register button status
@@ -85,38 +85,36 @@ function retrieveTraining(queryField, queryValue) {
       record.setAttribute('id', urlTitle);
       record.innerHTML =
         `<div class="row training-header">
-          <div class="row">
-            <div class="col-xs-12 course-info-category">
-              ${t.category}
-            </div>
+          <div class="col-12 course-info-category">
+            ${t.category}
           </div>
-          <div class="col-xs-12 col-sm-3 course-date-time">
+          <div class="col-12 col-sm-3 course-date-time">
             <strong>
-              <span class="glyphicon glyphicon-calendar"></span>
+              <span class="fa fa-calendar"></span>
               ${month} ${day}, ${t.year}
             </strong><br>
-            <i class="glyphicon glyphicon-time"></i>
+            <i class="fa fa-time"></i>
             ${start_time} - ${end_time} <br>
             <button class="btn btn-primary btn-sm full-details-btn" type="button" data-toggle="collapse" aria-expanded="false" data-target="#${t.training_id}">
-              <span class="glyphicon glyphicon-info-sign"></span>
+              <span class="fa fa-info-sign"></span>
               Expand Details
             </button>
           </div>
-          <div class="col-xs-12 col-sm-9">
+          <div class="col-12 col-sm-9">
             <div class="row">
-              <div class="col-xs-12">
+              <div class="col-12">
                 <h3>
                   ${t.title}
                 </h3>
               </div>
-              <div class="col-xs-3 course-info">
+              <div class="col-3 course-info">
                 <strong>Taught by:</strong>
                 <br> ${t.instructor}
               </div>
-              <div class="col-xs-3 course-info">
+              <div class="col-3 course-info">
                 <strong>Cost:</strong><br> $${t.cost}
               </div>
-              <div class="col-xs-3 course-info">
+              <div class="col-3 course-info">
                 <strong>Share:</strong><br>
                 <span class="input-group-btn">
                   <button class="btn btn-tnris btn-sm copy-url-btn" type="button" style="margin-top:0; width:95%;">
@@ -125,12 +123,12 @@ function retrieveTraining(queryField, queryValue) {
                 </span>
                 <input class="form-control hidden-clipboard-input" type="text" readonly value="${location.origin}/education#${urlTitle}">
               </div>
-              <div class="col-xs-3 course-info">
+              <div class="col-3 course-info">
                 <strong>Status:</strong><br> ${status}
               </div>
             </div>
           </div>
-          <div id="${t.training_id}" class="course-description col-xs-12 collapse" style="padding:20px;">
+          <div id="${t.training_id}" class="course-description col-12 collapse" style="padding:20px;">
             <h3>Description</h3>
             ${t.description}
             <!-- if there are public registration_open records, insert discount copy content in each record html -->
@@ -158,7 +156,7 @@ function retrieveTraining(queryField, queryValue) {
       });
       button.click();
       button.className = 'btn btn-warning btn-sm full-details-btn';
-      button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details";
+      button.innerHTML = "<span class='fa fa-info-sign'></span> Close Details";
     }
   })
   .then(function() {
@@ -179,7 +177,7 @@ function retrieveTraining(queryField, queryValue) {
           window.history.pushState(null, "", window.location.href.replace(location.hash, ""));
         }
         b.classList.contains('btn-primary') ? b.className = 'btn btn-warning btn-sm full-details-btn' : b.className = 'btn btn-primary btn-sm full-details-btn';
-        b.innerHTML.includes('Expand') ? b.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details" : b.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Expand Details";
+        b.innerHTML.includes('Expand') ? b.innerHTML = "<span class='fa fa-info-sign'></span> Close Details" : b.innerHTML = "<span class='fa fa-info-sign'></span> Expand Details";
       });
     });
   });

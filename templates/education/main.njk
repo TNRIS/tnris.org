@@ -9,10 +9,10 @@
   <div class="container-fluid full">
     <div class="top-container">
       {% if mainimage %}
-        <img class="img-responsive center-block hidden-sm hidden-xs" src="{{mainimage}}" alt="Masthead for {{title}}">
+        <img class="img-fluid mx-auto d-md-block d-none" src="{{mainimage}}" alt="Masthead for {{title}}">
       {% endif %}
       {% if smallimage %}
-        <img class="img-responsive center-block hidden-md hidden-lg" src="{{smallimage}}" alt="Masthead for {{title}}">
+        <img class="img-fluid mx-auto d-block d-md-none d-lg-none" src="{{smallimage}}" alt="Masthead for {{title}}">
       {% endif %}
     </div>
   </div>
@@ -40,9 +40,9 @@
             </h2>
           </div>
           <div class="col-md-6">
-            <div id="category-filter-dropdown" class="dropdown pull-right">
+            <div id="category-filter-dropdown" class="dropdown float-right">
               Filter Courses:	&nbsp;
-              <button id="category-filter-dropdown-btn" class="btn btn-default dropdown-toggle" type="button" id="categoryFilterMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <button id="category-filter-dropdown-btn" class="btn btn-secondary dropdown-toggle" type="button" id="categoryFilterMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 <span class="caret"></span>
                 <span id="selected-category-filter">All Courses</span>
               </button>

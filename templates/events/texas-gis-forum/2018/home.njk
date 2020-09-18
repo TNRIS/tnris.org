@@ -20,16 +20,16 @@
       {% include "events/texas-gis-forum/2018/nav.njk" %}
     </div>
       {% if mainimage %}
-        <img src="{{mainimage}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
+        <img src="{{mainimage}}" class="banner img-fluid mx-auto d-none d-md-block" alt="Texas GIS Forum Main Image">
       {% endif %}
       {% if mainimagesm %}
-        <img src="{{mainimagesm}}" class="banner img-responsive hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
+        <img src="{{mainimagesm}}" class="banner img-fluid mx-auto d-md-none d-lg-none" alt="Texas GIS Forum Main Image">
       {% endif %}
   </div>
 {% endblock %}
 
 {% block contentsOne %}
-  <div class="container">
+  <div class="container row mx-auto">
       {{contents|safe}}
   </div>
 {% endblock %}
