@@ -124,14 +124,14 @@ function retrieveMaps() {
             </div>
           </div>
           <div class="col-12">
-            <a id="${urlName}ClickSheets" data-toggle="collapse" aria-expanded="false" data-target="#${m.collection_id}Sheets" href="#${urlName}">
+            <a id="${urlName}ClickSheets" data-toggle="collapse" aria-expanded="false" data-target="#Sheets${m.collection_id}" href="#${urlName}">
               <button class="btn btn-map-expander btn-lg btn-block full-details-btn" type="button">
                 <i class="fa fa-arrow-down"></i>
                 Expand Available Maps
               </button>
             </a>
           </div>
-          <div id="${m.collection_id}Sheets" class="available-sheets col-12 collapse" style="padding:20px;">
+          <div id="Sheets${m.collection_id}" class="available-sheets col-12 collapse" style="padding:20px;">
             ${downloadsList}${collectionsList}
           </div>
         </div>`;
