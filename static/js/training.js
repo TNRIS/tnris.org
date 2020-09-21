@@ -84,7 +84,7 @@ function retrieveTraining(queryField, queryValue) {
       record.setAttribute('class', 'training-record');
       record.setAttribute('id', urlTitle);
       record.innerHTML =
-        `<div class="row training-header">
+        `<div class="p-0 row training-header">
           <div class="col-12 course-info-category">
             ${t.category}
           </div>

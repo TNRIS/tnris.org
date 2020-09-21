@@ -96,6 +96,31 @@ h2 {
   top: 76px;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn-secondary {
+  color: #333;
+  border-color: #ccc;
+  background: white;
+  font-size: .875rem;
+
+  &:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+  }
+  &:active, &:focus, .open>.dropdown-toggle.btn-secondary {
+    color: #333 !important;
+    background-color: #e6e6e6 !important;
+    background-image: none !important;
+    border-color: #adadad !important;
+  }
+}
+
 /* Buttons */
 .btn-tnris {
   color: white;
@@ -173,6 +198,10 @@ h2 {
 
 .btn {
   cursor: pointer !important;
+}
+
+.btn-group-sm > .btn, .btn-sm {
+  font-size: .75rem;
 }
 
 /* push footer to bottom of page */
@@ -402,6 +431,12 @@ figure {
 
 blockquote {
   background: $lightgrey;
+}
+
+@media (min-width: 576px){
+  .container{
+    max-width: unset;
+  }
 }
 
 /* for making full images at top on full-top template */
@@ -849,6 +884,12 @@ video {display: block;}
   color: $white !important;
   opacity: .7;
   text-shadow: 0 1px 0 #2c2c2c;
+}
+
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
 }
 
 .alert-forum {
