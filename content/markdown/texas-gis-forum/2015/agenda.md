@@ -13,9 +13,10 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 Note: Agenda and speakers subject to change without notice.
 </p>
 <div class="agenda-full">
-  <div class="row">
-    <h2>Monday, October 26th</h2>
-    <div class="col-sm-3 col-md-2">
+  <div>
+		<h2>Monday, October 26th</h2>
+		<div class="row">
+		<div class="col-sm-3 col-md-2">
       8:00 a.m - 5:00 p.m.
     </div>
     <div class="col-sm-9">
@@ -23,10 +24,12 @@ Note: Agenda and speakers subject to change without notice.
         <a href="/texas-gis-forum/2015/training">Pre-conference Training</a>
       </h3>
     </div>
+	</div>
   </div>
-  <div class="row">
-    <h2>Tuesday, October 27th</h2>
-    <div class="col-sm-3 col-md-2">
+  <div>
+		<h2>Tuesday, October 27th</h2>
+		<div class="row">
+		<div class="col-sm-3 col-md-2">
       8:00 a.m - 5:00 p.m.
     </div>
     <div class="col-sm-9">
@@ -34,6 +37,7 @@ Note: Agenda and speakers subject to change without notice.
         <a href="/texas-gis-forum/2015/training">Pre-conference Training</a>
       </h3>
     </div>
+	</div>
   </div>
   <div class="row agenda-bg">
     <div class="col-sm-3 col-md-2">
