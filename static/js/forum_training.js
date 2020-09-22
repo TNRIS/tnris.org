@@ -112,7 +112,7 @@ function retrieveForumTraining() {
           </div>
         </div>
 
-        <div id="Sheet${t.training_id}" class="col-12 collapse border">
+        <div id="Sheet${t.training_id}" class="mb-3 col-12 collapse border">
           <div class="col-sm-2"></div>
           <div class="col-12" style="margin:10px 0 10px 0; padding-left:0;">
             <h3 style="margin-top:10px;">Training Description</h3>
