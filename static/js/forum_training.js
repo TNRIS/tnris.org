@@ -97,9 +97,9 @@ function retrieveForumTraining() {
           <hr>
           <div class="row px-0">
             <div class="col-sm-4">
-              <strong>Location:</strong><br>${locationRoom}<br>
               <i class="fas fa-clock"></i>
               ${start_time} - ${end_time}<br><br>
+              <strong>Location:</strong><br>${locationRoom}<br>
             </div>
             <div class="col-sm-4">
               <strong>Taught by:</strong><br>${namesList}<br>
