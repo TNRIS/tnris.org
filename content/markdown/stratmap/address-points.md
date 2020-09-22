@@ -4,7 +4,7 @@ layout: stratmap/ap-lp-page.njk
 youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 ---
 
-<div class="container">
+<div class="container-md">
   <div class="row">
     <div class="col-md-6">
       <p class="lead">Address points are site or structure point data that have associated information such as house number, street name, postal community, and postal code. This information is recorded and maintained at the city and county level in Texas and aggregated to Regional Planning Commissions or Emergency Communications Districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
@@ -22,7 +22,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
   </div>
 </div>
 <section id="parcel-numbers" >
-<div class="container">
+<div class="container-md">
     <h2>Program Timeline</h2>
     <p class="lead">This timeline documents past events and estimates future milestones. As milestones are met, this timeline will be updated. Please check each county for the most recent version of data.</p>
         <div class="timeline-stratmap">
@@ -46,7 +46,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 
 </section>
 
-<div class="container">
+<div class="container-md">
 <div class="row">
 <div id="agency-parcel-uses" class="col-md-6">
 

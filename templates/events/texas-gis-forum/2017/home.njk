@@ -17,7 +17,7 @@
 {% block topcontent %}
   <div class="full forum-2017-top">
 
-    <div class="py-4 forum-2017-brand-container container">
+    <div class="py-4 forum-2017-brand-container container-md">
       <h1 class="forum-brand">
         <span>Texas GIS Forum</span>October 23 – 27, 2017 | Austin, Texas
       </h1>
@@ -38,7 +38,7 @@
 {% endblock %}
 
 {% block contentsOne %}
-  <div class="container">
+  <div class="container-md">
     {{contents|safe}}
   </div>
 
@@ -46,7 +46,7 @@
 
 {% block contentsTwo %}
   <section class="grey-bg">
-    <div class="py-2 container">
+    <div class="py-2 container-md">
       <h2>Featured Guest Speakers</h2>
       <div class="py-2 row">
         <div class="col-md-3 featured-speaker-2017">
@@ -82,7 +82,7 @@
     </div>
   </section>
   <section>
-    <div class="container">
+    <div class="container-md">
       {% include "events/texas-gis-forum/2017/map.njk" %}
     </div>
   </section>

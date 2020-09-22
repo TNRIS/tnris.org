@@ -3,7 +3,7 @@ title: Orthoimagery
 layout: stratmap/main.njk
 mainimage: https://cdn.tnris.org/images/orthoreview_main.jpg
 ---
-<div class="container">
+<div class="container-md">
   <div class="row">
     <div class="col-md-8">
       <p class="lead">Orthoimagery is digital aerial photography that has been geometrically corrected (orthorectified) to remove distortion caused by camera optics, aircraft tilt, and differences in ground elevation.</p>
@@ -19,7 +19,7 @@ mainimage: https://cdn.tnris.org/images/orthoreview_main.jpg
   </div>
 </div>
 <section id="stratmap-by-the-numbers" class="ortho-numbers">
-    <div class="container">
+    <div class="container-md">
       <h2>Orthoimagery by the Numbers</h2>
         <div class="row">
             <div class="col-sm-4">
@@ -34,7 +34,7 @@ mainimage: https://cdn.tnris.org/images/orthoreview_main.jpg
           </div>
       </div>
 </section>
-<div class="container">
+<div class="container-md">
   <h2>StratMap Orthoimagery Datasets</h2>
   <h3>Statewide Datasets</h3>
   <p class="lead">Leveraging funds from multiple government agencies (State, Federal, and Local), the StratMap Program coordinated statewide orthoimagery acquisitions starting in the mid-1990s which also began the Texas Orthoimagery Program (TOP).</p>

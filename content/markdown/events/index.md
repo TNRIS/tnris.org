@@ -11,7 +11,7 @@ TNRIS brings the GIS community together through long established events like the
 
 For over three decades, the Texas GIS Forum has been the premiere gathering for the statewide GIS community. While we don't have pages going all the way back to then, you can still visit the pages for current and recent Forums below.
 
-<div class="container">
+<div class="container-md">
   <div class="row">
     <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">
@@ -70,7 +70,7 @@ For over three decades, the Texas GIS Forum has been the premiere gathering for 
 
 The GeoRodeo is a roundup of geodevelopers, coders, and professionals from across the state of Texas who are looking to incorporate new ideas and creative solutions into their work. This free, interactive, technical conference is geared toward the Texas GIS/geospatial developer community.
 
-<div class="container">
+<div class="container-md">
   <div class="row">
     <div class="col-md-4 col-sm-6 event-circle">
       <div class="shadow-wrapper">

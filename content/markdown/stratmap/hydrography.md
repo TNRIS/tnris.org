@@ -4,7 +4,7 @@ layout: stratmap/main.njk
 mainimage: https://cdn.tnris.org/images/hydro_banner.jpg
 ---
 
-<div class="container">
+<div class="container-md">
 <div class="row">
 
 <div class="col-md-6">
@@ -36,7 +36,7 @@ mainimage: https://cdn.tnris.org/images/hydro_banner.jpg
 </div>
 <section id="stratmap-by-the-numbers" class="hydrocallout">
 
-<div class="container">
+<div class="container-md">
 <div class="row">
 <div class="col-md-6">
 <h2>USGS Markup Application for NHD Public Updates and Edits</h2>
@@ -47,7 +47,7 @@ mainimage: https://cdn.tnris.org/images/hydro_banner.jpg
 </div>
 </div>
 </section>
-<div class="container">
+<div class="container-md">
 <div class="row">
 <div class="col-md-6">
 

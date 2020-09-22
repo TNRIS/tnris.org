@@ -24,7 +24,7 @@ The DCS GIS Solutions Group was created to meet the need for a formal team of ag
 
 ## Participating Agencies
 
-<section class="gio-agency-collection container">
+<section class="gio-agency-collection container-md">
    <div class="row">
       <div class="member-box member">
         <strong>Participating Member Agencies</strong> of the GIS Solutions Group
@@ -72,7 +72,7 @@ The first meeting of the DCS GIS Solutions Group was held on March 25, 2015 with
 -   [Texas Department of Transportation (TXDOT)](https://www.txdot.gov/)
 -   [Texas Water Development Board (TWDB)](http://www.twdb.texas.gov/) (via TNRIS).
 
-<section class="gio-agency-collection container">
+<section class="gio-agency-collection container-md">
    <div class="row">
       <div class="member-box associate">
         <strong>Associate Members</strong> of the GIS Solutions Group

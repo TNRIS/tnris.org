@@ -4,7 +4,7 @@ layout: stratmap/main.njk
 mainimage: https://cdn.tnris.org/images/stratmap_website_banner_notext.jpg
 ---
 
-<section class="container">
+<section class="container-md">
 <div class="row">
 
 <div class="col-md-8 mx-auto d-block">

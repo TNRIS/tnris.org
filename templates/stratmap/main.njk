@@ -8,7 +8,7 @@
         <img class="img-fluid mx-auto d-block" src="{{mainimage}}" alt="Masthead for {{title}}">
       {% endif %}
       <div class="top-header mx-auto d-block">
-          <div class="container">
+          <div class="container-md">
             <h1>
               {% if 'StratMap' in title %}
                 {{title}}
@@ -28,7 +28,7 @@
 {% endblock %}
 
 {% block contentsTwo %}
-  <div class="container">  {% include "stratmap/nav.njk" %}</div>
+  <div class="container-md">  {% include "stratmap/nav.njk" %}</div>
      {{ contents|safe }}
   </div>
 {% endblock %}

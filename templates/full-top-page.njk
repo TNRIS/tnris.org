@@ -9,7 +9,7 @@
       {% endif %}
 
       <div class="top-header mx-auto d-block">
-          <div class="container">
+          <div class="container-md">
             <h1>{{title}}</h1>
             {% if abstract %}
               <div class="lead">{{abstract}}</div>
@@ -21,7 +21,7 @@
 {% endblock %}
 
 {% block contentsOne %}
-<div id="contentMain" class="container">
+<div id="contentMain" class="container-md">
   <div class="row">
     <div class="col-md-8">
       {{ contents|safe }}
