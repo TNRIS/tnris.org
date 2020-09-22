@@ -95,7 +95,7 @@ function retrieveTraining(queryField, queryValue) {
             </strong><br>
             <i class="fa fa-time"></i>
             ${start_time} - ${end_time} <br>
-            <button class="btn btn-primary btn-sm full-details-btn" type="button" data-toggle="collapse" aria-expanded="false" data-target="#${t.training_id}">
+            <button class="btn btn-primary btn-sm full-details-btn" type="button" data-toggle="collapse" aria-expanded="false" data-target="#Sheet${t.training_id}">
               <span class="fa fa-info-sign"></span>
               Expand Details
             </button>
@@ -128,7 +128,7 @@ function retrieveTraining(queryField, queryValue) {
               </div>
             </div>
           </div>
-          <div id="${t.training_id}" class="course-description col-12 collapse" style="padding:20px;">
+          <div id="Sheet${t.training_id}" class="course-description col-12 collapse" style="padding:20px;">
             <h3>Description</h3>
             ${t.description}
             <!-- if there are public registration_open records, insert discount copy content in each record html -->

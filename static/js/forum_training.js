@@ -96,7 +96,7 @@ function retrieveForumTraining() {
         </div>
         <div class="row course-description forum-course">
           <div class="col-3 col-sm-2">
-            <a id="${urlTitle}Click" data-toggle="collapse" aria-expanded="false" data-target="#${t.training_id}" href="#${urlTitle}">
+            <a id="${urlTitle}Click" data-toggle="collapse" aria-expanded="false" data-target="#Sheet${t.training_id}" href="#${urlTitle}">
               <button id="full-details-btn" class="btn btn-primary btn-sm" type="button" style="margin:7px;">
                 <span class="fa fa-info-sign"></span>
                 Expand Details
@@ -110,7 +110,7 @@ function retrieveForumTraining() {
           <div class="col-sm-2" style="margin-bottom: 10px;">
             <strong>Status:</strong><br>${status}
           </div>
-          <div id="${t.training_id}" class="col-12 collapse">
+          <div id="Sheet${t.training_id}" class="col-12 collapse">
             <div class="col-sm-2"></div>
             <div class="col-12" style="margin:10px 0 10px 0; padding-left:0;">
               <h3 style="margin-top:10px;">Training Description</h3>
