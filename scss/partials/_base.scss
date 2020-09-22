@@ -898,6 +898,10 @@ figure.right-indent {
 // video
 video {display: block;}
 
+.alert > p {
+  margin-bottom: 0px;
+}
+
 // alert holder
 .alert.topper {
   margin-bottom: 0;

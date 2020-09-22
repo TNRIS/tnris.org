@@ -79,7 +79,53 @@ function retrieveForumTraining() {
 
       // html for 'record' variable div element
       record.innerHTML =
-        `<div class="row forum-training-header ">
+      `
+      <div class="row p-1 border">
+        <div class="col-sm-12">
+          <h3>${t.title}</h3>
+        </div>
+        
+        <div class="col-sm-12">
+          <div class="pb-2">
+            ${t.teaser}<br>
+            <a id="${urlTitle}Click" data-toggle="collapse" aria-expanded="false" data-target="#Sheet${t.training_id}" href="#${urlTitle}">
+              <button id="full-details-btn" class="mt-2 btn btn-primary btn-sm" type="button" >
+                <span class="fa fa-info-sign"></span>
+                Expand Details
+              </button>
+            </a>
+          <hr>
+          <div class="row px-0">
+            <div class="col-sm-4">
+              <strong>Location:</strong><br>${locationRoom}<br>
+              <i class="fas fa-clock"></i>
+              ${start_time} - ${end_time}<br><br>
+            </div>
+            <div class="col-sm-4">
+              <strong>Taught by:</strong><br>${namesList}<br>
+              <strong>Cost:</strong><br>$${t.cost}<br><br>
+            </div>
+            <div class="col-sm-4">
+              <strong>Status:</strong><br>${status}<br><br>
+              
+            </div>
+          </div>
+        </div>
+
+        <div id="Sheet${t.training_id}" class="col-12 collapse border">
+          <div class="col-sm-2"></div>
+          <div class="col-12" style="margin:10px 0 10px 0; padding-left:0;">
+            <h3 style="margin-top:10px;">Training Description</h3>
+            <p style="margin-bottom:10px;">
+              ${t.description}
+            </p>
+            ${instructorBioHeader}
+            ${instructorInfo}
+          </div>
+        </div>
+      </div>
+      `
+        /* `<div class="row forum-training-header ">
           <div class="col-3 col-sm-2">
             <i class="fa fa-time"></i>
             ${start_time} - ${end_time} <br>
@@ -104,7 +150,7 @@ function retrieveForumTraining() {
             </a>
           </div>
           <div class="col-5 col-sm-6">${t.teaser}</div>
-          <div class="col-2  col-sm-2">
+          <div class="col-2 col-sm-2">
             <strong>Location:</strong><br>${locationRoom}
           </div>
           <div class="col-sm-2" style="margin-bottom: 10px;">
@@ -121,7 +167,7 @@ function retrieveForumTraining() {
               ${instructorInfo}
             </div>
           </div>
-        </div>`;
+        </div>` */;
 
       // function to insert forum records by year into template
       function forumByYear(one, two, rec) {
