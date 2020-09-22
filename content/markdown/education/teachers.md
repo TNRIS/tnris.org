@@ -1,7 +1,7 @@
 ---
 title: Teacher Resources (K-12, College)
 layout: education/teachers.njk
-mainimage: https://cdn.tnris.org/images/rovers1.jpg
+mainimage: https://cdn.tnris.org/images/rovers3.jpg
 ---
 
 <div class="row">
