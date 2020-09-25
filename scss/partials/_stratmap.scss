@@ -499,6 +499,10 @@ ul.stratmap-work {
     margin-right: 20px;
     width: 900px;
   }
+
+  @media (max-width: $screen-sm) {
+    display: none;
+  }
 }
 
 .bar-vertical-stratmap {

@@ -83,21 +83,3 @@ The Information Services (IS) section maintains the TNRIS digital data library a
   <a class="btn btn-tnris btn-lg" href="https://gemss2.tnris.org/" target="app"> View Application</a>
 </p>
 
-<h2>Lakes of Texas (coming soon)</h2>
-<img src="https://cdn.tnris.org/images/lakegallery.png" class="img-fluid screenshot" alt="Lake of Texas Screenshot" title="lake-gallery.tnris.org"/>
-<div class="card card-body well-bg link-well row">
-  <div class="col-lg-6">
-    <a href="https://github.com/TNRIS/lake-gallery" target="github">
-      <img src="https://cdn.tnris.org/images/github.svg" class="github-logo" title="Lake Gallery Github Repo" alt="Github Logo" /> View Github Repository
-    </a>
-  </div>
-  <!-- <div class="col-lg-6"> <strong>Website:</strong>
-    <a href="https://lake-gallery.tnris.org/" title="lake-gallery.tnris.org" target="app">lake-gallery.tnris.org</a>
-  </div> -->
-</div>
-<p>
-  This web application serves as an interactive insight into the history of Texas lakes and reservoirs for the purpose of public education and understanding about the precious water resources of Texas. It is our hope to relay awareness and historical knowledge of the significant water bodies utilized by the citizens of Texas daily. The Texas Lake Gallery focuses on the water sources managed by the TWDB.
-</p>
-<p>
-  <a class="btn btn-tnris btn-lg disabled" href="https://lake-gallery.tnris.org/" target="app"> View Application</a>
-</p>

@@ -38,7 +38,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
     <h2>Program Timeline</h2>
     <p class="lead">This timeline documents past events and estimates future milestones. As milestones are met, this timeline will be updated. Please check each county for the most recent version of data.</p>
     <div class="timeline-stratmap">
-      <div class="bar-stratmap d-none"></div>
+      <div class="bar-stratmap"></div>
       <div class="bar-vertical-stratmap"></div>
       <div class="phase-top phase-1"><strong>Texas GIO Report 2016</strong> identifies parcels as most requested dataset</div>
       <div class="phase phase-2"><strong>Texas Parcel Study 2017</strong> evaluated parcels in Texas and five states across USA

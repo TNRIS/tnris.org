@@ -272,7 +272,7 @@ Note: Agenda and speakers subject to change without notice.
       </div>
     </div>
   </div>
-  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-md-0">
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-lg-0">
     <h3>
       <small class="text-muted">Session B (Li'l TEX)</small><br>Applied GIS (Putting GIS to Work)
     </h3>
@@ -510,7 +510,7 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   </div>
-  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-md-0">
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-lg-0">
   <h3><small class="text-muted">Session B (Li'l TEX)</small><br>Innovative Technology (New to You)</h3>
   <div class="agenda-track">
   <div id="one-B-1400-a" class="agenda-track-item media">
@@ -733,7 +733,7 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   </div>
-  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-md-0">
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-lg-0">
   <h3>
   <small class="text-muted">Session B (Li'l TEX)</small><br>
   State Initiatives (Cool Enough for Government Work)
@@ -965,7 +965,7 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   </div>
-  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-md-0">
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-lg-0">
   <h3><small class="text-muted">Session B (Li'l TEX)</small><br>Online Map Applications (Apps in the Cloud)</h3>
   <div class="agenda-track">
   <div id="two-B-1030-a" class="agenda-track-item media">
@@ -1194,7 +1194,7 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   </div>
-  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-md-0">
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-lg-0">
   <h3><small class="text-muted">Session B (Li'l TEX)</small><br>Lo-GIS-tics (Keeping Track)</h3>
   <div class="agenda-track">
     <div id="two-B-1400-a" class="agenda-track-item media">
