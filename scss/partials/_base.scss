@@ -903,6 +903,9 @@ figure.right-indent {
 // video
 video {display: block;}
 
+.alert {
+  position: unset;
+}
 .alert > p {
   margin-bottom: 0px;
 }

@@ -90,23 +90,29 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
 <hr class="clearfix d-md-none d-lg-none">
   <div class="col-lg-4">
   <h2 style="margin-top: 0;">Other Agency Resources</h2>
-    <div class="resources-highlight-box">
-      <a href="https://www.twdb.texas.gov/conservation/education/kids/index.asp">
-      <img class="img-fluid rounded" alt="highlight of TWDB kids page" src="https://cdn.tnris.org/images/twdb-kids-highlight.jpg">
-      <div class="resources-highlight-text-container">
-        <h3>TWDB Kids</h3>
-        <p class="d-md-none">The TWDB Kids Web site serves as the gateway to the agency's K-12 conservation education resources.</p>
+    <div class="row">
+      <div class="col-lg-12 col-sm-6">
+        <div class="card my-2">
+          <a href="https://www.twdb.texas.gov/conservation/education/kids/index.asp">
+          <img class="card-img-top" alt="highlight of TWDB kids page" src="https://cdn.tnris.org/images/twdb-kids-highlight.jpg">
+          </a>
+          <div class="card-body">
+            <h3><a href="https://www.twdb.texas.gov/conservation/education/kids/index.asp">TWDB Kids</a></h3>
+            <p class="d-sm-block">The TWDB Kids Web site serves as the gateway to the agency's K-12 conservation education resources.</p>
+          </div>  
+        </div>
       </div>
-      </a>
-    </div>
-    <div class="resources-highlight-box">
-    <a href="https://www.usgs.gov/science-support/osqi/yes/resources-teachers">
-      <img class="img-fluid rounded" alt="A USGS staff member shows kids a map" src="https://cdn.tnris.org/images/usgs-resources-highlight.jpg">
-      <div class="resources-highlight-text-container">
-        <h3>USGS Teacher Resources</h3>
-        <p class="d-md-none">Tap into USGS lesson plans and activities, maps, podcasts, online lectures, videos and animations, and much more.</p>
+      <div class="col-lg-12 col-sm-6">
+        <div class="card my-2">
+          <a href="https://www.usgs.gov/science-support/osqi/yes/resources-teachers">
+            <img class="card-img-top" alt="A USGS staff member shows kids a map" src="https://cdn.tnris.org/images/usgs-resources-highlight.jpg">
+          </a>
+          <div class="card-body">
+            <h3><a href="https://www.usgs.gov/science-support/osqi/yes/resources-teachers">USGS Teacher Resources</a></h3>
+            <p class="d-sm-block">Tap into USGS lesson plans and activities, maps, podcasts, online lectures, videos and animations, and much more.</p>
+          </div>
+        </div>
       </div>
-    </a>
     </div>
   </div>
 </div>
