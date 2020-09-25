@@ -19,25 +19,25 @@
     <div class="container-fluid full">
       <div class="top-container">
           {% if mainimage %}
-          <div class="hidden-sm hidden-xs">
-            <img src="{{mainimage}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          <div class="d-sm-none d-none">
+            <img src="{{mainimage}}" class="banner img-fluid mx-auto" alt="Texas GIS Forum Main Image">
           </div>
           {% endif %}
           {% if mainimagesm %}
-          <div class="hidden-xs hidden-md hidden-lg">
-            <img src="{{mainimagesm}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          <div class="d-none d-md-none d-lg-none">
+            <img src="{{mainimagesm}}" class="banner img-fluid mx-auto" alt="Texas GIS Forum Main Image">
           </div>
           {% endif %}
 
           {% if mainimagexs %}
-          <div class="hidden-sm hidden-md hidden-lg">
-            <img src="{{mainimagexs}}" class="banner img-responsive" alt="Texas GIS Forum Main Image">
+          <div class="d-sm-none d-md-none d-lg-none">
+            <img src="{{mainimagexs}}" class="banner img-fluid mx-auto" alt="Texas GIS Forum Main Image">
           </div>
           {% endif %}
       </div>
     </div>
     <div class="_2015-forum-intro">
-      <div class="container">
+      <div class="container-md">
         <p class="lead">
             Revisit the 2015 Forum through our photo recap.
         </p>
@@ -49,10 +49,10 @@
 {% block contentsOne %}
   {% include "partials/2015-forum/forum-nav.njk" %}
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-lg-8">
         {{contents|safe}}
     </div>
-    <div class="col-md-4">
+    <div class="col-lg-4">
       {% if sidebar == 'postersubmission' %}
         <h2>Submit Your Info</h2>
         <p>Please enter your information below if you plan on submitting a poster to the gallery. This info will be displayed along with your poster.</p>
@@ -64,7 +64,7 @@
 
 {% block contentsTwo %}
   <section class="forum-map">
-    <div class="container">
+    <div class="container-md">
         <div class="row">
                 {% include "partials/2015-forum/forum-map.njk" %}
         </div>

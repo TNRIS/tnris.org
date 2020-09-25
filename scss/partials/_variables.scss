@@ -113,7 +113,7 @@ $timelineheightsm: 160px;
 
 .col-xs-5ths,
 .col-sm-5ths,
-.col-md-5ths,
+.col-lg-5ths,
 .col-lg-5ths {
   min-height: 1px;
   padding-left: 10px;
@@ -127,7 +127,7 @@ $timelineheightsm: 160px;
 }
 
 @media (min-width: 992px) {
-  .col-md-12 {
+  .col-lg-12 {
     width: 100%;
   }
 }

@@ -1,9 +1,9 @@
 {% extends "base.njk" %}
 
 {% block contentsOne %}
-<div id="contentMain" class="container">
+<div id="contentMain" class="container-md">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-lg-8">
       {% if headerlabel %}
       {% endif %}
       <h1>
@@ -16,23 +16,23 @@
       {% endif %}
 
       {% if mainimage %}
-        <img class="img-responsive center-block" src="{{ mainimage }}">
+        <img class="img-fluid mx-auto d-block" src="{{ mainimage }}">
       {% endif %}
 
       {{ contents|safe }}
     </div>
 
-    <div class="col-md-3 col-md-offset-1">
+    <div class="col-lg-3 offset-lg-1">
 
             {% include "partials/applications-side.njk" %}
     </div>
   </div>
 
   <div class="row">
-  <div class="col-md-12 giscat-footer">
+  <div class="col-lg-12 giscat-footer">
       Powered by
       <a href="http://giscat.tnris.org/">
-        <img src="https://cdn.tnris.org/images/GISCAT_transparent.png" class="img-responsive" alt="Classic Data Catalog pouncing tiger" title="GISCAT">
+        <img src="https://cdn.tnris.org/images/GISCAT_transparent.png" class="img-fluid" alt="Classic Data Catalog pouncing tiger" title="GISCAT">
       </a>
   </div>
 </div>

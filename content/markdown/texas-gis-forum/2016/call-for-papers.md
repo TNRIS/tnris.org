@@ -40,7 +40,7 @@ Abstract selection is very competitive; please follow the format instructions ou
 
 The deadline for abstracts is May 27th, 2016.
 
-<a class="btn btn-lg btn-danger" href="https://www.surveymonkey.com/r/PXZJBDP"><i class="glyphicon glyphicon-hand-right"></i> Submit a Presentation Proposal</a>
+<a class="btn btn-lg btn-danger" href="https://www.surveymonkey.com/r/PXZJBDP"><i class="fa fa-hand-right"></i> Submit a Presentation Proposal</a>
 
 ## Acceptance
 

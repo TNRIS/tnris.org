@@ -27,7 +27,7 @@
   }
 
 // Image expand //
-// .img-responsive.img-expand {
+// .img-fluid.img-expand {
 //   @media (min-width: $screen-md) {
 //     max-width: none;
 //   }
@@ -807,7 +807,7 @@ h2.updates-header {
 }
 
 #_2015-ortho-qc {
-  .img-circle {
+  .rounded-circle {
     border: 7px solid $yellowgreen;
     max-width: 200px;
   }

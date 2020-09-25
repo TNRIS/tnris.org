@@ -1,83 +1,100 @@
-
-<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
-  <div class="title-header">
-    <div class="container">
+<nav id="top" class="navbar-static-top" role="banner">
+  <div class="title-header navbar bs-docs-nav p-0">
+    <div class="container-md">
       <a href="/" class="navbar-brand logo-link" title="TNRIS Logo and back home">
-        <span class="sr-only">Texas Natural Resources Information System</span>
+        <span class="d-none d-sr">Texas Natural Resources Information System</span>
       </a>
-      <span class="tnris-name hidden-xs">Texas Natural Resources Information System</span>
-      <a class="skip" href="#mainContentAnchor">Skip to Main Content</a>
-      <a class="navbar-twdb pull-right hidden-xs" href="http://www.twdb.texas.gov/">A Division of the <span class="hidden-sm">Texas Water Development Board</span> <abbr class="hidden-md hidden-lg" title="Texas Water Development Board">TWDB</abbr></a>
-        <div class="navbar-header">
-          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-    </div>
-  </div>
-  <div class="container nav-bg">
-    <nav class="collapse navbar-collapse bs-navbar-collapse navbar-inverse" role="navigation">
-      <ul class="nav navbar-nav">
-        <li class="dropdown navbar-inverse">
-          <a href="#" class="dropdown-toggle data-hub-logo" data-toggle="dropdown">Data &amp; Maps</a>
-          <ul class="dropdown-menu inverse-dropdown" role="menu">
-            <li>
-              <a href="https://data.tnris.org" title="Visit the New DataHub!" class="main-program">DataHub</a>
-            </li>
-            <li {% if id == 'maps' %}class="active"{% endif %}>
-              <a href="/maps" class="main-program">Maps</a>
-            </li>
-            <li {% if id == 'research-distribution-center' %}class="active"{% endif %}>
-              <a href="/research-distribution-center" class="main-program">Research &amp; Distribution Center (RDC)</a>
-            </li>
-            <li {% if id == 'texas-imagery-service' %}class="active"{% endif %}>
-              <a href="/texas-imagery-service" class="main-program">Texas Imagery Service</a>
-            </li>
-            <li {% if id == 'applications-and-utilities' %}class="active"{% endif %}>
-              <a href="/applications-and-utilities" class="main-program">Applications &amp; Utilities</a>
-            </li>
-          </ul>
-        </li>
-        <li class="dropdown navbar-inverse">
-          <a href="#" class="dropdown-toggle programs-nav" data-toggle="dropdown"><i class="fas fa-tasks hidden-sm hidden-xs"></i> Programs</a>
-          <ul class="dropdown-menu inverse-dropdown" role="menu">
-            <li {% if id == 'stratmap' %}class="active"{% endif %}>
-              <a href="/stratmap" class="main-program">Strategic Mapping Program (StratMap)<br></a>
-              <ul>
-                <li {% if id == 'stratmap-stratmap-contracts' %}class="active"{% endif %}><a href="/stratmap/stratmap-contracts">StratMap Contracts</a></li>
-                <li {% if id == 'stratmap-orthoimagery' %}class="active"{% endif %}><a href="/stratmap/orthoimagery">Orthoimagery</a></li>
-                <li {% if id == 'stratmap-elevation-lidar' %}class="active"{% endif %}><a href="/stratmap/elevation-lidar">Elevation - Lidar</a></li>
-                <li {% if id == 'stratmap-hydrography' %}class="active"{% endif %}><a href="/stratmap/hydrography">Hydrography</a></li>
-                <li {% if id == 'stratmap-land-parcels' %}class="active"{% endif %}><a href="/stratmap/land-parcels">Land Parcels</a></li>
-                <li {% if id == 'stratmap-address-points' %}class="active"{% endif %}><a href="/stratmap/address-points">Address Points</a></li>
-              </ul>
-            </li>
-            <li {% if id == 'education' %}class="active"{% endif %}>
-              <a href="/education" class="main-program">Education and Training</a>
-            </li>
-          </ul>
-        </li>
-        <li {% if id === 'events' %}class="active"{% endif %}>
-          <a class="events" href="/events"><i class="fas fa-user-friends hidden-sm hidden-xs"></i> Events</a>
-        </li>
-        <li {% if id === 'geographic-information-office' %}class="active"{% endif %}>
-          <a class="gio" href="/geographic-information-office">Geographic Information Office</a>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li {% if id == '/about' %}class="active"{% endif %}>
-          <a href="/about">About<span class="sr-only"> us</span></a>
-        </li>
-        <li {% if id == '/contact' %}class="active"{% endif %}>
-          <a href="/contact"><span class="glyphicon glyphicon-comment"></span> Contact Us</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
 
-  {% block topalert %}
-  {% endblock %}
-</header>
+      <a href="#" class="navbar-toggler navbar-toggler-right d-sm-inline d-md-none" type="button" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-controls="bs-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-bars"></span>
+      </a>
+      <span class="tnris-name d-none d-md-inline">Texas Natural Resources Information System</span>
+      <a class="skip" href="#mainContentAnchor">Skip to Main Content</a>
+      <a class="navbar-twdb ml-auto d-none d-md-inline" href="http://www.twdb.texas.gov/">A Division of the
+        <span class="d-md-none d-lg-inline">Texas Water Development Board</span>
+        <abbr class="d-none d-sm-inline d-lg-none" title="Texas Water Development Board">TWDB</abbr>
+      </a>
+    </div>
+
+    
+  </div>
+  <div class="container navbar-expand-md" role="navigation">
+      <div class="navbar-collapse collapse py-2" id="bs-navbar-collapse" >
+        <ul class="nav navbar-nav mr-auto">
+          <li class="nav-item dropdown navbar-inverse">
+            <a href="#" class="nav-link dropdown-toggle data-hub-logo" data-toggle="dropdown">Data &amp; Maps</a>
+            <ul class="dropdown-menu inverse-dropdown  ++" role="menu">
+              <li>
+                <a href="https://data.tnris.org" title="Visit the New DataHub!" class="nav-link main-program">DataHub</a>
+              </li>
+              <li class="nav-item{% if id == 'maps' %} active{% endif %}">
+                <a href="/maps" class="nav-link main-program">Maps</a>
+              </li>
+              <li class="nav-item{% if id == 'research-distribution-center' %} active{% endif %}">
+                <a href="/research-distribution-center" class="nav-link main-program">Research &amp; Distribution Center (RDC)</a>
+              </li>
+              <li class="nav-item{% if id == 'texas-imagery-service' %} active{% endif %}">
+                <a href="/texas-imagery-service" class="nav-link main-program">Texas Imagery Service</a>
+              </li>
+              <li class="nav-item{% if id == 'applications-and-utilities' %} active{% endif %}">
+                <a href="/applications-and-utilities" class="nav-link main-program">Applications &amp; Utilities</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown navbar-inverse">
+            <a href="#" class="nav-link dropdown-toggle programs-nav" data-toggle="dropdown">
+              {# <i class="fas fa-tasks d-md-inline d-none"></i> #}
+              Programs</a>
+            <ul class="dropdown-menu inverse-dropdown" role="menu">
+              <li class="nav-item{% if id == 'stratmap' %} active{% endif %}">
+                <a href="/stratmap" class="nav-link main-program">Strategic Mapping Program (StratMap)<br></a>
+                <ul>
+                  <li class="nav-item{% if id == 'stratmap-stratmap-contracts' %} active{% endif %}">
+                    <a href="/stratmap/stratmap-contracts">StratMap Contracts</a>
+                  </li>
+                  <li class="nav-item{% if id == 'stratmap-orthoimagery' %} active{% endif %}">
+                    <a href="/stratmap/orthoimagery">Orthoimagery</a>
+                  </li>
+                  <li class="nav-item{% if id == 'stratmap-elevation-lidar' %} active{% endif %}">
+                    <a href="/stratmap/elevation-lidar">Elevation - Lidar</a>
+                  </li>
+                  <li class="nav-item{% if id == 'stratmap-hydrography' %} active{% endif %}">
+                    <a href="/stratmap/hydrography">Hydrography</a>
+                  </li>
+                  <li class="nav-item{% if id == 'stratmap-land-parcels' %} active{% endif %}">
+                    <a href="/stratmap/land-parcels">Land Parcels</a>
+                  </li>
+                  <li class="nav-item{% if id == 'stratmap-address-points' %} active{% endif %}">
+                    <a href="/stratmap/address-points">Address Points</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item{% if id == 'education' %} active{% endif %}">
+                <a href="/education" class="nav-link main-program">Education and Training</a>
+              </li>
+            </ul>
+          </li>
+          <li {% if id === 'events' %} class="nav-item active" {% endif %}>
+            <a class="nav-link events" href="/events">
+              {# <i class="fas fa-user-friends d-md-inline d-none"></i> #}
+              Events</a>
+          </li>
+          <li {% if id === 'geographic-information-office' %} class="nav-item active" {% endif %}>
+            <a class="nav-link gio" href="/geographic-information-office">Geographic Information Office</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav">
+          <li {% if id == '/about' %} class="nav-item active" {% endif %}>
+            <a href="/about" class="nav-link">About<span class="sr-only">
+                us</span></a>
+          </li>
+          <li {% if id == '/contact' %} class="nav-item active" {% endif %}>
+            <a href="/contact" class="nav-link">
+              {# <span class="fa fa-comment"></span> #}
+              Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  {% block topalert %}{% endblock %}
+</nav>

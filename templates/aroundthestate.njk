@@ -2,11 +2,11 @@
 
 
 {% block contentsOne %}
-  <div id="contentMain" class="container">
+  <div id="contentMain" class="container-md">
     <div class="row article">
-      <div class="col-sm-12 col-md-8 blog-main">
+      <div class="col-sm-12 col-lg-8 blog-main">
         <h1 class="headline">
-          <small>Around the State</small><br>
+          <small class="text-muted">Around the State</small><br>
           {{ title }}</h1>
         <div class="byline">
           <strong>by <author>{{ author }}<author></strong> {% if division %}<em>{{division}}</em>{% endif %} | <time>{{date|prettyDate}}</time>
@@ -14,7 +14,7 @@
 
         {% if mainimage %}
         <figure>
-          <img class="media-object img-responsive center-block" src="{{mainimage}}" alt="{{imagealt}}">
+          <img class="media-object px-2 img-fluid mx-auto d-block" src="{{mainimage}}" alt="{{imagealt}}">
 
         {% if mainimagecaption %}
           <figcaption class="text-right"><em>{{mainimagecaption}}</em><figcaption>
@@ -26,7 +26,7 @@
       </div>
 
       {% block rightContent %}
-        <div class="col-sm-12 col-md-4 blog-sidebar">
+        <div class="col-sm-12 col-lg-4 blog-sidebar">
           <h3>Featured in <em>Around the State</em></h3>
           <ul class="news-list list-clean">
           {% set count = 1 %}
@@ -41,7 +41,7 @@
                       <time>{{ats_item.date|prettyDate}}</time>
                       <h3 class="media-heading">
                       <a href="{{ats_item.preserved}}">{{ats_item.title}}</a></h3>
-                      <p class="hidden-md hidden-lg">
+                      <p class="d-md-none d-lg-none">
                         {{ats_item.description}}
                       </p>
                     </div>

@@ -3,14 +3,14 @@
 
 {% block topcontent %}
   <div class="container-fluid" id="spotlight-full-image">
-    <div class="center-block">
+    <div class="mx-auto d-block">
       <a href="#full-spot" data-toggle="modal">
-        <img class="media-object img-responsive" src="{{mainimage}}" alt="A large preview of the {{title}} image">
+        <img class="media-object px-2 img-fluid" src="{{mainimage}}" alt="A large preview of the {{title}} image">
       </a>
     </div>
 
-    <div class="spot-title center-block">
-      <div class="container">
+    <div class="spot-title mx-auto d-block">
+      <div class="container-md">
         <small>Data Spotlight</small>
         <h1>{{title}}</h1>
         <div class="byline">
@@ -18,7 +18,7 @@
         </div>
 
         <div class="spot-zoom">
-          <span class="glyphicon glyphicon-zoom-in"></span>
+          <span class="fa fa-zoom-in"></span>
           Click Image for Full Preview
         </div>
       </div>
@@ -33,10 +33,10 @@
           <h3 class="modal-title" id="myModalLabel">{{title}}</h3>
         </div>
         <div class="modal-body">
-          <img class="media-object img-responsive center-block" src="{{fullimage}}" alt="A large preview of the {{title}} image">
+          <img class="media-object px-2 img-fluid mx-auto d-block" src="{{fullimage}}" alt="A large preview of the {{title}} image">
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -44,9 +44,9 @@
 {% endblock %}
 
 {% block contentsOne %}
-<div id="contentMain" class="container">
+<div id="contentMain" class="container-md">
   <div class="row article">
-    <div class="col-md-9">
+    <div class="col-lg-9">
        {{contents|safe}}
     </div>
   </div>

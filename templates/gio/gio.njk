@@ -4,16 +4,16 @@
   <div class="container-fluid full gio-top">
     <div class="top-container">
     {% if mainimage %}
-      <img class="img-responsive center-block" src="{{mainimage}}" alt="Masthead for {{title}}">
+      <img class="img-fluid mx-auto d-block" src="{{mainimage}}" alt="Masthead for {{title}}">
     {% endif %}
     {% if mainimagemd %}
-      <img class="img-responsive center-block hidden-lg hidden-sm hidden-xs" src="{{mainimagemd}}" alt="Masthead for {{title}}">
+      <img class="img-fluid mx-auto d-block d-lg-none d-sm-none d-none" src="{{mainimagemd}}" alt="Masthead for {{title}}">
     {% endif %}
     {% if mainimagesm %}
-      <img class="img-responsive center-block hidden-lg hidden-md" src="{{mainimagesm}}" alt="Masthead for {{title}}">
+      <img class="img-fluid mx-auto d-block d-lg-none d-md-none" src="{{mainimagesm}}" alt="Masthead for {{title}}">
     {% endif %}
-    <div class="top-header center-block">
-        <div class="container">
+    <div class="top-header mx-auto d-block">
+        <div class="container-md">
           <h1>{{title}}</h1>
         </div>
     </div>
@@ -28,12 +28,12 @@
     {% include "gio/gio-calendar-quad.njk" %}
   </div>
   {{ contents|safe }}
-  <div class="container">
+  <div class="container-md">
     <div class="row">
-      <div class="col-sm-12 col-md-7">
+      <div class="col-sm-12 col-lg-7">
         {% include "gio/gio-main.njk" %}
       </div>
-      <div class="col-sm-12 col-md-5 blog-sidebar">
+      <div class="col-sm-12 col-lg-5 blog-sidebar">
         {% include "gio/gio-bios.njk" %}
         {% include "gio/gis-community-meeting.njk" %}
       </div>

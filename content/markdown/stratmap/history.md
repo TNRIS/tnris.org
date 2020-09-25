@@ -5,7 +5,7 @@ mainimage: https://cdn.tnris.org/images/stratmap_website_banner_new.jpg
 abstract: StratMap History
 ---
 
-<div class="container">
+<div class="container-md">
 <p class="lead">In the mid-1990s, the Strategic Mapping Program was established at TNRIS and funded by the Texas Legislature to include statewide digital GIS layers for <strong>seven specific data types</strong> to complement the United States Geological Survey 1:24k Topographic Map product. State contributions in the amount of $10 million dollars attracted matching dollars from local and federal agencies to build the seven basemap layers. The first generation of StratMap basemap layers were complete in early 2001, with maintenance updates conducted on a few of the layers over the next ten years.</p>
 
 <p>The enormous cost of building and maintaining digital basemap layers for Texas became more difficult to continuously purchase as state funding for the StratMap Program declined to $0. In 2009, the Council on Competitive Government (CCG) entered into a contract pursuant to Government Code, Chapter 2162, to establish a pool of qualified vendors capable of providing quality geographic data. The selected vendors each signed a contract with the CCG to perform and provide data relating to High Priority Imagery and Data Sets (HPIDS) under the StratMap Program.</p>

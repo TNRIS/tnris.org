@@ -1,14 +1,14 @@
 {% extends "base.njk" %}
 
 {% block topcontent %}
-<div id="stratmap-top-header">
-  <div class="container">
-    <h1 id="ap-lp-title"><small>StratMap</small><br>{{title}}</h1>
+<div id="stratmap-top-header" class="p-2">
+  <div class="container-md">
+    <h1 id="ap-lp-title"><small class="text-muted">StratMap</small><br>{{title}}</h1>
   </div>
 </div>
 <div class="container-fluid full">
   <div class="top-container">
-      <div class="container" class="embed-responsive embed-responsive-16by9">
+      <div class="container-md" class="embed-responsive embed-responsive-16by9">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe src="{{youtube_url}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -22,7 +22,7 @@
 {% endblock %}
 
 {% block contentsTwo %}
-  <div class="container">
+  <div class="container-md">
     {% include "stratmap/nav.njk" %}</div>
      {{ contents|safe }}
   </div>

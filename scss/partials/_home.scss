@@ -31,7 +31,7 @@
 #front-image-container {
   padding: 5px 0 5px 0;
 
-  // &.col-xs-12 {
+  // &.col-12 {
   //   @media (max-width: $screen-md) {
   //     padding: 0 !important;
   //   }
@@ -321,7 +321,7 @@ h2.forum-title-front {
   background: $white;
   border: 1px solid $midgrey;
   color: $darkgrey;
-  height: 350px;
+  min-height: 350px;
 }
 
 /* NEWS - Twitter Timeline Embed */

@@ -29,13 +29,13 @@
   }
 }
 
-.panel-gio {
-  h3.panel-title {
+.card-gio {
+  h3.card-title {
     color: $middarkgrey;
     font-size: 20px;
   }
 
-  .panel-body {
+  .card-body {
     h3 {
       font-size: 28px;
       margin-top: 0;
@@ -188,7 +188,7 @@
 
 // headshot circles
 
-.img-circle.headshot {
+.rounded-circle.headshot {
   max-width: 150px;
 }
 
@@ -207,6 +207,7 @@
 // nav bar
 
 .gio-bar {
+  margin-bottom: 1rem;
   background: $black;
   border-radius: 0;
   font-size: 20px;
@@ -246,6 +247,9 @@ hr.noMarg {
 #gioBios {
   h3 {
     margin-top: 0;
+  }
+  img {
+    padding: 1rem
   }
 }
 

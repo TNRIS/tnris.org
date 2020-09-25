@@ -5,7 +5,7 @@
 // markdown content div within rdc-sub.njk
 .rdc-sub-content-column {
     .acquiring-agency {
-      img.thumbnail {
+      img.card.card-body{
         max-width: 30%;
       }
     }

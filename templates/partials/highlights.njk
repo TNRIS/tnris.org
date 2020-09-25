@@ -28,11 +28,11 @@
 ] %}
 
 <div id="highlights">
-  <div class="container">
+  <div class="container-md">
     <div class="row">
       <h3 class="text-center">Providing the Highest Level of Geographic Data Services to the People of Texas</h3>
       {% for item in highlight_items %}
-        <div class="col-sm-4">
+        <div class="col-lg-4">
           <div class="highlightBox">
             <div class="image-container">
               <h2>
@@ -40,10 +40,10 @@
                   <strong>{{item.acronym}}</strong><br>
                 {% endif %}
                 {{item.name|safe}}</h2>
-              <a href="{{item.link}}"><img class="img-responsive" src="{{item.image}}" alt="{{item.alt_text}}"></a>
+              <a href="{{item.link}}"><img class="img-fluid" src="{{item.image}}" alt="{{item.alt_text}}"></a>
             </div>
             <p>{{item.description}}</p>
-            <a class="btn btn-default" href="{{item.link}}" role="button">{{item.button_text|safe}} <span class="glyphicon glyphicon-chevron-right"></a>
+            <a class="btn btn-secondary" href="{{item.link}}" role="button">{{item.button_text|safe}} <span class="fa fa-chevron-right"></a>
           </div>
         </div>
       {% endfor %}

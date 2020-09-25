@@ -4,11 +4,11 @@
   <div class="container-fluid full">
     <div class="top-container">
       {% if mainimage %}
-        <img class="img-responsive center-block" src="{{mainimage}}" alt="Masthead for {{title}}">
+        <img class="img-fluid mx-auto d-block" src="{{mainimage}}" alt="Masthead for {{title}}">
       {% endif %}
 
-      <div class="top-header center-block">
-        <div class="container">
+      <div class="top-header mx-auto d-block">
+        <div class="container-md">
           <h1>{{title}}</h1>
         </div>
       </div>
@@ -20,9 +20,9 @@
 {% endblock %}
 
 {% block contentsTwo %}
-  <div id="events-container" class="container">
+  <div id="events-container" class="container-md">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-lg-8">
         {# alert about 2020 GIS Forum cancellation #}
          <div class="alert alert-danger">
            The 2020 Texas GIS Forum has been cancelled due to the COVID-19 pandemic.
@@ -31,7 +31,7 @@
          </div>
         {{ contents|safe }}
       </div>
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <script src="/gio_calendar_next_cm.bundle.js"></script>
         <div id="gio-calendar-next-cm"></div>
       </div>

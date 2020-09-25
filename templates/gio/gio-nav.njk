@@ -1,11 +1,11 @@
-<nav class="navbar navbar-inverse gio-bar">
-   <div class="container">
+<nav class="navbar-expand-sm navbar-inverse gio-bar">
+   <div class="container-md">
     <ul class="nav navbar-nav">
-        <li {% if (path == 'geographic-information-office') %}class="active"{% endif %}>
-          <a href="/geographic-information-office">Main</a>
+        <li class="nav-item {% if (path == 'geographic-information-office') %}active{% endif %}" >
+          <a class="nav-link" href="/geographic-information-office">Main</a>
         </li>
-        <li {% if (path == 'geographic-information-office/gis-solutions-group') %}class="active"{% endif %}>
-          <a href="/geographic-information-office/gis-solutions-group">GIS Solutions Group</a>
+        <li class="nav-item {% if (path == 'geographic-information-office/gis-solutions-group') %}active{% endif %}" >
+          <a class="nav-link" href="/geographic-information-office/gis-solutions-group">GIS Solutions Group</a>
         </li>
       </ul>
   </div>
