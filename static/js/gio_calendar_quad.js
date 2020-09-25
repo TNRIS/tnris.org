@@ -15,7 +15,7 @@ function retrieveNextFourEvents() {
       // create empty dom div element then populate with api response information
       var event = document.createElement('div');
       // if a community meeting, apply meeting-box to classname
-      var classname = e.community_meeting ? 'col-md-3 meeting-box' : 'col-md-3';
+      var classname = e.community_meeting ? 'col-lg-3 meeting-box' : 'col-lg-3';
       var communityMeetingStar = e.community_meeting ? ` <i class="fa fa-star" style="color: #1e8dc1;"></i>` : '';
       var communityMeetingAgenda = e.community_meeting_agenda_url ? ` <a class="btn btn-tnris btn-md" href="${e.community_meeting_agenda_url}">Download Agenda</a>` : '';
       event.setAttribute('class', classname);

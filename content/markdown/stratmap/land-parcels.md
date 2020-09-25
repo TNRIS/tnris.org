@@ -8,13 +8,13 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
 
 <div class="container-md">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-lg-6">
       <p class="lead">Land parcels are boundaries that have associated information such as property owner, land use, value, and location attributes. This property information is recorded and maintained at the county level in Texas at local appraisal districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
       <p class="lead">
       In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized <a href="https://cdn.tnris.org/documents/tnris-land-parcel-schema.pdf">GIS land parcel schema</a>. This format of land parcel data consists of the most commonly utilized information as determined by the land parcel  committee. The data contributed from county appraisal districts or their service providers were translated into this common schema and are now available on the <a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448">TNRIS DataHub</a>.</p>
       <p class="lead">In August 2019, an extension of the <a href="https://cdn.tnris.org/documents/update-on-digital-parcel-data-in-texas-20190903.pdf">statewide parcel study was published</a> to evaluate the existence of GIS parcel data and barriers to conversion. The report found that nearly all Texas appraisal districts now maintain a GIS parcel layer or are in the process of converting. It includes recommendations of 1) how TNRIS can facilitate local GIS  conversion and 2) how to continue success of the land parcel program.</p>
     </div>
-    <div class="col-md-6">
+    <div class="col-lg-6">
       <h2 style="margin-top: 0">Available Datasets</h2>
       <ul class="list-clean data-progress">
         <li class="status">
@@ -65,7 +65,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
 
 <div class="container-md">
   <div class="row">
-    <div id="agency-parcel-uses" class="col-md-6">
+    <div id="agency-parcel-uses" class="col-lg-6">
       <h2>Program Flow</h2>
       <p>This iterative program flow will occur throughout the year. At no one time will there be a completed or final version of data as each data source has varying update schedules. Please check each county for the most recent version of data.</p>
       <img src="https://cdn.tnris.org/images/data-circle.jpg" class="img-fluid">
@@ -73,7 +73,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       <p class="lead">Texas State Agencies make extensive use of Land Parcel data for all types of operations and applications.</p>
       <hr class="clearfix">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <img src="https://cdn.tnris.org/images/tx_glo_logo.jpg" class="mx-auto d-block">
           <p><strong>General Land Office (GLO)</strong></p>
           <ul>
@@ -82,7 +82,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
             <li>Veteran’s benefits issue management</li>
           </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <img src="https://cdn.tnris.org/images/tdem_logo.jpg" class="mx-auto d-block">
           <p><strong>Texas Division of Emergency Management (TDEM)</strong></p>
           <ul>
@@ -92,7 +92,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
         </div>
         <hr class="clearfix d-none d-sm-none">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <img src="https://cdn.tnris.org/images/txdot_logo.jpg" class="mx-auto d-block">
             <p><strong>Texas Department of Transportation (TXDOT)</strong></p>
             <ul>
@@ -101,7 +101,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
             </ul>
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <img src="https://cdn.tnris.org/images/hhs_logo.jpg" class="mx-auto d-block img-fluid">
             <p><strong>Health and Human Services Commission (HHSC)</strong></p>
             <ul>
@@ -112,7 +112,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
         </div>
         <hr class="clearfix d-none d-sm-none">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <img src="https://cdn.tnris.org/images/twdb_web_med.jpg" class="mx-auto d-block">
             <p><strong>Texas Water Development Board (TWDB)</strong></p>
             <ul>
@@ -120,7 +120,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
               <li>Determine properties that will be affected with the build of a new dam.</li>
             </ul>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <img src="https://cdn.tnris.org/images/tahc_logo.jpg" class="mx-auto d-block">
             <p><strong>Texas Animal Health Commission (TAHC)</strong></p>
             <ul>
@@ -131,7 +131,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       </div>
       <hr class="clearfix d-none d-sm-none">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <img src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" class="mx-auto d-block">
           <p><strong>Texas Commission on Environmental Quality (TCEQ)</strong></p>
           <ul>
@@ -140,7 +140,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
             <li>Water quality planning based on growth.</li>
           </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <img src="https://cdn.tnris.org/images/tpwd_logo.jpg" class="mx-auto d-block">
           <p><strong>Texas Parks and Wildlife Department (TPWD)</strong></p>
           <ul>
@@ -152,14 +152,14 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       </div>
       <hr class="clearfix d-none d-sm-none">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <img src="https://cdn.tnris.org/images/csec_logo_sm.jpg" class="mx-auto d-block">
           <p><strong>Commission on State Emergency Communications (CSEC)</strong></p>
           <ul>
             <li>Statewide emergency communications.</li>
           </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <img src="https://cdn.tnris.org/images/tx_dps_logo.jpg" class="mx-auto d-block">
           <p><strong>Department of Public Safety (DPS)</strong></p>
           <ul>
@@ -168,7 +168,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
         </div>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-lg-6">
       <h2>FAQ - Frequently Asked Questions</h2>
       <h3>What is a geographic land parcel?</h3>
       <p>A geographic land parcel is a spatial reference to tabular information of a property regarding ownership, land use, legal description, ownership, etc. from the Computer Assisted Mass Appraisal (CAMA) software of an appraisal district.</p>

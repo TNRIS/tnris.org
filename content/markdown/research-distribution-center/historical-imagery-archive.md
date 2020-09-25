@@ -6,7 +6,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
 ---
 
 <div class="row">
-<div class="col-md-6">
+<div class="col-lg-6">
 <p class="lead">
     The Historical Imagery Archive maintained by TNRIS is one of our most utilized and important data collections. It is comprised of over 1 million frames of photos covering all parts of Texas from dates as far back as the 1920s.
 </p>
@@ -19,7 +19,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
 <a style="width: 50%; margin-bottom: 10px;" class="btn btn-lg btn-tnris btn-block mx-auto d-block" href="https://data.tnris.org/catalog/%7B%22filters%22%3A%7B%22category%22%3A[%22Historic_Imagery%22]%7D%7D"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
 <img src="https://cdn.tnris.org/images/historicphotocatalog.jpg" class="img-fluid rounded" alt="A historical aerial photo is pulled out of a row of other photos">
 </div>
-<div class='col-md-6'>
+<div class='col-lg-6'>
 <h3 style="margin-top: 0;">Historical Imagery Costs</h3>
 <h4>Research:</h4>
 <ul>
@@ -54,7 +54,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
 <h2>Acquiring Agencies</h2>
 <p>The following are the collections we maintain according to the original acquiring agencies.</p>
 <div class="row">
-  <div class="col-md-6 acquiring-agency">
+  <div class="col-lg-6 acquiring-agency">
       <h3>United States Geological Survey</h3>
       <a href="https://cdn.tnris.org/images/usgs_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="United States Geological Survey (USGS)">
           <img class="card card-body float-left" src="https://cdn.tnris.org/images/usgs_historical_th.jpg">
@@ -66,7 +66,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
           <li><strong>About the USGS:</strong><br> The Aerial Photography Single Frame Records collection is a large and diverse group of imagery acquired by federal organizations from 1937 to present.  The USGS, one of the participating federal organizations, houses it’s historical imagery at the USGS Long Term Archive (LTA) at the National Center for Earth Resources Observations and Sciences (EROS) in Sioux Falls, SD.</li>
       </ul>
   </div>
-  <div class="col-md-6 acquiring-agency">
+  <div class="col-lg-6 acquiring-agency">
       <h3>Texas General Land Office</h3>
       <a href="https://cdn.tnris.org/images/glo_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Texas General Land Office (GLO)">
           <img class="card card-body float-left" src="https://cdn.tnris.org/images/glo_historical_th.jpg">
@@ -80,7 +80,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
   </div>
 </div>
 <div class="row">
-<div class="col-md-6 acquiring-agency">
+<div class="col-lg-6 acquiring-agency">
     <h3>Army Map Service</h3>
     <a href="https://cdn.tnris.org/images/ams_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Army Map Service (AMS)">
         <img class="card card-body float-left" src="https://cdn.tnris.org/images/armycorp_historical_th.jpg">
@@ -92,7 +92,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
         <li><strong>About the AMS:</strong><br>The AMS of the U.S. Army Corps of Engineers was the premier map making agency of the U.S. Department of Defense from 1941-1968.  The major task of the AMS was the compilation, publication, and distribution of aerial imagery, military topographic maps, and related products required by the Armed Forces of the United States.</li>
     </ul>
 </div>
-<div class="col-md-6 acquiring-agency">
+<div class="col-lg-6 acquiring-agency">
     <h3>Texas Department of Transportation</h3>
     <a href="https://cdn.tnris.org/images/txdot_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="Texas Department of Transportation (TXDOT)">
         <img class="card card-body float-left" src="https://cdn.tnris.org/images/txdot_historical_th.jpg">
@@ -106,7 +106,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
 </div>
 </div>
 <div class="row">
-  <div class="col-md-6 acquiring-agency">
+  <div class="col-lg-6 acquiring-agency">
       <h3>Miller</h3>
       <a href="https://cdn.tnris.org/images/miller_full.jpg" data-toggle="lightbox" data-gallery="example-gallery"  data-title="Miller">
           <img class="card card-body float-left" src="https://cdn.tnris.org/images/miller_historical_th.jpg">
@@ -118,7 +118,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
           <li><strong>About Miller:</strong><br>Miller Imaging and Digital Solutions, previously Miller Blueprint, is a family owned business located in Austin, TX that has been creating photographs, maps, and other printed material for close to a century.</li>
       </ul>
   </div>
-  <div class="col-md-6 acquiring-agency"><h3>United States Air Force</h3>
+  <div class="col-lg-6 acquiring-agency"><h3>United States Air Force</h3>
       <a href="https://cdn.tnris.org/images/usaf_full.jpg" data-toggle="lightbox" data-gallery="example-gallery"data-title="United States Air Force (USAF)">
           <img class="card card-body float-left" src="https://cdn.tnris.org/images/airforce_historical_th.jpg">
       </a>
@@ -131,7 +131,7 @@ abstract: Our archive consists of over 1,000,000 frames with dates as far back a
   </div>
 </div>
 <div class="row">
-  <div class="col-md-6 acquiring-agency">
+  <div class="col-lg-6 acquiring-agency">
       <h3>United States Department of Agriculture and Agricultural Stabilization and Conservation Service</h3>
       <a href="https://cdn.tnris.org/images/usda_acs_full.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-title="United States Department of Agriculture (USDA) and Agricultural Stabilization and Conservation Service (ASCS)">
           <img class="card card-body float-left" src="https://cdn.tnris.org/images/usda_historical_th.jpg">

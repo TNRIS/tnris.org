@@ -25,19 +25,19 @@ Later Code Wranglers,<br>
 Below are the slides and code demos that presenters have provided us. If we do not have a presentation posted, it is because the presenter did not provide it yet or authorize its release.
 
 <div class="row">
-<div class="col-md-4">
+<div class="col-lg-4">
 <h3>Michael Shensky</h3>
 <strong>University of Texas at Austin (UT Libraries)</strong><br>
 <a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/a-scripted-approach-for-normalizing-geospatial-data-in-a-relational-database-and-assessing-alternative-nosql-database-storage-options"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
 </div>
 
-<div class="col-md-4">
+<div class="col-lg-4">
 <h3>Daniel K. Pearson</h3>
 <strong>United States Geological Survey (USGS)</strong><br>
 <a href="https://www.slideshare.net/slideshow/embed_code/key/nSe08kDDJyumHp"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
 </div>
 
-<div class="col-md-4">
+<div class="col-lg-4">
 <h3>Laura Bell Sepulveda</h3>
 <strong>Texas Water Development Board</strong><br>
 <a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/test-before-you-build-how-to-use-prototypes-and-think-aloud-user-testing-to-build-better-products"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
@@ -45,20 +45,20 @@ Below are the slides and code demos that presenters have provided us. If we do n
 </div>
 <div class="row">
 
-<div class="col-md-4">
+<div class="col-lg-4">
 <h3>Jordan Carmona</h3>
 <strong>City of McKinney</strong><br>
 <a href="https://github.com/FeralCatColonist/GeoRodeo2019"><i class="fa fa-new-window"></i> Slide Presentation Link</a></div>
 
 
 
-<div class="col-md-4">
+<div class="col-lg-4">
 <h3>Aubrey Drescher</h3>
 <strong>Texas Water Development Board</strong><br>
 <a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/transitioning-to-vector-tiles-in-your-web-map"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
 </div>
 
-<div class="col-md-4">
+<div class="col-lg-4">
 <h3>Thomas Montgomery</h3>
 <strong>City of Austin</strong><br>
 <a href="https://docs.google.com/presentation/d/1lh1B56gQ195YMc-0RqzVvKpuggQnJQAaVpBHHTIIc3I/edit"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
@@ -66,7 +66,7 @@ Below are the slides and code demos that presenters have provided us. If we do n
 
 </div>
 <div class="row">
-<div class="col-md-4">
+<div class="col-lg-4">
 <h3>Kevin Booth</h3>
 <strong>Texas State University</strong><br>
 <a href="http://kb.gg/georodeo"><i class="fa fa-new-window"></i> Slide Presentation Link</a>

@@ -15,7 +15,7 @@
     </ol>
   </div>
   <div class="row article">
-    <div class="col-sm-12 col-md-8 blog-main">
+    <div class="col-sm-12 col-lg-8 blog-main">
       <h1 class="headline">{{ title }}</h1>
       <div class="byline">
         <strong>by <author>{{ author }}<author></strong> {% if division %}<em>{{ division }}</em>{% endif %} | <time>{{ date|prettyDate }}</time>
@@ -30,7 +30,7 @@
     </div>
 
     {% block rightContent %}
-      <div class="col-sm-12 col-md-4 blog-sidebar">
+      <div class="col-sm-12 col-lg-4 blog-sidebar">
         <script src="/gio_calendar_next_cm.bundle.js"></script>
         <div id="gio-calendar-next-cm"></div>
         {# <h3 id="more-gio-news">More GIO News</h3>

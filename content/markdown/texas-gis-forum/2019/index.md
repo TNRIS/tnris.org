@@ -7,7 +7,7 @@ mainimagesm: https://cdn.tnris.org/images/enchantedTopo-sm.jpg
 buttontext: Register Now!
 ---
 
-<div class="col-md-6">
+<div class="col-lg-6">
   <p class="lead"><strong>For over three decades,</strong> the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin this fall to hear about the latest advancements in the private and public sector and take the opportunity to touch base with long-time colleagues – and make new connections.</p>
   <hr class="clearfix">
   <a class="float-right" href="/news/2019-06-11/forum-keynote-leon-logothetis-host-kindness-diaries">

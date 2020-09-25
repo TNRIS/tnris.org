@@ -39,14 +39,14 @@
 {% block contentsOne %}
   <div id="contentMain" class="container-md">
     <div class="row">
-        <div id="faq-side-container" class="col-md-4">
+        <div id="faq-side-container" class="col-lg-4">
         {% block sidebarLeft %}
           {% include "partials/texas-imagery-service/faq-toc.njk" %}
           {% include "partials/texas-imagery-service/side.njk" %}
         {% endblock %}
         </div>
 
-        <div id="faq-body-container" class="col-md-8">
+        <div id="faq-body-container" class="col-lg-8">
             {{ contents|safe }}
         </div>
     </div>
@@ -57,8 +57,8 @@
   <section class="ortho-top">
       <div class="container-md">
           <div class="row">
-              <div class="col-md-4"></div>
-              <div class="col-md-8">
+              <div class="col-lg-4"></div>
+              <div class="col-lg-8">
                   {% include "partials/texas-imagery-service/contact.njk" %}
               </div>
           </div>

@@ -5,10 +5,10 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
 ---
 
 <div class="row">
-<div class="col-md-8">
+<div class="col-lg-8">
 <p class="lead">TNRIS has many maps and data resources available to the public at no charge from our website that can be incorporated into teacher's lesson plans for all levels. In addition to these resources, we are able to give tours on a limited basis to students and their educators.</p>
 </div>
-<div class="col-md-4">
+<div class="col-lg-4">
   <div class="card card-body well-bg">
   <p>
     Contact us about our Education &amp; Training Program.
@@ -21,7 +21,7 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
 <hr class="clearfix">
 
 <div class="row">
-<div class="education-chip-container col-md-8">
+<div class="education-chip-container col-lg-8">
 <h2>Map Collections</h2>
 <p class="lead">TNRIS has numerous static maps available for download that can be used in digital format or printed out, providing useful tools for teaching cartography and learning how to read maps. The majority of maps are part of the Texas Water Development Board's Maps depicting water resources.</p>
   <div class="map-card">
@@ -88,7 +88,7 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
 </div>
 
 <hr class="clearfix d-md-none d-lg-none">
-  <div class="col-md-4">
+  <div class="col-lg-4">
   <h2 style="margin-top: 0;">Other Agency Resources</h2>
     <div class="resources-highlight-box">
       <a href="https://www.twdb.texas.gov/conservation/education/kids/index.asp">

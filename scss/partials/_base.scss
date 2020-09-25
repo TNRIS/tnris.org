@@ -57,6 +57,11 @@ h2 {
   font-size: 1.15rem;
 }
 
+.container-md .row {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 /* custom lead */
 .lead {
   max-width: 750px;
@@ -593,7 +598,7 @@ blockquote {
 
 /* Side Bar on blogs */
 
-.col-md-4 {
+.col-lg-4 {
   .card:first-child {
     margin-top: 20px;
   }
@@ -947,14 +952,14 @@ video {display: block;}
   height:23px;
 }
 
-.col-lg-5ths,.col-md-5ths,.col-sm-5ths,.col-xs-5ths {
+.col-lg-5ths,.col-lg-5ths,.col-sm-5ths,.col-xs-5ths {
   min-height:1px;
   padding-left:10px;
   padding-right:10px;
   position:relative;
 }
 
-.col-md-5ths {
+.col-lg-5ths {
   @media(min-width: 992px) {
     float:left;
     width:20%

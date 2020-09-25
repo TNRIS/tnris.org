@@ -9,8 +9,8 @@ The Information Services (IS) section maintains the TNRIS digital data library a
 <h2>DataHub</h2>
 <img src="https://cdn.tnris.org/images/dataHub.png" class="img-fluid" alt="DataHub Screenshot" title="data.tnris.org"/>
 <div class="card card-body well-bg link-well row">
-  <div class="col-md-6"><strong>Website:</strong> <a href="https://data.tnris.org" title="data.tnris.org" target="app">data.tnris.org</a></div>
-  <div class="col-md-6">
+  <div class="col-lg-6"><strong>Website:</strong> <a href="https://data.tnris.org" title="data.tnris.org" target="app">data.tnris.org</a></div>
+  <div class="col-lg-6">
     <a href="https://github.com/TNRIS/dataHub" target="github">
       <img src="https://cdn.tnris.org/images/github.svg" class="github-logo" title="DataHub Github Repo" alt="Github Logo" /> View Github Repository
     </a>
@@ -26,8 +26,8 @@ The Information Services (IS) section maintains the TNRIS digital data library a
 <h2>Flood Viewer</h2>
 <img src="https://cdn.tnris.org/images/flood.png" class="img-fluid" alt="Flood Viewer Screenshot" title="map.texasflood.org"/>
 <div class="card card-body well-bg link-well row">
-  <div class="col-md-6"><strong>Website:</strong> <a href="https://map.texasflood.org" title="map.texasflood.org" target="app">map.texasflood.org</a></div>
-  <div class="col-md-6">
+  <div class="col-lg-6"><strong>Website:</strong> <a href="https://map.texasflood.org" title="map.texasflood.org" target="app">map.texasflood.org</a></div>
+  <div class="col-lg-6">
     <a href="https://github.com/TNRIS/flood" target="github">
       <img src="https://cdn.tnris.org/images/github.svg" class="github-logo" title="Flood Viewer Github Repo" alt="Github Logo" /> View Github Repository
     </a>
@@ -43,10 +43,10 @@ The Information Services (IS) section maintains the TNRIS digital data library a
 <h2>2017 Interactive State Water Plan</h2>
 <img src="https://cdn.tnris.org/images/iswp2017.png" class="img-fluid" alt="2017 ISWP Screenshot" title="2017.texasstatewaterplan.org"/>
 <div class="card card-body well-bg link-well row">
-  <div class="col-md-6"><strong>Website:</strong>
+  <div class="col-lg-6"><strong>Website:</strong>
     <a href="https://2017.texasstatewaterplan.org" title="2017.texasstatewaterplan.org" target="app">2017.texasstatewaterplan.org</a>
   </div>
-  <div class="col-md-6">
+  <div class="col-lg-6">
     <a href="https://github.com/TNRIS/iswp2017" target="github">
       <img src="https://cdn.tnris.org/images/github.svg" class="github-logo" title="2017 ISWP Github Repo" alt="Github Logo" /> View Github Repository
     </a>
@@ -69,7 +69,7 @@ The Information Services (IS) section maintains the TNRIS digital data library a
 <h2>Geospatial Emergency Management Support System (GEMSS)</h2>
 <img src="https://cdn.tnris.org/images/gemss2.png" class="img-fluid" alt="GEMSS2 Screenshot" title="gemss2.tnris.org"/>
 <div class="card card-body well-bg link-well row">
-  <div class="col-md-6"><strong>Website:</strong>
+  <div class="col-lg-6"><strong>Website:</strong>
     <a href="https://gemss2.tnris.org/" title="gemss2.tnris.org" target="app">gemss2.tnris.org</a>
   </div>
 </div>
@@ -86,12 +86,12 @@ The Information Services (IS) section maintains the TNRIS digital data library a
 <h2>Lakes of Texas (coming soon)</h2>
 <img src="https://cdn.tnris.org/images/lakegallery.png" class="img-fluid screenshot" alt="Lake of Texas Screenshot" title="lake-gallery.tnris.org"/>
 <div class="card card-body well-bg link-well row">
-  <div class="col-md-6">
+  <div class="col-lg-6">
     <a href="https://github.com/TNRIS/lake-gallery" target="github">
       <img src="https://cdn.tnris.org/images/github.svg" class="github-logo" title="Lake Gallery Github Repo" alt="Github Logo" /> View Github Repository
     </a>
   </div>
-  <!-- <div class="col-md-6"> <strong>Website:</strong>
+  <!-- <div class="col-lg-6"> <strong>Website:</strong>
     <a href="https://lake-gallery.tnris.org/" title="lake-gallery.tnris.org" target="app">lake-gallery.tnris.org</a>
   </div> -->
 </div>

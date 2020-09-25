@@ -31,15 +31,15 @@
 
   <div id="contentMain" class="container-md">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-lg-8">
         {{ contents|safe }}
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <h2 id="education-schedule-h2">
               <!-- Year + Course Schedule text inserted here if there are public records (see training.js) -->
             </h2>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <div id="category-filter-dropdown" class="dropdown float-right">
               Filter Courses:	&nbsp;
               <button id="category-filter-dropdown-btn" class="btn btn-secondary dropdown-toggle" type="button" id="categoryFilterMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -57,7 +57,7 @@
           <!-- training records get inserted here from the tnris api (see training.js) -->
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4">
         {% block sidebarLeft %}
           {% include "education/education-side.njk" %}
         {% endblock %}

@@ -16,7 +16,7 @@ Note: Agenda and speakers subject to change without notice.
   <div>
 		<h2>Monday, October 26th</h2>
 		<div class="row">
-		<div class="col-sm-3 col-md-2">
+		<div class="col-sm-3 col-lg-2">
       8:00 a.m - 5:00 p.m.
     </div>
     <div class="col-sm-9">
@@ -29,7 +29,7 @@ Note: Agenda and speakers subject to change without notice.
   <div>
 		<h2>Tuesday, October 27th</h2>
 		<div class="row">
-		<div class="col-sm-3 col-md-2">
+		<div class="col-sm-3 col-lg-2">
       8:00 a.m - 5:00 p.m.
     </div>
     <div class="col-sm-9">
@@ -40,7 +40,7 @@ Note: Agenda and speakers subject to change without notice.
 	</div>
   </div>
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2">
+    <div class="col-sm-3 col-lg-2">
       10:00 a.m - 12:00 p.m.
     </div>
     <div class="col-sm-9">
@@ -52,7 +52,7 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2">
+    <div class="col-sm-3 col-lg-2">
       5:30 p.m
     </div>
     <div class="col-sm-9">
@@ -70,10 +70,10 @@ Note: Agenda and speakers subject to change without notice.
   <h2><small class="text-muted">Conference</small><br>Wednesday, October 28th</h2>
   <div class="card card-body well-sm well-dark well-holl">
     <div class="row">
-      <div class="col-sm-3 col-md-2">
+      <div class="col-sm-3 col-lg-2">
         9:00 a.m. - 5:00 p.m.
       </div>
-      <div class="col-sm-9 col-md-10">
+      <div class="col-sm-9 col-lg-10">
         <h4>ESRI HOLL (Hands-On Learning Labs)</h4>
         <p>
           <button class="btn btn-md btn-danger float-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button>
@@ -90,7 +90,7 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_0700">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayOne_0700">
     7:00 - 8:30 a.m.
     </div>
     <div class="col-sm-9">
@@ -98,18 +98,18 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_0830">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayOne_0830">
       8:30 - 9:00 a.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
       <strong>Opening remarks</strong>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_0900">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayOne_0900">
       9:00 - 10:00 a.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
       <h3 id="keynote-meier">
         <small>Keynote Presentation</small>
         <br>
@@ -132,18 +132,18 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_1000">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1000">
       10:00 - 10:30 a.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
       <strong>Break &amp; Exhibits</strong>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_1030">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1030">
       10:30 a.m. - 12:00 p.m.
     </div>
-    <div class="col-sm-9 col-md-5">
+    <div class="col-sm-9 col-lg-5">
       <h3>
         <small>Session A (Big Tex)</small>
         <br>Remote Sensing (I Spy From Up High)
@@ -272,7 +272,7 @@ Note: Agenda and speakers subject to change without notice.
       </div>
     </div>
   </div>
-  <div class="col-sm-9 col-md-5 offset-sm-3 offset-md-0">
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-md-0">
     <h3>
       <small class="text-muted">Session B (Li'l TEX)</small><br>Applied GIS (Putting GIS to Work)
     </h3>
@@ -380,18 +380,18 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1200">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1200">
   12:00 - 1:00 p.m.
   </div>
-  <div class="col-sm-9 col-md-10">
+  <div class="col-sm-9 col-lg-10">
   <strong>Lunch &amp; Exhibits</strong>
   </div>
   </div>
   <div class="row">
-  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1300">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1300">
   1:00 – 2:00 p.m.
   </div>
-  <div class="col-sm-9 col-md-10">
+  <div class="col-sm-9 col-lg-10">
   <h3>
   <small class="text-muted">Platinum Sponsor Demo</small><br>
   <img src="https://cdn.tnris.org/images/appgeo_logo_sm.png" alt="AppGeo Logo">
@@ -403,10 +403,10 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1400">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1400">
   2:00 - 3:30 p.m.
   </div>
-  <div class="col-sm-9 col-md-5">
+  <div class="col-sm-9 col-lg-5">
   <h3><small class="text-muted">Session A (Big Tex)</small><br>Open Source (Something for Everyone)</h3>
   <div class="agenda-track">
   <div id="one-A-1400-a" class="agenda-track-item media">
@@ -510,7 +510,7 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   </div>
-  <div class="col-sm-9 col-md-5 offset-sm-3 offset-md-0">
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-md-0">
   <h3><small class="text-muted">Session B (Li'l TEX)</small><br>Innovative Technology (New to You)</h3>
   <div class="agenda-track">
   <div id="one-B-1400-a" class="agenda-track-item media">
@@ -612,18 +612,18 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   <div class="row">
-  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1530">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1530">
   3:30 - 4:00 p.m.
   </div>
-  <div class="col-sm-9 col-md-10">
+  <div class="col-sm-9 col-lg-10">
   <strong>Break &amp; Exhibits</strong>
   </div>
   </div>
   <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1600">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1600">
   4:00 - 5:30 p.m.
   </div>
-  <div class="col-sm-9 col-md-5">
+  <div class="col-sm-9 col-lg-5">
   <h3>
   <small class="text-muted">Session A (Big Tex)</small><br>
   Online Map Applications (You Can Do THAT On the Web?)
@@ -733,7 +733,7 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   </div>
-  <div class="col-sm-9 col-md-5 offset-sm-3 offset-md-0">
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-md-0">
   <h3>
   <small class="text-muted">Session B (Li'l TEX)</small><br>
   State Initiatives (Cool Enough for Government Work)
@@ -801,7 +801,7 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   <div class="row forum-social-2015">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_1800">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1800">
     6:00 p.m.
     </div>
     <div class="col-sm-9">
@@ -817,36 +817,36 @@ Note: Agenda and speakers subject to change without notice.
   <h2><small class="text-muted">Conference</small><br>Thursday, October 29th</h2>
   <div class="card card-body well-sm well-dark well-holl">
     <div class="row">
-      <div class="col-sm-3 col-md-2">
+      <div class="col-sm-3 col-lg-2">
         9:00 a.m. - 5:00 p.m.
       </div>
-      <div class="col-sm-9 col-md-10">
+      <div class="col-sm-9 col-lg-10">
         <h4>ESRI HOLL (Hands-On Learning Labs)</h4>
           <p><button class="btn btn-md btn-danger float-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button> Throughout the day on Thursday, ESRI will host self-guided courses in the <strong>Balcones Room</strong> covering ESRI software and key GIS techniques.</p>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayTwo_0700">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_0700">
     7:00 - 8:30 a.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
     <strong>Registration</strong>
     </div>
   </div>
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2 time-block" id="DayTwo_0830">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_0830">
     8:30 - 9:00 a.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
     <strong>Opening remarks</strong>
     </div>
   </div>
   <div class="row">
-  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_0900">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_0900">
   9:00 - 10:00 a.m.
   </div>
-  <div class="col-sm-9 col-md-10">
+  <div class="col-sm-9 col-lg-10">
   <h3 id="keynote-cowen"><small class="text-muted">Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
   <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/keynote-speaker-david-cowen-the-changing-geospatial-landscape"><i class="fa fa-play-circle"></i> View Slides</a></p>
   <p><img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/david_cowen.jpg"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
@@ -856,18 +856,18 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1000">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1000">
   10:00 - 10:30 a.m.
   </div>
-  <div class="col-sm-9 col-md-10">
+  <div class="col-sm-9 col-lg-10">
   <strong>Break &amp; Exhibits</strong>
   </div>
   </div>
   <div class="row">
-  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1030">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1030">
   10:30 a.m. - 12:00 p.m.
   </div>
-  <div class="col-sm-9 col-md-5">
+  <div class="col-sm-9 col-lg-5">
   <h3><small class="text-muted">Session A (Big Tex)</small><br>Lidar (Get to the Points)</h3>
   <div class="agenda-track">
   <div id="two-A-1030-a" class="agenda-track-item media">
@@ -965,7 +965,7 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   </div>
-  <div class="col-sm-9 col-md-5 offset-sm-3 offset-md-0">
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-md-0">
   <h3><small class="text-muted">Session B (Li'l TEX)</small><br>Online Map Applications (Apps in the Cloud)</h3>
   <div class="agenda-track">
   <div id="two-B-1030-a" class="agenda-track-item media">
@@ -1060,18 +1060,18 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1200">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1200">
     12:00 - 1:00 p.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
     <strong>Lunch &amp; Exhibits</strong>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1300">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1300">
     1:00 – 2:00 p.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
     <h3>
     <small class="text-muted">Platinum Sponsor Demo</small><br>
     <img src="https://cdn.tnris.org/images/esri_logo_sm.png" alt="Esri Logo">
@@ -1085,10 +1085,10 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1400">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1400">
   2:00 - 3:30 p.m.
   </div>
-  <div class="col-sm-9 col-md-5">
+  <div class="col-sm-9 col-lg-5">
   <h3><small class="text-muted">Session A (Big Tex)</small><br>Applied GIS (Putting GIS to Work)</h3>
   <div class="agenda-track">
   <div id="two-A-1400-a" class="agenda-track-item media">
@@ -1194,7 +1194,7 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   </div>
-  <div class="col-sm-9 col-md-5 offset-sm-3 offset-md-0">
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-md-0">
   <h3><small class="text-muted">Session B (Li'l TEX)</small><br>Lo-GIS-tics (Keeping Track)</h3>
   <div class="agenda-track">
     <div id="two-B-1400-a" class="agenda-track-item media">
@@ -1301,18 +1301,18 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1530">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1530">
     3:30 - 4:00 p.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
     <strong>Break &amp; Exhibits</strong>
     </div>
   </div>
   <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1600">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1600">
   4:00 - 5:00 p.m.
   </div>
-  <div class="col-sm-9 col-md-10">
+  <div class="col-sm-9 col-lg-10">
   <h3 id="keynote-humphreys"><small class="text-muted">Keynote Presentation</small><br>Todd Humphreys, Aerospace Engineer, UT Austin</h3>
   <h4>Low-Cost Centimeter-Accurate Mobile Positioning</h4>
   <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/keynote-speaker-todd-humphreys-low-cost-centimer-accurate-mobile-positioning"><i class="fa fa-play-circle"></i> View Slides</a></p>
@@ -1324,10 +1324,10 @@ Note: Agenda and speakers subject to change without notice.
   </div>
 
   <div class="row">
-  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1700">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1700">
   5:00 p.m.
   </div>
-  <div class="col-sm-9 col-md-10">
+  <div class="col-sm-9 col-lg-10">
   <strong>Closing Remarks</strong>
   </div>
   </div>

@@ -9,7 +9,7 @@ abstract: Once a year, take a break from your screen to go social at the Texas G
 
 <h2>Keynote Speakers</h2>
 <div class="row">
-<div class="media keynote col-md-6">
+<div class="media keynote col-lg-6">
 	<div class="media-left">
 		<img class="media-object px-2" src="https://cdn.tnris.org/images/suri_th_0.jpg" alt="Jeremi Suri Head Shot">
 	</div>
@@ -19,7 +19,7 @@ abstract: Once a year, take a break from your screen to go social at the Texas G
 		<p>Jeremi Suri holds the Mack Brown Distinguished Chair for Leadership in Global Affairs at the University of Texas at Austin. He is a professor in the University's Department of History and the Lyndon B. Johnson School of Public Affairs, and the author of five books on contemporary politics and foreign policy.</p>
 	</div>
 </div>
-<div class="media keynote col-md-6">
+<div class="media keynote col-lg-6">
 	<div class="media-left">
 		<img class="media-object px-2" src="https://cdn.tnris.org/images/wolter_th.jpg" alt="Scott Wolter Head Shot">
 	</div>

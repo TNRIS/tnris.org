@@ -6,7 +6,7 @@ mainimage: https://cdn.tnris.org/images/lidar_banner.jpg
 
 <div class="container-md">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-lg-8">
       <p class="lead"><strong>Lidar - Light Detection and Ranging,</strong> is a remote sensing technique that utilizes light in the form of a rapidly pulsed laser to measure return distances from the Earth captured by a sensor at the source of the pulse. These combined pulse return measurements with additional spatial and temporal data recorded by the acquisition system (airborne or terrestrial) produce a three-dimensional (3-D), detailed representation of the shape of the Earth illuminating its surface characteristics.</p>
       <p class="lead"> TNRIS acquires lidar data through partnerships with other federal and state agencies through the <a href="/stratmap/stratmap-contracts"><strong>StratMap Contract</strong></a>, which operates through the <a href="https://dir.texas.gov/">Texas Department of Information Resources (TxDIR)</a>.
       <h2>TNRIS Lidar Coverage</h2>
@@ -14,7 +14,7 @@ mainimage: https://cdn.tnris.org/images/lidar_banner.jpg
       <p>Lidar coverage varies across the state. Lidar coverage and project details (date, nominal point spacing, vendor, etc.) can be found on the <a href="https://arcg.is/1nmCnm0">Lidar Status Map</a>. All details about each dataset in our collection can be found in the supplemental reports for each project.</p>
       <p>You can <a href="https://s3.amazonaws.com/data.tnris.org/5751f066-28be-46af-b795-08387a27da6e/resources/tnris-lidar_48_vector.zip">download</a> a complete index of all available lidar data at TNRIS.</p>
     </div>
-    <div class="col-md-4">
+    <div class="col-lg-4">
       <h3>Lidar Specifications</h3>
       <a class="btn btn-lg btn-success" href="https://cdn.tnris.org/documents/state_of_texas_stratmap_lidar_specification_ver_XIII.pdf"><i class="fa fa-file"></i> Download Lidar Specifications</a>
       <h3>Download Lidar</h3>
