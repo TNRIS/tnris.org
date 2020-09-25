@@ -94,7 +94,7 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
       <div class="col-lg-12 col-sm-6">
         <div class="card my-2">
           <a href="https://www.twdb.texas.gov/conservation/education/kids/index.asp">
-          <img class="card-img-top" alt="highlight of TWDB kids page" src="https://cdn.tnris.org/images/twdb-kids-highlight.jpg">
+            <img class="card-img-top" alt="highlight of TWDB kids page" src="https://cdn.tnris.org/images/twdb-kids-highlight2.jpg">
           </a>
           <div class="card-body">
             <h3><a href="https://www.twdb.texas.gov/conservation/education/kids/index.asp">TWDB Kids</a></h3>
@@ -105,7 +105,7 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
       <div class="col-lg-12 col-sm-6">
         <div class="card my-2">
           <a href="https://www.usgs.gov/science-support/osqi/yes/resources-teachers">
-            <img class="card-img-top" alt="A USGS staff member shows kids a map" src="https://cdn.tnris.org/images/usgs-resources-highlight.jpg">
+            <img class="card-img-top" alt="A USGS staff member shows kids a map" src="https://cdn.tnris.org/images/usgs-resources-highlight2.jpg">
           </a>
           <div class="card-body">
             <h3><a href="https://www.usgs.gov/science-support/osqi/yes/resources-teachers">USGS Teacher Resources</a></h3>
