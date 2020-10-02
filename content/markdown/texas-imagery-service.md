@@ -235,7 +235,7 @@ Please use the “Contact and Feedback Form” and we will reactivate or reinsta
 ## How do I request trial links for my organization?
 Request unique links today if you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to obtain links for your agency. Visit the trial links form using the button below.
 
-<a class="btn btn-danger btn-lg" href="/google-request">
+<a class="btn btn-danger btn-lg" href="/tis-request">
 <i class="fa fa-comment"></i> Request a Trial Link</a><br><br>
 
 **Note:** Because the Texas Imagery Service is a restricted license, it is only for use by subscribing public organizations in the State of Texas.
@@ -305,6 +305,6 @@ If you feel that an unauthorized party has compromised your links, please contac
 ## Request a Unique Link
 If you feel all your questions have been answered and you are ready to get connected, please use the button below to request a unique link for your organization.
 
-<a class="btn btn-danger btn-lg" href="/google-request">
+<a class="btn btn-danger btn-lg" href="/tis-request">
 <i class="fa fa-comment"></i> Request a Unique Trial Link Today
 </a>
