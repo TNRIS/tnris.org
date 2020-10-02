@@ -247,7 +247,7 @@ Check with your IT Department or software provider to determine if an OGC compli
 <h3>How do I request trial links for my organization?</h3>
    <div>
      <p><small>Request unique links today if you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to obtain links for your agency. Visit the trial links form using the button below.</small></p>
-      <a class="btn btn-danger btn-lg" href="/google-request">
+      <a class="btn btn-danger btn-lg" href="/tis-request">
       <i class="fa fa-comment"></i> Request a Trial Link</a><br><br>
       <p><small><b>Note:</b> Because the Texas Imagery Service is a restricted license, it is only for use by subscribing public organizations in the State of Texas.</p>
       <p>Contractors or any individual working on behalf of a public organization are permitted to use the imagery service if the work being performed directly supports the public organization. The sponsoring agency will need to request service links on behalf of any contractor or outside 3rd party.</small></p>
