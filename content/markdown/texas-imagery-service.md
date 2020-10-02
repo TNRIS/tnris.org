@@ -259,64 +259,69 @@ Check with your IT Department or software provider to determine if an OGC compli
      <p><small>To learn about new imagery updates to the Texas Imagery Service, please visit the Latest Updated Imagery map at the top of this page.<br><br>Additionally, an email is sent to all subscribing participants when an imagery refresh occurs.</small></p>
    </div>
 </div>   
-    
-
------
-
-## Do I need to refresh my service or get a new link to see new imagery?
-Your current links will update automatically with the new imagery as it becomes available. Depending on your software or applications, a refresh or reconnect is typically not necessary. 
-
------
-
-## What if I see errors or inconsistencies in the imagery?  How should I report it and to whom do I report it?
-Use the Contact and Feedback Form below. TNRIS will log these issues and work with the AppGeo/Hexagon team to find solutions to correct them in future imagery releases.
-
------
-
-## What projection is the Texas Imagery Service using?
-The map service tiles are Web Mercator EPSG:3857.
-
------
-
-## Can I download or get a physical copy of the original image that is in the Service?
-Yes. Subscribing agencies may download the imagery for use within the organization only. For instructions on how to download imagery from the service, use the Contact and Feedback Form below. 
-
------
-
-## Why does my downloaded tile imagery look blocky/patchy when displayed in ArcGIS?
-
-If you are adding the **downloaded** imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the “**Apply Gamma Stretch**:” option and to set the “**Stretch**” type to None.
-
-<figure>
-<img class="img-fluid" src="https://cdn.tnris.org/images/layer-properties.jpg" alt="Highlighting the properties to change for better display">
-<figcaption>The Layer properties dialog box on ArcGIS</figcaption>
-</figure>
-
------
-
-## What projection are the downloaded JPEG (jpg) tiles using?
-The downloaded JPEG tiles are Web Mercator EPSG:3857.
-
------
-
-## Is it possible to get a Color Infrared (CIR) version of the imagery as a Service?
-Not at this time. The Texas Imagery Service will only be serving out the natural color imagery for now. The CIR version of the imagery may become available in the future.
-
------
-
-## How do I know how much my organization has used the Texas Imagery Service?
-Use the Contact and Feedback Form below to request a usage report from TNRIS.
-
------
-
-## What do I do if I suspect my links have been compromised or are being used by someone or an organization that is not authorized to use them?
-If you feel that an unauthorized party has compromised your links, please contact TNRIS immediately. We will disable your current links and re-establish new links for you to use.
-
------
-
-## Request a Unique Link
-If you feel all your questions have been answered and you are ready to get connected, please use the button below to request a unique link for your organization.
-
-<a class="btn btn-danger btn-lg" href="/tis-request">
-<i class="fa fa-comment"></i> Request a Unique Trial Link Today
-</a>
+<div class="accordion">
+<h3>Do I need to refresh my service or get a new link to see new imagery?</h3>
+   <div>
+     <p><small>Your current links will update automatically with the new imagery as it becomes available. Depending on your software or applications, a refresh or reconnect is typically not necessary. </small></p>
+   </div>
+</div>   
+<div class="accordion">
+<h3>What if I see errors or inconsistencies in the imagery?  How should I report it and to whom do I report it?</h3>
+   <div>
+     <p><small>Use the Contact and Feedback Form below. TNRIS will log these issues and work with the AppGeo/Hexagon team to find solutions to correct them in future imagery releases.</small></p>
+   </div>
+</div>   
+<div class="accordion">
+<h3>What projection is the Texas Imagery Service using?</h3>
+   <div>
+     <p><small>The map service tiles are Web Mercator EPSG:3857.</small></p>
+   </div>
+</div>   
+<div class="accordion">
+<h3>Can I download or get a physical copy of the original image that is in the Service?</h3>
+   <div>
+     <p><small>Yes. Subscribing agencies may download the imagery for use within the organization only. For instructions on how to download imagery from the service, use the Contact and Feedback Form below. </small></p>
+   </div>
+</div>   
+<div class="accordion">
+<h3>Why does my downloaded tile imagery look blocky/patchy when displayed in ArcGIS?</h3>
+   <div>
+     <p><small>If you are adding the <b>downloaded</b> imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the <b>“Apply Gamma Stretch:”</b> option and to set the <b>“Stretch”</b> type to None. </small></p>
+    <figure>
+    <img class="img-fluid" src="https://cdn.tnris.org/images/layer-properties.jpg" alt="Highlighting the properties to change for better display">
+    <figcaption><small>The Layer properties dialog box on ArcGIS</small></figcaption>
+    </figure>
+   </div>
+</div>   
+<div class="accordion">
+<h3>What projection are the downloaded JPEG (jpg) tiles using?</h3>
+   <div>
+     <p><small>The downloaded JPEG tiles are Web Mercator EPSG:3857.</small></p>
+   </div>
+</div> 
+<div class="accordion">
+<h3>Is it possible to get a Color Infrared (CIR) version of the imagery as a Service?</h3>
+   <div>
+     <p><small>Not at this time. The Texas Imagery Service will only be serving out the natural color imagery for now. The CIR version of the imagery may become available in the future.</small></p>
+   </div>
+</div> 
+<div class="accordion">
+<h3>How do I know how much my organization has used the Texas Imagery Service?</h3>
+   <div>
+     <p><small>Use the Contact and Feedback Form below to request a usage report from TNRIS.</small></p>
+   </div>
+</div> 
+<div class="accordion">
+<h3>What do I do if I suspect my links have been compromised or are being used by someone or an organization that is not authorized to use them?</h3>
+   <div>
+     <p><small>If you feel that an unauthorized party has compromised your links, please contact TNRIS immediately. We will disable your current links and re-establish new links for you to use.</small></p>
+   </div>
+</div> 
+<div class="accordion">
+<h3>Request a unique Link</h3>
+   <div>
+     <p><small>If you feel all your questions have been answered and you are ready to get connected, please use the button below to request a unique link for your organization.</small></p>
+     <a class="btn btn-danger btn-lg" href="/tis-request">
+    <i class="fa fa-comment"></i> Request a Unique Link Today</a>
+   </div>
+</div> 
