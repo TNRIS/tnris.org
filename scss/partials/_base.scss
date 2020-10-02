@@ -996,3 +996,10 @@ del {
     padding-left: .5rem !important;
   }
 }
+.accordion img {
+  object-fit: contain;
+  object-position: top;
+  display: block;
+  height: 100%;
+  width: 100%;
+}

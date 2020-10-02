@@ -4,21 +4,33 @@ title: Texas Imagery Service
 mainimage: https://cdn.tnris.org/images/texas-imagery-service-bg.jpg
 abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, Utilize and Incorporate into the Work you do for the Public.
 ---
-### General FAQ
 
-## How can the Texas Imagery Service help my organization?
-The Texas Imagery Service serves statewide 6-inch, natural color imagery for use in mapping and computer-aided design (CAD) applications. It provides state organizations with a current and consistent imagery data source while offering the highest pixel resolution available for any statewide program through an OGC compliant Web Map Tile Service (WMTS) and Web Map Service (WMS).
+<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+ <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+ <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
-The Service provides significant cost savings by streaming quality imagery directly to your GIS or map application. There is no need to pay large storage costs associated with imagery files for serving terabytes of data.
+<script>
+ $(function() {
+   $( ".accordion" ).accordion();
+   $(".accordion").accordion({ header: "h3", collapsible: true, active: false ,heightStyle: "content" });
+ });
+ </script>
 
-
------
-
-## How much does the Service cost for my agency?
-The Texas Imagery Service is an annual subscription service paid in full for each year of participation. The service period runs from **September 1 to August 31** each year and can be prorated at any time.
-
-Costs for the Service are distributed across state, regional, and local government. State agency cost is based on the amount of data usage in 'levels'. Regional and local agencies pay a flat rate.
-
+<h1>Frequently Asked Questions</h1>
+<h2>General FAQ</h2>
+<div class="accordion">
+<h3>How can the Texas Imagery Service help my organization?</h3>
+   <div>
+     <p><small>The Texas Imagery Service serves statewide 6-inch, natural color imagery for use in mapping and computer-aided design (CAD) applications. It provides state organizations with a current and consistent imagery data source while offering the highest pixel resolution available for any statewide program through an OGC compliant Web Map Tile Service (WMTS) and Web Map Service (WMS).
+<br><br>
+The Service provides significant cost savings by streaming quality imagery directly to your GIS or map application. There is no need to pay large storage costs associated with imagery files for serving terabytes of data.</small></p>
+   </div>
+</div>
+<div class="accordion">
+<h3>How much does the Service cost for my agency?</h3>
+   <div>
+     <p><small>The Texas Imagery Service is an annual subscription service paid in full for each year of participation. The service period runs from <b>September 1 to August 31</b> each year and can be prorated at any time.<br><br>
+Costs for the Service are distributed across state, regional, and local government. State agency cost is based on the amount of data usage in 'levels'. Regional and local agencies pay a flat rate.</small><br><br>
 <table class="table">
 <thead>
   <tr >
@@ -76,57 +88,61 @@ Costs for the Service are distributed across state, regional, and local governme
 
 
 <h3>Regional Agency</h3>
-<p class="lead">Flat fee $15,000**</p>
+<p class="lead"><small>Flat fee $15,000**</small></p>
 
 <h3>Local Agency</h3>
-<p class="lead">Flat fee $6,000**</p>
+<p class="lead"><small>Flat fee $6,000**</small></p>
 
 
-&#42; State Agency cost is calculated based on an annual metric of service web requests. A web request is every **new** click, pan, scroll, load or zoom per user in your organization.
+<small>&#42; State Agency cost is calculated based on an annual metric of service web requests. A web request is every **new** click, pan, scroll, load or zoom per user in your organization.
 
-&#42;&#42; Cost does not include DIR Fee
-
------
-
-## Can I join at any time during the year?
-Yes. For regional and local agencies, your annual rate will be prorated through August 31. For state agencies, your initial annual cost will begin at the lowest level, Minimum, and prorated through August 31.
-
------
-
-## Can I have access to just my city or county at a reduced rate?
-All subscribers access all the same imagery statewide. Currently, there are no options for smaller areas at a reduced rate.
-
------
-
-## Can private companies on contract with a Texas government agency use the Service?
-Yes, per the data use license, private contractors directly supporting work of a subscribing Texas government agency to the Texas Imagery Service may use the service. The subscribing Texas government agency will need to request separate links on your behalf.
-
------
-
-## What are the terms of use?
-Coming soon
-
------
-
-## How is the Texas Imagery Service different from the State Programs currently in place to acquire imagery such as the Texas Orthoimagery Program (TOP) or the National Agriculture Imagery Program (NAIP)?
-The Texas Imagery Service is a mapping service that is available on-demand and with no data storage costs. It is licensed, hosted, and served by Hexagon. It offers 6-inch resolution imagery, which is four times higher resolution than the 0.5-meter Texas Orthoimagery Program (TOP) imagery and the 0.6-meter National Agriculture Imagery Program (NAIP) imagery.
-
-The imagery represented in the Texas Imagery Service is not in the public domain and is restricted under license.
-
-
------
-
-## Will the state continue to pursue its own acquisition of statewide imagery such as the Texas Orthoimagery Program (TOP) and National Agriculture Imagery Program (NAIP) partnerships?
-
-TNRIS will continue to work in coordination with partners to determine the need for orthoimagery outside of or in addition to the Texas Imagery Service by invoking TOP. This may include imagery acquisition at greater currency than Hexagon’s update cycle goals (targeted for a 3-year refresh cycle of the State) or during different seasonal time periods to accommodate leaf-off conditions. Additionally, at the federal level, we currently expect the statewide 0.6-meter 2 or 3-year NAIP updates, available to the public without restriction, to continue. 
-
------
-
-### TECHNICAL FAQ
-
-## How do I add the Texas Imagery Service to my software?
-
-Click on the button for your GIS software to learn how to add the imagery service.
+&#42;&#42; Cost does not include DIR Fee</small>
+</p>
+  </div>
+</div>
+<div class="accordion">
+ <h3>Can I join at any time during the year?</h3>
+   <div>
+     <p><small>Yes. For regional and local agencies, your annual rate will be prorated through August 31. For state agencies, your initial annual cost will begin at the lowest level, Minimum, and prorated through August 31.</small></p>
+   </div>
+  </div>
+  <div class="accordion">
+   <h3>Can I have access to just my city or county at a reduced rate?</h3>
+   <div>
+     <p><small>All subscribers access all the same imagery statewide. Currently, there are no options for smaller areas at a reduced rate.</small></p>
+   </div>
+ </div>
+ <div class="accordion">
+   <h3>Can private companies on contract with a Texas government agency use the Service?</h3>
+   <div>
+     <p><small>Yes, per the data use license, private contractors directly supporting work of a subscribing Texas government agency to the Texas Imagery Service may use the service. The subscribing Texas government agency will need to request separate links on your behalf.</small></p>
+   </div>
+  </div>
+  <div class="accordion">
+   <h3>What are the terms of use?</h3>
+   <div>
+     <p><small>Coming soon</small></p>
+   </div>
+  </div>
+  <div class="accordion">
+   <h3>How is the Texas Imagery Service different from the State Programs currently in place to acquire imagery such as the Texas Orthoimagery Program (TOP) or the National Agriculture Imagery Program (NAIP)?</h3>
+   <div>
+     <p><small>The Texas Imagery Service is a mapping service that is available on-demand and with no data storage costs. It is licensed, hosted, and served by Hexagon. It offers 6-inch resolution imagery, which is four times higher resolution than the 0.5-meter Texas Orthoimagery Program (TOP) imagery and the 0.6-meter National Agriculture Imagery Program (NAIP) imagery.
+<br><br>
+The imagery represented in the Texas Imagery Service is not in the public domain and is restricted under license.</small></p>
+   </div>
+  </div>
+  <div class="accordion">
+   <h3>Will the state continue to pursue its own acquisition of statewide imagery such as the Texas Orthoimagery Program (TOP) and National Agriculture Imagery Program (NAIP) partnerships?</h3>
+   <div>
+     <p><small>TNRIS will continue to work in coordination with partners to determine the need for orthoimagery outside of or in addition to the Texas Imagery Service by invoking TOP. This may include imagery acquisition at greater currency than Hexagon’s update cycle goals (targeted for a 3-year refresh cycle of the State) or during different seasonal time periods to accommodate leaf-off conditions. Additionally, at the federal level, we currently expect the statewide 0.6-meter 2 or 3-year NAIP updates, available to the public without restriction, to continue. </small></p>
+   </div>
+</div>
+<h2>Technical FAQ</h2>
+<div class="accordion">
+<h3>How do I add the Texas Imagery Service to my software?</h3>
+   <div>
+     <p><small>Click on the button for your GIS software to learn how to add the imagery service.</small><br><br>
 
 <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" class="btn btn-secondary btn-lg">ArcMap</a>
 
@@ -143,111 +159,107 @@ Click on the button for your GIS software to learn how to add the imagery servic
 <a href="https://cdn.tnris.org/documents/MicroStationGoogleWMSDemo.pdf" class="btn btn-secondary btn-lg">MicroStation</a>
 
 <a href="https://docs.qgis.org/3.10/en/docs/training_manual/online_resources/wms.html?highlight=wmts" class="btn btn-secondary btn-lg">QGIS</a>
-
------
-
-## How can I incorporate the Service into my tools and applications?
-
-The Texas Imagery Service is an open-standard service and can be incorporated into a wide variety of GIS/CAD software and web map applications that support open-standard formats such as the Esri suite of products, QGIS, or Global Mapper.
-Check with your IT Department or software provider to determine if an OGC compliant web service is supported by your applications.
-
------
-
-## Can I use the Service in public facing web map applications?
-
-Yes, per the license, subscribing participants may incorporate the service in public facing web map applications.
-
------
-
-## How do I add the WMTS link to my web application using Esri JavaScript API?
-
-A special thanks to the Texas Department of Transportation (TxDOT) for solving this problem. TxDOT reports that since replacing the WMS link with WMTS link, response times have significantly improved.
-
-Download a slideshow tutorial for this process below:
-
-<a class="btn btn-lg btn-success" href="https://cdn.tnris.org/documents/google-wmts-with-esri-javascript-api.pdf"><i class="fa fa-file"></i> Download Tutorial</a>
-
------
-
-## The Service contains several layers. What are these layers? Which one(s) should I use?
-
-<p><figure><img alt="A view of the layers in ArcMap" src="https://cdn.tnris.org/images/tislayers.png">
-<figcaption>A view of the Texas Imagery Service layers.</figcaption>
-</figure>There are several layers in the WMTS and WMS Texas Imagery Service. The ‘Texas’ main layer contains imagery from our legacy Google imagery flights last updated May 2020. The Hexagon layers may contain <b>more recent imagery in the rural areas only</b> compared to the ‘Texas’ main layer.  They are:
+</p>
+   </div>
+</div>
+<div class="accordion">
+<h3>How can I incorporate the Service into my tools and applications?</h3>
+   <div>
+     <p><small>The Texas Imagery Service is an open-standard service and can be incorporated into a wide variety of GIS/CAD software and web map applications that support open-standard formats such as the Esri suite of products, QGIS, or Global Mapper.
 <br><br>
-* <b>Texas_Hexagon_2018_15cm_Only</b> - urban areas 15cm/6in imagery<br>
-* <b>Texas_Hexagon_Composite_2018</b> - statewide 30cm/1ft imagery<br><br>
-
-**For urban areas, please continue to use the ‘Texas’ main layer** for the most recent imagery.
-**Hexagon is currently flying the entire state of Texas at 15cm/6in resolution!** This 2020 imagery will replace the Google imagery statewide in the ‘Texas’ main layer in **early 2021**. The best part is that the switch will be transparent, and you will not need to reconnect or change your connection!
- </p>
-
-### Layer Descriptions:
-
-### Texas
-Statewide mosaic of latest available imagery in the Texas Imagery Service from legacy Google imagery content. This layer will eventually contain the **new 2020 6-inch imagery flown statewide by Hexagon.** The ‘switch out’ from the Google imagery will occur in **early 2021**.
-
-### Texas_Hexagon_2018_15cm_Only
-This layer includes Texas’ major urban areas only flown by Hexagon in 2018 at 6-inch/15cm resolution.
-
-### Texas_Hexagon_Composite_2018
-This layer includes consistent, statewide imagery flown by Hexagon in 2018 at 1-foot/30cm resolution.
-
-### texas-2011 through texas-2020
-These layers contain imagery captured by Google from 2011 - 2020 that is now archived after new imagery became available. This layers each contain all imagery collected within each year.
-
-### texas-basemap
-This layer includes roads, county boundaries, major water features, and city names available as base information that were cartographically designed for use on top of imagery while using the service.
-
-### Hurricane Harvey image layers
-* corpuschristi_20170830<br>
-* houston_20170831<br>
-* la_lakecharles_tx_beaumont_20170902 and 03<br>
-
-These layers include imagery flown over some of the affected areas during the Hurricane Harvey event. They include Corpus Christi flown on 8/30/2017, Houston flown on 8/31/2017, and Lake Charles/Beaumont flown on 9/2/2017 & 9/3/2017.
-
------
-
-## How do I access the acquisition or flight date of the imagery?
-To determine the date of the imagery, open your unique **preview link**. Turn on ‘Texas downloads' and click on the polygons on the map to retrieve the dates. 
-
------
-
-## Should I use the WMS service link or the WMTS service link?
-If your GIS/CAD software can ingest a WMTS, use it over the WMS link throughout your organization. WMTS is optimized for efficient web delivery and map printing.
-
-If your GIS/CAD software cannot ingest a WMTS, use the WMS link.
-
-Both of your unique WMTS and WMS links serve the same imagery to your organization.
-
------
-
-## Does the Service work in ArcGIS Online?
-Yes, the WMTS and WMS Texas Imagery Service links are OGC (Open Geospatial Consortium) and compatible in ArcGIS Online.
-
------
-
-## What if my link stops working?
-Please use the “Contact and Feedback Form” and we will reactivate or reinstate your links.
-
------
-
-## How do I request trial links for my organization?
-Request unique links today if you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to obtain links for your agency. Visit the trial links form using the button below.
-
-<a class="btn btn-danger btn-lg" href="/tis-request">
-<i class="fa fa-comment"></i> Request a Trial Link</a><br><br>
-
-**Note:** Because the Texas Imagery Service is a restricted license, it is only for use by subscribing public organizations in the State of Texas.
-
-Contractors or any individual working on behalf of a public organization are permitted to use the imagery service if the work being performed directly supports the public organization. The sponsoring agency will need to request service links on behalf of any contractor or outside 3rd party.
-
------
-
-## How do I know if new imagery has been added to the Service?
-To learn about new imagery updates to the Texas Imagery Service, please visit the Latest Updated Imagery map at the top of this page.
-
-Additionally, an email is sent to all subscribing participants when an imagery refresh occurs.
+Check with your IT Department or software provider to determine if an OGC compliant web service is supported by your applications.</small></p>
+   </div>
+</div>
+<div class="accordion">
+<h3>Can I use the Service in public facing web map applications?</h3>
+   <div>
+     <p><small>Yes, per the license, subscribing participants may incorporate the service in public facing web map applications.</small></p>
+   </div>
+</div>
+<div class="accordion">
+<h3>How do I add the WMTS link to my web application using Esri JavaScript API?</h3>
+   <div>
+     <p><small>A special thanks to the Texas Department of Transportation (TxDOT) for solving this problem. TxDOT reports that since replacing the WMS link with WMTS link, response times have significantly improved.<br><br>
+     Download a slideshow tutorial for this process below:</small><br><br>
+     <a class="btn btn-lg btn-success" href="https://cdn.tnris.org/documents/google-wmts-with-esri-javascript-api.pdf"><i class="fa fa-file"></i> Download Tutorial</a></p>
+   </div>
+</div>
+<div class="accordion">
+  <h3>The Service contains several layers. What are these layers? Which one(s) should I use?</h3>
+   <div>
+     <figure><img alt="A view of the layers in ArcMap" src="https://cdn.tnris.org/images/tislayers.png"><figcaption><p><small>A view of the Texas Imagery Service layers.</small></p></figcaption></figure>
+     <p><small>There are several layers in the WMTS and WMS Texas Imagery Service. The ‘Texas’ main layer contains imagery from our legacy Google imagery flights last updated May 2020. The Hexagon layers may contain <b>more recent imagery in the rural areas only</b> compared to the ‘Texas’ main layer.  They are:</p>
+       <ul>
+          <li><b>Texas_Hexagon_2018_15cm_Only</b> - urban areas 15cm/6in imagery</li>
+          <li><b>Texas_Hexagon_Composite_2018</b> - statewide 30cm/1ft imagery</li>
+        </ul>
+     <p> <b>For urban areas, please continue to use the ‘Texas’ main layer</b> for the most recent imagery.
+    <b>Hexagon is currently flying the entire state of Texas at 15cm/6in resolution!</b> This 2020 imagery will replace the Google imagery statewide in the ‘Texas’ main layer in <b>early 2021</b>. The best part is that the switch will be transparent, and you will not need to reconnect or change your connection!</p></small>
+    <h3>Layer Descriptions:</h3>
+    <h4><u>Texas</u></h4>
+    <small>Statewide mosaic of latest available imagery in the Texas Imagery Service from legacy Google imagery content. This layer will eventually contain the **new 2020 6-inch imagery flown statewide by Hexagon.** The ‘switch out’ from the Google imagery will occur in early 2021.</small><br><br>
+    <h4><u>Texas_Hexagon_2018_15cm_Only</u></h4>
+    <small>This layer includes Texas’ major urban areas only flown by Hexagon in 2018 at 6-inch/15cm resolution.</small><br><br>
+     <h4><u>Texas_Hexagon_Composite_2018</u></h4>
+    <small>This layer includes consistent, statewide imagery flown by Hexagon in 2018 at 1-foot/30cm resolution.</small><br><br>
+    <h4><u>texas-2011 through texas-2020</u></h4>
+    <small>These layers contain imagery captured by Google from 2011 - 2020 that is now archived after new imagery became available. This layers each contain all imagery collected within each year.</small><br><br>
+    <h4><u>texas-basemap</u></h4>
+    <small>This layer includes roads, county boundaries, major water features, and city names available as base information that were cartographically designed for use on top of imagery while using the service.</small><br><br>
+    <h4><u>Hurricane Harvey image layers</u></h4>
+    <small>
+      <ul>
+        <li>corpuschristi_20170830</li>
+        <li>houston_20170831</li>
+        <li>la_lakecharles_tx_beaumont_20170902 and 03</li>
+      </ul>
+    These layers include imagery flown over some of the affected areas during the Hurricane Harvey event. They include Corpus Christi flown on 8/30/2017, Houston flown on 8/31/2017, and Lake Charles/Beaumont flown on 9/2/2017 & 9/3/2017.</small>
+   </div>
+</div>
+<div class="accordion">
+<h3>How do I access the acquisition or flight date of the imagery?</h3>
+   <div>
+     <p><small>To determine the date of the imagery, open your unique <b>preview link</b>. Turn on ‘Texas downloads' and click on the polygons on the map to retrieve the dates. </small></p>
+   </div>
+</div>
+<div class="accordion">
+<h3>Should I use the WMS service link or the WMTS service link?</h3>
+   <div>
+     <p><small>If your GIS/CAD software can ingest a WMTS, use it over the WMS link throughout your organization. WMTS is optimized for efficient web delivery and map printing.<br><br>
+     If your GIS/CAD software cannot ingest a WMTS, use the WMS link.<br><br>
+     Both of your unique WMTS and WMS links serve the same imagery to your organization.
+    </small></p>
+   </div>
+</div>
+<div class="accordion">
+<h3>Does the Service work in ArcGIS Online?</h3>
+   <div>
+     <p><small>Yes, the WMTS and WMS Texas Imagery Service links are OGC (Open Geospatial Consortium) and compatible in ArcGIS Online.</small></p>
+   </div>
+</div>   
+<div class="accordion">
+<h3>What if my link stops working?</h3>
+   <div>
+     <p><small>Please use the “Contact and Feedback Form” and we will reactivate or reinstate your links.</small></p>
+   </div>
+</div>   
+<div class="accordion">
+<h3>How do I request trial links for my organization?</h3>
+   <div>
+     <p><small>Request unique links today if you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to obtain links for your agency. Visit the trial links form using the button below.</small></p>
+      <a class="btn btn-danger btn-lg" href="/google-request">
+      <i class="fa fa-comment"></i> Request a Trial Link</a><br><br>
+      <p><small><b>Note:</b> Because the Texas Imagery Service is a restricted license, it is only for use by subscribing public organizations in the State of Texas.</p>
+      <p>Contractors or any individual working on behalf of a public organization are permitted to use the imagery service if the work being performed directly supports the public organization. The sponsoring agency will need to request service links on behalf of any contractor or outside 3rd party.</small></p>
+   </div>
+</div>   
+<div class="accordion">
+<h3>How do I know if new imagery has been added to the Service?</h3>
+   <div>
+     <p><small>To learn about new imagery updates to the Texas Imagery Service, please visit the Latest Updated Imagery map at the top of this page.<br><br>Additionally, an email is sent to all subscribing participants when an imagery refresh occurs.</small></p>
+   </div>
+</div>   
+    
 
 -----
 
