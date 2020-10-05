@@ -144,21 +144,21 @@ The imagery represented in the Texas Imagery Service is not in the public domain
    <div>
      <p><small>Click on the button for your GIS software to learn how to add the imagery service.</small><br><br>
 
-<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" class="btn btn-secondary btn-lg">ArcMap</a>
+<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" target="_blank" class="btn btn-secondary btn-lg">ArcMap</a>
 
-<a href="https://cdn.tnris.org/documents/WMS2Pro.pdf" class="btn btn-secondary btn-lg"><i class="fa fa-"></i>ArcGIS Pro</a>
+<a href="https://cdn.tnris.org/documents/WMS2Pro.pdf" target="_blank" class="btn btn-secondary btn-lg"><i class="fa fa-"></i>ArcGIS Pro</a>
 
-<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-secondary btn-lg">ArcGIS Online</a>
+<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" target="_blank" class="btn btn-secondary btn-lg">ArcGIS Online</a>
 
-<a href="http://www.bluemarblegeo.com/knowledgebase/global-mapper/index.htm" class="btn btn-secondary btn-lg">GlobalMapper</a>
+<a href="http://www.bluemarblegeo.com/knowledgebase/global-mapper/index.htm" target="_blank" class="btn btn-secondary btn-lg">GlobalMapper</a>
 
-<a href="http://knowledge.autodesk.com/support/autocad-map-3d/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/MAP3D-Use/files/GUID-A9F620AD-6B9A-487D-9B33-7D365307D571-htm.html" class="btn btn-secondary btn-lg">AutoCAD MAP 3D</a>
+<a href="http://knowledge.autodesk.com/support/autocad-map-3d/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/MAP3D-Use/files/GUID-A9F620AD-6B9A-487D-9B33-7D365307D571-htm.html" target="_blank" class="btn btn-secondary btn-lg">AutoCAD MAP 3D</a>
 
-<a href="http://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" class="btn btn-secondary btn-lg">AutoCAD CIVIL 3D 2013</a>
+<a href="http://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" target="_blank" class="btn btn-secondary btn-lg">AutoCAD CIVIL 3D 2013</a>
 
-<a href="https://cdn.tnris.org/documents/MicroStationGoogleWMSDemo.pdf" class="btn btn-secondary btn-lg">MicroStation</a>
+<a href="https://cdn.tnris.org/documents/MicroStationGoogleWMSDemo.pdf" target="_blank" class="btn btn-secondary btn-lg">MicroStation</a>
 
-<a href="https://docs.qgis.org/3.10/en/docs/training_manual/online_resources/wms.html?highlight=wmts" class="btn btn-secondary btn-lg">QGIS</a>
+<a href="https://docs.qgis.org/3.10/en/docs/training_manual/online_resources/wms.html?highlight=wmts" target="_blank" class="btn btn-secondary btn-lg">QGIS</a>
 </p>
    </div>
 </div>
@@ -318,7 +318,7 @@ Check with your IT Department or software provider to determine if an OGC compli
    </div>
 </div> 
 <div class="accordion">
-<h3>Request a unique Link</h3>
+<h3>Request a unique link</h3>
    <div>
      <p><small>If you feel all your questions have been answered and you are ready to get connected, please use the button below to request a unique link for your organization.</small></p>
      <a class="btn btn-danger btn-lg" href="/tis-request">

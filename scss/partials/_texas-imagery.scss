@@ -156,3 +156,11 @@ ul.helpful {
     font-size: 16px;
   }
 }
+
+.accordion img {
+  object-fit: contain;
+  object-position: top;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
