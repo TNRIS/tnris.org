@@ -278,7 +278,8 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
                   Download a slideshow tutorial for this process below:</small><br><br>
                   <div style="text-align: center; border: 0px solid"> 
                   <a class="btn btn-secondary" href="https://cdn.tnris.org/documents/google-wmts-with-esri-javascript-api.pdf"><i class="fa fa-file"></i> Download Tutorial</a></div>
-							</div>
+                </div>
+              </div>
 						</div>
             <div class="card">
 							<div class="card-header" id="headingM">
