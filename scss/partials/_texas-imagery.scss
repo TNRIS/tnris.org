@@ -164,43 +164,6 @@ ul.helpful {
   height: 100%;
   width: 100%;
 }
-
-.myaccordion {
-  max-width: auto;
-  margin: 10px auto;
-  box-shadow: 0 0 1px rgba(0,0,0,.5);
-}
- 
-.myaccordion .card,
-.myaccordion .card:last-child .card-header {
-  border: none;
-}
- 
-.myaccordion .card-header {
-  border-bottom-color: #a5968e;
-  background: transparent;
-}
- 
-.myaccordion .fa-stack {
-  font-size: 18px;
-}
- 
-.myaccordion .btn {
-  width: 100%;
-  font-weight: bold;
-  color: #1e8dc0;
-  padding: 0;
-}
- 
-.myaccordion .btn-link:hover,
-.myaccordion .btn-link:focus {
-  text-decoration: none;
-}
- 
-.myaccordion li + li {
-  margin-top: 10px;
-}
-
 Section{
 	padding: 30px 0;
 }
