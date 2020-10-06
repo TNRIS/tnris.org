@@ -36,28 +36,12 @@
     <div class="row">
       <div class="col-lg-8">
         {{ contents|safe }}
-        {% include "partials/texas-imagery-service/google-request-form.njk" %}
+        {% include "partials/texas-imagery-service/tis-request-form.njk" %}
       </div>
       <div class="col-lg-4">
         {% block sidebarLeft %}
           <section class="google-side">
-              <h3>Helpful Downloads</h3>
               <ul class="helpful list-clean">
-                  <li>
-                      <a href="https://cdn.tnris.org/documents/google-imagery-fact-sheet.pdf">
-                          <i class="fa fa-file"></i> Google Imagery Fact Sheet
-                      </a>
-                  </li>
-                  <li>
-                      <a href="https://cdn.tnris.org/documents/google-imagery-terms-of-use.pdf">
-                          <i class="fa fa-file"></i> Google Imagery Terms of Use
-                      </a>
-                  </li>
-                  <li>
-                      <a href="https://cdn.tnris.org/documents/google-imagery-formal-accuracy-assessment.pdf">
-                          <i class="fa fa-file"></i> Google Imagery Accuracy Assessment
-                      </a>
-                  </li>
                 </ul>
           </section>
         {% endblock %}
