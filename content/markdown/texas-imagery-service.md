@@ -85,6 +85,11 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
               <th colspan="3">
                 <h3>State Universities</h3>
               </th>
+            <tr class="super">
+              <td>Level</td>
+              <td>Service Requests*</td>
+              <td>Annual Subscription Fee**</td>
+            </tr>
               <tr class="info">
               <td>Department (single use)</td>
               <td>Unlimited</td>
@@ -97,9 +102,9 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
             </tr>
             </table>
             <h3>Regional Agency</h3>
-            <p class="lead"><small>Flat fee $15,000**</small></p>
+            <p class="lead"><small>Annual flat fee $15,000**</small></p>
             <h3>Local Agency</h3>
-            <p class="lead"><small>Flat fee $6,000**</small></p>
+            <p class="lead"><small>Annual flat fee $6,000**</small></p>
             &#42; State Agency cost is calculated based on an annual metric of service web requests. A web request is every <b>new</b> click, pan, scroll, load or zoom per user in your organization.<br><br>
             &#42;&#42; Cost does not include DIR Fee
 								</div>
@@ -157,7 +162,7 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 							</div>
 							<div id="collapseF" class="collapse fade" aria-labelledby="headingF" data-parent="#accordionExample1">
 								<div class="card-body">
-									Coming soon
+									The Texas Imagery Service is a subscription service providing licensed imagery data. The exact terms of use are coming soon.
 								</div>
 							</div>
 						</div>
