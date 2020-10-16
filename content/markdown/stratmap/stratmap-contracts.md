@@ -31,7 +31,7 @@ mainimage: https://cdn.tnris.org/images/Vendorbanner.png
 <h2 class="text-center">Pre-Qualified Geospatial Providers</h2>
 <hr class="clearfix">
 <div class="row">
-{% include "stratmap/contract-vendors.njk" %}
+	{% include "stratmap/contract-vendors.njk" %}
 </div>
 
 <hr class="clearfix">

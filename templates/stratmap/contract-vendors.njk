@@ -1,79 +1,102 @@
-{% set contract_vendors = [
-  {
-    name: 'AECOM',
-    logo_url: 'https://cdn.tnris.org/images/aecom_logo.png',
-    vendor_home_url: 'https://aecom.com/services/planning-consulting/geospatial-services/',
-    vendor_page_url: 'https://solutions.aecomonline.net/stratmap/',
-    dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4495&keyword=aecom'
-  }, 
-  {
-    name: 'Esri',
-    logo_url: 'https://cdn.tnris.org/images/esri_web_md.png',
-    vendor_home_url: 'https://www.esri.com/en-us/home',
-    vendor_page_url: 'http://www.esri.com/landing-pages/texas-dir',
-    dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3446&keyword=3446'
-  },
-  {
-    name: 'GeoComm',
-    logo_url: 'https://cdn.tnris.org/images/Geocommlogo.png',
-    vendor_home_url: 'http://www.geo-comm.com/',
-    vendor_page_url: '',
-    dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4499&keyword=Geo-Comm'
-  },
-  {
-    name: 'GISinc',
-    logo_url: 'https://cdn.tnris.org/images/GISinclogo.png',
-    vendor_home_url: 'https://www.gisinc.com',
-    vendor_page_url: '',
-    dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4503&keyword=GIS%20Inc.'
-  },
-  {
-    name: 'Merrick',
-    logo_url: 'https://cdn.tnris.org/images/Merricklogo.png',
-    vendor_home_url: 'https://www.merrick.com/',
-    vendor_page_url: 'https://www.merrick.com/services/geospatial-services/',
-    dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4502&keyword=Merrick'
-  },
-  {
-    name: 'Quantum Spatial',
-    logo_url: 'https://cdn.tnris.org/images/Quantumlogo.png',
-    vendor_home_url: 'http://quantumspatial.com',
-    vendor_page_url: '',
-    dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4507&keyword=Quantum%20Spatial'
-  },
-  {
-    name: 'Sanborn',
-    logo_url: 'https://cdn.tnris.org/images/sanborn_logo_sm.jpg',
-    vendor_home_url: 'http://www.sanborn.com/',
-    vendor_page_url: 'https://www.sanborn.com/texasdir/',
-    dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4498&keyword=Sanborn'
-  },
-  {
-    name: 'Surdex',
-    logo_url: 'https://cdn.tnris.org/images/surdex_logo_sm.jpg',
-    vendor_home_url: 'https://www.surdex.net/',
-    vendor_page_url: 'https://www.sanborn.com/texasdir/',
-    dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4496&keyword=Surdex'
-  },
-  {
-    name: 'Woolpert',
-    logo_url: 'https://cdn.tnris.org/images/Woolpertlogo.png',
-    vendor_home_url: 'https://woolpert.com/',
-    vendor_page_url: '',
-    dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4508&keyword=Woolpert'
-  }
+{% set contract_vendors = 
+  [
+    {
+      name: 'AECOM',
+      status: 'available',
+      logo_url: 'https://cdn.tnris.org/images/aecom_logo.png',
+      vendor_home_url: 'https://aecom.com/services/planning-consulting/geospatial-services/',
+      vendor_page_url: 'https://solutions.aecomonline.net/stratmap/',
+      dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4495&keyword=aecom',
+      tags: ['products','services']
+    }, 
+    {
+      name: 'Esri',
+      status: 'available',
+      logo_url: 'https://cdn.tnris.org/images/esri_web_md.png',
+      vendor_home_url: 'https://www.esri.com/en-us/home',
+      vendor_page_url: 'http://www.esri.com/landing-pages/texas-dir',
+      dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3446&keyword=3446',
+      tags: ['software']
+    },
+    {
+      name: 'GeoComm',
+      status: 'available',
+      logo_url: 'https://cdn.tnris.org/images/Geocommlogo.png',
+      vendor_home_url: 'http://www.geo-comm.com/',
+      vendor_page_url: '',
+      dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4499&keyword=Geo-Comm',
+      tags: ['services','software']
+    },
+    {
+      name: 'GISinc',
+      status: 'available',
+      logo_url: 'https://cdn.tnris.org/images/GISinclogo.png',
+      vendor_home_url: 'https://www.gisinc.com',
+      vendor_page_url: '',
+      dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4503&keyword=GIS%20Inc.',
+      tags: ['services']
+    },
+    {
+      name: 'Merrick',
+      status: 'available',
+      logo_url: 'https://cdn.tnris.org/images/Merricklogo.png',
+      vendor_home_url: 'https://www.merrick.com/',
+      vendor_page_url: 'https://www.merrick.com/services/geospatial-services/',
+      dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4502&keyword=Merrick',
+      tags: ['products','services']
+    },
+    {
+      name: 'Quantum Spatial',
+      status: 'available',
+      logo_url: 'https://cdn.tnris.org/images/Quantumlogo.png',
+      vendor_home_url: 'http://quantumspatial.com',
+      vendor_page_url: '',
+      dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4507&keyword=Quantum%20Spatial',
+      tags: ['products','services']
+    },
+    {
+      name: 'Sanborn',
+      status: 'available',
+      logo_url: 'https://cdn.tnris.org/images/sanborn_logo_sm.jpg',
+      vendor_home_url: 'http://www.sanborn.com/',
+      vendor_page_url: 'https://www.sanborn.com/texasdir/',
+      dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4498&keyword=Sanborn',
+      tags: ['products','services']
+    },
+    {
+      name: 'Surdex',
+      status: 'available',
+      logo_url: 'https://cdn.tnris.org/images/surdex_logo_sm.jpg',
+      vendor_home_url: 'https://www.surdex.net/',
+      vendor_page_url: 'https://www.sanborn.com/texasdir/',
+      dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4496&keyword=Surdex',
+      tags: ['products','services']
+    },
+    {
+      name: 'Woolpert',
+      status: 'available',
+      logo_url: 'https://cdn.tnris.org/images/Woolpertlogo.png',
+      vendor_home_url: 'https://woolpert.com/',
+      vendor_page_url: '',
+      dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4508&keyword=Woolpert',
+      tags: ['products','services']
+    }
   ]
-  %}
+%}
 
 {% for item in contract_vendors %}
-  <div class="col-lg-2">
+  <div class="col-lg-2 d-flex align-items-stretch">
     {% if item.status == 'unavailable' %}
     <div class="card card-body vendor-box unavailable">
     {% else %}
       <div class="card card-body vendor-box">
     {% endif %}
-          <a href="{{item.vendor_home_url}}"><img class="img-fluid" src="{{item.logo_url}}" alt="Logo and home page for {{item.name}}"></a>
-          <div class="caption">
+          <div style="height:25%;">
+            <a href="{{item.vendor_home_url}}">
+              <img class="img-fluid" src="{{item.logo_url}}" alt="Logo and home page for {{item.name}}">
+            </a>
+          </div>
+          <div style="margin-bottom:10px;" class="caption">
               <h3 class="sr-only">{{item.name|safe}}</h3>
               <ul class="list-clean">
               <br>
@@ -93,6 +116,17 @@
                  {% endif %}
                 </li>
               </ul>
+          </div>
+          <div style="position:absolute; bottom:0px; margin:10px 0 10px 0;">
+            {% if 'products' in item.tags %}
+              <i style="padding:0 3px 0 3px" class="fa fa-box-open" alt="Products"></i>
+            {% endif %}
+            {% if 'services' in item.tags %}
+              <i style="padding:0 3px 0 3px" class="fa fa-server" alt="Services"></i>
+            {% endif %}
+            {% if 'software' in item.tags %}
+              <i style="padding:0 3px 0 3px" class="fa fa-laptop" alt="Software"></i>
+            {% endif %}
           </div>
       </div>
   </div>
