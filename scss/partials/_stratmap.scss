@@ -88,24 +88,16 @@
 
 .card.card-body.vendor-box {
   @media (min-width: $screen-sm) {
-    min-height: 275px;
+    min-height: 185px;
     margin-bottom: 1rem;
-  }
-
-  @media (min-width: $screen-md) {
-    min-height: 250px;
-    margin-bottom: 1rem;
+    font-size: 14px;
   }
 
   li {
     margin-bottom: 10px;
 
     a {
-      color: $darkgrey;
-    }
-
-    &:first-child a {
-      color: $tnrisblue;
+      color: #3366BB;
     }
 
 
