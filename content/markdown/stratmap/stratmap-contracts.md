@@ -34,9 +34,25 @@ mainimage: https://cdn.tnris.org/images/Vendorbanner.png
 	{% include "stratmap/contract-vendors.njk" %}
 </div>
 
+<b>Legend:</b>
+<div class="legend">
+   <span class="icon">
+<i class="fa fa-box-open"></i>
+  </span>
+<span class="role">Products</span>
+  <span class="icon">
+<i class="fa fa-wrench"></i>
+  </span>
+<span class="role"> Services
+    <span class="icon">
+  <i class="fa fa-laptop"></i>
+        </span>
+  <span class="role">Software</span> 
+  </div>
+
 <hr class="clearfix">
 <p>
-<b>Note:</b> On the DIR pages, the original RFO is labeled as "Geographic Information Systems (GIS) Hardware, Software, and Services and Information Technology (IT) Based Surveying Hardware, Software, and Related Services."</b>"</p>
+<b>Note:</b> On the DIR pages, the original RFO is labeled as "Geographic Information Systems (GIS) Hardware, Software, and Services and Information Technology (IT) Based Surveying Hardware, Software, and Related Services."</p>
 
 <div class="container-fluid bg-gray" id="accordion-style-1">
 	<div class="container">
