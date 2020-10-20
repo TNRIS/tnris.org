@@ -91,12 +91,12 @@
     {% else %}
       <div class="card card-body vendor-box">
     {% endif %}
-          <div style="height:25%;">
+          <div class="myDiv">
             <a href="{{item.vendor_home_url}}">
               <img class="img-fluid" src="{{item.logo_url}}" alt="Logo and home page for {{item.name}}">
             </a>
           </div>
-          <div style="margin-bottom:10px;" class="caption">
+          <div class="myDiv2 caption">
               <h3 class="sr-only">{{item.name|safe}}</h3>
               <ul class="list-clean">
               <br>
@@ -117,15 +117,15 @@
                 </li>
               </ul>
           </div>
-          <div style="position:absolute; bottom:0px; margin:10px 0 10px 0;">
+          <div class="myDiv3">
             {% if 'products' in item.tags %}
-              <i style="padding:0 3px 0 3px" class="fa fa-box-open" alt="Products"></i>
+              <i class="fa fa-box-open" alt="Products"></i>
             {% endif %}
             {% if 'services' in item.tags %}
-              <i style="padding:0 3px 0 3px" class="fa fa-wrench" alt="Services"></i>
+              <i class="fa fa-wrench" alt="Services"></i>
             {% endif %}
             {% if 'software' in item.tags %}
-              <i style="padding:0 3px 0 3px" class="fa fa-laptop" alt="Software"></i>
+              <i class="fa fa-laptop" alt="Software"></i>
             {% endif %}
           </div>
       </div>
