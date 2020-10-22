@@ -30,7 +30,7 @@ mainimage: https://cdn.tnris.org/images/Vendorbanner.png
 <div class="col-lg-12">
 <h2 class="text-center">Pre-Qualified Geospatial Providers</h2>
 <hr class="clearfix">
-Legend:
+
 <div class="legend">
    <span class="icon">
 <i class="fa fa-box-open"></i>
@@ -43,7 +43,7 @@ Legend:
     <span class="icon">
   <i class="fa fa-laptop"></i>
         </span>
-  <span class="role">Software</span> 
+  <span class="role">Software</span>
   </div>
 <div class="row">
 	{% include "stratmap/contract-vendors.njk" %}
@@ -131,7 +131,7 @@ Legend:
 							</div>
 						</div>
 					</div>
-				</div>	
+				</div>
 			</div>
 		</section>
 	</div>
