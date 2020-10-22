@@ -88,24 +88,16 @@
 
 .card.card-body.vendor-box {
   @media (min-width: $screen-sm) {
-    min-height: 275px;
+    min-height: 185px;
     margin-bottom: 1rem;
-  }
-
-  @media (min-width: $screen-md) {
-    min-height: 250px;
-    margin-bottom: 1rem;
+    font-size: 14px;
   }
 
   li {
     margin-bottom: 10px;
 
     a {
-      color: $darkgrey;
-    }
-
-    &:first-child a {
-      color: $tnrisblue;
+      color: #3366BB;
     }
 
 
@@ -528,4 +520,45 @@ ul.stratmap-work {
   h1 {
     margin-top: 0;
   }
+}
+
+.legend {
+  font-size: 12px;
+  min-width: 300px;
+  max-width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.icon {
+  margin-right : 4px;
+  margin-left : 16px;
+}
+
+.fa.fa-box-open {
+  padding: 0 3px 0 3px
+}
+
+.fa.fa-wrench {
+  padding: 0 3px 0 3px
+}
+
+.fa.fa-laptop {
+  padding: 0 3px 0 3px
+}
+
+.myDiv {
+  height: 25%;
+}
+
+.myDiv2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.myDiv3 {
+  position: absolute;
+  bottom: 0px;
+  margin: 10px 0 10px 0;
 }
