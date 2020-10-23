@@ -3,8 +3,8 @@ title: Education and Training
 layout: education/main.njk
 mainimage: https://cdn.tnris.org/images/keep_pace_banner.jpg
 smallimage: https://cdn.tnris.org/images/training_keep_pace_md.jpg
-abstract: Technical training courses bring the latest GIS technologies and skills to a range of professional skill levels in the workplace.
 ---
+Technical training courses bring the latest GIS technologies and skills to a range of professional skill levels in the workplace.
 
 Courses offered range from basic introductions to software use and application, to intermediate skill enhancement and refinement, to more advanced skill development for increased efficiency and effective use of GIS.
 
