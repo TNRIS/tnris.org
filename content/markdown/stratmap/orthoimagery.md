@@ -1,7 +1,7 @@
 ---
 title: Orthoimagery
 layout: stratmap/main.njk
-mainimage: https://cdn.tnris.org/images/orthoreview_main.jpg
+mainimage: https://cdn.tnris.org/images/SB_Ortho.png
 ---
 <div class="container-md">
   <div class="row">

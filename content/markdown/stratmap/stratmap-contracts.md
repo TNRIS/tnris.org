@@ -1,7 +1,7 @@
 ---
 title: StratMap Contracts
 layout: stratmap/main.njk
-mainimage: https://cdn.tnris.org/images/tx_word_banner.png
+mainimage: https://cdn.tnris.org/images/SB_Contracts.png
 ---
 
 <section class="container-md">
