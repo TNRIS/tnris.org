@@ -27,7 +27,7 @@ mainimage: https://cdn.tnris.org/images/lidar_banner.jpg
       <p>TNRIS is pleased to announce we are in possession of the following lidar collections that will complete 100% coverage of the state: 
         <ul>
           <li><i>USGS 2019 West Texas</i></li>
-          <li><i>USGS 2019 Texas Pecos Dallas</i></li>
+          <li><i>USGS 2019 Desert Mountains</i></li>
         </ul>
       </p>
       <p>TNRIS is working to make these datasets <i>available soon</i> for download by the public through our <a href="https://data.tnris.org/" target="_blank">DataHub</a>. To expedite a data request for <b>STATE GOVERNMENT USE ONLY</b>, please <a href="/contact">contact TNRIS</a>.</p>
