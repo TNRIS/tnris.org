@@ -1,7 +1,7 @@
 ---
 title: Hydrography
 layout: stratmap/main.njk
-mainimage: https://cdn.tnris.org/images/hydro_banner.jpg
+mainimage: https://cdn.tnris.org/images/SB_Hydrography.png
 ---
 
 <div class="container-md">

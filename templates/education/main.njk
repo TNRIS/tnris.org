@@ -7,20 +7,26 @@
 
 {% block topcontent %}
   <div class="container-fluid full">
-    <div class="top-container">
-      {% if mainimage %}
-        <img class="img-fluid mx-auto d-md-block d-none" src="{{mainimage}}" alt="Masthead for {{title}}">
-      {% endif %}
-      {% if smallimage %}
-        <img class="img-fluid mx-auto d-block d-md-none d-lg-none" src="{{smallimage}}" alt="Masthead for {{title}}">
-      {% endif %}
-    </div>
+
+        <div class="top-container">
+        {% if mainimage %}
+          <img class="img-fluid mx-auto d-block" src="{{mainimage}}" alt="Masthead for {{title}}">
+        {% endif %}
+
+        <div class="top-header mx-auto d-block">
+            <div class="container-md">
+              <h1>{{title}}</h1>
+              {% if abstract %}
+                <div class="lead">{{abstract}}</div>
+              {% endif %}
+            </div>
+        </div>
+        </div>
   </div>
 {% endblock %}
 
 {% block contentsOne %}
   <div class="container-md">
-    <h1 id="title">{{title}}</h1>
     {% if abstract %}
       <div class="lead">{{abstract}}</div>
     {% endif %}

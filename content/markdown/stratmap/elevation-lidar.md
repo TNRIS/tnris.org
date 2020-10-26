@@ -1,7 +1,7 @@
 ---
 title: Elevation – Lidar
 layout: stratmap/main.njk
-mainimage: https://cdn.tnris.org/images/lidar_banner.jpg
+mainimage: https://cdn.tnris.org/images/SB_Lidar.png
 ---
 
 <div class="container-md">
