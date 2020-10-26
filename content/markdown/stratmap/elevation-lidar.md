@@ -24,14 +24,13 @@ mainimage: https://cdn.tnris.org/images/lidar_banner.jpg
       <p>Bulk copies of all lidar datasets are available at reproduction cost through our Research and Distribution center. Copies onto hard drives can be requested through the <a href="https://data.tnris.org">DataHub</a>.</p>
       <hr class="clearfix">
       <h3>Special Note</h3>
-      <p>TNRIS is pleased to announce we are in possession of these three lidar collections that will complete 100% coverage of the state: 
+      <p>TNRIS is pleased to announce we are in possession of the following lidar collections that will complete 100% coverage of the state: 
         <ul>
           <li><i>USGS 2019 West Texas</i></li>
-          <li><i>USGS 2019 Desert Mountains</i></li>
           <li><i>USGS 2019 Texas Pecos Dallas</i></li>
         </ul>
       </p>
-      <p>TNRIS is working to make these three datasets <i>available soon</i> for download by the public through our <a href="https://data.tnris.org/" target="_blank">DataHub</a>. To expedite a data request for <b>STATE GOVERNMENT USE ONLY</b>, please <a href="/contact">contact TNRIS</a>.</p>
+      <p>TNRIS is working to make these datasets <i>available soon</i> for download by the public through our <a href="https://data.tnris.org/" target="_blank">DataHub</a>. To expedite a data request for <b>STATE GOVERNMENT USE ONLY</b>, please <a href="/contact">contact TNRIS</a>.</p>
     </div>
 
   </div>
