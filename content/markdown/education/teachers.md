@@ -6,14 +6,14 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
 
 <div class="row">
 <div class="col-lg-8">
-<p class="lead">TNRIS has many maps and data resources available to the public at no charge from our website that can be incorporated into teacher's lesson plans for all levels. In addition to these resources, we are able to give tours on a limited basis to students and their educators.</p>
+<p class="lead"><br>TNRIS has many maps and data resources available to the public at no charge from our website that can be incorporated into teacher's lesson plans for all levels. In addition to these resources, we are able to give tours on a limited basis to students and their educators.</p>
 </div>
 <div class="col-lg-4">
   <div class="card card-body well-bg">
   <p>
     Contact us about our Education &amp; Training Program.
   </p>
-  <a class="btn btn-tnris btn-lg btn-block" href="/education/contact"><i class="fa fa-comment"></i> Contact Us</a>
+  <a id="ContactEducation" class="btn btn-tnris btn-lg btn-block" href="/education/contact" aria-labelledby="ContactEducation"><i class="fa fa-comment"></i> Contact Us</a>
   </div>
 </div>
 </div>
@@ -146,17 +146,17 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
 
 <h3>Esri Training Catalog</h3>
 
-<p><a class="btn btn-tnris btn-md float-right" href="https://www.esri.com/training/catalog/search/">Learn more</a> Esri offers online, free courses to help you get started with their software.
+<p><a id="EsriTraining" class="btn btn-tnris btn-md float-right" href="https://www.esri.com/training/catalog/search/" aria-labelledby="EsriTraining">Learn more</a> Esri offers online, free courses to help you get started with their software.
 </p>
 
 <h3>ArcGIS Student License</h3>
 
-<p><a class="btn btn-tnris btn-md float-right" href="https://www.esri.com/en-us/arcgis/products/arcgis-desktop-student-trial">Learn more</a> Esri offers ArcGIS for Student use to learn GIS technical skills.
+<p><a id="ArcGISstudent" class="btn btn-tnris btn-md float-right" href="https://www.esri.com/en-us/arcgis/products/arcgis-desktop-student-trial" aria-labelledby="ArcGISstudent">Learn more</a> Esri offers ArcGIS for Student use to learn GIS technical skills.
 </p>
 
 <h3>Austin Community College</h3>
 
-<p><a class="btn btn-tnris btn-md float-right" href="https://www.austincc.edu/academic-and-career-programs/areas-of-study/design-manufacturing-construction-and-applied-technologies/geographic-information-systems">Learn more</a> ACC's Geographic Information Systems Program starts with basic GIS principles and techniques then progresses through GIS projects and performing sophisticated analysis.
+<p><a id="ACCGIS" class="btn btn-tnris btn-md float-right" href="https://www.austincc.edu/academic-and-career-programs/areas-of-study/design-manufacturing-construction-and-applied-technologies/geographic-information-systems" aria-labelledby="ACCGIS">Learn more</a> ACC's Geographic Information Systems Program starts with basic GIS principles and techniques then progresses through GIS projects and performing sophisticated analysis.
 </p>
 </div>
 </div>

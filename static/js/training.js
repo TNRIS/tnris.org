@@ -52,7 +52,7 @@ function retrieveTraining(queryField, queryValue) {
         if (today < end) {
           // set to active enabled register button with proper link to external registration page
           status = `<a href="${t.training_link}" class="btn btn-success btn-sm">
-                      <i class="fa fa-new-window"></i> Register
+                      <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Register
                     </a>`;
         }
         else if (today >= end) {
@@ -88,33 +88,42 @@ function retrieveTraining(queryField, queryValue) {
           <div class="col-12 course-info-category">
             ${t.category}
           </div>
-          <div class="col-12 col-sm-3 course-date-time">
-            <strong>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-8"><br>
+                <h3><b>
+                  ${t.title}</b>
+                </h3>
+              </div>
+              <div class="col-4 classdate">
+              <strong>
               <span class="fa fa-calendar"></span>
               ${month} ${day}, ${t.year}
             </strong><br>
             <i class="fa fa-time"></i>
-            ${start_time} - ${end_time} <br>
-            <button class="btn btn-primary btn-sm full-details-btn" type="button" data-toggle="collapse" aria-expanded="false" data-target="#Sheet${t.training_id}">
-              <span class="fa fa-info-sign"></span>
-              Expand Details
+            ${start_time} - ${end_time} 
+              </div>
+              <div class="col-8 course-info2">
+                <strong>Taught by:</strong> ${t.instructor}<br>
+                <strong>Cost:</strong> $${t.cost}
+              </div>
+              <div class="col-2 course-info">
+              <button class="btn btn-primary btn-sm full-details-btn" type="button" data-toggle="collapse" aria-expanded="false" data-target="#Sheet${t.training_id}">
+              <span class="fa fa-caret-down"></span>
+              Details
             </button>
+            </div>
+              <div class="col-2 course-info"> ${status}
+              </div>
+            </div>
           </div>
-          <div class="col-12 col-sm-9">
-            <div class="row">
-              <div class="col-12">
-                <h3>
-                  ${t.title}
-                </h3>
-              </div>
-              <div class="col-3 course-info">
-                <strong>Taught by:</strong>
-                <br> ${t.instructor}
-              </div>
-              <div class="col-3 course-info">
-                <strong>Cost:</strong><br> $${t.cost}
-              </div>
-              <div class="col-3 course-info">
+          <div id="Sheet${t.training_id}" class="course-description col-12 collapse" style="padding:20px;">
+            <hr class="new1">
+            <h5>Description</h5>
+            ${t.description}
+            <!-- if there are public registration_open records, insert discount copy content in each record html -->
+            <!-- <div id="training-discount-copy-record" style="padding:25px 0 0 0;"></div> -->
+            <div class="col-3 course-info">
                 <strong>Share:</strong><br>
                 <span class="input-group-btn">
                   <button class="btn btn-tnris btn-sm copy-url-btn" type="button" style="margin-top:0; width:95%;">
@@ -123,16 +132,6 @@ function retrieveTraining(queryField, queryValue) {
                 </span>
                 <input class="form-control hidden-clipboard-input" type="text" readonly value="${location.origin}/education#${urlTitle}">
               </div>
-              <div class="col-3 course-info">
-                <strong>Status:</strong><br> ${status}
-              </div>
-            </div>
-          </div>
-          <div id="Sheet${t.training_id}" class="course-description col-12 collapse" style="padding:20px;">
-            <h3>Description</h3>
-            ${t.description}
-            <!-- if there are public registration_open records, insert discount copy content in each record html -->
-            <!-- <div id="training-discount-copy-record" style="padding:25px 0 0 0;"></div> -->
           </div>
         </div>`;
 
@@ -156,7 +155,7 @@ function retrieveTraining(queryField, queryValue) {
       });
       button.click();
       button.className = 'btn btn-warning btn-sm full-details-btn';
-      button.innerHTML = "<span class='fa fa-info-sign'></span> Close Details";
+      button.innerHTML = "<span class='fa fa-caret-up'></span> Close";
     }
   })
   .then(function() {
@@ -168,7 +167,7 @@ function retrieveTraining(queryField, queryValue) {
       b.addEventListener("click", function() {
         // if event is fired to expand description, scroll to course great-grandparent ".training-record"
         // if event is fired to collapse, no scrolling
-        if (b.innerHTML.includes('Expand')) {
+        if (b.innerHTML.includes('Details')) {
           b.parentNode.parentNode.parentNode.scrollIntoView({
             behavior: 'smooth'
           });
@@ -177,7 +176,7 @@ function retrieveTraining(queryField, queryValue) {
           window.history.pushState(null, "", window.location.href.replace(location.hash, ""));
         }
         b.classList.contains('btn-primary') ? b.className = 'btn btn-warning btn-sm full-details-btn' : b.className = 'btn btn-primary btn-sm full-details-btn';
-        b.innerHTML.includes('Expand') ? b.innerHTML = "<span class='fa fa-info-sign'></span> Close Details" : b.innerHTML = "<span class='fa fa-info-sign'></span> Expand Details";
+        b.innerHTML.includes('Details') ? b.innerHTML = "<span class='fa fa-caret-up'></span> Close" : b.innerHTML = "<span class='fa fa-caret-down'></span> Details";
       });
     });
   });
