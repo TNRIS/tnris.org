@@ -12,14 +12,14 @@ mainimage: https://cdn.tnris.org/images/SB_Ortho.png
     </div>
     <div class="col-lg-4">
       <h3>Orthoimagery Specifications</h3>
-      <a class="btn btn-lg btn-success" href="https://cdn.tnris.org/documents/tx_orthoimagery_sow_v9.pdf"><i class="fa fa-file"></i> Download Orthoimagery Specifications</a>
+      <a class="btn btn-lg btn-success mx-auto d-block" href="https://cdn.tnris.org/documents/tx_orthoimagery_sow_v9.pdf"><i class="fa fa-file"></i> Download Orthoimagery Specifications</a>
       <h3>Download Orthoimagery</h3>
-      <a class="btn btn-lg btn-tnris" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+      <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
     </div>
   </div>
 </div>
 <section id="stratmap-by-the-numbers" class="ortho-numbers">
-    <div class="container-md">
+    <div class="container-md shadow1">
       <h2>Orthoimagery by the Numbers</h2>
         <div class="row">
             <div class="col-sm-4">

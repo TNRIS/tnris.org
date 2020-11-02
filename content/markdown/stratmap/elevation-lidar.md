@@ -12,9 +12,9 @@ mainimage: https://cdn.tnris.org/images/SB_Lidar.png
       </div>
     <div class="col-lg-4">
       <h3>Lidar Specifications</h3>
-      <a class="btn btn-lg btn-success" href="https://cdn.tnris.org/documents/state_of_texas_stratmap_lidar_specification_ver_XIII.pdf"><i class="fa fa-file"></i> Download Lidar Specifications</a>
+      <a class="btn btn-lg btn-success mx-auto d-block" href="https://cdn.tnris.org/documents/state_of_texas_stratmap_lidar_specification_ver_XIII.pdf"><i class="fa fa-file"></i> Download Lidar Specifications</a>
       <h3>Download Lidar</h3>
-      <a class="btn btn-lg btn-tnris" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+      <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
       <hr class="clearfix">
       <h3>Bulk Copies</h3>
       <p>Bulk copies of all lidar datasets are available at reproduction cost through our Research and Distribution center. Copies onto hard drives can be requested through the <a href="https://data.tnris.org">DataHub</a>.</p>
@@ -23,8 +23,8 @@ mainimage: https://cdn.tnris.org/images/SB_Lidar.png
     <div class="row">
       <div class="col-lg-12">
       <h2>TNRIS Lidar Coverage</h2>
-      <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="TNRIS.ORG Lidar Coverage Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=66a83e8e93f54068a16477eb4e9f0e75&extent=-108.0433,27.1914,-91.8164,35.3132&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe>
-      <p>Lidar coverage varies across the state. Lidar coverage and project details (date, nominal point spacing, vendor, etc.) can be found on the <a href="https://arcg.is/1nmCnm0">Lidar Status Map</a>. All details about each dataset in our collection can be found in the supplemental reports for each project.</p>
+      <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="TNRIS.ORG Lidar Coverage Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=66a83e8e93f54068a16477eb4e9f0e75&extent=-113.8297,23.0056,-85.7047,38.4507&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe>
+      <p>Lidar coverage varies across the state. Lidar coverage and project details (date, nominal point spacing, vendor, etc.) can be found on the <a href="https://arcg.is/1j0G1f0">Lidar Status Map</a>. All details about each dataset in our collection can be found in the supplemental reports for each project.</p>
       <p>You can <a href="https://cdn.tnris.org/data/lidar/tnris-lidar_48_vector.zip">download</a> a complete index of all available lidar data at TNRIS.</p>
     </div>
 

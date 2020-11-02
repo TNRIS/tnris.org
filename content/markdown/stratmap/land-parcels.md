@@ -203,7 +203,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       <p>Not all counties are available for download from TNRIS. We continue to work with appraisal districts to provide as many county land parcel datasets as possible. As they are available, they will be posted online for download and the availability map updated. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/">Texas Comptroller of Public Accounts website</a>.</p>
       <hr>
       <p>Contact TNRIS with any further questions regarding this program and someone from StratMap will get in touch with you.</p>
-      <a class="btn btn-lg btn-primary" href="/contact"><i class="fa fa-file"></i>Contact Us</a>
+      <a class="btn btn-md btn-tnris btn-lg mx-auto d-block" href="/contact"><i class="fa fa-comment"></i> Contact Us</a>
     </div>
   </div>
 </div>
