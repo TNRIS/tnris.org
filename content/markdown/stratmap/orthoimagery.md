@@ -6,7 +6,7 @@ mainimage: https://cdn.tnris.org/images/SB_Ortho.png
 <div class="container-md">
   <div class="row">
     <div class="col-lg-8">
-      <p class="lead">Orthoimagery is digital aerial photography that has been geometrically corrected (orthorectified) to remove distortion caused by camera optics, aircraft tilt, and differences in ground elevation.</p>
+      <p class="lead"><strong>Orthoimagery</strong> is digital aerial photography that has been geometrically corrected (orthorectified) to remove distortion caused by camera optics, aircraft tilt, and differences in ground elevation.</p>
       <p class="lead">The publicly available statewide orthoimagery datasets from TNRIS have either 0.5-meter or 1-meter pixel resolution. This level of image detail is used to identify current conditions, features, and changes on the ground serving as a base of reference for other map information. </p>
       <p class="lead">Continue reading to see all are our available StratMap orthoimagery datasets</p>
     </div>
