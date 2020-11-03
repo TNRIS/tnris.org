@@ -33,6 +33,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
     </div>
   </div>
 </div>
+<!---
 <section id="parcel-numbers">
   <div class="container-md">
     <h2>Program Timeline</h2>
@@ -61,14 +62,13 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       <div class="phase phase-10"><strong>Ongoing annual refresh</strong> of statewide geographic parcel data
       </div>
     </div>
-</section>
-
+</section> -->
 <div class="container-md">
   <div class="row">
     <div id="agency-parcel-uses" class="col-lg-6">
       <h2>Program Flow</h2>
       <p>This iterative program flow will occur throughout the year. At no one time will there be a completed or final version of data as each data source has varying update schedules. Please check each county for the most recent version of data.</p>
-      <img src="https://cdn.tnris.org/images/data-circle.jpg" class="img-fluid">
+      <img src="https://cdn.tnris.org/images/Program_Flow.png" class="img-fluid">
       <h2>Agency Parcel Uses</h2>
       <p class="lead">Texas State Agencies make extensive use of Land Parcel data for all types of operations and applications.</p>
       <hr class="clearfix">
