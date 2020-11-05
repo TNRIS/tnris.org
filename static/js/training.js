@@ -148,7 +148,7 @@ function retrieveTraining(queryField, queryValue) {
     // this is for sharing urls to training records
     var clickId = location.hash.replace("#", "");
     var element = clickId ? document.getElementById(clickId) : "";
-    var button = element ? element.children[0].children[1].children[4] : '';
+    var button = element ? element.children[0].children[1].children[0].children[3].children[0] : '';
     if (location.hash) {
       element.scrollIntoView({
         behavior: 'smooth'
