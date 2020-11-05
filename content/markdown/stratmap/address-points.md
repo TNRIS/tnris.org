@@ -170,7 +170,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 
 <h3>What is the purpose of these address points?</h3>
 
-<p>These address points were created for 9-1-1 call routing purposes; however, they are now available for public use.  The <a href="https://www.911.gov/issue_nextgeneration911.html">Next Generation 9-1-1 (NG911)</a> system will rely heavily on the accuracy of geospatial data, including address points.  As a result, these data are continually scrubbed and analyzed for use within the NG911 system by the authoritative data sources and their vendors.  Over time, these data may change based on GIS standards established by the <a href="https://www.nena.org/page/NG911GISDataModel">National Emergency Number Association (NENA)</a> or for other reasons.  TNRIS does not edit these data.</p>
+<p>These address points were created for 9-1-1 call routing purposes; however, they are now available for public use.  The <a href="https://www.911.gov/issue_nextgeneration911.html">Next Generation 9-1-1 (NG911)</a> system will rely heavily on the accuracy of geospatial data, including address points.  As a result, these data are continually scrubbed and analyzed for use within the NG911 system by the authoritative data sources and their vendors.  Over time, these data may change based on GIS standards established by the <a id="NENAdatamodel" href="https://www.nena.org/page/NG911GISDataModel" aria-labelledby="NENAdatamodel">National Emergency Number Association (NENA)</a> or for other reasons.  TNRIS does not edit these data.</p>
 
 * * *
 
