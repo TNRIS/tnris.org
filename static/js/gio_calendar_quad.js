@@ -31,7 +31,7 @@ function retrieveNextFourEvents() {
       // fill dom list element with event details
       event.innerHTML =
         `
-        <div class="eventBox">
+        <div class="eventBox d-flex flex-column justify-content-between">
           <h3>
             <strong>${e.title}</strong>
             <br>
@@ -42,8 +42,11 @@ function retrieveNextFourEvents() {
           ${timeRange}
           ${shortDescription}
           ${generalLocation}
-          ${eventLink}
-          ${communityMeetingAgenda} </div>
+          <div class="justify-content-between">
+            ${eventLink}
+            ${communityMeetingAgenda}
+          </div>
+        </div>
           `;
         // append div element contents into template html
         document.getElementById('gio-calendar-quad').appendChild(event);

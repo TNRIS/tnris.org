@@ -311,6 +311,9 @@ hr.noMarg {
   padding: 10px;
   box-shadow: 0 2px 6px #CCC;
   border-radius: 1%;
+  min-height: 100%;
+  max-height: 100%;
+  min-width: 230px;
 }
 
 h5 {
@@ -331,7 +334,7 @@ h5 {
   text-decoration: none;
   background: transparent;
   padding: 0;
-  margin-top: 15px;
+  margin-top: 10px;
   &.event-link {
     width: 12rem;
     height: auto;
