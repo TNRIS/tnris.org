@@ -2,7 +2,7 @@
 layout: gio/gio-sub-dcs.njk
 title: "Data Center Services (DCS) GIS Solutions Group"
 author: Felicia Retiz, Deputy GIO
-mainimage: https://cdn.tnris.org/images/gis_button_web.jpg
+mainimage: https://cdn.tnris.org/images/gis_button.jpg
 abstract:
     The GIS Solutions Group, established spring 2015, meets monthly to discuss projects and solutions related to GIS services procured through the Data Center Services.
 tags: GIO, Data Sharing, GIS, Geospatial, DIR, DCS
@@ -15,12 +15,14 @@ The Texas Natural Resources Information System, along with the <a href="https://
 
 <figure>
 <img class="img-fluid" src="https://cdn.tnris.org/images/dcs_groups.jpg" alt="A flowchart of the DCS solutions groups structure">
-<figcaption class="right-align">The DCS solutions groups structure</figcaption>
+<figcaption class="figcaption-center">The DCS solutions groups structure</figcaption>
 </figure>
 
 The [Data Center Services (DCS) Solutions Groups](https://dir.texas.gov/View-About-DIR/Data-Center/Pages/Content.aspx?id=12) are at the 'front line' to address issues related to specific services provided through the State Data Center. There are five Solutions Groups, including the most recently created GIS Solutions Group, whose main tasks are to tackle issues and concerns that affect particular services provided by the DCS.
 
 The DCS GIS Solutions Group was created to meet the need for a formal team of agencies willing to participate in shared purchases for GIS data and enterprise technology services.  The catalyst for creating the DCS GIS Solutions Group was a mulit-agency joint effort to obtain a state enterprise license to Google’s 6-inch imagery service. In March 2015, a contract between Google and the state of Texas was executed through the DCS to execute a statewide [Texas Imagery Service](/texas-imagery-service).
+
+<br>
 
 ## Participating Agencies
 
@@ -30,41 +32,36 @@ The DCS GIS Solutions Group was created to meet the need for a formal team of ag
         <strong>Participating Member Agencies</strong> of the GIS Solutions Group
       </div>
    </div>
+   <br>
     <div class="row">
       <div class="col-xs-5ths">
-        <span class="fa fa-arrow-down member"></span>
         <a class="gio-agency" href="http://www.dir.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/dir_logo_padded.jpg" alt="Department of Information Resources Logo and Link to website">
         </a>
       </div>
       <div class="col-xs-5ths">
-        <span class="fa fa-arrow-down member"></span>
         <a class="gio-agency" href="http://www.csec.texas.gov/">
           <img class="img-fluid" src="https://cdn.tnris.org/images/csec_logo_med.jpg" alt="Commission on Emergency Communications (CSEC) Logo and Link to website">
         </a>
       </div>
         <div class="col-xs-5ths">
-        <span class="fa fa-arrow-down member"></span>
         <a class="gio-agency" href="https://www.tceq.texas.gov">
           <img title="Visit the Texas Commission on Environmental Quality (TCEQ) website" class="img-fluid" src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" alt="Texas Commission on Environmental Quality (TCEQ) Logo and Link to website">
         </a>
       </div>
       <div class="col-xs-5ths">
-        <span class="fa fa-arrow-down member"></span>
         <a title="Visit the Texas Department of Transportation website" class="gio-agency" href="http://www.txdot.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/txdot.jpg" alt="Texas Department of Transportation (TxDOT) Logo and Link to website">
         </a>
       </div>
       <div class="col-xs-5ths">
-        <span class="fa fa-arrow-down member"></span>
         <a class="gio-agency" href="http://www.twdb.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/twdb_web_med_rect.jpg" alt="Texas Water Development Board Logo and Link to website">
         </a>
       </div>
    </div>
 </section>
-
-The first meeting of the DCS GIS Solutions Group was held on March 25, 2015 with current participating member agencies:
+The first meeting of the DCS GIS Solutions Group was held on March 25, 2015 with current participating member agencies:<br><br>
 
 -   [Department of Information Resources (DIR)](https://dir.texas.gov/)
 -   [Commission on State Emergency Communications (CSEC)](http://www.csec.texas.gov/)
@@ -78,32 +75,31 @@ The first meeting of the DCS GIS Solutions Group was held on March 25, 2015 with
         <strong>Associate Members</strong> of the GIS Solutions Group
       </div>
    </div>
+   <br>
     <div class="row">
       <div class="col-4">
-        <span class="fa fa-arrow-down associate"></span>
         <a class="gio-agency" href="http://www.tpwd.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/tpwd_logo.jpg" alt="Texas Parks and Wildlife Logo and Link to website">
         </a>
       </div>
         <div class="col-4">
-        <span class="fa fa-arrow-down associate"></span>
         <a class="gio-agency" href="https://www.dps.texas.gov/">
           <img class="img-fluid" src="https://cdn.tnris.org/images/tx_dps_logo.jpg" alt="Texas Department of Public Safety Logo and Link to website">
         </a>
       </div>
       <div class="col-4">
-        <span class="fa fa-arrow-down associate"></span>
         <a class="gio-agency" href="http://www.glo.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/glo_logo.jpg" alt="Texas General Land Office (GLO) Logo and Link to website">
         </a>
       </div>
 </section>
-
-Serving as associate members are:
+Serving as associate members are:<br><br>
 
 -   [Texas Parks and Wildlife Department](http://tpwd.texas.gov/)
 -   [Texas Department of Public Safety](https://www.dps.texas.gov/)
 -   [Texas General Land Office](http://www.glo.texas.gov/)
+
+<br>
 
 ## Ongoing Projects
 
@@ -135,4 +131,4 @@ The DCS GIS Solutions Group discussions include distribution and access to geogr
 
 ## Group Charter
 
-<a href="https://cdn.tnris.org/documents/gis-solution-group-charter-final.pdf"><i class="fa fa-file"></i> View the DCS GIS Solutions Group Charter</a>
+<a class="btn btn-tnris btn-lg" style="width:100%;" href="https://cdn.tnris.org/documents/gis-solution-group-charter-final.pdf" target="_blank" role="button"><i class="fa fa-file fa-sm" aria-hidden="true"></i>  View the DCS GIS Solutions Group Charter</a>

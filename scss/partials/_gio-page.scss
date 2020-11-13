@@ -68,7 +68,7 @@
 }
 
 .gio-agency-collection {
-  margin-bottom: 30px;
+  margin-bottom: -20px;
   width: 100%;
 
   .glyphicon {
@@ -256,6 +256,7 @@ hr.noMarg {
 .iconExtended {
   float: left;
   margin-bottom: 20px;
+  margin-right: 8px;
 }
 
 .meeting-box {
@@ -304,3 +305,101 @@ hr.noMarg {
     font-size: 19px !important;
   }
 }
+
+.eventBox {
+  border: solid thin #CCC;
+  padding: 10px;
+  box-shadow: 0 2px 6px #CCC;
+  border-radius: 1%;
+}
+
+h5 {
+  color: $tnrisblue;
+}
+
+.figcaption-center {
+  text-align: center;
+}
+
+.event-link {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  margin-top: 15px;
+  &.event-link {
+    width: 12rem;
+    height: auto;
+    .circle {
+      @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+      position: relative;
+      display: block;
+      margin: 0;
+      width: 3rem;
+      height: 3rem;
+      background: $tnrisblue;
+      border-radius: 1.625rem;
+      .icon {
+        @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: $white;
+        &.arrow {
+          @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+          left: 0.625rem;
+          width: 1.125rem;
+          height: 0.125rem;
+          background: none;
+          &::before {
+            position: absolute;
+            content: '';
+            top: -0.25rem;
+            right: 0.0625rem;
+            width: 0.625rem;
+            height: 0.625rem;
+            border-top: 0.125rem solid #fff;
+            border-right: 0.125rem solid #fff;
+            transform: rotate(45deg);
+          }
+        }
+      }
+    }
+    .button-text {
+      @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0.75rem 0;
+      margin: 0 0 0 1.85rem;
+      color: $tnrisblue;
+      font-weight: 600;
+      line-height: 1.6;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  &:hover {
+    .circle {
+      width: auto;
+      .icon {
+        &.arrow {
+        background: $white;
+        transform: translate(1rem, 0);
+        }
+      }
+    }
+    .button-text {
+      color: $white;
+    }
+  }
+}
+
