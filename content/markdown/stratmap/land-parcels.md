@@ -25,7 +25,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       </ul>
       <p><strong font-size: 20px;">of 254 land parcel GIS datasets are now available in a common schema.</strong></p>
       <p>See available datasets in the map below:</p>
-      <iframe width="100%" height="520" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Land Parcels Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=7f5626b267a042a7869926b3d379f5b9&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
+      <iframe title="Available datasets" width="100%" height="520" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Land Parcels Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=7f5626b267a042a7869926b3d379f5b9&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
       </iframe>
       <h2>Download</h2>
       <p>Use the DataHub to download the Land Parcels dataset:</p>
