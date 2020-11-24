@@ -80,7 +80,7 @@ Michael Potts earned an MS in Geography from Texas A&amp;M University and intern
 
 Lunch on your own. Here's a map of nearby lunch spots:
 
-<iframe src="https://www.google.com/maps/d/embed?mid=zd5XoMCEujcc.k_86BbpIkUR0" width="100%" height="400"></iframe>
+<iframe title="Lunch spots" src="https://www.google.com/maps/d/embed?mid=zd5XoMCEujcc.k_86BbpIkUR0" width="100%" height="400"></iframe>
 
 *****
 
@@ -100,7 +100,7 @@ Sara Safavi, Software Engineer, <a href="https://www.planet.com/">Planet</a></h3
 
 Sara is a software engineer at Planet, where she creates tools to help developers, data scientists, and geo-people do amazing things with daily satellite imagery. When she's not geeking out over pretty pictures of Earth taken from space, Sara can frequently be found giving tech talks & teaching workshops centered around Python and/or geospatial data.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQsb5QosnbsgMlRyPXE6rWGhoTaRx_3hL8y4WrmpuGq9nkvEF1mxC8uFNVwbMu_8kFu-B3aJyrjw9te/embed?slide=id.g35d01f4b6b_0_0" frameborder="0" width="100%" height="500" allowfullscreen></iframe>
+<iframe title="Geo and Jupyter" src="https://docs.google.com/presentation/d/e/2PACX-1vQsb5QosnbsgMlRyPXE6rWGhoTaRx_3hL8y4WrmpuGq9nkvEF1mxC8uFNVwbMu_8kFu-B3aJyrjw9te/embed?slide=id.g35d01f4b6b_0_0" frameborder="0" width="100%" height="500" allowfullscreen></iframe>
 
 <h3 id="todd-2018"><small class="text-muted">2:30PM to 3:00PM</small><br>
 Todd Smith, Product Manager, <a href="https://cesiumjs.org/">Cesium</a></h3>
