@@ -26,4 +26,4 @@ All land parcel data are provided in a single coordinate system (WGS84 Web Merca
 
 ### Available Parcel Data Map
 
-<iframe width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/ba0229b0-b91c-4775-98ae-93844e146496/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen  msallowfullscreen></iframe>
+<iframe title="Available parcel data map" width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/ba0229b0-b91c-4775-98ae-93844e146496/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen  msallowfullscreen></iframe>

@@ -13,7 +13,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
     <div class="col-lg-6">
       <h2 style="margin-top: 0">Available Datasets</h2>
       <p>The map below shows available address points across Texas. Data were received across 247 counties and may not be complete coverage.</p>
-      <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Address Points Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=e8c2c6bd86064f6fbadbd38a60b50ccd&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
+      <iframe title="Available address points" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Address Points Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=e8c2c6bd86064f6fbadbd38a60b50ccd&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
       </iframe>
       <h2>Download</h2>
       <p>Use the DataHub to download the Address Points dataset:</p>
