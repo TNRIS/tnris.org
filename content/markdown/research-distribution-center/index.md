@@ -1,7 +1,7 @@
 ---
 layout: rdc/rdc-sub.njk
 title: Research & Distribution Center (RDC)
-mainimage: https://cdn.tnris.org/images/archive_banner.jpg
+mainimage: https://cdn.tnris.org/images/rdc_banner.jpg
 abstract: The Research & Distribution Center (RDC) offers a variety of additional products, support, and services from our in-house staff. We provide hands-on assistance and expertise.
 ---
 
