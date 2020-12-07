@@ -1,7 +1,7 @@
 ---
 title: TNRIS Events
 layout: events/events-main.njk
-mainimage: https://cdn.tnris.org/images/gis_events_banner.jpg
+mainimage: https://cdn.tnris.org/images/gis_events_banner2.jpg
 ---
 
 

@@ -9,7 +9,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
 <div class="container-md">
   <div class="row">
     <div class="col-lg-6">
-      <p class="lead">Land parcels are boundaries that have associated information such as property owner, land use, value, and location attributes. This property information is recorded and maintained at the county level in Texas at local appraisal districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
+      <p class="lead"><strong>Land parcels</strong> are boundaries that have associated information such as property owner, land use, value, and location attributes. This property information is recorded and maintained at the county level in Texas at local appraisal districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
       <p class="lead">
       In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized <a href="https://cdn.tnris.org/documents/tnris-land-parcel-schema.pdf">GIS land parcel schema</a>. This format of land parcel data consists of the most commonly utilized information as determined by the land parcel  committee. The data contributed from county appraisal districts or their service providers were translated into this common schema and are now available on the <a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448">TNRIS DataHub</a>.</p>
       <p class="lead">In August 2019, an extension of the <a href="https://cdn.tnris.org/documents/update-on-digital-parcel-data-in-texas-20190903.pdf">statewide parcel study was published</a> to evaluate the existence of GIS parcel data and barriers to conversion. The report found that nearly all Texas appraisal districts now maintain a GIS parcel layer or are in the process of converting. It includes recommendations of 1) how TNRIS can facilitate local GIS  conversion and 2) how to continue success of the land parcel program.</p>
@@ -25,7 +25,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       </ul>
       <p><strong font-size: 20px;">of 254 land parcel GIS datasets are now available in a common schema.</strong></p>
       <p>See available datasets in the map below:</p>
-      <iframe width="100%" height="520" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Land Parcels Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=7f5626b267a042a7869926b3d379f5b9&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
+      <iframe title="Available datasets" width="100%" height="520" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Land Parcels Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=7f5626b267a042a7869926b3d379f5b9&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
       </iframe>
       <h2>Download</h2>
       <p>Use the DataHub to download the Land Parcels dataset:</p>
@@ -33,6 +33,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
     </div>
   </div>
 </div>
+<!---
 <section id="parcel-numbers">
   <div class="container-md">
     <h2>Program Timeline</h2>
@@ -61,14 +62,13 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       <div class="phase phase-10"><strong>Ongoing annual refresh</strong> of statewide geographic parcel data
       </div>
     </div>
-</section>
-
+</section> -->
 <div class="container-md">
   <div class="row">
     <div id="agency-parcel-uses" class="col-lg-6">
       <h2>Program Flow</h2>
       <p>This iterative program flow will occur throughout the year. At no one time will there be a completed or final version of data as each data source has varying update schedules. Please check each county for the most recent version of data.</p>
-      <img src="https://cdn.tnris.org/images/data-circle.jpg" class="img-fluid">
+      <img src="https://cdn.tnris.org/images/Program_Flow.png" class="img-fluid">
       <h2>Agency Parcel Uses</h2>
       <p class="lead">Texas State Agencies make extensive use of Land Parcel data for all types of operations and applications.</p>
       <hr class="clearfix">
@@ -203,7 +203,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       <p>Not all counties are available for download from TNRIS. We continue to work with appraisal districts to provide as many county land parcel datasets as possible. As they are available, they will be posted online for download and the availability map updated. A directory of appraisal districts is located on the <a href="https://comptroller.texas.gov/taxes/property-tax/county-directory/">Texas Comptroller of Public Accounts website</a>.</p>
       <hr>
       <p>Contact TNRIS with any further questions regarding this program and someone from StratMap will get in touch with you.</p>
-      <a class="btn btn-lg btn-primary" href="/contact"><i class="fa fa-file"></i>Contact Us</a>
+      <a class="btn btn-md btn-tnris btn-lg mx-auto d-block" href="/contact"><i class="fa fa-comment"></i> Contact Us</a>
     </div>
   </div>
 </div>

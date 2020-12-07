@@ -43,7 +43,7 @@ Further details regarding this acquisition can be found by downloading the [Stra
 
 View coverage areas in the interactive map below:
 
-<iframe width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/f4af476f-dae0-49a4-b3e9-a12399020c77/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe title="Coverage area" width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/f4af476f-dae0-49a4-b3e9-a12399020c77/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builder/a5dfc759-9a90-4acd-a8d1-57d521c7e1fe/public_map) for statewide lidar coverage.
 
