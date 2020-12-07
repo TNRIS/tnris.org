@@ -1,7 +1,7 @@
 ---
 layout: rdc/rdc-sub.njk
 title: Custom Maps
-mainimage: https://cdn.tnris.org/images/custom_banner.jpg
+mainimage: https://cdn.tnris.org/images/custom_maps_banner.jpg
 abstract: From customized contour maps to historical imagery posters of your hometown, we can make the map you’re looking for.
 ---
 
@@ -20,47 +20,58 @@ abstract: From customized contour maps to historical imagery posters of your hom
 
 <p class="lead">Just fill out our <a href="/order-map">order form</a> to start a custom map order. List all available datasets you would like to include in your map then TNRIS Staff will contact you with a quote. You can also send us your own geospatial data to add to any custom map we are creating for you.</p>
 
-<div class="bs-callout bs-callout-info"><strong>Important Note:</strong> Coverage area on all maps must be within Texas and show data from the TNRIS archive.. </div>
+<div class="bs-callout bs-callout-info"><strong>Important Note:</strong> Coverage area on all maps must be within Texas and show data from the TNRIS archive. </div>
 
 ## Examples of Previous Work
 <div class="row">
 
-<div class="col-lg-4">
+<div class="col-lg-6">
 <h3>Fishing Map</h3>
+<div class="card cardRDC">
 <a href="https://cdn.tnris.org/images/custom_fishing_map.jpg"  data-toggle="lightbox" data-gallery="example-gallery" data-title="Custom Fishing Map">
-<img src="https://cdn.tnris.org/images/custom_fishing_map_th.jpg" class="card card-body custom-map-thumb img-fluid" alt="Custom Fishing produced by RDC">
+<img src="https://cdn.tnris.org/images/custom_fishing_map_th.jpg" class="custom-map-thumb img-fluid" alt="Custom Fishing produced by RDC">
 </a>
-
-<p>This map combines Bathymetry, Fish Attractors, Orthoimagery and Transportation datasets for Lake Buchanan.</p>
+  <div class="card-body">
+    <p class="card-text">This map combines Bathymetry, Fish Attractors, Orthoimagery and Transportation datasets for Lake Buchanan.</p>
+  </div>
+</div>
 </div>
 
-<div class="col-lg-4">
+<div class="col-lg-6">
 <h3>Ranch Map</h3>
-
-<a href="https://cdn.tnris.org/images/custom_ranch_map.jpg"  data-toggle="lightbox" data-gallery="example-gallery" data-title="Custom Ranch Map">
-<img src="https://cdn.tnris.org/images/custom_ranch_map_th.jpg" class="card card-body custom-map-thumb img-fluid" alt="Custom Ranch produced by RDC">
+<div class="card cardRDC">
+ <a href="https://cdn.tnris.org/images/custom_ranch_map.jpg"  data-toggle="lightbox" data-gallery="example-gallery" data-title="Custom Ranch Map">
+<img src="https://cdn.tnris.org/images/custom_ranch_map_th.jpg" class="custom-map-thumb img-fluid" alt="Custom Ranch produced by RDC">
 </a>
-
-<p>This ranch map includes data from the Original Texas Land Survey, National Hydrography Dataset, StratMap Hypsography, County Boundaries, Transportation and Elevation Contours.</p>
+  <div class="card-body">
+    <p class="card-text">This ranch map includes data from the Original Texas Land Survey, National Hydrography Dataset, StratMap Hypsography, County Boundaries, Transportation and Elevation Contours.</p>
+  </div>
+</div>
 </div>
 
 
-<div class="col-lg-4">
+<div class="col-lg-6">
 <h3>Custom County Maps</h3>
-<a href="https://cdn.tnris.org/images/galveston_county_custom_map.jpg"  data-toggle="lightbox" data-gallery="example-gallery" data-title="Custom County Map">
-<img src="https://cdn.tnris.org/images/galveston_county_custom_map_th.jpg" class="card card-body custom-map-thumb img-fluid" alt="Custom County produced by RDC">
+<div class="card cardRDC">
+ <a href="https://cdn.tnris.org/images/galveston_county_custom_map.jpg"  data-toggle="lightbox" data-gallery="example-gallery" data-title="Custom County Map">
+<img src="https://cdn.tnris.org/images/galveston.jpg" class="custom-map-thumb img-fluid" alt="Custom County produced by RDC">
 </a>
-<p>The Custom County Map series was developed in-house by TNRIS Cartographers and provides an individual map for all 254 counties. These maps can serve as basic reference maps and base maps. Galveston County is shown above.</p>
+  <div class="card-body">
+    <p class="card-text">The Custom County Map series was developed in-house by TNRIS Cartographers and provides an individual map for all 254 counties. These maps can serve as basic reference maps and base maps. Galveston County is shown above.</p>
+  </div>
+</div>
 </div>
 
-<div class="col-lg-4">
+
+<div class="col-lg-6">
 <h3>Fly Ash Producers</h3>
-<a href="https://cdn.tnris.org/images/flyash_custom_map.jpg"  data-toggle="lightbox" data-gallery="example-gallery" data-title="Map of Fly Ash Producers">
-<img src="https://cdn.tnris.org/images/flyash_custom_map_th.jpg" class="card card-body custom-map-thumb img-fluid" alt="Fly Ash Map Producer Custom map by RDC">
+<div class="card cardRDC">
+ <a href="https://cdn.tnris.org/images/flyash_custom_map.jpg"  data-toggle="lightbox" data-gallery="example-gallery" data-title="Map of Fly Ash Producers">
+<img src="https://cdn.tnris.org/images/flyash_custom_map.jpg" class="custom-map-thumb img-fluid" alt="Fly Ash Map Producer Custom map by RDC">
 </a>
-<p>This map shows the locations of Class F and Class C Fly Ash producing plants in the state of Texas. Fly Ash is a biproduct of coal-fired power plants commonly used to improve the durability of concrete for road construction purposes.</p>
+  <div class="card-body">
+    <p class="card-text">This map shows the locations of Class F and Class C Fly Ash producing plants in the state of Texas. Fly Ash is a biproduct of coal-fired power plants commonly used to improve the durability of concrete for road construction purposes.</p>
+  </div>
 </div>
-
-
-
+</div>
 </div>
