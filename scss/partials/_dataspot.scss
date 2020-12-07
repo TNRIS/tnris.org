@@ -25,7 +25,6 @@
   }
   // end Carousel
 
-
   .spotText {
     background: rgba(0,0,0,.75);
     border-radius: 10px;
@@ -239,3 +238,8 @@
     color: white;
     }
 }
+
+.carousel-caption {
+  text-shadow: 3px 3px 8px #000000;
+}
+

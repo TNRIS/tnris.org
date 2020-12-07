@@ -7,13 +7,13 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 <div class="container-md">
   <div class="row">
     <div class="col-lg-6">
-      <p class="lead">Address points are site or structure point data that have associated information such as house number, street name, postal community, and postal code. This information is recorded and maintained at the city and county level in Texas and aggregated to Regional Planning Commissions or Emergency Communications Districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
+      <p class="lead"><strong>Address points</strong> are site or structure point data that have associated information such as house number, street name, postal community, and postal code. This information is recorded and maintained at the city and county level in Texas and aggregated to Regional Planning Commissions or Emergency Communications Districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
       <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://cdn.tnris.org/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
     </div>
     <div class="col-lg-6">
       <h2 style="margin-top: 0">Available Datasets</h2>
       <p>The map below shows available address points across Texas. Data were received across 247 counties and may not be complete coverage.</p>
-      <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Address Points Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=e8c2c6bd86064f6fbadbd38a60b50ccd&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
+      <iframe title="Available address points" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Address Points Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=e8c2c6bd86064f6fbadbd38a60b50ccd&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
       </iframe>
       <h2>Download</h2>
       <p>Use the DataHub to download the Address Points dataset:</p>
@@ -21,6 +21,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
     </div>
   </div>
 </div>
+<!---
 <section id="parcel-numbers" >
 <div class="container-md">
     <h2>Program Timeline</h2>
@@ -42,9 +43,8 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
               </div>
       <div class="phase phase-10"><strong>Ongoing annual refresh</strong> of statewide geographic address point data
       </div>
-</div>
-
-</section>
+</div> 
+</section> -->
 
 <div class="container-md">
 <div class="row">
@@ -52,7 +52,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 
 <h2>Program Flow</h2>
 <p>This iterative program flow will occur throughout the year. At no one time will there be a completed or final version of data as each data source has varying update schedules. Please check each county for the most recent version of data.</p>
-<img src="https://cdn.tnris.org/images/data-circle.jpg" class="img-fluid">
+<img src="https://cdn.tnris.org/images/Program_Flow.png" class="img-fluid">
 <h2>Agency Address Point Uses</h2>
 <p class="lead">Texas State Agencies make extensive use of Address Point data for all types of operations and applications.</p>
 <hr class="clearfix">
@@ -170,7 +170,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 
 <h3>What is the purpose of these address points?</h3>
 
-<p>These address points were created for 9-1-1 call routing purposes; however, they are now available for public use.  The <a href="https://www.911.gov/issue_nextgeneration911.html">Next Generation 9-1-1 (NG911)</a> system will rely heavily on the accuracy of geospatial data, including address points.  As a result, these data are continually scrubbed and analyzed for use within the NG911 system by the authoritative data sources and their vendors.  Over time, these data may change based on GIS standards established by the <a href="https://www.nena.org/page/NG911GISDataModel">National Emergency Number Association (NENA)</a> or for other reasons.  TNRIS does not edit these data.</p>
+<p>These address points were created for 9-1-1 call routing purposes; however, they are now available for public use.  The <a href="https://www.911.gov/issue_nextgeneration911.html">Next Generation 9-1-1 (NG911)</a> system will rely heavily on the accuracy of geospatial data, including address points.  As a result, these data are continually scrubbed and analyzed for use within the NG911 system by the authoritative data sources and their vendors.  Over time, these data may change based on GIS standards established by the <a id="NENAdatamodel" href="https://www.nena.org/page/NG911GISDataModel" aria-labelledby="NENAdatamodel">National Emergency Number Association (NENA)</a> or for other reasons.  TNRIS does not edit these data.</p>
 
 * * *
 

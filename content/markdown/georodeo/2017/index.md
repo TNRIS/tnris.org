@@ -46,7 +46,7 @@ Sponsored by <a href="https://boundlessgeo.com/"><img src="https://cdn.tnris.org
 
 The City of Austin's Design, Technology, and Innovation Fellows program provides an opportunity for Austin’s passionate and civic-minded designers and developers to bring the principles, values, and practices of the technology sector into government. Inspired by the success of programs at 18F, Code for America, and the U.S. Digital Service, we partner with departments throughout the city to tackle some of their biggest challenges.
 
-<iframe src="https://docs.google.com/presentation/d/1pSOvzdt3zXl8cEpfShHjTfs13WHr8Ird_Ve9EP3q_Zg/embed?start=false&loop=false&delayms=5000&slide=id.g21bb358ab0_0_69" frameborder="0" width="100%" height="500" allowfullscreen></iframe>
+<iframe title="ATX Floods" src="https://docs.google.com/presentation/d/1pSOvzdt3zXl8cEpfShHjTfs13WHr8Ird_Ve9EP3q_Zg/embed?start=false&loop=false&delayms=5000&slide=id.g21bb358ab0_0_69" frameborder="0" width="100%" height="500" allowfullscreen></iframe>
 
 <h3 id="katherine-smyth-solution-engineer-esri"><small class="text-muted">10:45AM to 11:15AM</small><br>Katherine Smyth, ESRI</h3>
 
@@ -54,7 +54,7 @@ The City of Austin's Design, Technology, and Innovation Fellows program provides
 
 As a Solution Engineer at Esri, Katherine helps cities and counties create, maintain and use geospatial data to make decisions that help support their communities. She believes that sharing Open Data strengthens all communities and leads to innovation. When she isn't traveling to speak with local governments, she is likely doing archaeology or adventuring in the wilderness.
 
-<iframe src="https://myago.maps.arcgis.com/apps/MapJournal/index.html?appid=f3ec6afc32da4e1fa3a24bd1780db8e4" frameborder="0" width="100%" height="500" allowfullscreen></iframe>
+<iframe title="Esri Open Data" src="https://myago.maps.arcgis.com/apps/MapJournal/index.html?appid=f3ec6afc32da4e1fa3a24bd1780db8e4" frameborder="0" width="100%" height="500" allowfullscreen></iframe>
 
 <h3 id="glynnis-ritchie-ux-engineer"><small class="text-muted">11:15AM to 11:45AM</small><br> Glynnis Ritchie, UX Engineer</h3>
 
@@ -72,7 +72,7 @@ Glynnis is passionate about creative collaboration, interdisciplinary teams, and
 
 Lunch on your own. Here's a map of nearby lunch spots:
 
-<iframe src="https://www.google.com/maps/d/embed?mid=zd5XoMCEujcc.k_86BbpIkUR0" width="100%" height="400"></iframe>
+<iframe title="Lunch spots" src="https://www.google.com/maps/d/embed?mid=zd5XoMCEujcc.k_86BbpIkUR0" width="100%" height="400"></iframe>
 
 *****
 
@@ -84,7 +84,7 @@ Sara Safavi, Software Engineer at <a class="keynote-title" href="https://boundle
 
 **Sara Safavi** is a software engineer at Boundless who writes free and open source software that helps other people do cool geo-stuff. She is a core contributor to the open source GeoNode project, and currently spends much of her time working on the nonprofit MapStory Foundation's GeoNode-based web mapping platform. Outside of work, Sara is an organizer for MaptimeATX and frequent speaker in the Python and geospatial tech communities.
 
-<iframe src="https://docs.google.com/presentation/d/1_wy8Wb0-pY4JPDcukpXE-q6ZQuLLXHXM48xQs6eNbHQ/embed?slide=id.g35f391192_00" frameborder="0" width="100%" height="500" allowfullscreen></iframe>
+<iframe title="Spatial is not special" src="https://docs.google.com/presentation/d/1_wy8Wb0-pY4JPDcukpXE-q6ZQuLLXHXM48xQs6eNbHQ/embed?slide=id.g35f391192_00" frameborder="0" width="100%" height="500" allowfullscreen></iframe>
 
 ******
 ## 2:15PM to 2:45PM
