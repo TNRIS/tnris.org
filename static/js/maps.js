@@ -34,7 +34,7 @@ function buildDownloadsTable(downloads) {
           <th>Width</th>
           <th>Length</th>
           <th>PPI</th>
-          <th>Link</th>
+          <th style="width: 125px;">Link</th>
         </tr>
       </thead>
       <tbody class="map-sheets-tbody">
@@ -58,6 +58,7 @@ function buildCollectionsList(collections) {
   });
   var collectionsList =
   `
+    <br>
     <h4><a href="https://data.tnris.org">DataHub</a> Layers In Map Collection</h4>
     <ul>
       ${listItems}
@@ -99,7 +100,7 @@ function retrieveMaps() {
       var publishDate = new Date(m.publish_date);
       publishDate.setDate(publishDate.getDate()+1);
 
-      var moreInfo = m.more_info_link ? `<a href="${m.more_info_link}" target="_blank" title="Open More Info on ${m.name} in New Window"><i class="fa fa-new-window"></i> More Info</a>` : '';
+      var moreInfo = m.more_info_link ? `<a href="${m.more_info_link}" target="_blank" title="Open More Info on ${m.name} in New Window">More Info <i class="fa fa fa-external-link fa-xs" aria-hidden="true"></i></a>` : '';
       var downloadsList = buildDownloadsTable(m.map_downloads);
       var collectionsList = m.data_collections ? buildCollectionsList(m.data_collections) : '';
 
