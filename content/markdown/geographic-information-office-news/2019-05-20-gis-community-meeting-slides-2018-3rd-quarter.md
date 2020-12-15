@@ -2,7 +2,7 @@
 layout: gio-news.njk
 title: "Slides: Texas GIS Community Meeting 2018 3rd Quarter"
 author: Felicia Retiz, Deputy GIO
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/texaswords_th.jpg
+thumbnail: https://cdn.tnris.org/images/texaswords_th.jpg
 abstract:
     Slides from 2018 3rd Quarter Meeting 2018 of the GIO.
 ---
@@ -11,7 +11,7 @@ abstract:
 
 <script async class="speakerdeck-embed" data-id="467bb61066fc4818942dd1b5f5aba040" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-<h3><a href="https://tpwd.texas.gov/"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/tpwd_logo.jpg" alt="Texas Parks and Wildlife Logo"></a> Texas Parks and Wildlife Department (TPWD)</h3>  
+<h3><a href="https://tpwd.texas.gov/"><img class="float-right" src="https://cdn.tnris.org/images/tpwd_logo.jpg" alt="Texas Parks and Wildlife Logo"></a> Texas Parks and Wildlife Department (TPWD)</h3>  
 
 #### IT
 
@@ -41,32 +41,32 @@ Using SAS and GIS, analyzing license sales based on impacts from Hurricane Harve
 Resource Specialists in the field are continuously creating and updating resource data that is supplied to GLO in support of applications such as the resource management codes
 
 ****
-<h3><a href="https://www.twdb.texas.gov"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/twdb_logo.jpg" alt="TWDB logo and link to website"></a>  Texas Water Development Board</h3>
+<h3><a href="https://www.twdb.texas.gov"><img class="float-right" src="https://cdn.tnris.org/images/twdb_logo.jpg" alt="TWDB logo and link to website"></a>  Texas Water Development Board</h3>
 
 Searching for SQL Server DBA level I, II, or III
 
 ****
 
-<h3><a href="https://www.dshs.texas.gov"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/txdshs_logo.jpg" alt="DSHS logo and link to website"></a> Department of State Health Services</h3>
+<h3><a href="https://www.dshs.texas.gov"><img class="float-right" src="https://cdn.tnris.org/images/txdshs_logo.jpg" alt="DSHS logo and link to website"></a> Department of State Health Services</h3>
 
 Unpaid intern opportunity coming up
 
 ****
 
 
-<h3><a href="https://www.csec.texas.gov"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/csec_logo_sm.jpg" alt="CSEC logo and link to website"></a> Commission on State Emergency Communications</h3>
+<h3><a href="https://www.csec.texas.gov"><img class="float-right" src="https://cdn.tnris.org/images/csec_logo_sm.jpg" alt="CSEC logo and link to website"></a> Commission on State Emergency Communications</h3>
 
 New EGDMS III system. Current contract is now expired. New contract awarded to GeoComm to get things ready for NG9-1-1
 
 ****
 
-<h3><a href="https://www.tceq.texas.gov"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/tceq_logo_sm.jpg" alt="TCEQ logo and link to website"></a>  Texas Commission on Environmental Quality</h3>
+<h3><a href="https://www.tceq.texas.gov"><img class="float-right" src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" alt="TCEQ logo and link to website"></a>  Texas Commission on Environmental Quality</h3>
 
 Moving users off of ArcGIS to Pro. Forum workshop suggestion – ArcGIS to Pro migration for the “old dogs”.
 
 ****
 
-<h3><a href="http://www.txdot.gov/"><img class="pull-right" alt="" src="https://tnris-org-static.s3.amazonaws.com/images/txdot_logo.jpg"></a> Texas Department of Transportation (TxDOT)</h3>
+<h3><a href="http://www.txdot.gov/"><img class="float-right" alt="" src="https://cdn.tnris.org/images/txdot_logo.jpg"></a> Texas Department of Transportation (TxDOT)</h3>
 
 ####  C. Bardash
 
@@ -96,7 +96,7 @@ About to launch, will look a lot different per new Esri template.
 
 ****
 
-<h3><a href="https://tpwd.texas.gov/"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/tpwd_logo.jpg" alt="Texas Parks and Wildlife Logo"></a> Texas Parks and Wildlife Department (TPWD)</h3>  
+<h3><a href="https://tpwd.texas.gov/"><img class="float-right" src="https://cdn.tnris.org/images/tpwd_logo.jpg" alt="Texas Parks and Wildlife Logo"></a> Texas Parks and Wildlife Department (TPWD)</h3>  
 
 #### Presenter: J. Nobles
 
@@ -121,7 +121,7 @@ GIS link in the “More” tab.
 
 ****
 
-<h3><a href="http://www.glo.texas.gov/"><img class="pull-right" alt="Texas General Land Office Logo and Link to website" src="https://tnris-org-static.s3.amazonaws.com/images/tx_glo_logo.jpg"></a> TX General Land Office</h3>
+<h3><a href="http://www.glo.texas.gov/"><img class="float-right" alt="Texas General Land Office Logo and Link to website" src="https://cdn.tnris.org/images/tx_glo_logo.jpg"></a> TX General Land Office</h3>
 
 #### Presenters: S. Friedman, D. Gao
 
@@ -149,7 +149,7 @@ Supporting field data collection using Arc Collector app.
 
 ****
 
-<h3><img class="pull-right" alt="TNRIS Logo" src="https://tnris-org-static.s3.amazonaws.com/images/tnris_logo.png"> Texas Natural Resources Information System</h3>
+<h3><img class="float-right" alt="TNRIS Logo" src="https://cdn.tnris.org/images/tnris_logo.png"> Texas Natural Resources Information System</h3>
 
 #### Representatives: M. Pavon, A. Breznickly, J. Kleinert
 

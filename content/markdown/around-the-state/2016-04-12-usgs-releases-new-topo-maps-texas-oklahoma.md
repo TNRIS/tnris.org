@@ -2,14 +2,14 @@
 layout: aroundthestate.njk
 title: "USGS Releases New Topo Maps for Texas & Oklahoma"
 author: Felicia Retiz, Deputy GIO
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/eastaustin_topo_sample_th.jpg
+thumbnail: https://cdn.tnris.org/images/eastaustin_topo_sample_th.jpg
 thumbalt: DIR Logo
 abstract:
      The United States Geological Survey (USGS) released the third generation of US Topo topographic maps for Texas, complete with TIGER road data.
 tags: stratmap, hpids, dir
 ---
-<figure class="pull-right">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/eastaustin_topo_sample.jpg" alt="a sample of the new topo maps, east austin with imagery">
+<figure class="float-right">
+<img src="https://cdn.tnris.org/images/eastaustin_topo_sample.jpg" alt="a sample of the new topo maps, east austin with imagery">
 <figcaption>2015 East Austin Quad topo map with aerial imagery underneath.</figcaption>
 </figure>
 <p class="lead">

@@ -1,309 +1,573 @@
 ---
 layout: texas-imagery-service.njk
 title: Texas Imagery Service
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/texas-imagery-service-bg.jpg
+mainimage: https://cdn.tnris.org/images/texas-imagery-service-bg.jpg
 abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, Utilize and Incorporate into the Work you do for the Public.
 ---
-### General FAQ
 
-## How can the Texas Imagery Service help my organization?
-The Texas Imagery Service serves 6-inch, natural color imagery for the State of Texas.
-
-It provides state organizations with a current and consistent data source while offering the highest resolution imagery available for any statewide program through an OGC compliant Web Map Service (WMS) and Web Map Tile Service (WMTS).
-
-Google hosts the Texas Imagery Service through its latest Google Cloud Platform technology.  It provides significant cost savings by streaming imagery directly to your GIS or application.  There is no need to pay large storage costs for serving terabytes of data.
-
------
-
-## How will maintenance and imagery update costs be covered in the future?
-During the pilot year, which extends through March 2016, the GIS Solutions Group will review options for a fair and reasonable cost-recovery model using usage metrics and other factors. The more that play the less we all pay.
-
------
-
-## I don’t use the Google Maps API, how can I incorporate the services into my tools and applications?
-Google Maps API provides access to the rich mapping content services from Google. Maps API is a commercial product that requires licensing based on quantities of use but is not required to access the Texas Imagery Service.
-
-The Texas Imagery Service is an open-standard service and can be incorporated into a wide variety of GIS software and web mapping applications that support open-standard formats such as the Esri suite of products, QGIS, or Global Mapper.
-
-Check with your IT Department or software provider to determine if an OGC compliant Web Service is supported by your applications.
-
------
-
-## How is the Texas Imagery Service different from the State Programs currently in place to acquire imagery such as the Texas Orthoimagery Program (TOP) or the National Agriculture Imagery Program (NAIP)?
-The Texas Imagery Service is a mapping service that is available on-demand.  It is licensed, hosted, and served by Google.  It offers 6-inch resolution imagery, which is four times higher resolution than the 1/2-meter Texas Orthoimagery Program (TOP) imagery and approximately 16 times greater resolution than the 1-meter National Agriculture Imagery Program (NAIP) imagery.
-
-The imagery represented by the Texas Imagery Service is not in the public domain and is restricted under license.
-
------
-
-## Will the state continue to pursue its own acquisition of statewide imagery such as the Texas Orthoimagery Program (TOP) and National Agriculture Imagery Program (NAIP) partnerships?
-
-Yes, TNRIS will continue to work in coordination with partners to determine the need for orthoimagery. Persisting situations will call for new statewide leaf-off (TOP) or leaf-on (NAIP) acquisition projects to meet higher specific requirements (resolution, positioning) or even greater currency than Google’s update cycle goals (targeted for a 3 year refresh cycle around the State). Additionally, at the federal level, we currently expect the statewide 1 meter 2-year NAIP updates, contracted by the USDA, and the high resolution NGA 133 Cities imagery programs to continue. These products are different enough from the Google imagery, in terms of acquisition schedule and specs, that they should be complementary data resources.
-
------
-
-## What do I do if I suspect that my link has been compromised or is being used by someone or an organization that is not authorized to use it?
-If you feel that an unauthorized party has compromised your links, please contact TNRIS immediately.  We will disable your current links and re-establish new links for you to use.
-
------
-
-## How much does the service cost for my agency?
-The Texas Google Imagery Service is a per annual subscription service paid in full for each year of participation. The participation year runs from September 1 to August 31 each year.
-
-Cost for the service is distributed across state, regional, and local government. State agency cost is based on the amount of data usage in 'tiers'. Regional and local agencies have a flat rate.
-
-<table class="table">
-<thead>
-  <tr >
-  <th colspan="3">
-    <h3>State Agency</h3>
-  </th>
-</tr>
-</thead>
-<tr>
-  <td>Level</td>
-  <td>Data Usage\*</td>
-  <td>Costs\**</td>
-</tr>
-<tr class="super">
-  <td>Tier 1</td>
-  <td>Power</td>
-  <td>$375,000</td>
-</tr>
-<tr class="info">
-  <td>Tier 2</td>
-  <td>Advanced</td>
-  <td>$125,000</td>
-</tr>
-<tr class="success">
-<td>Tier 3</td>
-<td>High</td>
-<td>$62,500</td>
-</tr>
-<tr class="warning">
-  <td>Tier 4</td>
-  <td>Moderate</td>
-  <td>$31,250</td>
-</tr>
-<tr class="active">
-  <td>Tier 5</td>
-  <td>Minimum</td>
-  <td>$15,625</td>
-</tr>
-</table>
-
-<h3>Regional Agency</h3>
-<p class="lead">Flat fee $15,000**</p>
-
-<h3>Local Agency</h3>
-<p class="lead">Flat fee $6,000**</p>
-
-
-\* Data usage is calculated based on an annual metric of service requests.
-
-** Cost does not include DIR Fee
-
-Data usage is calculated each year and adjusted for the next year's renewal.
-
-## Can I join at any time during the year?
-Yes. Your initial annual cost will begin at the lowest tier for your government agency (state, regional, or local) and prorated through August 31.
-
------
-
-### TECHNICAL FAQ
-
-## How do I add the Texas Imagery Service to my software?
-
-Click on the button for your GIS software to learn how to add the imagery service.
-
-<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" class="btn btn-default btn-lg">ArcMap</a>
-
-<a href="https://tnris-org-static.s3.amazonaws.com/documents/WMS2Pro.pdf" class="btn btn-default btn-lg"><i class="glyphicon glyphicon-"></i>ArcGIS Pro</a>
-
-<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" class="btn btn-default btn-lg">ArcGIS Online</a>
-
-<a href="http://www.bluemarblegeo.com/knowledgebase/global-mapper/index.htm" class="btn btn-default btn-lg">GlobalMapper</a>
-
-<a href="http://knowledge.autodesk.com/support/autocad-map-3d/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/MAP3D-Use/files/GUID-A9F620AD-6B9A-487D-9B33-7D365307D571-htm.html" class="btn btn-default btn-lg">AutoCAD MAP 3D</a>
-
-<a href="http://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" class="btn btn-default btn-lg">AutoCAD CIVIL 3D 2013</a>
-
-<a href="https://tnris-org-static.s3.amazonaws.com/documents/MicroStationGoogleWMSDemo.pdf" class="btn btn-default btn-lg">MicroStation</a>
-
------
-
-## How do I add the Google WMTS link to my web application using Esri JavaScript API?
-
-A special thanks to the Texas Department of Transportation (TxDOT) for solving this problem. TxDOT reports that since replacing the WMS link with WMTS link, response times have significantly improved.
-
-Download a slideshow tutorial for this process below:
-
-<a class="btn btn-lg btn-success" href="https://tnris-org-static.s3.amazonaws.com/documents/google-wmts-with-esri-javascript-api.pdf"><i class="glyphicon glyphicon-file"></i> Download Tutorial</a>
-
------
-
-## The Texas Imagery Service now contains layers by year. What are these new layers?
-
-<p><figure class="pull-right"><img alt="A view of the layers in ArcMap" src="https://tnris-org-static.s3.amazonaws.com/images/googlelayers_arcmap.jpg">
-<figcaption>A view of the layers in ArcMap</figcaption>
-</figure>There are several layers in the WMTS and WMS Texas Imagery Service. The “Texas” layer contains the most current imagery available for Texas. As new imagery become available for 'block' areas in Texas (Ex. Dallas, Houston, etc), the older imagery are placed into the yearly layers depending on the year the imagery was flown. For example, the Austin block in the ‘texas-2016’ layer shows imagery flown in 2016 because this block was updated with imagery flown in 2017 represented in the ‘Texas’ layer.</p>
-
-Layer Descriptions:
-
-### Texas
-Statewide mosaic of latest available imagery in the Texas Imagery Service. This layer includes years 2017, 2016, 2015, 2014, and a small portion from 2013. To determine date of imagery, please refer to the instructions received with your unique link or request access.
-
-### texas-2017
-This layer contains imagery captured by Google in 2017 that is now archived to the texas-2017 layer after new imagery became available. This layer will eventually contain all imagery collected in 2017.
-
-### texas-2016
-This layer contains imagery captured by Google in 2016 that is now archived to the texas-2016 layer after new imagery became available. This layer will eventually contain all imagery collected in 2016.
-
-### texas-2015
-This layer contains imagery captured by Google in 2015 that is now archived to the texas-2015 layer after new imagery became available. This layer will eventually contain all imagery collected in 2015.
-
-### texas-2014
-This layer contains imagery captured by Google in 2014 that is now archived to the texas-2014 layer after new imagery became available. This layer will eventually contain all imagery collected in 2014.
-
-### texas-2013
-This layer contains imagery captured by Google in 2013 that is now archived to the texas-2013 layer after new imagery became available. This layer will eventually contain all imagery collected in 2013.
-
-### texas-2012
-This layer contains imagery captured by Google in 2012 that is now archived to the texas-2012 layer after new imagery became available. This layer will eventually contain all imagery collected in 2012.
-
-### texas-2011
-This layer contains imagery captured by Google in 2011 that is now archived to the texas-2011 layer after new imagery became available. This layer will eventually contain all imagery collected in 2011.
-
-### texas-basemap
-This layer includes roads, county boundaries, major water features, and city names available as base information while using the service.
-
-### Hurricane Harvey image layers
-These layers include imagery flown over some of the affected areas during the Hurricane Harvey event. They include Corpus Christi flown on 8/30/2017, Houston flown on 8/31/2017, and Lake Charles/Beaumont flown on 9/2/2017 & 9/3/2017.
-
-## Should I use the WMS service link or the WMTS service link?
-If your GIS/CAD software can ingest a WMTS, discontinue using the WMS link and begin using the WMTS link throughout your organization. WMTS is optimized for efficient web delivery and map printing.
-
-If your GIS/CAD software cannot ingest a WMTS, continue to use the WMS link.
-
-Both of your unique WMS and WMTS links will continue to serve the Texas Google imagery to your organization.
-
-Known issue: The WMTS may present offset imagery in ArcGIS version 10.1. The offset is not an issue in 10.3.
-
------
-
-## The WMTS link does not work in ArcGIS Online. Can this be fixed?
-Esri is aware of this issue and has temporarily resolved it until it can be fixed in the next release. Add the following text to the end of your unique WMTS link - /wmts?service=wmts&VERSION=1.0.0&request=GetCapabilities
-
-Ex. https://txgi.tnris.org/login/path/xxxx-xxxxxx-xxx-xxxx/wmts?service=wmts&VERSION=1.0.0&request=GetCapabilities
-
-The WMS link is compatible in ArcGIS Online.
-
------
-
-## Why does my downloaded tile imagery look blocky/patchy when displayed in ArcGIS?
-
-If you are adding the **downloaded** imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the “**Apply Gamma Stretch**:” option and to set the “**Stretch**” type to None.
-
-<figure>
-<img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/layer-properties.jpg" alt="Highlighting the properties to change for better display">
-<figcaption>The Layer properties dialog box on ArcGIS</figcaption>
-</figure>
-
------
-
-## What if my link stops working?
-There may be times when links will be updated to allow for access of newly added imagery.  Most likely, your agency would have been notified about these updates.  The fastest way to know whether this is the reason for your non-functioning links is to check status updates at the top of this page:
-
-<a href="/texas-imagery-service#project-updates" class="smooth-scroll btn btn-lg btn-tnris">
-<i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a>
-
-These updates will provide link status updates, announcements, and instructions on how to reestablish your link.
-
-If there is nothing on the portal page regarding updates, please use the “Contact and Feedback Form” and we will reactivate or reinstate your link.
-
- ## How do I request a link for my organization?
- Request a Unique link today
-</a> if you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to obtain a link for your agency, visit the request form using the button below.
-
-<a class="btn btn-danger btn-lg" href="/google-request">
-<i class="glyphicon glyphicon-comment"></i> Request a Unique Link</a>
-
-**Note:** Because the Texas Imagery Service is a restricted license, it is only for use by public organizations in the State of Texas.
-
-Contractors or any individual working on behalf of a public organization are permitted to use the imagery as long as the work being performed directly supports the public organization.  The sponsoring agency will need to request an imagery link on behalf of any contractor or outside 3rd party.
-
------
-
-## How do I know if and when new imagery has come online?
-To learn about new imagery or any updates to the Texas Imagery Service, please visit the status section at the top of this page.
-
-<a href="/texas-imagery-service#project-updates" class="smooth-scroll">
-<i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a>
-
-We will continually monitor and update this section to provide the information and history of all updates relating to the service.
-
------
-
-## Do I need to refresh my service or get a new link to see new imagery?
-No. Your current links should be updated automatically and always reflect the latest imagery.  However, during the pilot year, there may be some platform adjustments that will occur that would warrant the creation of new links.  For example, Google is phasing out the Google Maps Engine platform in favor of their Google Cloud Platform (GCP).  This change is expected to occur late in 2015 for Texas.  Once this happens, new links will need to be created for all users.  TNRIS will do our best to notify all users well before the change takes place so that you can plan accordingly.
-
------
-
-## What if I see errors or inconsistencies in the imagery?  How should I report it and to whom do I report it?
-Use the button below to go to the Questions and Feedback form located on this page.
-<a class="btn btn-default btn-lg smooth-scroll" href="/texas-imagery-service#contact-pm">
-<i class="glyphicon glyphicon-question-sign"></i> General Questions or Feedback
-</a>
-
-TNRIS will log these issues and work with Google staff to find solutions to correct them in future releases.
-
------
-
-## What projection is the Texas Imagery Service using?
-The map service tiles are  Web Mercator EPSG:3857.
-
------
-
-## Can I download or get a physical copy of the original image that is in the service?
-Yes.  Individual agencies may download the imagery for use within the agency only. To learn more about downloading imagery, please contact TNRIS.
-<a class="btn btn-default btn-lg smooth-scroll" href="/texas-imagery-service#contact-pm">
-<i class="glyphicon glyphicon-question-sign"></i> General Questions or Feedback
-</a>
-
------
-
-## What projection are the downloaded JPEG2000 (jp2) tiles using?
-The downloaded JPEG2000 tiles are Platte Carre Geographic EPSG:4326.
-
------
-
-## Is it possible to get a Color Infrared (CIR) version of the imagery as a service?
-Not at this time.  The Texas Imagery Service will only be serving out the natural color imagery for now.  The CIR version of the imagery is not available for download in the pilot year.
-
-After the pilot year, the CIR image download may be done at an additional cost. These details are still pending. TNRIS is still working with the Texas GIS Solutions Group, DIR and Google to determine the process and costs for downloading imagery after the pilot year is over.
-
------
-
-## How can I get more information about upcoming flights in Texas?
-To learn about upcoming flights in Texas and any other updates to the Texas Imagery Service, please visit the status section at the top of this page.
-
- <a href="/texas-imagery-service#project-updates" class="smooth-scroll">
- <i class="glyphicon glyphicon-menu-right"></i> View Status Updates</a>
-
-This section will provide the information about the upcoming scheduled flights for specific areas in Texas.
-
-Please note that information in the Google flight schedules are used as general guidelines and may have several overriding factors such as weather conditions and conflicting schedules.  This information can change at any time.
-
------
-
-## How do I know how much my organization has used the Texas Imagery Service?
-Contact TNRIS for a usage report.
-
------
-
-## Request a Unique Link
-If you feel all your questions have been answered, and are ready to get connected, please use the button below to request a unique link for your organization.
-
-<a class="btn btn-danger btn-lg" href="/google-request">
-<i class="glyphicon glyphicon-comment"></i> Request a Unique Link Today
-</a>
+<div class="container-fluid bg-gray" id="accordion-style-1">
+	<div class="container">
+		<section>
+			<div class="row">
+				<div class="col-12">
+					<h1 class="text-green mb-4 text-center">Frequently Asked Questions</h1>
+				</div>
+         <h3>General FAQs</h3>
+				<div class="col-12 mx-auto">
+					<div class="accordion" id="accordionExample1">
+						<div class="card">
+							<div class="card-header" id="headingA">
+								<h5 class="mb-0">
+							<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseA" aria-expanded="false" aria-controls="collapseA">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>How can the Texas Imagery Service help my organization?
+							</button>
+						  </h5>
+							</div>
+              	<div id="collapseA" class="collapse fade" aria-labelledby="headingA" data-parent="#accordionExample1">
+								<div class="card-body">
+									The Texas Imagery Service serves statewide 6-inch, natural color imagery for use in mapping and computer-aided design (CAD) applications. It provides state organizations with a current and consistent imagery data source while offering the highest pixel resolution available for any statewide program through an OGC compliant Web Map Tile Service (WMTS) and Web Map Service (WMS).<br><br>
+                  The Service provides significant cost savings by streaming quality imagery directly to your GIS or map application. There is no need to pay large storage costs associated with imagery files for serving terabytes of data.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingB">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseB" aria-expanded="false" aria-controls="collapseB">
+							 <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>How much does the Service cost for my agency?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseB" class="collapse fade" aria-labelledby="headingB" data-parent="#accordionExample1">
+								<div class="card-body">
+									The Texas Imagery Service is an annual subscription service paid in full for each year of participation. The service period runs from <b>September 1 to August 31</b> each year and can be prorated at any time.<br><br>
+          Costs for the Service are distributed across state, regional, and local government. State agency cost is based on the amount of data usage in 'levels'. Regional and local agencies pay a flat rate.<br><br>
+          <table class="table">
+            <thead>
+              <tr >
+              <th colspan="3">
+                <h3>State Agencies</h3>
+              </th>
+            </tr>
+            </thead>
+            <tr class="super">
+              <td>Level</td>
+              <td>Service Requests*</td>
+              <td>Annual Subscription Fee**</td>
+            </tr>
+            <tr class="info">
+              <td>Power</td>
+              <td>>=20,000,000</td>
+              <td>$375,000</td>
+            </tr>
+            <tr class="info">
+              <td>Advanced</td>
+              <td>1,250,000 - 19,999,999</td>
+              <td>$125,000</td>
+            </tr>
+            <tr class="success">
+            <td>High</td>
+            <td>500,000 - 1,249,999</td>
+            <td>$62,500</td>
+            </tr>
+            <tr class="warning">
+              <td>Moderate</td>
+              <td>100,000 - 499,999</td>
+              <td>$31,250</td>
+            </tr>
+            <tr class="active">
+              <td>Minimum</td>
+              <td>&lt;100,000</td>
+              <td>$15,625</td>
+            </tr>
+            <thead>
+              <tr >
+              <th colspan="3">
+                <h3>State Universities</h3>
+              </th>
+            <tr class="super">
+              <td>Level</td>
+              <td>Service Requests*</td>
+              <td>Annual Subscription Fee**</td>
+            </tr>
+              <tr class="info">
+              <td>Department (single use)</td>
+              <td>Unlimited</td>
+              <td>$375,000</td>
+            </tr>
+            <tr class="info">
+              <td>University Wide</td>
+              <td>Unlimited</td>
+              <td>$125,000</td>
+            </tr>
+            </table>
+            <h3>Regional Agency</h3>
+            <p class="lead"><small>Annual flat fee $15,000**</small></p>
+            <h3>Local Agency</h3>
+            <p class="lead"><small>Annual flat fee $6,000**</small></p>
+            &#42; State Agency cost is calculated based on an annual metric of service web requests. A web request is every <b>new</b> click, pan, scroll, load or zoom per user in your organization.<br><br>
+            &#42;&#42; Cost does not include DIR Fee
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingC>
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseC" aria-expanded="false" aria-controls="collapseC">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>Can I join at any time during the year?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseC" class="collapse fade" aria-labelledby="headingC" data-parent="#accordionExample1">
+								<div class="card-body">
+									Yes. For regional and local agencies, your annual rate will be prorated through August 31. For state agencies, your initial annual cost will begin at the lowest level, Minimum, and prorated through August 31.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingD">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseD" aria-expanded="false" aria-controls="collapseD">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>Can I have access to just my city or county at a reduced rate?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseD" class="collapse fade" aria-labelledby="headingD" data-parent="#accordionExample1">
+								<div class="card-body">
+									All subscribers access all the same imagery statewide. Currently, there are no options for smaller areas at a reduced rate.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingE">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseE" aria-expanded="false" aria-controls="collapseE">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>Can private companies on contract with a Texas government agency use the Service?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseE" class="collapse fade" aria-labelledby="headingE" data-parent="#accordionExample1">
+								<div class="card-body">
+									Yes, per the data use license, private contractors directly supporting work of a subscribing Texas government agency to the Texas Imagery Service may use the service. The subscribing Texas government agency will need to request separate links on your behalf.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingF">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseF" aria-expanded="false" aria-controls="collapseF">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>What are the terms of use?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseF" class="collapse fade" aria-labelledby="headingF" data-parent="#accordionExample1">
+								<div class="card-body">
+									The Texas Imagery Service is a subscription service providing licensed imagery data. The exact terms of use are coming soon.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingG">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseG" aria-expanded="false" aria-controls="collapseG">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>How is the Texas Imagery Service different from the State Programs currently in place to acquire imagery such as the Texas Orthoimagery Program (TOP) or the National Agriculture Imagery Program (NAIP)?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseG" class="collapse fade" aria-labelledby="headingG" data-parent="#accordionExample1">
+								<div class="card-body">
+									The Texas Imagery Service is a mapping service that is available on-demand and with no data storage costs. It is licensed, hosted, and served by Hexagon. It offers 6-inch resolution imagery, which is four times higher resolution than the 0.5-meter Texas Orthoimagery Program (TOP) imagery and the 0.6-meter National Agriculture Imagery Program (NAIP) imagery.<br><br>
+                  The imagery represented in the Texas Imagery Service is not in the public domain and is restricted under license.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingH">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseH" aria-expanded="false" aria-controls="collapseH">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>Will the state continue to pursue its own acquisition of statewide imagery such as the Texas Orthoimagery Program (TOP) and National Agriculture Imagery Program (NAIP) partnerships?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseH" class="collapse fade" aria-labelledby="headingH" data-parent="#accordionExample1">
+								<div class="card-body">
+									TNRIS will continue to work in coordination with partners to determine the need for orthoimagery outside of or in addition to the Texas Imagery Service by invoking TOP. This may include imagery acquisition at greater currency than Hexagon’s update cycle goals (targeted for a 3-year refresh cycle of the State) or during different seasonal time periods to accommodate leaf-off conditions. Additionally, at the federal level, we currently expect the statewide 0.6-meter 2 or 3-year NAIP updates, available to the public without restriction, to continue. 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>
+	</div>
+</div>
+<div class="container-fluid bg-gray" id="accordion-style-1">
+	<div class="container">
+		<section>
+			<div class="row">
+				<div class="col-12">
+				</div>
+         <h3>Technical FAQs</h3>
+				<div class="col-12 mx-auto">
+					<div class="accordion" id="accordionExample">
+						<div class="card">
+							<div class="card-header" id="headingI">
+								<h5 class="mb-0">
+							<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseI" aria-expanded="false" aria-controls="collapseI">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>How do I add the Texas Imagery Service to my software?
+							</button>
+						  </h5>
+							</div>
+              	<div id="collapseI" class="collapse fade" aria-labelledby="headingI" data-parent="#accordionExample">
+								<div class="card-body">
+<div style="text-align: center; border: 0px solid">  	
+<small>Click on the button for your GIS software to learn how to add the imagery service.</small><br><br>
+<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" target="_blank" class="btn btn-secondary btn-lg">ArcMap</a><br><br>
+
+  <a href="https://cdn.tnris.org/documents/WMS2Pro.pdf" target="_blank" class="btn btn-secondary btn-lg"><i class="fa fa-"></i>ArcGIS Pro</a>
+
+  <a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" target="_blank" class="btn btn-secondary btn-lg">ArcGIS Online</a>
+
+  <a href="http://www.bluemarblegeo.com/knowledgebase/global-mapper/index.htm" target="_blank" class="btn btn-secondary btn-lg">GlobalMapper</a>
+
+  <a href="http://knowledge.autodesk.com/support/autocad-map-3d/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/MAP3D-Use/files/GUID-A9F620AD-6B9A-487D-9B33-7D365307D571-htm.html" target="_blank" class="btn btn-secondary btn-lg">AutoCAD MAP 3D</a>
+
+  <a href="http://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" target="_blank" class="btn btn-secondary btn-lg">AutoCAD CIVIL 3D 2013</a>
+
+  <a href="https://cdn.tnris.org/documents/MicroStationGoogleWMSDemo.pdf" target="_blank" class="btn btn-secondary btn-lg">MicroStation</a>
+
+  <a href="https://docs.qgis.org/3.10/en/docs/training_manual/online_resources/wms.html?highlight=wmts" target="_blank" class="btn btn-secondary btn-lg">QGIS</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingJ">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseJ" aria-expanded="false" aria-controls="collapseJ">
+							 <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>How can I incorporate the Service into my tools and applications?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseJ" class="collapse fade" aria-labelledby="headingJ" data-parent="#accordionExample">
+								<div class="card-body">
+									The Texas Imagery Service is an open-standard service and can be incorporated into a wide variety of GIS/CAD software and web map applications that support open-standard formats such as the Esri suite of products, QGIS, or Global Mapper.<br><br>
+                  Check with your IT Department or software provider to determine if an OGC compliant web service is supported by your applications.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingK">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseK" aria-expanded="false" aria-controls="collapseK">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>Can I use the Service in public facing web map applications?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseK" class="collapse fade" aria-labelledby="headingK" data-parent="#accordionExample">
+								<div class="card-body">
+									Yes, per the license, subscribing participants may incorporate the service in public facing web map applications.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingL">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseL" aria-expanded="false" aria-controls="collapseL">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>How do I add the WMTS link to my web application using Esri JavaScript API?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseL" class="collapse fade" aria-labelledby="headingL" data-parent="#accordionExample">
+								<div class="card-body">
+									A special thanks to the Texas Department of Transportation (TxDOT) for solving this problem. TxDOT reports that since replacing the WMS link with WMTS link, response times have significantly improved.<br><br>
+                  Download a slideshow tutorial for this process below:</small><br><br>
+                  <div style="text-align: center; border: 0px solid"> 
+                  <a class="btn btn-secondary" href="https://cdn.tnris.org/documents/google-wmts-with-esri-javascript-api.pdf"><i class="fa fa-file"></i> Download Tutorial</a></div>
+                </div>
+              </div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingM">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseM" aria-expanded="false" aria-controls="collapseM">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>The Service contains several layers. What are these layers? Which one(s) should I use?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseM" class="collapse fade" aria-labelledby="headingM" data-parent="#accordionExample">
+								<div class="card-body">
+									<figure><img alt="A view of the layers in ArcMap" src="https://cdn.tnris.org/images/tislayers.png"><figcaption>A view of the Texas Imagery Service layers.</figcaption></figure>
+                  There are several layers in the WMTS and WMS Texas Imagery Service. The ‘Texas’ main layer contains imagery from our legacy Google imagery flights last updated May 2020. The Hexagon layers may contain <b>more recent imagery in the rural areas only</b> compared to the ‘Texas’ main layer.  They are:
+                    <ul>
+                        <li><b>Texas_Hexagon_2018_15cm_Only</b> - urban areas 15cm/6in imagery</li>
+                        <li><b>Texas_Hexagon_Composite_2018</b> - statewide 30cm/1ft imagery</li>
+                      </ul>
+                   <b>For urban areas, please continue to use the ‘Texas’ main layer</b> for the most recent imagery.
+                  <b>Hexagon is currently flying the entire state of Texas at 15cm/6in resolution!</b> This 2020 imagery will replace the Google imagery statewide in the ‘Texas’ main layer in <b>early 2021</b>. The best part is that the switch will be transparent, and you will not need to reconnect or change your connection!
+                  <h3>Layer Descriptions:</h3>
+                  <h4><u>Texas</u></h4>
+                  Statewide mosaic of latest available imagery in the Texas Imagery Service from legacy Google imagery content. This layer will eventually contain the **new 2020 6-inch imagery flown statewide by Hexagon.** The ‘switch out’ from the Google imagery will occur in early 2021.<br><br>
+                  <h4><u>Texas_Hexagon_2018_15cm_Only</u></h4>
+                  This layer includes Texas’ major urban areas only flown by Hexagon in 2018 at 6-inch/15cm resolution.<br><br>
+                  <h4><u>Texas_Hexagon_Composite_2018</u></h4>
+                  This layer includes consistent, statewide imagery flown by Hexagon in 2018 at 1-foot/30cm resolution.<br><br>
+                  <h4><u>texas-2011 through texas-2020</u></h4>
+                  These layers contain imagery captured by Google from 2011 - 2020 that is now archived after new imagery became available. This layers each contain all imagery collected within each year.<br><br>
+                  <h4><u>texas-basemap</u></h4>
+                  This layer includes roads, county boundaries, major water features, and city names available as base information that were cartographically designed for use on top of imagery while using the service.<br><br>
+                  <h4><u>Hurricane Harvey image layers</u></h4>
+                    <ul>
+                      <li>corpuschristi_20170830</li>
+                      <li>houston_20170831</li>
+                      <li>la_lakecharles_tx_beaumont_20170902 and 03</li>
+                    </ul>
+                  These layers include imagery flown over some of the affected areas during the Hurricane Harvey event. They include Corpus Christi flown on 8/30/2017, Houston flown on 8/31/2017, and Lake Charles/Beaumont flown on 9/2/2017 & 9/3/2017.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingN">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseN" aria-expanded="false" aria-controls="collapseN">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>How do I access the acquisition or flight date of the imagery?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseN" class="collapse fade" aria-labelledby="headingN" data-parent="#accordionExample">
+								<div class="card-body">
+									To determine the date of the imagery, open your unique <b>preview link</b>. Turn on ‘Texas downloads' and click on the polygons on the map to retrieve the dates. 
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingO">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseO" aria-expanded="false" aria-controls="collapseO">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>Should I use the WMTS link or the WMS link?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseO" class="collapse fade" aria-labelledby="headingO" data-parent="#accordionExample">
+								<div class="card-body">
+									If your GIS/CAD software can ingest a WMTS, use it over the WMS link throughout your organization. WMTS is optimized for efficient web delivery and map printing.<br><br>
+                  If your GIS/CAD software cannot ingest a WMTS, use the WMS link.<br><br>
+                  Both of your unique WMTS and WMS links serve the same imagery to your organization.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingP">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseP" aria-expanded="false" aria-controls="collapseP">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>Does the Service work in ArcGIS Online?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseP" class="collapse fade" aria-labelledby="headingP" data-parent="#accordionExample">
+								<div class="card-body">
+									Yes, the WMTS and WMS Texas Imagery Service links are OGC (Open Geospatial Consortium) and compatible in ArcGIS Online.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingQ">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseQ" aria-expanded="false" aria-controls="collapseQ">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>What if my links stop working?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseQ" class="collapse fade" aria-labelledby="headingQ" data-parent="#accordionExample">
+								<div class="card-body">
+									Please use the “Contact and Feedback Form” and we will reactivate or reinstate your links.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingR">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseR" aria-expanded="false" aria-controls="collapseR">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>How do I request trial links for my organization?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseR" class="collapse fade" aria-labelledby="headingR" data-parent="#accordionExample">
+								<div class="card-body">
+									Request unique links today if you are working for a public organization in the State of Texas (ie. state, regional or local government) and would like to obtain links for your agency. Visit the trial links form using the button below.<br><br>
+                  <div style="text-align: center; border: 0px solid"> 
+                  <a class="btn btn-secondary btn-lg" href="/tis-request">
+                  <i class="fa fa-comment"></i> Request a Trial Link</a></div><br>
+                  <b>Note:</b> Because the Texas Imagery Service is a restricted license, it is only for use by subscribing public organizations in the State of Texas.<br><br>
+                  Contractors or any individual working on behalf of a public organization are permitted to use the imagery service if the work being performed directly supports the public organization. The sponsoring agency will need to request service links on behalf of any contractor or outside 3rd party.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingS">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseS" aria-expanded="false" aria-controls="collapseS">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>How do I know if new imagery has been added to the Service?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseS" class="collapse fade" aria-labelledby="headingS" data-parent="#accordionExample">
+								<div class="card-body">
+									To learn about new imagery updates to the Texas Imagery Service, please visit the Latest Updated Imagery map at the top of this page.<br><br>
+                  Additionally, an email is sent to all subscribing participants when an imagery refresh occurs.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingT">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseT" aria-expanded="false" aria-controls="collapseT">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>Do I need to refresh my Service or get a new link to see new imagery?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseT" class="collapse fade" aria-labelledby="headingT" data-parent="#accordionExample">
+								<div class="card-body">
+									Your current links will update automatically with the new imagery as it becomes available. Depending on your software or applications, a refresh or reconnect is typically not necessary. 
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingU">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseU" aria-expanded="false" aria-controls="collapseU">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>What if I see errors or inconsistencies in the imagery? How should I report it? 
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseU" class="collapse fade" aria-labelledby="headingU" data-parent="#accordionExample">
+								<div class="card-body">
+									Use the Contact and Feedback Form below. TNRIS will log these issues and work with the AppGeo/Hexagon team to find solutions to correct them in future imagery releases.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingV">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseV" aria-expanded="false" aria-controls="collapseV">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>What projection is the Service using?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseV" class="collapse fade" aria-labelledby="headingV" data-parent="#accordionExample">
+								<div class="card-body">
+									The map service tiles are Web Mercator EPSG:3857.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingW">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseW" aria-expanded="false" aria-controls="collapseW">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>Can I download or get a physical copy of the original image that is in the Service?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseW" class="collapse fade" aria-labelledby="headingW" data-parent="#accordionExample">
+								<div class="card-body">
+									Yes. Subscribing agencies may download the imagery for use within the organization only. For instructions on how to download imagery from the service, use the Contact and Feedback Form below. 
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingX">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseX" aria-expanded="false" aria-controls="collapseX">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>Why does my downloaded tile imagery look blocky/patchy when displayed in ArcGIS?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseX" class="collapse fade" aria-labelledby="headingX" data-parent="#accordionExample">
+								<div class="card-body">
+									If you are adding the <b>downloaded</b> imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the <b>“Apply Gamma Stretch:”</b> option and to set the <b>“Stretch”</b> type to None.<br><br>
+                  <figure>
+                  <img class="img-fluid" src="https://cdn.tnris.org/images/layer-properties.jpg" alt="Highlighting the properties to change for better display">
+                  <figcaption><small>The Layer properties dialog box on ArcGIS</small></figcaption>
+                  </figure> 
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingY">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseY" aria-expanded="false" aria-controls="collapseY">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>What projection are the downloaded JPEG (jpg) tiles using?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseY" class="collapse fade" aria-labelledby="headingY" data-parent="#accordionExample">
+								<div class="card-body">
+									The downloaded JPEG tiles are Web Mercator EPSG:3857.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingZ">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseZ" aria-expanded="false" aria-controls="collapseZ">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>Is it possible to get a Color Infrared (CIR) version of the imagery as a Service?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseZ" class="collapse fade" aria-labelledby="headingZ" data-parent="#accordionExample">
+								<div class="card-body">
+									Not at this time. The Texas Imagery Service will only be serving out the natural color imagery for now. The CIR version of the imagery may become available in the future.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingAA">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseAA" aria-expanded="false" aria-controls="collapseAA">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>How do I know how much my organization has used the Service?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseAA" class="collapse fade" aria-labelledby="headingAA" data-parent="#accordionExample">
+								<div class="card-body">
+									Use the Contact and Feedback Form below to request a usage report from TNRIS.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingBB">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseBB" aria-expanded="false" aria-controls="collapseBB">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>What do I do if I suspect my links have been compromised or are being used by someone or an organization that is not authorized to use them?
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseBB" class="collapse fade" aria-labelledby="headingBB" data-parent="#accordionExample">
+								<div class="card-body">
+									If you feel that an unauthorized party has compromised your links, please contact TNRIS immediately. We will disable your current links and re-establish new links for you to use.
+								</div>
+							</div>
+						</div>
+            <div class="card">
+							<div class="card-header" id="headingCC">
+								<h5 class="mb-0">
+							<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseCC" aria-expanded="false" aria-controls="collapseCC">
+							  <i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>Request unique trial links
+							</button>
+						  </h5>
+							</div>
+							<div id="collapseCC" class="collapse fade" aria-labelledby="headingCC" data-parent="#accordionExample">
+								<div class="card-body">
+									Please use the button below to request unique trial links for your organization.<br><br>
+                  <div style="text-align: center; border: 0px solid"> 
+                  <a class="btn btn-secondary btn-lg" href="/tis-request">
+                  <i class="fa fa-comment"></i> Request a Unique Link Today</a>
+                  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>
+	</div>
+</div>

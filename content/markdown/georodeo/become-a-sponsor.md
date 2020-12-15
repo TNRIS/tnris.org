@@ -1,8 +1,8 @@
 ---
 layout: events/georodeo-2019/georodeo-sponsors.njk
 title: Become a GeoRodeo sponsor
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/vaporwave_banner.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/vaporwave_banner.jpg
+mainimage: https://cdn.tnris.org/images/vaporwave_banner.jpg
+mainimagesm: https://cdn.tnris.org/images/vaporwave_banner.jpg
 abstract: Help Sponsor the GeoRodeo
 ---
 

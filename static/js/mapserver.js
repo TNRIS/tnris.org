@@ -5,7 +5,7 @@ function getIndexes() {
 	function getter (url) {
 		$.get(url, function( data ) {
 			data.results.forEach(function(c) {
-				if (c.scanned_index_ls4_links !== "") {
+				if (c.scanned_index_ls4_links && c.scanned_index_ls4_links !== "") {
 					var linkList = JSON.parse("[" + c.scanned_index_ls4_links + "]");
 					linkList.forEach(function(l) {
 						l.county = c.counties;
@@ -97,7 +97,7 @@ function getMapfiles() {
 
 				collections.sort(compare);
 				collections.forEach(function (i) {
-					var template = '<tr><td class="col-md-4">__label__</td><td class="col-md-8"><div class="input-group copy-url-container" style="width:100%;"><span class="input-group-btn"><button class="btn btn-tnris copy-url-btn" type="button" style="margin-top:0;"><i class="fa fa-clipboard"></i> Copy URL</button></span><input class="wms-url copy-url-input form-control" type="text" readonly value="__wms__"></div></td></tr>';
+					var template = '<tr><td class="col-lg-4">__label__</td><td class="col-lg-8"><div class="input-group copy-url-container" style="width:100%;"><span class="input-group-btn"><button class="btn btn-tnris copy-url-btn" type="button" style="margin-top:0;"><i class="fa fa-clipboard"></i> Copy URL</button></span><input class="wms-url copy-url-input form-control" type="text" readonly value="__wms__"></div></td></tr>';
 					var service =  template.replace("__label__", i.label).replace(/__wms__/g, i.wms);
 					$("#mapserver-services-tbody:last-child").append(service);
 				})

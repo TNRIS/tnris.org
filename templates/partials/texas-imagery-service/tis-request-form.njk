@@ -1,6 +1,6 @@
 {% import "_form_macros.njk" as form %}
 
-{{form.before("google-request")}}
+{{form.before("tis-request")}}
   {{form.input("Name", "Name", "text", true)}}
 
   {{form.input("Email", {
@@ -122,7 +122,7 @@
   )}}
   {{form.checkbox(
     "horizontal accuracy",
-    "Stated horizontal positional accuracy of the imagery is expected to achieve or exceed one meter (CE90) in most areas without significant vertical relief. Higher precision is expected in urban areas, where existing supplemental ground control was more abundant.",
+    "Stated horizontal positional accuracy of the imagery is expected to achieve or exceed 1.07 meter (CE90) in most areas without significant vertical relief. Higher precision is expected in urban areas, where existing supplemental ground control was more abundant.",
     "Yes, I understand",
     true,
     true
@@ -136,7 +136,7 @@
   )}}
   {{form.checkbox(
     "contractors",
-    "Contractors or formal partners performing work on behalf of a licensee must apply separately for access to the imagery service if it is to be used outside the immediate licensee's physical facilities or network.",
+    "Contractors or formal partners performing work on behalf of a licensee must apply separately for access to the imagery service if it is to be used outside the immediate licensee's physical facilities or network. The licensee must make the request through this form.",
     "Yes, I agree",
     true,
     true
@@ -150,7 +150,7 @@
   )}}
 
 <h2>PART 3. Acknowledgement (Required)</h2>
-<p>On behalf of my organization, I have checked the appropriate boxes to indicate acknowledgement and agreement to the informational items and terms of service, as listed above, pertaining to usage of the State of Texas’ license to the Google Imagery products and services. Furthermore, by signing this document, my organization commits to communicating the content of this agreement to all of its end users of the imagery service.</p>
+<p>On behalf of my organization, I have checked the appropriate boxes to indicate acknowledgement and agreement to the informational items and terms of service, as listed above, pertaining to usage of the State of Texas’ license to the Texas Imagery Service products and services. Furthermore, by signing this document, my organization commits to communicating the content of this agreement to all of its end users of the imagery service.</p>
   {{form.input("Primary Contact Signature", {
       label: "Signature of Primary Contact",
       placeholder: "Your Full Name"

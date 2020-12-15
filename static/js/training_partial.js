@@ -45,7 +45,7 @@ function retrieveOpenTraining() {
 
         record.innerHTML =
           `
-          <i class="glyphicon glyphicon-calendar extended"></i>
+          <i class="fa fa-calendar extended"></i>
             <time> ${month} ${day}, ${t.year}</time>
             <h4>
               <a href="/education#${urlTitle}"> ${t.title}</a>
@@ -56,7 +56,7 @@ function retrieveOpenTraining() {
       });
     }
     // update header in template to include this year
-    document.getElementById('education-front-h3').innerHTML = `${thisYear} Training Courses`;
+    document.getElementById('education-front-h3') ? document.getElementById('education-front-h3').innerHTML = `${thisYear} Training Courses` : '';
   })
 }
 

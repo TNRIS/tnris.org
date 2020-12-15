@@ -2,14 +2,14 @@
 title: "Forum Poster Gallery & Contest"
 subtitle: Texas GIS Forum | October 22-26, 2018, Austin, Texas
 layout: events/texas-gis-forum/2018/poster-gallery.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/largest_tree_graphic_nofade.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/largest_tree_graphic_sm.jpg
+mainimage: https://cdn.tnris.org/images/largest_tree_graphic_nofade.jpg
+mainimagesm: https://cdn.tnris.org/images/largest_tree_graphic_sm.jpg
 abstract: As technology moves forward, maps are still at the heart of the GIS field. The poster gallery showcases ongoing cartographic innovation in the community.
 intro: true
 sidebar: postersubmission
 ---
 
-<img style="max-width: 50%" class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/forum_2017_12.jpg" alt="Forum Attendees looking at the Poster Gallery"> The purpose of the poster gallery is to promote and recognize the advances of map design, cartography, and GIS. The map gallery is open to all attendees and vendors. Attendees will have the opportunity to vote on each poster based on the following criteria:
+<img style="max-width: 50%" class="float-right" src="https://cdn.tnris.org/images/forum_2017_12.jpg" alt="Forum Attendees looking at the Poster Gallery"> The purpose of the poster gallery is to promote and recognize the advances of map design, cartography, and GIS. The map gallery is open to all attendees and vendors. Attendees will have the opportunity to vote on each poster based on the following criteria:
 
 - Map design
 - Use of space
@@ -18,7 +18,7 @@ sidebar: postersubmission
 - Creativity
 - Originality
 
-<div class="well well-md">
+<div class="card card-body well-md">
   <h3>Winners</h3>
 
 <p>The top 3 vote earners will be highlighted on the TNRIS website under the 'Latest News' section following the forum. </p>

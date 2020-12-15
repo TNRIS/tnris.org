@@ -16,68 +16,70 @@
 
 {% block topcontent %}
   <div class="full forum-2017-top">
-    <div class="forum-2017-brand-container container">
+    <div class="forum-2017-brand-container container-md">
       <h1 class="forum-brand sr-only"><a href="/texas-gis-forum/2018"><span>Texas GIS Forum</span></a> October 22 – 26, 2018 | Austin, Texas</h1>
       {% include "events/texas-gis-forum/2018/nav.njk" %}
     </div>
     <a href="/texas-gis-forum/2018">
       {% if mainimage %}
-        <img src="{{mainimage}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
+        <img src="{{mainimage}}" class="banner img-fluid mx-auto d-none d-md-block" alt="Texas GIS Forum Main Image">
       {% endif %}
       {% if mainimagesm %}
-        <img src="{{mainimagesm}}" class="banner img-responsive hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
+        <img src="{{mainimagesm}}" class="banner img-fluid mx-auto d-md-none d-lg-none" alt="Texas GIS Forum Main Image">
       {% endif %}
     </a>
   </div>
   <div class="_2016-forum-intro">
-    <div class="container">
+    <div class="container-md">
       <h2 class="forum-2017-page-title">{{title}}</h2>
-      <div class="col-sm-5 col-sm-push-7">
-        {% if title == '2018 Texas GIS Forum' %}
-          {% include "events/texas-gis-forum/2018/registration.njk" %}
-          {% endif %}
-          {% if title == 'Sponsors & Exhibitors' %}
-            {% include "events/texas-gis-forum/2018/sponsorbox.njk" %}
-            {% if buttontext %}
-            <a class="btn btn-lg btn-darkgrey btn-block" href="{{buttonurl}}">
-              <i class="glyphicon glyphicon-pencil"></i> {{buttontext}}
-            </a>
+      <div class="row">
+        <div class="col-sm-5 order-sm-2">
+          {% if title == '2018 Texas GIS Forum' %}
+            {% include "events/texas-gis-forum/2018/registration.njk" %}
             {% endif %}
-          {% endif %}
+            {% if title == 'Sponsors & Exhibitors' %}
+              {% include "events/texas-gis-forum/2018/sponsorbox.njk" %}
+              {% if buttontext %}
+              <a class="btn btn-lg btn-darkgrey btn-block" href="{{buttonurl}}">
+                <i class="fa fa-pencil"></i> {{buttontext}}
+              </a>
+              {% endif %}
+            {% endif %}
 
+            {% if title == 'Call for Papers' %}
+          {% endif %}
+        </div>
+        <div class="col-sm-7 order-sm-1">
+          {% if title == 'Sponsors & Exhibitors' %}
+              {% include "events/texas-gis-forum/2018/sponsortext.njk" %}
+          {% endif %}
           {% if title == 'Call for Papers' %}
-        {% endif %}
-      </div>
-      <div class="col-sm-7 col-sm-pull-5">
-        {% if title == 'Sponsors & Exhibitors' %}
-            {% include "events/texas-gis-forum/2018/sponsortext.njk" %}
-        {% endif %}
-        {% if title == 'Call for Papers' %}
-            {% include "events/texas-gis-forum/2018/cfp-text.njk" %}
-        {% endif %}
-        {% if title == 'Forum Pre-Conference Workshops' %}
-          {{contents|safe}}
-        {% endif %}
+              {% include "events/texas-gis-forum/2018/cfp-text.njk" %}
+          {% endif %}
+          {% if title == 'Forum Pre-Conference Workshops' %}
+            {{contents|safe}}
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>
 {% endblock %}
 
 {% block contentsOne %}
-  <div id="contentMain" class="container">
+  <div id="contentMain" class="container-md">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-lg-7">
         {{contents|safe}}
       </div>
       {% if title == 'Sponsors & Exhibitors' %}
-        <div class="col-md-5">
+        <div class="col-lg-5">
           <h3>Job Board</h3>
           <p>
-            <img class="pull-left" src="https://tnris-org-static.s3.amazonaws.com/images/sticky_job_square.jpg" alt="now hiring post-it note">If you're looking to fill GIS positions, there's no better place to put out the call than at the Forum, where the most highly qualified GIS practicioners in Texas will be gathered in one place. Submit your job opening, and we'll have it posted up at the conference.
+            <img class="float-left" src="https://cdn.tnris.org/images/sticky_job_square.jpg" alt="now hiring post-it note">If you're looking to fill GIS positions, there's no better place to put out the call than at the Forum, where the most highly qualified GIS practicioners in Texas will be gathered in one place. Submit your job opening, and we'll have it posted up at the conference.
           </p>
           <a class="btn btn-tnris btn-md" href="/texas-gis-forum/2018/job-board">Submit to the Job Board</a>
           <hr class="clearfix">
-          <a href="#co-sponsor-the-forum-social-1000"><img src="https://tnris-org-static.s3.amazonaws.com/images/forum_sponsor_promo.jpg" class="img-responsive" alt="Sponsor the social"></a>
+          <a href="#co-sponsor-the-forum-social-1000"><img src="https://cdn.tnris.org/images/forum_sponsor_promo.jpg" class="img-fluid" alt="Sponsor the social"></a>
         </div>
       {% endif %}
     </div>

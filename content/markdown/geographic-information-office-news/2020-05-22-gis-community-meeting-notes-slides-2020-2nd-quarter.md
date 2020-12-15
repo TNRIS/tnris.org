@@ -2,8 +2,8 @@
 layout: gio-news.njk
 title: "Texas GIS Community Meeting 2020 2nd Quarter - Notes and Slides"
 author: Felicia Retiz, Deputy GIO
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/2020_2ndQuarterCommunityMeeting.png
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/2020_2ndQuarterCommunityMeeting_thumb.png
+mainimage: https://cdn.tnris.org/images/2020_2ndQuarterCommunityMeeting.png
+thumbnail: https://cdn.tnris.org/images/2020_2ndQuarterCommunityMeeting_thumb.png
 abstract:
     The 2nd quarter GIS Community meeting took place on April 30, 2020 via virtual broadcast.
 ---

@@ -18,7 +18,7 @@ function buildDownloadsTable(downloads) {
         <td>${d.width}"</td>
         <td>${d.length}"</td>
         <td>${d.ppi}</td>
-        <td class="download-column"><a href="${d.url}"><i class="glyphicon glyphicon-download-alt"></i> Download</a></td>
+        <td class="download-column"><a href="${d.url}"><i class="fa fa-download"></i> Download</a></td>
       </tr>
     `;
     tableRows += row;
@@ -34,7 +34,7 @@ function buildDownloadsTable(downloads) {
           <th>Width</th>
           <th>Length</th>
           <th>PPI</th>
-          <th>Link</th>
+          <th style="width: 125px;">Link</th>
         </tr>
       </thead>
       <tbody class="map-sheets-tbody">
@@ -58,6 +58,7 @@ function buildCollectionsList(collections) {
   });
   var collectionsList =
   `
+    <br>
     <h4><a href="https://data.tnris.org">DataHub</a> Layers In Map Collection</h4>
     <ul>
       ${listItems}
@@ -93,44 +94,45 @@ function retrieveMaps() {
       record.setAttribute('class', 'map-collection-record');
       record.setAttribute('id', urlName);
 
-      var thumbnail = m.thumbnail_link ? `<a href="${m.thumbnail_link}" data-toggle="lightbox" data-gallery="example-gallery" data-title="${m.name}"><img class="maps-thumbnail img-responsive" src="${m.thumbnail_link}" /><small><i class="glyphicon glyphicon-zoom-in"></i> Click to Preview</small></a>` : '';
+      var thumbnail = m.thumbnail_link ? `<a href="${m.thumbnail_link}" data-toggle="lightbox" data-gallery="example-gallery" data-title="${m.name}"><img class="maps-thumbnail img-fluid" src="${m.thumbnail_link}" /><small><i class="fa fa-zoom-in"></i> Click to Preview</small></a>` : '';
 
-      var monthNames = ["January", "February", "March", "April", "May","June","July", "August", "September", "October", "November","December"];
+      var monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November","December"];
       var publishDate = new Date(m.publish_date);
+      publishDate.setDate(publishDate.getDate()+1);
 
-      var moreInfo = m.more_info_link ? `<a href="${m.more_info_link}" target="_blank" title="Open More Info on ${m.name} in New Window"><i class="glyphicon glyphicon-new-window"></i> More Info</a>` : '';
+      var moreInfo = m.more_info_link ? `<a href="${m.more_info_link}" target="_blank" title="Open More Info on ${m.name} in New Window">More Info <i class="fa fa fa-external-link fa-xs" aria-hidden="true"></i></a>` : '';
       var downloadsList = buildDownloadsTable(m.map_downloads);
       var collectionsList = m.data_collections ? buildCollectionsList(m.data_collections) : '';
 
       record.innerHTML =
         `<div class="row maps-header">
-          <div class="col-xs-12 col-sm-3 left-sidebar">
+          <div class="col-12 col-sm-3 left-sidebar">
             ${thumbnail}
           </div>
-          <div class="col-xs-12 col-sm-9 right-mainbar">
+          <div class="col-12 col-sm-9 right-mainbar">
             <div class="row">
-              <div class="col-xs-12">
+              <div class="col-12">
                 <h3>
                   ${m.name}
                 </h3>
                 <p>
-                  <span class="glyphicon glyphicon-calendar"></span>
-                  ${monthNames[publishDate.getMonth()]} ${publishDate.getDay()}, ${publishDate.getFullYear()}
+                  <span class="fa fa-calendar"></span>
+                  ${monthNames[publishDate.getMonth()]} ${publishDate.getDate()}, ${publishDate.getFullYear()}
                 </p>
                 <p class="maps-description">${m.description}</p>
                 <p>${moreInfo}</p>
               </div>
             </div>
           </div>
-          <div class="col-xs-12">
-            <a id="${urlName}ClickSheets" data-toggle="collapse" aria-expanded="false" data-target="#${m.collection_id}Sheets" href="#${urlName}">
+          <div class="col-12">
+            <a id="${urlName}ClickSheets" data-toggle="collapse" aria-expanded="false" data-target="#Sheets${m.collection_id}" href="#${urlName}">
               <button class="btn btn-map-expander btn-lg btn-block full-details-btn" type="button">
-                <i class="glyphicon glyphicon-arrow-down"></i>
+                <i class="fa fa-arrow-down"></i>
                 Expand Available Maps
               </button>
             </a>
           </div>
-          <div id="${m.collection_id}Sheets" class="available-sheets col-xs-12 collapse" style="padding:20px;">
+          <div id="Sheets${m.collection_id}" class="available-sheets col-12 collapse" style="padding:20px;">
             ${downloadsList}${collectionsList}
           </div>
         </div>`;
@@ -147,7 +149,7 @@ function retrieveMaps() {
     if (location.hash) {
       element.click();
       button.className = 'btn btn-lg btn-block btn-tnris full-details-btn';
-      button.innerHTML = "<i class='glyphicon glyphicon-arrow-up'></i> Close Avaliable Maps";
+      button.innerHTML = "<i class='fa fa-arrow-up'></i> Close Avaliable Maps";
       element.scrollIntoView({
         behavior: 'smooth'
       });
@@ -162,7 +164,7 @@ function retrieveMaps() {
       x.addEventListener("click", function() {
         var button = x.children[0];
         button.classList.contains('btn-map-expander') ? button.className = 'btn btn-tnris btn-lg btn-block full-details-btn' : button.className = 'btn btn-map-expander btn-lg btn-block full-details-btn';
-        button.innerHTML.includes('Available') ? button.innerHTML = "<i class='glyphicon glyphicon-arrow-up'></i> Close Avaliable Maps" : button.innerHTML = "<i class='glyphicon glyphicon-arrow-down'></i> Expand Available Maps";
+        button.innerHTML.includes('Available') ? button.innerHTML = "<i class='fa fa-arrow-up'></i> Close Avaliable Maps" : button.innerHTML = "<i class='fa fa-arrow-down'></i> Expand Available Maps";
       });
     }
 

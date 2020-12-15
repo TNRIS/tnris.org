@@ -17,16 +17,16 @@ function retrieveNextCommunityMeeting() {
       // create empty dom div element then populate with api response information
       var event = document.createElement('div');
       // check if various properties exist, and set variables if so
-      var timeRange = e.pretty_time ? `<time><i class="glyphicon glyphicon-time"></i> ${e.pretty_time}</time><br>` : '';
+      var timeRange = e.pretty_time ? `<time><i class="fa fa-time"></i> ${e.pretty_time}</time><br>` : '';
       var shortDescription = e.short_description ? `<p>${e.short_description}</p>` : '';
       var generalLocation = e.location ? `<location><strong>Location:</strong><br>${e.location}</location><hr>` : '';
-      var eventLink = e.event_url ? `<p><a href="${e.event_url}"><i class="glyphicon glyphicon-new-window"></i> Event Link</a></p>` : '';
+      var eventLink = e.event_url ? `<p><a href="${e.event_url}"><i class="fa fa-new-window"></i> Event Link</a></p>` : '';
       var communityMeetingAgenda = e.community_meeting_agenda_url ? ` <a class="btn btn-tnris btn-md" href="${e.community_meeting_agenda_url}">Download Agenda</a>` : '';
       // fill dom list element with event details
       event.innerHTML =
         `
         <h3>
-          <strong>${e.pretty_date} <i class="glyphicon glyphicon-star" style="color: #1e8dc1;"></i></strong>
+          <strong>${e.pretty_date} <i class="fa fa-star" style="color: #1e8dc1;"></i></strong>
           <br>
           ${e.title}
         </h3>

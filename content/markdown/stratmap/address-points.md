@@ -4,28 +4,42 @@ layout: stratmap/ap-lp-page.njk
 youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 ---
 
-<div class="container">
+<div class="container-md">
   <div class="row">
-    <div class="col-md-6">
-      <p class="lead">Address points are site or structure point data that have associated information such as house number, street name, postal community, and postal code. This information is recorded and maintained at the city and county level in Texas and aggregated to Regional Planning Commissions or Emergency Communications Districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
-      <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://tnris-org-static.s3.amazonaws.com/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
-    </div>
-    <div class="col-md-6">
-      <h2 style="margin-top: 0">Available Datasets</h2>
-      <p>The map below shows available address points across Texas. Data were received from across 247 counties and may not be complete coverage.  Please see the SOURCE field on each record to determine the data creator or aggregator. Use the <a href="https://data.tnris.org">DataHub</a> to download.</p>
-      <iframe width="100%" height="400" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/9ea89bcc-63b5-4ed5-924d-e6c1910bb6f4/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-      <h2>Download</h2>
-      <p>Use the DataHub to download the Address Points dataset:</p>
-      <a class="btn btn-lg btn-tnris center-block" href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+    <div class="col-lg-12 alert alert-warning" role="alert">
+    Thank you for your interest in TNRIS Land Parcels and Address Points datasets. Due to unexpected circumstances, our annual 2020 statewide refresh for both of these datasets has been delayed. If you are interested in obtaining 2020 data, please use the <b>"Contact"</b> tab located on the respective 2019 <a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448">Land Parcels</a> and <a href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035">Address Points</a> DataHub collection pages.
+    <br><br>
+    <b>Please note data may not be available for all counties.</b>
+    <br><br>
+    The production timeline for the 2021 Land Parcels and Address Points datasets has not been affected. Currently, TNRIS anticipates a mid to late Summer 2021 release for the annual refresh. We invite you to use the Contact tab located on the respective DataHub collection pages for any questions you may have. 
     </div>
   </div>
 </div>
+
+<div class="container-md">
+  <div class="row">
+    <div class="col-lg-6">
+      <p class="lead"><strong>Address points</strong> are site or structure point data that have associated information such as house number, street name, postal community, and postal code. This information is recorded and maintained at the city and county level in Texas and aggregated to Regional Planning Commissions or Emergency Communications Districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
+      <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://cdn.tnris.org/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
+    </div>
+    <div class="col-lg-6">
+      <h2 style="margin-top: 0">Available Datasets</h2>
+      <p>The map below shows available address points across Texas. Data were received across 247 counties and may not be complete coverage.</p>
+      <iframe title="Available address points" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Address Points Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=e8c2c6bd86064f6fbadbd38a60b50ccd&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
+      </iframe>
+      <h2>Download</h2>
+      <p>Use the DataHub to download the Address Points dataset:</p>
+      <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+    </div>
+  </div>
+</div>
+<!---
 <section id="parcel-numbers" >
-<div class="container">
+<div class="container-md">
     <h2>Program Timeline</h2>
     <p class="lead">This timeline documents past events and estimates future milestones. As milestones are met, this timeline will be updated. Please check each county for the most recent version of data.</p>
         <div class="timeline-stratmap">
-            <div class="bar-stratmap hidden-xs"></div>
+            <div class="bar-stratmap"></div>
             <div class="bar-vertical-stratmap"></div>
             <div class="phase-top phase-1"><strong>Texas GIO Report 2016</strong> identifies address points as a highly requested dataset</div>
             <div class="phase phase-2"><strong>2015-2017</strong> UT's Center for Water and the Environment aggregates address points</div>
@@ -41,23 +55,22 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
               </div>
       <div class="phase phase-10"><strong>Ongoing annual refresh</strong> of statewide geographic address point data
       </div>
-</div>
+</div> 
+</section> -->
 
-</section>
-
-<div class="container">
+<div class="container-md">
 <div class="row">
-<div id="agency-parcel-uses" class="col-md-6">
+<div id="agency-parcel-uses" class="col-lg-6">
 
 <h2>Program Flow</h2>
 <p>This iterative program flow will occur throughout the year. At no one time will there be a completed or final version of data as each data source has varying update schedules. Please check each county for the most recent version of data.</p>
-<img src="https://tnris-org-static.s3.amazonaws.com/images/data-circle.jpg" class="img-responsive">
+<img src="https://cdn.tnris.org/images/Program_Flow.png" class="img-fluid">
 <h2>Agency Address Point Uses</h2>
 <p class="lead">Texas State Agencies make extensive use of Address Point data for all types of operations and applications.</p>
 <hr class="clearfix">
 <div class="row">
-<div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/tx_glo_logo.jpg" class="center-block">
+<div class="col-lg-6">
+<img src="https://cdn.tnris.org/images/tx_glo_logo.jpg" class="mx-auto d-block">
 <p><strong>General Land Office (GLO)</strong></p>
 <ul>
 <li>Management of state lands and coastal land permitting</li>
@@ -65,8 +78,8 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 <li>Veteran’s benefits issue management</li>
 </ul>
 </div>
-<div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/tdem_logo.jpg" class="center-block">
+<div class="col-lg-6">
+<img src="https://cdn.tnris.org/images/tdem_logo.jpg" class="mx-auto d-block">
 <p><strong>Texas Division of Emergency Management (TDEM)</strong></p>
 <ul>
 <li>Mitigate emergency situations by accurately modeling and mapping areas to predict flooding along high-risk areas</li>
@@ -75,12 +88,12 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 </div>
 </div>
 
-<hr class="clearfix hidden-xs hidden-sm">
+<hr class="clearfix d-none d-sm-none">
 
 <div class="row">
 
-<div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/txdot_logo.jpg" class="center-block">
+<div class="col-lg-6">
+<img src="https://cdn.tnris.org/images/txdot_logo.jpg" class="mx-auto d-block">
 <p><strong>Texas Department of Transportation (TXDOT)</strong></p>
 <ul>
 <li>Right of Way management for private or state-owned lands</li>
@@ -88,8 +101,8 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 </ul>
 </p>
 </div>
-<div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/hhs_logo.jpg" class="center-block img-responsive">
+<div class="col-lg-6">
+<img src="https://cdn.tnris.org/images/hhs_logo.jpg" class="mx-auto d-block img-fluid">
 <p><strong>Health and Human Services Commission (HHSC)</strong></p>
 <ul>
 <li>Determine structures in the path or vicinity of disease outbreak</li>
@@ -98,18 +111,18 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 </div>
 
 </div>
-<hr class="clearfix hidden-xs hidden-sm">
+<hr class="clearfix d-none d-sm-none">
 <div class="row">
-<div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/twdb_web_med.jpg" class="center-block">
+<div class="col-lg-6">
+<img src="https://cdn.tnris.org/images/twdb_web_med.jpg" class="mx-auto d-block">
 <p><strong>Texas Water Development Board (TWDB)</strong></p>
 <ul>
 <li>Determine if structures will be affected by flood conditions for early evacuation</li>
 <li>Determine properties that will be affected with the build of a new dam.</li>
 </ul>
 </div>
-<div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/tahc_logo.jpg" class="center-block">
+<div class="col-lg-6">
+<img src="https://cdn.tnris.org/images/tahc_logo.jpg" class="mx-auto d-block">
 <p><strong>Texas Animal Health Commission (TAHC)</strong></p>
 <ul>
 <li>Locate farms, ranches, feedlots, etc in the event of animal disease outbreak</li>
@@ -117,11 +130,11 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 </div>
 </div>
 
-<hr class="clearfix hidden-xs hidden-sm">
+<hr class="clearfix d-none d-sm-none">
 
 <div class="row">
-<div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/tceq_logo_sm.jpg" class="center-block">
+<div class="col-lg-6">
+<img src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" class="mx-auto d-block">
 <p><strong>Texas Commission on Environmental Quality (TCEQ)</strong></p>
 <ul>
 <li>Air permitting and air quality monitoring/analysis</li>
@@ -129,8 +142,8 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 <li>Water quality planning based on growth.</li>
 </ul>
 </div>
-<div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/tpwd_logo.jpg" class="center-block">
+<div class="col-lg-6">
+<img src="https://cdn.tnris.org/images/tpwd_logo.jpg" class="mx-auto d-block">
 <p><strong>Texas Parks and Wildlife Department (TPWD)</strong></p>
 <ul>
 <li>Land ownership notification</li>
@@ -140,18 +153,18 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 </div>
 </div>
 
-<hr class="clearfix hidden-xs hidden-sm">
+<hr class="clearfix d-none d-sm-none">
 
 <div class="row">
-<div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/csec_logo_sm.jpg" class="center-block">
+<div class="col-lg-6">
+<img src="https://cdn.tnris.org/images/csec_logo_sm.jpg" class="mx-auto d-block">
 <p><strong>Commission on State Emergency Communications (CSEC)</strong></p>
 <ul>
 <li>Statewide emergency communications.</li>
 </ul>
 </div>
-<div class="col-md-6">
-<img src="https://tnris-org-static.s3.amazonaws.com/images/tx_dps_logo.jpg" class="center-block">
+<div class="col-lg-6">
+<img src="https://cdn.tnris.org/images/tx_dps_logo.jpg" class="mx-auto d-block">
 <p><strong>Department of Public Safety (DPS)</strong></p>
 <ul>
 <li>Emergency management and response.</li>
@@ -159,7 +172,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 </div>
 </div>
 </div>
-<div class="col-md-6">
+<div class="col-lg-6">
 <h2>FAQ - Frequently Asked Questions</h2>
 <h3>Who created these address points?</h3>
 
@@ -169,7 +182,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 
 <h3>What is the purpose of these address points?</h3>
 
-<p>These address points were created for 9-1-1 call routing purposes; however, they are now available for public use.  The <a href="https://www.911.gov/issue_nextgeneration911.html">Next Generation 9-1-1 (NG911)</a> system will rely heavily on the accuracy of geospatial data, including address points.  As a result, these data are continually scrubbed and analyzed for use within the NG911 system by the authoritative data sources and their vendors.  Over time, these data may change based on GIS standards established by the <a href="https://www.nena.org/page/NG911GISDataModel">National Emergency Number Association (NENA)</a> or for other reasons.  TNRIS does not edit these data.</p>
+<p>These address points were created for 9-1-1 call routing purposes; however, they are now available for public use.  The <a href="https://www.911.gov/issue_nextgeneration911.html">Next Generation 9-1-1 (NG911)</a> system will rely heavily on the accuracy of geospatial data, including address points.  As a result, these data are continually scrubbed and analyzed for use within the NG911 system by the authoritative data sources and their vendors.  Over time, these data may change based on GIS standards established by the <a id="NENAdatamodel" href="https://www.nena.org/page/NG911GISDataModel" aria-labelledby="NENAdatamodel">National Emergency Number Association (NENA)</a> or for other reasons.  TNRIS does not edit these data.</p>
 
 * * *
 
@@ -211,7 +224,7 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
 
 <h2>Contact Us</h2>
 <p>Contact TNRIS with any further questions regarding this program and someone from StratMap will get in touch with you.</p>
-<a class="btn btn-md btn-tnris btn-lg center-block" href="/contact"><span class="glyphicon glyphicon-comment"></span> Contact Us</a>
+<a class="btn btn-md btn-tnris btn-lg mx-auto d-block" href="/contact"><span class="fa fa-comment"></span> Contact Us</a>
 
 </div>
 </div>

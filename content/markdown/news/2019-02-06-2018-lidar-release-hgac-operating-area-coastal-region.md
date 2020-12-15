@@ -2,8 +2,8 @@
 title: 2018 Lidar Data Release for the H-GAC Operating Area & Coastal Region
 author: Joey Thomas, StratMap
 layout: news-article.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/2018_coastal_lidar_release_banner.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/2018_coastal_lidar_release_th.jpg
+mainimage: https://cdn.tnris.org/images/2018_coastal_lidar_release_banner.jpg
+thumbnail: https://cdn.tnris.org/images/2018_coastal_lidar_release_th.jpg
 thumbalt: A thumbnail for H-GAC Operating Area & Coastal Region
 abstract: A collaborative initiative to capture high-quality Lidar data for the H-GAC operating area and portions of the Texas coast.
 ---
@@ -24,7 +24,7 @@ Further details regarding this acquisition can be found by downloading the [Stra
 
 <div class="media">
   <div class="media-left">
-    <a class="btn btn-lg btn-tnris" href="https://data.tnris.org/collection/b5bd2b96-8ba5-4dc6-ba88-d88133eb6643"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+    <a class="btn btn-lg btn-tnris" href="https://data.tnris.org/collection/b5bd2b96-8ba5-4dc6-ba88-d88133eb6643"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
   </div>
   <div class="media-body">
     <p>To download the Upper Coast lidar data products, please use the <a href="https://data.tnris.org/collection/b5bd2b96-8ba5-4dc6-ba88-d88133eb6643">DataHub</a>.</p>
@@ -43,7 +43,7 @@ Further details regarding this acquisition can be found by downloading the [Stra
 
 View coverage areas in the interactive map below:
 
-<iframe width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/f4af476f-dae0-49a4-b3e9-a12399020c77/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe title="Coverage area" width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/f4af476f-dae0-49a4-b3e9-a12399020c77/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builder/a5dfc759-9a90-4acd-a8d1-57d521c7e1fe/public_map) for statewide lidar coverage.
 

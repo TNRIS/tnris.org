@@ -2,8 +2,8 @@
 title: Training Summer Schedule Available Now!
 author: TNRIS Education
 layout: news-article.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/training_keep_pace.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/training_keep_pace_md.jpg
+mainimage: https://cdn.tnris.org/images/training_keep_pace.jpg
+thumbnail: https://cdn.tnris.org/images/training_keep_pace_md.jpg
 thumbalt: TNRIS Training
 abstract: In collaboration with our training partners, the 2020 summer schedule has been updated with both instructor-led online and self-paced online courses.
 ---
@@ -43,9 +43,9 @@ abstract: In collaboration with our training partners, the 2020 summer schedule 
 
 * * *
 
-<div class="well well-bg">
+<div class="card card-body well-bg">
   <p>
     Contact us about our Education &amp; Training Program.
   </p>
-  <a class="btn btn-tnris btn-lg btn-block" href="/education/contact"><i class="glyphicon glyphicon-comment"></i> Contact Us</a>
+  <a class="btn btn-tnris btn-lg btn-block" href="/education/contact"><i class="fa fa-comment"></i> Contact Us</a>
 </div>

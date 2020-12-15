@@ -32,7 +32,7 @@ function generate(env) {
       'forum_training': [path.resolve(__dirname, 'static/js/forum_training.js')],
       'gio_calendar_next_cm': [path.resolve(__dirname, 'static/js/gio_calendar_next_cm.js')],
       'gio_calendar_quad': [path.resolve(__dirname, 'static/js/gio_calendar_quad.js')],
-      'gio_solutions_group': [path.resolve(__dirname, 'static/js/gio_solutions_group.js')],
+      'gio_notes_and_slides': [path.resolve(__dirname, 'static/js/gio_notes_and_slides.js')],
       'latest_stratmap': [path.resolve(__dirname, 'static/js/latest_stratmap.js')],
       'maps': [path.resolve(__dirname, 'static/js/maps.js')],
       'mapserver': [path.resolve(__dirname, 'static/js/mapserver.js')],

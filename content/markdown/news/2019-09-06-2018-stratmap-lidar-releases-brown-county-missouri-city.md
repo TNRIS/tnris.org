@@ -3,7 +3,7 @@ title: 2019 StratMap Lidar Releases for Brown County and Missouri City
 author: Joey Thomas, StratMap
 layout: news-article.njk
 mainimage: https://s3.amazonaws.com/data.tnris.org/46b000dd-83b2-4701-b5c6-3f6e18cedccf/assets/34a0cde1-d679-411c-8ced-973143b93d26.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/brown_missouri_th.jpg
+thumbnail: https://cdn.tnris.org/images/brown_missouri_th.jpg
 thumbalt: A thumbnail for StratMap 2019 Lidar Projects
 abstract: A collaborative initiative to capture high-quality Lidar data for portions of Brown County and Missouri City, Texas.
 ---
@@ -18,10 +18,10 @@ Further details regarding this acquisition can be found by downloading the Proje
 
 <p>To download the StratMap 2019 lidar data products, please use the <a href="https://data.tnris.org/catalog/%7B%22search%22%3A%22StratMap%20Lidar%202019%22%7D">DataHub</a>.</p>
 
-<a class="btn btn-lg btn-tnris" href="https://data.tnris.org/catalog/%7B%22search%22%3A%22StratMap%20Lidar%202019%22%7D"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<a class="btn btn-lg btn-tnris" href="https://data.tnris.org/catalog/%7B%22search%22%3A%22StratMap%20Lidar%202019%22%7D"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
 
 ## Data coverage
-<img src="https://tnris-org-static.s3.amazonaws.com/images/brown_missouri_city.jpg" class="img-responsive" alt="Map showing StratMap 2019 Lidar Projects">
+<img src="https://cdn.tnris.org/images/brown_missouri_city.jpg" class="img-fluid" alt="Map showing StratMap 2019 Lidar Projects">
 
 Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builder/a5dfc759-9a90-4acd-a8d1-57d521c7e1fe/public_map) for statewide lidar coverage.
 
@@ -34,11 +34,11 @@ Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builde
 
 #### 3-D Image of Brown County Lidar
 
-<img class="img-responsive" src="https://s3.amazonaws.com/data.tnris.org/46b000dd-83b2-4701-b5c6-3f6e18cedccf/assets/d213837e-d966-4291-bcf0-078da17d9e13.jpg" alt="detail image of the Brown County Lidar">
+<img class="img-fluid" src="https://s3.amazonaws.com/data.tnris.org/46b000dd-83b2-4701-b5c6-3f6e18cedccf/assets/d213837e-d966-4291-bcf0-078da17d9e13.jpg" alt="detail image of the Brown County Lidar">
 
 #### 3-D Image of Missouri City Lidar
 
-<img class="img-responsive" src="https://s3.amazonaws.com/data.tnris.org/66d886a6-13b9-46a9-936a-bf2ce4f71aaf/assets/2abdf2da-60d1-43d8-bca3-1627da2c337d.jpg" alt="detail image of the Missouri City Lidar">
+<img class="img-fluid" src="https://s3.amazonaws.com/data.tnris.org/66d886a6-13b9-46a9-936a-bf2ce4f71aaf/assets/2abdf2da-60d1-43d8-bca3-1627da2c337d.jpg" alt="detail image of the Missouri City Lidar">
 
 ## Product Specification
 - Vertical NVA RMSEz tested 7.85 cm (Brown County) and  6.2 cm(Missouri City). The tested accuracy in all areas meets the project specification for 10 cm.

@@ -29,13 +29,13 @@
   }
 }
 
-.panel-gio {
-  h3.panel-title {
+.card-gio {
+  h3.card-title {
     color: $middarkgrey;
     font-size: 20px;
   }
 
-  .panel-body {
+  .card-body {
     h3 {
       font-size: 28px;
       margin-top: 0;
@@ -68,7 +68,7 @@
 }
 
 .gio-agency-collection {
-  margin-bottom: 30px;
+  margin-bottom: -20px;
   width: 100%;
 
   .glyphicon {
@@ -166,13 +166,13 @@
   }
 
   #geolandscape {
-    background: url('https://tnris-org-static.s3.amazonaws.com/images/gio-report-cover-bg.jpg') bottom right no-repeat;
+    background: url('https://cdn.tnris.org/images/gio-report-cover-bg.jpg') bottom right no-repeat;
     background-size: 792px 200px;
     min-height: 250px;
   }
 
   #parcelreport {
-    background: url('https://tnris-org-static.s3.amazonaws.com/images/parcel-report-cover-bg.jpg') bottom right no-repeat;
+    background: url('https://cdn.tnris.org/images/parcel-report-cover-bg.jpg') bottom right no-repeat;
     background-size: 792px 200px;
     min-height: 250px;
   }
@@ -188,7 +188,7 @@
 
 // headshot circles
 
-.img-circle.headshot {
+.rounded-circle.headshot {
   max-width: 150px;
 }
 
@@ -207,6 +207,7 @@
 // nav bar
 
 .gio-bar {
+  margin-bottom: 1rem;
   background: $black;
   border-radius: 0;
   font-size: 20px;
@@ -226,15 +227,13 @@
 }
 
 // meeting bar {
-  .meeting-bar {
-
-    .row {
-      margin-bottom: 0;
-    }
-
-    hr {
-      margin: 5px 0;
-    }
+.meeting-bar {
+  .row {
+    margin-bottom: 0;
+  }
+  hr {
+    margin: 5px 0;
+  }
 }
 
 .noTop {
@@ -249,19 +248,23 @@ hr.noMarg {
   h3 {
     margin-top: 0;
   }
+  img {
+    padding: 1rem
+  }
 }
 
 .iconExtended {
   float: left;
   margin-bottom: 20px;
+  margin-right: 8px;
 }
 
 .meeting-box {
   background: $lightblue;
   border: 1px solid $tnrisblue;
-  border-top: 0;
-  padding-bottom: 20px;
-  border-radius: 0 0 5px 5px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 0 20px 0;
 
   h3 {
     margin-top: 0;
@@ -273,8 +276,6 @@ hr.noMarg {
     border-top: 1px solid $tnrisblue;
     border-radius: 5px;
     padding: 20px;
-    padding-bottom: 0px;
-    padding-top: 10px;
   }
 }
 
@@ -282,10 +283,8 @@ hr.noMarg {
   .meeting-box {
     border-top: 1px solid $tnrisblue;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 2px;
     padding: 20px;
-    padding-bottom: 0px;
-    padding-top: 0px;
   }
 }
 
@@ -306,3 +305,104 @@ hr.noMarg {
     font-size: 19px !important;
   }
 }
+
+.eventBox {
+  border: solid thin #CCC;
+  padding: 10px;
+  box-shadow: 0 2px 6px #CCC;
+  border-radius: 1%;
+  min-height: 100%;
+  max-height: 100%;
+  min-width: 230px;
+}
+
+h5 {
+  color: $tnrisblue;
+}
+
+.figcaption-center {
+  text-align: center;
+}
+
+.event-link {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  margin-top: 10px;
+  &.event-link {
+    width: 12rem;
+    height: auto;
+    .circle {
+      @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+      position: relative;
+      display: block;
+      margin: 0;
+      width: 3rem;
+      height: 3rem;
+      background: $tnrisblue;
+      border-radius: 1.625rem;
+      .icon {
+        @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: $white;
+        &.arrow {
+          @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+          left: 0.625rem;
+          width: 1.125rem;
+          height: 0.125rem;
+          background: none;
+          &::before {
+            position: absolute;
+            content: '';
+            top: -0.25rem;
+            right: 0.0625rem;
+            width: 0.625rem;
+            height: 0.625rem;
+            border-top: 0.125rem solid #fff;
+            border-right: 0.125rem solid #fff;
+            transform: rotate(45deg);
+          }
+        }
+      }
+    }
+    .button-text {
+      @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0.75rem 0;
+      margin: 0 0 0 1.85rem;
+      color: $tnrisblue;
+      font-weight: 600;
+      line-height: 1.6;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  &:hover {
+    .circle {
+      width: auto;
+      .icon {
+        &.arrow {
+        background: $white;
+        transform: translate(1rem, 0);
+        }
+      }
+    }
+    .button-text {
+      color: $white;
+    }
+  }
+}
+

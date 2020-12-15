@@ -27,7 +27,7 @@
   }
 
 // Image expand //
-// .img-responsive.img-expand {
+// .img-fluid.img-expand {
 //   @media (min-width: $screen-md) {
 //     max-width: none;
 //   }
@@ -410,7 +410,7 @@ h2.updates-header {
   padding-bottom: 60px;
 
   @media (min-width: $screen-sm) {
-    background: url(https://tnris-org-static.s3.amazonaws.com/images/pivotpoints_bg.jpg) right bottom repeat-y $darkgrey;
+    background: url(https://cdn.tnris.org/images/pivotpoints_bg.jpg) right bottom repeat-y $darkgrey;
   }
 
   .lead {
@@ -787,7 +787,7 @@ h2.updates-header {
 }
 
 .qc-box {
-  background: url(https://tnris-org-static.s3.amazonaws.com/images/qc_bg.jpg) 0 0 no-repeat $darkgrey;
+  background: url(https://cdn.tnris.org/images/qc_bg.jpg) 0 0 no-repeat $darkgrey;
   border-radius: 10px;
   color: white;
   margin-top: 20px;
@@ -807,7 +807,7 @@ h2.updates-header {
 }
 
 #_2015-ortho-qc {
-  .img-circle {
+  .rounded-circle {
     border: 7px solid $yellowgreen;
     max-width: 200px;
   }
@@ -867,7 +867,7 @@ h2.statewide-title-front {
 
 // esri logo
 .esri-replace-md {
-    background: url(https://tnris-org-static.s3.amazonaws.com/images/esri_web_md.png) 0 0 no-repeat;
+    background: url(https://cdn.tnris.org/images/esri_web_md.png) 0 0 no-repeat;
   display: inline-block;
   height: 74px;
   text-indent: -9999px;
@@ -876,7 +876,7 @@ h2.statewide-title-front {
 }
 
 .esri-replace-sm {
-  background: url(https://tnris-org-static.s3.amazonaws.com/images/esri_logo_sm.png) 0 0 no-repeat;
+  background: url(https://cdn.tnris.org/images/esri_logo_sm.png) 0 0 no-repeat;
   display: inline-block;
   height: 38px;
   text-indent: -9999px;

@@ -1,14 +1,14 @@
-<nav class="navbar navbar-inverse stratmap-bar">
-  <div class="container">
+<nav class="navbar-expand-sm navbar-inverse stratmap-bar">
+  <div class="container-md">
     <ul class="nav navbar-nav">
-        <li {% if (path == 'research-distribution-center') %}class="active"{% endif %}>
-          <a href="/research-distribution-center">Main</a>
+        <li class="nav-item {% if (path == 'research-distribution-center') %}active{% endif %}" >
+          <a class="nav-link" href="/research-distribution-center">Main</a>
         </li>
-        <li {% if (path == 'research-distribution-center/historical-imagery-archive') %}class="active"{% endif %}>
-          <a href="/research-distribution-center/historical-imagery-archive">Historical Imagery Archive</a>
+        <li class="nav-item {% if (path == 'research-distribution-center/historical-imagery-archive') %}active{% endif %}" >
+          <a class="nav-link" href="/research-distribution-center/historical-imagery-archive">Historical Imagery Archive</a>
         </li>
-        <li {% if (path == 'research-distribution-center/custom-maps') %}class="active"{% endif %}>
-          <a href="/research-distribution-center/custom-maps">Custom Maps</a>
+        <li class="nav-item {% if (path == 'research-distribution-center/custom-maps') %}active{% endif %}" >
+          <a class="nav-link" href="/research-distribution-center/custom-maps">Custom Maps</a>
         </li>
       </ul>
   </div>

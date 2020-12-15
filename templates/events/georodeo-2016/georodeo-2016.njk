@@ -21,19 +21,19 @@
             <h1>{{title}}</h1>
             {{abstract}}
         </div>
-        <img class="main hidden-xs" src="{{mainimage}}" alt="Masthead for {{title}}">
-        <img class="img-responsive hidden-lg hidden-md hidden-sm" src="https://tnris-org-static.s3.amazonaws.com/images/cowsay_pasture_sm.jpg" alt="Small Masthead for {{title}}">
+        <img class="main d-none d-md-block" src="{{mainimage}}" alt="Masthead for {{title}}">
+        <img class="img-fluid d-block d-md-none" src="https://cdn.tnris.org/images/cowsay_pasture_sm.jpg" alt="Small Masthead for {{title}}">
 
 
         <div class="georodeo-date-bar">
-          <div class="container">The Annual Texas GeoDeveloper Roundup<br>
+          <div class="container-md">The Annual Texas GeoDeveloper Roundup<br>
                     May 20, 2016 * Commons Learning Center * Austin, TX</div>
         </div>
     </div>
 </div>
 
 <div id="intro" class="georodeo-intro">
-    <div class="container">
+    <div class="container-md">
         <div class="row">
             {% include "events/georodeo-2016/georodeo-intro.njk" %}
         </div>
@@ -42,16 +42,16 @@
 {% endblock %}
 
 {% block contentsOne %}
-<div id="contentMain" class="container">
+<div id="contentMain" class="container-md">
 <div class="row">
-    <div class="col-md-4 col-md-push-8">
+    <div class="col-lg-4 order-lg-2">
         {% block sidebarLeft %}
             <div class="georodeo-side">
                 {% include "events/georodeo-2016/georodeo-side.njk" %}
             </div>
         {% endblock %}
     </div>
-    <div class="col-md-8 col-md-pull-4">
+    <div class="col-lg-8 order-lg-1">
         {{ contents|safe }}
     </div>
 </div>
@@ -60,7 +60,7 @@
 
 {% block contentsTwo %}
 <section class="georodeo-bottom">
-    <div class="container">
+    <div class="container-md">
         <div class="row">
             {% include "events/georodeo-2016/georodeo-map.njk" %}
         </div>

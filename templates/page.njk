@@ -1,19 +1,19 @@
 {% extends "base.njk" %}
 {% block contentsOne %}
-  <div id="contentMain" class="container">
+  <div id="contentMain" class="container-md">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-lg-8">
         <h1>
           {% if headerlabel %}
-          <small>{{ headerlabel }}</small><br>
+          <small class="text-muted">{{ headerlabel }}</small><br>
           {% endif %}
           {{title}}
         </h1>
         {% if abstract %}<div class="lead">{{abstract}}</div>{% endif %}
-        {% if mainimage %}<img class="img-responsive center-block" src="{{ mainimage }}">{% endif %}
+        {% if mainimage %}<img class="img-fluid mx-auto d-block" src="{{ mainimage }}">{% endif %}
         {{ contents|safe }}
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4">
         {% block sidebarLeft %}{% endblock %}
       </div>
     </div>

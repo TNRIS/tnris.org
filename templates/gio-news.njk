@@ -2,11 +2,11 @@
 
 
 {% block contentsOne %}
-<div id="contentMain" class="container">
+<div id="contentMain" class="container-md">
   <div class="row">
     <ol class="breadcrumb">
       <li>
-        <a href="/"><span class="glyphicon glyphicon-home"></span></a>
+        <a href="/"><span class="fa fa-home"></span></a>
       </li>
       <li>
         <a href="/geographic-information-office">Geographic Information Office</a>
@@ -15,14 +15,14 @@
     </ol>
   </div>
   <div class="row article">
-    <div class="col-sm-12 col-md-8 blog-main">
+    <div class="col-sm-12 col-lg-8 blog-main">
       <h1 class="headline">{{ title }}</h1>
       <div class="byline">
         <strong>by <author>{{ author }}<author></strong> {% if division %}<em>{{ division }}</em>{% endif %} | <time>{{ date|prettyDate }}</time>
       </div>
 
       {% if mainimage %}
-        <img class="media-object img-responsive center-block" src="{{mainimage}}" alt="{{ imagealt }}">
+        <img class="media-object px-2 img-fluid mx-auto d-block" src="{{mainimage}}" alt="{{ imagealt }}">
       {% endif %}
       <div class="gio-news-content">
         {{ contents|safe }}
@@ -30,7 +30,7 @@
     </div>
 
     {% block rightContent %}
-      <div class="col-sm-12 col-md-4 blog-sidebar">
+      <div class="col-sm-12 col-lg-4 blog-sidebar">
         <script src="/gio_calendar_next_cm.bundle.js"></script>
         <div id="gio-calendar-next-cm"></div>
         {# <h3 id="more-gio-news">More GIO News</h3>

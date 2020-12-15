@@ -2,15 +2,15 @@
 {% import "_form_macros.njk" as form %}
 
 {% block contentsOne %}
-	<div id="contentMain" class="container">
+	<div id="contentMain" class="container-md">
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-lg-8">
 				<h1>{{title}}</h1>
 				{% if abstract %}<div class="mainBlurb">{{abstract}}</div>{% endif %}
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-lg-8">
 				<p>
 					This form is used to initiate an order for a print of an existing map,
 					the creation of a custom map, or to request pricing information for maps.
@@ -232,7 +232,7 @@
 				</div>
 				{{form.after()}}
 			</div>
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				{% include "rdc/custom-pricing.njk" %}
 			</div>
 		</div>

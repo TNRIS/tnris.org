@@ -2,8 +2,8 @@
 layout: events/texas-gis-forum/2019/main.njk
 title: Call for Papers
 subtitle: October 21-25, 2019 | Austin, Texas
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/main_banner_lg.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/enchantedTopo-sm.jpg
+mainimage: https://cdn.tnris.org/images/main_banner_lg.jpg
+mainimagesm: https://cdn.tnris.org/images/enchantedTopo-sm.jpg
 abstract: Share your knowledge with a respected community of GIS professionals and network with your peers in the geospatial industry.
 body_class: call-for-presentations
 

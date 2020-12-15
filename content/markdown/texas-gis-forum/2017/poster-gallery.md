@@ -2,9 +2,9 @@
 title: "Forum Poster Gallery & Contest"
 subtitle: Texas GIS Forum | October 23-27, 2017, Austin, Texas
 layout: events/texas-gis-forum/2017/poster-gallery.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/ourpastinspires-banner-main.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/ourpastinspires-banner-main-sm.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/ourpastinspires-banner-main-sm.jpg
+mainimage: https://cdn.tnris.org/images/ourpastinspires-banner-main.jpg
+mainimagesm: https://cdn.tnris.org/images/ourpastinspires-banner-main-sm.jpg
+mainimagexs: https://cdn.tnris.org/images/ourpastinspires-banner-main-sm.jpg
 abstract: As technology moves forward, maps are still at the heart of the GIS field. The poster gallery showcases ongoing cartographic innovation in the community.
 intro: true
 sidebar: postersubmission
@@ -18,7 +18,7 @@ The purpose of the poster gallery is to promote and recognize the advances of ma
 - Creativity
 - Originality
 
-<div class="well well-md">
+<div class="card card-body well-md">
   <h3>Winners</h3>
 
 <p>The top 3 vote earners will be highlighted on the TNRIS website under the 'Latest News' section following the forum. </p>

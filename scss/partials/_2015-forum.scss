@@ -3,7 +3,7 @@
 
 #_2015-forum-container {
 
-  .well {
+  .card.card-body {
     margin-top: 30px;
   }
 
@@ -12,7 +12,7 @@
   }
 
   ._2015-forum-intro {
-    background: url('https://tnris-org-static.s3.amazonaws.com/images/recap_bg.jpg') right 0 no-repeat $forum2015blue;
+    background: url('https://cdn.tnris.org/images/recap_bg.jpg') right 0 no-repeat $forum2015blue;
     color: white;
     font-size: 20px;
     min-height: 150px;
@@ -92,7 +92,7 @@
 }
 
 h2.logo-2015 {
-  background: url('https://tnris-org-static.s3.amazonaws.com/images/logo_white_lg.png')  0 0 no-repeat;
+  background: url('https://cdn.tnris.org/images/logo_white_lg.png')  0 0 no-repeat;
   display: block;
   height: 126px;
   text-indent: -9999px;
@@ -123,6 +123,7 @@ h2.logo-2015 {
 }
 
 .forum-bar {
+  margin-bottom: 1rem;
   background: $forum2015blue;
   font-size: 20px;
   margin-top: 30px;
@@ -285,7 +286,7 @@ img.keynote-portrait {
     padding: 0 10px;
   }
 
-  .col-xs-12 {
+  .col-12 {
     margin-top: 15px;
     padding: 0 10px;
   }
@@ -295,7 +296,7 @@ img.keynote-portrait {
       text-decoration: none;
     }
 
-    img.img-responsive {
+    img.img-fluid {
 
       @media (max-width: $screen-md) {
           max-width: 50%;
@@ -325,7 +326,7 @@ img.keynote-portrait {
   }
 }
 
-.well.personalize-agenda {
+.card.card-body.personalize-agenda {
   background: $bsinfoblue;
   overflow: auto;
 
@@ -360,8 +361,8 @@ img.keynote-portrait {
     }
 }
 
-.well-holl {
-  background: url('https://tnris-org-static.s3.amazonaws.com/images/holl-bg.jpg') 0 0 !important;
+.card.card-body-holl {
+  background: url('https://cdn.tnris.org/images/holl-bg.jpg') 0 0 !important;
 }
 
 .modal-header.abstract {

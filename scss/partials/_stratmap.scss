@@ -1,4 +1,5 @@
 .stratmap-bar {
+  margin-bottom: 1rem;
   background: $darkgrey;
   font-size: 20px;
 
@@ -10,7 +11,7 @@
 
 .stratmap-project {
 
-    .thumbnail {
+    .card.card-body{
       border: none;
     }
 
@@ -32,6 +33,7 @@
   }
 
   &.front-sm-numbers {
+    padding: 1rem;
     color: $darkgrey;
 
     h2 {
@@ -44,18 +46,22 @@
   }
 
   &.lidar-feature {
-    background: url(https://tnris-org-static.s3.amazonaws.com/images/buffalo_lidar_bg.jpg) 0 0;
+    padding: 1rem;
+    background: url(https://cdn.tnris.org/images/buffalo_lidar_bg.jpg) 0 0;
   }
 
   &.lidar-numbers {
-    background: url(https://tnris-org-static.s3.amazonaws.com/images/capcog_2012_140cm_overview.jpg) 0 0;
+    padding: 1rem;
+    background: url(https://cdn.tnris.org/images/capcog_2012_140cm_overview.jpg) 0 0;
   }
 
   &.ortho-numbers {
-    background: url(https://tnris-org-static.s3.amazonaws.com/images/texas_orthoimagery_program_top_2008_50cm_nc_cir_natural.jpg) 0 0;
+    padding: 1rem;
+    background: url(https://cdn.tnris.org/images/texas_orthoimagery_program_top_2008_50cm_nc_cir_natural.jpg) 0 0;
   }
 
   &.hydrocallout {
+    padding: 1rem;
     background: $lightergrey;
     color: $darkgrey;
 
@@ -80,24 +86,18 @@
   }
 }
 
-.thumbnail.vendor-box {
+.card.card-body.vendor-box {
   @media (min-width: $screen-sm) {
-    min-height: 250px;
-  }
-
-  @media (min-width: $screen-md) {
-    min-height: 200px;
+    min-height: 185px;
+    margin-bottom: 1rem;
+    font-size: 14px;
   }
 
   li {
     margin-bottom: 10px;
 
     a {
-      color: $darkgrey;
-    }
-
-    &:first-child a {
-      color: $tnrisblue;
+      color: #3366BB;
     }
 
 
@@ -491,6 +491,10 @@ ul.stratmap-work {
     margin-right: 20px;
     width: 900px;
   }
+
+  @media (max-width: $screen-sm) {
+    display: none;
+  }
 }
 
 .bar-vertical-stratmap {
@@ -516,4 +520,49 @@ ul.stratmap-work {
   h1 {
     margin-top: 0;
   }
+}
+
+.legend {
+  font-size: 12px;
+  min-width: 300px;
+  max-width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.icon {
+  margin-right : 4px;
+  margin-left : 16px;
+}
+
+.fa.fa-box-open {
+  padding: 0 3px 0 3px
+}
+
+.fa.fa-wrench {
+  padding: 0 3px 0 3px
+}
+
+.fa.fa-laptop {
+  padding: 0 3px 0 3px
+}
+
+.myDiv {
+  height: 25%;
+}
+
+.myDiv2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.myDiv3 {
+  position: absolute;
+  bottom: 0px;
+  margin: 10px 0 10px 0;
+}
+
+.shadow1 {
+  text-shadow: 2px 2px 4px #000000;
 }

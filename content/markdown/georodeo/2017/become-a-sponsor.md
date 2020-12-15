@@ -1,7 +1,7 @@
 ---
 layout: events/georodeo-2017/georodeo-sponsors.njk
 title: Become a GeoRodeo sponsor
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/lifeontheopencode_1.jpg
+mainimage: https://cdn.tnris.org/images/lifeontheopencode_1.jpg
 abstract: Help Sponsor the GeoRodeo
 ---
 

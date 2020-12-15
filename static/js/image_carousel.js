@@ -16,8 +16,8 @@
 //     var dataCount = data.count;
 //     var noCarouselImages =
 //       `
-//       <div class="item active">
-//         <img class="image" src="https://tnris-org-static.s3.amazonaws.com/images/cactus1_21:9.jpg" alt="">
+//       <div class="carousel-item active">
+//         <img class="image" src="https://cdn.tnris.org/images/cactus1_21:9.jpg" alt="">
 //       </div>
 //       `;
 //
@@ -38,7 +38,7 @@
 //           carouselIndicators.appendChild(`<li data-target="#tnris-carousel" data-slide-to=${indicatorCount}></li>`);
 //         }
 //
-//         record.innerHTML = `<img class="image" src="https://tnris-org-static.s3.amazonaws.com/images/cactus2_21:9.jpg" alt="Cactus 2 21:9 Image">`;
+//         record.innerHTML = `<img class="image" src="https://cdn.tnris.org/images/cactus2_21:9.jpg" alt="Cactus 2 21:9 Image">`;
 //         carouselWrapper.appendChild(record);
 //         indicatorCount += 1;
 //       });

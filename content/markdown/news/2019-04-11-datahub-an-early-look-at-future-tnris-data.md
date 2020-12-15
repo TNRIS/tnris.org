@@ -2,8 +2,8 @@
 layout: news-article.njk
 title: "DataHub - An Early Look at the Future of TNRIS Data"
 author: TNRIS
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/datahub_earlyrelease.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/datahub_earlyrelease_th.jpg
+mainimage: https://cdn.tnris.org/images/datahub_earlyrelease.jpg
+thumbnail: https://cdn.tnris.org/images/datahub_earlyrelease_th.jpg
 abstract:
     Try out the brand-new DataHub, an all-in-one platform to browse, download, order all of our data.
 ---
@@ -18,4 +18,4 @@ This is a big change. And, we suspect that our dedicated users may want to take 
 
 The DataHub is the foundation for the future of TNRIS's data, with more enhancements still to come.  We hope that you will let us know if you like it, and especially <a href="/contact">give us feedback</a> on how we can improve it. With your input, we will continue to innovate in order to provide the best experience for TNRIS users!
 
-<a href="https://data.tnris.org" class="btn btn-lg btn-tnris center-block" style="width: 50%;"> <img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<a href="https://data.tnris.org" class="btn btn-lg btn-tnris mx-auto d-block" style="width: 50%;"> <img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>

@@ -76,9 +76,7 @@ var Clipboard = require('clipboard/dist/clipboard.min');
       }, 4000);
     });
 
-    $("a[href^='\#']").each(function(){
-      this.href=location.href.split("#")[0]+'#'+this.href.substr(this.href.indexOf('#')+1);
-    });
+    
   });
 
   $(window).on('load', function() {
@@ -157,26 +155,6 @@ var Clipboard = require('clipboard/dist/clipboard.min');
         $(this).ekkoLightbox();
   });
 
-  // if (location.pathname == "/texas-imagery-service" || location.pathname == "/texas-imagery-service/") {
-  //   window.onscroll = function() {changeFAQoffset()};
-  // }
-  // var navbar = document.getElementById("imagery-service-faq-side");
-  // var downloadbar = document.getElementById("helpful-downloads-texas-imagery");
-  // var navHeight = $('#top').outerHeight(true) + $('#intro').outerHeight(true) + $('#texas-imagery-banner').outerHeight(true) + 10;
-  // $("#imagery-service-faq-side").css({
-  //   'width': ($("#faq-side-container").width() + 'px')
-  // });
-
-  // function changeFAQoffset() {
-  //   if (window.pageYOffset >= navHeight) {
-  //     navbar.classList.add("sticky")
-  //     downloadbar.classList.add("sticky-downloads")
-  //   } else {
-  //     navbar.classList.remove("sticky");
-  //     downloadbar.classList.remove("sticky-downloads")
-  //   }
-  // }
-
   // dismissible alert handling with local storage
   // $(function() {
   //   var dismissed = localStorage.getItem('alert-banner');
@@ -212,21 +190,11 @@ var Clipboard = require('clipboard/dist/clipboard.min');
   //   })
   // });
 
-  // GISCAT April Fools Article
-  function animateRoar() {
-    $("#roar").get(0).play();
-    $("#cat-house").effect("shake", {distance: 60, times: 8}, 1500);
-  };
-  $("#giscat_image").click(animateRoar);
-  if (location.pathname === "/news/2018-04-01/gis-cat-clawing-its-way-back-to-tnris") {
-    $(document).ready(animateRoar);
-  }
-
   // 2018 GeoRodeo speaker hover
   var headshotOrig;
   $(".2018-georodeo-speaker").hover(function(){
       headshotOrig = $(this).attr("src");
-      $(this).attr("src", "https://tnris-org-static.s3.amazonaws.com/images/starwars-developer.jpg");
+      $(this).attr("src", "https://cdn.tnris.org/images/starwars-developer.jpg");
   }, function(){
       $(this).attr("src", headshotOrig);
   })

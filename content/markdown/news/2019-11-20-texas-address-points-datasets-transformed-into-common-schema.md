@@ -2,15 +2,15 @@
 title: Texas Address Points Datasets Transformed Into Common Schema
 author: Ilyanna Kadich, StratMap
 layout: news-article.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/addresspointsshapetexas.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/addresspointsshapetexas_th.jpg
+mainimage: https://cdn.tnris.org/images/addresspointsshapetexas.jpg
+thumbnail: https://cdn.tnris.org/images/addresspointsshapetexas_th.jpg
 thumbalt: Address Point Data Shapes Texas Graphic
 abstract: Address Point Data from statewide stakeholders have been processed into a common schema, now available for download on DataHub.
 ---
 
 <p class="lead">In collaboration with stakeholders from across Texas, TNRIS acquired statewide GIS address point data.  The data were aggregated, standardized into a common schema, and are currently available on the TNRIS DataHub by county.  The data schema is a subset of the 2018 CSEC NG9-1-1 Data Standard.  The 2019 version replaces the 2017 version collected by the Center for Water and the Environment.</p>
 
-<p><a class="btn btn-lg btn-tnris pull-right" href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<p><a class="btn btn-lg btn-tnris float-right" href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
 </p>
 
 Previously, address point data for non-emergency purposes was time-consuming to acquire and standardize due to the many authoritative sources.  
@@ -32,4 +32,4 @@ All address point data are provided in a single coordinate system (WGS84 Web Mer
 
 ### Available Address Point Data Map
 
-<iframe width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/9ea89bcc-63b5-4ed5-924d-e6c1910bb6f4/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen  msallowfullscreen></iframe>
+<iframe title="Available address point data map" width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/9ea89bcc-63b5-4ed5-924d-e6c1910bb6f4/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen  msallowfullscreen></iframe>

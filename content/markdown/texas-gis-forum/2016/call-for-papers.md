@@ -2,9 +2,9 @@
 layout: events/texas-gis-forum/2016/sub.njk
 title: Call for Papers
 subtitle: Call for Presentations
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/forum_photo_montage.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/montage.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/montagesm.jpg
+mainimage: https://cdn.tnris.org/images/forum_photo_montage.jpg
+mainimagesm: https://cdn.tnris.org/images/montage.jpg
+mainimagexs: https://cdn.tnris.org/images/montagesm.jpg
 abstract: Share your knowledge with a respected community of GIS professionals and network with your peers in the geospatial industry. 
 button: callforpapers
 button_link: https://www.surveymonkey.com/r/PXZJBDP
@@ -40,7 +40,7 @@ Abstract selection is very competitive; please follow the format instructions ou
 
 The deadline for abstracts is May 27th, 2016.
 
-<a class="btn btn-lg btn-danger" href="https://www.surveymonkey.com/r/PXZJBDP"><i class="glyphicon glyphicon-hand-right"></i> Submit a Presentation Proposal</a>
+<a class="btn btn-lg btn-danger" href="https://www.surveymonkey.com/r/PXZJBDP"><i class="fa fa-hand-right"></i> Submit a Presentation Proposal</a>
 
 ## Acceptance
 

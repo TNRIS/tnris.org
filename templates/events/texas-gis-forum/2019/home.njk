@@ -18,10 +18,10 @@
 {% block topcontent %}
   <div class="full forum-2019-top">
     {% if mainimage %}
-      <img src="{{mainimage}}" class="banner img-responsive hidden-sm hidden-xs" alt="Texas GIS Forum Main Image">
+      <img src="{{mainimage}}" class="banner img-fluid mx-auto d-none d-md-block" alt="Texas GIS Forum Main Image">
     {% endif %}
     {% if mainimagesm %}
-      <img src="{{mainimagesm}}" class="banner img-responsive hidden-md hidden-lg" alt="Texas GIS Forum Main Image">
+      <img src="{{mainimagesm}}" class="banner img-fluid mx-auto d-md-none d-lg-none" alt="Texas GIS Forum Main Image">
     {% endif %}
     {% include "events/texas-gis-forum/2019/nav.njk" %}
   </div>
@@ -29,18 +29,19 @@
 
 
 {% block contentsOne %}
-  <div class="container">
+  <div class="pt-4 container-md mx-auto row">
       {{contents|safe}}
   </div>
 {% endblock %}
 
 {% block contentsTwo %}
   <section class="grey-bg">
-    <div class="container">
+    <div class="container-md">
     </div>
   </section>
+  <hr>
   <section>
-    <div class="container">
+    <div class="container-md">
       {% include "events/texas-gis-forum/2019/map.njk" %}
     </div>
   </section>

@@ -3,7 +3,7 @@ title: New USGS Lower Colorado San Bernard 2018 Lidar Data Release
 author: Joey Thomas, StratMap
 layout: news-article.njk
 mainimage: https://s3.amazonaws.com/data.tnris.org/b246f8f7-9c79-4c89-91f7-9c7f44955fca/assets/2207731f-4d4c-494e-b9a3-cdadecb331b3.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/sanbernard_th.jpg
+thumbnail: https://cdn.tnris.org/images/sanbernard_th.jpg
 thumbalt: A thumbnail for USGS 2018 Lidar Projects
 abstract: A collaborative initiative to capture high-quality Lidar data for portions of Western areas of South Central Texas.
 ---
@@ -18,11 +18,11 @@ Further details regarding this acquisition can be found by downloading the Proje
 
 <p>To download the 2018 USGS Lower Colorado San Bernard lidar data products, please use the <a href="https://data.tnris.org/collection/b246f8f7-9c79-4c89-91f7-9c7f44955fca">DataHub</a>.</p>
 
-<a class="btn btn-lg btn-tnris" href="https://data.tnris.org/collection/b246f8f7-9c79-4c89-91f7-9c7f44955fca"><img style="width: 20px; margin-bottom: 0 !important;" src="https://tnris-org-static.s3.amazonaws.com/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<a class="btn btn-lg btn-tnris" href="https://data.tnris.org/collection/b246f8f7-9c79-4c89-91f7-9c7f44955fca"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
 
 ## Data coverage
 
-<img src="https://tnris-org-static.s3.amazonaws.com/images/lcb_coveragemap.jpg" class="img-responsive" alt="Map showing coverage of the USGS 2018 Lower Colorado San Bernard lidar project">
+<img src="https://cdn.tnris.org/images/lcb_coveragemap.jpg" class="img-fluid" alt="Map showing coverage of the USGS 2018 Lower Colorado San Bernard lidar project">
 
 Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builder/a5dfc759-9a90-4acd-a8d1-57d521c7e1fe/public_map) for statewide lidar coverage.
 
@@ -36,7 +36,7 @@ Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builde
 
 #### Bare Earth Digital Elevation Model of Lower Colorado San Bernard Lidar
 
-<img class="img-responsive" src="https://s3.amazonaws.com/data.tnris.org/b246f8f7-9c79-4c89-91f7-9c7f44955fca/assets/587cf3fe-c28f-4d2e-82c3-ee4d1586f10c.jpg" alt="detail image of the Lower Colorado San Bernard Lidar">
+<img class="img-fluid" src="https://s3.amazonaws.com/data.tnris.org/b246f8f7-9c79-4c89-91f7-9c7f44955fca/assets/587cf3fe-c28f-4d2e-82c3-ee4d1586f10c.jpg" alt="detail image of the Lower Colorado San Bernard Lidar">
 
 ## Product Specification
 

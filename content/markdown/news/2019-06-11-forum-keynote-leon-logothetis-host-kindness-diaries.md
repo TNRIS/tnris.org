@@ -2,13 +2,13 @@
 layout: news-article.njk
 title: "Forum Keynote: Leon Logothetis, Host of Netflix's The Kindness Diaries"
 author: Texas GIS Forum
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/leon_headshot_th.jpg
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/kindnessdiaries.jpg
+thumbnail: https://cdn.tnris.org/images/leon_headshot_th.jpg
+mainimage: https://cdn.tnris.org/images/kindnessdiaries.jpg
 thumbalt: Headshot of Leon Logothetis
 abstract:
     Leon Logothetis hosts Netflix's The Kindness Diaries. He travels the world relying on the kindness of strangers, giving back to unsuspecting good samaritans.
 ---
-<p class="lead"><a class="btn btn-lg btn-success pull-right" href="/texas-gis-forum/2019">Visit the 2019 Forum Home</a> TNRIS is proud to announce <strong>Leon Logothetis</strong>, host of Netlix's 'The Kindness Diaries', as a keynote for the <a href="/texas-gis-forum/2019">2019 Texas GIS Forum</a>. Read more about Leon and join us at this year's Forum to be a part of Texas's premiere gathering for the Geospatial community.</p>
+<p class="lead"><a class="btn btn-lg btn-success float-right" href="/texas-gis-forum/2019">Visit the 2019 Forum Home</a> TNRIS is proud to announce <strong>Leon Logothetis</strong>, host of Netlix's 'The Kindness Diaries', as a keynote for the <a href="/texas-gis-forum/2019">2019 Texas GIS Forum</a>. Read more about Leon and join us at this year's Forum to be a part of Texas's premiere gathering for the Geospatial community.</p>
 
 Leon Logothetis is a global adventurer, motivational speaker & philanthropist. It wasn’t always that way. He used to be a broker in the city of London where he felt uninspired and chronically depressed. He gave it all up for a life on the road. This radical life change was inspired by the inspirational movie The Motorcycle Diaries.
 

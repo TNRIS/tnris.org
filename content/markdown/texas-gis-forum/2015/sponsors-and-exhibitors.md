@@ -2,9 +2,9 @@
 layout: events/texas-gis-forum/2015/forum.njk
 title: Sponsors & Exhibitors
 subtitle: Texas GIS Forum | October 26th – 29th, 2015
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/2015_forum_banner_lg.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/small-web-banner.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/xs-banner.jpg
+mainimage: https://cdn.tnris.org/images/2015_forum_banner_lg.jpg
+mainimagesm: https://cdn.tnris.org/images/small-web-banner.jpg
+mainimagexs: https://cdn.tnris.org/images/xs-banner.jpg
 intro: true
 abstract: Partner with Texas's Premiere gathering for the Geospatial Professionals to reach your customers and your community.
 ---
@@ -29,7 +29,7 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 - On-site promotions
 - Technical demos
 
-<a href="https://tnris-org-static.s3.amazonaws.com/documents/Rules-and-Regulations-2015.pdf" class="btn btn-danger btn-lg"><i class="glyphicon glyphicon-chevron-right"></i> Download the Sponsor Rules &amp; Regulations</a>
+<a href="https://cdn.tnris.org/documents/Rules-and-Regulations-2015.pdf" class="btn btn-danger btn-lg"><i class="fa fa-chevron-right"></i> Download the Sponsor Rules &amp; Regulations</a>
 
 ## Platinum Sponsor/Exhibitor ($4,000 - limit 3)
 

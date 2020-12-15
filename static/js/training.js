@@ -43,37 +43,31 @@ function retrieveTraining(queryField, queryValue) {
       d2parts[2] = d2parts[2] + `, ${t.year}`;
       var d2 = new Date(d2parts.join(" ")).toString().split(' ');
       var today = d1[3]+(monthsArray.indexOf(d1[1])+1)+d1[2];
-      var end = t.year+(monthsArray.indexOf(d2[1])+1)+d2[2];
+      var end = t.fiscal_year+(monthsArray.indexOf(d2[1])+1)+d2[2];
       // use today date compared to end date and registration_open status to determine button used in training record
-      // if registration is open and today is prior to the training end date
-      if (t.registration_open && (today < end)) {
-        // set to active enabled register button with proper link to external registration page
-        status = `<a href="${t.training_link}" class="btn btn-success btn-sm">
-                    <i class="glyphicon glyphicon-new-window"></i> Register
-                  </a>`;
-      }
-      else if (t.registration_open && (today >= end)) {
-        // set to disabled close/remove button if for some reason registration is set to True for a
-        // training record that has past
-        status = `<a href="#" class="btn btn-danger btn-sm disabled">
-                    <i class="glyphicon glyphicon-remove"></i> Closed
-                  </a>`;
+      // NOTE: this is really meant to catch any courses that haven't been updated properly in the api, so the user doesn't
+      // see innaccurate information on the education page.
+      if (t.registration_open) {
+        // if registration is open and today is prior to the training end date
+        if (today < end) {
+          // set to active enabled register button with proper link to external registration page
+          status = `<a href="${t.training_link}" class="btn btn-success btn-sm">
+                      <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Register
+                    </a>`;
+        }
+        else if (today >= end) {
+          // set to disabled close/remove button if for some reason registration is set to True for a
+          // training record that has past
+          status = `<a href="#" class="btn btn-danger btn-sm disabled">
+                      <i class="fa fa-remove"></i> Closed
+                    </a>`;
+        }
       }
       else if (!t.registration_open) {
-        // if registration is closed and today is prior to training end date
-        if (today < end) {
-          // set to disabled register icon button - could be set to 'pending' or similar if needed
-          status = `<a href="#" class="btn btn-default btn-sm disabled">
-                      <i class="glyphicon glyphicon-new-window"></i> Register
-                    </a>`;
-        }
-        // if registration is closed and today is equal to or past the training end date
-        else if (today >= end) {
-          // set to disabled close/remove icon button
-          status = `<a href="#" class="btn btn-danger btn-sm disabled">
-                      <i class="glyphicon glyphicon-remove"></i> Closed
-                    </a>`;
-        }
+        // if registration is closed, always set to close/remove icon button
+        status = `<a href="#" class="btn btn-danger btn-sm disabled">
+                    <i class="fa fa-remove"></i> Closed
+                  </a>`;
       }
       // END - date time work to determine register button status
       ////////////////////////////////////////////////
@@ -90,57 +84,54 @@ function retrieveTraining(queryField, queryValue) {
       record.setAttribute('class', 'training-record');
       record.setAttribute('id', urlTitle);
       record.innerHTML =
-        `<div class="row training-header">
-          <div class="row">
-            <div class="col-xs-12 course-info-category">
-              ${t.category}
-            </div>
+        `<div class="p-0 row training-header">
+          <div class="col-12 course-info-category">
+            ${t.category}
           </div>
-          <div class="col-xs-12 col-sm-3 course-date-time">
-            <strong>
-              <span class="glyphicon glyphicon-calendar"></span>
-              ${month} ${day}, ${t.year}
-            </strong><br>
-            <i class="glyphicon glyphicon-time"></i>
-            ${start_time} - ${end_time} <br>
-            <button class="btn btn-primary btn-sm full-details-btn" type="button" data-toggle="collapse" aria-expanded="false" data-target="#${t.training_id}">
-              <span class="glyphicon glyphicon-info-sign"></span>
-              Expand Details
-            </button>
-          </div>
-          <div class="col-xs-12 col-sm-9">
+          <div class="col-12">
             <div class="row">
-              <div class="col-xs-12">
-                <h3>
-                  ${t.title}
+              <div class="col-8"><br>
+                <h3><b>
+                  ${t.title}</b>
                 </h3>
               </div>
-              <div class="col-xs-3 course-info">
-                <strong>Taught by:</strong>
-                <br> ${t.instructor}
+              <div class="col-4 classdate">
+              <strong>
+              <span class="fa fa-calendar"></span>
+              ${month} ${day}, ${t.year}
+            </strong><br>
+            <i class="fa fa-time"></i>
+            ${start_time} - ${end_time} 
               </div>
-              <div class="col-xs-3 course-info">
-                <strong>Cost:</strong><br> $${t.cost}
+              <div class="col-8 course-info2">
+                <strong>Taught by:</strong> ${t.instructor}<br>
+                <strong>Cost:</strong> $${t.cost}
               </div>
-              <div class="col-xs-3 course-info">
-                <strong>Share Course:</strong><br>
+              <div class="col-2 course-info">
+              <button class="btn btn-primary btn-sm full-details-btn" type="button" data-toggle="collapse" aria-expanded="false" data-target="#Sheet${t.training_id}">
+              <span class="fa fa-caret-down"></span>
+              Details
+            </button>
+            </div>
+              <div class="col-2 course-info"> ${status}
+              </div>
+            </div>
+          </div>
+          <div id="Sheet${t.training_id}" class="course-description col-12 collapse" style="padding:20px;">
+            <hr class="new1">
+            <h5>Description</h5>
+            ${t.description}
+            <!-- if there are public registration_open records, insert discount copy content in each record html -->
+            <!-- <div id="training-discount-copy-record" style="padding:25px 0 0 0;"></div> -->
+            <div class="col-3 course-info">
+                <strong>Share:</strong><br>
                 <span class="input-group-btn">
-                  <button class="btn btn-tnris btn-sm copy-url-btn" type="button" style="margin-top:0;">
+                  <button class="btn btn-tnris btn-sm copy-url-btn" type="button" style="margin-top:0; width:95%;">
                     <i class="fa fa-clipboard"></i> Copy Link
                   </button>
                 </span>
                 <input class="form-control hidden-clipboard-input" type="text" readonly value="${location.origin}/education#${urlTitle}">
               </div>
-              <div class="col-xs-3 course-info">
-                <strong>Status:</strong><br> ${status}
-              </div>
-            </div>
-          </div>
-          <div id="${t.training_id}" class="course-description col-xs-12 collapse" style="padding:20px;">
-            <h3>Description</h3>
-            ${t.description}
-            <!-- if there are public registration_open records, insert discount copy content in each record html -->
-            <div id="training-discount-copy-record" style="padding:25px 0 0 0;"></div>
           </div>
         </div>`;
 
@@ -153,18 +144,18 @@ function retrieveTraining(queryField, queryValue) {
   })
   .then(function(data) {
     // check if hash exists; if so, smooth scroll to div id and open description
-    // by simulating click on the great-grandchil button element
+    // by simulating click on the great-grandchild button element
     // this is for sharing urls to training records
     var clickId = location.hash.replace("#", "");
-    var element = document.getElementById(clickId);
-    var button = element ? element.children[0].children[1].children[4] : '';
-    if (location.hash && document.getElementById(clickId)) {
+    var element = clickId ? document.getElementById(clickId) : "";
+    var button = element ? element.children[0].children[1].children[0].children[3].children[0] : '';
+    if (location.hash) {
       element.scrollIntoView({
         behavior: 'smooth'
       });
       button.click();
       button.className = 'btn btn-warning btn-sm full-details-btn';
-      button.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details";
+      button.innerHTML = "<span class='fa fa-caret-up'></span> Close";
     }
   })
   .then(function() {
@@ -176,7 +167,7 @@ function retrieveTraining(queryField, queryValue) {
       b.addEventListener("click", function() {
         // if event is fired to expand description, scroll to course great-grandparent ".training-record"
         // if event is fired to collapse, no scrolling
-        if (b.innerHTML.includes('Expand')) {
+        if (b.innerHTML.includes('Details')) {
           b.parentNode.parentNode.parentNode.scrollIntoView({
             behavior: 'smooth'
           });
@@ -185,7 +176,7 @@ function retrieveTraining(queryField, queryValue) {
           window.history.pushState(null, "", window.location.href.replace(location.hash, ""));
         }
         b.classList.contains('btn-primary') ? b.className = 'btn btn-warning btn-sm full-details-btn' : b.className = 'btn btn-primary btn-sm full-details-btn';
-        b.innerHTML.includes('Expand') ? b.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Close Details" : b.innerHTML = "<span class='glyphicon glyphicon-info-sign'></span> Expand Details";
+        b.innerHTML.includes('Details') ? b.innerHTML = "<span class='fa fa-caret-up'></span> Close" : b.innerHTML = "<span class='fa fa-caret-down'></span> Details";
       });
     });
   });
@@ -242,7 +233,6 @@ function retrieveTrainingCategories() {
 
 // check to see if atleast one education record from the api is set to registration open
 // if there is at least one available, return the discount code copy html at top right of page
-// and in each record details (expand details button) in the list from the api
 function insertDiscountCopy() {
   // both public and registration_open have to be equal to true for discount copy html to be inserted
   var trainingUrl = 'https://api.tnris.org/api/v1/tnris_org/training?registration_open=True'
@@ -258,11 +248,10 @@ function insertDiscountCopy() {
     var discountValue = "TNRIS2020";
 
     // check if any education records are public and registration_open from api, if so insert html
-    console.log('data count =', data.count);
     if (data.count > 0) {
       var copy =
         `
-          <h3>Discount Code</h3>
+          <h3 style="margin-top:0;">Discount Code</h3>
           <p>
             To receive a discounted price on all TNRIS trainings provided through our service partners, copy the coupon code below to use during the registration process.
           </p>
@@ -281,10 +270,10 @@ function insertDiscountCopy() {
       document.getElementById('training-discount-copy').innerHTML = copy + "<hr class='clearfix'>";
       // used to insert the discount copy code into each education record that comes from the api
       // do not include the <hr> tag
-      var records = document.querySelectorAll('#training-discount-copy-record');
-      records.forEach(function(r) {
-        r.innerHTML = copy;
-      });
+      // var records = document.querySelectorAll('#training-discount-copy-record');
+      // records.forEach(function(r) {
+      //   r.innerHTML = copy;
+      // });
     }
   })
 }

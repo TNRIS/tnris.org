@@ -2,9 +2,9 @@
 layout: events/texas-gis-forum/2015/forum-main.njk
 title: 2015 Texas GIS Forum Agenda
 subtitle: At the Intersection of Geography and Technology
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/2015_forum_banner_lg.jpg
-mainimagesm: https://tnris-org-static.s3.amazonaws.com/images/small-web-banner.jpg
-mainimagexs: https://tnris-org-static.s3.amazonaws.com/images/xs-banner.jpg
+mainimage: https://cdn.tnris.org/images/2015_forum_banner_lg.jpg
+mainimagesm: https://cdn.tnris.org/images/small-web-banner.jpg
+mainimagexs: https://cdn.tnris.org/images/xs-banner.jpg
 intro: true
 abstract: Save the date for the Texas GIS Forum, the state's premier conference for the geospatial professional community.
 ---
@@ -13,9 +13,10 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
 Note: Agenda and speakers subject to change without notice.
 </p>
 <div class="agenda-full">
-  <div class="row">
-    <h2>Monday, October 26th</h2>
-    <div class="col-sm-3 col-md-2">
+  <div>
+		<h2>Monday, October 26th</h2>
+		<div class="row">
+		<div class="col-sm-3 col-lg-2">
       8:00 a.m - 5:00 p.m.
     </div>
     <div class="col-sm-9">
@@ -23,10 +24,12 @@ Note: Agenda and speakers subject to change without notice.
         <a href="/texas-gis-forum/2015/training">Pre-conference Training</a>
       </h3>
     </div>
+	</div>
   </div>
-  <div class="row">
-    <h2>Tuesday, October 27th</h2>
-    <div class="col-sm-3 col-md-2">
+  <div>
+		<h2>Tuesday, October 27th</h2>
+		<div class="row">
+		<div class="col-sm-3 col-lg-2">
       8:00 a.m - 5:00 p.m.
     </div>
     <div class="col-sm-9">
@@ -34,27 +37,28 @@ Note: Agenda and speakers subject to change without notice.
         <a href="/texas-gis-forum/2015/training">Pre-conference Training</a>
       </h3>
     </div>
+	</div>
   </div>
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2">
+    <div class="col-sm-3 col-lg-2">
       10:00 a.m - 12:00 p.m.
     </div>
     <div class="col-sm-9">
       <h3><small>Information Session</small></h3>
       <p>
-        <a href="http://www.infogroup.com/"><img class="pull-right" alt="Infogroup geospatial logo and link" src="https://tnris-org-static.s3.amazonaws.com/images/infogroup_logo_sm.png"></a>
+        <a href="http://www.infogroup.com/"><img class="float-right" alt="Infogroup geospatial logo and link" src="https://cdn.tnris.org/images/infogroup_logo_sm.png"></a>
         <strong>Infogroup</strong> will present on their statewide enterprise license offer to the state of Texas. Attendees will learn about Infogroup business and residential data records and how it would benefit agency business matters. This meeting is open to the public.
       </p>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2">
+    <div class="col-sm-3 col-lg-2">
       5:30 p.m
     </div>
     <div class="col-sm-9">
       <h3>Esri GeoDev Meetup</h3>
       <p>
-        <a href="http://www.meetup.com/DevMeetUpTexas/events/225538428/"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/meetup_logo.png"></a> This event is a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.
+        <a href="http://www.meetup.com/DevMeetUpTexas/events/225538428/"><img class="float-right" src="https://cdn.tnris.org/images/meetup_logo.png"></a> This event is a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.
       </p>
       <p>Meetup RSVP:
         <a class="dont-break" href="http://www.meetup.com/DevMeetUpTexas/events/225538428">
@@ -63,16 +67,16 @@ Note: Agenda and speakers subject to change without notice.
       </p>
     </div>
   </div>
-  <h2><small>Conference</small><br>Wednesday, October 28th</h2>
-  <div class="well well-sm well-dark well-holl">
+  <h2><small class="text-muted">Conference</small><br>Wednesday, October 28th</h2>
+  <div class="card card-body well-sm well-dark well-holl">
     <div class="row">
-      <div class="col-sm-3 col-md-2">
+      <div class="col-sm-3 col-lg-2">
         9:00 a.m. - 5:00 p.m.
       </div>
-      <div class="col-sm-9 col-md-10">
+      <div class="col-sm-9 col-lg-10">
         <h4>ESRI HOLL (Hands-On Learning Labs)</h4>
         <p>
-          <button class="btn btn-md btn-danger pull-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button>
+          <button class="btn btn-md btn-danger float-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button>
           Throughout the day on Wednesday, ESRI will host self-guided courses in the <strong>Balcones Room</strong> covering ESRI software and key GIS techniques.
         </p>
       </div>
@@ -86,7 +90,7 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_0700">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayOne_0700">
     7:00 - 8:30 a.m.
     </div>
     <div class="col-sm-9">
@@ -94,31 +98,31 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_0830">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayOne_0830">
       8:30 - 9:00 a.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
       <strong>Opening remarks</strong>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_0900">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayOne_0900">
       9:00 - 10:00 a.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
       <h3 id="keynote-meier">
         <small>Keynote Presentation</small>
         <br>
         Patrick Meier, Digital Humanitarian
       </h3>
       <p>
-        <img class="pull-right img-circle keynote-portrait" src="https://tnris-org-static.s3.amazonaws.com/images/patrick.jpg">Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. He is the author of, “Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Action.”
+        <img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/patrick.jpg">Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. He is the author of, “Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Action.”
       </p>
       <p>
         He has consulted extensively for several international organizations including the United Nations and the World Bank. Patrick also founded/co-founded CrisisMappers, Digital Humanitarians, and many more. Patrick also writes the [iRevolutions](http://irevolution.net) blog, and tweets at [@patrickmeier](https://twitter.com/patrickmeier).
       </p>
       <p>
-        <i class="glyphicon glyphicon-user"></i> [Full Bio](http://irevolution.net/bio)
+        <i class="fa fa-user"></i> [Full Bio](http://irevolution.net/bio)
       </p>
       <p>
         <strong>Watch Video:</strong>
@@ -128,18 +132,18 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_1000">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1000">
       10:00 - 10:30 a.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
       <strong>Break &amp; Exhibits</strong>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_1030">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1030">
       10:30 a.m. - 12:00 p.m.
     </div>
-    <div class="col-sm-9 col-md-5">
+    <div class="col-sm-9 col-lg-5">
       <h3>
         <small>Session A (Big Tex)</small>
         <br>Remote Sensing (I Spy From Up High)
@@ -147,11 +151,11 @@ Note: Agenda and speakers subject to change without notice.
     <div class="agenda-track">
       <div id="one-A-1030-a" class="agenda-track-item media">
         <div class="media-left">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <button class="star-btn"><i class="fa fa-star"></i></button>
         </div>
         <div class="media-body">
           <h4 class="media-heading">
-            <small>10:30 a.m. – 11:00 a.m.</small><br>
+            <small class="text-muted">10:30 a.m. – 11:00 a.m.</small><br>
             Assessing The Utility Of Pixel-based And Object-based Classification Methods For Surveying Wetland Vegetation With An Unmanned Aerial System
           </h4>
           <p>
@@ -160,7 +164,7 @@ Note: Agenda and speakers subject to change without notice.
           </p>
           <em>Nicholas Villarreal, Graduate Intern/SMWI Project - Texas State University at San Marcos | Jennifer Jensen - Texas State University at San Marcos | Kristina Tolman - The Meadows Center for Water and the Environment</em>
           <p>
-            <a href="#" data-toggle="modal" data-target=".modal-01"><i class="glyphicon glyphicon-info-sign"></i> Abstract</a>
+            <a href="#" data-toggle="modal" data-target=".modal-01"><i class="fa fa-info-sign"></i> Abstract</a>
           </p>
         </div>
       </div>
@@ -190,14 +194,14 @@ Note: Agenda and speakers subject to change without notice.
                 </p>
              </div>
              <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
              </div>
            </div>
         </div>
       </div>
       <div id="one-A-1030-b" class="agenda-track-item media">
         <div class="media-left">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <button class="star-btn"><i class="fa fa-star"></i></button>
         </div>
         <div class="media-body">
           <h4 class="media-heading">
@@ -211,7 +215,7 @@ Note: Agenda and speakers subject to change without notice.
           </p>
           <em>Frank Obusek - Hexagon Geospatial</em>
           <p>
-            <a href="#" data-toggle="modal" data-target=".modal-02"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a>
+            <a href="#" data-toggle="modal" data-target=".modal-02"><i class="fa fa-info-sign"></i> Abstract &amp; Bio</a>
           </p>
         </div>
       </div>
@@ -229,22 +233,22 @@ Note: Agenda and speakers subject to change without notice.
               <p><strong>Presenter Bio:</strong><br><em>Frank Obusek</em> is an Applications Engineer with Hexagon Geospatial.  He has a Master’s degree in Geology from Bowling Green State University in Ohio. Frank has worked in the field of remote sensing since the mid-90s.  He has worked with all sectors of government and many private industry vendors, including owning his own small business.  Frank’s expertise includes photogrammetry, image processing, feature extraction, landcover classification and 3D visualization.</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
       </div>
       <div id="one-A-1030-c" class="agenda-track-item media">
         <div class="media-left">
-          <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+          <button class="star-btn"><i class="fa fa-star"></i></button>
         </div>
         <div class="media-body">
           <h4 class="media-heading">
-          <small>11:30 a.m. – 12:00 p.m.</small><br>
+          <small class="text-muted">11:30 a.m. – 12:00 p.m.</small><br>
           UAV Solutions Using Remote Sensing and Photogrammetry Applications
           </h4>
           <em>Joe Mostowy - Hexagon Geospatial</em>
-          <p><a href="#" data-toggle="modal" data-target=".modal-03"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+          <p><a href="#" data-toggle="modal" data-target=".modal-03"><i class="fa fa-info-sign"></i> Abstract &amp; Bio</a></p>
         </div>
       </div>
       <div class="modal fade modal-03" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -261,30 +265,30 @@ Note: Agenda and speakers subject to change without notice.
               <p><strong>Presenter Bio:</strong><br><em>Joe Mostowy</em> has been with Hexagon Geospatial (formerly ERDAS Inc.) for over fifteen years working in various positions in technical sales, marketing and product management roles.  He is currently a Senior Software Consultant for geospatial products specializing in UAV and Photogrammetry. Joe has been a technical liaison across departments engineering solutions to support sales efforts, for clients and ensuring engineering is receiving the proper requirements.  Joe holds a Bachelor of Arts in Geography and Psychology from Lakehead University in Thunder Bay Ontario along with an Advanced Diploma in Remote Sensing/GIS from COGS in Lawrencetown, Nova Scotia, Canada.</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-lg-0">
     <h3>
-      <small>Session B (Li'l TEX)</small><br>Applied GIS (Putting GIS to Work)
+      <small class="text-muted">Session B (Li'l TEX)</small><br>Applied GIS (Putting GIS to Work)
     </h3>
     <div class="agenda-track">
     <div id="one-B-1030-a" class="agenda-track-item media">
       <div class="media-left">
-        <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+        <button class="star-btn"><i class="fa fa-star"></i></button>
       </div>
       <div class="media-body">
         <h4 class="media-heading">
-          <small>10:30 a.m. – 11:00 a.m.</small><br>
+          <small class="text-muted">10:30 a.m. – 11:00 a.m.</small><br>
           Innovative Public Health Care GIS Applications
         </h4>
         <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/innovative-public-health-care-gis-applications"><i class="fa fa-play-circle"></i> View Slides</a></p>
         <em>Jack Hill and Amanda Scarborough - Sam Houston State University</em>
-        <p><a href="#" data-toggle="modal" data-target=".modal-04"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+        <p><a href="#" data-toggle="modal" data-target=".modal-04"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
       </div>
     </div>
     <div class="modal fade modal-04" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -305,22 +309,22 @@ Note: Agenda and speakers subject to change without notice.
              <p>He previously served as Vice President and Director of the Environmental Program at the Houston Advanced Research Center (HARC). He also served on the faculty of the Department of Civil Engineering at Louisiana State University where he was Associate Professor and Associate Director of the Remote Sensing and Image Processing Laboratory.</p>
            </div>
            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
            </div>
         </div>
       </div>
     </div>
     <div id="one-B-1030-b" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>11:00 a.m. – 11:30 a.m.</small><br>
+    <small class="text-muted">11:00 a.m. – 11:30 a.m.</small><br>
     Planning and Implementation of Address Point Projects for NG9-1-1: Accurate Data Points for Accurate Call Routing
     </h4>
     <em>Kim Paxton - Intrado</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-05"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-05"><i class="fa fa-info-sign"></i> Abstract &amp; Bio</a></p>
     </div>
     </div>
     <div class="modal fade modal-05" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -335,22 +339,22 @@ Note: Agenda and speakers subject to change without notice.
             <p><strong>Presenter Bio:</strong><br><em>Kim Paxton</em>, GISP and Support Engineer for Intrado, has been actively involved with the Public Safety 9-1-1 community for the past eight years.  With over 28 years experience in mapping and GIS, Kim is also a past 9-1-1 Coordinator, State of Florida E9-1-1 Board Member and Treasurer for the Florida NENA Executive Board.  She has been instrumental in implementing numerous Enterprise GIS Solutions, Geospatial Mapping, and 9-1-1 applications. Her expertise brings a broad perspective to the application of GIS solutions exclusively for 9-1-1 agencies.</p>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
         </div>
       </div>
     </div>
     <div id="one-B-1030-c" class="agenda-track-item media">
       <div class="media-left">
-      <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+      <button class="star-btn"><i class="fa fa-star"></i></button>
       </div>
       <div class="media-body">
       <h4 class="media-heading">
-      <small>11:30 a.m. – 12:00 p.m.</small><br>
+      <small class="text-muted">11:30 a.m. – 12:00 p.m.</small><br>
       GIS at the Wimberley Flash Flood Disaster
       </h4>
       <em>Devon Humphrey - Waypoint Mapping</em>
-      <p><a href="#" data-toggle="modal" data-target=".modal-06"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+      <p><a href="#" data-toggle="modal" data-target=".modal-06"><i class="fa fa-info-sign"></i> Abstract &amp; Bio</a></p>
       </div>
     </div>
     <div class="modal fade modal-06" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -367,7 +371,7 @@ Note: Agenda and speakers subject to change without notice.
     <p><strong>Presenter Bio:</strong><br><em>Devon Humphrey</em> has worked with emerging technologies for GIS for over 25 years. This includes State &amp; Local Government at both Lee County and Texas General Land Office, ESRI, ESRI Partner Company Geowarehouse, and now Waypoint Mapping. Waypoint is focused on GIS consulting for emergency management and critical infrastructure organizations. Devon has also taught GIS for Emergency Response at Texas A&amp;M University Corpus Christi for the past 21 years.</p>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
         </div>
       </div>
@@ -376,21 +380,21 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1200">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1200">
   12:00 - 1:00 p.m.
   </div>
-  <div class="col-sm-9 col-md-10">
+  <div class="col-sm-9 col-lg-10">
   <strong>Lunch &amp; Exhibits</strong>
   </div>
   </div>
   <div class="row">
-  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1300">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1300">
   1:00 – 2:00 p.m.
   </div>
-  <div class="col-sm-9 col-md-10">
+  <div class="col-sm-9 col-lg-10">
   <h3>
-  <small>Platinum Sponsor Demo</small><br>
-  <img src="https://tnris-org-static.s3.amazonaws.com/images/appgeo_logo_sm.png" alt="AppGeo Logo">
+  <small class="text-muted">Platinum Sponsor Demo</small><br>
+  <img src="https://cdn.tnris.org/images/appgeo_logo_sm.png" alt="AppGeo Logo">
   </h3>
   <h4>
   Whooping Cranes over the Laguna Madre: Shared Value, Semantic Shifts, and Collaborative Leadership
@@ -399,23 +403,23 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1400">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1400">
   2:00 - 3:30 p.m.
   </div>
-  <div class="col-sm-9 col-md-5">
-  <h3><small>Session A (Big Tex)</small><br>Open Source (Something for Everyone)</h3>
+  <div class="col-sm-9 col-lg-5">
+  <h3><small class="text-muted">Session A (Big Tex)</small><br>Open Source (Something for Everyone)</h3>
   <div class="agenda-track">
   <div id="one-A-1400-a" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>2:00 p.m. – 2:30 p.m.</small><br>
+    <small class="text-muted">2:00 p.m. – 2:30 p.m.</small><br>
     Development of a Binational Geospatial Decision Support System to Protect Water Quality in the Lower Rio Grande: An Innovative Use of Open Source Geographic Information System Software
     </h4>
     <em>Roger Miranda - University of Texas, LBJ School of Public Affairs and Alexander Sun, University of Texas Bureau of Economic Geology | T. Clay Templeton, PhD Student, University of Texas - School of Information</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-07"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-07"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
     </div>
   </div>
   <div class="modal fade modal-07" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -436,22 +440,22 @@ Note: Agenda and speakers subject to change without notice.
           <p><em>Alex Sun </em>is a computational hydrologist with the Bureau of Economic Geology at University of Texas at Austin. He received his Ph.D and MS in civil and environmental engineering from the University of California at Berkeley. He has extensive experience and strong interests in developing decision support systems using open-source technologies.</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
   <div id="one-A-1400-b" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>2:30 p.m. – 3:00 p.m.</small><br>
+    <small class="text-muted">2:30 p.m. – 3:00 p.m.</small><br>
     GIS Lessons: Learning to Query and Code with the CartoDB Academy
     </h4>
     <em>Andy Eschbacher - CartoDB</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-08"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-08"><i class="fa fa-info-sign"></i> Abstract &amp; Bio</a></p>
     </div>
   </div>
   <div class="modal fade modal-08" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -467,23 +471,23 @@ Note: Agenda and speakers subject to change without notice.
             <p><strong>Presenter Bio:</strong><br><em>Andy Eschbacher</em> is a physicist turned educator turned map scientist. At CartoDB he wears many hats. From finding out how to make web maps more scientific with hacks on open source software, to developing educational content, to sharing and learning from the diverse online mapping community, he and his colleagues keep very busy.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
       </div>
     </div>
   </div>
   <div id="one-A-1400-c" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>3:00 p.m. – 3:30 p.m.</small><br>
+    <small class="text-muted">3:00 p.m. – 3:30 p.m.</small><br>
     Open Source Software Education in Texas
     </h4>
     <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/open-source-software-education-in-texas"><i class="fa fa-play-circle"></i>  View Slides</a></p>
     <em>Phillip Davis - GeoAcademy | Richard Smith - Texas A &amp; M University, Corpus Christi</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-09"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-09"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
     </div>
   </div>
   <div class="modal fade modal-09" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -499,28 +503,28 @@ Note: Agenda and speakers subject to change without notice.
   <p> <em>Phillip Davis, EdD</em> serves as project manager for the GIS program at Del Mar College.  He recently served as Director of the GeoTech Center (2008-2013) and is currently serving as the Project Manager for the National Information, Security and Geospatial Technology Consortium at Del Mar College.  In this role he is responsible for the creation of this GST 101 course and four others that make the Model GIS Curriculum now used in colleges nationwide.  His research interest is in the use and promotion of open source software solutions for GIS and higher education.</p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
   </div>
   </div>
   </div>
-  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
-  <h3><small>Session B (Li'l TEX)</small><br>Innovative Technology (New to You)</h3>
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-lg-0">
+  <h3><small class="text-muted">Session B (Li'l TEX)</small><br>Innovative Technology (New to You)</h3>
   <div class="agenda-track">
   <div id="one-B-1400-a" class="agenda-track-item media">
       <div class="media-left">
-      <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+      <button class="star-btn"><i class="fa fa-star"></i></button>
       </div>
       <div class="media-body">
       <h4 class="media-heading">
-      <small>2:00 p.m. – 2:30 p.m.</small><br>
+      <small class="text-muted">2:00 p.m. – 2:30 p.m.</small><br>
       Augmented Reality for Hidden Assets
       </h4>
       <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/augmented-reality-for-hidden-assets"><i class="fa fa-play-circle"></i> View Slides</a></p>
       <em>Brady Hustad and Ken Hetlinger - Astadia</em>
-      <p><a href="#" data-toggle="modal" data-target=".modal-10"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+      <p><a href="#" data-toggle="modal" data-target=".modal-10"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
       </div>
   </div>
   <div class="modal fade modal-10" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -535,23 +539,23 @@ Note: Agenda and speakers subject to change without notice.
           <p><em>Brady Hustad</em> is Director of Product and Business Development at Astadia, working to identify the full extent of solutions we can offer our customers by leveraging the technologies and products of our partners.  Brady has 20 years of experience in application and web development, architecture and software development with expertise ranging from cryptography to expert systems.  For the past 15 years, Brady has focused on spatial mapping systems, working with Esri, MapInfo, Google and Bing Maps and others.  With over 400 successful mapping applications delivered, Brady now helps guide Astadia to find and deliver innovative solutions to our customers across numerous industries.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
     </div>
   <div id="one-B-1400-b" class="agenda-track-item media">
     <div class="media-left">
-      <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+      <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>2:30 p.m. – 3:00 p.m.</small><br>
+    <small class="text-muted">2:30 p.m. – 3:00 p.m.</small><br>
     VOICE - Virtual Online Inspection Checking and Editing
     </h4>
     <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/voice-virtual-online-inspection-checking-and-editing"><i class="fa fa-play-circle"></i> View Slides</a></p>
     <em>Rodney Cope and Bill Walker - Quantum Spatial</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-11"><i class="glyphicon glyphicon-info-sign"></i> Abstract</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-11"><i class="fa fa-info-sign"></i> Abstract</a></p>
     </div>
   </div>
   <div class="modal fade modal-11" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -564,23 +568,23 @@ Note: Agenda and speakers subject to change without notice.
           <p>Now, there have been several advances in cloud computing and new research in algorithms for managing large volumes of data.  Fusing these two enhancements together provides a practical, reliable and convenient alternative to the distribution of these datasets, while reducing the process friction of the traditional approach.  In this talk, we will outline how such solutions are developed using real-life examples drawn from the need to collaboratively and interactively assess the quality of both imagery and LiDAR data.</p>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
         </div>
       </div>
   </div>
   <div id="one-B-1400-c" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>3:00 p.m. – 3:30 p.m.</small><br>
+    <small class="text-muted">3:00 p.m. – 3:30 p.m.</small><br>
     Integrating Autocad and GIS into a Preventative Maintenance Plan for Roadways
     </h4>
     <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/integrating-autocad-and-gis-into-a-preventative-maintenance-plan-for-roadways"><i class="fa fa-play-circle"></i> View Slides</a></p>
     <em>Adrian Garcia and Ernie Martinez - The City of Fair Oaks Ranch, Texas</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-12"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-12"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
     </div>
   </div>
   <div class="modal fade modal-12" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -599,7 +603,7 @@ Note: Agenda and speakers subject to change without notice.
             </p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -608,35 +612,35 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   <div class="row">
-  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1530">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1530">
   3:30 - 4:00 p.m.
   </div>
-  <div class="col-sm-9 col-md-10">
+  <div class="col-sm-9 col-lg-10">
   <strong>Break &amp; Exhibits</strong>
   </div>
   </div>
   <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2 time-block" id="DayOne_1600">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1600">
   4:00 - 5:30 p.m.
   </div>
-  <div class="col-sm-9 col-md-5">
+  <div class="col-sm-9 col-lg-5">
   <h3>
-  <small>Session A (Big Tex)</small><br>
+  <small class="text-muted">Session A (Big Tex)</small><br>
   Online Map Applications (You Can Do THAT On the Web?)
   </h3>
   <div class="agenda-track">
   <div id="one-A-1600-a" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>4:00 p.m. – 4:30 p.m.</small><br>
+    <small class="text-muted">4:00 p.m. – 4:30 p.m.</small><br>
     The History of Texas is Under Your Feet and at Your Fingertips
     </h4>
     <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/the-history-of-texas-is-under-your-feet-and-at-your-fingertips"><i class="fa fa-play-circle"></i> View Slides</a></p>
     <em>Daniel K. Pearson, US Geological Survey</em><br>
-    <a href="#" data-toggle="modal" data-target=".modal-13"><i class="glyphicon glyphicon-info-sign"></i> Abstract</a></p>
+    <a href="#" data-toggle="modal" data-target=".modal-13"><i class="fa fa-info-sign"></i> Abstract</a></p>
     </div>
   </div>
   <div class="modal fade modal-13" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -650,23 +654,23 @@ Note: Agenda and speakers subject to change without notice.
             <p>In October 2002, the USGS Texas Water Science Center, in cooperation with the Texas Natural Resources Information System, embarked on a project to digitize all 38 Geologic Atlas of Texas hardcopy map sheets (UT-Bureau of Economic Geology) and compile them into a single, stand-alone database. Completed in 2007, the project resulted in a rich, digital dataset containing more than 145,000 geologic features in Texas and portions of neighboring states.  The presentation will cover the entire life cycle of the project from data production, to application development and the use of social media outreach tools, as well as the public response</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
     </div>
   </div>
   <div id="one-A-1600-b" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>4:30 p.m. – 5:00 p.m.</small><br>
+    <small class="text-muted">4:30 p.m. – 5:00 p.m.</small><br>
     Building the Next Generation Water Data Viewer - Water Data Interactive (WDI)
     </h4>
     <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/building-the-next-generation-water-data-viewer-water-data-interactive-wdi"><i class="fa fa-play-circle"></i>  View Slides</a></p>
     <em>Ginny Vragel and Richard Winkelbauer - Texas Water Development Board</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-14"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-14"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
     </div>
   </div>
   <div class="modal fade modal-14" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -685,23 +689,23 @@ Note: Agenda and speakers subject to change without notice.
               </p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
   </div>
   <div id="one-A-1600-c" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>5:00 p.m. – 5:30 p.m.</small><br>
+    <small class="text-muted">5:00 p.m. – 5:30 p.m.</small><br>
     Hosting Spatial Web Services in Support of Oil &amp; Gas Analytics: ArcGISServer, WMS &amp; WFS Cross-Platform Compatibility
     </h4>
     <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/hosting-spatial-web-services-in-support-of-oil-and-gas-analytics-arcgisserver-wms-and-wfs-cross-platform-compatibility"><i class="fa fa-play-circle"></i> View Slides</a></p>
     <em>Dale Emrich, Justin Scott Winn, and Cole Howard - DrillingInfo</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-15"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-15"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
     </div>
   </div>
   <div class="modal fade modal-15" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -722,30 +726,30 @@ Note: Agenda and speakers subject to change without notice.
           <p><em>Cole Howard</em> is the GIS Systems Analyst at DrillingInfo.  He graduated from Lamar University with a B.S. in Political Science and earned his GIS Certification from Austin Community College. His experience with ArcGIS &amp; Open-Source software, programming languages, and relational database management systems is used to align and integrate DrillingInfo’s GIS department with our Information Technology and Configuration Management teams. He is responsible for the architecture and administration of our GIS Systems and Geospatial Web Services.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
     </div>
   </div>
   </div>
-  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-lg-0">
   <h3>
-  <small>Session B (Li'l TEX)</small><br>
+  <small class="text-muted">Session B (Li'l TEX)</small><br>
   State Initiatives (Cool Enough for Government Work)
   </h3>
   <div class="agenda-track">
   <div id="one-B-1600-a" class="agenda-track-item media">
   <div class="media-left">
-  <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+  <button class="star-btn"><i class="fa fa-star"></i></button>
   </div>
   <div class="media-body">
   <h4 class="media-heading">
-  <small>4:00 p.m. – 4:30 p.m.</small><br>
+  <small class="text-muted">4:00 p.m. – 4:30 p.m.</small><br>
   Google's Imagery Program
   </h4>
   <em>Kyle Campbell - Google | Chad Lersch - DIR | Richard Wade - TNRIS</em>
-  <p><a href="#" data-toggle="modal" data-target=".modal-16"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+  <p><a href="#" data-toggle="modal" data-target=".modal-16"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
   </div>
   </div>
   <div class="modal fade modal-16" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -759,23 +763,23 @@ Note: Agenda and speakers subject to change without notice.
             <p><strong>Presenter Bio:</strong><br><em>Kyle Campbell</em> has spent the last 20 years as a Technology Consultant specializing in Mobility, Wireless, Security and Geospatial Solutions.  During is career he has held positions at AT&T, Motorola, Internet Security Systems and Google.  Kyle has spent most of his career has been interfacing with State and Local customers.  Currently Kyle is the US Sales Lead for Google's Imagery Products for the US Public Sector.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
     </div>
   </div>
   <div id="one-B-1600-b" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>4:30 p.m. – 5:00 p.m.</small><br>
+    <small class="text-muted">4:30 p.m. – 5:00 p.m.</small><br>
     TxCoasts.com: Updating and Re-imaging the Texas Beach &amp; Bay Access Guide
     </h4>
     <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/txcoasts-dot-com-updating-and-re-imaging-the-texas-beach-and-bay-access-guide"><i class="fa fa-play-circle"></i> View Slides</a></p>
     <em>Laura Wisdom - General Land Office</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-17"><i class="glyphicon glyphicon-info-sign"></i> Abstract</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-17"><i class="fa fa-info-sign"></i> Abstract</a></p>
     </div>
   </div>
   <div class="modal fade modal-17" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -788,7 +792,7 @@ Note: Agenda and speakers subject to change without notice.
           <div class="modal-body"><p>In developing TxCoasts.com, we utilized existing in-house expertise and tools to create a self-contained, dynamic, interactive, and platform-agnostic Web application. We faced numerous decision points during development that shaped the overall project.  This presentation will highlight some of the challenges and the team that worked on the project.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
       </div>
     </div>
@@ -797,12 +801,12 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   <div class="row forum-social-2015">
-    <div class="col-sm-3 col-md-2 time-block" id="DayOne_1800">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayOne_1800">
     6:00 p.m.
     </div>
     <div class="col-sm-9">
-      <h3>Forum Social sponsored by <img src="https://tnris-org-static.s3.amazonaws.com/images/cartodb_logo_sm.png"></h3>
-      <p><a href="http://punchbowlsocial.com/austin/"><img class="pull-right" src="https://tnris-org-static.s3.amazonaws.com/images/pbs_social.jpg" alt="Logo for PBs Social"></a> <strong>This year's social is at <a href="http://punchbowlsocial.com/austin/">Punch Bowl Social</a>, located about 1.5 miles from the J.J Pickle Center.</strong> You will need to wear your GIS Forum name badge in order to gain access to the reserved activities:
+      <h3>Forum Social sponsored by <img src="https://cdn.tnris.org/images/cartodb_logo_sm.png"></h3>
+      <p><a href="http://punchbowlsocial.com/austin/"><img class="float-right" src="https://cdn.tnris.org/images/pbs_social.jpg" alt="Logo for PBs Social"></a> <strong>This year's social is at <a href="http://punchbowlsocial.com/austin/">Punch Bowl Social</a>, located about 1.5 miles from the J.J Pickle Center.</strong> You will need to wear your GIS Forum name badge in order to gain access to the reserved activities:
       <ul>
       <li>Each person will get two drink tickets, good for beer &amp; wine.</li>
       <li>We’ve rented bowling, darts, and ping pong.</li>
@@ -810,73 +814,73 @@ Note: Agenda and speakers subject to change without notice.
       </ul>
     </div>
   </div>
-  <h2><small>Conference</small><br>Thursday, October 29th</h2>
-  <div class="well well-sm well-dark well-holl">
+  <h2><small class="text-muted">Conference</small><br>Thursday, October 29th</h2>
+  <div class="card card-body well-sm well-dark well-holl">
     <div class="row">
-      <div class="col-sm-3 col-md-2">
+      <div class="col-sm-3 col-lg-2">
         9:00 a.m. - 5:00 p.m.
       </div>
-      <div class="col-sm-9 col-md-10">
+      <div class="col-sm-9 col-lg-10">
         <h4>ESRI HOLL (Hands-On Learning Labs)</h4>
-          <p><button class="btn btn-md btn-danger pull-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button> Throughout the day on Thursday, ESRI will host self-guided courses in the <strong>Balcones Room</strong> covering ESRI software and key GIS techniques.</p>
+          <p><button class="btn btn-md btn-danger float-right" data-toggle="modal" data-target=".bs-example-modal-lg">View Course Offerings</button> Throughout the day on Thursday, ESRI will host self-guided courses in the <strong>Balcones Room</strong> covering ESRI software and key GIS techniques.</p>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayTwo_0700">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_0700">
     7:00 - 8:30 a.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
     <strong>Registration</strong>
     </div>
   </div>
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2 time-block" id="DayTwo_0830">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_0830">
     8:30 - 9:00 a.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
     <strong>Opening remarks</strong>
     </div>
   </div>
   <div class="row">
-  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_0900">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_0900">
   9:00 - 10:00 a.m.
   </div>
-  <div class="col-sm-9 col-md-10">
-  <h3 id="keynote-cowen"><small>Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
+  <div class="col-sm-9 col-lg-10">
+  <h3 id="keynote-cowen"><small class="text-muted">Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
   <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/keynote-speaker-david-cowen-the-changing-geospatial-landscape"><i class="fa fa-play-circle"></i> View Slides</a></p>
-  <p><img class="pull-right img-circle keynote-portrait" src="https://tnris-org-static.s3.amazonaws.com/images/david_cowen.jpg"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
+  <p><img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/david_cowen.jpg"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
   <p><strong>Watch Video:</strong>
     <iframe width="100%" height="400" src="https://www.youtube.com/embed/FXp4RiZ34TA" frameborder="0" allowfullscreen></iframe>
   </p>
   </div>
   </div>
   <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1000">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1000">
   10:00 - 10:30 a.m.
   </div>
-  <div class="col-sm-9 col-md-10">
+  <div class="col-sm-9 col-lg-10">
   <strong>Break &amp; Exhibits</strong>
   </div>
   </div>
   <div class="row">
-  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1030">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1030">
   10:30 a.m. - 12:00 p.m.
   </div>
-  <div class="col-sm-9 col-md-5">
-  <h3><small>Session A (Big Tex)</small><br>Lidar (Get to the Points)</h3>
+  <div class="col-sm-9 col-lg-5">
+  <h3><small class="text-muted">Session A (Big Tex)</small><br>Lidar (Get to the Points)</h3>
   <div class="agenda-track">
   <div id="two-A-1030-a" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>10:30 a.m. – 11:00 a.m.</small><br>
+    <small class="text-muted">10:30 a.m. – 11:00 a.m.</small><br>
     Change Detection on the Llano Estacado: Lidar and Image Point Cloud modeling in Support of Building Update Collection
     </h4>
     <em>Robert Dzur - Bohannan Huston, Inc</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-18"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-18"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
     </div>
   </div>
   <div class="modal fade modal-18" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -892,23 +896,23 @@ Note: Agenda and speakers subject to change without notice.
           <p><strong>Presenter Bios:</strong><br><em>Robert Dzur</em> joined Bohannan Huston, Inc. (BHI) in 2004 and serves the company as a project manager responsible for the execution of a wide variety of GIS, remote sensing, and photogrammetric mapping projects.  Prior to coming to Albuquerque, NM, Mr. Dzur spent nearly 4 years working in Bolivia as an international technical consultant managing cadastral mapping development projects.  Mr. Dzur has a Bachelor's degree from the University of Arkansas where he completed a double major in Geography and Spanish. He also completed his Master's degree in Geography at the University of Arkansas and holds a current GISP certification.</p>
           </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
   </div>
   <div id="two-A-1030-b" class="agenda-track-item media">
   <div class="media-left">
-  <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+  <button class="star-btn"><i class="fa fa-star"></i></button>
   </div>
   <div class="media-body">
   <h4 class="media-heading">
-  <small>11:00 a.m. – 11:30 a.m.</small><br>
+  <small class="text-muted">11:00 a.m. – 11:30 a.m.</small><br>
   Geiger Mode Lidar: The Leap from Single Pulse to Avalanche and What it means to the End User
   </h4>
   <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/geiger-mode-lidar-the-leap-from-single-pulse-to-avalanche-and-what-it-means-to-the-end-user"><i class="fa fa-play-circle"></i> View Slides</a></p>
   <em>Harold Rempel - ESP Associates</em>
-  <p><a href="#" data-toggle="modal" data-target=".modal-19"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+  <p><a href="#" data-toggle="modal" data-target=".modal-19"><i class="fa fa-info-sign"></i> Abstract &amp; Bio</a></p>
   </div>
   </div>
   <div class="modal fade modal-19" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -923,22 +927,22 @@ Note: Agenda and speakers subject to change without notice.
           <p><strong>Presenter Bios:</strong><br><em>Harold Rempel</em> began his mapping career in the Marine Corps as an intelligence analyst working with multiple, remote sensing technologies and developing data fusion products to provide critical and effective intelligence. After joining the private industry in 1997, Mr. Rempel became experienced in all phases of photogrammetric mapping, to include: aerial data acquisition, control surveys, aerial triangulation, stereo map compilation, orthophotography, IFSAR, and LiDAR acquisition and processing.  He has extensive project management and production experience with various state, federal, and local government projects as well as multi-year statewide and federal agency programs.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
               </div>
             </div>
   </div>
   <div id="two-A-1030-c" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>11:30 a.m. – 12:00 p.m.</small><br>
+    <small class="text-muted">11:30 a.m. – 12:00 p.m.</small><br>
     Innovations - Changing the way Lidar is Used
     </h4>
     <em>Jamie Young - Merrick &amp; Company</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-20"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-20"><i class="fa fa-info-sign"></i> Abstract &amp; Bio</a></p>
     </div>
   </div>
   <div class="modal fade modal-20" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -954,23 +958,23 @@ Note: Agenda and speakers subject to change without notice.
           <p><strong>Presenter Bio:</strong><br><em>James Wilder Young C.P.(Jamie)</em> is currently a Sensor Geomatics Technologist for Merrick &amp; Co. located in Greenwood Village, Colorado. His experience includes all aspects of LiDAR including sensor development, applications development, data acquisition, data processing and project management.</p>
           </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
   </div>
   </div>
   </div>
-  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
-  <h3><small>Session B (Li'l TEX)</small><br>Online Map Applications (Apps in the Cloud)</h3>
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-lg-0">
+  <h3><small class="text-muted">Session B (Li'l TEX)</small><br>Online Map Applications (Apps in the Cloud)</h3>
   <div class="agenda-track">
   <div id="two-B-1030-a" class="agenda-track-item media">
   <div class="media-left">
-  <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+  <button class="star-btn"><i class="fa fa-star"></i></button>
   </div>
   <div class="media-body">
   <h4 class="media-heading">
-  <small>10:30 a.m. – 11:00 a.m.</small><br>
+  <small class="text-muted">10:30 a.m. – 11:00 a.m.</small><br>
   Regional Online Geospatial Services for the Houston-Galveston Region
   </h4>
   <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/regional-online-geospatial-services-for-the-houston-galveston-region"><i class="fa fa-play-circle"></i> View Slides</a></p>
@@ -986,22 +990,22 @@ Note: Agenda and speakers subject to change without notice.
       <hr>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
   <div id="two-B-1030-b" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
       <h4 class="media-heading">
-      <small>11:00 a.m. – 11:30 a.m.</small><br>
+      <small class="text-muted">11:00 a.m. – 11:30 a.m.</small><br>
       The Information Commons: Cloud-Based GIS
       </h4>
       <em> Santiago Giraldo Anduaga, CartoDB</em>
-      <p><a href="#" data-toggle="modal" data-target=".modal-22"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+      <p><a href="#" data-toggle="modal" data-target=".modal-22"><i class="fa fa-info-sign"></i> Abstract &amp; Bio</a></p>
     </div>
   </div>
   <div class="modal fade modal-22" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -1016,23 +1020,23 @@ Note: Agenda and speakers subject to change without notice.
           <p><strong>Presenter Bio:</strong><br><em>Santiago Giraldo Anduaga</em> is a Map Scientist for web-based GIS platform CartoDB. With professional training in urban design, information science, and environmental science, Santiago's notable achievements have included research and design projects for the Environmental Protection Agency, The Museum of Modern Art's Uneven Growth: Tactical Urbanism for Rapidly Expanding mega Cities Exhibit, and international intensive workshops in partnership with Docile Spaces Collective in Naples and Stalker Labs in Rome among many others. Published and recognized internationally for his investigations of public spaces and design, Santiago has sought to be a leader in working within and co-creating new ways of using and understanding geographic information systems for a broad range of professions and project applications.</p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
   </div>
   <div id="two-B-1030-c" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>11:30 a.m. – 12:00 p.m.</small><br>
+    <small class="text-muted">11:30 a.m. – 12:00 p.m.</small><br>
     Modern Web Mapping for Local Governments Delivers Insights into Performance Metrics, Patterns of Change &amp; Distribution of Resources
     </h4>
     <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/appgeo-platinum-demo-whooping-cranes-over-the-laguna-madre-shared-value-semantic-shifts-and-collaborative-leadership"><i class="fa fa-play-circle"></i> View Slides</a></p>
     <em>Kate Hickey - AppGeo</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-23"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-23"><i class="fa fa-info-sign"></i> Abstract &amp; Bio</a></p>
     </div>
   </div>
   <div class="modal fade modal-23" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -1047,7 +1051,7 @@ Note: Agenda and speakers subject to change without notice.
           <p><strong>Presenter Bio:</strong><br><em>Kate Hickey</em> a Vice President and the Director of Local Government Services at Applied Geographics (www.appgeo.com) where she has devoted more than a decade to managing GIS planning and application development projects and to expanding the uses of geospatial technology in county and municipal government.</p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
@@ -1056,21 +1060,21 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   <div class="row agenda-bg">
-    <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1200">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1200">
     12:00 - 1:00 p.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
     <strong>Lunch &amp; Exhibits</strong>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1300">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1300">
     1:00 – 2:00 p.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
     <h3>
-    <small>Platinum Sponsor Demo</small><br>
-    <img src="https://tnris-org-static.s3.amazonaws.com/images/esri_logo_sm.png" alt="Esri Logo">
+    <small class="text-muted">Platinum Sponsor Demo</small><br>
+    <img src="https://cdn.tnris.org/images/esri_logo_sm.png" alt="Esri Logo">
     </h3>
     <h4>ArcGIS for your Organization</h4>
     <em>
@@ -1081,24 +1085,24 @@ Note: Agenda and speakers subject to change without notice.
     </div>
   </div>
   <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1400">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1400">
   2:00 - 3:30 p.m.
   </div>
-  <div class="col-sm-9 col-md-5">
-  <h3><small>Session A (Big Tex)</small><br>Applied GIS (Putting GIS to Work)</h3>
+  <div class="col-sm-9 col-lg-5">
+  <h3><small class="text-muted">Session A (Big Tex)</small><br>Applied GIS (Putting GIS to Work)</h3>
   <div class="agenda-track">
   <div id="two-A-1400-a" class="agenda-track-item media">
   <div class="media-left">
-  <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+  <button class="star-btn"><i class="fa fa-star"></i></button>
   </div>
   <div class="media-body">
   <h4 class="media-heading">
-  <small>2:00 p.m. – 2:30 p.m.</small><br>
+  <small class="text-muted">2:00 p.m. – 2:30 p.m.</small><br>
   3D Modeling of the City of Temple Landfill
   </h4>
   <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/3d-modeling-of-the-city-of-temple-landfill"><i class="fa fa-play-circle"></i> View Slides</a></p>
   <em>Leah Fasick - City of Temple</em>
-  <p><a href="#" data-toggle="modal" data-target=".modal-24"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+  <p><a href="#" data-toggle="modal" data-target=".modal-24"><i class="fa fa-info-sign"></i> Abstract &amp; Bio</a></p>
   </div>
   </div>
   <div class="modal fade modal-24" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -1114,23 +1118,23 @@ Note: Agenda and speakers subject to change without notice.
           <p><strong>Presenter Bio:</strong><br><em>Kate Hickey</em> is originally from Norwich, Vermont and came to Texas to attend Texas A&amp;M University in College Station. She graduated from A&amp;M in May of 2013 with a BS degree in Geography, with a concentration in GIS. She began working for the City of Temple shortly after graduation and has been with the City for just over two years. She works in the Mapping Dept. in Public Works assisting all other departments with their mapping needs.</p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
   </div>
   <div id="two-A-1400-b" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>2:30 p.m. – 3:00 p.m.</small><br>
+    <small class="text-muted">2:30 p.m. – 3:00 p.m.</small><br>
     Examination of the spatial relationship between development and aquatic nutrient loading in the Galveston Bay Estuary
     </h4>
     <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/examination-of-the-spatial-relationship-between-development-and-aquatic-nutrient-loading-in-the-galveston-bay-estuary"><i class="fa fa-play-circle"></i> View Slides</a></p>
     <em>Helen Walters and Samuel Brody - Texas A&amp;M University, Galveston Campus</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-25"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-25"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
     </div>
   </div>
   <div class="modal fade modal-25" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -1149,23 +1153,23 @@ Note: Agenda and speakers subject to change without notice.
           <p><em>Dr. Samuel Brody</em> - Professor; Director for Center for Texas Beaches and Shores, Texas A&amp;M University Galveston, Marine Sciences. Research focus: hazard mitigation and spatial statistics.</p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
   </div>
   <div id="two-A-1400-c" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>3:00 p.m. – 3:30 p.m.</small><br>
+    <small class="text-muted">3:00 p.m. – 3:30 p.m.</small><br>
     The GCCPRD Storm Surge Suppression Study of the Upper Texas Coast
     </h4>
     <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/the-gccprd-storm-surge-suppression-study-of-the-upper-texas-coast"><i class="fa fa-play-circle"></i> View Slides</a></p>
     <em>Jeff Scarborough and Chris Sallese - Dannenbaum Engineering Corporation</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-27"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-27"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
     </div>
   </div>
   <div class="modal fade modal-27" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -1183,28 +1187,28 @@ Note: Agenda and speakers subject to change without notice.
           </p>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
     </div>
       </div>
     </div>
   </div>
   </div>
   </div>
-  <div class="col-sm-9 col-md-5 col-sm-offset-3 col-md-offset-0">
-  <h3><small>Session B (Li'l TEX)</small><br>Lo-GIS-tics (Keeping Track)</h3>
+  <div class="col-sm-9 col-lg-5 offset-sm-3 offset-lg-0">
+  <h3><small class="text-muted">Session B (Li'l TEX)</small><br>Lo-GIS-tics (Keeping Track)</h3>
   <div class="agenda-track">
     <div id="two-B-1400-a" class="agenda-track-item media">
       <div class="media-left">
-      <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+      <button class="star-btn"><i class="fa fa-star"></i></button>
       </div>
       <div class="media-body">
       <h4 class="media-heading">
-      <small>2:00 p.m. – 2:30 p.m.</small><br>
+      <small class="text-muted">2:00 p.m. – 2:30 p.m.</small><br>
       Connecting the Dots Between Data and Problem Solving
       </h4>
       <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/connecting-the-dots-between-data-and-problem-solving"><i class="fa fa-play-circle"></i> View Slides</a></p>
       <em>Leah Casey - Texas Department of Health and Human Services | Jeff Jordan -  Institute for Demographic Studies and Socioeconomic Research</em>
-      <p><a href="#" data-toggle="modal" data-target=".modal-28"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+      <p><a href="#" data-toggle="modal" data-target=".modal-28"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
       </div>
     </div>
     <div class="modal fade modal-28" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -1222,22 +1226,22 @@ Note: Agenda and speakers subject to change without notice.
               <p><em>Dr. Jeff Jordan</em> is a Senior Research Associate at the Institute for Demographic and Socioeconomic Research.  He has been involved in numerous research projects that investigate the relationship between demography and various other socioeconomic issues in Texas including transportation, energy, education, criminal justice, and social services.  Dr. Jordan received a Ph.D. in cognitive psychology in 1997 from Texas A&amp;M University.</p>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
         </div>
       </div>
     </div>
     <div id="two-B-1400-b" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>2:30 p.m. – 3:00 p.m.</small><br>
+    <small class="text-muted">2:30 p.m. – 3:00 p.m.</small><br>
     Managing Special Events in Austin, TX with ArcGIS Online
     </h4>
     <em>Jacquie Hrncir and John Clary - City of Austin</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-29"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bios</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-29"><i class="fa fa-info-sign"></i> Abstract &amp; Bios</a></p>
     </div>
     </div>
     <div class="modal fade modal-29" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -1253,22 +1257,22 @@ Note: Agenda and speakers subject to change without notice.
             <p><em>John Clary</em> is a geospatial analyst with the Austin Code Department. He specializes in web mapping, data visualization, and process automation.</p>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
         </div>
       </div>
     </div>
     <div id="two-B-1400-c" class="agenda-track-item media">
     <div class="media-left">
-    <button class="star-btn"><i class="glyphicon glyphicon-star"></i></button>
+    <button class="star-btn"><i class="fa fa-star"></i></button>
     </div>
     <div class="media-body">
     <h4 class="media-heading">
-    <small>3:00 p.m. – 3:30 p.m.</small><br>
+    <small class="text-muted">3:00 p.m. – 3:30 p.m.</small><br>
     3 Words to Address the World
     </h4>
     <em>Tim Williams - What3Words</em>
-    <p><a href="#" data-toggle="modal" data-target=".modal-30"><i class="glyphicon glyphicon-info-sign"></i> Abstract &amp; Bio</a></p>
+    <p><a href="#" data-toggle="modal" data-target=".modal-30"><i class="fa fa-info-sign"></i> Abstract &amp; Bio</a></p>
     </div>
     </div>
     <div class="modal fade modal-30" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -1288,7 +1292,7 @@ Note: Agenda and speakers subject to change without notice.
     <p><strong>Presenter Bio:</strong><br><em>Tim Williams</em> is a seasoned technology veteran, with a broad spectrum of experience ranging from designing chips at IBM, to a 5-year stint on video compression in Silicon Valley, to turning around Flytxt, a mobile marketing enterprise software solutions provider in India. Prior to what3words he headed business development at Shutl culminating in its sale to eBay at the end of 2013. Tim is a keen road cyclist and has more navigation apps than shirts. Tim is responsible for business development at what3words, working with businesses and large organisations to deliver the benefits of what3words’ universal addressing solution.</p>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
         </div>
       </div>
@@ -1297,33 +1301,33 @@ Note: Agenda and speakers subject to change without notice.
   </div>
   </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1530">
+    <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1530">
     3:30 - 4:00 p.m.
     </div>
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-lg-10">
     <strong>Break &amp; Exhibits</strong>
     </div>
   </div>
   <div class="row agenda-bg">
-  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1600">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1600">
   4:00 - 5:00 p.m.
   </div>
-  <div class="col-sm-9 col-md-10">
-  <h3 id="keynote-humphreys"><small>Keynote Presentation</small><br>Todd Humphreys, Aerospace Engineer, UT Austin</h3>
+  <div class="col-sm-9 col-lg-10">
+  <h3 id="keynote-humphreys"><small class="text-muted">Keynote Presentation</small><br>Todd Humphreys, Aerospace Engineer, UT Austin</h3>
   <h4>Low-Cost Centimeter-Accurate Mobile Positioning</h4>
   <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/keynote-speaker-todd-humphreys-low-cost-centimer-accurate-mobile-positioning"><i class="fa fa-play-circle"></i> View Slides</a></p>
   <p>
-  <img class="pull-right img-circle keynote-portrait" src="https://tnris-org-static.s3.amazonaws.com/images/humphreys_head.jpg">
+  <img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/humphreys_head.jpg">
   Todd E. Humphreys is an assistant professor in the department of Aerospace Engineering and Engineering Mechanics at the University of Texas at Austin, and Director of the UT Radionavigation Laboratory. He specializes in the application of optimal detection and estimation techniques to problems in satellite navigation, autonomous systems, and signal processing.His recent focus has been on secure perception for autonomous systems, including navigation, timing, and collision avoidance, and on centimeter-accurate location for the mass market.
   </p>
   </div>
   </div>
 
   <div class="row">
-  <div class="col-sm-3 col-md-2 time-block" id="DayTwo_1700">
+  <div class="col-sm-3 col-lg-2 time-block" id="DayTwo_1700">
   5:00 p.m.
   </div>
-  <div class="col-sm-9 col-md-10">
+  <div class="col-sm-9 col-lg-10">
   <strong>Closing Remarks</strong>
   </div>
   </div>

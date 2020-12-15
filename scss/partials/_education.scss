@@ -38,7 +38,7 @@ h1 {
     margin-bottom: 10px;
 
     #category-filter-dropdown-btn {
-      width: 240px;
+      width: auto;
       overflow: hidden;
       text-overflow: ellipsis;
       text-align: left;
@@ -119,7 +119,7 @@ h1 {
 
     h3 {
       font-size: 22px;
-      margin-top: 0;
+      margin-top: -20px;
     }
 
     .row {
@@ -170,7 +170,7 @@ h1 {
     }
   }
 
-  .panel-body {
+  .card-body {
     border: 0;
   }
 
@@ -202,7 +202,7 @@ h1 {
 
 // More Specifit training entry page */
 
-.pull-right {
+.float-right {
   &.course-image {
     margin: 0 0 20px 20px;
   }
@@ -330,7 +330,7 @@ h1 {
 
 
 h2.geospatial-header {
-  background: 0 0 url('https://tnris-org-static.s3.amazonaws.com/images/geospatialtrainingservices_md.jpg') no-repeat;
+  background: 0 0 url('https://cdn.tnris.org/images/geospatialtrainingservices_md.jpg') no-repeat;
   background-size: contain;
   width: 428px;
   height: 90px;
@@ -338,7 +338,7 @@ h2.geospatial-header {
 }
 
 h2.teachmegis-header {
-  background: 0 0 url('https://tnris-org-static.s3.amazonaws.com/images/teachmegis_md.jpg') no-repeat;
+  background: 0 0 url('https://cdn.tnris.org/images/teachmegis_md.jpg') no-repeat;
   background-size: contain;
   width: 428px;
   height: 90px;
@@ -350,7 +350,7 @@ h2.teachmegis-header {
   color: $white !important;
   display: block;
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   position: relative;
 
 
@@ -375,17 +375,23 @@ h2.teachmegis-header {
   .resources-highlight-text-container {
     position: absolute;
     left: 20px;
-    bottom: 10px;
+    bottom: 2rem;
     right: 20px;
   }
 
   @media (max-width: $screen-sm) {
     width: 100%;
     min-height:245px;
+    .resources-highlight-text-container {
+      position: absolute;
+      left: 20px;
+      bottom: -1rem;
+      right: 20px;
+    }
   }
 
   @media (min-width: $screen-sm) {
-    width: 45%;
+    width: 100%;
     height: 230px;
     margin-right: 10px;
   }
@@ -403,7 +409,7 @@ h2.teachmegis-header {
 
 // Info Chips
 .education-chip-container {
-  .col-md-2 {
+  .col-lg-2 {
     padding-right: 0;
   }
 
@@ -475,4 +481,49 @@ h2.teachmegis-header {
   @media (min-width: $screen-sm) {
     border-right: 1px solid $lightgrey;
   }
+}
+
+.classdate {
+  text-align: right;
+}
+
+.btn.btn-danger {
+  width: 100%;
+  min-width: 55px;
+}
+
+.btn.btn-success {
+  width: 100%;
+  min-width: 55px;
+}
+
+.btn.btn-primary {
+  width: 100%;
+  min-width: 55px;
+}
+
+.full-details-btn {
+  width: 100%;
+  min-width: 55px;
+}
+
+.copy-url-btn {
+  width: 100%;
+  min-width: 85px;
+}
+
+.course-info2 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+hr.new1 { 
+  margin-top: -15px;
+  margin-bottom: 25px;
 }

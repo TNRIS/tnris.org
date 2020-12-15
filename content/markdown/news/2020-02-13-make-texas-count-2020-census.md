@@ -2,8 +2,8 @@
 title: Make Texas Count in the 2020 Census
 author: Felicia Retiz, Director of TNRIS, & Dr. Lila Valencia, Texas Demographer's Office
 layout: news-article.njk
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/countbecounted_census2020.jpg
-thumbnail: https://tnris-org-static.s3.amazonaws.com/images/countbecounted_census2020_th.jpg
+mainimage: https://cdn.tnris.org/images/countbecounted_census2020.jpg
+thumbnail: https://cdn.tnris.org/images/countbecounted_census2020_th.jpg
 thumbalt: Count. Be Counted. Texas Census graphic
 abstract: The efforts to ensure a full count of Texas for the 2020 Census are fully underway. Learn more about the efforts to 'Make Texas Count!'
 ---
@@ -24,7 +24,7 @@ For several decades, TNRIS partnered with the U.S. Census serving as the state�
 
 While this process is now centralized at the federal level, it still requires partnerships with state governments. But the state has limited resources to promote, educate, and locate hard-to-count communities. However, leaders throughout the state are working hard to ensure an accurate and complete count of Texans in 2020.
 
-<img class="img-responsive" src="https://tnris-org-static.s3.amazonaws.com/images/whycensusmatters.jpg" alt="Why the Census Matters to Texas">
+<img class="img-fluid" src="https://cdn.tnris.org/images/whycensusmatters.jpg" alt="Why the Census Matters to Texas">
 
 Texas Secretary of State Ruth Hughs recently convened a roundtable discussion of state agencies to coordinate efforts with the U.S. Census to achieve a complete count in the state. The secretary of state’s efforts compliment the ongoing Texas Counts Campaign, a statewide collaboration of community-based and philanthropic organizations spearheaded by the Center for Public Policy Priorities and Community Foundations of Texas.
 
@@ -46,12 +46,12 @@ For additional information or to get involved, please contact Lloyd Potter or Li
 
 The ROAM application was developed to make it easier to identify hard-to-survey areas and to provide socioeconomic and demographic characteristic profile of these areas using the American Community Survey.
 
-<a class="btn btn-lg btn-tnris" href="https://gis-portal.data.census.gov/arcgis/apps/webappviewer/index.html?id=3d16177a12b34c938adcf8c78e8b9699"><i class="glyphicon glyphicon-new-window
+<a class="btn btn-lg btn-tnris" href="https://gis-portal.data.census.gov/arcgis/apps/webappviewer/index.html?id=3d16177a12b34c938adcf8c78e8b9699"><i class="fa fa-new-window
 "></i> Launch Outreach Mapper</a>
 
 ### 2020 Census Recruiting Goals by County in All States
 
 The Census Bureau is still hiring! Text “texasjobs” to 313131 for more information. The map below demonstrates how close the Census Bureau is to meeting their recruiting goals.
 
-<a class="btn btn-lg btn-tnris" href="https://public.tableau.com/profile/us.census.bureau?fbclid=IwAR1Gov2tr1_2FmGDjYyOIQ4WfvE7QI16t1V0KeiSg_koePtVBZ78u_BMTGk#!/vizhome/RecruitingGoalsCensus2020/PercentofPeakOpsRecruitingGoal"><i class="glyphicon glyphicon-new-window
+<a class="btn btn-lg btn-tnris" href="https://public.tableau.com/profile/us.census.bureau?fbclid=IwAR1Gov2tr1_2FmGDjYyOIQ4WfvE7QI16t1V0KeiSg_koePtVBZ78u_BMTGk#!/vizhome/RecruitingGoalsCensus2020/PercentofPeakOpsRecruitingGoal"><i class="fa fa-new-window
 "></i> View Recruiting Goals</a>

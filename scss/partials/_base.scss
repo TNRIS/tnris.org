@@ -11,6 +11,7 @@ html, body {
 }
 
 body {
+  
   font-family: $proxima;
   font-weight: 400;
   position: relative;
@@ -26,10 +27,6 @@ body {
   }
 }
 
-.row {
-  padding: 0 !important;
-}
-
 h1, h2, h3, h4 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
@@ -37,6 +34,32 @@ h1, h2, h3, h4 {
 
 h2 {
   color: $auburn;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.h1, h1 {
+  font-size: 2rem
+}
+.h2, h2 {
+  font-size: 1.75rem;
+}
+.h3, h3 {
+  font-size: 1.5rem;
+}
+.h4, h4 {
+  font-size: 1.25rem;
+}
+.h5, h5 {
+  font-size: 1.15rem;
+}
+
+.container-md .row {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 /* custom lead */
@@ -76,6 +99,31 @@ h2 {
 #mainContentAnchor {
   position: absolute;
   top: 76px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn-secondary {
+  color: #333;
+  border-color: #ccc;
+  background: white;
+  font-size: .875rem;
+
+  &:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+  }
+  &:active, &:focus, .open>.dropdown-toggle.btn-secondary {
+    color: #333 !important;
+    background-color: #e6e6e6 !important;
+    background-image: none !important;
+    border-color: #adadad !important;
+  }
 }
 
 /* Buttons */
@@ -155,6 +203,44 @@ h2 {
 
 .btn {
   cursor: pointer !important;
+  font-size: .875rem;
+}
+
+.btn-group-sm > .btn, .btn-sm {
+  font-size: .75rem;
+}
+
+.input-group-btn {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
+}
+
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
 }
 
 /* push footer to bottom of page */
@@ -353,37 +439,41 @@ author {
 }
 
 img {
-  &.pull-left {
+  &.float-left {
     margin: 0 20px 20px 0;
   }
 
-  &.pull-right {
+  &.float-right {
     margin: 0 0px 30px 30px;
   }
 }
 
 .btn {
-  &.pull-left {
+  &.float-left {
     margin: 0 20px 20px 0;
   }
 
-   &.pull-right {
+   &.float-right {
     margin: 0 0px 20px 20px;
   }
 }
 
 figure {
-  &.pull-left {
+  &.float-left {
     margin: 0 20px 20px 0;
   }
 
-   &.pull-right {
+   &.float-right {
     margin: 0 0px 20px 20px;
   }
 }
 
 blockquote {
   background: $lightgrey;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
 }
 
 /* for making full images at top on full-top template */
@@ -450,12 +540,11 @@ blockquote {
 }
 
 /* Media box resets */
-.media:first-child {
+/* .media:first-child {
   margin-top: 15px;
-}
+} */
 
 /* Alert Box */
-
 .navbar-static-top {
   .alert-custom {
     padding: 0;
@@ -509,8 +598,8 @@ blockquote {
 
 /* Side Bar on blogs */
 
-.col-md-4 {
-  .panel:first-child {
+.col-lg-4 {
+  .card:first-child {
     margin-top: 20px;
   }
 }
@@ -707,7 +796,7 @@ button.data-access-toggle {
 }
 
 // Custom Well
-.well-dark {
+.card.card-body-dark {
   background: $darkgrey;
   color: $white;
   margin-top: 0px !important;
@@ -730,7 +819,7 @@ button.data-access-toggle {
   }
 }
 
-.well {
+.card.card-body {
   h1, h2, h3, h4 {
     margin-top: 0;
   }
@@ -814,6 +903,13 @@ figure.right-indent {
 // video
 video {display: block;}
 
+.alert {
+  position: unset;
+}
+.alert > p {
+  margin-bottom: 0px;
+}
+
 // alert holder
 .alert.topper {
   margin-bottom: 0;
@@ -834,6 +930,12 @@ video {display: block;}
   text-shadow: 0 1px 0 #2c2c2c;
 }
 
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+
 .alert-forum {
   background: $darkgrey;
   color: $white;
@@ -848,19 +950,19 @@ video {display: block;}
 .forum-alert-logo {
   display: inline-block;
   text-indent: -9999px;
-  background: url('https://tnris-org-static.s3.amazonaws.com/images/tx-gis-forum-white-long.png') 0 0 no-repeat;
+  background: url('https://cdn.tnris.org/images/tx-gis-forum-white-long.png') 0 0 no-repeat;
   width: 200px;
   height:23px;
 }
 
-.col-lg-5ths,.col-md-5ths,.col-sm-5ths,.col-xs-5ths {
+.col-lg-5ths,.col-lg-5ths,.col-sm-5ths,.col-xs-5ths {
   min-height:1px;
   padding-left:10px;
   padding-right:10px;
   position:relative;
 }
 
-.col-md-5ths {
+.col-lg-5ths {
   @media(min-width: 992px) {
     float:left;
     width:20%
@@ -886,4 +988,11 @@ video {display: block;}
 // strikethrough
 del {
   color: #a94442
+}
+
+// x-axis nav-link padding for navigations on small screens
+.navbar-nav .nav-link {
+  @media(max-width: 574px){
+    padding-left: .5rem !important;
+  }
 }

@@ -3,7 +3,7 @@
     name: 'Land Parcel Data',
     acronym: 'Ongoing Initiatives',
     description: 'In 2016, research for the Texas Geographic Information Officer’s report revealed the single greatest need for state agency business was a statewide database of land parcel boundaries updated on an annual basis. StratMap has made it a priority to produce a comprehensive, and continually renewed dataset.',
-    image: 'https://tnris-org-static.s3.amazonaws.com/images/landparcels.jpg',
+    image: 'https://cdn.tnris.org/images/landparcels.jpg',
     alt_text: 'Lidar DEM with contour lines imposed on top',
     link: '/stratmap/land-parcels',
     button_text: 'Learn More <span class="sr-only">about Land Parcel Data Acquisition</span>'
@@ -11,7 +11,7 @@
     name: 'Address Points',
     acronym: 'Ongoing Initiatives',
     description: 'The statewide address point aggregation initiative will save time for state agencies that currently acquire this data to conduct business. Relationships throughout the state with local creators of address point data will allow TNRIS to collect and share this dataset publicly.',
-    image: 'https://tnris-org-static.s3.amazonaws.com/images/addresspoints.jpg',
+    image: 'https://cdn.tnris.org/images/addresspoints.jpg',
     alt_text: 'Address Points',
     link: '/stratmap/address-points',
     button_text: 'Learn More <span class="sr-only">about Address Point Acquisition</span>'
@@ -19,7 +19,7 @@
     name: 'Texas Strategic Mapping Contracts',
     acronym: 'Ongoing Initiatives',
     description: 'The new contracting vehicle for StratMap and any Texas government agency is almost available for 17 total pre-approved vendors available for GIS products, services, and software.',
-    image: 'https://tnris-org-static.s3.amazonaws.com/images/stratmap_contract.jpg',
+    image: 'https://cdn.tnris.org/images/stratmap_contract.jpg',
     alt_text: 'An illustration of a contract with a pen, DIR logo on top',
     link: '/stratmap/stratmap-contracts',
     button_text: 'Learn More <span class="sr-only">about the StratMap Contracts</span>'
@@ -27,7 +27,7 @@
   ]
 %}
 
-<section class="container">
+<section class="row mx-auto container-md">
   <div class="col-sm-8">
     <p class="lead">StratMap was originally established in 1997 by Senate Bill 1 to <strong>develop consistent statewide digital data layers</strong>. Since then, its primary goal has been to acquire and improve digital geographic data for statewide mapping applications.</p>
     <p class="lead">
@@ -46,7 +46,7 @@
   </div>
 </section>
 <section id="stratmap-by-the-numbers" class="front-sm-numbers">
-    <div class="container">
+    <div class="container-md">
       <h2>By the Numbers</h2>
         <div class="row">
             <div class="col-sm-4">
@@ -62,22 +62,22 @@
       </div>
 </section>
 
-<section class="container">
+<section class="container-md">
     <h2>Projects</h2>
     <div class="row">
         {% for item in highlight_items %}
         <div class="col-sm-4 stratmap-project">
-            <div class="thumbnail ">
-                <a href="{{item.link}}"><img class="img-responsive" src="{{item.image}}" alt="{{item.alt_text}}"></a>
+            <div class="card card-body ">
+                <a href="{{item.link}}"><img class="img-fluid" src="{{item.image}}" alt="{{item.alt_text}}"></a>
                 <div class="caption">
                     <h3>
 
                       {% if item.acronym %}
-                        <small>{{item.acronym}}</small><br>
+                        <small class="text-muted">{{item.acronym}}</small><br>
                       {% endif %}
                       {{item.name|safe}}</h3>
                     <p>{{item.description}}</p>
-                    <a class="btn btn-default" href="{{item.link}}" role="button">{{item.button_text|safe}} <span class="glyphicon glyphicon-chevron-right"></a>
+                    <a class="btn btn-secondary" href="{{item.link}}" role="button">{{item.button_text|safe}} <span class="fa fa-chevron-right"></a>
                 </div>
             </div>
         </div>
