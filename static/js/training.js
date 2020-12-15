@@ -255,7 +255,7 @@ function insertDiscountCopy() {
           <p>
           To receive the TNRIS discounted price for courses provided by our training partners, TeachMeGIS and GeoSpatial Training Services, enter the coupon code below when registering.
           </p>
-          TNRIS discount code can be used for all scheduled courses listed on training partner's websites.<br><br>
+          <p>TNRIS discount code can be used for all scheduled courses listed on training partner's websites.</p><br><br>
           <div class="input-group copy-url-container">
             <span class="input-group-btn">
               <button class="btn btn-tnris copy-url-btn" type="button" style="margin-top:0;">
