@@ -162,7 +162,9 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 							</div>
 							<div id="collapseF" class="collapse fade" aria-labelledby="headingF" data-parent="#accordionExample1">
 								<div class="card-body">
-									The Texas Imagery Service is a subscription service providing licensed imagery data. The exact terms of use are coming soon.
+									The Texas Imagery Service is a subscription service providing licensed imagery data. View the license agreement:<br><br>
+									<div style="text-align: center; border: 0px solid"> 
+                  <a class="btn btn-secondary" add target="_blank" href="https://cdn.tnris.org/documents/HxGN.Content.Program_StateGov_EULA.pdf"><i class="fa fa-file"></i> View PDF</a></div>
 								</div>
 							</div>
 						</div>
