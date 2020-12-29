@@ -223,7 +223,7 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
               	<div id="collapseI" class="collapse fade" aria-labelledby="headingI" data-parent="#accordionExample">
 								<div class="card-body">
 <div style="text-align: center; border: 0px solid">  	
-<small>Click on the button for your GIS software to learn how to add the imagery service.</small><br><br>
+Click on the button for your GIS software to learn how to add the imagery service.<br><br>
 <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" target="_blank" class="btn btn-secondary btn-lg">ArcMap</a><br><br>
 
   <a href="https://cdn.tnris.org/documents/WMS2Pro.pdf" target="_blank" class="btn btn-secondary btn-lg"><i class="fa fa-"></i>ArcGIS Pro</a>
