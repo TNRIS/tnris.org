@@ -1,7 +1,7 @@
 ---
 title: Elevation – Lidar
-layout: stratmap/main.njk
-mainimage: https://cdn.tnris.org/images/SB_Lidar.png
+layout: stratmap/ap-lp-page.njk
+youtube_url: https://www.youtube.com/embed/50msWTlH76M
 ---
 
 <div class="container-md">
