@@ -162,7 +162,9 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 							</div>
 							<div id="collapseF" class="collapse fade" aria-labelledby="headingF" data-parent="#accordionExample1">
 								<div class="card-body">
-									The Texas Imagery Service is a subscription service providing licensed imagery data. The exact terms of use are coming soon.
+									The Texas Imagery Service is a subscription service providing licensed imagery data. View the license agreement:<br><br>
+									<div style="text-align: center; border: 0px solid"> 
+                  <a class="btn btn-secondary" add target="_blank" href="https://cdn.tnris.org/documents/HxGN.Content.Program_StateGov_EULA.pdf"><i class="fa fa-file"></i> View PDF</a></div>
 								</div>
 							</div>
 						</div>
@@ -221,7 +223,7 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
               	<div id="collapseI" class="collapse fade" aria-labelledby="headingI" data-parent="#accordionExample">
 								<div class="card-body">
 <div style="text-align: center; border: 0px solid">  	
-<small>Click on the button for your GIS software to learn how to add the imagery service.</small><br><br>
+Click on the button for your GIS software to learn how to add the imagery service.<br><br>
 <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" target="_blank" class="btn btn-secondary btn-lg">ArcMap</a><br><br>
 
   <a href="https://cdn.tnris.org/documents/WMS2Pro.pdf" target="_blank" class="btn btn-secondary btn-lg"><i class="fa fa-"></i>ArcGIS Pro</a>
