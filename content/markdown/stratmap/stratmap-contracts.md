@@ -8,15 +8,17 @@ mainimage: https://cdn.tnris.org/images/SB_Contracts.png
 <div class="row">
 
 <div class="col-lg-10 mx-auto d-block">
-<p>The <a href="https://dir.texas.gov/" target="_blank">Department of Information Resources (DIR)</a> maintains multiple Cooperative Contracts which are designed to strengthen Texas’ capabilities to procure quality digital map data, services, and software. The contracts are for use by customers that include Texas state, regional, and local government offices, including river and water authorities, and public education entities. The process for procuring GIS products, services, and software is administered by TNRIS and known as the Texas Strategic Mapping (StratMap) Contracts.</p>
+  <p>The <a href="https://dir.texas.gov/" target="_blank">Department of Information Resources (DIR)</a> maintains multiple Cooperative Contracts which are designed to strengthen Texas’ capabilities to procure quality digital map data, services, and software. The contracts are for use by customers that include Texas state, regional, and local government offices, including river and water authorities, and public education entities. The process for procuring GIS products, services, and software is administered by TNRIS and known as the Texas Strategic Mapping (StratMap) Contracts.
+  </p>
 
-<p>The StratMap/DIR Contracts are awarded to companies that are technically evaluated by a team of GIS professionals and determined to provide quality geographic data products, services, and GIS software. The availability of these contracts streamlines the procurement process and provides beneficial competition among some of the best companies in the industry.
-</p>
+  <p>The StratMap/DIR Contracts are awarded to companies that are technically evaluated by a team of GIS professionals and determined to provide quality geographic data products, services, and GIS software. The availability of these contracts streamlines the procurement process and provides beneficial competition among some of the best companies in the industry.
+  </p>
 
-<p>The StratMap/DIR Contracts are truly a representation of successful public and private partnerships across Texas!
-</p>
+  <p>The StratMap/DIR Contracts are truly a representation of successful public and private partnerships across Texas!
+  </p>
 
-<p>To review a list of products, services, or software and associated % discounts, see the Pricing Index for each vendor on their DIR Vendor Contract page.</p>
+  <p>To review a list of products, services, or software and associated % discounts, see the Pricing Index for each vendor on their DIR Vendor Contract page.
+  </p>
 </div>
 
 <div class="col-md-2">
@@ -29,27 +31,30 @@ mainimage: https://cdn.tnris.org/images/SB_Contracts.png
 
 <div class="col-lg-12">
 <h2 class="text-center">Pre-Qualified Geospatial Providers</h2>
+
 <hr class="clearfix">
 
 <div class="legend">
-   <span class="icon">
-<i class="fa fa-box-open"></i>
-  </span>
-<span class="role">Products</span>
-  <span class="icon">
-<i class="fa fa-wrench"></i>
-  </span>
-<span class="role"> Services
-    <span class="icon">
+ <span class="icon">
+  <i class="fa fa-box-open"></i>
+ </span>
+ <span class="role">Products</span>
+ <span class="icon">
+  <i class="fa fa-wrench"></i>
+ </span>
+ <span class="role"> Services</span>
+ <span class="icon">
   <i class="fa fa-laptop"></i>
-        </span>
-  <span class="role">Software</span>
-  </div>
-<div class="row">
-    {% include "stratmap/contract-vendors.njk" %}
+ </span>
+ <span class="role">Software</span>
+</div>
+
+<div class="row vendor-tiles">
+  {% include "stratmap/contract-vendors.njk" %}
 </div>
 
 <hr class="clearfix">
+
 <p>
 <b>Note:</b> On the DIR pages, the original RFO is labeled as "Geographic Information Systems (GIS) Hardware, Software, and Services and Information Technology (IT) Based Surveying Hardware, Software, and Related Services."</p>
 
