@@ -38,15 +38,17 @@ mainimage: https://cdn.tnris.org/images/SB_Contracts.png
  <span class="icon">
   <i class="fa fa-box-open"></i>
  </span>
- <span class="role">Products</span>
+ <span class="role"> Products</span>
+
  <span class="icon">
   <i class="fa fa-wrench"></i>
  </span>
  <span class="role"> Services</span>
+
  <span class="icon">
   <i class="fa fa-laptop"></i>
  </span>
- <span class="role">Software</span>
+ <span class="role"> Software</span>
 </div>
 
 <div class="row vendor-tiles">
