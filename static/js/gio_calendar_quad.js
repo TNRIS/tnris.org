@@ -43,8 +43,8 @@ function retrieveNextFourEvents() {
           ${shortDescription}
           ${generalLocation}
           <div class="justify-content-between">
-            ${eventLink}
             ${communityMeetingAgenda}
+            ${eventLink}
           </div>
         </div>
           `;
