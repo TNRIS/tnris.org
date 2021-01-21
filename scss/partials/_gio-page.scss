@@ -260,13 +260,16 @@ hr.noMarg {
 }
 
 .meeting-box {
-  background: $lightblue;
-  border: 1px solid $tnrisblue;
-  padding: 0px;
-  border-radius: 5px;
+  padding: -10px;
+  
+    .eventBox {
+      border: 1px solid $tnrisblue;
+      border-radius: 5px;
+      background: $lightblue;
+    }
 
   h3 {
-    margin-top: 0;
+    margin-top: 15px;
   }
 }
 
@@ -308,7 +311,7 @@ hr.noMarg {
 .eventBox {
   border: solid thin #CCC;
   padding: 10px;
-  box-shadow: 0 2px 6px #CCC;
+  box-shadow: 0 2px 4px #CCC;
   border-radius: 5px;
   min-height: 100%;
   max-height: 100%;

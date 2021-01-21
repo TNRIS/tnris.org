@@ -32,6 +32,7 @@ function retrieveNextFourEvents() {
       event.innerHTML =
         `
         <div class="eventBox d-flex flex-column justify-content-between">
+        <div>
           <h3>
             <strong>${e.title}</strong>
             <br>
@@ -40,6 +41,8 @@ function retrieveNextFourEvents() {
           ${e.pretty_date}${communityMeetingStar}
           </h5>
           ${timeRange}
+          <br>
+          </div>
           ${shortDescription}
           ${generalLocation}
           <div class="justify-content-between">
