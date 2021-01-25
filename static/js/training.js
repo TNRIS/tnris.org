@@ -245,7 +245,7 @@ function insertDiscountCopy() {
   })
   .then(function(data) {
     // change this string when a new discount code is needed
-    var discountValue = "TNRIS2020";
+    var discountValue = "TNRIS2021";
 
     // check if any education records are public and registration_open from api, if so insert html
     if (data.count > 0) {
@@ -264,6 +264,7 @@ function insertDiscountCopy() {
             </span>
             <input class="wms-url copy-url-input form-control" type="text" readonly value="${discountValue}">
           </div>
+          <small><i>*NOTE: Payments must be received before students will be allowed to take courses.</i></small>
         `;
       // used to insert the discount copy code into the education-side template at top right of page
       // add the <hr> tag at the end for styling separation
