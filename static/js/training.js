@@ -101,7 +101,7 @@ function retrieveTraining(queryField, queryValue) {
               ${month} ${day}, ${t.year}
             </strong><br>
             <i class="fa fa-time"></i>
-            ${start_time} - ${end_time} 
+            ${start_time} - ${end_time}
               </div>
               <div class="col-8 course-info2">
                 <strong>Taught by:</strong> ${t.instructor}<br>
@@ -245,7 +245,7 @@ function insertDiscountCopy() {
   })
   .then(function(data) {
     // change this string when a new discount code is needed
-    var discountValue = "TNRIS2020";
+    var discountValue = "TNRIS2021";
 
     // check if any education records are public and registration_open from api, if so insert html
     if (data.count > 0) {
@@ -263,6 +263,9 @@ function insertDiscountCopy() {
               </button>
             </span>
             <input class="wms-url copy-url-input form-control" type="text" readonly value="${discountValue}">
+          </div>
+          <div style="margin-top:1rem;">
+            <small><i>*NOTE: Payments must be received before students will be allowed to take courses.</i></small>
           </div>
         `;
       // used to insert the discount copy code into the education-side template at top right of page
