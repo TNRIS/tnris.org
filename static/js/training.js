@@ -101,7 +101,7 @@ function retrieveTraining(queryField, queryValue) {
               ${month} ${day}, ${t.year}
             </strong><br>
             <i class="fa fa-time"></i>
-            ${start_time} - ${end_time} 
+            ${start_time} - ${end_time}
               </div>
               <div class="col-8 course-info2">
                 <strong>Taught by:</strong> ${t.instructor}<br>
@@ -264,7 +264,9 @@ function insertDiscountCopy() {
             </span>
             <input class="wms-url copy-url-input form-control" type="text" readonly value="${discountValue}">
           </div>
-          <small><i>*NOTE: Payments must be received before students will be allowed to take courses.</i></small>
+          <div style="margin-top:1rem;">
+            <small><i>*NOTE: Payments must be received before students will be allowed to take courses.</i></small>
+          </div>
         `;
       // used to insert the discount copy code into the education-side template at top right of page
       // add the <hr> tag at the end for styling separation
