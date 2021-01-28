@@ -264,8 +264,11 @@ function insertDiscountCopy() {
             </span>
             <input class="wms-url copy-url-input form-control" type="text" readonly value="${discountValue}">
           </div>
-          <div style="margin-top:1rem;">
-            <small><i>*NOTE: Payments must be received before students will be allowed to take courses.</i></small>
+          <div class="card card-body alert-warning" style="margin-top:1rem;">
+            <p style="margin-block-end:-.1em;"><b>*NOTE:</b> Payments must be received before students will be allowed to take courses.</p>
+          </div>
+          <div class="card card-body alert-warning" style="margin-top:1rem;">
+            <p style="margin-block-end:-.1em;">Registration for all courses must be completed <b>a minimum of one week</b> prior to the start date of the course. If an exception is warranted, please contact the training organization directly to discuss whether enrollment has met the minimum student number.</p>
           </div>
         `;
       // used to insert the discount copy code into the education-side template at top right of page
