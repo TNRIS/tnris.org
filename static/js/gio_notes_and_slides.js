@@ -71,24 +71,15 @@ function retrieveCommunitySlides() {
     return response.json();
   })
   .then(function(data) {
-    // sort results from api based on document name (document names should always start like YYYY-MM-DD-) which should
-    // put the docs in order from oldest (top) to most recent (bottom)
-    data.results.sort(function (a,b) {
-      return a.document_name.localeCompare(b.document_name);
-    });
-
-    var count = 0;
     var slideList = document.getElementById('community-meeting-slides');
-
-    data.results.forEach(function(i) {
-      // add one to the count
-      count++;
-      if (count <= 4) {
+    // if there are any comm_note items at api endpoint, grab last 4 items and insert list element anchor for each
+    if (data.results) {
+      data.results.slice(-4).forEach(function(i) {
         var slideItem = document.createElement('li');
         slideItem.innerHTML = `<a href="${i.document_url}"><br><i class="fa fa-file"></i> ${i.document_name}</a>`;
         slideList.appendChild(slideItem);
-      }
-    });
+      });
+    }
   });
 }
 
