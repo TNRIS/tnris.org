@@ -101,7 +101,7 @@ function retrieveTraining(queryField, queryValue) {
               ${month} ${day}, ${t.year}
             </strong><br>
             <i class="fa fa-time"></i>
-            ${start_time} - ${end_time} 
+            ${start_time} - ${end_time}
               </div>
               <div class="col-8 course-info2">
                 <strong>Taught by:</strong> ${t.instructor}<br>
@@ -245,7 +245,7 @@ function insertDiscountCopy() {
   })
   .then(function(data) {
     // change this string when a new discount code is needed
-    var discountValue = "TNRIS2020";
+    var discountValue = "TNRIS2021";
 
     // check if any education records are public and registration_open from api, if so insert html
     if (data.count > 0) {
@@ -253,9 +253,9 @@ function insertDiscountCopy() {
         `
           <h3 style="margin-top:0;">Discount Code</h3>
           <p>
-            To receive a discounted price on all TNRIS trainings provided through our service partners, copy the coupon code below to use during the registration process.
+          To receive the TNRIS discounted price for courses provided by our training partners, TeachMeGIS and GeoSpatial Training Services, enter the coupon code below when registering.
           </p>
-
+          <p>TNRIS discount code can be used for all scheduled courses listed on training partner's websites.</p>
           <div class="input-group copy-url-container">
             <span class="input-group-btn">
               <button class="btn btn-tnris copy-url-btn" type="button" style="margin-top:0;">
@@ -263,6 +263,12 @@ function insertDiscountCopy() {
               </button>
             </span>
             <input class="wms-url copy-url-input form-control" type="text" readonly value="${discountValue}">
+          </div>
+          <div class="card card-body alert-warning" style="margin-top:1rem;">
+            <p style="margin-block-end:-.1rem;"><b>*NOTE:</b> Payments must be received before students will be allowed to take courses.</p>
+          </div>
+          <div class="card card-body alert-warning" style="margin-top:1rem;">
+            <p style="margin-block-end:-.1rem;">Registration for all courses must be completed <b>a minimum of one week</b> prior to the start date of the course. If an exception is warranted, please contact the training organization directly to discuss whether enrollment has met the minimum student number.</p>
           </div>
         `;
       // used to insert the discount copy code into the education-side template at top right of page

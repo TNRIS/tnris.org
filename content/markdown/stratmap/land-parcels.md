@@ -102,43 +102,43 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
             <li>Planning and early evacuation procedure</li>
           </ul>
         </div>
-        <hr class="clearfix d-none d-sm-none">
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="https://cdn.tnris.org/images/txdot_logo.jpg" class="mx-auto d-block">
-            <p><strong>Texas Department of Transportation (TXDOT)</strong></p>
+      </div>
+      <hr class="clearfix d-none d-sm-none">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="https://cdn.tnris.org/images/txdot_logo.jpg" class="mx-auto d-block">
+          <p><strong>Texas Department of Transportation (TXDOT)</strong></p>
             <ul>
               <li>Right of Way management for private or state-owned lands</li>
               <li>Transportation planning</li>
             </ul>
-            </p>
-          </div>
-          <div class="col-lg-6">
-            <img src="https://cdn.tnris.org/images/hhs_logo.jpg" class="mx-auto d-block img-fluid">
-            <p><strong>Health and Human Services Commission (HHSC)</strong></p>
-            <ul>
-              <li>Determine structures in the path or vicinity of disease outbreak</li>
-              <li>Analyze economic conditions for services</li>
-            </ul>
-          </div>
+          </p>
         </div>
-        <hr class="clearfix d-none d-sm-none">
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="https://cdn.tnris.org/images/twdb_web_med.jpg" class="mx-auto d-block">
-            <p><strong>Texas Water Development Board (TWDB)</strong></p>
-            <ul>
-              <li>Determine if structures will be affected by flood conditions for early evacuation</li>
-              <li>Determine properties that will be affected with the build of a new dam.</li>
-            </ul>
-          </div>
-          <div class="col-lg-6">
-            <img src="https://cdn.tnris.org/images/tahc_logo.jpg" class="mx-auto d-block">
-            <p><strong>Texas Animal Health Commission (TAHC)</strong></p>
-            <ul>
-              <li>Locate farms, ranches, feedlots, etc in the event of animal disease outbreak</li>
-            </ul>
-          </div>
+        <div class="col-lg-6">
+          <img src="https://cdn.tnris.org/images/hhs_logo.jpg" class="mx-auto d-block img-fluid">
+          <p><strong>Health and Human Services Commission (HHSC)</strong></p>
+          <ul>
+            <li>Determine structures in the path or vicinity of disease outbreak</li>
+            <li>Analyze economic conditions for services</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="clearfix d-none d-sm-none">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="https://cdn.tnris.org/images/twdb_web_med.jpg" class="mx-auto d-block">
+          <p><strong>Texas Water Development Board (TWDB)</strong></p>
+          <ul>
+            <li>Determine if structures will be affected by flood conditions for early evacuation</li>
+            <li>Determine properties that will be affected with the build of a new dam.</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://cdn.tnris.org/images/tahc_logo.jpg" class="mx-auto d-block">
+          <p><strong>Texas Animal Health Commission (TAHC)</strong></p>
+          <ul>
+            <li>Locate farms, ranches, feedlots, etc in the event of animal disease outbreak</li>
+          </ul>
         </div>
       </div>
       <hr class="clearfix d-none d-sm-none">
@@ -160,7 +160,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
             <li>Property transactions, planning, and management</li>
             <li>Emergency management and response.</li>
           </ul>
-        </div>
+        </div>  
       </div>
       <hr class="clearfix d-none d-sm-none">
       <div class="row">

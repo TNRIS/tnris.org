@@ -526,9 +526,13 @@ ul.stratmap-work {
   font-size: 12px;
   min-width: 300px;
   max-width: 300px;
-  margin-bottom: 20px;
+  margin: auto;
   padding: 10px;
   border: 1px solid #e5e5e5;
+}
+
+.vendor-tiles {
+  margin: 20px;
 }
 
 .icon {

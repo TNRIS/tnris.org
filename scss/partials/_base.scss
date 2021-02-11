@@ -996,3 +996,31 @@ del {
     padding-left: .5rem !important;
   }
 }
+
+// Mobile banner resizing
+@media screen and (max-width: $screen-xs) {
+  .banner-lead {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: $screen-xs) {
+  .banner-header {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: $screen-xs) {
+  .img-responsive {
+    object-fit: cover;
+    min-height: 200px;
+  }
+}
+
+// Twitter timeline
+@media screen and (max-width: $screen-xs) {
+  .twitter-timeline {
+    width: 90% !important;
+    margin-left: 5%;
+  }
+}
