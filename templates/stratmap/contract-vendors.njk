@@ -1,4 +1,4 @@
-{% set contract_vendors = 
+{% set contract_vendors =
   [
     {
       name: 'AECOM',
@@ -8,8 +8,8 @@
       vendor_page_url: 'https://solutions.aecomonline.net/stratmap/',
       dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4495&keyword=aecom',
       tags: ['products','services']
-    }, 
-     {
+    },
+    {
       name: 'AllTerra Central, Inc.',
       status: 'available',
       logo_url: 'https://cdn.tnris.org/images/Allterra_logo2.png',
@@ -17,7 +17,7 @@
       vendor_page_url: 'https://allterracentral.com/allterra-dir_pricing',
       dir_page_url: 'https://www.dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4504&keyword=DIR-CPO-TMP-444',
       tags: ['products','services','software']
-    }, 
+    },
     {
       name: 'Applied Geographics, Inc. (AppGeo)',
       status: 'available',
@@ -26,7 +26,7 @@
       vendor_page_url: 'https://www.appgeo.com/texas-dir-cpo-4500/',
       dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4500&keyword=Applied%20Geographics',
       tags: ['products','services']
-    }, 
+    },
      {
       name: 'Dewberry Engineers, Inc.',
       status: 'available',
@@ -35,7 +35,7 @@
       vendor_page_url: 'https://www.dewberry.com/services/geospatial/texas-dir',
       dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4506&keyword=Dewberry',
       tags: ['products','services']
-    }, 
+    },
     {
       name: 'Esri',
       status: 'available',
@@ -80,8 +80,8 @@
       vendor_page_url: 'https://www.halff.com/our-work/services/halff-texas-dir/',
       dir_page_url: 'https://www.dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4695&keyword=halff',
       tags: ['services']
-    }, 
-        {
+    },
+    {
       name: 'HDR Engineering, Inc.',
       status: 'available',
       logo_url: 'https://cdn.tnris.org/images/hdr_web.png',
@@ -89,8 +89,8 @@
       vendor_page_url: 'https://experience.arcgis.com/experience/4365123019ec42d5949b082ac098b088/',
       dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4694&keyword=HDR',
       tags: ['services']
-    }, 
-        {
+    },
+    {
       name: 'KCI Technologies, Inc.',
       status: 'available',
       logo_url: 'https://cdn.tnris.org/images/KCI_logo_long.png',
@@ -125,7 +125,7 @@
       vendor_page_url: 'https://www.resourcedata.com/about/geospatial',
       dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4514&keyword=DIR-CPO-TMP-444',
       tags: ['services']
-    }, 
+    },
     {
       name: 'Sanborn',
       status: 'available',
@@ -172,43 +172,43 @@
     {% else %}
       <div class="card card-body vendor-box">
     {% endif %}
-          <div class="myDiv">
-            <a href="{{item.vendor_home_url}}">
-              <img class="img-fluid" src="{{item.logo_url}}" alt="Logo and home page for {{item.name}}">
-            </a>
-          </div>
-          <div class="myDiv2 caption">
-              <h3 class="sr-only">{{item.name|safe}}</h3>
-              <ul class="list-clean">
-              <br>
-                <li>
-                {% if item.vendor_page_url %}
-                <a href="{{item.vendor_page_url}}"><i class="fa fa-new-window"></i>Contract Page</a>
-                {% else %}
-                <em>Contract Page in progress</em>
-                {% endif %}
-                </li>
+        <div class="myDiv">
+          <a href="{{item.vendor_home_url}}">
+            <img class="img-fluid" src="{{item.logo_url}}" alt="Logo and home page for {{item.name}}">
+          </a>
+        </div>
+        <div class="myDiv2 caption">
+          <h3 class="sr-only">{{item.name|safe}}</h3>
+          <ul class="list-clean">
+          <br>
+            <li>
+            {% if item.vendor_page_url %}
+            <a href="{{item.vendor_page_url}}"><i class="fa fa-new-window"></i>Contract Page</a>
+            {% else %}
+            <em>Contract Page in progress</em>
+            {% endif %}
+            </li>
 
-                <li>
-                {% if item.dir_page_url %}
-                <a href="{{item.dir_page_url}}"><i class="fa fa-new-window"></i>DIR Contract Page</a>
-                {% else %}
-                <em>DIR Contract Expired</em>
-                 {% endif %}
-                </li>
-              </ul>
-          </div>
-          <div class="myDiv3">
-            {% if 'products' in item.tags %}
-              <i class="fa fa-box-open" alt="Products"></i>
-            {% endif %}
-            {% if 'services' in item.tags %}
-              <i class="fa fa-wrench" alt="Services"></i>
-            {% endif %}
-            {% if 'software' in item.tags %}
-              <i class="fa fa-laptop" alt="Software"></i>
-            {% endif %}
-          </div>
+            <li>
+            {% if item.dir_page_url %}
+            <a href="{{item.dir_page_url}}"><i class="fa fa-new-window"></i>DIR Contract Page</a>
+            {% else %}
+            <em>DIR Contract Expired</em>
+             {% endif %}
+            </li>
+          </ul>
+        </div>
+        <div class="myDiv3">
+          {% if 'products' in item.tags %}
+            <i class="fa fa-box-open" alt="Products"></i>
+          {% endif %}
+          {% if 'services' in item.tags %}
+            <i class="fa fa-wrench" alt="Services"></i>
+          {% endif %}
+          {% if 'software' in item.tags %}
+            <i class="fa fa-laptop" alt="Software"></i>
+          {% endif %}
+        </div>
       </div>
   </div>
 {% endfor %}
