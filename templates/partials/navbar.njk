@@ -13,7 +13,7 @@
     <a href="#" class="navbar-toggler navbar-toggler-right d-sm-inline d-md-none" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-controls="bs-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fas fa-bars"></span>
       </a>
-     <div class="container navbar-expand-md text-left" role="navigation">
+     <div class="container-fluid navbar-expand-md text-left" role="navigation">
        <div class="navbar-collapse collapse py-2" id="bs-navbar-collapse" >
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item dropdown navbar-inverse">
@@ -27,6 +27,14 @@
               </li>
               <li class="nav-item{% if id == 'research-distribution-center' %} active{% endif %}">
                 <a href="/research-distribution-center" class="nav-link main-program">Research &amp; Distribution Center (RDC)</a>
+                  <ul>
+                    <li class="nav-item{% if id == 'historical-imagery-archive' %} active{% endif %}">
+                      <a href="/research-distribution-center/historical-imagery-archive">Historical Imagery Archive</a>
+                    </li>
+                    <li class="nav-item{% if id == 'custom-maps' %} active{% endif %}">
+                      <a href="/research-distribution-center/custom-maps">Custom Maps</a>
+                    </li>
+                  </ul>
               </li>
               <li class="nav-item{% if id == 'texas-imagery-service' %} active{% endif %}">
                 <a href="/texas-imagery-service" class="nav-link main-program">Texas Imagery Service</a>
@@ -66,17 +74,33 @@
               </li>
             </ul>
           </li>
-         <li class="nav-item{% if id == 'education' %} active{% endif %}">
-                <a href="/education" class="nav-link main-program">Education</a>
+         <li class="nav-item dropdown navbar-inverse">
+             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> {# <i class="fas fa-tasks d-md-inline d-none"></i> #}Education</a>
+            <ul class="dropdown-menu inverse-dropdown" role="menu">
+              <li class="nav-item{% if id == 'education' %} active{% endif %}">
+                <a href="/education" class="nav-link main-program">Education and Training</a>
               </li>
+              <li class="nav-item{% if id == 'teacher-resources' %} active{% endif %}">
+                <a href="/education/teachers" class="nav-link main-program">Teacher Resources (K-12, College)</a>
+              </li>
+            </ul>
+          </li>
         <li {% if id === 'events' %} class="nav-item active" {% endif %}>
             <a class="nav-link events" href="/events">
               {# <i class="fas fa-user-friends d-md-inline d-none"></i> #}
               Events</a>
-          </li>
-        <li {% if id === 'geographic-information-office' %} class="nav-item active" {% endif %}>
-            <a class="nav-link gio" href="/geographic-information-office">GIO</a>
-          </li>
+        </li>
+        <li class="nav-item dropdown navbar-inverse">
+             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> {# <i class="fas fa-tasks d-md-inline d-none"></i> #}GIO</a>
+            <ul class="dropdown-menu inverse-dropdown" role="menu">
+              <li {% if id === 'geographic-information-office' %} class="nav-item active" {% endif %}>
+               <a class="nav-link gio" href="/geographic-information-office">Geographic Information Office</a>
+              </li>
+              <li class="nav-item{% if id == 'gis-solutions-group' %} active{% endif %}">
+                <a href="/geographic-information-office/gis-solutions-group" class="nav-link main-program">GIS Solutions Group</a>
+              </li>
+            </ul>
+        </li>
         <li {% if id == '/about' %} class="nav-item active" {% endif %}>
             <a href="/about" class="nav-link">About<span class="sr-only">
                 us</span></a>
@@ -91,4 +115,4 @@
     </div>
   </div>
 </div>
-</nav>
+</nav>    

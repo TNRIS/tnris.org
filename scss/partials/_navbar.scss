@@ -204,7 +204,7 @@ a.main-program {
 .navbarTNRIS {
   background-color: $tnrisblue;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-  background-image: linear-gradient(115deg, $tnrisblue 57%, #2A2B2E 50%);
+  background-image: linear-gradient(115deg, $tnrisblue 65%, #2A2B2E 60%);
   
   a { 
     color: white;
@@ -263,7 +263,7 @@ a.main-program {
 }
 
 
-  @media only screen and (max-width: 1075px) {
+  @media only screen and (max-width: 1105px) {
       .containerText p  {
         font-size: 0px;
         width: 0px;
@@ -278,98 +278,126 @@ a.main-program {
 
 //Media queries to keep second color correctly positioned over nav links
 
-@media only screen and (min-width: 2900px) {
+@media only screen and (min-width: 2550px) {
   .navbarTNRIS {
-    background-image: linear-gradient(115deg, $tnrisblue 50%, #2A2B2E 50%);
+    background-image: linear-gradient(115deg, $tnrisblue 70%, #2A2B2E 70%);
+  }
+}
+
+@media only screen and (max-width: 1950px) {
+  .navbarTNRIS {
+    background-image: linear-gradient(115deg, $tnrisblue 60%, #2A2B2E 50%);
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .navbarTNRIS {
+    background-image: linear-gradient(115deg, $tnrisblue 57%, #2A2B2E 50%);
   }
 }
 
   @media only screen and (max-width: 1490px) {
     .navbarTNRIS {
-      background-image: linear-gradient(115deg, $tnrisblue 56%, #2A2B2E 50%);
-    }
-  }
-
-  @media only screen and (max-width: 1400px) {
-    .navbarTNRIS {
       background-image: linear-gradient(115deg, $tnrisblue 55%, #2A2B2E 50%);
     }
   }
 
-  @media only screen and (max-width: 1360px) {
+  @media only screen and (max-width: 1415px) {
     .navbarTNRIS {
       background-image: linear-gradient(115deg, $tnrisblue 53%, #2A2B2E 50%);
     }
   }
 
-  @media only screen and (max-width: 1310px) {
+  @media only screen and (max-width: 1355px) {
     .navbarTNRIS {
       background-image: linear-gradient(115deg, $tnrisblue 51%, #2A2B2E 50%);
     }
   }
 
-  @media only screen and (max-width: 1265px) {
+  @media only screen and (max-width: 1300px) {
     .navbarTNRIS {
       background-image: linear-gradient(115deg, $tnrisblue 49%, #2A2B2E 48%);
     }
   }
 
-  @media only screen and (max-width: 1220px) {
+  @media only screen and (max-width: 1245px) {
     .navbarTNRIS {
       background-image: linear-gradient(115deg, $tnrisblue 47%, #2A2B2E 45%);
     }
   }
 
-  @media only screen and (max-width: 1180px) {
-    .navbarTNRIS {
-      background-image: linear-gradient(115deg, $tnrisblue 46%, #2A2B2E 45%);
-    }
-  }
-
-  @media only screen and (max-width: 1140px) {
+  @media only screen and (max-width: 1200px) {
     .navbarTNRIS {
       background-image: linear-gradient(115deg, $tnrisblue 45%, #2A2B2E 44%);
     }
   }
 
-  @media only screen and (max-width: 1120px) {
-    .navbarTNRIS {
-      background-image: linear-gradient(115deg, $tnrisblue 43%, #2A2B2E 42%);
-    }
-  }
-
-  @media only screen and (max-width: 1080px) {
+  @media only screen and (max-width: 1150px) {
     .navbarTNRIS {
       background-image: linear-gradient(115deg, $tnrisblue 41%, #2A2B2E 40%);
     }
   }
 
-  @media only screen and (max-width: 1030px) {
+  @media only screen and (max-width: 1090px) {
     .navbarTNRIS {
       background-image: linear-gradient(115deg, $tnrisblue 39%, #2A2B2E 38%);
     }
   }
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1055px) {
     .navbarTNRIS {
-      background-image: linear-gradient(115deg, $tnrisblue 30%, #2A2B2E 25%);
+      background-image: linear-gradient(115deg, $tnrisblue 35%, #2A2B2E 25%);
     }
   }
 
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 995px) {
     .navbarTNRIS {
-      background-image: linear-gradient(115deg, $tnrisblue 25%, #2A2B2E 20%);
+      background-image: linear-gradient(115deg, $tnrisblue 30%, #2A2B2E 20%);
     }
   }
 
-  @media only screen and (max-width: 790px) {
+  @media only screen and (max-width: 900px) {
     .navbarTNRIS {
-      background-image: linear-gradient(115deg, $tnrisblue 20%, #2A2B2E 15%);
+      background-image: linear-gradient(115deg, $tnrisblue 25%, #2A2B2E 15%);
+    }
+  }
+
+  @media only screen and (max-width: 820px) {
+    .navbarTNRIS {
+      background-image: linear-gradient(115deg, $tnrisblue 18%, #2A2B2E 15%);
     }
   }
 
   @media only screen and (max-width: 767px) {
+    
     .navbarTNRIS {
       background-image: linear-gradient(100deg, $tnrisblue 75%, #2A2B2E 50%);
+      li {
+        a {
+      
+          &:hover {
+            color: black !important;
+          }
+        }
+      }
     }
   }
+
+  @media only screen and (max-width: 450px) {
+
+  .text-left {
+      margin-left: -20px;
+    }
+
+  .navbarTNRIS {
+    li {
+      a {
+        font-size: 14px;
+  
+        &:hover {
+          color: black !important;
+        }
+      }
+    }
+  }
+}
