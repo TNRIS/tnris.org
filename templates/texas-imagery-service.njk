@@ -15,45 +15,45 @@
 
 {% block topcontent %}
   <div id="texas-imagery-banner" class="container-fluid full">
-      <div>
-          <div class="sr-only">
-              <h1>{{title}}</h1> {{abstract}}
-          </div>
-
-          <img class="img-fluid mx-auto d-block d-sm-none d-md-none d-lg-none" src="https://cdn.tnris.org/images/texas-imagery-service-box.jpg" alt="Masthead for {{title}}">
-
-          <img class="img-fluid mx-auto d-block d-none" src="{{mainimage}}" alt="Masthead for {{title}}">
+    <div>
+      <div class="sr-only">
+        <h1>{{title}}</h1> {{abstract}}
       </div>
+
+      <img class="img-fluid mx-auto d-block d-sm-none d-md-none d-lg-none" src="https://cdn.tnris.org/images/texas-imagery-service-box.jpg" alt="Masthead for {{title}}">
+
+      <img class="img-fluid mx-auto d-block d-none" src="{{mainimage}}" alt="Masthead for {{title}}">
+    </div>
   </div>
   <div id="intro" class="google-intro">
-      <div class="container-md">
-          <div id="project-updates" class="row">
-              {% include "partials/texas-imagery-service/intro.njk" %}
-          </div>
-          <h2>Latest Updated Imagery</h2>
-          <iframe width="100%" height="520" frameborder="0" src="https://tnris-twdb.carto.com/u/tnris/builder/7ec0d7df-a00d-49e5-b4e4-1b15929f6cda/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    <div class="container-md">
+      <div id="project-updates" class="row">
+          {% include "partials/texas-imagery-service/intro.njk" %}
       </div>
+      <h2>Latest Updated Imagery</h2>
+      <iframe width="100%" height="600" frameborder="0" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=fd78bc462dfd468f8022ae82a541b7df&extent=-117.5338,23.1293,-85.0801,38.933&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=dark"></iframe>
+    </div>
   </div>
 {% endblock %}
 
 {% block contentsOne %}
   <div id="contentMain" class="container-md">
     <div class="row">
-        <div id="faq-body-container" class="col-lg-12">
-            {{ contents|safe }}
-        </div>
+      <div id="faq-body-container" class="col-lg-12">
+        {{ contents|safe }}
+      </div>
     </div>
   </div>
 {% endblock %}
 
 {% block contentsTwo %}
   <section class="ortho-top">
-      <div class="container-md">
-          <div class="row">
-              <div class="col-lg-12">
-                  {% include "partials/texas-imagery-service/contact.njk" %}
-              </div>
-          </div>
+    <div class="container-md">
+      <div class="row">
+        <div class="col-lg-12">
+          {% include "partials/texas-imagery-service/contact.njk" %}
+        </div>
       </div>
+    </div>
   </section>
 {% endblock %}
