@@ -45,7 +45,7 @@
 .dropdown-menu .active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #337ab7;
+  background-color: $tnrisblue;
   outline: 0;
 }
 
@@ -125,7 +125,6 @@
 //   }
 // }
 
-
 .navbar-inverse {
   .navbar-nav {
     li {
@@ -133,7 +132,7 @@
         color: $white;
 
         &:hover {
-          color: $sky;
+          color: $tnrisblue;
         }
       }
     }
@@ -153,7 +152,7 @@
       a {
 
         &:hover {
-          background: $black;
+          background-color: transparent !important;
         }
       }
     }
@@ -184,6 +183,7 @@
   li {
     a {
       color: $white !important;
+      text-decoration: none;
 
       &:hover {
         color: $tnrisblue !important;
@@ -334,6 +334,7 @@ a.main-program {
 
   @media only screen and (max-width: 767px) {
     
+    
     .navbarTNRIS {
       background-image: linear-gradient(100deg, $tnrisblue 75%, #2A2B2E 50%);
       li {
@@ -341,11 +342,26 @@ a.main-program {
       
           &:hover {
             color: black !important;
+            background-color: transparent !important;
           }
         }
       }
     }
+
+    .navbar-inverse {
+      .dropdown-menu.inverse-dropdown {
+        a {
+      
+          &:hover {
+            color: $tnrisblue !important;
+            background-color: transparent !important;
+          }
+         
+      }
+    }
   }
+}
+  
 
   @media only screen and (max-width: 450px) {
 
@@ -363,5 +379,11 @@ a.main-program {
         }
       }
     }
+  }
+}
+
+@media (min-width: 767px) {
+  .navbarTNRIS .dropdown:hover .dropdown-menu {
+    display: block;
   }
 }
