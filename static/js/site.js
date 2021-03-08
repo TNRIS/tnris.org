@@ -200,3 +200,4 @@ var Clipboard = require('clipboard/dist/clipboard.min');
   })
 
 })(jQuery);
+
