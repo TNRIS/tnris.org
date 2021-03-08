@@ -25,13 +25,13 @@
               <li class="nav-item{% if id == 'maps' %} active{% endif %}">
                 <a href="/maps" class="nav-link main-program">Maps</a>
               </li>
-              <li class="nav-item{% if id == 'research-distribution-center' %} active{% endif %}">
+              <li class="nav-item{% if id == 'research-distribution-center-index' %} active{% endif %}">
                 <a href="/research-distribution-center" class="nav-link main-program">Research &amp; Distribution Center (RDC)</a>
                   <ul>
-                    <li class="nav-item{% if id == 'historical-imagery-archive' %} active{% endif %}">
+                    <li class="nav-item{% if id == 'research-distribution-center-historical-imagery-archive' %} active{% endif %}">
                       <a href="/research-distribution-center/historical-imagery-archive">Historical Imagery Archive</a>
                     </li>
-                    <li class="nav-item{% if id == 'custom-maps' %} active{% endif %}">
+                    <li class="nav-item{% if id == 'research-distribution-center-custom-maps' %} active{% endif %}">
                       <a href="/research-distribution-center/custom-maps">Custom Maps</a>
                     </li>
                   </ul>
@@ -49,7 +49,7 @@
               {# <i class="fas fa-tasks d-md-inline d-none"></i> #}
               StratMap</a>
             <ul class="dropdown-menu inverse-dropdown" role="menu">
-              <li class="nav-item{% if id == 'stratmap' %} active{% endif %}">
+              <li class="nav-item{% if id == 'stratmap-index' %} active{% endif %}">
                 <a href="/stratmap" class="nav-link main-program">Strategic Mapping Program (Main)<br></a>
                 <ul>
                   <li class="nav-item{% if id == 'stratmap-stratmap-contracts' %} active{% endif %}">
@@ -77,10 +77,10 @@
          <li class="nav-item dropdown navbar-inverse">
              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> {# <i class="fas fa-tasks d-md-inline d-none"></i> #}Education</a>
             <ul class="dropdown-menu inverse-dropdown" role="menu">
-              <li class="nav-item{% if id == 'education' %} active{% endif %}">
+              <li class="nav-item{% if id == 'education-index' %} active{% endif %}">
                 <a href="/education" class="nav-link main-program">Education and Training</a>
               </li>
-              <li class="nav-item{% if id == 'teacher-resources' %} active{% endif %}">
+              <li class="nav-item{% if id == 'education-teachers' %} active{% endif %}">
                 <a href="/education/teachers" class="nav-link main-program">Teacher Resources (K-12, College)</a>
               </li>
             </ul>
@@ -93,10 +93,10 @@
         <li class="nav-item dropdown navbar-inverse">
              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> {# <i class="fas fa-tasks d-md-inline d-none"></i> #}GIO</a>
             <ul class="dropdown-menu inverse-dropdown" role="menu">
-              <li {% if id === 'geographic-information-office' %} class="nav-item active" {% endif %}>
+              <li {% if id == 'geographic-information-office-index' %} class="nav-item active" {% endif %}>
                <a class="nav-link gio" href="/geographic-information-office">Geographic Information Office</a>
               </li>
-              <li class="nav-item{% if id == 'gis-solutions-group' %} active{% endif %}">
+              <li class="nav-item{% if id == 'geographic-information-office-gis-solutions-group-index' %} active{% endif %}">
                 <a href="/geographic-information-office/gis-solutions-group" class="nav-link main-program">GIS Solutions Group</a>
               </li>
             </ul>
