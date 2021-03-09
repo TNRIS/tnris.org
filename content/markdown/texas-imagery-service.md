@@ -80,27 +80,10 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
               <td>&lt;100,000</td>
               <td>$15,625</td>
             </tr>
-            <thead>
-              <tr >
-              <th colspan="3">
-                <h3>State Universities</h3>
-              </th>
-            <tr class="super">
-              <td>Level</td>
-              <td>Service Requests*</td>
-              <td>Annual Subscription Fee**</td>
-            </tr>
-              <tr class="info">
-              <td>Department (single use)</td>
-              <td>Unlimited</td>
-              <td>$375,000</td>
-            </tr>
-            <tr class="info">
-              <td>University Wide</td>
-              <td>Unlimited</td>
-              <td>$125,000</td>
-            </tr>
             </table>
+            <h3>State Universities</h3>
+            <p class="lead"><small>Department - Annual flat fee $15,625**</small></p>
+            <p class="lead"><small>University Wide - Annual flat fee $125,000**</small></p>
             <h3>Regional Agency</h3>
             <p class="lead"><small>Annual flat fee $15,000**</small></p>
             <h3>Local Agency</h3>
