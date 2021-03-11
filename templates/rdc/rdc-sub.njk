@@ -2,8 +2,7 @@
 
 
 {% block topcontent %}
-<div class="container-fluid full">
-
+<div class="container-fluid full gio-top">
       <div class="top-container">
       {% if mainimage %}
         <img class="img-fluid img-responsive mx-auto d-block" src="{{mainimage}}" alt="Masthead for {{title}}">
@@ -22,7 +21,7 @@
 {% endblock %}
 
 {% block contentsOne %}
-<div class="container-md">  {% include "rdc/nav.njk" %}</div>
+{% include "rdc/nav.njk" %}
 
 <div id="contentMain" class="container-md">
 
