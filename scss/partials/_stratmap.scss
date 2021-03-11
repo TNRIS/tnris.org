@@ -1,13 +1,20 @@
 .stratmap-bar {
   margin-bottom: 1rem;
   background: $darkgrey;
-  font-size: 20px;
+  font-size: 18px;
 
   .navbar-nav > .active > a,
   .navbar-nav > .active > a:hover {
     background-color: lighten($forum2015blue, 5%);
   }
 }
+
+@media (max-width: $screen-md) {
+  .stratmap-bar a { 
+    font-size: 14px;
+  }
+}
+
 
 .stratmap-project {
 
