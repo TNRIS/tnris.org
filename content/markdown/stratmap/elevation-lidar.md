@@ -12,7 +12,7 @@ youtube_url: https://www.youtube.com/embed/50msWTlH76M
       </div>
     <div class="col-lg-4">
       <h3>Lidar Specifications</h3>
-      <a class="btn btn-lg btn-success mx-auto d-block" href="https://cdn.tnris.org/documents/state_of_texas_stratmap_lidar_specification_ver_XIII.pdf"><i class="fa fa-file"></i> Download Lidar Specifications</a>
+      <a class="btn btn-lg btn-success mx-auto d-block" href="https://cdn.tnris.org/documents/state_of_texas_stratmap_lidar_specification_ver_XIII.pdf">Download Lidar Specifications</a>
       <h3>Download Lidar</h3>
       <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
       <hr class="clearfix">
