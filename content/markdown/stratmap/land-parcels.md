@@ -1,7 +1,7 @@
 ---
 title: Land Parcels
 layout: stratmap/ap-lp-page.njk
-progress_1: 86
+progress_1: 89
 progress_2: 228
 youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
 ---
@@ -27,15 +27,11 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       <p class="lead">In August 2019, an extension of the <a href="https://cdn.tnris.org/documents/update-on-digital-parcel-data-in-texas-20190903.pdf">statewide parcel study was published</a> to evaluate the existence of GIS parcel data and barriers to conversion. The report found that nearly all Texas appraisal districts now maintain a GIS parcel layer or are in the process of converting. It includes recommendations of 1) how TNRIS can facilitate local GIS  conversion and 2) how to continue success of the land parcel program.</p>
     </div>
     <div class="col-lg-6">
-      <h2 style="margin-top: 0">Available Datasets</h2>
-      <ul class="list-clean data-progress">
-        <li class="status">
-          <progress class="level-orange" max="100" value="{{progress_1}}">
-          </progress>
-          <h3 class="amount"><strong>{{progress_2}}</strong></h3>
-        </li>
-      </ul>
-      <p><strong font-size: 20px;">of 254 land parcel GIS datasets are now available in a common schema.</strong></p>
+    <h2 style="margin-top: 0">Available Datasets</h2>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow={{progress_1}} aria-valuemin="0" aria-valuemax="100">{{progress_2}}</div>
+      </div>
+      <p><strong>of 254 land parcel GIS datasets are now available in a common schema.</strong></p>
       <p>See available datasets in the map below:</p>
       <iframe title="Available datasets" width="100%" height="520" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Land Parcels Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=7f5626b267a042a7869926b3d379f5b9&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
       </iframe>

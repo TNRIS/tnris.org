@@ -116,8 +116,7 @@ function retrieveMaps() {
                   ${m.name}
                 </h3>
                 <p>
-                  <span class="fa fa-calendar"></span>
-                  ${monthNames[publishDate.getMonth()]} ${publishDate.getDate()}, ${publishDate.getFullYear()}
+                 <i> ${monthNames[publishDate.getMonth()]} ${publishDate.getDate()}, ${publishDate.getFullYear()} </i>
                 </p>
                 <p class="maps-description">${m.description}</p>
                 <p>${moreInfo}</p>

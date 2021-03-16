@@ -97,7 +97,7 @@ function retrieveTraining(queryField, queryValue) {
               </div>
               <div class="col-4 classdate">
               <strong>
-              <span class="fa fa-calendar"></span>
+              <span class="far fa-calendar-alt"></span>
               ${month} ${day}, ${t.year}
             </strong><br>
             <i class="fa fa-time"></i>

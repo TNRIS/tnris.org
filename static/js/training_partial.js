@@ -45,8 +45,7 @@ function retrieveOpenTraining() {
 
         record.innerHTML =
           `
-          <i class="fa fa-calendar extended"></i>
-            <time> ${month} ${day}, ${t.year}</time>
+            <b> ${month} ${day}, ${t.year}</b>
             <h4>
               <a href="/education#${urlTitle}"> ${t.title}</a>
             </h4>
