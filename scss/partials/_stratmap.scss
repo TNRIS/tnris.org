@@ -577,3 +577,20 @@ ul.stratmap-work {
 .shadow1 {
   text-shadow: 2px 2px 4px #000000;
 }
+
+.progress {
+  box-shadow: 0 2px 5px #919191 inset;
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.progress-bar {
+  width: 89%;
+  background-color: #fe8e51;
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: Roboto Condensed;
+  color: black;
+  text-align: left;
+  padding-left: 10px;
+}
