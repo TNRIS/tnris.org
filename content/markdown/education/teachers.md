@@ -127,7 +127,7 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
 <img style="width: 50%" class="mx-auto d-block" src="https://cdn.tnris.org/images/datahub_frontpage_icon.jpg" alt="Icon for TNRIS DataHub">
 <p>The DataHub allows users to browse, download, order and inquire about digital geographic data used for analysis or to make maps.</p>
 <p>
-<a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
 </p>
 </div>
 <div class="col-sm-4 education-divider">
@@ -161,11 +161,11 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
 </div>
 </div>
 
-* * *
+---
 
 ## TNRIS Tours
 
-<img style="width: 50%;" class="float-right rounded" src="https://cdn.tnris.org/images/rovers2.jpg">
+<img style="width: 50%;" class="float-right rounded" src="https://cdn.tnris.org/images/rovers2.jpg" alt="TNRIS tours">
 <div class="alert alert-warning">
 <p class="lead"><strong>Tours are unavailable until measures in response to the COVID-19 outbreak have been lifted. We apologize for the inconvenience.</strong></p>
 </div>

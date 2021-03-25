@@ -14,7 +14,7 @@ youtube_url: https://www.youtube.com/embed/50msWTlH76M
       <h3>Lidar Specifications</h3>
       <a class="btn btn-lg btn-success mx-auto d-block" href="https://cdn.tnris.org/documents/state_of_texas_stratmap_lidar_specification_ver_XIII.pdf">Download Lidar Specifications</a>
       <h3>Download Lidar</h3>
-      <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+      <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
       <hr class="clearfix">
       <h3>Bulk Copies</h3>
       <p>Bulk copies of all lidar datasets are available at reproduction cost through our Research and Distribution center. Copies onto hard drives can be requested through the <a href="https://data.tnris.org">DataHub</a>.</p>

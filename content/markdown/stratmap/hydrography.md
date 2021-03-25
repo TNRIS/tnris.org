@@ -27,7 +27,7 @@ mainimage: https://cdn.tnris.org/images/SB_Hydrography.png
 
 <figure>
 <a href="https://cdn.tnris.org/images/wbd_subregions_lg.png" data-toggle="lightbox" data-gallery="example-gallery" data-title="Watershed Boundary Dataset (WBD) Sub Regions">
-    <img class="img-fluid" src="https://cdn.tnris.org/images/wbd_subregions_lg.png">
+    <img class="img-fluid" src="https://cdn.tnris.org/images/wbd_subregions_lg.png" alt="NHD Plus HR Regions">
 </a>
 <figcaption><i class="fa fa-zoom-in"></i> Click to Enlarge. Overview of the Watershed Boundary Dataset. </figcaption></figure>
 </div>

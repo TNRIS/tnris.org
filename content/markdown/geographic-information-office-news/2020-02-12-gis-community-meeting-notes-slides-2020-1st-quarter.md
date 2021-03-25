@@ -4,8 +4,7 @@ title: "Texas GIS Community Meeting 2020 1st Quarter - Notes and Slides"
 author: Felicia Retiz, Deputy GIO
 mainimage: https://cdn.tnris.org/images/1stqtr2020article_main.png
 thumbnail: https://cdn.tnris.org/images/1stqtr2020article_thumb.png
-abstract:
-    The 1st quarter GIS Community meeting took place on January 14, 2020 at the Texas Parks and Wildlife Headquarters in Austin, TX.
+abstract: The 1st quarter GIS Community meeting took place on January 14, 2020 at the Texas Parks and Wildlife Headquarters in Austin, TX.
 ---
 
 <p class="lead">The 1st quarter GIS Community meeting took place on January 14, 2020 at the Texas Parks and Wildlife Headquarters in Austin, TX. Roughly 40+ attendees were present, and the guest speaker was Dan Rodriguez from <a href="https://www.razor-tek.com/">RazorTek</a>. Mr. Rodriguez presented on imagery products available from <a href="https://www.planet.com/">Planet</a>.</p>
@@ -59,7 +58,7 @@ Reassessing ArcGIS Online platform similar to TxDOT. [My Texas Hunt Harvest](htt
 
 * * *
 
-<h3><a href="https://www.twdb.texas.gov/"><img class="float-right" src="https://cdn.tnris.org/images/twdb_web_med.jpg"></a>Texas Water Development Board, Taylor Christian</h3>
+<h3><a href="https://www.twdb.texas.gov/"><img class="float-right" src="https://cdn.tnris.org/images/twdb_web_med.jpg" alt="TWDB logo"></a>Texas Water Development Board, Taylor Christian</h3>
 
 Working with TNRIS on new flood program. Also working on a water data hub for Texas. If anyone has public water data, Taylor would like to discuss the possibility of hosting in the new hub.
 
