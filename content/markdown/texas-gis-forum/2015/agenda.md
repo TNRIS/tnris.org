@@ -8,6 +8,7 @@ mainimagexs: https://cdn.tnris.org/images/xs-banner.jpg
 intro: true
 abstract: Save the date for the Texas GIS Forum, the state's premier conference for the geospatial professional community.
 ---
+
 <h2>2015 FORUM AGENDA</h2>
 <p class="lead-forum">
 Note: Agenda and speakers subject to change without notice.
@@ -58,7 +59,7 @@ Note: Agenda and speakers subject to change without notice.
     <div class="col-sm-9">
       <h3>Esri GeoDev Meetup</h3>
       <p>
-        <a href="http://www.meetup.com/DevMeetUpTexas/events/225538428/"><img class="float-right" src="https://cdn.tnris.org/images/meetup_logo.png"></a> This event is a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.
+        <a href="http://www.meetup.com/DevMeetUpTexas/events/225538428/"><img class="float-right" src="https://cdn.tnris.org/images/meetup_logo.png" alt="Meetup logo"></a> This event is a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.
       </p>
       <p>Meetup RSVP:
         <a class="dont-break" href="http://www.meetup.com/DevMeetUpTexas/events/225538428">
@@ -116,7 +117,7 @@ Note: Agenda and speakers subject to change without notice.
         Patrick Meier, Digital Humanitarian
       </h3>
       <p>
-        <img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/patrick.jpg">Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. He is the author of, “Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Action.”
+        <img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/patrick.jpg" alt="Patrick Meier">Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. He is the author of, “Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Action.”
       </p>
       <p>
         He has consulted extensively for several international organizations including the United Nations and the World Bank. Patrick also founded/co-founded CrisisMappers, Digital Humanitarians, and many more. Patrick also writes the [iRevolutions](http://irevolution.net) blog, and tweets at [@patrickmeier](https://twitter.com/patrickmeier).
@@ -126,7 +127,7 @@ Note: Agenda and speakers subject to change without notice.
       </p>
       <p>
         <strong>Watch Video:</strong>
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/vx8gyiyo6-M" frameborder="0" allowfullscreen>
+        <iframe title="Patrick Meier 2015 GIS Forum Keynote" width="100%" height="400" src="https://www.youtube.com/embed/vx8gyiyo6-M" frameborder="0" allowfullscreen>
         </iframe>
       </p>
     </div>
@@ -805,7 +806,7 @@ Note: Agenda and speakers subject to change without notice.
     6:00 p.m.
     </div>
     <div class="col-sm-9">
-      <h3>Forum Social sponsored by <img src="https://cdn.tnris.org/images/cartodb_logo_sm.png"></h3>
+      <h3>Forum Social sponsored by <img src="https://cdn.tnris.org/images/cartodb_logo_sm.png" alt="Carto DB logo"></h3>
       <p><a href="http://punchbowlsocial.com/austin/"><img class="float-right" src="https://cdn.tnris.org/images/pbs_social.jpg" alt="Logo for PBs Social"></a> <strong>This year's social is at <a href="http://punchbowlsocial.com/austin/">Punch Bowl Social</a>, located about 1.5 miles from the J.J Pickle Center.</strong> You will need to wear your GIS Forum name badge in order to gain access to the reserved activities:
       <ul>
       <li>Each person will get two drink tickets, good for beer &amp; wine.</li>
@@ -849,9 +850,9 @@ Note: Agenda and speakers subject to change without notice.
   <div class="col-sm-9 col-lg-10">
   <h3 id="keynote-cowen"><small class="text-muted">Keynote Presentation</small><br>David Cowen, UCGIS Fellow</h3>
   <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/keynote-speaker-david-cowen-the-changing-geospatial-landscape"><i class="fa fa-play-circle"></i> View Slides</a></p>
-  <p><img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/david_cowen.jpg"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
+  <p><img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/david_cowen.jpg" alt="David Cowen"> Dr. David Cowen is recognized as a Fellow of the UCGIS in recognition of his sustained and effective contributions to the field of Geographic Information Systems and Science. Professor Cowen’s contributions in the areas of GIS applications, education, research, government service, and commercial development have had a deep and long-lasting impact upon both geography and GIScience, and on the ways in which GIS is viewed by society.</p>
   <p><strong>Watch Video:</strong>
-    <iframe width="100%" height="400" src="https://www.youtube.com/embed/FXp4RiZ34TA" frameborder="0" allowfullscreen></iframe>
+    <iframe title="David Cowen 2015 Keynote" width="100%" height="400" src="https://www.youtube.com/embed/FXp4RiZ34TA" frameborder="0" allowfullscreen></iframe>
   </p>
   </div>
   </div>
@@ -1317,7 +1318,7 @@ Note: Agenda and speakers subject to change without notice.
   <h4>Low-Cost Centimeter-Accurate Mobile Positioning</h4>
   <p><a href="https://speakerdeck.com/texasnaturalresourcesinformationsytem/keynote-speaker-todd-humphreys-low-cost-centimer-accurate-mobile-positioning"><i class="fa fa-play-circle"></i> View Slides</a></p>
   <p>
-  <img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/humphreys_head.jpg">
+  <img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/humphreys_head.jpg" alt="Todd Humphreys">
   Todd E. Humphreys is an assistant professor in the department of Aerospace Engineering and Engineering Mechanics at the University of Texas at Austin, and Director of the UT Radionavigation Laboratory. He specializes in the application of optimal detection and estimation techniques to problems in satellite navigation, autonomous systems, and signal processing.His recent focus has been on secure perception for autonomous systems, including navigation, timing, and collision avoidance, and on centimeter-accurate location for the mass market.
   </p>
   </div>

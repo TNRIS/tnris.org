@@ -62,7 +62,7 @@ Highly desirable location of a 10x10 exhibit space (with electricity), draped ta
 
 ### Promotions Include:
 
-- **Verbal and Visual recognition** of your sponsorship during opening remarks at the Forum. 
+- **Verbal and Visual recognition** of your sponsorship during opening remarks at the Forum.
 - **Three (3) free registrations** for staff and guests to all forum functions including presentations, breaks, lunches, and social events.
 - **Large Logo on Forum sponsorship banner** prominently displayed in the Exhibit Hall.
 - **Placement of the corporate logo** (with links to corporate website) on the FORUM website.
@@ -72,6 +72,7 @@ Highly desirable location of a 10x10 exhibit space (with electricity), draped ta
 <br>
 
 ## Silver Sponsor/Exhibitor ($2,500)
+
 ### Includes:
 
 Desirable location 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
@@ -94,54 +95,54 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 10x10 exhibit space (with electricity), draped table, 2 chairs, and trash receptacle.
 
 ### Promotions Include:
+
 - **One (1) free registration** to all forum functions including presentations, breaks, lunches, and social events.
 - **Name printed on the Forum agenda** program given to all attendees
 - **Listing on Forum website**
 
-*Exhibitor Only option is reserved for small businesses or start-up companies with less than 25 employees, $2 million in annual revenue, or have been in existence for less than two years.*
+_Exhibitor Only option is reserved for small businesses or start-up companies with less than 25 employees, $2 million in annual revenue, or have been in existence for less than two years._
 
-*****
+---
 
 <h2 id="additional-sponsors"><small class="text-muted">New This Year!</small><br>Additional Sponsor Options</h2>
 
 <p class="lead">Exclusive sponsorship of any of the options below include your logo printed and posted during the event timeframe. You also receive honorable mention in the conference program as well as verbal recognition.  </p>
 
-**Note:** Companies do not need to be a selected sponsor level (Platinum, Gold, or Silver) in order to sponsor any of the options below. Sponsoring an option below by itself does not qualify you for a designated sponsor level. Platinum, Gold & Silver level sponsors can purchase the additional options below.    
+**Note:** Companies do not need to be a selected sponsor level (Platinum, Gold, or Silver) in order to sponsor any of the options below. Sponsoring an option below by itself does not qualify you for a designated sponsor level. Platinum, Gold & Silver level sponsors can purchase the additional options below.
 
- 
 ### Sponsor a Breakfast
-<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/breakfast.jpg">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
+
+<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/breakfast.jpg" alt="breakfast">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
 
 - Wednesday - $750
 - Thursday - $750
 
-****
+---
 
 ### Sponsor a Coffee Break
 
-<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/coffee.jpg"> During the Coffee break, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
+<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/coffee.jpg" alt="coffee"> During the Coffee break, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
 
 - Wednesday AM - $500
 - Wednesday PM - $500
 - Thursday AM - $500
 - Thursday PM - $500
 
-****
- 
+---
+
 ### Sponsor a Lunch
-<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/lunch.jpg">During Lunch, sponsors will be recognized with prominently displayed posters. Sponsor has the opportunity to place giveaway items on the lunch tables.</p>
+
+<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/lunch.jpg" alt="lunch">During Lunch, sponsors will be recognized with prominently displayed posters. Sponsor has the opportunity to place giveaway items on the lunch tables.</p>
 
 - <s>Wednesday - $750</s> Sold Out
 - <s>Thursday - $750</s> Sold Out
 
-****
+---
 
-### Sponsor a Keynote  
-<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/podium.jpg">Keynote sponsor has the opportunity to introduce the speaker.</p>
+### Sponsor a Keynote
+
+<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/podium.jpg" alt="keynote podium">Keynote sponsor has the opportunity to introduce the speaker.</p>
 
 - Wednesday - Robert Ballard - $2500
 - Thursday Morning - $1500
 - Thursday Afternoon - $1500
-
-
-

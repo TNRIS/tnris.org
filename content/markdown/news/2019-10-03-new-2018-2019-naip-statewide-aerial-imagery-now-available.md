@@ -4,8 +4,7 @@ layout: news-article.njk
 author: StratMap
 thumbnail: https://cdn.tnris.org/images/naip2018_2019_th.jpg
 thumbalt: NAIP 2018 to 2019 Imagery
-abstract:
-   High resolution 60-cm (2-foot) aerial imagery for statewide NAIP imagery from 2018-2019 are now available from TNRIS
+abstract: High resolution 60-cm (2-foot) aerial imagery for statewide NAIP imagery from 2018-2019 are now available from TNRIS
 ---
 
 <figure class="data-preview">
@@ -31,34 +30,34 @@ _Note: Per FSA, full coverage along the TX/MX border is not available in some ar
 
 The GeoTIFFs and JPEG2000 images are in the public domain. The JPEG2000s are available for direct download from the DataHub.
 
-<a class="btn btn-lg btn-tnris" href="https://data.tnris.org/collection/f1d66250-4021-47df-9fe9-9fca286b0f50"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<a class="btn btn-lg btn-tnris" href="https://data.tnris.org/collection/f1d66250-4021-47df-9fe9-9fca286b0f50"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
 
-* * *
+---
 
 ## Acquisition Areas
 
 The NAIP 2018-2019 has statewide coverage:
 <img class="img-fluid" src="https://cdn.tnris.org/images/statewide_nc.jpg" alt="Statewide mosaic of 2018-2019 NAIP imagery">
 
-* * *
+---
 
 ## Products
 
--   GeoTIFF and JPEG2000 DOQQ (~16 sq. mi.) image tiles
--   Index SHP
--   Metadata TXTs per image tile
+- GeoTIFF and JPEG2000 DOQQ (~16 sq. mi.) image tiles
+- Index SHP
+- Metadata TXTs per image tile
 
-* * *
+---
 
 ## Product Specification
 
 ![USGS Quarter Quad Breakdown](https://cdn.tnris.org/images/usgs_quad.jpg)
 
--   60cm (~2-foot) pixel resolution! HIGHER RESOLUTION THAN PREVIOUS 1-METER NAIP DATASETS.
--   4-band, natural color and color infrared
--   UTM Zones 13, 14, and 15; NAD83 coordinate system
--   Units in meters
--   DOQQ (approx. 16 sq. mi.) image tiles, 1/4th USGS 7.5-minute quadrangle
+- 60cm (~2-foot) pixel resolution! HIGHER RESOLUTION THAN PREVIOUS 1-METER NAIP DATASETS.
+- 4-band, natural color and color infrared
+- UTM Zones 13, 14, and 15; NAD83 coordinate system
+- Units in meters
+- DOQQ (approx. 16 sq. mi.) image tiles, 1/4th USGS 7.5-minute quadrangle
 
 ### Compare the 2018 60CM imagery to 2016 1M imagery below
 
@@ -70,7 +69,7 @@ The NAIP 2018-2019 has statewide coverage:
 <figcaption>Comparison of new 60-cm NAIP (left) with previous 1-meter NAIP (right). SCALE 1:2,200</figcaption>
 </figure>
 
-* * *
+---
 
 ## Imagery Preview
 

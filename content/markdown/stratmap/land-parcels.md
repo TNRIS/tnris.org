@@ -37,7 +37,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       </iframe>
       <h2>Download</h2>
       <p>Use the DataHub to download the Land Parcels dataset:</p>
-      <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+      <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
     </div>
   </div>
 </div>
@@ -76,13 +76,13 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
     <div id="agency-parcel-uses" class="col-lg-6">
       <h2>Program Flow</h2>
       <p>This iterative program flow will occur throughout the year. At no one time will there be a completed or final version of data as each data source has varying update schedules. Please check each county for the most recent version of data.</p>
-      <img src="https://cdn.tnris.org/images/Program_Flow.png" class="img-fluid">
+      <img src="https://cdn.tnris.org/images/Program_Flow.png" class="img-fluid" alt="Program flow">
       <h2>Agency Parcel Uses</h2>
       <p class="lead">Texas State Agencies make extensive use of Land Parcel data for all types of operations and applications.</p>
       <hr class="clearfix">
       <div class="row">
         <div class="col-lg-6">
-          <img src="https://cdn.tnris.org/images/tx_glo_logo.jpg" class="mx-auto d-block">
+          <img src="https://cdn.tnris.org/images/tx_glo_logo.jpg" class="mx-auto d-block" alt="Texas GLO logo">
           <p><strong>General Land Office (GLO)</strong></p>
           <ul>
             <li>Management of state landscoastal land permitting</li>
@@ -91,7 +91,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
           </ul>
         </div>
         <div class="col-lg-6">
-          <img src="https://cdn.tnris.org/images/tdem_logo.jpg" class="mx-auto d-block">
+          <img src="https://cdn.tnris.org/images/tdem_logo.jpg" class="mx-auto d-block" alt="TDEM logo">
           <p><strong>Texas Division of Emergency Management (TDEM)</strong></p>
           <ul>
             <li>Mitigate emergency situations by accurately modeling and mapping areas to predict flooding along high-risk areas</li>
@@ -102,7 +102,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       <hr class="clearfix d-none d-sm-none">
       <div class="row">
         <div class="col-lg-6">
-          <img src="https://cdn.tnris.org/images/txdot_logo.jpg" class="mx-auto d-block">
+          <img src="https://cdn.tnris.org/images/txdot_logo.jpg" class="mx-auto d-block" alt="TXDOT logo">
           <p><strong>Texas Department of Transportation (TXDOT)</strong></p>
             <ul>
               <li>Right of Way management for private or state-owned lands</li>
@@ -111,7 +111,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
           </p>
         </div>
         <div class="col-lg-6">
-          <img src="https://cdn.tnris.org/images/hhs_logo.jpg" class="mx-auto d-block img-fluid">
+          <img src="https://cdn.tnris.org/images/hhs_logo.jpg" class="mx-auto d-block img-fluid" alt="HHSC logo">
           <p><strong>Health and Human Services Commission (HHSC)</strong></p>
           <ul>
             <li>Determine structures in the path or vicinity of disease outbreak</li>
@@ -122,7 +122,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       <hr class="clearfix d-none d-sm-none">
       <div class="row">
         <div class="col-lg-6">
-          <img src="https://cdn.tnris.org/images/twdb_web_med.jpg" class="mx-auto d-block">
+          <img src="https://cdn.tnris.org/images/twdb_web_med.jpg" class="mx-auto d-block" alt="TWDB logo">
           <p><strong>Texas Water Development Board (TWDB)</strong></p>
           <ul>
             <li>Determine if structures will be affected by flood conditions for early evacuation</li>
@@ -130,7 +130,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
           </ul>
         </div>
         <div class="col-lg-6">
-          <img src="https://cdn.tnris.org/images/tahc_logo.jpg" class="mx-auto d-block">
+          <img src="https://cdn.tnris.org/images/tahc_logo.jpg" class="mx-auto d-block" alt="TAHC logo">
           <p><strong>Texas Animal Health Commission (TAHC)</strong></p>
           <ul>
             <li>Locate farms, ranches, feedlots, etc in the event of animal disease outbreak</li>
@@ -140,7 +140,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       <hr class="clearfix d-none d-sm-none">
       <div class="row">
         <div class="col-lg-6">
-          <img src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" class="mx-auto d-block">
+          <img src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" class="mx-auto d-block" alt="TCEQ logo">
           <p><strong>Texas Commission on Environmental Quality (TCEQ)</strong></p>
           <ul>
             <li>Air permitting and air quality monitoring/analysis</li>
@@ -149,7 +149,7 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
           </ul>
         </div>
         <div class="col-lg-6">
-          <img src="https://cdn.tnris.org/images/tpwd_logo.jpg" class="mx-auto d-block">
+          <img src="https://cdn.tnris.org/images/tpwd_logo.jpg" class="mx-auto d-block" alt="TPWD logo">
           <p><strong>Texas Parks and Wildlife Department (TPWD)</strong></p>
           <ul>
             <li>Land ownership notification</li>
@@ -161,14 +161,14 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
       <hr class="clearfix d-none d-sm-none">
       <div class="row">
         <div class="col-lg-6">
-          <img src="https://cdn.tnris.org/images/csec_logo_sm.jpg" class="mx-auto d-block">
+          <img src="https://cdn.tnris.org/images/csec_logo_sm.jpg" class="mx-auto d-block" alt="CSEC logo">
           <p><strong>Commission on State Emergency Communications (CSEC)</strong></p>
           <ul>
             <li>Statewide emergency communications.</li>
           </ul>
         </div>
         <div class="col-lg-6">
-          <img src="https://cdn.tnris.org/images/tx_dps_logo.jpg" class="mx-auto d-block">
+          <img src="https://cdn.tnris.org/images/tx_dps_logo.jpg" class="mx-auto d-block" alt="DPS logo">
           <p><strong>Department of Public Safety (DPS)</strong></p>
           <ul>
             <li>Emergency management and response.</li>
