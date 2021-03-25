@@ -18,7 +18,7 @@ Further details regarding this acquisition can be found by downloading the Proje
 
 <p>To download the 2018 USGS Lower Colorado San Bernard lidar data products, please use the <a href="https://data.tnris.org/collection/b246f8f7-9c79-4c89-91f7-9c7f44955fca">DataHub</a>.</p>
 
-<a class="btn btn-lg btn-tnris" href="https://data.tnris.org/collection/b246f8f7-9c79-4c89-91f7-9c7f44955fca"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+<a class="btn btn-lg btn-tnris" href="https://data.tnris.org/collection/b246f8f7-9c79-4c89-91f7-9c7f44955fca"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
 
 ## Data coverage
 
@@ -28,11 +28,11 @@ Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builde
 
 ## Products
 
--   Classified all-return lidar  in LAS 1.4 format
--   Bare-earth digital elevation model (DEM) in .img format (1-meter)
--   Lidar intensity images in GeoTIFF format (1-meter)
--   Hydro-flattening breaklines in SHP or Geodatabase
--   Project-level FGDC metadata in XML
+- Classified all-return lidar in LAS 1.4 format
+- Bare-earth digital elevation model (DEM) in .img format (1-meter)
+- Lidar intensity images in GeoTIFF format (1-meter)
+- Hydro-flattening breaklines in SHP or Geodatabase
+- Project-level FGDC metadata in XML
 
 #### Bare Earth Digital Elevation Model of Lower Colorado San Bernard Lidar
 
@@ -40,19 +40,19 @@ Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builde
 
 ## Product Specification
 
--   Vertical NVA RMSEz tested 4.9 cm . The tested accuracy in all areas meets the project specification for 10 cm.
--   Average first-return point density meets the 2 ppsm project specification.
--   Point data is classified according to the following American Society for Photogrammetry and Remote Sensing (ASPRS) class schema:
+- Vertical NVA RMSEz tested 4.9 cm . The tested accuracy in all areas meets the project specification for 10 cm.
+- Average first-return point density meets the 2 ppsm project specification.
+- Point data is classified according to the following American Society for Photogrammetry and Remote Sensing (ASPRS) class schema:
 
-    -   Class 1:  Unclassified
-    -   Class 2:  Ground
-    -   Class 7:  Low Point (noise)
-    -   Class 9:  Water
-    -   Class 10: Ignored Ground
-    -   Class 14: Culverts
-    -   Class 17: Bridges
+  - Class 1: Unclassified
+  - Class 2: Ground
+  - Class 7: Low Point (noise)
+  - Class 9: Water
+  - Class 10: Ignored Ground
+  - Class 14: Culverts
+  - Class 17: Bridges
 
--   **Projection Specifications**
-    -   Horizontal projection is UTM NAD83 (2011) Zone 14
-    -   Vertical projection is NAVD88 Geoid 12B
-    -   Units are in meters denoting orthometric heights
+- **Projection Specifications**
+  - Horizontal projection is UTM NAD83 (2011) Zone 14
+  - Vertical projection is NAVD88 Geoid 12B
+  - Units are in meters denoting orthometric heights
