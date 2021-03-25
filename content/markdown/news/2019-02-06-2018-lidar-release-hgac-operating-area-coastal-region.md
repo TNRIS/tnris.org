@@ -14,17 +14,11 @@ The StratMap contributing partners for this project were the Texas Water Develop
 
 Further details regarding this acquisition can be found by downloading the [StratMap 2018 Upper Texas Coast Project Reports](https://s3.amazonaws.com/tnris-datadownload/datacatalog/supplemental_reports/stratmap_2018_50cm_upper_coast_supplementalreports.zip).
 
-
-
 ## Data Access
-
-
-
-
 
 <div class="media">
   <div class="media-left">
-    <a class="btn btn-lg btn-tnris" href="https://data.tnris.org/collection/b5bd2b96-8ba5-4dc6-ba88-d88133eb6643"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png"> Launch DataHub</a>
+    <a class="btn btn-lg btn-tnris" href="https://data.tnris.org/collection/b5bd2b96-8ba5-4dc6-ba88-d88133eb6643"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
   </div>
   <div class="media-body">
     <p>To download the Upper Coast lidar data products, please use the <a href="https://data.tnris.org/collection/b5bd2b96-8ba5-4dc6-ba88-d88133eb6643">DataHub</a>.</p>
@@ -37,8 +31,6 @@ Further details regarding this acquisition can be found by downloading the [Stra
   </div>
 </div>
 
-
-
 ## Coverage Area
 
 View coverage areas in the interactive map below:
@@ -47,31 +39,33 @@ View coverage areas in the interactive map below:
 
 Please see our [Lidar status map](https://tnris-twdb.carto.com/u/tnris-sm/builder/a5dfc759-9a90-4acd-a8d1-57d521c7e1fe/public_map) for statewide lidar coverage.
 
-
 ## PRODUCTS
-- Classified all-return lidar in DO4Q tiles (1/64th of USGS Quad)  LAS 1.4 format
+
+- Classified all-return lidar in DO4Q tiles (1/64th of USGS Quad) LAS 1.4 format
 - Bare-earth digital elevation model (DEM) in .img format (1-meter)
 - Lidar intensity images in GeoTIFF format (1-meter)
 - Hydro-flattening breaklines in SHP or Geodatabase
 - File-level FGDC metadata in XML
 
 ## PRODUCT SPECIFICATION
+
 - Vertical NVA RMSEz tested 4.910 cm. The tested accuracy in all areas meets the project specification for an NVA RMSEz of 10 cm.
 - Average first-return point density is 4.37 points per square meter (ppsm) meeting the 4 ppsm project specification.
 - Point data is classified according to the following American Society for Photogrammetry and Remote Sensing (ASPRS) class schema:
-  * Class 1:  Unclassified
-  * Class 2:  Ground
-  * Class 3:  Low vegetation
-  * Class 4:  Medium vegetation
-  * Class 5:  Tall vegetation
-  * Class 6:  Buildings
-  * Class 7:  Low Point (noise)
-  * Class 9:  Water
-  * Class 10: Ignored Ground
-  * Class 14: Culverts
-  * Class 17: Bridges
+
+  - Class 1: Unclassified
+  - Class 2: Ground
+  - Class 3: Low vegetation
+  - Class 4: Medium vegetation
+  - Class 5: Tall vegetation
+  - Class 6: Buildings
+  - Class 7: Low Point (noise)
+  - Class 9: Water
+  - Class 10: Ignored Ground
+  - Class 14: Culverts
+  - Class 17: Bridges
 
 - **Projection Specifications**
-  + Horizontal projection is UTM NAD83 (2011) Zone 14 & Zone 15
-  + Vertical projection is NAVD88 Geoid 12B
-  + Units are in meters denoting orthometric heights
+  - Horizontal projection is UTM NAD83 (2011) Zone 14 & Zone 15
+  - Vertical projection is NAVD88 Geoid 12B
+  - Units are in meters denoting orthometric heights

@@ -5,11 +5,11 @@ mainimage: https://cdn.tnris.org/images/rdc_banner.jpg
 abstract: The Research & Distribution Center (RDC) offers a variety of additional products, support, and services from our in-house staff. We provide hands-on assistance and expertise.
 ---
 
-
 <p class="lead">The RDC staff supports the general public access for TNRIS data not currently available through our website. This includes historic aerial photos, paper maps, reports and publications. The archive contains over a million frames of historic aerial photos dating back to 1927 and historic topographic and planning maps dating back to 1890.</p>
 
 ## RDC services include:
-<img class="img-fluid float-right" style="width: 40%;" src="https://cdn.tnris.org/images/searching_indexes.jpg">
+
+<img class="img-fluid float-right" style="width: 40%;" src="https://cdn.tnris.org/images/searching_indexes.jpg" alt="Research and Distribution banner">
 <ul>
 <li>Reproductions, digital conversion, and spatial referencing of historical maps and aerial imagery</li>
 <li>Custom mapping using TNRIS datasets</li>

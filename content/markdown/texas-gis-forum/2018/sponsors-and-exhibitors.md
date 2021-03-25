@@ -38,7 +38,7 @@ Premium location of a 10x20 exhibit space (with carpet, electricity), 1 draped t
 
 ### Promotions Include:
 
--  5-minute on-stage welcoming or opening statement prior to keynote address (Optional).
+- 5-minute on-stage welcoming or opening statement prior to keynote address (Optional).
 - The choice of one from featured sponsor opportunities:
   - **45-minute uncontested presentation slot** on the agenda to demonstrate products and services (~~2 available~~) **Both Claimed**
   - ~~**Featured Sponsorship of Wednesday Evening Social** with opening statement~~ **Already Claimed**
@@ -47,14 +47,13 @@ IMPORTANT: Your choice is on a first-come, first-serve basis and is optional.
 
 - **Verbal and visual recognition of sponsorship** during opening remarks and throughout the Forum.
 - **Five (5) free registrations** for staff and guests to all Forum functions including presentations, breaks, lunches, and social events.
--  **Large logo on Forum sponsorship banner **prominently displayed in the Exhibit Hall.
--  **Prominent placement of the corporate logo** on the front page of the TNRIS website.
--  **Prominent placement of the corporate logo** (with links to corporate website) on the Forum website.
--  **Logo featured prominently** on stage, general signage, and all promotional materials.
--  **Prominently placed logo** printed on the Forum program.
--  **Promotional article, with sponsor-provided conten**t, on TNRIS website and Forum website.
--  **Your corporate print marketing materials** added to the Forum packet for all attendees.
-
+- **Large logo on Forum sponsorship banner **prominently displayed in the Exhibit Hall.
+- **Prominent placement of the corporate logo** on the front page of the TNRIS website.
+- **Prominent placement of the corporate logo** (with links to corporate website) on the Forum website.
+- **Logo featured prominently** on stage, general signage, and all promotional materials.
+- **Prominently placed logo** printed on the Forum program.
+- **Promotional article, with sponsor-provided conten**t, on TNRIS website and Forum website.
+- **Your corporate print marketing materials** added to the Forum packet for all attendees.
 
 <br>
 
@@ -76,6 +75,7 @@ Highly desirable location of a 10x10 exhibit space (with electricity), draped ta
 <br>
 
 ## Silver Sponsor/Exhibitor ($2,750)
+
 ### Includes:
 
 Desirable location 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle, and wireless internet access.
@@ -98,13 +98,14 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 10x10 exhibit space (with electricity), draped table, 2 chairs, and trash receptacle.
 
 ### Promotions Include:
+
 - **One (1) free registration** to all Forum functions including presentations, breaks, lunches, and social events.
 - **Name printed on the Forum agenda** program given to all attendees.
 - **Listing on Forum website.**
 
-*Exhibitor Only option is reserved for small businesses or start-up companies with less than 25 employees, $2 million in annual revenue, or have been in existence for less than two years.*
+_Exhibitor Only option is reserved for small businesses or start-up companies with less than 25 employees, $2 million in annual revenue, or have been in existence for less than two years._
 
-*****
+---
 
 <h2 id="additional-sponsors">A La Carte Sponsorship Options</h2>
 
@@ -114,36 +115,38 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 
 ### Co-Sponsor the Forum Social - $1000
 
-<p><img class="img-fluid float-right alacarte" src="https://cdn.tnris.org/images/culinary_alacarte.jpg">The Forum Social is where attendees get to relax, catch up, and enjoy food and fun at this year's venue, <a href="https://www.culinarydropout.com/locations/austin-tx/">Culinary Dropout</a>. Make sure that your organization has a prominent place in their minds as they celebrate. Your logo will be included in the promotion of the Forum Social, online and at the event.</p>
+<p><img class="img-fluid float-right alacarte" src="https://cdn.tnris.org/images/culinary_alacarte.jpg" alt="Culinary Dropout logo">The Forum Social is where attendees get to relax, catch up, and enjoy food and fun at this year's venue, <a href="https://www.culinarydropout.com/locations/austin-tx/">Culinary Dropout</a>. Make sure that your organization has a prominent place in their minds as they celebrate. Your logo will be included in the promotion of the Forum Social, online and at the event.</p>
 
-****
+---
 
 ### Name Tag Lanyards - $1000
 
-<p><img class="img-fluid float-right alacarte" src="https://cdn.tnris.org/images/lanyard.png">Place your company logo on name tag holders that will be worn by each conference attendee for the duration of the conference. The GIS Forum conference management will work with the sponsor to select the badges. The GIS Forum conference committee will produce the badges and will be responsible for the purchase of the badges.</p>
+<p><img class="img-fluid float-right alacarte" src="https://cdn.tnris.org/images/lanyard.png" alt="lanyard">Place your company logo on name tag holders that will be worn by each conference attendee for the duration of the conference. The GIS Forum conference management will work with the sponsor to select the badges. The GIS Forum conference committee will produce the badges and will be responsible for the purchase of the badges.</p>
 
-****
+---
 
 ### Sponsor a Breakfast
-<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/breakfast.jpg">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
+
+<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/breakfast.jpg" alt="breakfast">During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the breakfast area.</p>
 
 - Wednesday - $500 - ~~2 Available~~ 1 claimed, 1 available
 - Thursday - $500 - 2 Available
 - Friday - $500 - 1 Available
 
-****
+---
 
 ### Sponsor a Lunch
-<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/lunch.jpg">During lunch, sponsors will be recognized with prominently displayed posters. Sponsors have the opportunity to place give-a-way items on the lunch tables.</p>
+
+<p><img class="img-fluid float-right" src="https://cdn.tnris.org/images/lunch.jpg" alt="lunch">During lunch, sponsors will be recognized with prominently displayed posters. Sponsors have the opportunity to place give-a-way items on the lunch tables.</p>
 
 - Wednesday - $750 - ~~2 Available~~ Both Claimed
 - Thursday - $750 - 2 Available
 
-****
+---
 
 ### Sponsor a Coffee Break
 
-<p><img class="img-fluid float-right alacarte" src="https://cdn.tnris.org/images/coffee.jpg"> During the coffee breaks, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
+<p><img class="img-fluid float-right alacarte" src="https://cdn.tnris.org/images/coffee.jpg" alt="coffee"> During the coffee breaks, sponsors will be recognized with prominently displayed posters. Sponsors may provide give-a-way items that will be placed strategically in the break area.</p>
 
 - Wednesday AM - $250 – 2 available
 - Wednesday PM - $250 – 2 available
@@ -151,14 +154,13 @@ Desirable location 10x10 exhibit space (with electricity), draped table, 2 chair
 - Thursday PM - $250 – 2 available
 - Friday AM - $250 – 1 available
 
-****
-
+---
 
 ### Program Mobile Application - $500
 
 Place your company logo on the mobile application that the TNRIS developers will create
 
-****
+---
 
 <p class="lead">
 After viewing the <a href="https://cdn.tnris.org/documents/2018-sponsor-rules-and-regulations.pdf"><strong> Sponsor Rules and Regulations</strong></a>, visit the link  to register as a sponsor.</p>
