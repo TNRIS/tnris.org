@@ -1060,3 +1060,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0303', end
       }
     }
 }
+
+//Carousel fade transition time
+.carousel-item {
+  transition-duration: 1.2s !important;
+}
