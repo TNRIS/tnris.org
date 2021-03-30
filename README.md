@@ -32,4 +32,4 @@ If you're looking to edit some content, see our [repo wiki documentation](https:
 
 ### Updating Runtime or Dependencies
 
-* updating the nodejs version, build commands, or build process requires updating the relative `buildspec` ".yml" file within the deployment repo and pushing the update to the artifact s3 bucket as this is the build recipe utilized by the CodeBuild CI/CD
+* Updating the nodejs version, build commands, or build process requires updating the relative `buildspec` ".yml" file within the deployment repo and pushing the update to the artifact s3 bucket as this is the build recipe utilized by the CodeBuild CI/CD.
