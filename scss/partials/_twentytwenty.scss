@@ -40,11 +40,11 @@
 
 .lidar-compare {
   .twentytwenty-before-label:before {
-    content: 'Ground Elevation Data - DEM';
+    content: ' 3-D rendered point cloud by classification';
   }
 
   .twentytwenty-after-label:before {
-    content: '3-D rendered point cloud';
+    content: '3-D rendered point cloud by imagery RGB value';
   }
 }
 
