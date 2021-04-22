@@ -1,6 +1,5 @@
 .dist/
-.tmp/*
-!.tmp/sitemap.xml
+.tmp/
 .DS_Store
 .sass-cache/
 node_modules
