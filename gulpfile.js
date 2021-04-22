@@ -375,7 +375,8 @@ gulp.task('dist-metal', function () {
         // create a sitemap from all the files built from the metalsmith-layouts
         .use(sitemap({
           hostname: 'https://tnris.org',
-          output: 'sitemap.xml'
+          output: 'sitemap.xml',
+          pattern: ['**/*.html', '!news*/**', '!geographic_information_office_news/**', '!data-catalog/**', '!**/meeting-notes/**', '!texas-gis-forum/**', '!georodeo/**', '!around_the_state/**', '!404/**', '!data-download/**', '!maps-and-data/**', '!mapserver/**', '!data-order/**', '!public-domain-dedication*/**', '!tis-request/**']
         }))
         // if errors, stop build and report for fixing
         .use(function (files, metalsmith, done) {
