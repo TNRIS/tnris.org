@@ -76,7 +76,7 @@ var Clipboard = require('clipboard/dist/clipboard.min');
       }, 4000);
     });
 
-    
+
   });
 
   $(window).on('load', function() {
@@ -175,8 +175,6 @@ var Clipboard = require('clipboard/dist/clipboard.min');
   // $(function() {
   //   $('#alert-banner').hide();
   //   var dataPages = [
-  //     'data-catalog',
-  //     'data-download',
   //     'maps-and-data',
   //     'order-data'
   //   ];
@@ -200,4 +198,3 @@ var Clipboard = require('clipboard/dist/clipboard.min');
   })
 
 })(jQuery);
-

@@ -202,11 +202,6 @@ gulp.task('dist-metal', function () {
         .use(collector({
           pattern: '*.md'
         }))
-        // paginate the news articles for use as "/news-archive"
-        .use(paginate({
-          perPage: 10,
-          path: 'news'
-        }))
         .use(each(function(file) {
           // append list of random images to use in 404
           if (file.filename == '404.md') {
@@ -280,13 +275,6 @@ gulp.task('dist-metal', function () {
         // for use in link macro filter: validateLink
         .use(function (files, metalsmith, done) {
           crossrefObj = metalsmith._metadata.crossref;
-          done();
-        })
-        .use(function (files, metalsmith, done) {
-          // combine news, around the state, and gio news into an news-archive stream
-          var news_archive = metalsmith._metadata.news
-            .concat(metalsmith._metadata.geographic_information_office_news);
-          metalsmith._metadata.news_archive = _.sortBy(news_archive, 'date').reverse();
           done();
         })
         .use(function (files, metalsmith, done) {
@@ -375,7 +363,7 @@ gulp.task('dist-metal', function () {
         .use(sitemap({
           hostname: 'https://tnris.org',
           output: 'sitemap.xml',
-          pattern: ['**/*.html', '!news*/**', '!geographic_information_office_news/**', '!data-catalog/**', '!**/meeting-notes/**', '!texas-gis-forum/**', '!georodeo/**', '!404/**', '!data-download/**', '!maps-and-data/**', '!mapserver/**', '!data-order/**', '!public-domain-dedication*/**', '!tis-request/**']
+          pattern: ['**/*.html', '!texas-gis-forum/**', '!georodeo/**', '!404/**', '!mapserver/**', '!public-domain-dedication*/**', '!tis-request/**']
         }))
         // if errors, stop build and report for fixing
         .use(function (files, metalsmith, done) {
