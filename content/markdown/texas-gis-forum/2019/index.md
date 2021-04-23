@@ -10,24 +10,19 @@ buttontext: Register Now!
 <div class="col-lg-6">
   <p class="lead"><strong>For over three decades,</strong> the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin this fall to hear about the latest advancements in the private and public sector and take the opportunity to touch base with long-time colleagues – and make new connections.</p>
   <hr class="clearfix">
-  <a class="float-right" href="/news/2019-06-11/forum-keynote-leon-logothetis-host-kindness-diaries">
-  <img class="rounded-circle kn-headshot-2019" src="https://cdn.tnris.org/images/leon_headshot_th.jpg" alt="Leon Logothetis Headshot">
-  </a>
+
+  <img class="float-right rounded-circle kn-headshot-2019" src="https://cdn.tnris.org/images/leon_headshot_th.jpg" alt="Leon Logothetis Headshot">
   <h3><small class="text-muted">Keynote Speaker</small><br><strong>Leon Logothetis</strong></h3>
-  <p>Leon Logothetis hosts Netflix's The Kindness Diaries. He travels the world relying on the kindness of strangers, giving back to unsuspecting good samaritans.<br><br>
-  <a href="/news/2019-06-11/forum-keynote-leon-logothetis-host-kindness-diaries"><i class="fa fa-arrow-right"></i> Learn More</a></p>
+  <p>Leon Logothetis hosts Netflix's The Kindness Diaries. He travels the world relying on the kindness of strangers, giving back to unsuspecting good samaritans.</p>
   <hr class="clearfix">
-  <a class="float-right" href="/news/2019-09-18/forum-keynote-justen-noakes-heb-director-emergency-preparedness">
-  <img class="rounded-circle kn-headshot-2019" src="https://cdn.tnris.org/images/leslie_sweet_headshot.jpg" alt="Leslie Sweet Headshot">
-  </a>
+
+  <img class="float-right rounded-circle kn-headshot-2019" src="https://cdn.tnris.org/images/leslie_sweet_headshot.jpg" alt="Leslie Sweet Headshot">
   <h3><small class="text-muted">Keynote Speaker</small><br><strong>Leslie Sweet</strong></h3>
-  <p>Leslie Sweet is H-E-B's Senior Director of Public Affairs, who gave an overview of H-E-B's robust and dedicated Disaster Response work.<br><br>
-  <a href="/news/2019-09-18/forum-keynote-justen-noakes-heb-director-emergency-preparedness"><i class="fa fa-arrow-right"></i> Learn More</a></p>
+  <p>Leslie Sweet is H-E-B's Senior Director of Public Affairs, who gave an overview of H-E-B's robust and dedicated Disaster Response work.</p>
 </div>
+
 <div class="col-sm-6 ">  
-<a href="/news/2019-11-04/texas-gis-forum-2019-wrap-up-photo-recap">
-  <img class="img-fluid" src="https://cdn.tnris.org/images/txgisforum2019wrapup_md.jpg" alt="Silohuette of speaker in front of screen, Texas GIS Forum Wrap-Up">
-</a>
+<img class="img-fluid" src="https://cdn.tnris.org/images/txgisforum2019wrapup_md.jpg" alt="Silohuette of speaker in front of screen, Texas GIS Forum Wrap-Up">
 <h3>Thanks to Our Platinum Sponsors</h3>
   <p>
     <a class="welcome-logo-2019" href="http://www.surdex.com/">
