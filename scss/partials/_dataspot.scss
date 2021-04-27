@@ -241,5 +241,25 @@
 
 .carousel-caption {
   text-shadow: 3px 3px 8px #000000;
+  position: sticky;
 }
 
+.carousel-inner {
+  max-height: 476px;
+  overflow: hidden;
+  margin-top: -25px;
+  margin-bottom: -25px;
+
+}
+
+@media only screen and (max-width: 1199px) {
+  .carousel-inner {
+    max-height: 398px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .carousel-inner {
+    max-height: 40vw;
+  }
+}
