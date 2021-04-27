@@ -1,49 +1,43 @@
-// grabs images from the api and injects them in the carousel on the front page of tnris.org
-// if the image record has the carousel value set to true (check box checked)
+// Home page carousel
+// get carousel images from tnris api
+function retrieveCarousel(queryField, queryValue) {
+    var carouselUrl = 'https://api.tnris.org/api/v1/tnris_org/carousel_image';
+    if (queryField) {
+        carouselUrl = carouselUrl + "?" + queryField + "=" + queryValue;
+    }
+    return fetch(carouselUrl).then(function (response) {
+        if (!response.ok) {
+            throw new Error('Could not retrieve TNRIS API response for carousel images.');
+        }
+        return response.json();
+    })
+        .then(function (data) {
+            data.results = data.results.sort(function (a, b) {
+                return b.last_modified.localeCompare(a.last_modified)
 
-// function retrieveCarouselImages() {
-//   var imagesUrl = 'https://api.tnris.org/api/v1/tnris_org/images?carousel_image=True'
-//
-//   return fetch(imagesUrl).then(function(response) {
-//     if (!response.ok) {
-//       throw new Error('Could not retrieve TNRIS API response for tnris.org carousel images.');
-//     }
-//     return response.json();
-//   })
-//   .then(function(data) {
-//     var carouselWrapper = document.getElementById("carousel-wrapper");
-//     var carouselIndicators = document.getElementById("indicators");
-//     var dataCount = data.count;
-//     var noCarouselImages =
-//       `
-//       <div class="carousel-item active">
-//         <img class="image" src="https://cdn.tnris.org/images/cactus1_21:9.jpg" alt="">
-//       </div>
-//       `;
-//
-//     if (dataCount === 0) {
-//       carouselIndicators.appendChild('<li data-target="#tnris-carousel" data-slide-to="0" class="active"></li>')
-//       carouselWrapper.appendChild(noCarouselImages);
-//     }
-//     else {
-//       data.results.forEach(function(t) {
-//         var indicatorCount = 0;
-//         var record = document.createElement('div').classList.add("item");
-//
-//         if (indicatorCount === 0) {
-//           record.classList.add("active")
-//           carouselIndicators.appendChild(`<li data-target="#tnris-carousel" data-slide-to=${indicatorCount} class="active"></li>`);
-//         }
-//         else {
-//           carouselIndicators.appendChild(`<li data-target="#tnris-carousel" data-slide-to=${indicatorCount}></li>`);
-//         }
-//
-//         record.innerHTML = `<img class="image" src="https://cdn.tnris.org/images/cactus2_21:9.jpg" alt="Cactus 2 21:9 Image">`;
-//         carouselWrapper.appendChild(record);
-//         indicatorCount += 1;
-//       });
-//     }
-//   })
-// }
-//
-// retrieveCarouselImages();
+            });
+            data.results.forEach(function (t) {
+                // use api values to create clean variables to use in html below
+                $(document).ready(function () {
+                    for (let j = 0; j < 1; j++) {
+                        $('<div class="carousel-item"><img class="d-block img-fluid" src="' + t.image_url + '" alt="' + t.image_name + '"> <div class="carousel-caption"><p>' + t.carousel_caption + '</p> </div>  </div>').appendTo('.carousel-inner');
+
+                    }
+                    $('.carousel-item').first().addClass('active');
+                });
+            });
+
+            data.results
+            $(document).ready(function () {
+                for (let i = 0; i < data.count; i++) {
+                    $('<li data-target="#tnris-carousel" data-slide-to="' + i + '"></li>').appendTo('.carousel-indicators')
+
+                }
+                $('.carousel-indicators > li').first().addClass('active');
+            });
+        })
+}
+
+$(document).ready(function () {
+    retrieveCarousel();
+});
