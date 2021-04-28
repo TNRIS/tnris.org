@@ -29,23 +29,20 @@ function retrieveNextCommunityMeeting() {
       // fill dom list element with event details
       event.innerHTML =
         `
-      <h3>
-        <strong>${e.title}</strong>
-        <br>
-      </h3>
-      <h5>
-        ${e.pretty_date}<i class="fa fa-star" style="color: #1e8dc1;"></i>
-      </h5>
-
-      ${timeRange}
-      <br>
-      ${shortDescription}
-      ${generalLocation}
-      <div class="justify-content-between">
-        ${communityMeetingAgenda}
-        ${eventLink}
-      </div>
-      `;
+          <h3>
+            <strong>${e.title}</strong>
+          </h3>
+          <h5>
+            ${e.pretty_date}<i class="fa fa-star" style="color: #1e8dc1;"></i>
+          </h5>
+          ${timeRange}
+          ${shortDescription}
+          ${generalLocation}
+          <div class="justify-content-between">
+            ${communityMeetingAgenda}
+            ${eventLink}
+          </div>
+        `;
       // append div element contents into template html
       document.getElementById('gio-calendar-next-cm').appendChild(event);
       document.getElementById('gio-calendar-next-cm').setAttribute('class', 'meeting-box');
