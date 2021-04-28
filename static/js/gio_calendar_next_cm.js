@@ -2,13 +2,13 @@
 // inject event into html; append html to template html
 function retrieveNextCommunityMeeting() {
   var eventsUrl = 'https://api.tnris.org/api/v1/tnris_org/gio_calendar?community_meeting=True&limit=1';
-  return fetch(eventsUrl).then(function (response) {
+  return fetch(eventsUrl).then(function(response) {
     if (!response.ok) {
       throw new Error('Could not retrieve TNRIS API response for GIO Calendar Events.');
     }
     return response.json();
   })
-  .then(function (data) {
+  .then(function(data) {
     // api calendar events return in chronological order by default
     // limit=1 query means we use the only object in response array
     var e = data.results[0];
