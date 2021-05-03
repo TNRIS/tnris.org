@@ -51,7 +51,7 @@ IMPORTANT: Your choice is on a first-come, first-serve basis and is optional.
 
 - **Verbal and visual recognition of sponsorship** during opening remarks and throughout the Forum.
 - **Five (5) free registrations** for staff and guests to all Forum functions including presentations, breaks, lunches, and social events.
-- **Large logo on Forum sponsorship banner **prominently displayed in the Exhibit Hall.
+- **Large logo on Forum sponsorship banner** prominently displayed in the Exhibit Hall.
 - **Prominent placement of the corporate logo** on the front page of the TNRIS website.
 - **Prominent placement of the corporate logo** (with links to corporate website) on the Forum website.
 - **Logo featured prominently** on stage, general signage, and all promotional materials.

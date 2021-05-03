@@ -165,8 +165,8 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
 
 ## TNRIS Tours
 
-<img style="width: 50%;" class="float-right rounded" src="https://cdn.tnris.org/images/rovers2.jpg" alt="TNRIS tours">
-<div class="alert alert-warning">
+<img style="width: 49%;" class="float-right rounded" src="https://cdn.tnris.org/images/rovers2.jpg" alt="TNRIS tours">
+<div class="alert alert-warning col-sm-6">
 <p class="lead"><strong>Tours are unavailable until measures in response to the COVID-19 outbreak have been lifted. We apologize for the inconvenience.</strong></p>
 </div>
 <p class="lead">Visit TNRIS to see first-hand the TNRIS offices and meet the staff.  Two tour spots are available each month, and are booked on a first-come, first-serve basis.</p>

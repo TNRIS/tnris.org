@@ -17,24 +17,32 @@ function retrieveNextCommunityMeeting() {
       // create empty dom div element then populate with api response information
       var event = document.createElement('div');
       // check if various properties exist, and set variables if so
-      var timeRange = e.pretty_time ? `<time><i class="fa fa-time"></i> ${e.pretty_time}</time><br>` : '';
+      var timeRange = e.pretty_time ? `<time>${e.pretty_time}</time><br>` : '';
       var shortDescription = e.short_description ? `<p>${e.short_description}</p>` : '';
-      var generalLocation = e.location ? `<location><strong>Location:</strong><br>${e.location}</location><hr>` : '';
-      var eventLink = e.event_url ? `<p><a href="${e.event_url}"><i class="fa fa-new-window"></i> Event Link</a></p>` : '';
+      var generalLocation = e.location ? `<location><strong>Location:</strong><br>${e.location}</location>` : '';
+      var eventLink = e.event_url ? `<hr><button class="event-link">
+        <span class="circle" aria-hidden="true">
+          <span class="icon arrow"></span>
+        </span>
+        <span class="button-text"><p><a href="${e.event_url}" target="_blank"><i class="fa fa-new-window"></i> <span class="button-text">Event Link</span></button></a></p>` : '';
       var communityMeetingAgenda = e.community_meeting_agenda_url ? ` <a class="btn btn-tnris btn-md" href="${e.community_meeting_agenda_url}">Download Agenda</a>` : '';
       // fill dom list element with event details
       event.innerHTML =
         `
-        <h3>
-          <strong>${e.pretty_date} <i class="fa fa-star" style="color: #1e8dc1;"></i></strong>
+          <h3>
+            <strong>${e.title}</strong> <i class="fa fa-star" style="color: #1e8dc1;"></i>
+          </h3>
+          <h5>
+            ${e.pretty_date} 
+          </h5>
+          ${timeRange}
           <br>
-          ${e.title}
-        </h3>
-        ${timeRange}
-        ${shortDescription}
-        ${generalLocation}
-        ${eventLink}
-        ${communityMeetingAgenda}
+          ${shortDescription}
+          ${generalLocation}
+          <div class="justify-content-between">
+            ${communityMeetingAgenda}
+            ${eventLink}
+          </div>
         `;
       // append div element contents into template html
       document.getElementById('gio-calendar-next-cm').appendChild(event);
