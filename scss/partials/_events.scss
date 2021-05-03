@@ -51,6 +51,10 @@
   .meeting-box {
     font-size: 16px;
     margin-top: -15px;
+    border: solid thin #CCC;
+    padding: 10px;
+    box-shadow: 0 2px 4px #CCC;
+    border-radius: 5px;
 
     hr {
       margin-top: 5px;

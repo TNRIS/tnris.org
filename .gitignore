@@ -1,6 +1,7 @@
 .dist/
 .tmp/
 .DS_Store
+**/.DS_Store
 .sass-cache/
 node_modules
 npm-debug.log
