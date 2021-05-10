@@ -36,7 +36,16 @@
       dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4690&keyword=Atlantic',
       tags: ['products','services']
     },
-     {
+    {
+      name: 'Continental Mapping Consultants, Inc.',
+      status: 'available',
+      logo_url: 'https://cdn.tnris.org/images/continental_logo.png',
+      vendor_home_url: 'https://www.continentalmapping.com/',
+      vendor_page_url: '',
+      dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4762&keyword=Continental%20Mapping',
+      tags: ['products','services']
+    },
+    {
       name: 'Dewberry Engineers, Inc.',
       status: 'available',
       logo_url: 'https://cdn.tnris.org/images/Dewberry_web.png',
@@ -44,15 +53,6 @@
       vendor_page_url: 'https://www.dewberry.com/services/geospatial/texas-dir',
       dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4506&keyword=Dewberry',
       tags: ['products','services']
-    },
-    {
-      name: 'Esri',
-      status: 'available',
-      logo_url: 'https://cdn.tnris.org/images/esri_web_md.png',
-      vendor_home_url: 'https://www.esri.com/en-us/home',
-      vendor_page_url: 'http://www.esri.com/landing-pages/texas-dir',
-      dir_page_url: 'http://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-TSO-3446&keyword=3446',
-      tags: ['software']
     },
     {
       name: 'Fugro USA Land, Inc.',
@@ -93,7 +93,7 @@
     {
       name: 'HDR Engineering, Inc.',
       status: 'available',
-      logo_url: 'https://cdn.tnris.org/images/hdr_web.png',
+      logo_url: 'https://cdn.tnris.org/images/HDR_logo.png',
       vendor_home_url: 'https://www.hdrinc.com',
       vendor_page_url: 'https://experience.arcgis.com/experience/4365123019ec42d5949b082ac098b088/',
       dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4694&keyword=HDR',
@@ -104,7 +104,7 @@
       status: 'available',
       logo_url: 'https://cdn.tnris.org/images/KCI_logo_long.png',
       vendor_home_url: 'https://www.kci.com',
-      vendor_page_url: '',
+      vendor_page_url: 'https://texassolutions.kci.com/',
       dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4647&keyword=KCI',
       tags: ['services']
     },
@@ -156,7 +156,7 @@
     {
       name: 'Tessellations Incorporated',
       status: 'available',
-      logo_url: 'https://cdn.tnris.org/images/tesselations_logo.jpg',
+      logo_url: 'https://cdn.tnris.org/images/tessellations_inc.png',
       vendor_home_url: 'https://www.tessellations.us/',
       vendor_page_url: 'https://tessellations.us/texas-dir/',
       dir_page_url: 'https://dir.texas.gov/View-Search/Contracts-Detail.aspx?contractnumber=DIR-CPO-4750&keyword=Tessellations',
@@ -175,7 +175,7 @@
 %}
 
 {% for item in contract_vendors %}
-  <div class="col-lg-2 d-flex align-items-stretch">
+  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
     {% if item.status == 'unavailable' %}
     <div class="card card-body vendor-box unavailable">
     {% else %}
