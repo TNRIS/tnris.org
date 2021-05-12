@@ -37,7 +37,7 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 
 ## Platinum Sponsor/Exhibitor ($4,000 - limit 3)
 
-###Includes:
+### Includes:
 
 - Premium location of a 10x20 exhibit space (with carpet, electricity), 1 draped table, 2 chairs, trash receptacle and wireless internet access. Note: 10x10 booth space available upon request
 
@@ -57,7 +57,7 @@ abstract: Partner with Texas's Premiere gathering for the Geospatial Professiona
 - Your corporate print marketing materials added to the forum packet for all attendees
 
 ## Gold Sponsor/Exhibitor ($2,000 - limit 4)
-###Includes:
+### Includes:
 
 - Highly desirable location of a 10x10 exhibit space (with electricity), draped table, 2 chairs, trash receptacle and wireless internet access.
 
