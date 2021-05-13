@@ -16,15 +16,15 @@ require('ekko-lightbox/dist/ekko-lightbox.min.js');
 
 var Clipboard = require('clipboard/dist/clipboard.min');
 
-(function($) {
+(function ($) {
   'use strict';
 
-  $(function() {
+  $(function () {
     // Nav scroll spy
     $('body').scrollspy({ target: '.wms-nav-container', offset: 130 });
 
     // Tool Tip
-    $('.copy-tip').tooltip({'placement': 'top'});
+    $('.copy-tip').tooltip({ 'placement': 'top' });
 
     // Beta/development alert message
     if (window.location.hostname !== 'tnris.org' && window.location.hostname !== 'localhost') {
@@ -38,7 +38,7 @@ var Clipboard = require('clipboard/dist/clipboard.min');
       var actionMsg = '';
       var actionKey = (action === 'cut' ? 'X' : 'C');
 
-      if(/iPhone|iPad/i.test(navigator.userAgent)) {
+      if (/iPhone|iPad/i.test(navigator.userAgent)) {
         actionMsg = 'Copy manually';
       }
       else if (/Mac/i.test(navigator.userAgent)) {
@@ -52,12 +52,12 @@ var Clipboard = require('clipboard/dist/clipboard.min');
     }
 
     var clipboard = new Clipboard('.copy-url-btn', {
-      target: function(trigger) {
+      target: function (trigger) {
         return trigger.parentElement.nextElementSibling;
       }
     });
 
-    clipboard.on('success', function(e) {
+    clipboard.on('success', function (e) {
       var $btn = $(e.trigger);
       var origInner = $btn.html();
       $btn.html('Copied!');
@@ -67,7 +67,7 @@ var Clipboard = require('clipboard/dist/clipboard.min');
       e.clearSelection();
     });
 
-    clipboard.on('error', function(e) {
+    clipboard.on('error', function (e) {
       var $btn = $(e.trigger);
       var origInner = $btn.html();
       $btn.html(fallbackMessage(e.action));
@@ -79,19 +79,19 @@ var Clipboard = require('clipboard/dist/clipboard.min');
 
   });
 
-  $(window).on('load', function() {
+  $(window).on('load', function () {
     // Image Slider
-    $(".twentytwenty-container").twentytwenty({default_offset_pct: .5});
-    $(".twentytwenty-2").twentytwenty({default_offset_pct: .75});
+    $(".twentytwenty-container").twentytwenty({ default_offset_pct: .5 });
+    $(".twentytwenty-2").twentytwenty({ default_offset_pct: .75 });
   });
 
   var smoothScrollLink;
-  $('a.smooth-scroll').click(function(e) {
+  $('a.smooth-scroll').click(function (e) {
     $('ul.faq-list.list-clean li a.faq-active').removeClass("faq-active");
     smoothScrollLink = $(this);
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 
       if (target.length && $(this).parent().parent()[0].className == "faq-list list-clean") {
         $('html,body').animate({
@@ -115,24 +115,24 @@ var Clipboard = require('clipboard/dist/clipboard.min');
 
   $('.carousel-inner div:first').addClass('active');
 
-  $('video').click(function(e){
+  $('video').click(function (e) {
 
-      // handle click if not Firefox (Firefox supports this feature natively)
-      if (typeof InstallTrigger === 'undefined') {
+    // handle click if not Firefox (Firefox supports this feature natively)
+    if (typeof InstallTrigger === 'undefined') {
 
-          // get click position
-          var clickY = (e.pageY - $(this).offset().top);
-          var height = parseFloat( $(this).height() );
+      // get click position
+      var clickY = (e.pageY - $(this).offset().top);
+      var height = parseFloat($(this).height());
 
-          // avoids interference with controls
-          if (clickY > 0.82*height) return;
+      // avoids interference with controls
+      if (clickY > 0.82 * height) return;
 
-          // toggles play / pause
-          this.paused ? this.play() : this.pause();
-      }
+      // toggles play / pause
+      this.paused ? this.play() : this.pause();
+    }
   });
 
-  $(function() {
+  $(function () {
     var callout = $('.data-callout').collapse();
 
     $('.carousel')
@@ -150,9 +150,9 @@ var Clipboard = require('clipboard/dist/clipboard.min');
       });
   });
 
-  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
+  $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
   });
 
   // dismissible alert handling with local storage
@@ -180,21 +180,22 @@ var Clipboard = require('clipboard/dist/clipboard.min');
   //   ];
   //   dataPages.forEach(function(page) {
   //     if (window.location.pathname.search(page) !== -1) {
-        // $('#alert-banner').show();
-        // $('#alert-contents').html(
-        //   "<strong>NOTICE</strong>: There is a NEW way to access TNRIS data, the <strong>DataHub</strong>! The DataHub replaces the Data Catalog, Data Search &amp; Download and Order Data sections of the site. To try it out now, visit <strong><a href='https://data.tnris.org'>data.tnris.org</a></strong> or click the DataHub button above. The existing methods to access TNRIS data will continue to be available until <strong>June 1st, 2019<strong>."
-        // );
+  // $('#alert-banner').show();
+  // $('#alert-contents').html(
+  //   "<strong>NOTICE</strong>: There is a NEW way to access TNRIS data, the <strong>DataHub</strong>! The DataHub replaces the Data Catalog, Data Search &amp; Download and Order Data sections of the site. To try it out now, visit <strong><a href='https://data.tnris.org'>data.tnris.org</a></strong> or click the DataHub button above. The existing methods to access TNRIS data will continue to be available until <strong>June 1st, 2019<strong>."
+  // );
   //     }
   //   })
   // });
 
   // 2018 GeoRodeo speaker hover
   var headshotOrig;
-  $(".2018-georodeo-speaker").hover(function(){
-      headshotOrig = $(this).attr("src");
-      $(this).attr("src", "https://cdn.tnris.org/images/starwars-developer.jpg");
-  }, function(){
-      $(this).attr("src", headshotOrig);
+  $(".2018-georodeo-speaker").hover(function () {
+    headshotOrig = $(this).attr("src");
+    $(this).attr("src", "https://cdn.tnris.org/images/starwars-developer.jpg");
+  }, function () {
+    $(this).attr("src", headshotOrig);
   })
 
 })(jQuery);
+
