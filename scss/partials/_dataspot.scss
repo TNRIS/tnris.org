@@ -241,5 +241,47 @@
 
 .carousel-caption {
   text-shadow: 3px 3px 8px #000000;
+  position: sticky;
 }
 
+.carousel-inner {
+  overflow: hidden;
+  margin-top: -25px;
+  margin-bottom: -25px;
+  max-height: 475px;
+  min-height: 475px;
+}
+
+.carousel-item img {
+  background-size: cover !important;
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 475px;
+  min-height: 475px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .carousel-inner {
+    max-height: 398px;
+    min-height: 398px;
+  }
+
+  .carousel-item img {
+    max-height: 398px;
+    min-height: 398px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .carousel-inner {
+    max-height: 40vw;
+    min-height: 40vw;
+  }
+
+  .carousel-item img {
+    max-height: 40vw;
+    min-height: 40vw;
+  }
+  
+}
