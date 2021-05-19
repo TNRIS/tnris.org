@@ -275,13 +275,7 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 							<div id="collapseM" class="collapse fade" aria-labelledby="headingM" data-parent="#accordionExample">
 								<div class="card-body">
 									<figure><img alt="A view of the layers in ArcMap" src="https://cdn.tnris.org/images/tis_layers_2021.png"></figure>
-									There are several layers in the WMTS and WMS Texas Imagery Service. The ‘Texas’ main layer contains 6-inch imagery from Hexagon flown in 2020. Recommended layer for most applications.
-										<!-- <ul>
-											<li><b>Texas_Hexagon_2018_15cm_Only</b> - urban areas 15cm/6in imagery</li>
-											<li><b>Texas_Hexagon_Composite_2018</b> - statewide 30cm/1ft imagery</li>
-										</ul>
-									<b>For urban areas, please continue to use the ‘Texas’ main layer</b> for the most recent imagery.
-									<b>Hexagon is currently flying the entire state of Texas at 15cm/6in resolution!</b> This 2020 imagery will replace the Google imagery statewide in the ‘Texas’ main layer in <b>early 2021</b>. The best part is that the switch will be transparent, and you will not need to reconnect or change your connection! -->
+									There are several layers in the WMTS and WMS Texas Imagery Service. The ‘Texas’ main layer contains 6-inch imagery from Hexagon flown in 2020. This is the recommended layer for most applications.
 									<h3>Layer Descriptions:</h3>
 									<h4><u>Texas</u></h4>
 									<b>Recommended Layer:</b> Statewide mosaic of latest available imagery in the Texas Imagery Service. This layer includes <b>consistent, statewide 6-inch imagery flown in 2020 by Hexagon</b>.<br><br>
@@ -321,7 +315,7 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 							</div>
 							<div id="collapseM1" class="collapse fade" aria-labelledby="headingM1" data-parent="#accordionExample">
 								<div class="card-body">
-									The official accuracy of the 6-inch imagery from Hexagon is +/- 50 cm. This is very conservative as Hexagon customers have found accuracy to be much higher in most areas.
+									The official accuracy of the 6 in (15 cm) imagery from Hexagon is +/- 20 in (50 cm). This is very conservative as Hexagon customers have found accuracy to be much higher in most areas.
 								</div>
 							</div>
 						</div>
@@ -335,7 +329,7 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 							</div>
 							<div id="collapseM2" class="collapse fade" aria-labelledby="headingM2" data-parent="#accordionExample">
 								<div class="card-body">
-									The aerial imagery from Hexagon was acquired with the market leading Leica ADS100 large format digital airborne sensors. Visit Hexagon’s capture technology page for more information.
+									The aerial imagery from Hexagon were acquired with the market leading Leica ADS100 large format digital airborne sensors. Visit Hexagon’s <a target="_blank" href="https://hxgncontent.com/about/capture-technology">capture technology</a> page for more information. 
 								</div>
 							</div>
 						</div>
