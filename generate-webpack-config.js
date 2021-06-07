@@ -71,10 +71,6 @@ function generate(env) {
           loader: 'file-loader?name=[path][name].[ext]'
         },
         {
-          test: /\/static\/js/i,
-          loader: 'ng-annotate-loader'
-        },
-        {
           test: /\/node_modules\/.+\.svg/i,
           loader: 'file-loader?name=[path][name].[ext]'
         },
