@@ -9,9 +9,9 @@ youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
 <div class="container-md">
   <div class="row">
     <div class="col-lg-12 alert alert-warning" role="alert">
-    Thank you for your interest in TNRIS Land Parcels and Address Points datasets. Due to unexpected circumstances, our annual 2020 statewide refresh for both of these datasets has been delayed. If you are interested in obtaining 2020 data, please use the <b>"Contact"</b> tab located on the respective 2019 <a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448">Land Parcels</a> and <a href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035">Address Points</a> DataHub collection pages.
+    Thank you for your interest in TNRIS Land Parcels and Address Points datasets. Due to unexpected circumstances, our annual 2020 statewide refresh for both of these datasets has been delayed. If you are interested in obtaining 2020 data, please use the <strong>"Contact"</strong> tab located on the respective 2019 <strong><a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448">Land Parcels</a></strong> and <strong><a href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035">Address Points</a></strong> DataHub collection pages.
     <br><br>
-    <b>Please note data may not be available for all counties.</b>
+    <strong>Please note data may not be available for all counties.</strong>
     <br><br>
     The production timeline for the 2021 Land Parcels and Address Points datasets has not been affected. Currently, TNRIS anticipates a mid to late Summer 2021 release for the annual refresh. We invite you to use the Contact tab located on the respective DataHub collection pages for any questions you may have. 
     </div>

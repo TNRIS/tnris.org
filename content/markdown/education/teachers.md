@@ -144,19 +144,19 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
 <div class="col-sm-4">
 <h2>Outside GIS resources</h2>
 
-<h3>Esri Training Catalog</h3>
+<h3 id="EsriTraining">Esri Training Catalog</h3>
 
-<p><a id="EsriTraining" class="btn btn-tnris btn-md float-right" href="https://www.esri.com/training/catalog/search/" aria-labelledby="EsriTraining">Learn more</a> Esri offers online, free courses to help you get started with their software.
+<p><a class="btn btn-tnris btn-md float-right" href="https://www.esri.com/training/catalog/search/" aria-labelledby="EsriTraining">Learn more</a> Esri offers online, free courses to help you get started with their software.
 </p>
 
-<h3>ArcGIS Student License</h3>
+<h3 id="ArcGISstudent">ArcGIS Student License</h3>
 
-<p><a id="ArcGISstudent" class="btn btn-tnris btn-md float-right" href="https://www.esri.com/en-us/arcgis/products/arcgis-desktop-student-trial" aria-labelledby="ArcGISstudent">Learn more</a> Esri offers ArcGIS for Student use to learn GIS technical skills.
+<p><a class="btn btn-tnris btn-md float-right" href="https://www.esri.com/en-us/arcgis/products/arcgis-desktop-student-trial" aria-labelledby="ArcGISstudent">Learn more</a> Esri offers ArcGIS for Student use to learn GIS technical skills.
 </p>
 
-<h3>Austin Community College</h3>
+<h3 id="ACCGIS">Austin Community College</h3>
 
-<p><a id="ACCGIS" class="btn btn-tnris btn-md float-right" href="https://www.austincc.edu/academic-and-career-programs/areas-of-study/design-manufacturing-construction-and-applied-technologies/geographic-information-systems" aria-labelledby="ACCGIS">Learn more</a> ACC's Geographic Information Systems Program starts with basic GIS principles and techniques then progresses through GIS projects and performing sophisticated analysis.
+<p><a class="btn btn-tnris btn-md float-right" href="https://www.austincc.edu/academic-and-career-programs/areas-of-study/design-manufacturing-construction-and-applied-technologies/geographic-information-systems" aria-labelledby="ACCGIS">Learn more</a> ACC's Geographic Information Systems Program starts with basic GIS principles and techniques then progresses through GIS projects and performing sophisticated analysis.
 </p>
 </div>
 </div>

@@ -58,7 +58,7 @@ mainimage: https://cdn.tnris.org/images/SB_Contracts.png
 <hr class="clearfix">
 
 <p>
-<b>Note:</b> On the DIR pages, the original RFO is labeled as "Geographic Information Systems (GIS) Hardware, Software, and Services and Information Technology (IT) Based Surveying Hardware, Software, and Related Services."</p>
+<strong>Note:</strong> On the DIR pages, the original RFO is labeled as "Geographic Information Systems (GIS) Hardware, Software, and Services and Information Technology (IT) Based Surveying Hardware, Software, and Related Services."</p>
 
 <div class="container-fluid bg-gray" id="accordion-style-1">
     <div class="container">
@@ -88,7 +88,7 @@ mainimage: https://cdn.tnris.org/images/SB_Contracts.png
                   <h3>Project Assistance and Coordination</h3>
                   Part of the value that TNRIS brings to the administration of the StratMap/DIR Contracts is the expertise we offer by introducing you to potential project partners to expand the area of interest or to share the project cost. TNRIS StratMap staff provide guidance through the StratMap/DIR Contracts procurement process and in some cases can provide full project management from project initiation to data deliverables review to project close.
                   <h3>Increased Opportunity for Cost Sharing</h3>
-                  By taking the first step to <b><a href="mailto:StratMap@twdb.texas.gov">notify us</a></b> about your potential project, you may be alerted to another entity interested in purchasing a similar product or area of interest.
+                  By taking the first step to <strong><a href="mailto:StratMap@twdb.texas.gov">notify us</a></strong> about your potential project, you may be alerted to another entity interested in purchasing a similar product or area of interest.
                   <h3>Pre-screened Companies with Geospatial experience</h3>
                   Each of the selected companies were carefully evaluated for project experience and success. Qualifications include project experience, technology innovation, professional staff, and available resources.
                                 </div>
@@ -108,7 +108,7 @@ mainimage: https://cdn.tnris.org/images/SB_Contracts.png
                   Each project performed under the DIR/StratMap Contracts adds to the rich base of existing geographic data at TNRIS and through experience gained, helps to improve data standards and overall project management.
                   <h3>Pre-screened Companies with Geospatial experience</h3>
                   Each of the selected companies were carefully evaluated for project experience and success. Qualifications include project experience, technology innovation, professional staff, and available resources.<br><br>
-                  <b><a href="mailto:StratMap@twdb.texas.gov">Notify us</a></b> for your geospatial company to be added to the announcement list for future openings to the StratMap/DIR Contract pool.<br><br>
+                  <strong><a href="mailto:StratMap@twdb.texas.gov">Notify us</a></strong> for your geospatial company to be added to the announcement list for future openings to the StratMap/DIR Contract pool.<br><br>
                                 </div>
                             </div>
                         </div>
@@ -122,9 +122,9 @@ mainimage: https://cdn.tnris.org/images/SB_Contracts.png
                             </div>
                 <div id="collapseA" class="collapse fade" aria-labelledby="headingA" data-parent="#accordionExample1">
                                 <div class="card-body">
-                                    <ul><li><b>New data acquisition projects</b> are determined by identifying type of data required, location, specification, budget, and timeline for delivery.</li>
-                  <li><b>Data acquisition, production, and independent quality assurance/quality control (QA/QC)</b> responsibilities are awarded to StratMap/DIR Contract vendors.</li>
-                  <li><b>After the final data deliverables are accepted</b>, they are placed in the public domain for use by local, regional, and federal government, academia, private industry and the public and maintained by TNRIS.</li></ul>
+                                    <ul><li><strong>New data acquisition projects</strong> are determined by identifying type of data required, location, specification, budget, and timeline for delivery.</li>
+                  <li><strong>Data acquisition, production, and independent quality assurance/quality control (QA/QC)</strong> responsibilities are awarded to StratMap/DIR Contract vendors.</li>
+                  <li><strong>After the final data deliverables are accepted</strong>, they are placed in the public domain for use by local, regional, and federal government, academia, private industry and the public and maintained by TNRIS.</li></ul>
                                 </div>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ mainimage: https://cdn.tnris.org/images/SB_Contracts.png
                             <div id="collapseD" class="collapse fade" aria-labelledby="headingD" data-parent="#accordionExample1">
                                 <div class="card-body">
                   To purchase geospatial services from the StratMap/DIR Contracts, follow these simple steps:<br><br>
-                  <ol><li>Review the services available and published % discount on a company’s <b>Pricing Index</b> found on their DIR Vendor Contract page.</li>
+                  <ol><li>Review the services available and published % discount on a company’s <strong>Pricing Index</strong> found on their DIR Vendor Contract page.</li>
                   <li>Obtain a quote (and if needed, a statement of work) directly from the company contact listed on their DIR Vendor Contract page. The quote should reflect the % discount.</li>
                   <li>List the company’s DIR Contract Number on your purchase order.</li></ol>
                                 </div>

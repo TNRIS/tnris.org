@@ -67,7 +67,7 @@ Lunch on your own. Here's a map of nearby lunch spots:
 
 ## 1:30PM to 3:00PM
 
-### Stuart Lynn - CartoDB 
+### Stuart Lynn - CartoDB
 <h4><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/stuart_gourd.jpg" alt="Head shot of Stuart Gourd"> Data, Analysis, Cartography and Exploration with CartoDB: how to make the most of your geospatial data. </h4>
 
 Geospatial data is almost unique in it's potential to join to other datasets. Having a point or an area on a map allows us to associate that data with vast amounts of other information about that place. At CartoDB we are building out tools and services that will dramatically increase your ability to easily augment your data with public data sets like the US Census and Zillow house prices. Once you have the information you need we are providing powerful analysis techniques and cartography to really help understand your data, present it to the rest of the world and to let other explore it. In this talk I will take you through how to do all these things and build out a interactive dashboard to show just how easy it is. 
