@@ -32,7 +32,7 @@ abstract: Partner with the premiere gathering in Texas for the Geospatial Profes
 
 <h2 style="color: #a94442"> Platinum Sponsor/Exhibitor ($5,250) </h2>
 
-<div class="alert alert-danger" role="alert">
+<div class="alert alert-danger" role="alert" aria-atomic="true">
   Note: All Platinum Sponsorships have been claimed
 </div>
 
@@ -127,7 +127,7 @@ Exhibitor Only option is reserved for government agencies, educational instituti
 
 <h3 style="color: #a94442"> Name Tag Lanyards - $500</h3>
 
-<div class="alert alert-danger" role="alert">
+<div class="alert alert-danger" role="alert" aria-atomic="true">
   Note: This promotion has been claimed
 </div>
 
