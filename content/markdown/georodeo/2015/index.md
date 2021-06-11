@@ -98,7 +98,7 @@ New maps hit the web everyday, but they don't all make headlines. This presentat
 
 Nik Freeman earns a living managing and analyzing geographic data in the energy industry. He holds degrees in geography and communications. As a freelance geographer, he maps whatever suits his fancy. His maps occasionally go viral throughout the Internet.
 
-### Gretchen Peterson - Author
+### Gretchen Peterson
 
 <h4><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/gretchen_peterson.jpg" alt="Gretchen Peterson">Cartography in the Modern World</h4>
 
