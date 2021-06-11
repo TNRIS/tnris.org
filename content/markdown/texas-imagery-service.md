@@ -40,7 +40,7 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 							</div>
 							<div id="collapseB" class="collapse fade" aria-labelledby="headingB" data-parent="#accordionExample1">
 								<div class="card-body">
-									The Texas Imagery Service is an annual subscription service paid in full for each year of participation. The service period runs from <b>September 1 to August 31</b> each year and can be prorated at any time.<br><br>
+									The Texas Imagery Service is an annual subscription service paid in full for each year of participation. The service period runs from <strong>September 1 to August 31</strong> each year and can be prorated at any time.<br><br>
 									Costs for the Service are distributed across state, regional, and local government. State agency cost is based on the amount of data usage in 'levels'. Regional and local agencies pay a flat rate.<br><br>
 									<table class="table">
 										<thead>
@@ -88,7 +88,7 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 										<p class="lead"><small>Annual flat fee $15,000**</small></p>
 										<h3>Local Agency</h3>
 										<p class="lead"><small>Annual flat fee $6,000**</small></p>
-										&#42; State Agency cost is calculated based on an annual metric of service web requests. A web request is every <b>new</b> click, pan, scroll, load or zoom per user in your organization.<br><br>
+										&#42; State Agency cost is calculated based on an annual metric of service web requests. A web request is every <strong>new</strong> click, pan, scroll, load or zoom per user in your organization.<br><br>
 										&#42;&#42; Cost does not include DIR Fee
 								</div>
 							</div>
@@ -277,25 +277,25 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 									<figure><img alt="A view of the layers in ArcMap" src="https://cdn.tnris.org/images/tis_layers_2021.png"></figure>
 									There are several layers in the WMTS and WMS Texas Imagery Service. The ‘Texas’ main layer contains 6-inch imagery from Hexagon flown in 2020. This is the recommended layer for most applications.
 									<h3>Layer Descriptions:</h3>
-									<h4><u>Texas</u></h4>
-									<b>Recommended Layer:</b> Statewide mosaic of latest available imagery in the Texas Imagery Service. This layer includes <b>consistent, statewide 6-inch imagery flown in 2020 by Hexagon</b>.<br><br>
-									<h4><u>texas-basemap</u></h4>
+									<h4><li>Texas</li></h4>
+									<strong>Recommended Layer:</strong> Statewide mosaic of latest available imagery in the Texas Imagery Service. This layer includes <strong>consistent, statewide 6-inch imagery flown in 2020 by Hexagon</strong>.<br><br>
+									<h4><li>texas-basemap</li></h4>
 									This layer includes roads, county boundaries, major water features, and city names available as base information that were cartographically designed for use on top of imagery while using the service.<br><br>
-									<h4><u>Texas_Hexagon_2018_15cm</u></h4>
+									<h4><li>Texas_Hexagon_2018_15cm</li></h4>
 									This layer includes Texas’ major urban areas only flown by Hexagon in 2018 at 6-inch/15cm resolution.<br><br>
-									<h4><u>Texas_Hexagon_2018_30cm</u></h4>
+									<h4><li>Texas_Hexagon_2018_30cm</li></h4>
 									This layer includes consistent, statewide imagery flown by Hexagon in 2018 at 1-foot/30cm resolution.<br><br>
-									<h4><u>Texas_Hexagon_2020_Status</u></h4>
-									A repeat of the statewide 6-inch 2020 imagery from Hexagon. <b>Do not use.</b> Use the ‘Texas’ main layer for this imagery.<br><br>
-									<h4><u>Texas_Hexagon_Content_Stream</u></h4>
-									A repeat of the statewide 6-inch 2020 imagery from Hexagon. <b>Do not use.</b> Use the ‘Texas’ main layer for this imagery.<br><br>
-									<h4><u>Hexagon_2020_Delivery_NA_WAC</u></h4>
-									A repeat of the statewide 1-foot 2018 imagery from Hexagon. <b>Do not use.</b><br><br>
-									<h4><u>Google Composite</u></h4>
+									<h4><li>Texas_Hexagon_2020_Status</li></h4>
+									A repeat of the statewide 6-inch 2020 imagery from Hexagon. <strong>Do not use.</strong> Use the ‘Texas’ main layer for this imagery.<br><br>
+									<h4><li>Texas_Hexagon_Content_Stream</li></h4>
+									A repeat of the statewide 6-inch 2020 imagery from Hexagon. <strong>Do not use.</strong> Use the ‘Texas’ main layer for this imagery.<br><br>
+									<h4><li>Hexagon_2020_Delivery_NA_WAC</li></h4>
+									A repeat of the statewide 1-foot 2018 imagery from Hexagon. <strong>Do not use.</strong><br><br>
+									<h4><li>Google Composite</li></h4>
 									A statewide 6-inch composite of the latest imagery obtained from Google as a patchwork across the state, years 2014 – 2020.<br><br>
-									<h4><u>texas-2011 through texas-2020</u></h4>
+									<h4><li>texas-2011 through texas-2020</li></h4>
 									These layers contain imagery captured by Google from 2011 – 2020 as a patchwork across the state that were archived after newer imagery became available. These layers each contain any imagery collected within each year.<br><br>
-									<h4><u>Hurricane Harvey image layers</u></h4>
+									<h4><li>Hurricane Harvey image layers</li></h4>
 										<ul>
 										<li>corpuschristi_20170830</li>
 										<li>houston_20170831</li>
@@ -343,7 +343,7 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 							</div>
 							<div id="collapseN" class="collapse fade" aria-labelledby="headingN" data-parent="#accordionExample">
 								<div class="card-body">
-									To determine the date of the imagery, open your unique <b>preview link</b>. Turn on ‘Texas downloads' and click on the polygons on the map to retrieve the dates. 
+									To determine the date of the imagery, open your unique <strong>preview link</strong>. Turn on ‘Texas downloads' and click on the polygons on the map to retrieve the dates. 
 								</div>
 							</div>
 						</div>
@@ -405,7 +405,7 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 									<div style="text-align: center; border: 0px solid"> 
 									<a class="btn btn-secondary btn-lg" href="/tis-request">
 									<i class="fa fa-comment"></i> Request a Trial Link</a></div><br>
-									<b>Note:</b> Because the Texas Imagery Service is a restricted license, it is only for use by subscribing public organizations in the State of Texas.<br><br>
+									<strong>Note:</strong> Because the Texas Imagery Service is a restricted license, it is only for use by subscribing public organizations in the State of Texas.<br><br>
 									Contractors or any individual working on behalf of a public organization are permitted to use the imagery service if the work being performed directly supports the public organization. The sponsoring agency will need to request service links on behalf of any contractor or outside 3rd party.
 								</div>
 							</div>
@@ -491,7 +491,7 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 							</div>
 							<div id="collapseX" class="collapse fade" aria-labelledby="headingX" data-parent="#accordionExample">
 								<div class="card-body">
-									If you are adding the <b>downloaded</b> imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the <b>“Apply Gamma Stretch:”</b> option and to set the <b>“Stretch”</b> type to None.<br><br>
+									If you are adding the <strong>downloaded</strong> imagery tiles (not the Service) into ArcGIS, open the Layers Properties dialog and make sure to uncheck the <strong>“Apply Gamma Stretch:”</strong> option and to set the <strong>“Stretch”</strong> type to None.<br><br>
 									<figure>
 									<img class="img-fluid" src="https://cdn.tnris.org/images/layer-properties.jpg" alt="Highlighting the properties to change for better display">
 									<figcaption><small>The Layer properties dialog box on ArcGIS</small></figcaption>
