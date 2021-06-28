@@ -101,6 +101,7 @@ function generate(env) {
                 // by default it uses publicPath in webpackOptions.output
                 // publicPath: '../',
                 hmr: process.env.NODE_ENV === 'development',
+                esModule: false,
               },
             },
             'css-loader',
@@ -117,6 +118,7 @@ function generate(env) {
                 // by default it uses publicPath in webpackOptions.output
                 // publicPath: '../',
                 hmr: process.env.NODE_ENV === 'development',
+                esModule: false,
               },
             },
             'css-loader',
