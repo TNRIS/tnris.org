@@ -21,7 +21,6 @@ To get the build and front-end dependences, run these commands from base
 directory of the repository:
 
  - `npm install`
- - may need to run `npm rebuild node-sass`
 
 ### Usage
 
