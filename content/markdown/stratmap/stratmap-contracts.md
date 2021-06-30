@@ -155,7 +155,7 @@ mainimage: https://cdn.tnris.org/images/SB_Contracts.png
                             </div>
                             <div id="collapseE" class="collapse fade" aria-labelledby="headingE" data-parent="#accordionExample1">
                                 <div class="card-body">
-                  <ol><li>Review the software offerings and published % discount on a company’s <b>Pricing Index</b> found on their DIR Vendor Contract page.</li>
+                  <ol><li>Review the software offerings and published % discount on a company’s <strong>Pricing Index</strong> found on their DIR Vendor Contract page.</li>
                   <li>Obtain a quote directly from the company contact listed on their DIR Vendor Contract page. The quote should reflect the % discount.</li>
                   <li>List the company’s DIR Contract Number on your purchase order.</li></ol>
                                 </div>

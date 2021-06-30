@@ -40,7 +40,7 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
     </div>
     <div class="map-card-text">
       <h3>TWDB – Groundwater collection</h3>
-      <p>Major aquifers, Minor aquifers, Groundwater related administrative boundaries</p>
+      <p>Major/Minor aquifers, Groundwater related administrative boundaries</p>
     </div>
     </a>
   </div>
