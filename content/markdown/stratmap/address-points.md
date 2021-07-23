@@ -7,15 +7,16 @@ mainimage: https://cdn.tnris.org/images/SB_Ortho.png
 
 <div class="container-md">
   <div class="row">
-    <div class="col-lg-8">
+    <div class="col-lg-6">
       <p class="lead"><strong>Address points</strong> are site or structure point data that have associated information such as house number, street name, postal community, and postal code. This information is recorded and maintained at the city and county level in Texas and aggregated to Regional Planning Commissions or Emergency Communications Districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
       <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://cdn.tnris.org/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-6">
       <!-- <h2 style="margin-top: 0">Available Datasets</h2>
       <p>The map below shows available address points across Texas. Data were received across 247 counties and may not be complete coverage.</p>
       <iframe title="Available address points" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Address Points Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=e8c2c6bd86064f6fbadbd38a60b50ccd&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
       </iframe> -->
+      <div class="videoWrapper"> <iframe src="https://www.youtube.com/embed/OAs1wSw3xQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       <h2>Download</h2>
       <p>Use the DataHub to download the Address Points dataset:</p>
       <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
