@@ -1,20 +1,9 @@
 ---
 title: Address Points
-layout: stratmap/ap-lp-page.njk
-youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
+layout: stratmap/main.njk
+mainimage: https://cdn.tnris.org/images/ap-lp-banner.png
 ---
 
-<div class="container-md">
-  <div class="row">
-    <div class="col-lg-12 alert alert-warning" role="alert" aria-atomic="true">
-    Thank you for your interest in TNRIS Land Parcels and Address Points datasets. Due to unexpected circumstances, our annual 2020 statewide refresh for both of these datasets has been delayed. If you are interested in obtaining 2020 data, please use the <strong>"Contact"</strong> tab located on the respective 2019 <strong><a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448">Land Parcels</a></strong> and <strong><a href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035">Address Points</a></strong> DataHub collection pages.
-    <br><br>
-    <strong>Please note data may not be available for all counties.</strong>
-    <br><br>
-    The production timeline for the 2021 Land Parcels and Address Points datasets has not been affected. Currently, TNRIS anticipates a mid to late Summer 2021 release for the annual refresh. We invite you to use the Contact tab located on the respective DataHub collection pages for any questions you may have. 
-    </div>
-  </div>
-</div>
 
 <div class="container-md">
   <div class="row">
@@ -23,10 +12,11 @@ youtube_url: https://www.youtube.com/embed/OAs1wSw3xQ0
       <p class="lead">In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized GIS <a href="https://cdn.tnris.org/documents/TNRIS-Address-Point-Schema.pdf">address point schema</a>. This format of site/structure address point data consists of the most commonly utilized information as determined by the address point committee. The data contributed from 9-1-1 Service Entities were translated into this common schema and are now available on the TNRIS DataHub.</p>
     </div>
     <div class="col-lg-6">
-      <h2 style="margin-top: 0">Available Datasets</h2>
+      <!-- <h2 style="margin-top: 0">Available Datasets</h2>
       <p>The map below shows available address points across Texas. Data were received across 247 counties and may not be complete coverage.</p>
       <iframe title="Available address points" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Address Points Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=e8c2c6bd86064f6fbadbd38a60b50ccd&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
-      </iframe>
+      </iframe> -->
+      <div class="videoWrapper"> <iframe src="https://www.youtube.com/embed/OAs1wSw3xQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       <h2>Download</h2>
       <p>Use the DataHub to download the Address Points dataset:</p>
       <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
