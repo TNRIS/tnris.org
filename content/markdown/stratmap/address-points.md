@@ -1,7 +1,7 @@
 ---
 title: Address Points
 layout: stratmap/main.njk
-mainimage: https://cdn.tnris.org/images/SB_Ortho.png
+mainimage: https://cdn.tnris.org/images/ap-lp-banner.png
 ---
 
 
