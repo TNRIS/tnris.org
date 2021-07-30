@@ -1,40 +1,27 @@
 ---
 title: Land Parcels
-layout: stratmap/ap-lp-page.njk
-progress_1: 89
-progress_2: 228
-youtube_url: https://www.youtube.com/embed/d9Le5oqu4wc
+layout: stratmap/main.njk
+mainimage: https://cdn.tnris.org/images/ap-lp-banner.png
 ---
 
 <div class="container-md">
   <div class="row">
-    <div class="col-lg-12 alert alert-warning" role="alert" aria-atomic="true">
-    Thank you for your interest in TNRIS Land Parcels and Address Points datasets. Due to unexpected circumstances, our annual 2020 statewide refresh for both of these datasets has been delayed. If you are interested in obtaining 2020 data, please use the <strong>"Contact"</strong> tab located on the respective 2019 <strong><a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448">Land Parcels</a></strong> and <strong><a href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035">Address Points</a></strong> DataHub collection pages.
-    <br><br>
-    <strong>Please note data may not be available for all counties.</strong>
-    <br><br>
-    The production timeline for the 2021 Land Parcels and Address Points datasets has not been affected. Currently, TNRIS anticipates a mid to late Summer 2021 release for the annual refresh. We invite you to use the Contact tab located on the respective DataHub collection pages for any questions you may have. 
-    </div>
-  </div>
-</div>
-
-<div class="container-md">
-  <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-8">
       <p class="lead"><strong>Land parcels</strong> are boundaries that have associated information such as property owner, land use, value, and location attributes. This property information is recorded and maintained at the county level in Texas at local appraisal districts. It is then used by public entities to make informed decisions on community planning, development, or emergency preparation and response.</p>
       <p class="lead">
       In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized <a href="https://cdn.tnris.org/documents/tnris-land-parcel-schema.pdf">GIS land parcel schema</a>. This format of land parcel data consists of the most commonly utilized information as determined by the land parcel  committee. The data contributed from county appraisal districts or their service providers were translated into this common schema and are now available on the <a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448">TNRIS DataHub</a>.</p>
       <p class="lead">In August 2019, an extension of the <a href="https://cdn.tnris.org/documents/update-on-digital-parcel-data-in-texas-20190903.pdf">statewide parcel study was published</a> to evaluate the existence of GIS parcel data and barriers to conversion. The report found that nearly all Texas appraisal districts now maintain a GIS parcel layer or are in the process of converting. It includes recommendations of 1) how TNRIS can facilitate local GIS  conversion and 2) how to continue success of the land parcel program.</p>
     </div>
-    <div class="col-lg-6">
-    <h2 style="margin-top: 0">Available Datasets</h2>
+    <div class="col-lg-4">
+    <!-- <h2 style="margin-top: 0">Available Datasets</h2>
       <div class="progress">
         <div class="progress-bar" role="progressbar" aria-valuenow={{progress_1}} aria-valuemin="0" aria-valuemax="100">{{progress_2}}</div>
       </div>
       <p><strong>of 254 land parcel GIS datasets are now available in a common schema.</strong></p>
       <p>See available datasets in the map below:</p>
       <iframe title="Available datasets" width="100%" height="520" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Land Parcels Map" src="https://tnris.maps.arcgis.com/apps/Embed/index.html?webmap=7f5626b267a042a7869926b3d379f5b9&extent=-116.3038,22.8609,-83.8502,39.082&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light">
-      </iframe>
+      </iframe> -->
+      <div class="videoWrapper"> <iframe src="https://www.youtube.com/embed/d9Le5oqu4wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       <h2>Download</h2>
       <p>Use the DataHub to download the Land Parcels dataset:</p>
       <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
