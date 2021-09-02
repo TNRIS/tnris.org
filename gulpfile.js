@@ -222,7 +222,7 @@ gulp.task('dist-metal', function () {
                                   "patricia.jpg",
                                   "richard.jpg",
                                   "richard_1987.jpg",
-                                  "giscat.jpg",
+                                  "giscat.png",
                                   "henry.jpg"
                                 ];
                                 var i =a[Math.floor(Math.random()*a.length)];
