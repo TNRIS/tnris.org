@@ -388,7 +388,7 @@ Miriam Olivares - Texas A&M University - Department of Geography & College of Ar
 <h2>Location &amp; Parking Information</h2>
 <p>
 <iframe align="right" title="Location and Parking Information"  src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d27534.156430936415!2d-97.728113!3d30.385901!3m2!1i1024!2i768!4f13.1!2m1!1s10100+Burnet+Rd+The+University+of+Texas+at+Austin%2C+J.+J.+Pickle+Research+Campus%2C+The+University+of+Texas+at+Austin+Austin%2C+TX+78758!5e0!3m2!1sen!2sus!4v1411081213895" width="400" height="250" frameborder="0" style="border:0"></iframe>
-The Forum is held at <a href="http://www.utexas.edu/commons/">The Commons Center</a> at the J.J. Pickle Research Campus in North Austin.
+The Forum is held at <a href="https://www.utexas.edu/commons/">The Commons Center</a> at the J.J. Pickle Research Campus in North Austin.
 </p>
 <p>
 The Commons Building (#137) is located at:

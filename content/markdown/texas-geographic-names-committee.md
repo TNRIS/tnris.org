@@ -4,7 +4,7 @@ layout: page.njk
 abstract: The Texas Geographic Names Committee is the guide for standardizing geographic names in the state of Texas, in cooperation with the Council of Geographic Names Authorities (COGNA) and the United States Board on Geographic Names, as part of the national standardization process.
 ---
 
-The purpose of the committee can be found in Part (e) of [Sec. 16.021](http://www.statutes.legis.state.tx.us/Docs/WA/htm/WA.16.htm) of the Texas Water Code, which states the following:
+The purpose of the committee can be found in Part (e) of [Sec. 16.021](https://www.statutes.legis.state.tx.us/Docs/WA/htm/WA.16.htm) of the Texas Water Code, which states the following:
 
 > (2) obtain information in response to disagreements regarding names and name spellings for natural and cultural features in the state and provide this information to the Board on Geographic Names of the United States Department of the Interior;
 

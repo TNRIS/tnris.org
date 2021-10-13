@@ -10,7 +10,7 @@ abstract: Annual Texas GeoDeveloper Round-Up, May 22nd, Austin, Texas
 ## 8:00AM to 8:45AM
 ### Breakfast – Social
 
-Sponsored by <a href="http://www.esri.com"><img src="https://cdn.tnris.org/images/esri_web_md.png" alt="ESRI logo and link to website"></a>
+Sponsored by <a href="https://www.esri.com"><img src="https://cdn.tnris.org/images/esri_web_md.png" alt="ESRI logo and link to website"></a>
 
 ****
 

@@ -82,7 +82,7 @@ Lunch on your own. Here's a map of nearby lunch spots:
 
 <h4><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/james_seppi.jpg" alt="James Seppi">Turf - Geospatial Analysis in JavaScript</h4>
 
-[Turf](http://turfjs.org) is a relatively new open-source JavaScript library for spatial analysis that works both in the browser and on the back-end via NodeJS. This presentation will introduce Turf through examples, show some neat projects using Turf, and let you know how to contribute to its development.
+[Turf](https://turfjs.org) is a relatively new open-source JavaScript library for spatial analysis that works both in the browser and on the back-end via NodeJS. This presentation will introduce Turf through examples, show some neat projects using Turf, and let you know how to contribute to its development.
 
 #### About James
 
@@ -132,11 +132,11 @@ Peter is a Vice President and head of application development at Applied Geograp
 
 <h4><img class="rounded-circle float-right presenter" src="https://cdn.tnris.org/images/andrew_thornton.jpg" alt="Headshot of Andrew Thornton">Web Maps with D3.js</h4>
 
-These days, the common thread among many web maps is very likely a JavaScript library called [D3.js](http://d3js.org). D3 is quickly becoming the de facto choice when it comes to data visualization in the browser. It provides incredible flexibility by embracing web standards, resulting in few limitations other than a developer's imagination. In this talk, Andy will take the intimidation out of this little powerhouse of a library, and show you the essentials you need to begin making your own incredible maps with D3.
+These days, the common thread among many web maps is very likely a JavaScript library called [D3.js](https://d3js.org). D3 is quickly becoming the de facto choice when it comes to data visualization in the browser. It provides incredible flexibility by embracing web standards, resulting in few limitations other than a developer's imagination. In this talk, Andy will take the intimidation out of this little powerhouse of a library, and show you the essentials you need to begin making your own incredible maps with D3.
 
 #### About Andrew
 
-[Andrew Thornton](https://twitter.com/encodingpixels) is a Senior Front-End Developer for Exigo Energy Solutions in Austin, TX. He loves all things data, with a special passion for data visualization and mapping. He is the co-author of a book titled [_Developing a D3.js Edge_](http://bleedingedgepress.com/our-books/developing-a-d3-js-edge/), and is the organizer of the D3.js Austin Meetup. You can check out some of his personal work [here](http://encodingpixels.com).
+[Andrew Thornton](https://twitter.com/encodingpixels) is a Senior Front-End Developer for Exigo Energy Solutions in Austin, TX. He loves all things data, with a special passion for data visualization and mapping. He is the co-author of a book titled [_Developing a D3.js Edge_](https://bleedingedgepress.com/our-books/developing-a-d3-js-edge/), and is the organizer of the D3.js Austin Meetup. You can check out some of his personal work [here](https://encodingpixels.com).
 
 ---
 

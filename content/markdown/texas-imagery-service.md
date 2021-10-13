@@ -206,12 +206,12 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 								<div class="card-body">
 							<div style="text-align: center; border: 0px solid">  	
 							Click on the button for your GIS software to learn how to add the imagery service.<br><br>
-								<a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" target="_blank" class="btn btn-secondary btn-lg">ArcMap</a><br><br>
+								<a href="https://resources.arcgis.com/en/help/main/10.2/index.html#/Adding_WMTS_Services/00sp00000021000000/" target="_blank" class="btn btn-secondary btn-lg">ArcMap</a><br><br>
 								<a href="https://cdn.tnris.org/documents/WMS2Pro.pdf" target="_blank" class="btn btn-secondary btn-lg"><i class="fa fa-"></i>ArcGIS Pro</a><br><br>
 								<a href="https://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm#ESRI_SECTION2_C34EB22293D94DEAA28712CAF132A78B" target="_blank" class="btn btn-secondary btn-lg">ArcGIS Online</a><br><br>
-								<a href="http://www.bluemarblegeo.com/knowledgebase/global-mapper/index.htm" target="_blank" class="btn btn-secondary btn-lg">GlobalMapper</a><br><br>
-								<a href="http://knowledge.autodesk.com/support/autocad-map-3d/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/MAP3D-Use/files/GUID-A9F620AD-6B9A-487D-9B33-7D365307D571-htm.html" target="_blank" class="btn btn-secondary btn-lg">AutoCAD MAP 3D</a><br><br>
-								<a href="http://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" target="_blank" class="btn btn-secondary btn-lg">AutoCAD CIVIL 3D 2013</a><br><br>
+								<a href="https://www.bluemarblegeo.com/knowledgebase/global-mapper/index.htm" target="_blank" class="btn btn-secondary btn-lg">GlobalMapper</a><br><br>
+								<a href="https://knowledge.autodesk.com/support/autocad-map-3d/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/MAP3D-Use/files/GUID-A9F620AD-6B9A-487D-9B33-7D365307D571-htm.html" target="_blank" class="btn btn-secondary btn-lg">AutoCAD MAP 3D</a><br><br>
+								<a href="https://docs.autodesk.com/CIV3D/2013/ENU/index.html?url=filesMAPC3D/GUID-1B5EFA15-225A-43B9-95F5-ADCD1F677F16.htm,topicNumber=MAPC3Dd30e49336" target="_blank" class="btn btn-secondary btn-lg">AutoCAD CIVIL 3D 2013</a><br><br>
 								<a href="https://cdn.tnris.org/documents/MicroStationGoogleWMSDemo.pdf" target="_blank" class="btn btn-secondary btn-lg">MicroStation</a><br><br>
 								<a href="https://docs.qgis.org/3.10/en/docs/training_manual/online_resources/wms.html?highlight=wmts" target="_blank" class="btn btn-secondary btn-lg">QGIS</a>
 							</div>

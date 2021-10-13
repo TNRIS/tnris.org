@@ -25,13 +25,13 @@ buttontext: Register Now!
 <img class="img-fluid" src="https://cdn.tnris.org/images/txgisforum2019wrapup_md.jpg" alt="Silohuette of speaker in front of screen, Texas GIS Forum Wrap-Up">
 <h3>Thanks to Our Platinum Sponsors</h3>
   <p>
-    <a class="welcome-logo-2019" href="http://www.surdex.com/">
+    <a class="welcome-logo-2019" href="https://www.surdex.com/">
       <img alt="Surdex geospatial logo and link" src="https://cdn.tnris.org/images/surdex_logo.png">
     </a>
-    <a class="welcome-logo-2019" href="http://appgeo.com">
+    <a class="welcome-logo-2019" href="https://appgeo.com">
       <img  alt="appgeo logo and link to website" src="https://cdn.tnris.org/images/appgeo_logo.png">
     </a>
-    <a class="welcome-logo-2019" href="http://www.esri.com">
+    <a class="welcome-logo-2019" href="https://www.esri.com">
       <img alt="Esri logo and link to website" src="https://cdn.tnris.org/images/esri_where_logo.png">
     </a>
   </p>
