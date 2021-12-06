@@ -8,7 +8,7 @@ TNRIS brings the GIS community together through long established events like the
 
 ## Annual Texas GIS Forum
 
-The 2021 Texas GIS Forum is cancelled due to factors beyond our control. The new date is set for March 7-11, 2022. Location and further details to be announced. Please stay tuned for TNRIS event information and updates by <a href="https://twitter.com/TNRIS" target="_blank">following us on Twitter</a>.
+The 2021 Texas GIS Forum is cancelled due to factors beyond our control. The new date is set for March 8-11, 2022. Location and further details to be announced. Please stay tuned for TNRIS event information and updates by <a href="https://twitter.com/TNRIS" target="_blank">following us on Twitter</a>.
 
 For over three decades, the Texas GIS Forum has been the premiere gathering for the statewide GIS community. While we don't have pages going all the way back to then, you can still visit the pages for current and recent Forums below.
 
