@@ -83,12 +83,30 @@
 
 //BUTTONS//
 
-.button-secondary, .button-primary {
+.button-secondary, .button-primary, .button-disabled {
   align-items: center;
   border: 1px solid black;
   display: inline-block;
   margin-right: 30px;
-  padding: 15px 20px 15px 10px;
+  padding: 15px 20px;
+}
+
+.button-primary {
+  background-color: #F14A45;
+  border: solid 1px #F14A45;
+  border-radius: 8px;
+  color: white;
+}
+
+.button-primary:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.button-primary i {
+  color: white;
+  padding-right: 10px;
+  text-decoration: none;
 }
 
 .button-secondary {
@@ -103,27 +121,25 @@
   text-decoration: underline;
 }
 
-.button-primary {
-  background-color: #F14A45;
-  border: solid 1px #F14A45;
-  border-radius: 8px;
-  color: white;
-}
-
-.button-primary:hover {
-  color: white;
-  text-decoration: unerline;
-}
-
 .button-secondary i {
   color: #F14A45;
-  padding: 0px 15px 0px 10px;
+  padding-right: 10px;
   text-decoration: none;
 }
 
-.button-primary i {
-  color: white;
-  padding: 0px 15px 0px 10px;
+.button-disabled {
+  background-color: #D4D4D4;
+  border: solid 2px #D4D4D4;
+  border-radius: 8px;
+  color: #575757;
+}
+
+.button-disabled:hover {
+  background-color: #D4D4D4;
+  border: solid 2px #D4D4D4;
+  border-radius: 8px;
+  color: #575757;
+  cursor: not-allowed;
   text-decoration: none;
 }
 
@@ -184,7 +200,7 @@
 .presentation-call {
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   padding-top: 20px;
 }
 

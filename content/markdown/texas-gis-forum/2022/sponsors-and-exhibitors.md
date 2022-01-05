@@ -8,17 +8,19 @@ intro: true
 ---
 <section class="intro">
   <p class="lead">TNRIS is pleased to invite you to participate in our <strong>2022 Texas GIS Forum</strong> in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
-  <p class="lead">After you've looked over the sponsor rules and regulations, click the button below to register as a sponsor.</p>
+  <!-- <p class="lead">After you've looked over the sponsor rules and regulations, click the button below to register as a sponsor.</p> -->
+
+  <p class="lead">Registration has not been opened yet. <a href="https://twitter.com/tnris">Follow our Twitter</a> for updates.</p>
 
   <div class="sponsor-cta-container">
     <a class="button-secondary"  
       href="https://cdn.tnris.org/documents/Rules and Regulations 2022.pdf">
       <i class="fa fa-file"></i>Sponsor Rules &amp; Regulations
     </a>
-   <a class="button-primary" 
+   <!-- <a class="button-primary" 
      href="https://events.eply.com/2019GISForumSponsorshipApplication2969304">
      <i class="fa fa-pencil" aria-hidden="true"></i> Become a Sponsor 
-    </a>
+    </a> -->
   </div>
 </section>
 
