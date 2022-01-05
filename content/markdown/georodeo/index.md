@@ -19,7 +19,7 @@ abstract: Annual Texas GeoDeveloper Round-Up, May 16 & 17, Austin, Texas
 ## 8:00AM to 9:00AM
 ### Registration – Breakfast – Social
 
-Sponsored by <a href="http://www.esri.com"><img src="https://cdn.tnris.org/images/esri_web_md.png" alt="ESRI logo and link to website"></a>
+Sponsored by <a href="https://www.esri.com"><img src="https://cdn.tnris.org/images/esri_web_md.png" alt="ESRI logo and link to website"></a>
 
 ****
 
@@ -184,7 +184,7 @@ Thomas Montgomery works in Municipal IT where he enjoys learning and talking abo
 
 Kevin is a graduate student and graduate assistant at Texas State University. When not working on his thesis research you can find him teaching students in a GeoProgramming or Fundamentals of GIS lab. His interests include leveraging all types of technologies in unique ways to solve difficult research tasks on a limited budget.
 
-<a href="http://kb.gg/georodeo"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
+<a href="https://kb.gg/georodeo"><i class="fa fa-new-window"></i> Slide Presentation Link</a>
 
 ****
 

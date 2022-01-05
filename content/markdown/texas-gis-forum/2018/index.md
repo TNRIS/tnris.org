@@ -13,9 +13,9 @@ Take a look at the <a href="/texas-gis-forum/2018/agenda">agenda</a> to see avai
   <a class="btn btn-lg btn-tnris" href="/texas-gis-forum/2018/agenda">View the Agenda</a></p>
 
   <h3>Platinum Sponsors</h3>
-    <a href="http://appgeo.com"><img class="plat-logo-top" alt="appgeo logo and link to website" src="https://cdn.tnris.org/images/appgeo_logo.png"></a>
-    <a href="http://www.surdex.com/"><img class="plat-logo-top" alt="Surdex geospatial logo and link" src="https://cdn.tnris.org/images/surdex_logo.png"></a>
-    <a href="http://www.esri.com"><img alt="Esri logo and link to website" src="https://cdn.tnris.org/images/esri_where_logo.png"></a>
+    <a href="https://appgeo.com"><img class="plat-logo-top" alt="appgeo logo and link to website" src="https://cdn.tnris.org/images/appgeo_logo.png"></a>
+    <a href="https://www.surdex.com/"><img class="plat-logo-top" alt="Surdex geospatial logo and link" src="https://cdn.tnris.org/images/surdex_logo.png"></a>
+    <a href="https://www.esri.com"><img alt="Esri logo and link to website" src="https://cdn.tnris.org/images/esri_where_logo.png"></a>
 </div>
 <div class="col-lg-6">
 {% include "events/texas-gis-forum/2018/registration.njk" %}

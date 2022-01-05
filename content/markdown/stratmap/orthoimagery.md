@@ -41,7 +41,7 @@ mainimage: https://cdn.tnris.org/images/SB_Ortho.png
   <p class="lead">Leveraging funds from multiple government agencies (State, Federal, and Local), the StratMap Program coordinated statewide orthoimagery acquisitions starting in the mid-1990s which also began the Texas Orthoimagery Program (TOP).</p>
   <div class="row">
     <div class="col-lg-8">
-      <p>Since then, the state has been refreshed with new orthoimagery in 2004 at 1-meter, 2008/09 at 0.5-meter (under TOP) & 1-meter, and 2010 at 1-meter, all in conjunction with the <a href="http://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/">National Agriculture Imagery Program (NAIP)</a> administered by the USDA-Farm Service Agency-Aerial Photography Field Office.</p>
+      <p>Since then, the state has been refreshed with new orthoimagery in 2004 at 1-meter, 2008/09 at 0.5-meter (under TOP) & 1-meter, and 2010 at 1-meter, all in conjunction with the <a href="https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/">National Agriculture Imagery Program (NAIP)</a> administered by the USDA-Farm Service Agency-Aerial Photography Field Office.</p>
       <p>The USDA NAIP continues to refresh Texas statewide with new orthoimagery every two years at 1-meter pixel resolution (2012, 2014, 2016) during the leaf-on growing season (April – October acquisitions). </p>
       <p>Pooling State funds again in 2014, StratMap coordinated a new TOP statewide 0.5-meter leaf-off acquisition that occurred during the 2014/15 (91% of state) & 2015/16 (9% of state) winter seasons.</p>
     </div>

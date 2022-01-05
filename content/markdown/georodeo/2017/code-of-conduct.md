@@ -27,6 +27,6 @@ We expect participants to follow these rules at conference and workshop venues a
 
 ### Credits
 
-This Code of Conduct is based on the [Conference Code of Conduct](http://confcodeofconduct.com/).
+This Code of Conduct is based on the [Conference Code of Conduct](https://confcodeofconduct.com/).
 
-This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_US).
+This work is licensed under a [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/deed.en_US).

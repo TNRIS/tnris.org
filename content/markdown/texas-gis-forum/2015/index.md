@@ -103,13 +103,13 @@ abstract: Save the date for the Texas GIS Forum, the state's premier conference 
     </p>
   </div>
   <div class="col-sm-4">
-    <a href="http://www.meetup.com/DevMeetUpTexas/events/225538428/">
+    <a href="https://www.meetup.com/DevMeetUpTexas/events/225538428/">
       <img class="img-fluid" src="https://cdn.tnris.org/images/meetup.jpg" alt="People holding drinks and smiling with Meetup logo on top">
     </a>
     <h3>ESRI GeoDev Meetup</h3>
     <p>Tuesday night, come to a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.</p>
     <p>
-      <a class="btn btn-md btn-danger" href="http://www.meetup.com/DevMeetUpTexas/events/225538428/">View Meetup Page</a>
+      <a class="btn btn-md btn-danger" href="https://www.meetup.com/DevMeetUpTexas/events/225538428/">View Meetup Page</a>
     </p>
   </div>
 </div>

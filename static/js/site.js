@@ -29,10 +29,10 @@ var Clipboard = require('clipboard/dist/clipboard.min');
     // Beta/development alert message
     if (window.location.hostname !== 'tnris.org' && window.location.hostname !== 'localhost') {
       $('.alert-holder-2')
-        .html('<div class="alert alert-warning beta-alert text-center"><strong>Warning!</strong> You are currently viewing a development version of the TNRIS website. For the official version, go to <a href="http://tnris.org">http://tnris.org</a>.</div>');
+        .html('<div class="alert alert-warning beta-alert text-center"><strong>Warning!</strong> You are currently viewing a development version of the TNRIS website. For the official version, go to <a href="https://tnris.org">https://tnris.org</a>.</div>');
     }
 
-    // from http://zenorocha.github.io/clipboard.js/assets/scripts/tooltips.js
+    // from https://zenorocha.github.io/clipboard.js/assets/scripts/tooltips.js
     // not flawless, but close enough
     function fallbackMessage(action) {
       var actionMsg = '';

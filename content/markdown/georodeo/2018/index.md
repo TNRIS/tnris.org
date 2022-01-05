@@ -12,7 +12,7 @@ abstract: Annual Texas GeoDeveloper Round-Up, May 4th, Austin, Texas
 ## 7:45AM to 8:30AM
 ### Registration – Breakfast – Social
 
-Sponsored by <a href="http://www.esri.com"><img src="https://cdn.tnris.org/images/esri_web_md.png" alt="ESRI logo and link to website"></a>
+Sponsored by <a href="https://www.esri.com"><img src="https://cdn.tnris.org/images/esri_web_md.png" alt="ESRI logo and link to website"></a>
 
 ****
 
@@ -30,7 +30,7 @@ Sponsored by <a href="http://www.esri.com"><img src="https://cdn.tnris.org/image
 Mark is the Geospatial Lead on the Specialist Team at AWS, part of the Technical Vision and Business Development group. He supports large geospatial customers, and works closely with the Scientific Compute and Open Data teams on projects such as Earth on AWS. In addition, he represents the solution architecture team as the core storage expert. Mark holds a Master in City Planning from MIT with a specialization in Technology Transfer and is a native Japanese speaker.
 
 <h3 id="martijn-2018"><small class="text-muted">9:30AM to 10:00AM</small><br>
-Martijn van Exel, <a href="http://openstreetcam.org">OpenStreetMap</a> Community Lead at Telenav</h3>
+Martijn van Exel, <a href="https://openstreetcam.org">OpenStreetMap</a> Community Lead at Telenav</h3>
 
 <h4><img class="rounded-circle float-right presenter 2018-georodeo-speaker" src="https://cdn.tnris.org/images/martijn_headshot.jpg" alt="Head shot of Martijn van Exel from Open Street Map">OpenStreetCam: Improving OpenStreetMap with crowdsourced street level images</h4>
 
@@ -57,7 +57,7 @@ Cristy is a Regional GIS Specialist for Texas Parks and Wildlife. Cristy program
 ## 10:30AM to 11:45AM
 
 <h3 id="andrew-2018"><small class="text-muted">10:30AM to 11:15AM</small><br>
-Andrew Turner, Director of R&amp;D Center, <a href="http://dc.esri.com/">ESRI</a></h3>
+Andrew Turner, Director of R&amp;D Center, <a href="https://dc.esri.com/">ESRI</a></h3>
 
 <h4><img class="rounded-circle float-right presenter 2018-georodeo-speaker" src="https://cdn.tnris.org/images/andrewturner.jpg" alt="Head shot of Andrew Turner from ESRI">Open Data</h4>
 

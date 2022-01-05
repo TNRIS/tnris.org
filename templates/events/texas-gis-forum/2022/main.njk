@@ -1,0 +1,87 @@
+{% extends "base.njk" %}
+{% import "_form_macros.njk" as form %}
+
+{% block styles %}
+  {{ super() }}
+
+  {{form.styles()}}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  {{form.scripts()}}
+
+  <script src="//cdn.jsdelivr.net/momentjs/2.10.6/moment.min.js"></script>
+  <script src="/forum.bundle.js"></script>
+{% endblock %}
+
+{% block topcontent %}
+  <div class="full forum-2019-top">
+    <div class="forum-2017-brand-container container-md">
+      <h1 class="forum-brand sr-only">
+        <a href="/texas-gis-forum/2022">
+          <span>Texas GIS Forum</span></a>
+        October 21 – 25, 2019 | Austin, Texas</h1>
+    </div>
+    <a href="/texas-gis-forum/2022">
+      {% if mainimage %}
+        <img src="{{mainimage}}" class="banner img-fluid mx-auto d-none d-md-block" alt="Texas GIS Forum Main Image">
+      {% endif %}
+      {% if mainimagesm %}
+        <img src="{{mainimagesm}}" class="banner img-fluid mx-auto d-md-none d-lg-none" alt="Texas GIS Forum Main Image">
+      {% endif %}
+    </a>
+    {% include "events/texas-gis-forum/2022/nav.njk" %}
+  </div>
+
+  <div class="_2016-forum-intro">
+    <div class="container-md">
+      <h1 class="forum-2022-h1">{{title}}</h1>
+      <div class="row mx-auto">
+        <div class="col-sm-5 order-sm-2">
+          {% if title == '2022 Texas GIS Forum' %}
+            {% include "events/texas-gis-forum/2019/registration.njk" %}
+          {% endif %}
+          {% if title == 'Call for Papers' %}{% endif %}
+          {% if title == 'Forum Pre-Conference Workshops' %}
+            <div class="alert alert-warning">
+              <p>
+                <strong>Notice:</strong>
+                Online Registration is now closed. Please register onsite.</strong>
+            </p>
+          </div>
+        {% endif %}
+        {% if title == '2022 Texas GIS Forum Agenda' %}{% endif %}
+      </div>
+
+      <div class="col-sm-7 order-sm-1">
+        {% if title == 'Call for Papers' %}
+          {% include "events/texas-gis-forum/2019/cfp-text.njk" %}
+        {% endif %}
+
+        {% if title == 'Forum Pre-Conference Workshops' %}
+          <p class="lead">{{contents|safe}}</p>
+        {% endif %}
+        {% if title == '2022 Texas GIS Forum Agenda' %}
+          <p class="lead">{{abstract}}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block contentsOne %}
+<div id="contentMain" class="container-md">
+  <div class="full">
+    {{contents|safe}}
+  </div>
+</div>
+{% endblock %}
+
+<!-- {% block contentsTwo %}
+<section class="forum-sponsors">
+  {% include "events/texas-gis-forum/2022/sponsors.njk" %}
+</section>
+{% endblock %} -->

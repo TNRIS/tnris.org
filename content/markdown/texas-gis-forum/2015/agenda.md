@@ -47,7 +47,7 @@ Note: Agenda and speakers subject to change without notice.
     <div class="col-sm-9">
       <h3><small>Information Session</small></h3>
       <p>
-        <a href="http://www.infogroup.com/"><img class="float-right" alt="Infogroup geospatial logo and link" src="https://cdn.tnris.org/images/infogroup_logo_sm.png"></a>
+        <a href="https://www.infogroup.com/"><img class="float-right" alt="Infogroup geospatial logo and link" src="https://cdn.tnris.org/images/infogroup_logo_sm.png"></a>
         <strong>Infogroup</strong> will present on their statewide enterprise license offer to the state of Texas. Attendees will learn about Infogroup business and residential data records and how it would benefit agency business matters. This meeting is open to the public.
       </p>
     </div>
@@ -59,11 +59,11 @@ Note: Agenda and speakers subject to change without notice.
     <div class="col-sm-9">
       <h3>Esri GeoDev Meetup</h3>
       <p>
-        <a href="http://www.meetup.com/DevMeetUpTexas/events/225538428/"><img class="float-right" src="https://cdn.tnris.org/images/meetup_logo.png" alt="Meetup logo"></a> This event is a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.
+        <a href="https://www.meetup.com/DevMeetUpTexas/events/225538428/"><img class="float-right" src="https://cdn.tnris.org/images/meetup_logo.png" alt="Meetup logo"></a> This event is a social gathering for developers to discuss the latest in mapping, geo technology, geo services, web and mobile mapping apps, app design, cloud solutions, map data or anything else related to solving real-world "geo" problems.
       </p>
       <p>Meetup RSVP:
-        <a class="dont-break" href="http://www.meetup.com/DevMeetUpTexas/events/225538428">
-          http://www.meetup.com/DevMeetUpTexas/events/225538428
+        <a class="dont-break" href="https://www.meetup.com/DevMeetUpTexas/events/225538428">
+          https://www.meetup.com/DevMeetUpTexas/events/225538428
         </a>
       </p>
     </div>
@@ -120,10 +120,10 @@ Note: Agenda and speakers subject to change without notice.
         <img class="float-right rounded-circle keynote-portrait" src="https://cdn.tnris.org/images/patrick.jpg" alt="Patrick Meier">Patrick Meier is an internationally recognized thought leader on humanitarian technology and innovation. He is the author of, “Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Action.”
       </p>
       <p>
-        He has consulted extensively for several international organizations including the United Nations and the World Bank. Patrick also founded/co-founded CrisisMappers, Digital Humanitarians, and many more. Patrick also writes the [iRevolutions](http://irevolution.net) blog, and tweets at [@patrickmeier](https://twitter.com/patrickmeier).
+        He has consulted extensively for several international organizations including the United Nations and the World Bank. Patrick also founded/co-founded CrisisMappers, Digital Humanitarians, and many more. Patrick also writes the [iRevolutions](https://irevolution.net) blog, and tweets at [@patrickmeier](https://twitter.com/patrickmeier).
       </p>
       <p>
-        <i class="fa fa-user"></i> [Full Bio](http://irevolution.net/bio)
+        <i class="fa fa-user"></i> [Full Bio](https://irevolution.net/bio)
       </p>
       <p>
         <strong>Watch Video:</strong>
@@ -467,7 +467,7 @@ Note: Agenda and speakers subject to change without notice.
           <h4>GIS Lessons: Learning to Query and Code with the CartoDB Academy</h4></div>
           <div class="modal-body">
             <p>Maps provide us with some of the most intuitive ways to represent data visually, principally because they provide a way to rectify our physical locality with some digital and data-dense topography; they help us build narrative with relevant geolocation and let us tell trends with data on a geospatial-sensitive canvas. Learning how to make compelling maps with your own data is a a non-trivial endeavor, involving a concatenation of expertise and technical aptitudes with specialty tools that might be obscure to new mappers, and limits the community as a result.</p>
-            <p>At CartoDB (https://carto.com/), we have a series of open source projects to augment the GIS learning experience, with Academy (http://academy.cartodb.com/), our "code academy" for GIS, or our Trainings repository (http://cartodb.github.io/training/), a place to share lessons and workshops and submit events to a collaborative calendar.    We'll talk about the future of education for digital geographers, and how partnering with curriculum producers has fostered a supportive community of stellar mappers across domains. Join us to learn about how we do it, and how you can help!</p>
+            <p>At CartoDB (https://carto.com/), we have a series of open source projects to augment the GIS learning experience, with Academy (https://academy.cartodb.com/), our "code academy" for GIS, or our Trainings repository (https://cartodb.github.io/training/), a place to share lessons and workshops and submit events to a collaborative calendar.    We'll talk about the future of education for digital geographers, and how partnering with curriculum producers has fostered a supportive community of stellar mappers across domains. Join us to learn about how we do it, and how you can help!</p>
             <hr>
             <p><strong>Presenter Bio:</strong><br><em>Andy Eschbacher</em> is a physicist turned educator turned map scientist. At CartoDB he wears many hats. From finding out how to make web maps more scientific with hacks on open source software, to developing educational content, to sharing and learning from the diverse online mapping community, he and his colleagues keep very busy.</p>
           </div>
@@ -807,7 +807,7 @@ Note: Agenda and speakers subject to change without notice.
     </div>
     <div class="col-sm-9">
       <h3>Forum Social sponsored by <img src="https://cdn.tnris.org/images/cartodb_logo_sm.png" alt="Carto DB logo"></h3>
-      <p><a href="http://punchbowlsocial.com/austin/"><img class="float-right" src="https://cdn.tnris.org/images/pbs_social.jpg" alt="Logo for PBs Social"></a> <strong>This year's social is at <a href="http://punchbowlsocial.com/austin/">Punch Bowl Social</a>, located about 1.5 miles from the J.J Pickle Center.</strong> You will need to wear your GIS Forum name badge in order to gain access to the reserved activities:
+      <p><a href="https://punchbowlsocial.com/austin/"><img class="float-right" src="https://cdn.tnris.org/images/pbs_social.jpg" alt="Logo for PBs Social"></a> <strong>This year's social is at <a href="https://punchbowlsocial.com/austin/">Punch Bowl Social</a>, located about 1.5 miles from the J.J Pickle Center.</strong> You will need to wear your GIS Forum name badge in order to gain access to the reserved activities:
       <ul>
       <li>Each person will get two drink tickets, good for beer &amp; wine.</li>
       <li>We’ve rented bowling, darts, and ping pong.</li>

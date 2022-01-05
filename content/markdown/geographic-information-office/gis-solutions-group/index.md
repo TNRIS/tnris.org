@@ -35,12 +35,12 @@ The DCS GIS Solutions Group was created to meet the need for a formal team of ag
    <br>
     <div class="row">
       <div class="col-xs-5ths">
-        <a class="gio-agency" href="http://www.dir.texas.gov">
+        <a class="gio-agency" href="https://www.dir.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/dir_logo_padded.jpg" alt="Department of Information Resources Logo and Link to website">
         </a>
       </div>
       <div class="col-xs-5ths">
-        <a class="gio-agency" href="http://www.csec.texas.gov/">
+        <a class="gio-agency" href="https://www.csec.texas.gov/">
           <img class="img-fluid" src="https://cdn.tnris.org/images/csec_logo_med.jpg" alt="Commission on Emergency Communications (CSEC) Logo and Link to website">
         </a>
       </div>
@@ -50,12 +50,12 @@ The DCS GIS Solutions Group was created to meet the need for a formal team of ag
         </a>
       </div>
       <div class="col-xs-5ths">
-        <a title="Visit the Texas Department of Transportation website" class="gio-agency" href="http://www.txdot.gov">
+        <a title="Visit the Texas Department of Transportation website" class="gio-agency" href="https://www.txdot.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/txdot.jpg" alt="Texas Department of Transportation (TxDOT) Logo and Link to website">
         </a>
       </div>
       <div class="col-xs-5ths">
-        <a class="gio-agency" href="http://www.twdb.texas.gov">
+        <a class="gio-agency" href="https://www.twdb.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/twdb_web_med_rect.jpg" alt="Texas Water Development Board Logo and Link to website">
         </a>
       </div>
@@ -64,10 +64,10 @@ The DCS GIS Solutions Group was created to meet the need for a formal team of ag
 The first meeting of the DCS GIS Solutions Group was held on March 25, 2015 with current participating member agencies:<br><br>
 
 -   [Department of Information Resources (DIR)](https://dir.texas.gov/)
--   [Commission on State Emergency Communications (CSEC)](http://www.csec.texas.gov/)
+-   [Commission on State Emergency Communications (CSEC)](https://www.csec.texas.gov/)
 -   [Texas Commission on Environmental Quality (TCEQ)](https://www.tceq.texas.gov/)
 -   [Texas Department of Transportation (TXDOT)](https://www.txdot.gov/)
--   [Texas Water Development Board (TWDB)](http://www.twdb.texas.gov/) (via TNRIS).
+-   [Texas Water Development Board (TWDB)](https://www.twdb.texas.gov/) (via TNRIS).
 
 <section class="gio-agency-collection container-md">
    <div class="row">
@@ -78,7 +78,7 @@ The first meeting of the DCS GIS Solutions Group was held on March 25, 2015 with
    <br>
     <div class="row">
       <div class="col-4">
-        <a class="gio-agency" href="http://www.tpwd.texas.gov">
+        <a class="gio-agency" href="https://www.tpwd.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/tpwd_logo.jpg" alt="Texas Parks and Wildlife Logo and Link to website">
         </a>
       </div>
@@ -88,16 +88,16 @@ The first meeting of the DCS GIS Solutions Group was held on March 25, 2015 with
         </a>
       </div>
       <div class="col-4">
-        <a class="gio-agency" href="http://www.glo.texas.gov">
+        <a class="gio-agency" href="https://www.glo.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/glo_logo.jpg" alt="Texas General Land Office (GLO) Logo and Link to website">
         </a>
       </div>
 </section>
 Serving as associate members are:<br><br>
 
--   [Texas Parks and Wildlife Department](http://tpwd.texas.gov/)
+-   [Texas Parks and Wildlife Department](https://tpwd.texas.gov/)
 -   [Texas Department of Public Safety](https://www.dps.texas.gov/)
--   [Texas General Land Office](http://www.glo.texas.gov/)
+-   [Texas General Land Office](https://www.glo.texas.gov/)
 
 <br>
 
