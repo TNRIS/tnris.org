@@ -40,3 +40,251 @@
   border: 5px solid $forum2019tan;
   max-width: 125px;
 }
+
+// FORUM-2022 //
+
+//TYPOGRAPHY//
+
+.forum-2022-h1 {
+  color: #1C3C5A;
+  font-family: proxima-nova, sans-serif;
+  font-size: 44px;
+  letter-spacing: .05rem;
+  padding-top: 60px;
+  text-transform: uppercase;
+}
+
+.forum-2022-h2 {
+  color: #F14A45;
+  font-family: proxima-nova, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: .05rem;
+  padding-top: 0px 15px;
+  text-transform: uppercase;
+}
+
+.forum-2022-h3 {
+  color: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+
+}
+
+.forum-2022-h4 {
+  color:#222;
+  font-family: proxima-nova, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: .05rem;
+  text-transform: uppercase;
+}
+
+//BUTTONS//
+
+.button-secondary, .button-primary, .button-disabled {
+  align-items: center;
+  border: 1px solid black;
+  display: inline-block;
+  margin-right: 30px;
+  padding: 15px 20px;
+}
+
+.button-primary {
+  background-color: #F14A45;
+  border: solid 1px #F14A45;
+  border-radius: 8px;
+  color: white;
+}
+
+.button-primary:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.button-primary i {
+  color: white;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.button-secondary {
+  background-color: white;
+  border: solid 2px #F14A45;
+  border-radius: 8px;
+  color: #F14A45;
+}
+
+.button-secondary:hover {
+  color: #F14A45;
+  text-decoration: underline;
+}
+
+.button-secondary i {
+  color: #F14A45;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.button-disabled {
+  background-color: #D4D4D4;
+  border: solid 2px #D4D4D4;
+  border-radius: 8px;
+  color: #575757;
+}
+
+.button-disabled:hover {
+  background-color: #D4D4D4;
+  border: solid 2px #D4D4D4;
+  border-radius: 8px;
+  color: #575757;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+//NAVIGATION//
+
+
+.forum-2022-nav {
+  background-color: white;
+  border-bottom: solid .75px #D7D7D7;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: .05rem;
+}
+
+.forum-2022-nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.forum-2022-nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+.forum-2022-nav a{
+  color: #1C3C5A;
+  display: inline-block;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.forum-2022-nav a:hover{
+  color: #F14A45;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.forum-2022-nav .active a {
+  background-color: #1C3C5A;
+  color: white;
+}
+
+.forum-2022-nav .active a:hover {
+  background-color: #1C3C5A;
+  color: white;
+  text-decoration: underline;
+}
+
+//MAIN ELEMENTS//
+
+.intro {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.presentation-call {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+  padding-top: 20px;
+}
+
+.presentation-image img {
+  border-radius: 50%;
+  max-width: 250px;
+}
+
+.presentation-text {
+  padding-left: 60px;
+}
+
+//SPONSOR PAGE//
+
+.sponsor-cta-container {
+  display: flex;
+  padding-top: 40px;
+
+}
+
+.sponsor-levels {
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 16px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.sponsor-table {
+  background-color: #F8F8F8;
+  border-collapse: collapse;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  text-align: left;
+  width: 100%;
+}
+
+.sponsor-table strong {
+  color: #1C3C5A;
+}
+
+.sponsor-table th {
+  border-bottom: solid 1px #D7D7D7;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  padding: 1.5rem;
+  text-transform: uppercase;
+}
+
+.sponsor-table tr {
+  border-bottom: solid 1px #D7D7D7;
+  &:last-child {
+    border: none;
+  }
+}
+
+.sponsor-table td{
+  &:first-child {
+    font-weight: bold;
+  }
+  padding: 1rem 1.5rem;
+}
+
+.sponsor-table td:nth-child(even), .sponsor-table th:nth-child(even) {
+  background-color: #EEEFF2;
+}
+
+.sponsor-table td:nth-child(1n+2), .sponsor-table th:nth-child(1n+2) {
+  text-align: center;
+}
+
+.sponsor-extras-container p {
+  font-size: 1.2rem;
+}
+
+.sponsor-extras-container {
+  padding-top: 10px;
+}
+
+.sponsor-extras {
+  padding-top: 10px;
+}
+
+.sponsor-extras p {
+  padding-bottom: 10px;
+}
