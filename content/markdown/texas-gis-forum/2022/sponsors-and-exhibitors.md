@@ -8,19 +8,17 @@ intro: true
 ---
 <section class="intro">
   <p class="lead">TNRIS is pleased to invite you to participate in our <strong>2022 Texas GIS Forum</strong> in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
-  <!-- <p class="lead">After you've looked over the sponsor rules and regulations, click the button below to register as a sponsor.</p> -->
-
-  <p class="lead">Registration has not been opened yet. <a href="https://twitter.com/tnris">Follow our Twitter</a> for updates.</p>
+ <p class="lead">After you've looked over the sponsor rules and regulations, click the button below to register as a sponsor.</p>
 
   <div class="sponsor-cta-container">
     <a class="button-secondary"  
       href="https://cdn.tnris.org/documents/Rules and Regulations 2022.pdf">
       <i class="fa fa-file"></i>Sponsor Rules &amp; Regulations
     </a>
-   <!-- <a class="button-primary" 
-     href="https://events.eply.com/2019GISForumSponsorshipApplication2969304">
+   <a class="button-primary" 
+     href="https://events.eply.com/2022GISForumSponsorApplication">
      <i class="fa fa-pencil" aria-hidden="true"></i> Become a Sponsor 
-    </a> -->
+    </a>
   </div>
 </section>
 
@@ -96,7 +94,7 @@ intro: true
   </table>
   <div class="sponsor-opportunities">
     <h2 class="forum-2022-h2">Sponsor Opportunities</h2>
-    <p>Sponsorhsip Levels are acheived by sponsoring one or more of the following items:</p>
+    <p>Sponsorhsip Levels are achieved by sponsoring one or more of the following items:</p>
     <h3 class="forum-2022-h3">Name Badge Lanyard Sponsor</h3>
     <h4 class="forum-2022-h4">$5,500 | <b>Exclusive</b></h4>
     <p>Place your company logo on nametag holders that will be worn by each attendee for the duration of the Forum. TNRIS/GIS Forum management will work with the sponsor to select the badges. TNRIS/GIS Forum will produce the badges and will be responsible for the purchase of the badges.</p>
