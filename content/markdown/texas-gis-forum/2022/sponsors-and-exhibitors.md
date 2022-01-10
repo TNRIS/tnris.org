@@ -94,7 +94,7 @@ intro: true
   </table>
   <div class="sponsor-opportunities">
     <h2 class="forum-2022-h2">Sponsor Opportunities</h2>
-    <p>Sponsorship Levels are achieved by sponsoring one or more of the following items:</p>
+    <p>Sponsorship Levels are accomplished by sponsoring one or more of the following items:</p>
     <h3 class="forum-2022-h3">Name Badge Lanyard Sponsor</h3>
     <h4 class="forum-2022-h4">$5,500 | <b>Exclusive</b></h4>
     <p>Place your company logo on nametag holders that will be worn by each attendee for the duration of the Forum. TNRIS/GIS Forum management will work with the sponsor to select the badges. TNRIS/GIS Forum will produce the badges and will be responsible for the purchase of the badges.</p>
