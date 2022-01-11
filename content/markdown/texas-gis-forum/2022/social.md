@@ -3,7 +3,7 @@ layout: events/texas-gis-forum/2022/sub.njk
 title: Forum Social at The Oasis on Lake Travis
 subtitle: March 8-11, 2022| Austin, Texas
 mainimage: https://cdn.tnris.org/images/2022-forum-hero.jpg
-mainimagesm: https://cdn.tnris.org/images/stay-tuned-small-box.jpg
+mainimagesm: https://cdn.tnris.org/images/2022-forum-hero.jpg
 bodyClass: forum-sub-2017
 intro: false
 abstract: Save the date for the Texas GIS Forum, the state's premier conference for the geospatial professional community.
