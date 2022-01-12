@@ -46,39 +46,44 @@
 //TYPOGRAPHY//
 
 .forum-2022-h1 {
-  color: #1C3C5A;
-  font-family: proxima-nova, sans-serif;
-  font-size: 44px;
+  color: black;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
   letter-spacing: .05rem;
-  padding-top: 60px;
-  text-transform: uppercase;
 }
 
 .forum-2022-h2 {
-  color: #F14A45;
-  font-family: proxima-nova, sans-serif;
-  font-size: 22px;
-  font-weight: 500;
+  color: black;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
   letter-spacing: .05rem;
   padding-top: 0px 15px;
-  text-transform: uppercase;
 }
 
 .forum-2022-h3 {
-  color: #000;
-  font-family: "Roboto Condensed", sans-serif;
+  color: #494647;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 500;
 
 }
 
 .forum-2022-h4 {
   color:#222;
-  font-family: proxima-nova, sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: .05rem;
   text-transform: uppercase;
+}
+
+.lead, p {
+  color:#222;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem; 
+  font-weight: 400;
 }
 
 //BUTTONS//
@@ -86,15 +91,16 @@
 .button-secondary, .button-primary, .button-disabled {
   align-items: center;
   border: 1px solid black;
+  border-radius: 5px;
   display: inline-block;
+  font-family: 'DM Sans', sans-serif;
   margin-right: 30px;
-  padding: 15px 20px;
+  padding: 10px 30px;
 }
 
 .button-primary {
   background-color: #F14A45;
   border: solid 1px #F14A45;
-  border-radius: 8px;
   color: white;
 }
 
@@ -112,7 +118,6 @@
 .button-secondary {
   background-color: white;
   border: solid 2px #F14A45;
-  border-radius: 8px;
   color: #F14A45;
 }
 
@@ -130,14 +135,12 @@
 .button-disabled {
   background-color: #D4D4D4;
   border: solid 2px #D4D4D4;
-  border-radius: 8px;
   color: #575757;
 }
 
 .button-disabled:hover {
   background-color: #D4D4D4;
   border: solid 2px #D4D4D4;
-  border-radius: 8px;
   color: #575757;
   cursor: not-allowed;
   text-decoration: none;
@@ -149,16 +152,18 @@
 .forum-2022-nav {
   background-color: white;
   border-bottom: solid .75px #D7D7D7;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 300;
   letter-spacing: .05rem;
 }
 
 .forum-2022-nav ul {
-  padding: 0;
+  display: flex;
+  justify-content: right;
   list-style-type: none;
   margin: 0 auto;
   max-width: 1140px;
+  padding: 0;
 }
 
 .forum-2022-nav li {
@@ -167,30 +172,44 @@
 }
 
 .forum-2022-nav a{
-  color: #1C3C5A;
+  color: #494647;
   display: inline-block;
-  padding: 15px 30px;
+  padding: 15px 15px;
   text-align: center;
 }
 
 .forum-2022-nav a:hover{
+  color: #494647;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.forum-2022-nav .active a {
+  color: #F14A45;
+  font-weight: 500;
+}
+
+.forum-2022-nav .active a:hover {
   color: #F14A45;
   font-weight: 500;
   text-decoration: underline;
 }
 
-.forum-2022-nav .active a {
-  background-color: #1C3C5A;
-  color: white;
-}
-
-.forum-2022-nav .active a:hover {
-  background-color: #1C3C5A;
-  color: white;
-  text-decoration: underline;
-}
-
 //MAIN ELEMENTS//
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .intro {
+  max-width: 50%;
+}
+
+.hero h1 {
+  margin-top: 0;
+  padding-top: 0;
+}
 
 .intro {
   padding-top: 0;
@@ -280,6 +299,10 @@
 .sponsor-opportunities p {
   padding-bottom: 20px;
 }
+
+.sponsor-opportunities .greyed {
+  color: #726E6F;
+} 
 
 .sponsor-opportunities b {
   color: #F14A45;
