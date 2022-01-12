@@ -6,6 +6,13 @@ mainimage: https://cdn.tnris.org/images/2022-forum-hero.jpg
 mainimagesm: https://cdn.tnris.org/images/2022-forum-hero.jpg
 intro: true
 ---
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+
 <section class="intro">
   <p class="lead">TNRIS is pleased to invite you to participate in our <strong>2022 Texas GIS Forum</strong> in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
  <p class="lead">After you've looked over the sponsor rules and regulations, click the button below to register as a sponsor.</p>
@@ -96,7 +103,7 @@ intro: true
     <h2 class="forum-2022-h2">Sponsor Opportunities</h2>
     <p>Sponsorship Levels are accomplished by sponsoring one or more of the following items:</p>
     <h3 class="forum-2022-h3">Name Badge Lanyard Sponsor</h3>
-    <h4 class="forum-2022-h4">$5,500 | <b>Exclusive</b></h4>
+    <h4 class="forum-2022-h4">$5,500 | <span class="greyed"><strike>Exclusive</strike>  Sold out</span></h4>
     <p>Place your company logo on nametag holders that will be worn by each attendee for the duration of the Forum. TNRIS/GIS Forum management will work with the sponsor to select the badges. TNRIS/GIS Forum will produce the badges and will be responsible for the purchase of the badges.</p>
     <h3 class="forum-2022-h3">Tote Bag Sponsor</h3>
     <h4 class="forum-2022-h4">$5,500 | <b>Exclusive</b></h4>
