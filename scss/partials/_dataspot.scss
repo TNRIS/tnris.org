@@ -13,7 +13,7 @@
     bottom: -5px !important;
 
     li {
-      border-radius: 0;
+      border-radius: 25px;
       height: 18px;
       width: 18px;
 
@@ -242,6 +242,10 @@
 .carousel-caption {
   text-shadow: 3px 3px 8px #000000;
   position: sticky;
+}
+
+.carousel-caption p {
+  color: white;
 }
 
 .carousel-inner {
