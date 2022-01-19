@@ -29,17 +29,14 @@
 
 
 {% block contentsOne %}
-  <div class="pt-4 container-md mx-auto row">
+  <div class="pt-4 container-md mx-auto">
       {{contents|safe}}
   </div>
 {% endblock %}
 
-{% block contentsTwo %}
-  <hr>
-  <section>
-    <div class="container-md">
-      {% include "events/texas-gis-forum/2022/map.njk" %}
-    </div>
-  </section>
 
+{% block contentsTwo %}
+<section class="forum-sponsors">
+  {% include "events/texas-gis-forum/2022/sponsors.njk" %}
+</section>
 {% endblock %}

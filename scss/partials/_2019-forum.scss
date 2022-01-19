@@ -46,11 +46,13 @@
 //TYPOGRAPHY//
 
 .forum-2022-h1 {
+  border-bottom: solid 3px #84E0F4;
   color: black;
   font-family: 'DM Sans', sans-serif;
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: .05rem;
+  padding: 40px 0px 5px;
 }
 
 .forum-2022-h2 {
@@ -59,7 +61,7 @@
   font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: .05rem;
-  padding-top: 0px 15px;
+  padding-top: 15px;
 }
 
 .forum-2022-h3 {
@@ -71,7 +73,7 @@
 }
 
 .forum-2022-h4 {
-  color:#222;
+  color: black;
   font-family: 'DM Sans', sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -152,12 +154,13 @@
 .forum-2022-nav {
   background-color: white;
   border-bottom: solid .75px #D7D7D7;
-  font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.1rem;
   font-weight: 300;
-  letter-spacing: .05rem;
 }
 
 .forum-2022-nav ul {
+  align-items: center;
   display: flex;
   justify-content: right;
   list-style-type: none;
@@ -198,6 +201,7 @@
 //MAIN ELEMENTS//
 
 .hero {
+  align-items: center;
   display: flex;
   justify-content: space-between;
 }
@@ -206,9 +210,35 @@
   max-width: 50%;
 }
 
+.intro-cta {
+  margin: 0 auto;
+  text-align: center;
+  width: 30%;
+}
+
+@media only screen and (max-width: 990px) {
+  .hero {
+    display: inline-block;
+  }
+  
+  .hero .intro {
+    max-width: 100%;
+  }
+
+  .intro-cta {
+    margin: 0 0 30px 0;
+    width: 100%;
+  }
+}
+
 .hero h1 {
-  margin-top: 0;
+  margin: 0 0 10px 0;
   padding-top: 0;
+}
+
+.hero .button-primary {
+  margin-right: 0;
+  width: 100%;
 }
 
 .intro {
@@ -218,18 +248,255 @@
 
 .presentation-call {
   align-items: center;
+  border: solid 1px #D7D7D7;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #d3d3d3;
+  margin: 30px auto 80px;
+  max-width: 60%;
+  padding: 10px 30px 20px;
+}
+
+@media only screen and (max-width: 990px) {
+  .presentation-call {
+    max-width: 100%;
+    padding: 20px;
+  }
+}
+
+.forum-2022-content-wrapper {
+  align-items: center;
   display: flex;
-  justify-content: left;
-  padding-top: 20px;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%
 }
 
-.presentation-image img {
-  border-radius: 50%;
-  max-width: 250px;
+.forum-2022-content {
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  box-shadow:inset 0 0 0 2000px rgba(61, 31, 31, 0.5);
+  color: white;
+  padding: 120px 0;
+  width: 350px;
 }
 
-.presentation-text {
-  padding-left: 60px;
+a:hover .forum-2022-content {
+  box-shadow:inset 0 0 0 2000px rgba(24, 19, 19, 0.8);
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 1200px) {
+  .forum-2022-content {
+    padding: 80px 10px;
+    width: 250px;
+  }
+
+  .keynote-content {
+    padding: 67px 10px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .forum-2022-content-wrapper {
+    display: inline-block;
+  }
+
+  .forum-2022-content {
+    margin: 10px auto;
+    padding: 60px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .forum-2022-content {
+    padding: 80px 10px;
+    width: 250px;
+  }
+
+  .keynote-content {
+    padding: 67px 10px;
+  }
+}
+
+.forum-2022-content h2 {
+color: white;
+text-shadow: 2px 2px 2px #444;
+}
+
+// AGENDA CONTENT //
+
+.agenda-content {
+  background-image: url("https://cdn.tnris.org/images/047_2019_forum.jpg");
+}
+
+.agenda-placeholder {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  color: gray;
+  margin: 100px auto 0;
+  padding: 40px 0px;
+  text-align: center;
+  width: 80%;
+}
+
+//KEYNOTE CONTENT//
+
+.keynote-content {
+  background-image: url("https://cdn.tnris.org/images/035_2019_forum.jpg");
+}
+
+section.keynote-speakers:after:first-child  {
+  margin: 0 auto;
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-template-columns: repeat(3, 256px);
+  grid-template-rows: repeat(12, 196px);
+  grid-gap: 16px;
+}
+
+.card {
+  border: none;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.vertical {
+  flex-direction: column;
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.horizontal {
+  flex-direction: row;
+  grid-row: span 1;
+  grid-column: span 2;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.horizontal .card__img {
+  max-width: 300px;
+}
+
+.vertical .card__img {
+  max-width: 300px;
+}
+.card__content {
+  padding: 15px 60px 15px;
+}
+
+.card__type {
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  opacity: 0.9;
+  color: #F14A45;
+  padding-bottom: 0.5em;
+}
+
+.card__title {
+  color: black;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: .05rem;
+}
+
+.card__excerpt {
+  font-size: 16px;
+  padding-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 990px) {
+  .card {
+    display: inline-block;
+  }
+
+  .card__content {
+    padding: 15px;
+  }
+}
+
+//PRICING CONTENT//
+
+.pricing-content {
+  background-image: url("https://cdn.tnris.org/images/forum_2017_36.jpg");
+}
+
+.pricing-item {
+  align-items: center;
+  border: solid 1px #d7d7d7;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #d7d7d7;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+
+  p {
+    margin-bottom: 0;
+  }
+
+}
+
+.pricing-table {
+  border-collapse: separate;
+  border-radius: 5px;
+  border-spacing: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.pricing-table-container h2 {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 650px) {
+  .pricing-table-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .pricing-list {
+    display: none;
+  }
+}
+
+.pricing-table strong {
+  color: #1C3C5A;
+}
+
+.pricing-table th {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+
+  strong {
+    color: #F14A45;
+  }
+
+}
+
+.pricing-table td{
+  padding: 1rem 1.5rem;
+  
+  &:first-child {
+    font-weight: bold;
+  }
+  
+  &:nth-child(1n+2) {
+    border: solid 1px #D7D7D7;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #d7d7d7;
+  }
+
 }
 
 //SPONSOR PAGE//
@@ -306,4 +573,18 @@
 
 .sponsor-opportunities b {
   color: #F14A45;
+}
+
+.sponsor-logos {
+
+  .forum-2022-h2 {
+    padding: 50px 0px 25px;
+  }
+
+}
+
+// LOCATION INFO PAGE //
+
+.covid {
+  margin-top: 100px;
 }
