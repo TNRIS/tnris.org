@@ -334,11 +334,156 @@ text-shadow: 2px 2px 2px #444;
 .agenda-placeholder {
   background-color: #f8f8f8;
   border-radius: 8px;
-  color: gray;
-  margin: 100px auto 0;
-  padding: 40px 0px;
+  margin: 0 auto;
+  padding: 40px;;
   text-align: center;
-  width: 80%;
+  width: 100%;
+
+  p {
+    color: gray;
+    margin-bottom: 0;
+  }
+}
+
+.tab-wrapper{
+  display:flex;
+  flex-direction: column;
+  font-family: 'DM Sans', sans-serif;
+  position: relative;
+}
+
+.tab{
+  align-items: center;
+  cursor: pointer;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+
+  .tab {
+    display:flex;
+  flex-direction: column;
+  }
+
+  .panel .button-primary {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+.panels{
+  padding: 20px;
+  width:100%;
+}
+.panel{
+  display:none;
+  animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-title{
+  font-size:1.5em;
+  font-weight:bold
+}
+.radio{
+  display:none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel,
+#four:checked ~ .panels #four-panel{
+  display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab,
+#four:checked ~ .tabs #four-tab{
+  background:#fffffff6;
+  color:#000;
+  border-bottom: 3px solid #A379C9;
+}
+
+.agenda-item-wrapper {
+  border: solid 1px #d7d7d7;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #d7d7d7;
+  margin: 20px;
+  padding: 25px;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  b {
+    color: #F14A45;
+  }
+
+
+}
+
+.agenda-item {
+  border-bottom: solid 1px #d7d7d7;
+  padding-bottom: 20px;
+
+  &:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+}
+
+details {
+  padding-top: 10px;
+  user-select: none;
+
+  p {
+    padding-top: 20px;
+  }
+}
+
+details>summary span {
+  transition: all 0.3s;
+}
+
+span.open {
+  display: none;
+}
+
+details[open] summary {
+  span.open {
+    display: inline;
+  }
+
+  span.closed {
+    display: none;
+  }
+}
+
+summary {
+  cursor: pointer;
+  display: flex;
+}
+
+summary::-webkit-details-marker {
+  display: none;
 }
 
 //KEYNOTE CONTENT//
@@ -421,6 +566,16 @@ section.keynote-speakers:after:first-child  {
   }
 }
 
+@media only screen and (max-width: 350px) {
+  .horizontal .card__img {
+    max-width: 200px;
+  }
+
+  .vertical .card__img {
+    max-width: 200px;
+  }
+}
+
 //PRICING CONTENT//
 
 .pricing-content {
@@ -439,6 +594,15 @@ section.keynote-speakers:after:first-child  {
 
   p {
     margin-bottom: 0;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+  .pricing-container .button-primary {
+    display: flex;
+    justify-content: center;
   }
 
 }
@@ -579,6 +743,10 @@ section.keynote-speakers:after:first-child  {
 
   .forum-2022-h2 {
     padding: 50px 0px 25px;
+  }
+
+  img {
+    max-width: 300px;
   }
 
 }

@@ -55,19 +55,209 @@ buttontext: Register Now!
 
 <section id="agenda">
 <h1 class="forum-2022-h1">Agenda</h1>
-<div class="agenda-placeholder">
-  Schedule not posted. Please check back later.
+
+<div class="tab-wrapper">
+  <input class="radio" id="one" name="group" type="radio" checked>
+  <input class="radio" id="two" name="group" type="radio">
+  <input class="radio" id="three" name="group" type="radio">
+  <input class="radio" id="four" name="group" type="radio">
+  <div class="tabs">
+    <label class="tab" id="one-tab" for="one">Mar 08</label>
+    <label class="tab" id="two-tab" for="two">Mar 09</label>
+    <label class="tab" id="three-tab" for="three">Mar 10</label>
+    <label class="tab" id="four-tab" for="four">Mar 11</label>
+  </div>
+  <div class="panels">
+    <div class="panel" id="one-panel">
+      <a class="button-primary" 
+        href="https://events.eply.com/2022GISForumSponsorApplication">
+        Register Now</a>
+      <h2 class="forum-2022-h2">Pre-Conference Workshops</h2>
+      <div class="agenda-item-wrapper">
+        <p><b>8:00am - 12:00pm</b></p>
+        <div class="agenda-item">
+          <h3 class="forum-2022-h3">3-D Mapping with Point Cloud</h3>
+          <p><strong>Sean Moran</strong> | ACC</p>
+          <!--<details>
+            <summary>
+              <span class="closed">Expand details  +</span>
+              <span class="open">Minimize details  -</span>
+            </summary>
+            <p>
+              Information about workshop information
+            </p>
+          </details>-->
+        </div>
+        <div class="agenda-item">
+          <h3 class="forum-2022-h3">ArcGIS Experience Builder</h3>
+          <p><strong>Kathleen Clancy</strong> | Esri</p>
+          <!--<details>
+            <summary>
+              <span class="closed">Expand details  +</span>
+              <span class="open">Minimize details  -</span>
+            </summary>
+            <p>
+              Information about workshop information
+            </p>
+          </details>-->
+        </div>
+        <div class="agenda-item">
+          <h3 class="forum-2022-h3">ArcGIS Notebooks</h3>
+          <p><strong>Joseph Bowles</strong> | Esri</p>
+          <!--<details>
+            <summary>
+              <span class="closed">Expand details  +</span>
+              <span class="open">Minimize details  -</span>
+            </summary>
+            <p>
+              Information about workshop information
+            </p>
+          </details>-->
+        </div>
+        <div class="agenda-item">
+          <h3 class="forum-2022-h3">Getting Started with Lidar</h3>
+          <p><strong>Joey Thomas</strong> | TNRIS</p>
+          <!--<details>
+            <summary>
+              <span class="closed">Expand details  +</span>
+              <span class="open">Minimize details  -</span>
+            </summary>
+            <p>
+              Information about workshop information
+            </p>
+          </details>-->
+        </div>
+        <div class="agenda-item">
+          <h3 class="forum-2022-h3">Introduction to ModelBuilder for ArcGIS Pro</h3>
+          <p><strong>Jennifer Harrison</strong> | TeachMeGIS</p>
+          <!--<details>
+            <summary>
+              <span class="closed">Expand details  +</span>
+              <span class="open">Minimize details  -</span>
+            </summary>
+            <p>
+              Information about workshop information
+            </p>
+          </details>-->
+        </div>
+        <div class="agenda-item">
+          <h3 class="forum-2022-h3">The American Community Survey and New 2020 Statistical Geography</h3>
+          <p><strong>Lacey Loftin</strong> | US Census Bureau</p>
+          <!--<details>
+            <summary>
+              <span class="closed">Expand details  +</span>
+              <span class="open">Minimize details  -</span>
+            </summary>
+            <p>
+              Information about workshop information
+            </p>
+          </details>-->
+        </div>
+      </div>
+      <div class="agenda-item-wrapper">
+        <p><b>1:00pm - 5:00pm</b></p>
+        <div class="agenda-item">
+          <h3 class="forum-2022-h3">ArcGIS Field Maps</h3>
+          <p><strong>Laura Chapa</strong> | Esri</p>
+          <!--<details>
+            <summary>
+              <span class="closed">Expand details  +</span>
+              <span class="open">Minimize details  -</span>
+            </summary>
+            <p>
+              Information about workshop information
+            </p>
+          </details>-->
+        </div>
+        <div class="agenda-item">
+          <h3 class="forum-2022-h3">ArcGIS Pro - Creating Map Books with Map Series</h3>
+          <p><strong>Eric Pimpler</strong> | GeoSpatial Training Services</p>
+          <!--<details>
+            <summary>
+              <span class="closed">Expand details  +</span>
+              <span class="open">Minimize details  -</span>
+            </summary>
+            <p>
+              Information about workshop information
+            </p>
+          </details>-->
+        </div>
+        <div class="agenda-item">
+          <h3 class="forum-2022-h3">ArcGIS Survey123</h3>
+          <p><strong>Zena Pelletier</strong> | Esri</p>
+          <!--<details>
+            <summary>
+              <span class="closed">Expand details  +</span>
+              <span class="open">Minimize details  -</span>
+            </summary>
+            <p>
+              Information about workshop information
+            </p>
+          </details>-->
+        </div>
+        <div class="agenda-item">
+          <h3 class="forum-2022-h3">Introduction to Automating ETL: Data Mangling through the Interoperability Lense</h3>
+          <p><strong>Stephanie Long</strong> | ACC</p>
+          <!--<details>
+            <summary>
+              <span class="closed">Expand details  +</span>
+              <span class="open">Minimize details  -</span>
+            </summary>
+            <p>
+              Information about workshop information
+            </p>
+          </details>-->
+        </div>
+        <div class="agenda-item">
+          <h3 class="forum-2022-h3">Introduction to Editing in ArcGIS Pro</h3>
+          <p><strong>Jennifer Harrison</strong> | TeachMeGIS</p>
+          <!--<details>
+            <summary>
+              <span class="closed">Expand details  +</span>
+              <span class="open">Minimize details  -</span>
+            </summary>
+            <p>
+              Information about workshop information
+            </p>
+          </details>-->
+        </div>
+        <div class="agenda-item">
+          <h3 class="forum-2022-h3">Processing the 2020 Census PL 94-171 Data Release</h3>
+          <p><strong>James Castagneri</strong> | US Census Bureau</p>
+          <!--<details>
+            <summary>
+              <span class="closed">Expand details  +</span>
+              <span class="open">Minimize details  -</span>
+            </summary>
+            <p>
+              Information about workshop information
+            </p>
+          </details>-->
+        </div>
+      </div>
+    </div>
+    <div class="panel agenda-placeholder" id="two-panel">
+      <p>Schedule not posted. Please check back later.</p>
+    </div>
+    <div class="panel agenda-placeholder" id="three-panel">
+      <p>Schedule not posted. Please check back later.</p>
+    </div>
+    <div class="panel agenda-placeholder" id="four-panel">
+      <p>Schedule not posted. Please check back later.</p>
+    </div>
+  </div>
 </div>
+
 </section>
 <section id="pricing" class="pricing-container">
   <h1 class="forum-2022-h1">Pricing</h1>
   <p>The Forum will begin with one day of Pre-Conference Workshops, followed by two and a half days of sessions. Conference passes include all sessions and meals provided on the purchased day(s). Pre-Conference Workshop passes are sold separately and do not include Conference sessions or meals. The Evening Social event will be held on Wednesday, March 09.
   </p>
-  <!-- <div>
+  <div>
       <a class="button-primary" 
       href="https://events.eply.com/2022GISForumSponsorApplication">
-      Register</a>
-  </div> -->
+      Register Now</a>
+  </div>
   
   <div class="pricing-list">
     <h2 class="forum-2022-h2">Full Conference Registration</h2>
@@ -81,14 +271,14 @@ buttontext: Register Now!
     </div>
   <div class="pricing-item">
       <div>
-        <h4 class="forum-2022-h4">Standard</h4>
+        <h4 class="forum-2022-h4">Regular</h4>
         <p>2/19/22 - 2/28/22</p>
       </div>
       <p>$395</p>
     </div>
     <div class="pricing-item">
       <div>
-        <h4 class="forum-2022-h4">On-Site</h4>
+        <h4 class="forum-2022-h4">Late/On-Site</h4>
         <p>3/1/22 - 3/11/22</p>
       </div>
       <p>$495</p>
@@ -103,14 +293,14 @@ buttontext: Register Now!
     </div>
     <div class="pricing-item">
       <div>
-        <h4 class="forum-2022-h4">Standard</h4>
+        <h4 class="forum-2022-h4">Regular</h4>
         <p>2/19/22 - 2/28/22</p>
       </div>
       <p>$475</p>
     </div>
     <div class="pricing-item">
       <div>
-        <h4 class="forum-2022-h4">On-Site</h4>
+        <h4 class="forum-2022-h4">Late/On-Site</h4>
         <p>3/1/22 - 3/11/22</p>
       </div>
       <p>$525</p>
