@@ -42,12 +42,12 @@ buttontext: Register Now!
   <div class="horizontal card">
     <img class="card__img" src="https://cdn.tnris.org/images/mark_mccoy_headshot.jpeg" alt="Mark McCoy"class="card__image">
     <div class="card__content">
-      <div class="card__type">KeyNote Speaker</div>
+      <div class="card__type">KeyNote Speaker - Thu, Mar 10</div>
       <div class="card__title">
         Mark McCoy
       </div>
       <div class="card__excerpt">
-        <p>Professor Mark McCoy is a landscape archaeologist whose research centers on the development of ancient political economies and human ecodynamics. His expertise is in geospatial archaeology and his regional focus is the islands of the Pacific (<a href="https://people.smu.edu/mdmccoy/">source</a>).</p>
+        <p>Professor Mark McCoy is a landscape archaeologist whose research centers on the development of ancient political economies and human ecodynamics. His book "Maps for Time Travelers: How Archaeologists Use Technology to Bring Us Closer to the Past" tells the story of how geospatial technology is revolutionizing archaeology. (<a href="https://people.smu.edu/mdmccoy/">source</a>).</p>
       </div>
     </div>
   </div>
@@ -321,14 +321,14 @@ buttontext: Register Now!
     </div>
     <div class="pricing-item">
       <div>
-        <h4 class="forum-2022-h4">Standard</h4>
+        <h4 class="forum-2022-h4">Regular</h4>
         <p>2/19/22 - 2/28/22</p>
       </div>
       <p>$300</p>
     </div>
   <div class="pricing-item">
       <div>
-        <h4 class="forum-2022-h4">On-Site</h4>
+        <h4 class="forum-2022-h4">Late/On-Site</h4>
         <p>3/1/22 - 3/11/22</p>
       </div>
       <p>$325</p>
@@ -343,14 +343,14 @@ buttontext: Register Now!
     </div>
     <div class="pricing-item">
       <div>
-        <h4 class="forum-2022-h4">Standard</h4>
+        <h4 class="forum-2022-h4">Regular</h4>
         <p>2/19/22 - 2/28/22</p>
       </div>
       <p>$325</p>
     </div>
     <div class="pricing-item">
       <div>
-        <h4 class="forum-2022-h4">On-Site</h4>
+        <h4 class="forum-2022-h4">Late/On-Site</h4>
         <p>3/1/22 - 3/11/22</p>
       </div>
       <p>$350</p>
@@ -367,15 +367,15 @@ buttontext: Register Now!
       <p>$150</p>
     </div>
   </div>
-  <div class="pricing-table-container">
+  <div aria-hidden="true" class="pricing-table-container">
     <table class="pricing-table">
       <h2 class="forum-2022-h2">Full Conference Registration</h2>
       <thead>
         <tr>
           <th></th>
           <th><strong>Early Bird</strong><br>thru 2/18</th>       
-          <th><strong>Standard</strong><br>2/19 - 2/28</th>
-          <th><strong>On-Site</strong><br>3/1 - 3/11</th>
+          <th><strong>Regular</strong><br>2/19 - 2/28</th>
+          <th><strong>Late/On-Site</strong><br>3/1 - 3/11</th>
         </tr>
       </thead>
       <tbody>
@@ -403,8 +403,8 @@ buttontext: Register Now!
         <tr>
           <th></th>
           <th><strong>Early Bird</strong><br>thru 2/18</th>       
-          <th><strong>Standard</strong><br>2/19 - 2/28</th>
-          <th><strong>On-Site</strong><br>3/1 - 3/11</th>
+          <th><strong>Regular</strong><br>2/19 - 2/28</th>
+          <th><strong>Late/On-Site</strong><br>3/1 - 3/11</th>
         </tr>
       </thead>
       <tbody>
