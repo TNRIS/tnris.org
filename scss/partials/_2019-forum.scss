@@ -46,11 +46,13 @@
 //TYPOGRAPHY//
 
 .forum-2022-h1 {
+  border-bottom: solid 3px #84E0F4;
   color: black;
   font-family: 'DM Sans', sans-serif;
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: .05rem;
+  padding: 40px 0px 5px;
 }
 
 .forum-2022-h2 {
@@ -59,7 +61,7 @@
   font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: .05rem;
-  padding-top: 0px 15px;
+  padding-top: 15px;
 }
 
 .forum-2022-h3 {
@@ -71,7 +73,7 @@
 }
 
 .forum-2022-h4 {
-  color:#222;
+  color: black;
   font-family: 'DM Sans', sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -88,7 +90,7 @@
 
 //BUTTONS//
 
-.button-secondary, .button-primary, .button-disabled {
+.button {
   align-items: center;
   border: 1px solid black;
   border-radius: 5px;
@@ -98,47 +100,47 @@
   padding: 10px 30px;
 }
 
-.button-primary {
+.primary {
   background-color: #F14A45;
   border: solid 1px #F14A45;
   color: white;
 }
 
-.button-primary:hover {
+.primary:hover {
   color: white;
   text-decoration: underline;
 }
 
-.button-primary i {
+.primary i {
   color: white;
   padding-right: 10px;
   text-decoration: none;
 }
 
-.button-secondary {
+.secondary {
   background-color: white;
   border: solid 2px #F14A45;
   color: #F14A45;
 }
 
-.button-secondary:hover {
+.secondary:hover {
   color: #F14A45;
   text-decoration: underline;
 }
 
-.button-secondary i {
+.secondary i {
   color: #F14A45;
   padding-right: 10px;
   text-decoration: none;
 }
 
-.button-disabled {
+.disabled {
   background-color: #D4D4D4;
   border: solid 2px #D4D4D4;
   color: #575757;
 }
 
-.button-disabled:hover {
+.disabled:hover {
   background-color: #D4D4D4;
   border: solid 2px #D4D4D4;
   color: #575757;
@@ -152,12 +154,13 @@
 .forum-2022-nav {
   background-color: white;
   border-bottom: solid .75px #D7D7D7;
-  font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.1rem;
   font-weight: 300;
-  letter-spacing: .05rem;
 }
 
 .forum-2022-nav ul {
+  align-items: center;
   display: flex;
   justify-content: right;
   list-style-type: none;
@@ -198,6 +201,7 @@
 //MAIN ELEMENTS//
 
 .hero {
+  align-items: center;
   display: flex;
   justify-content: space-between;
 }
@@ -206,9 +210,34 @@
   max-width: 50%;
 }
 
+.intro-cta {
+  text-align: center;
+  width: 30%;
+}
+
+@media only screen and (max-width: 990px) {
+  .hero {
+    display: inline-block;
+  }
+  
+  .hero .intro {
+    max-width: 100%;
+  }
+
+  .intro-cta {
+    margin: 0 0 30px 0;
+    width: 100%;
+  }
+}
+
 .hero h1 {
-  margin-top: 0;
+  margin: 0 0 10px 0;
   padding-top: 0;
+}
+
+.hero .primary {
+  margin-right: 0;
+  width: 100%;
 }
 
 .intro {
@@ -218,18 +247,456 @@
 
 .presentation-call {
   align-items: center;
+  border: solid 1px #D7D7D7;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #d3d3d3;
+  margin: 30px auto 80px;
+  max-width: 60%;
+  padding: 10px 30px 20px;
+}
+
+@media only screen and (max-width: 990px) {
+  .presentation-call {
+    max-width: 100%;
+    padding: 20px;
+  }
+}
+
+.forum-2022-content-wrapper {
+  align-items: center;
   display: flex;
-  justify-content: left;
-  padding-top: 20px;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%
 }
 
-.presentation-image img {
-  border-radius: 50%;
+.forum-2022-content {
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  box-shadow:inset 0 0 0 2000px rgba(61, 31, 31, 0.5);
+  color: white;
+  padding: 120px 0;
+  width: 350px;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+a:hover .forum-2022-content {
+  box-shadow:inset 0 0 0 2000px rgba(24, 19, 19, 0.8);
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 1200px) {
+  .forum-2022-content {
+    padding: 80px 10px;
+    width: 250px;
+  }
+
+  .keynote-content {
+    padding: 67px 10px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .forum-2022-content-wrapper {
+    display: inline-block;
+  }
+
+  .forum-2022-content {
+    margin: 10px auto;
+    padding: 60px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .forum-2022-content {
+    padding: 80px 10px;
+    width: 250px;
+  }
+
+  .keynote-content {
+    padding: 67px 10px;
+  }
+}
+
+.forum-2022-content h2 {
+color: white;
+text-shadow: 2px 2px 2px #444;
+}
+
+.card {
+  border: none;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 75px;
+
+  img {
+    object-fit:cover;
+  }
+}
+
+.vertical {
+  flex-direction: column;
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.horizontal {
+  align-items: center;
+  flex-direction: row;
+  grid-row: span 1;
+  grid-column: span 2;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+
+  .card__content {
+    padding: 15px 60px 15px 0;
+  }
+}
+
+.card__content {
+  padding: 15px 0 15px 60px;
+}
+
+.card__type {
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  opacity: 0.9;
+  color: #F14A45;
+  padding-bottom: 0.5em;
+}
+
+.card__title {
+  color: black;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: .05rem;
+}
+
+.card__excerpt {
+  font-size: 16px;
+  padding-bottom: 0.5em;
+}
+
+.card__img {
+  border-radius: 50px;
   max-width: 250px;
+  max-height: 250px;
+  object-fit: cover;
 }
 
-.presentation-text {
-  padding-left: 60px;
+@media only screen and (max-width: 990px) {
+  .card {
+    display: inline-block;
+    padding-top: 25px;
+  }
+
+  .card__content {
+    padding: 15px;
+  }
+
+  .card__img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (max-width: 350px) {
+  .card__img {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+}
+
+// AGENDA CONTENT //
+
+.agenda-content {
+  background-image: url("https://cdn.tnris.org/images/047_2019_forum.jpg");
+}
+
+.agenda-placeholder {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 40px;;
+  text-align: center;
+  width: 100%;
+
+  p {
+    color: gray;
+    margin-bottom: 0;
+  }
+}
+
+.tab-wrapper{
+  display:flex;
+  flex-direction: column;
+  font-family: 'DM Sans', sans-serif;
+  position: relative;
+}
+
+.tab{
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px 15px;
+}
+
+@media only screen and (max-width: 550px) {
+
+  .tab {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .panel .primary {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+.panels{
+  padding: 20px;
+  width:100%;
+}
+.panel{
+  display:none;
+  animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-title{
+  font-size:1.5em;
+  font-weight:bold
+}
+.radio{
+  display:none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel,
+#four:checked ~ .panels #four-panel{
+  display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab,
+#four:checked ~ .tabs #four-tab{
+  background:black;
+  color:white;
+}
+
+.agenda-item-wrapper {
+  border: solid 1px #d7d7d7;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #d7d7d7;
+  margin: 20px;
+  padding: 25px 25px 0;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  b {
+    color: #F14A45;
+  }
+
+
+}
+
+.agenda-item {
+  border-bottom: solid 1px #d7d7d7;
+
+  &:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .card {
+    padding: 20px 0;
+  }
+
+}
+
+details {
+  padding-top: 10px;
+  user-select: none;
+
+  h4 {
+    margin-top: 30px;
+  }
+
+  .card__title {
+    font-size: 1.2rem;
+  }
+
+  .card__img {
+    max-width: 150px;
+  }
+
+}
+
+details>summary span {
+  transition: all 0.3s;
+}
+
+span.open {
+  display: none;
+}
+
+details[open] summary {
+  span.open {
+    color: #F14A45;
+    display: inline;
+    font-weight: bold;
+  }
+
+  span.closed {
+    display: none;
+  }
+}
+
+summary {
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+//KEYNOTE CONTENT//
+
+.keynote-content {
+  background-image: url("https://cdn.tnris.org/images/035_2019_forum.jpg");
+}
+
+
+section.keynote-speakers:after:first-child  {
+  margin: 0 auto;
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-template-columns: repeat(3, 256px);
+  grid-template-rows: repeat(12, 196px);
+  grid-gap: 16px;
+}
+
+//PRICING CONTENT//
+
+.pricing-content {
+  background-image: url("https://cdn.tnris.org/images/forum_2017_36.jpg");
+}
+
+.pricing-item {
+  align-items: center;
+  border: solid 1px #d7d7d7;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #d7d7d7;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+
+  p {
+    margin-bottom: 0;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+  .pricing-container .primary {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+.pricing-table {
+  border-collapse: separate;
+  border-radius: 5px;
+  border-spacing: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.pricing-table-container h2 {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 650px) {
+  .pricing-table-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .pricing-list {
+    display: none;
+  }
+}
+
+.pricing-table strong {
+  color: #1C3C5A;
+}
+
+.pricing-table th {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+
+  strong {
+    color: #F14A45;
+  }
+
+}
+
+.pricing-table td{
+  padding: 1rem 1.5rem;
+  
+  &:first-child {
+    font-weight: bold;
+  }
+  
+  &:nth-child(1n+2) {
+    border: solid 1px #D7D7D7;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #d7d7d7;
+  }
+
 }
 
 //SPONSOR PAGE//
@@ -238,6 +705,16 @@
   display: flex;
   padding-top: 40px;
 
+}
+
+@media only screen and (max-width: 650px) {
+  .sponsor-cta-container {
+    display: inline;
+  }
+
+  .sponsor-cta-container .button {
+    margin: 10px 0 5px;
+  }
 }
 
 .sponsor-levels {
@@ -306,4 +783,22 @@
 
 .sponsor-opportunities b {
   color: #F14A45;
+}
+
+.sponsor-logos {
+
+  .forum-2022-h2 {
+    padding: 50px 0px 25px;
+  }
+
+  img {
+    max-width: 300px;
+  }
+
+}
+
+// LOCATION INFO PAGE //
+
+.covid {
+  margin-top: 100px;
 }
