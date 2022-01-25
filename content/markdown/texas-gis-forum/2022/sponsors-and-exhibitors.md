@@ -18,11 +18,11 @@ intro: true
  <p class="lead">After you've looked over the sponsor rules and regulations, click the button below to register as a sponsor.</p>
 
   <div class="sponsor-cta-container">
-    <a class="button-secondary"  
+    <a class="button secondary"  
       href="https://cdn.tnris.org/documents/Rules and Regulations 2022.pdf">
       <i class="fa fa-file"></i>Sponsor Rules &amp; Regulations
     </a>
-   <a class="button-primary" 
+   <a class="button primary" 
      href="https://events.eply.com/2022GISForumSponsorApplication">
      <i class="fa fa-pencil" aria-hidden="true"></i>Become a Sponsor 
     </a>

@@ -90,7 +90,7 @@
 
 //BUTTONS//
 
-.button-secondary, .button-primary, .button-disabled {
+.button {
   align-items: center;
   border: 1px solid black;
   border-radius: 5px;
@@ -100,47 +100,47 @@
   padding: 10px 30px;
 }
 
-.button-primary {
+.primary {
   background-color: #F14A45;
   border: solid 1px #F14A45;
   color: white;
 }
 
-.button-primary:hover {
+.primary:hover {
   color: white;
   text-decoration: underline;
 }
 
-.button-primary i {
+.primary i {
   color: white;
   padding-right: 10px;
   text-decoration: none;
 }
 
-.button-secondary {
+.secondary {
   background-color: white;
   border: solid 2px #F14A45;
   color: #F14A45;
 }
 
-.button-secondary:hover {
+.secondary:hover {
   color: #F14A45;
   text-decoration: underline;
 }
 
-.button-secondary i {
+.secondary i {
   color: #F14A45;
   padding-right: 10px;
   text-decoration: none;
 }
 
-.button-disabled {
+.disabled {
   background-color: #D4D4D4;
   border: solid 2px #D4D4D4;
   color: #575757;
 }
 
-.button-disabled:hover {
+.disabled:hover {
   background-color: #D4D4D4;
   border: solid 2px #D4D4D4;
   color: #575757;
@@ -211,7 +211,6 @@
 }
 
 .intro-cta {
-  margin: 0 auto;
   text-align: center;
   width: 30%;
 }
@@ -236,7 +235,7 @@
   padding-top: 0;
 }
 
-.hero .button-primary {
+.hero .primary {
   margin-right: 0;
   width: 100%;
 }
@@ -274,11 +273,17 @@
 .forum-2022-content {
   background-size: cover;
   background-position: center;
-  border-radius: 4px;
+  border-radius: 25px;
   box-shadow:inset 0 0 0 2000px rgba(61, 31, 31, 0.5);
   color: white;
   padding: 120px 0;
   width: 350px;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+
 }
 
 a:hover .forum-2022-content {
@@ -325,6 +330,96 @@ color: white;
 text-shadow: 2px 2px 2px #444;
 }
 
+.card {
+  border: none;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 75px;
+
+  img {
+    object-fit:cover;
+  }
+}
+
+.vertical {
+  flex-direction: column;
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.horizontal {
+  align-items: center;
+  flex-direction: row;
+  grid-row: span 1;
+  grid-column: span 2;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+
+  .card__content {
+    padding: 15px 60px 15px 0;
+  }
+}
+
+.card__content {
+  padding: 15px 0 15px 60px;
+}
+
+.card__type {
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  opacity: 0.9;
+  color: #F14A45;
+  padding-bottom: 0.5em;
+}
+
+.card__title {
+  color: black;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: .05rem;
+}
+
+.card__excerpt {
+  font-size: 16px;
+  padding-bottom: 0.5em;
+}
+
+.card__img {
+  border-radius: 50px;
+  max-width: 250px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 990px) {
+  .card {
+    display: inline-block;
+    padding-top: 25px;
+  }
+
+  .card__content {
+    padding: 15px;
+  }
+
+  .card__img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (max-width: 350px) {
+  .card__img {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+}
+
 // AGENDA CONTENT //
 
 .agenda-content {
@@ -354,21 +449,22 @@ text-shadow: 2px 2px 2px #444;
 
 .tab{
   align-items: center;
+  border-radius: 5px;
   cursor: pointer;
   display: inline-block;
   justify-content: space-between;
   margin: 20px;
-  padding: 5px;
+  padding: 10px 15px;
 }
 
 @media only screen and (max-width: 550px) {
 
   .tab {
     display:flex;
-  flex-direction: column;
+    flex-direction: column;
   }
 
-  .panel .button-primary {
+  .panel .primary {
     display: flex;
     justify-content: center;
   }
@@ -408,9 +504,8 @@ text-shadow: 2px 2px 2px #444;
 #two:checked ~ .tabs #two-tab,
 #three:checked ~ .tabs #three-tab,
 #four:checked ~ .tabs #four-tab{
-  background:#fffffff6;
-  color:#000;
-  border-bottom: 3px solid #A379C9;
+  background:black;
+  color:white;
 }
 
 .agenda-item-wrapper {
@@ -418,7 +513,7 @@ text-shadow: 2px 2px 2px #444;
   border-radius: 5px;
   box-shadow: 1px 1px 1px #d7d7d7;
   margin: 20px;
-  padding: 25px;
+  padding: 25px 25px 0;
 
   p {
     margin-bottom: 0;
@@ -433,7 +528,6 @@ text-shadow: 2px 2px 2px #444;
 
 .agenda-item {
   border-bottom: solid 1px #d7d7d7;
-  padding-bottom: 20px;
 
   &:last-child {
     border-bottom: 0;
@@ -445,7 +539,11 @@ text-shadow: 2px 2px 2px #444;
   }
 
   p {
-    margin-bottom: 0;
+    margin: 0;
+  }
+
+  .card {
+    padding: 20px 0;
   }
 
 }
@@ -454,9 +552,18 @@ details {
   padding-top: 10px;
   user-select: none;
 
-  p {
-    padding-top: 20px;
+  h4 {
+    margin-top: 30px;
   }
+
+  .card__title {
+    font-size: 1.2rem;
+  }
+
+  .card__img {
+    max-width: 150px;
+  }
+
 }
 
 details>summary span {
@@ -469,7 +576,9 @@ span.open {
 
 details[open] summary {
   span.open {
+    color: #F14A45;
     display: inline;
+    font-weight: bold;
   }
 
   span.closed {
@@ -480,6 +589,7 @@ details[open] summary {
 summary {
   cursor: pointer;
   display: flex;
+  margin-bottom: 20px;
 }
 
 summary::-webkit-details-marker {
@@ -492,6 +602,7 @@ summary::-webkit-details-marker {
   background-image: url("https://cdn.tnris.org/images/035_2019_forum.jpg");
 }
 
+
 section.keynote-speakers:after:first-child  {
   margin: 0 auto;
   display: grid;
@@ -499,81 +610,6 @@ section.keynote-speakers:after:first-child  {
   grid-template-columns: repeat(3, 256px);
   grid-template-rows: repeat(12, 196px);
   grid-gap: 16px;
-}
-
-.card {
-  border: none;
-  display: flex;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
-.vertical {
-  flex-direction: column;
-  grid-row: span 2;
-  grid-column: span 1;
-}
-
-.horizontal {
-  flex-direction: row;
-  grid-row: span 1;
-  grid-column: span 2;
-}
-
-.reverse {
-  flex-direction: row-reverse;
-}
-
-.horizontal .card__img {
-  max-width: 300px;
-}
-
-.vertical .card__img {
-  max-width: 300px;
-}
-.card__content {
-  padding: 15px 60px 15px;
-}
-
-.card__type {
-  font-variant: small-caps;
-  letter-spacing: 2px;
-  opacity: 0.9;
-  color: #F14A45;
-  padding-bottom: 0.5em;
-}
-
-.card__title {
-  color: black;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 700;
-  letter-spacing: .05rem;
-}
-
-.card__excerpt {
-  font-size: 16px;
-  padding-bottom: 0.5em;
-}
-
-@media only screen and (max-width: 990px) {
-  .card {
-    display: inline-block;
-  }
-
-  .card__content {
-    padding: 15px;
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  .horizontal .card__img {
-    max-width: 200px;
-  }
-
-  .vertical .card__img {
-    max-width: 200px;
-  }
 }
 
 //PRICING CONTENT//
@@ -600,7 +636,7 @@ section.keynote-speakers:after:first-child  {
 
 @media only screen and (max-width: 550px) {
 
-  .pricing-container .button-primary {
+  .pricing-container .primary {
     display: flex;
     justify-content: center;
   }
@@ -669,6 +705,16 @@ section.keynote-speakers:after:first-child  {
   display: flex;
   padding-top: 40px;
 
+}
+
+@media only screen and (max-width: 650px) {
+  .sponsor-cta-container {
+    display: inline;
+  }
+
+  .sponsor-cta-container .button {
+    margin: 10px 0 5px;
+  }
 }
 
 .sponsor-levels {
