@@ -26,13 +26,15 @@
   {% include "gio/gio-nav.njk" %}
   <div class="container meeting-bar">
     {% include "gio/gio-calendar-quad.njk" %}
+    {% include "gio/gio-main.njk" %}
   </div>
 <br><br>
   {{ contents|safe }}
   <div class="container-md">
     <div class="row">
       <div class="col-sm-12 col-lg-7">
-        {% include "gio/gio-main.njk" %}
+        {% include "gio/gio-reports.njk" %}
+        {% include "gio/gio-mailing-form.njk" %}
       </div>
       <div class="col-sm-12 col-lg-5 blog-sidebar">
         {% include "gio/gio-bios.njk" %}
@@ -40,6 +42,4 @@
       </div>
     </div>
   </div>
-  {% include "gio/gio-reports.njk" %}
-
 {% endblock %}
