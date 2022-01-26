@@ -156,34 +156,127 @@
   }
 }
 
+.gio-calendar-quad {
+  padding-top: 30px;
+}
 
-#gio-reports {
-  background: $darkgrey;
-  color: white;
+.gio-main {
+  margin-top: 20px;
+}
 
-  .row {
-    margin-bottom: 0;
+.gio-reports {
+  
+  margin-top: 0 !important;
+
+  .button {
+    align-items: center;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: .9rem;
+    padding: 10px 20px;
   }
 
-  #geolandscape {
-    background: url('https://cdn.tnris.org/images/gio-report-cover-bg.jpg') bottom right no-repeat;
-    background-size: 792px 200px;
-    min-height: 250px;
+  .primary {
+    background-color: #161616;
+    color: white;
   }
 
-  #parcelreport {
-    background: url('https://cdn.tnris.org/images/parcel-report-cover-bg.jpg') bottom right no-repeat;
-    background-size: 792px 200px;
-    min-height: 250px;
+  .primary:hover {
+    color: white;
+    text-decoration: underline;
   }
 
-  p {
-    max-width: 70%;
+  .primary i {
+    color: white;
+    padding-right: 10px;
+    text-decoration: none;
+  }
 
-    @media (min-width: $screen-md) {
-      max-width: 50%;
+  .secondary {
+    background-color: white;
+    color: black;
+  }
+
+  .secondary:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .secondary i {
+    color: black;
+    padding-right: 20px;
+    text-decoration: none;
+  }
+
+
+  .card {
+    border: 1px solid #d7d7d7;
+    box-shadow: 1px 1px 2px #d3d3d3;
+    display: flex;
+    margin: 0 auto 20px;
+    padding: 5px 10px;
+  }
+  
+  .vertical {
+    flex-direction: column;
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  
+  .horizontal {
+    align-items: center;
+    flex-direction: row;
+    grid-row: span 1;
+    grid-column: span 2;
+  }
+  
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .card_content {
+    padding: 15px 30px;
+  }
+  
+  .card_title {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: #444;
+    padding-bottom: 0.5em;
+  }
+
+  .card_img {
+    max-width: 200px;
+  }
+
+  .card_cta {
+    padding-bottom: 10px;
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .card {
+      padding: 0 20px;
     }
   }
+
+  @media only screen and (max-width: 991px) {
+    .card {
+      padding: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    .card {
+      padding: 10px;
+    }
+
+    .card_img {
+      display: none;
+    }
+  }
+
 }
 
 // headshot circles
