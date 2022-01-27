@@ -245,23 +245,6 @@
   padding-bottom: 20px;
 }
 
-.presentation-call {
-  align-items: center;
-  border: solid 1px #D7D7D7;
-  border-radius: 4px;
-  box-shadow: 2px 2px 2px #d3d3d3;
-  margin: 30px auto 80px;
-  max-width: 60%;
-  padding: 10px 30px 20px;
-}
-
-@media only screen and (max-width: 990px) {
-  .presentation-call {
-    max-width: 100%;
-    padding: 20px;
-  }
-}
-
 .forum-2022-content-wrapper {
   align-items: center;
   display: flex;
@@ -474,6 +457,11 @@ text-shadow: 2px 2px 2px #444;
 .panels{
   padding: 20px;
   width:100%;
+
+  h3 {
+    font-size: 1rem;
+  }
+
 }
 .panel{
   display:none;
@@ -512,7 +500,7 @@ text-shadow: 2px 2px 2px #444;
   border: solid 1px #d7d7d7;
   border-radius: 5px;
   box-shadow: 1px 1px 1px #d7d7d7;
-  margin: 20px;
+  margin: 20px 0;
   padding: 25px 25px 0;
 
   p {
