@@ -85,10 +85,14 @@ buttontext: Register Now!
         href="https://events.eply.com/2022TXGISForumRegistration">
         Register Now</a>
       <h2 class="forum-2022-h2">Pre-Conference Workshops</h2>
+      <h3 class="forum-2022-h3">Certificates</h3>
+      <p>This year certificates will be available upon request and emailed to individuals.</p>
+      <h3 class="forum-2022-h3">Requirements</h3>
+      <p>Bring your laptop when attending a training session. Read the description for software requirements and the ability to download an additional temporary license.</p>
       <div class="agenda-item-wrapper">
         <p><b>8:00am - 12:00pm</b></p>
         <div class="agenda-item">
-          <h3 class="forum-2022-h3">3-D Mapping with Point Cloud</h3>
+          <h3 class="forum-2022-h3">3-D Mapping with Point Clouds</h3>
           <p><strong>Sean Moran</strong> | ACC</p>
           <details>
             <summary>
@@ -109,7 +113,7 @@ buttontext: Register Now!
             <h4 class="forum-2022-h4">Requirements</h4>
             <p>Students will bring their laptop computer with ArcGIS Pro and ArcGIS Online software and install CloudCompare software before class</p>
             <div class="horizontal card">
-              <img class="card__img" src="https://cdn.tnris.org/images/sean-moran_headshot.jpg" alt="Sean Moran Headshot"class="card__image">
+              <img class="card__img" src="https://cdn.tnris.org/images/sean-moran_headshot.jpeg" alt="Sean Moran Headshot"class="card__image">
               <div class="card__content">
                 <div class="card__title">
                   Sean Moran, ACC
@@ -129,7 +133,7 @@ buttontext: Register Now!
               <span class="closed">Expand details  +</span>
               <span class="open">Minimize details  -</span>
             </summary>
-            <p>ArcGIS Experience Guilder helps transform your data and maps into unique and compelling web experiences. ArcGIS Experience Builder's out of the box templates and widgets allow you to configure a wide variety of experiences without writing any code. Build web apps that interact with 2D and 3D data and that look great and run seamlessly on any device. </p>
+            <p>ArcGIS Experience Builder helps transform your data and maps into unique and compelling web experiences. ArcGIS Experience Builder's out of the box templates and widgets allow you to configure a wide variety of experiences without writing any code. Build web apps that interact with 2D and 3D data and that look great and run seamlessly on any device. </p>
             <h4 class="forum-2022-h4">Learning Objectives</h4>
             <p>This workshop will introduce the basics of ArcGIS Experience Builder and help you get started incorporating this Essential App into your workflows.</p>
             <h4 class="forum-2022-h4">Requirements</h4>
@@ -162,7 +166,7 @@ Because ArcGIS Notebooks integrates directly with ArcGIS, it also lets GIS admin
             <h4 class="forum-2022-h4">Requirements</h4>
             <p>Internet browser.  ArcGIS ONline Named User and organization will be provided.</p>
             <div class="horizontal card">
-              <img class="card__img" src="https://cdn.tnris.org/images/joseph-bowles_headshot.jpg" alt="Joseph Bowles Headshot"class="card__image">
+              <img class="card__img" src="https://cdn.tnris.org/images/joseph-bowles_headshot.jpeg" alt="Joseph Bowles Headshot"class="card__image">
               <div class="card__content">
                 <div class="card__title">
                   Joseph Bowles, Esri
@@ -187,17 +191,17 @@ Because ArcGIS Notebooks integrates directly with ArcGIS, it also lets GIS admin
             <p>This course will cover the basics of Lidar data collection practices, specification standards, Lidar data visualization/manipulation, derivative products, and general Lidar data application.</p>
             <h4 class="forum-2022-h4">Requirements</h4>
             <p>Students are responsible to bring their laptop computers and have approval to install Global Mapper software.  Trial keys will be available for installation during class.</p>
-            <!--<div class="horizontal card">
+            <div class="horizontal card">
               <img class="card__img" src="https://cdn.tnris.org/images/joey-thomas_headshot.jpg" alt="Joey Thomas Headshot"class="card__image">
               <div class="card__content">
                 <div class="card__title">
                   Joey Thomas, TNRIS
                 </div>
                 <div class="card__excerpt">
-                  <p>Paragraph</p>
+                  <p>Joey is an elevation specialist and project manager at TNRIS. He has worked in GIS since 2007 when he began an internship at TNRIS. Since 2015 he has served as project manager for the lidar data acquisition across the state and coordination efforts with state, federal and local entities.</p>
                 </div>
               </div>
-            </div>-->
+            </div>
           </details>
         </div>
         <div class="agenda-item">
@@ -210,15 +214,15 @@ Because ArcGIS Notebooks integrates directly with ArcGIS, it also lets GIS admin
             </summary>
             <p>ModelBuilder allows users to create custom tools in ArcGIS Pro without having to know how to write scripts. A simple model might display lat/long locations from a spreasheet, buffer the resultant points, and calculate the are, in acres, of the buffered polygons.  More complex models may involve dozens of steps, saving the GIS professional countless hours of manually running processes.</p>
             <h4 class="forum-2022-h4">Requirements</h4>
-            <p>Students will bring their laptops with ArcGIS Pro (Version 2.6 or newer) installed.  Stuents will be provided with a named user ArcGIS Pro login that is licensed for the course.</p>
+            <p>Students will bring their laptops with ArcGIS Pro (Version 2.6 or newer) installed.  Students will be provided with a named user ArcGIS Pro login that is licensed for the course.</p>
             <div class="horizontal card">
-              <img class="card__img" src="https://cdn.tnris.org/images/jennifer-harrison_headshot.jpg" alt="Jennifer Harrison Headshot"class="card__image">
+              <img class="card__img" src="https://cdn.tnris.org/images/jennifer-harrison_headshot.jpeg" alt="Jennifer Harrison Headshot"class="card__image">
               <div class="card__content">
                 <div class="card__title">
                   Jennifer Harrison, TeachMeGIS
                 </div>
                 <div class="card__excerpt">
-                  <p>Paragraph</p>
+                  <p>Jenny Harrison is the founder of TeachMeGIS, a GIS training center based in Houston, Texas. Jenny has been working with and teaching GIS for over 30 years. She holds a Master of Science degree in Geosciences and a Bachelor of Arts in Mathematics. She and her team have trained thousands of GIS professionals in various organizations across the US and around the world. Jenny is a GISP and is the author of the TeachMeGIS GISP Test Preparation training course.</p>
                 </div>
               </div>
             </div>
@@ -259,13 +263,13 @@ Because ArcGIS Notebooks integrates directly with ArcGIS, it also lets GIS admin
               <span class="closed">Expand details  +</span>
               <span class="open">Minimize details  -</span>
             </summary>
-            <p>Learn more about the new ArcGIS Field Mpas, the only app your mobile workforce needs to complete their map-centric workflows. Field workers will be able to collect data, mark up maps, capture location tracks, complete assignments, and navigate to assets all from one appl. This saves time for the field worker, because they will only have to download, sign in to, and work with one app - and it saves time for you, because you will only hve to configure maps for one application. </p>
+            <p>Learn more about the new ArcGIS Field Maps, the only app your mobile workforce needs to complete their map-centric workflows. Field workers will be able to collect data, mark up maps, capture location tracks, complete assignments, and navigate to assets all from one appl. This saves time for the field worker, because they will only have to download, sign in to, and work with one app - and it saves time for you, because you will only hve to configure maps for one application. </p>
             <h4 class="forum-2022-h4">Learning Objectives</h4>
             <p>In this session you will learn how to configure maps to support your field workflows, create your maps for offline use. Utilizing your own mobile device, you will test and deploy your map so it's ready for your mobile workers.</p>
             <h4 class="forum-2022-h4">Requirements</h4>
             <p>Internet browser, mobile device.  ArcGIS Online Named User and organization will be provided.</p>
             <div class="horizontal card">
-              <img class="card__img" src="https://cdn.tnris.org/images/laura-chapa_headshot.jpg" alt="Laura Chapa Headshot"class="card__image">
+              <img class="card__img" src="https://cdn.tnris.org/images/laura-chapa_headshot.jpeg" alt="Laura Chapa Headshot"class="card__image">
               <div class="card__content">
                 <div class="card__title">
                   Laura Chapa, Esri
@@ -317,7 +321,7 @@ Because ArcGIS Notebooks integrates directly with ArcGIS, it also lets GIS admin
             <h4 class="forum-2022-h4">Requirements</h4>
             <p>ArcGIS Survey123 Connect installed on your  mobile device.  ArcGIS Online Named User and organization will be provided.</p>
             <div class="horizontal card">
-              <img class="card__img" src="https://cdn.tnris.org/images/zena-pelletier_headshot.JPG" alt="Zena Pelletier Headshot"class="card__image">
+              <img class="card__img" src="https://cdn.tnris.org/images/zena-pelletier_headshot.jpeg" alt="Zena Pelletier Headshot"class="card__image">
               <div class="card__content">
                 <div class="card__title">
                   Zena Pelletier, Esri
@@ -363,7 +367,7 @@ Because ArcGIS Notebooks integrates directly with ArcGIS, it also lets GIS admin
               <li>What is FME?</li>
             </ul>
             <p>Licensing will be provided for the day of the workshop ONLY.  Please note that the Data Interoperability Extension requires an "All Users" installation of ArcGIS Pro 2.x  If this is not the case on your computer, you will need to uninstall ArcGIS Pro and reinstall it selecting the "All users of this PC" radio button instead of just one account.</p>
-            <!--<div class="horizontal card">
+            <div class="horizontal card">
               <img class="card__img" src="https://cdn.tnris.org/images/stephanie-long_headshot.jpg" alt="Stephanie Long Headshot"class="card__image">
               <div class="card__content">
                 <div class="card__title">
@@ -373,7 +377,18 @@ Because ArcGIS Notebooks integrates directly with ArcGIS, it also lets GIS admin
                   <p>Stephanie Long, GISP, is the GIS Department Chair and a GIS Professor for Austin Community college where she teaches GIS courses such as Scripting, Programming, and Advanced Problems.  Her presentations at professional conferences have covered topics such as “Python as a GIS Intern” and “The Application of GIS in the Environmental Impact Analysis of Transmission Line Routing” and “What’s New in Automating GIS Workflows” and “Programming with GIS?! Yes You Can!”.  Recently the Geography Department of Texas State University presented Stephanie with the Mary Beth Booth Award for Outstanding Service by an Extramural Educator in recognition of her history in preparing students for success.  Stephanie was also spotlighted by Austin Community College for her work developing online GIS courses and was announced as ACC eFaculty of the Year for 2020.  Stephanie Long holds a Master of Science in Geography from Texas State University in San Marcos and she has over 16 years of experience as a GIS professional in the public and private sectors.</p>
                 </div>
               </div>
-            </div>-->
+            </div>
+            <div class="horizontal card">
+              <img class="card__img" src="https://cdn.tnris.org/images/mike-long_headshot.jpg" alt="Mike Long Headshot"class="card__image">
+              <div class="card__content">
+                <div class="card__title">
+                  Mike Long, Capital Metro Transportation Authority
+                </div>
+                <div class="card__excerpt">
+                  <p>Mike Long, GISP, is the GIS Coordinator for Capital Metro Transportation Authority.  He has over 15 years of experience in the GIS industry and 10 years of experience using FME software.  At CapMetro Mike integrates FME into enterprise level workflows including an FME cluster that handles over 30,000 jobs per day.  He holds a Masters degree in GIS from Texas State University and is a certified GIS professional.</p>
+                </div>
+              </div>
+            </div>
           </details>
         </div>
         <div class="agenda-item">
@@ -384,11 +399,11 @@ Because ArcGIS Notebooks integrates directly with ArcGIS, it also lets GIS admin
               <span class="closed">Expand details  +</span>
               <span class="open">Minimize details  -</span>
             </summary>
-            <p>ModelBuilder allows users to create custom tools in ArcGIS Pro without having to know how to write scripts. A simple model might display lat/long locations from a spreasheet, buffer the resultant points, and calculate the are, in acres, of the buffered polygons.  More complex models may involve dozens of steps, saving the GIS professional countless hours of manually running processes.</p>
+            <p>This course teaches ArcGIS Pro users how to create and modify GIS data. The student will learn about different editable  GIS data types, editing environments, and some tools and techniques used to successfully edit in ArcGIS Pro.</p>
             <h4 class="forum-2022-h4">Requirements</h4>
-            <p>Students will bring their laptops with ArcGIS Pro (Version 2.6 or newer) installed.  Stuents will be provided with a named user ArcGIS Pro login that is licensed for the course.</p>
+            <p>Students will bring their laptops with ArcGIS Pro (Version 2.6 or newer) installed.  Students will be provided with a named user ArcGIS Pro login that is licensed for the course.</p>
             <div class="horizontal card">
-              <img class="card__img" src="https://cdn.tnris.org/images/jennifer-harrison_headshot.jpg" alt="Jennifer Harrison Headshot"class="card__image">
+              <img class="card__img" src="https://cdn.tnris.org/images/jennifer-harrison_headshot.jpeg" alt="Jennifer Harrison Headshot"class="card__image">
               <div class="card__content">
                 <div class="card__title">
                   Jennifer Harrison, TeachMeGIS
@@ -414,7 +429,7 @@ Because ArcGIS Notebooks integrates directly with ArcGIS, it also lets GIS admin
             <h4 class="forum-2022-h4">Requirements</h4>
             <p>MS-Access experience is helpful but not required. </p>
             <div class="horizontal card">
-              <img class="card__img" src="https://cdn.tnris.org/images/james-castagneri_headshot.jpg" alt="James Castagneri"class="card__image">
+              <img class="card__img" src="https://cdn.tnris.org/images/james-castagneri_headshot.jpeg" alt="James Castagneri"class="card__image">
               <div class="card__content">
                 <div class="card__title">
                   James Castagneri, US Census Bureau
