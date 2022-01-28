@@ -245,7 +245,7 @@ function insertDiscountCopy() {
   })
   .then(function(data) {
     // change this string when a new discount code is needed
-    var discountValue = "TNRIS2021";
+    var discountValue = "TNRIS2022";
 
     // check if any education records are public and registration_open from api, if so insert html
     if (data.count > 0) {
