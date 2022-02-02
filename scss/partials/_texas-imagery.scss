@@ -28,10 +28,16 @@
   }
 }
 
+.tis {
+
+  .btn-tis {
+    background-color: #F89500;
+  }
+
+}
+
 .google-intro {
   padding-top: 40px;
-  background: $darkgrey;
-  color: $white;
   padding-bottom: 40px;
 
   a.orange {
@@ -48,7 +54,7 @@
   }
 
   h2 {
-    color: $canary;
+    color: #337ab7;
     font-weight: 300;
     font-size: 40px;
     text-shadow: 0 0 1px solid $darkgrey;
