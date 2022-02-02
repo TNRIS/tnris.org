@@ -69,10 +69,10 @@ buttontext: Register Now!
 <h1 class="forum-2022-h1">Agenda</h1>
 
 <div class="tab-wrapper">
-  <input class="radio" id="one" name="group" type="radio" checked>
-  <input class="radio" id="two" name="group" type="radio">
-  <input class="radio" id="three" name="group" type="radio">
-  <input class="radio" id="four" name="group" type="radio">
+  <input class="tab-select" id="one" name="group" type="radio" checked>
+  <input class="tab-select" id="two" name="group" type="radio">
+  <input class="tab-select" id="three" name="group" type="radio">
+  <input class="tab-select" id="four" name="group" type="radio">
   <div class="tabs">
     <label class="tab" id="one-tab" for="one">Mar 08</label>
     <label class="tab" id="two-tab" for="two">Mar 09</label>
