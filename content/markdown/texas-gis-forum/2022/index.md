@@ -85,6 +85,7 @@ buttontext: Register Now!
         href="https://events.eply.com/2022TXGISForumRegistration">
         Register Now</a>
       <h2 class="forum-2022-h2">Pre-Conference Workshops</h2>
+      <p><b>$150 each</b></p>
       <h3 class="forum-2022-h3">Certificates</h3>
       <p>This year certificates will be available upon request and emailed to individuals.</p>
       <h3 class="forum-2022-h3">Requirements</h3>

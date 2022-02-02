@@ -162,7 +162,7 @@
 .forum-2022-nav ul {
   align-items: center;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   list-style-type: none;
   margin: 0 auto;
   max-width: 1140px;
@@ -196,6 +196,14 @@
   color: #F14A45;
   font-weight: 500;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 550px) {
+
+  .forum-2022-nav ul {
+    flex-direction: column;
+  }
+
 }
 
 //MAIN ELEMENTS//
@@ -783,6 +791,10 @@ section.keynote-speakers:after:first-child  {
     max-width: 300px;
   }
 
+}
+
+.sponsors-silver img{
+max-width: 150px;
 }
 
 // LOCATION INFO PAGE //
