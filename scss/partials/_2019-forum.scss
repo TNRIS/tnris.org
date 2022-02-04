@@ -789,10 +789,12 @@ section.keynote-speakers:after:first-child  {
   color: #F14A45;
 }
 
-.sponsor-logos {
+.sponsors-plat {
+  margin: 0 auto;
+  padding-bottom: 25px;
 
   .forum-2022-h2 {
-    padding: 50px 0px 25px;
+    padding: 50px 0px 10px;
   }
 
   img {
@@ -801,8 +803,12 @@ section.keynote-speakers:after:first-child  {
 
 }
 
-.sponsors-silver img{
-max-width: 150px;
+.sponsors-gold {
+  padding-bottom: 25px;
+
+  img{
+  max-width: 150px;
+  }
 }
 
 // LOCATION INFO PAGE //
