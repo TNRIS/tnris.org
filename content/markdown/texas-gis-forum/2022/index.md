@@ -86,11 +86,11 @@ buttontext: Register Now!
     <div class="panel" id="two-panel">
       {% include "events/texas-gis-forum/2022/agenda-day-one.njk" %}
     </div>
-    <div class="panel agenda-placeholder" id="three-panel">
-      <p>Schedule not posted. Please check back later.</p>
+    <div class="panel" id="three-panel">
+      {% include "events/texas-gis-forum/2022/agenda-day-two.njk" %}
     </div>
-    <div class="panel agenda-placeholder" id="four-panel">
-      <p>Schedule not posted. Please check back later.</p>
+    <div class="panel" id="four-panel">
+      {% include "events/texas-gis-forum/2022/agenda-day-three.njk" %}
     </div>
   </div>
 </div>

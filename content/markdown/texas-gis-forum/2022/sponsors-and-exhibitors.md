@@ -106,7 +106,7 @@ intro: true
     <h4 class="forum-2022-h4">$5,500 | <span class="greyed"><strike>Exclusive</strike></span> Sold out!</h4>
     <p>Place your company logo on nametag holders that will be worn by each attendee for the duration of the Forum. TNRIS/GIS Forum management will work with the sponsor to select the badges. TNRIS/GIS Forum will produce the badges and will be responsible for the purchase of the badges.</p>
     <h3 class="forum-2022-h3">Tote Bag Sponsor</h3>
-    <h4 class="forum-2022-h4">$5,500 | <b>Exclusive</b></h4>
+    <h4 class="forum-2022-h4">$5,500 | <span class="greyed"><strike>Exclusive</strike></span> Sold out!</h4>
     <p>Tote bags carry the sponsor’s logo on one side of the bag with the TNRIS/GIS Forum logo on the other side. TNRIS/GIS Forum management will work with the sponsor to select the tote bags. TNRIS/GIS Forum will produce the tote bags and will be responsible for the purchase of the tote bags. </p>
     <h3 class="forum-2022-h3">Social Sponsor</h3>
     <h4 class="forum-2022-h4">$5,500 | <b>Exclusive</b></h4>
