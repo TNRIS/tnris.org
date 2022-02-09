@@ -19,7 +19,7 @@ intro: true
 
   <div class="sponsor-cta-container">
     <a class="button secondary"  
-      href="https://cdn.tnris.org/documents/Rules and Regulations 2022.pdf">
+      href="https://cdn.tnris.org/documents/Rules_and_Regulations_2022.pdf">
       <i class="fa fa-file"></i>Sponsor Rules &amp; Regulations
     </a>
    <a class="button primary" 
@@ -112,7 +112,7 @@ intro: true
     <h4 class="forum-2022-h4">$5,500 | <b>Exclusive</b></h4>
     <p>The Forum Social is where attendees get to relax, catch up, and enjoy food and fun. Make sure that your organization has a prominent place in their minds as they celebrate on Wednesday, March 9, 2022. Your logo will be included in the promotion of the Forum Social, online and at the event.</p>
     <h3 class="forum-2022-h3">Notebook and Pen Sponsor</h3>
-    <h4 class="forum-2022-h4">$3,950 | <b>Exclusive</b></h4>
+    <h4 class="forum-2022-h4">$3,950 | <span class="greyed"><strike>Exclusive</strike></span> Sold out!</h4>
     <p>Provide notebooks and pens featuring the TNRIS/TX GIS Forum logo on the front cover and your company’s logo and name on either the interior of the cover page or the back exterior page of the notebook. The pens will feature your company’s logo. Conference attendees will use your notebook and pen during and post conference. TNRIS/GIS Forum will produce the notebooks and pens, and will be responsible for the purchase of both items.</p>
     <h3 class="forum-2022-h3">Networking Lounge Sponsor</h3>
     <h4 class="forum-2022-h4">$3,950 | <b>Exclusive</b></h4>
@@ -124,13 +124,13 @@ intro: true
     <h4 class="forum-2022-h4">$3,950 | <span class="greyed"><strike>Two Opportunities</strike></span> Sold out!</h4>
     <p>Sponsorship of one of the two Keynote Sessions provides unique recognition of your company. You will receive additional recognition for the event on the conference website, as well as in the Conference materials. In addition, your logo will be placed on event signage displayed during the event. You may also provide corporate give-a-ways to each attendee. Additionally, for this level, your company logo will be featured in all pre-conference marketing materials promoting the keynote sessions. </p>
     <h3 class="forum-2022-h3">Lunch Sponsor</h3>
-    <h4 class="forum-2022-h4">$3,950 | <span class="greyed"><strike>Two Opportunities</strike></span> One left!</h4>
+    <h4 class="forum-2022-h4">$3,950 | <span class="greyed"><strike>Two Opportunities</strike></span> <b>One left!</b></h4>
     <p>During lunch, sponsors will be recognized with prominently displayed posters. Sponsors have the opportunity to place giveaway items on the lunch tables.</p>
     <h3 class="forum-2022-h3">Breakfast Sponsor</h3>
-    <h4 class="forum-2022-h4">$2,750 | Three Opportunities</h4>
+    <h4 class="forum-2022-h4">$2,750 | <b>Three Opportunities</b></h4>
     <p>During breakfast, sponsors will be recognized with prominently displayed posters. Sponsors have the opportunity to place giveaway items in the breakfast area.</p>
     <h3 class="forum-2022-h3">Break Sponsor</h3>
-    <h4 class="forum-2022-h4">$2,750 | Five Opportunities</h4>
+    <h4 class="forum-2022-h4">$2,750 | <b>Five Opportunities</b></h4>
     <p>During coffee breaks, sponsors will be recognized with prominently displayed posters. Sponsors have the opportunity to place giveaway items in the break area.</p>
   </div>
 </div>
