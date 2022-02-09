@@ -19,7 +19,7 @@ mainimage: https://cdn.tnris.org/images/ap-lp-banner.png
       <div class="videoWrapper"> <iframe src="https://www.youtube.com/embed/OAs1wSw3xQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       <h2>Download</h2>
       <p>Use the DataHub to download the Address Points dataset:</p>
-      <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/collection/117cf9e1-3b1e-48f2-97a3-47020d871035" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
+      <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/collection?c=94502179-9389-4bfa-b753-5e43f6d477bf#5.53/31.32/-100.077" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
     </div>
   </div>
 </div>
