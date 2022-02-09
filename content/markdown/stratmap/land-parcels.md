@@ -24,7 +24,7 @@ mainimage: https://cdn.tnris.org/images/ap-lp-banner.png
       <div class="videoWrapper"> <iframe src="https://www.youtube.com/embed/d9Le5oqu4wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       <h2>Download</h2>
       <p>Use the DataHub to download the Land Parcels dataset:</p>
-      <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
+      <a class="btn btn-lg btn-tnris mx-auto d-block" href="https://data.tnris.org/collection?c=a3c04828-1036-481b-b1e0-bb456c3cbcf4#5.53/31.32/-100.121" target="_blank"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
     </div>
   </div>
 </div>
