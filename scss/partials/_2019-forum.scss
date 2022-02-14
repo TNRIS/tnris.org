@@ -474,10 +474,6 @@ text-shadow: 2px 2px 2px #444;
     text-align: center;
   }
 
-  .no-detail {
-    padding-bottom: 25px;
-  }
-
 }
 .panel{
   display:none;
@@ -517,7 +513,7 @@ text-shadow: 2px 2px 2px #444;
   border-radius: 5px;
   box-shadow: 1px 1px 1px #d7d7d7;
   margin: 20px 0;
-  padding: 25px 25px 0;
+  padding: 0 25px;
 
   p {
     margin-bottom: 0;
@@ -532,10 +528,10 @@ text-shadow: 2px 2px 2px #444;
 
 .agenda-item {
   border-bottom: solid 1px #d7d7d7;
+  padding: 25px 0;
 
   &:last-child {
     border-bottom: 0;
-    padding-bottom: 0;
   }
 
   h3 {
@@ -546,10 +542,15 @@ text-shadow: 2px 2px 2px #444;
     margin: 0;
   }
 
-  .card {
-    padding: 20px 0;
-  }
+}
 
+.abstract {
+  display: flex;
+  align-items: center;
+
+  div {
+    padding-left: 25px;
+  }
 }
 
 details {
@@ -730,11 +731,10 @@ section.keynote-speakers:after:first-child  {
 }
 
 .sponsor-table {
-  background-color: #F8F8F8;
-  border-collapse: collapse;
-  border-radius: 10px;
-  margin-bottom: 40px;
-  text-align: left;
+  display: none;
+}
+
+.sponsor-table-img {
   width: 100%;
 }
 
