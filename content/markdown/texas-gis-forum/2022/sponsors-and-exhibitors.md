@@ -99,6 +99,7 @@ intro: true
       </tr>
     </tbody>
   </table>
+  <img class="sponsor-table-img" src="https://cdn.tnris.org/images/2022-forum-sponsor-table.png" alt="2022 Forum Sponsor Table>
   <div class="sponsor-opportunities">
     <h2 class="forum-2022-h2">Sponsor Opportunities</h2>
     <p>Sponsorship Levels are accomplished by sponsoring one or more of the following items:</p>
