@@ -11,6 +11,21 @@ mainimage: https://cdn.tnris.org/images/ap-lp-banner.png
       <p class="lead">
       In collaboration with stakeholders from across Texas, TNRIS created a statewide standardized <a href="https://cdn.tnris.org/documents/tnris-land-parcel-schema.pdf">GIS land parcel schema</a>. This format of land parcel data consists of the most commonly utilized information as determined by the land parcel  committee. The data contributed from county appraisal districts or their service providers were translated into this common schema and are now available on the <a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448">TNRIS DataHub</a>.</p>
       <p class="lead">In August 2019, an extension of the <a href="https://cdn.tnris.org/documents/update-on-digital-parcel-data-in-texas-20190903.pdf">statewide parcel study was published</a> to evaluate the existence of GIS parcel data and barriers to conversion. The report found that nearly all Texas appraisal districts now maintain a GIS parcel layer or are in the process of converting. It includes recommendations of 1) how TNRIS can facilitate local GIS  conversion and 2) how to continue success of the land parcel program.</p>
+      <div class="horizontal report-card">
+		    <img class="report-card_img" src="https://cdn.tnris.org/images/parcel-report-cover.png" alt="parcel-data-report"class="report-card__image">
+		    <div class="report-card_content">
+			    <div class="report-card_title">Texas Statewide Parcel Data Report</div>
+			    <div class="report-card_info">
+            <p>Statewide parcel data are the most requested data set based on our GIO Report. This report breaks down the strategy for meeting this need.</p>
+			      <div class="report-card_cta">
+				      <a class="button primary black" href="https://cdn.tnris.org/documents/texas-statewide-parcel-data-report-20190802.pdf"><i class="fa fa-download"></i> Full Report</a>
+			      </div>
+			      <div class="report-card_cta">
+				      <a class="button secondary black" href="https://cdn.tnris.org/documents/texas-statewide-parcel-data-supplement-20190802.pdf"><i class="fa fa-download"></i> Supplement</a>
+			      </div>
+		      </div>
+        </div>
+      </div>
     </div>
     <div class="col-lg-4">
     <!-- <h2 style="margin-top: 0">Available Datasets</h2>

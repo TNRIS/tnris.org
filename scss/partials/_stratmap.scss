@@ -609,3 +609,89 @@ ul.stratmap-work {
   width: 100%;
   height: 100%;
 }
+
+.report-card {
+  border: 1px solid #d7d7d7;
+  box-shadow: 1px 1px 2px #d3d3d3;
+  display: flex;
+  margin: 0 auto 20px;
+  padding: 5px 10px;
+}
+
+.vertical {
+  flex-direction: column;
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.horizontal {
+  align-items: center;
+  flex-direction: row;
+  grid-row: span 1;
+  grid-column: span 2;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.black {
+  background-color: black;
+}
+
+.primary.black {
+  background-color: black;
+  border: solid 1px black;
+}
+
+.secondary.black {
+  background-color: white;
+  border: solid 1px black;
+  color: black;
+
+  i {
+    color: black;
+  }
+}
+
+.report-card_content {
+  padding: 15px 30px;
+}
+
+.report-card_title {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #444;
+  padding-bottom: 0.5em;
+}
+
+.report-card_img {
+  max-width: 200px;
+}
+
+.report-card_cta {
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .report-card {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .report-card {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .report-card {
+    padding: 10px;
+  }
+
+  .report-card_img {
+    display: none;
+  }
+}
