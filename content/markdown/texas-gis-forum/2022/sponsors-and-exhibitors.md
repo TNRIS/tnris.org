@@ -31,75 +31,8 @@ intro: true
 
 <section>
 <div class="sponsor-levels">
-  <table class="sponsor-table">
-    <thead>
-      <tr>
-        <th><strong>Sponsor Levels<br>& Benefits</strong></th>
-        <th><strong>Exhibit Only</strong><br>$1,750</th>
-        <th><strong>Silver</strong><br>$2,750</th>
-        <th><strong>Gold</strong><br>$3,950</th>
-        <th><strong>Platinum</strong><br>$5,500</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Comped Passes</td>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>5</td>
-      </tr>
-      <tr>
-        <td>Exhibit Booth*<br><small>*Exhibit booths can be exchanged for additional comped passes<small></td>
-        <td>Single Booth*<br>(10x8)</td>
-        <td>Single Booth*<br>(10x8)</td>
-        <td>Single Booth*<br>(10x8)</td>
-        <td>Double Booth*<br>(20x8)</td>
-      </tr>
-      <tr>
-        <td>Speaking Opportunity</td>
-        <td></td>
-        <td></td>
-        <td>30 min</td>
-        <td>60 min</td>
-      <tr>
-        <td>Logo on Forum Site</td>
-        <td>Listing Only</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-      </tr>
-      <tr>
-        <td>Logo on Forum Agenda</td>
-        <td>Listing Only</td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-      </tr>
-      <tr>
-        <td>Logo on Forum Sponsorship Banner</td>
-        <td></td>
-        <td>x</td>
-        <td>x</td>
-        <td>x</td>
-      </tr>
-       <tr>
-        <td>Logo on TNRIS Website</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>x</td>
-      </tr>
-      <tr>
-        <td>Packet Insert in Conference Packet</td>
-        <td></td>
-        <td></td>
-        <td>x</td>
-        <td>x</td>
-      </tr>
-    </tbody>
-  </table>
-  <img class="sponsor-table-img" src="https://cdn.tnris.org/images/2022-forum-sponsor-table.png" alt="2022 Forum Sponsor Table>
+  
+  <img class="sponsor-table-img" src="https://cdn.tnris.org/images/2022-forum-sponsor-table.png" alt="2022 Forum Sponsor Table">
   <div class="sponsor-opportunities">
     <h2 class="forum-2022-h2">Sponsor Opportunities</h2>
     <p>Sponsorship Levels are accomplished by sponsoring one or more of the following items:</p>
@@ -110,7 +43,7 @@ intro: true
     <h4 class="forum-2022-h4">$5,500 | <span class="greyed"><strike>Exclusive</strike></span> Sold out!</h4>
     <p>Tote bags carry the sponsor’s logo on one side of the bag with the TNRIS/GIS Forum logo on the other side. TNRIS/GIS Forum management will work with the sponsor to select the tote bags. TNRIS/GIS Forum will produce the tote bags and will be responsible for the purchase of the tote bags. </p>
     <h3 class="forum-2022-h3">Social Sponsor</h3>
-    <h4 class="forum-2022-h4">$5,500 | <b>Exclusive</b></h4>
+    <h4 class="forum-2022-h4">$5,500 | <span class="greyed"><strike>Exclusive</strike></span> Sold out!</h4>
     <p>The Forum Social is where attendees get to relax, catch up, and enjoy food and fun. Make sure that your organization has a prominent place in their minds as they celebrate on Wednesday, March 9, 2022. Your logo will be included in the promotion of the Forum Social, online and at the event.</p>
     <h3 class="forum-2022-h3">Notebook and Pen Sponsor</h3>
     <h4 class="forum-2022-h4">$3,950 | <span class="greyed"><strike>Exclusive</strike></span> Sold out!</h4>
