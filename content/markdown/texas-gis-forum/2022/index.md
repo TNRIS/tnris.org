@@ -16,7 +16,7 @@ buttontext: Register Now!
   <div class="hero">
    <div class="intro">
       <h1 class="forum-2022-h1">2022 Texas GIS Forum</h1>
-      <p class="lead"><strong>For over three decades,</strong> the Texas GIS Forum has been the     can't-miss event for the statewide GIS community. Come to Austin this spring to hear about  the  latest advancements in the private and public sector and take the opportunity to touch  base  with long-time colleagues – and make new connections.</p>
+      <p class="lead"><strong>For over three decades,</strong> the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin this spring to hear about  the  latest advancements in the private and public sector and take the opportunity to touch  base  with long-time colleagues – and make new connections.</p>
    </div>
 
    <div class="intro-cta">
@@ -67,7 +67,7 @@ buttontext: Register Now!
 
 <section id="agenda">
 <h1 class="forum-2022-h1">Agenda</h1>
-
+<br>
 <div class="tab-wrapper">
   <input class="tab-select" id="one" name="group" type="radio" checked>
   <input class="tab-select" id="two" name="group" type="radio">
