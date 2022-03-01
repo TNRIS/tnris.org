@@ -258,24 +258,13 @@
 
 .carousel-item img {
   background-size: cover !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
   width: 100% !important;
   height: 100% !important;
   max-height: 475px;
   min-height: 475px;
 }
 
-@media only screen and (max-width: 1199px) {
-  .carousel-inner {
-    max-height: 398px;
-    min-height: 398px;
-  }
-
-  .carousel-item img {
-    max-height: 398px;
-    min-height: 398px;
-  }
-}
 
 @media only screen and (max-width: 991px) {
   .carousel-inner {
