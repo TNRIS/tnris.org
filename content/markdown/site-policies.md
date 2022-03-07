@@ -161,24 +161,22 @@ distribute its materials. The agency would appreciate acknowledgment.
 
 ### Policy Intention
 
-The intention of this policy is to state clear accessibility principles that all Texas Water Development Board (TWDB) websites must follow.
+### Accessibility 
 
-The TWDB strives to ensure all of its websites comply with the Web Content Accessibility Guidelines (WCAG) when possible without causing undue burden to the agency. Due to current technology constraints, there are some instances where the TWDB is unable to provide information in an accessible format (e.g. mapping information). The TWDB will be monitoring these sections and will develop accessible solutions as technology improves. In order to ensure no user is disadvantaged, the TWDB will respond to all accessibility assistance requests by either altering the necessary content as soon as possible or, if requested, by providing the information in an alternative format at no cost to the user within a reasonable timeframe. It is the responsibility of the content owner to provide these alternative formats. The TWDB websites will provide appropriate channels of communication that allow visitors to request alternative formats and to give feedback about any accessibility problems.
+The Texas Water Development Board (TWDB) is committed to making all website and content maintained by TWDB through social media outlets and applications equally accessible for all visitors, unless excepted from compliance as defined in the Texas Administrative Code (TAC) Section 213.17. These websites, content through social media outlets and applications are  designed, developed, and maintained to comply with applicable accessibility laws including TAC Section 206.50 and TAC Section 213 as well as the World Wide Web Consortium's Web Content Accessibility Guidelines (WCAG) 2.0 Level AA standard including the U.S. Section 508 guidelines. 
 
-### Policy Dimensions
-For the purpose of this policy, the term "websites" includes:
-- All websites (public and non-authenticated) managed and maintained by the TWDB staff or on the behalf of the TWDB, including, all external websites using the .twdb.texas.gov domain, agency ancillary sites, and social media sites.
-- All material associated with pages on the website such as documents, audio, video and any other additional files except for maps.
+### GIS-Based Applications and Maps 
 
+Presently, all GIS related applications have a statewide exemption from 1 TAC 213 granted by the Department of Information Resources. 
 
-### To Get Information in a Different Format
+### Translation Services 
 
-If you use assistive technology and the format of any material on our website interferes with your ability to access information, please send an e-mail to the TWDB Accessibility Coordinator.
+This website may be viewed in different languages through your web browser's language settings on different browsers. Translation is provided for purposes of information and convenience only. 
 
-When you contact us, please be sure to include the following:
-- the nature of your accessibility problem
-- the format in which you prefer to receive the material
-- the web address of the requested material
-- how we can contact you
+###Contact Us 
 
-With this information, we will be able to respond in the most helpful way possible.
+If you have difficulty accessing any material on our website, or if you are unable to access any materials on this website due to a language barrier, the TWDB may be able to provide additional assistance in serving your requested needs.  Please contact us at the email address or phone number listed below and we will respond as soon as possible and make every reasonable attempt to correct the problem or work to provide the information in an alternative format. 
+
+Email: <a href="mailto:accessibility-coordinator@twdb.texas.gov">accessibility-coordinator@twdb.texas.gov</a>
+
+Phone: <a href="tel:512-463-7847">(512) 463-7847</a>
