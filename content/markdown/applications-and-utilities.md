@@ -67,7 +67,7 @@ The Information Services (IS) section maintains the TNRIS digital data library a
   </ul>
 </div>
 
-<h2>Geospatial Emergency Management Support System (GEMSS) Version 2.0</h2>
+<!-- <h2>Geospatial Emergency Management Support System (GEMSS) Version 2.0</h2>
 <img src="https://cdn.tnris.org/images/gemss2.png" class="img-fluid" alt="GEMSS2 Screenshot" title="gemss2.tnris.org"/>
 <div class="well-bg link-well row">
   <div class="col-lg-6">
@@ -81,4 +81,4 @@ The Information Services (IS) section maintains the TNRIS digital data library a
   <p>
     GEMSS allows the data to be presented in a useful and compelling manner, without requiring specialized knowledge of GIS data or applications. GEMSS is designed to become the public domain tool to support emergency activities.
   </p>
-</div>
+</div> -->
