@@ -3,7 +3,7 @@ title: "Venue Information"
 layout: events/texas-gis-forum/2022/main.njk
 subtitle: October 21-25, 2022 | Austin, Texas
 mainimage: https://cdn.tnris.org/images/2022-forum-graphic-sponsors.png
-mainimagesm: https://cdn.tnris.org/images/2022-forum-graphic-sponsors.png
+mainimagesm: https://cdn.tnris.org/images/2022-forum-graphic-mobile.png
 abstract: Lodging, parking, nearby lodging, and covid safety information.
 intro: true
 ---

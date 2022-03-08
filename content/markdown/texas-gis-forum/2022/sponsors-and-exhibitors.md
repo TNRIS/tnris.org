@@ -3,7 +3,7 @@ layout: events/texas-gis-forum/2022/main.njk
 title: Sponsors & Exhibitors
 subtitle: March 8-11, 2022 | Austin, Texas
 mainimage: https://cdn.tnris.org/images/2022-forum-graphic-sponsors.png
-mainimagesm: https://cdn.tnris.org/images/2022-forum-graphic-sponsors.png
+mainimagesm: https://cdn.tnris.org/images/2022-forum-graphic-mobile.png
 intro: true
 ---
 <head>
