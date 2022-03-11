@@ -7,7 +7,7 @@ abstract: Web based tools and utilities for accessing, visualizing, and interact
 The Information Services (IS) section maintains the TNRIS digital data library and provides public accessibility to its contents. This accessibility is via the production and maintenance of numerous web applications, tools, utilities, and code packages, which leverage geospatial information for public benefit. Some examples include <a href="https://tnris.org">tnris.org</a>&#39;s <a href="https://data.tnris.org">DataHub</a>, multiple web mapping services, APIs, etc. The IS section is a strong advocate for open source development and the majority of code for their projects are available on <a href="https://github.com/TNRIS/" target="github">Github</a>.
 
 <h2>DataHub</h2>
-<img src="https://cdn.tnris.org/images/dataHub.png" class="img-fluid" alt="DataHub Screenshot" title="data.tnris.org"/>
+<img src="https://cdn.tnris.org/images/datahub.png" class="img-fluid" alt="DataHub Screenshot" title="data.tnris.org"/>
 <div class="well-bg link-well row">
   <div class="col-lg-6">
     <strong>View:
