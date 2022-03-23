@@ -31,7 +31,7 @@ function retrieveNextFourEvents() {
       // fill dom list element with event details
       event.innerHTML =
         `
-        <div class="eventBox d-flex flex-column justify-content-between">
+        <div class="eventBox d-flex flex-column">
         <div>
           <h3>
             <strong>${e.title}</strong>
