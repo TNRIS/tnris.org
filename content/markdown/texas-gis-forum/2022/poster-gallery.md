@@ -2,8 +2,8 @@
 title: "Forum Poster Gallery & Contest"
 layout: events/texas-gis-forum/2022/poster-gallery.njk
 subtitle: October 21-25, 2022 | Austin, Texas
-mainimage: https://cdn.tnris.org/images/2022-forum-hero.jpg
-mainimagesm: https://cdn.tnris.org/images/2022-forum-hero.jpg
+mainimage: https://cdn.tnris.org/images/2022-forum-graphic-thankyou.png
+mainimagesm: https://cdn.tnris.org/images/2022-forum-graphic-thankyou-mobile.png
 abstract: As technology moves forward, maps are still at the heart of the GIS field. The poster gallery showcases ongoing cartographic innovation in the community.
 intro: true
 sidebar: postersubmission

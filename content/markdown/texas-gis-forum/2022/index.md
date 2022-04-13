@@ -2,8 +2,8 @@
 layout: events/texas-gis-forum/2022/home.njk
 title: 2022 Texas GIS Forum
 subtitle: March 8-11, 2022 | Austin, Texas
-mainimage: https://cdn.tnris.org/images/2022-forum-graphic-sponsors.png
-mainimagesm: https://cdn.tnris.org/images/2022-forum-graphic-mobile.png
+mainimage: https://cdn.tnris.org/images/2022-forum-graphic-thankyou.png
+mainimagesm: https://cdn.tnris.org/images/2022-forum-graphic-thankyou-mobile.png
 buttontext: Register Now!
 ---
 
@@ -16,7 +16,8 @@ buttontext: Register Now!
   <div class="hero">
    <div class="intro">
       <h1 class="forum-2022-h1">2022 Texas GIS Forum</h1>
-      <p class="lead"><strong>For over three decades,</strong> the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin this spring to hear about  the  latest advancements in the private and public sector and take the opportunity to touch  base  with long-time colleagues – and make new connections.</p>
+      <p class="lead"><strong>For over three decades,</strong> the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin and hear about the latest advancements in the private and public sector and take the opportunity to touch  base with long-time colleagues – and make new connections.</p>
+      <p><strong>Thank you!</strong> This year's forum was a great success thanks to our sponsors, speakers, workshop instructors, moderators, and everyone who attended. Be sure to view available presenter slides in case you missed anything, and we'll see y'all next year!</p>
    </div>
 
    <div class="intro-cta">
