@@ -68,6 +68,7 @@ buttontext: Register Now!
 <section id="agenda">
 <h1 class="forum-2022-h1">Agenda</h1>
 <br>
+<p class="presentation-noti"><i class="fa fa-desktop presentation-icon"></i> - Presentation available</p>
 <div class="tab-wrapper">
   <input class="tab-select" id="one" name="group" type="radio" checked>
   <input class="tab-select" id="two" name="group" type="radio">
