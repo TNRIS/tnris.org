@@ -14,16 +14,15 @@ buttontext: Register Now!
 </head>
 <section>
   <div class="hero">
-   <div class="intro">
+    <div class="intro">
       <h1 class="forum-2022-h1">2022 Texas GIS Forum</h1>
       <p class="lead"><strong>For over three decades,</strong> the Texas GIS Forum has been the can't-miss event for the statewide GIS community. Come to Austin and hear about the latest advancements in the private and public sector and take the opportunity to touch  base with long-time colleagues – and make new connections.</p>
       <p><strong>Thank you!</strong> This year's forum was a great success thanks to our sponsors, speakers, workshop instructors, moderators, and everyone who attended. Be sure to view available presenter slides in case you missed anything, and we'll see y'all next year!</p>
-   </div>
-
-   <div class="intro-cta">
-      <a class="button primary" 
-        href="https://events.eply.com/2022TXGISForumRegistration">
-        Register Now</a>
+    </div>
+    <div class="container intro">
+      <div class="videoWrapper">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8Ypb03AcVws" title="2022 Texas GIS Forum" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 
