@@ -258,6 +258,7 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
+  padding-top: 120px;
   width: 100%
 }
 
@@ -296,6 +297,7 @@ a:hover .forum-2022-content {
 @media only screen and (max-width: 990px) {
   .forum-2022-content-wrapper {
     display: inline-block;
+    padding-top: 15px;
   }
 
   .forum-2022-content {
