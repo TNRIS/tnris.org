@@ -8,7 +8,11 @@ TNRIS brings the GIS community together through long established events like the
 
 ## Annual Texas GIS Forum
 
-The 2022 Texas GIS Forum will be held March 8-11 at The Commons Center at the UT J.J. Pickle Research Center. Further details to be announced. Please stay tuned for TNRIS event information and updates by <a href="https://twitter.com/TNRIS" target="_blank">following us on Twitter</a>.
+<div class="container intro">
+      <div class="videoWrapper">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8Ypb03AcVws" title="2022 Texas GIS Forum" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
 
 For over three decades, the Texas GIS Forum has been the premiere gathering for the statewide GIS community. While we don't have pages going all the way back to then, you can still visit the pages for current and recent Forums below.
 
