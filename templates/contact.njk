@@ -48,7 +48,7 @@
               "Reason",
               "Reason for contacting",
               "radio",
-              ['General Question or Comment', 'Help with Data', 'Order Map', 'Education/Training/Forum'],
+              ['General Question or Comment', 'Help with Data', 'Order Map', 'Education/Training/Forum', 'Lakes of Texas'],
               false
             )}}
 
@@ -91,6 +91,26 @@
 
                 {{form.submit("Message")}}
               </div>
+
+              <div ng-show="form_model['Reason'] == 'Lakes of Texas'">
+                <p>
+                  If you have any questions, comments, suggestions, etc, regarding the Lakes of Texas web application, please contact us by completing the form below:
+                </p>
+                {{form.textarea(
+                    "Question or Comments",
+                    "Question / Comments",
+                    true,
+                    true
+                )}}
+
+                {{form.input("Name", "Name", "text", true)}}
+                {{form.input("Email", "Email address", "email", true)}}
+                {{form.input("Phone", "Phone number", "tel", false)}}
+                {{form.industry()}}
+
+                {{form.submit("Message")}}
+              </div>
+
             </div>
             {{form.after()}}
           </section>
