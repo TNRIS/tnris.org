@@ -39,10 +39,11 @@ buttontext: Register Now!
 </section>
 <section id="keynote-speakers">
   <h1 class="forum-2022-h1">Keynote Speakers</h1>
-  <div class="horizontal card">
-    <img class="card__img" src="https://cdn.tnris.org/images/erin-helton_headshot.jpg" alt="Erin Helton Headshot"class="card__image">
-    <div class="card__content">
-      <div class="card__type">Keynote Speaker - Wed, Mar 09</div>
+  <div class="hero">
+    <div class="intro">
+      <div class="card__type">
+        Wed, Mar 9
+      </div>
       <div class="card__title">
         Erin Helton
       </div>
@@ -50,16 +51,28 @@ buttontext: Register Now!
         <p>Erin Helton has been working with GIS for fourteen years predominantly in cultural, environmental, and energy industries. Her past work includes predictive modeling, LiDAR analyses, web map development, and automating analysis workflows. Erin has most recently been involved in projects for emergency response, compliance reporting, and even treasure hunting! Last year Erin was featured on three episodes of History Channel's "The Curse of Oak Island" where she used historic maps, enhanced LiDAR data, and triangulation techniques to determine the original positions of lost features.</p>
       </div>
     </div>
+    <div class="container">
+      <div class="videoWrapper">
+        <iframe width="100%" height="100%" src="https://twdb-video.s3.amazonaws.com/webinar/tnris/Erin+King+Helto_30092022.mp4" title="Erin Helton Keynote Presentation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
   </div>
-  <div class="horizontal reverse card">
-    <img class="card__img" src="https://cdn.tnris.org/images/mark-mccoy_headshot.jpeg" alt="Mark McCoy"class="card__image">
-    <div class="card__content">
-      <div class="card__type">Keynote Speaker - Thu, Mar 10</div>
+
+  <div class="hero">
+    <div class="intro">
+      <div class="card__type">
+        Thu, Mar 10
+      </div>
       <div class="card__title">
         Mark McCoy
       </div>
       <div class="card__excerpt">
         <p>Professor Mark McCoy is a landscape archaeologist whose research centers on the development of ancient political economies and human ecodynamics. His book "Maps for Time Travelers: How Archaeologists Use Technology to Bring Us Closer to the Past" tells the story of how geospatial technology is revolutionizing archaeology.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="videoWrapper">
+        <iframe width="100%" height="100%" src="https://twdb-video.s3.amazonaws.com/webinar/tnris/Mark+DcCoy_03102022.mp4" title="Mark McCoy Keynote Presentation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
