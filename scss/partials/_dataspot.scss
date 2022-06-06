@@ -258,7 +258,7 @@
 
 .carousel-item img {
   background-size: cover !important;
-  object-fit: contain !important;
+  object-fit: cover;
   width: 100% !important;
   height: 100% !important;
   max-height: 475px;
