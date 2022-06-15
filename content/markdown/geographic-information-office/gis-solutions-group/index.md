@@ -20,7 +20,7 @@ The Texas Natural Resources Information System, along with the <a href="https://
 
 The [Data Center Services (DCS) Solutions Groups](https://dir.texas.gov/View-About-DIR/Data-Center/Pages/Content.aspx?id=12) are at the 'front line' to address issues related to specific services provided through the State Data Center. There are five Solutions Groups, including the most recently created GIS Solutions Group, whose main tasks are to tackle issues and concerns that affect particular services provided by the DCS.
 
-The DCS GIS Solutions Group was created to meet the need for a formal team of agencies willing to participate in shared purchases for GIS data and enterprise technology services.  The catalyst for creating the DCS GIS Solutions Group was a mulit-agency joint effort to obtain a state enterprise license to Google’s 6-inch imagery service. In March 2015, a contract between Google and the state of Texas was executed through the DCS to execute a statewide [Texas Imagery Service](/texas-imagery-service).
+The DCS GIS Solutions Group was created to meet the need for a formal team of agencies willing to participate in shared purchases for GIS data and enterprise technology services.  The catalyst for creating the DCS GIS Solutions Group was a multi-agency joint effort to obtain a state enterprise license to Google’s 6-inch imagery service. In March 2015, a contract between Google and the state of Texas was executed through the DCS to execute a statewide [Texas Imagery Service](/texas-imagery-service).
 
 <br>
 
