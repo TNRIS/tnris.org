@@ -531,3 +531,18 @@ hr.new1 {
 .filterCourses {
   max-width: 51%!important;
 }
+
+.well-bg {
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
+}
+
+.cta {
+  border: black .5px solid;
+  border-radius: 2px;
+  margin-top: 20px;
+  padding: 20px;
+}
