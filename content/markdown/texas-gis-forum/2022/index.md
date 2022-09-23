@@ -2,8 +2,8 @@
 layout: events/texas-gis-forum/2022/home.njk
 title: 2022 Texas GIS Forum
 subtitle: March 8-11, 2022 | Austin, Texas
-mainimage: https://cdn.tnris.org/images/2022-forum-graphic-thankyou.png
-mainimagesm: https://cdn.tnris.org/images/2022-forum-graphic-thankyou-mobile.png
+mainimage: https://cdn.tnris.org/images/2022-forum-graphic.jpg
+mainimagesm: https://cdn.tnris.org/images/2022-forum-graphic-mobile.jpg
 buttontext: Register Now!
 ---
 
