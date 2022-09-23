@@ -173,7 +173,7 @@ Presently, all GIS related applications have a statewide exemption from 1 TAC 21
 
 This website may be viewed in different languages through your web browser's language settings on different browsers. Translation is provided for purposes of information and convenience only. 
 
-###Contact Us 
+### Contact Us 
 
 If you have difficulty accessing any material on our website, or if you are unable to access any materials on this website due to a language barrier, the TWDB may be able to provide additional assistance in serving your requested needs.  Please contact us at the email address or phone number listed below and we will respond as soon as possible and make every reasonable attempt to correct the problem or work to provide the information in an alternative format. 
 
