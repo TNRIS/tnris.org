@@ -4,7 +4,7 @@ layout: education/main.njk
 mainimage: https://cdn.tnris.org/images/keep_pace_banner.jpg
 smallimage: https://cdn.tnris.org/images/training_keep_pace_md.jpg
 ---
-GIS technical training courses are brought to you by two of Texas’ premiere training institutes – <a href="https://teachmegis.com/">TeachMeGIS</a> and <a href="https://geospatialtraining.com/">Geospatial Training Services</a>. Both are outstanding organizations, bringing the latest GIS technologies and skills to a range of professional skill levels in the workplace. 
+GIS technical training courses are brought to you by two of Texas’ premiere training institutes – <a href="https://teachmegis.com/" target="_blank">TeachMeGIS</a> and <a href="https://geospatialtraining.com/" target="_blank">Geospatial Training Services</a>. Both are outstanding organizations, bringing the latest GIS technologies and skills to a range of professional skill levels in the workplace. 
 
 Courses offered range from basic introductions to software use and application, to intermediate skill enhancement and refinement, to more advanced skill development for increased efficiency and effective use of GIS. 
 
