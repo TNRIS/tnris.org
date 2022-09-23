@@ -3,7 +3,7 @@ layout: events/texas-gis-forum/2022/main.njk
 title: Call for Papers
 subtitle: March 8-11, 2022 | Austin, Texas
 mainimage: https://cdn.tnris.org/images/2022-forum-graphic.jpg
-mainimagesm: https://cdn.tnris.org/images/2022-forum-graphic-mobile.jpg
+mainimagesm: https://cdn.tnris.org/images/2022-forum-graphic-sm.jpg
 abstract: Share your knowledge with a respected community of GIS professionals and network with your peers in the geospatial industry.
 body_class: call-for-presentations
 
