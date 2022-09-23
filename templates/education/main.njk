@@ -39,6 +39,7 @@
     <div class="row">
       <div class="col-lg-8">
         {{ contents|safe }}
+        {# <!-- This section is to add courses to education page -->
         <div class="row">
           <div class="col-lg-6">
             <h2 id="education-schedule-h2">
@@ -62,7 +63,7 @@
         </div>
         <div id="insert-here" class="training-list" data-spy="scroll" data-target=".training-header">
           <!-- training records get inserted here from the tnris api (see training.js) -->
-        </div>
+        </div> #}
       </div>
       <div class="col-lg-4">
         {% block sidebarLeft %}
