@@ -163,6 +163,8 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
 
 ---
 
+<!-- This section is in-house tour info
+
 ## TNRIS Tours
 
 <img style="width: 49%;" class="float-right rounded" src="https://cdn.tnris.org/images/rovers2.jpg" alt="TNRIS tours">
@@ -183,4 +185,4 @@ mainimage: https://cdn.tnris.org/images/rovers3.jpg
 -   **Scanning Room** – View and learn about the scanners used to digitize the aerial photos from the archive.
 -   **Plotter Room** – Learn about the different size plotters and their uses.
 -   **Information Services** – Learn about the team that creates the applications so that we can view and download the geospatial data acquired by the StratMap team project managers.
--   **Q&A** – We’ll be happy to answer your questions and introduce you to the staff (unless they’re in a meeting).
+-   **Q&A** – We’ll be happy to answer your questions and introduce you to the staff (unless they’re in a meeting).-->
