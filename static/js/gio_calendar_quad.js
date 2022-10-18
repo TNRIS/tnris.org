@@ -17,7 +17,7 @@ function retrieveNextFourEvents() {
       // if a community meeting, apply meeting-box to classname
       var classname = e.community_meeting ? 'col-lg-3 meeting-box' : 'col-lg-3';
       var communityMeetingStar = e.community_meeting ? ` <i class="fa fa-star" style="color: #1e8dc1;"></i>` : '';
-      var communityMeetingAgenda = e.community_meeting_agenda_url ? ` <a class="btn btn-tnris btn-md" href="${e.community_meeting_agenda_url}">Download Agenda</a>` : '';
+      var communityMeetingAgenda = e.community_meeting_agenda_url ? ` <a class="btn btn-tnris btn-md" href="${e.community_meeting_agenda_url}">Directions</a>` : '';
       event.setAttribute('class', classname);
       // check if various properties exist, and set variables if so
       var timeRange = e.pretty_time ? `<time>${e.pretty_time}</time><br>` : '';
@@ -27,7 +27,7 @@ function retrieveNextFourEvents() {
       <span class="circle" aria-hidden="true">
         <span class="icon arrow"></span>
       </span>
-     <span class="button-text"><p><a href="${e.event_url}" target="_blank"><i class="fa fa-new-window"></i> <span class="button-text">Event Link</span></button></a></p>` : '';
+     <span class="button-text"><p><a href="${e.event_url}" target="_blank"><i class="fa fa-new-window"></i> <span class="button-text">More Info</span></button></a></p>` : '';
       // fill dom list element with event details
       event.innerHTML =
         `
