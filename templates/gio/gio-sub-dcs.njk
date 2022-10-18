@@ -22,19 +22,9 @@
 {% block contentsOne %}
 
 {% include "gio/gio-nav.njk" %}
-<section class="container-md">
-  <div class="row article">
-    <div class="col-sm-12 col-lg-8 blog-main">
-      <div class="gio-news-content">
-        {{ contents|safe }}
-      </div>
-    </div>
-
-    {% block rightContent %}
-      <div class="col-sm-12 col-lg-4 blog-sidebar">
-        {% include "gio/gis-solutions-meeting.njk" %}
-      </div>
-    {% endblock %}
+<section class="gio-main">
+  <div class="container-md">
+    {{ contents|safe }}
   </div>
 </section>
 {% endblock %}
