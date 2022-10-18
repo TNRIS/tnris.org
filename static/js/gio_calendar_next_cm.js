@@ -24,8 +24,8 @@ function retrieveNextCommunityMeeting() {
         <span class="circle" aria-hidden="true">
           <span class="icon arrow"></span>
         </span>
-        <span class="button-text"><p><a href="${e.event_url}" target="_blank"><i class="fa fa-new-window"></i> <span class="button-text">Event Link</span></button></a></p>` : '';
-      var communityMeetingAgenda = e.community_meeting_agenda_url ? ` <a class="btn btn-tnris btn-md" href="${e.community_meeting_agenda_url}">Download Agenda</a>` : '';
+        <span class="button-text"><p><a href="${e.event_url}" target="_blank"><i class="fa fa-new-window"></i> <span class="button-text">More Info</span></button></a></p>` : '';
+      var communityMeetingAgenda = e.community_meeting_agenda_url ? ` <a class="btn btn-tnris btn-md" href="${e.community_meeting_agenda_url}">Directions</a>` : '';
       // fill dom list element with event details
       event.innerHTML =
         `
