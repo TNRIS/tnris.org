@@ -16,6 +16,20 @@ abstract: A Geographic Resource for Texas Government Agencies, Easy to Access, U
 				<div class="col-12 mx-auto">
 					<div class="accordion" id="accordionExample1">
 						<div class="card">
+							<div class="card-header" id="headingCC">
+								<h5 class="mb-0">
+									<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseCC" aria-expanded="false" aria-controls="collapseCC">
+									<i class="main"></i><i class="fa fa-angle-double-right mr-3"></i>How frequently is the Texas Imagery Service updated?
+									</button>
+						  		</h5>
+							</div>
+              				<div id="collapseCC" class="collapse fade" aria-labelledby="headingCC" data-parent="#accordionExample1">
+								<div class="card-body">
+									The goal of the Texas Imagery Service is to serve orthoimagery at full statewide coverage every other year. Currently, the TIS has two statewide flights scheduled for 2022-2025. Please reach out to us via our Contact Form for further details as needed.
+								</div>
+							</div>
+						</div>
+						<div class="card">
 							<div class="card-header" id="headingA">
 								<h5 class="mb-0">
 									<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseA" aria-expanded="false" aria-controls="collapseA">
