@@ -9,6 +9,7 @@ The Information Services (IS) section maintains the TNRIS digital data library a
 <h2>DataHub</h2>
 <img src="https://cdn.tnris.org/images/datahub.png" class="img-fluid" alt="DataHub Screenshot" title="data.tnris.org"/>
 <div class="well-bg link-well row">
+<div class="well-bg link-well row">
   <div class="col-lg-6">
     <strong>View:
       <a href="https://data.tnris.org" title="data.tnris.org" target="app">data.tnris.org</a>
@@ -21,6 +22,26 @@ The Information Services (IS) section maintains the TNRIS digital data library a
   </div>
   <p>
     The DataHub is the new modern web application built for the public to view, learn about, download, order, and inquire about TNRIS data. The application simplifies TNRIS data processes and workflows via a content management system which feeds the DataHub frontend. This allows for quicker and more accurate data delivery to the public.
+  </p>
+</div>
+
+<h2>TNRIS Bulk Downloader</h2>
+<img src="https://cdn.tnris.org/images/bulk-downloader-2022.PNG" class="img-fluid" alt="TNRIS Bulk Downloader Screenshot" title="TNRIS Bulk Downloader"/>
+  <div class="col-lg-6">
+    <strong>Windows:
+      <a href="http://bulk-download-output-110722.s3-website-us-east-1.amazonaws.com/bdl_codebuild_project/go-bulk-downloader.exe.zip" title="Bulk Downloader for Windows" target="app">Bulk Downloader</a>
+    </strong>
+    <Small> (Extract and execute go-bulk-downloader.exe)</small>
+  </div>
+  <div class="col-lg-6">
+    <strong>Linux:
+      <a href="http://bulk-download-output-110722.s3-website-us-east-1.amazonaws.com/bdl_codebuild_project/go-bulk-downloader.tar.xz" title="Bulk Downloader for Linux" target="github">Bulk Downloader</a>
+    </strong>
+    <small> (Extract and execute ./usr/local/bin/go-bulk-downloader)</small>
+  </div>
+  <p>
+    The Bulk Downloader utility uses the publicly available TNRIS REST API for data.tnris.org collection resources. It allows for bulk downloading an entire collections'
+  resources, bypassing the need to click each area polygon (county, quad, qquad, etc) in the download map.
   </p>
 </div>
 
