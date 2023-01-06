@@ -22,24 +22,24 @@
   </div>
 {% endblock %}
 {% block contentsOne %}
+  {% include "partials/highlights.njk" %}
+{% endblock %}
+{% block contentsTwo %}
   <div id="contentMain" class="container-md">
     <h1 class="sr-only">Texas Natural Resources Information System</h1>
     <div class="row">
-      {# twitter timeline embed #}
-      <div id="front-news" class="col-lg-5 col-sm-12 order-lg-2">
-        {% include "partials/twitter-timeline.njk" %}
-      </div>
       {# latest datahub collections #}
-      <div id="front-data" class="col-lg-3 col-sm-12 order-lg-1">
+      <div id="front-data" class="col-lg-3 col-sm-12 order-lg-1  order-sm-1">
         {% include "partials/latest-datahub-collections.njk" %}
       </div>
+      {# twitter timeline embed #}
+      <div id="front-news" class="col-lg-5 col-sm-12 order-lg-2  order-sm-3">
+        {% include "partials/twitter-timeline.njk" %}
+      </div>
       {# education/training information #}
-      <div id="front-education" class="col-lg-4 col-sm-12 col-12 order-3">
+      <div id="front-education" class="col-lg-4 col-sm-12 col-12 order-lg-3 order-sm-2">
         {% include "education/education-front.njk" %}
       </div>
     </div>
   </div>
-{% endblock %}
-{% block contentsTwo %}
-  {% include "partials/highlights.njk" %}
 {% endblock %}
