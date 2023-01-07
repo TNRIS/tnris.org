@@ -2,13 +2,12 @@
 
 {% set highlight_items = [
   {
-    name: 'Research &amp; Distribution',
-    acronym: 'RDC',
-    description: 'Let our hands-on team of data Specialists assist you with physical map products and other datasets, many unavailable online.',
-    image: 'https://cdn.tnris.org/images/open_folders_slim.jpg',
-    alt_text: 'Data support staff working with a customer',
-    link: '/research-distribution-center',
-    button_text: 'Learn More <span class="sr-only">about Research &amp; Distribution</span>'
+    name: 'Texas GIS Forum',
+    description: 'Save the Date! The 2023 Texas GIS Forum will be held the week of October 23-27. Stay tuned for more info.',
+    image: 'https://cdn.tnris.org/images/2023-GISForum-SaveTheDate.jpg',
+    alt_text: 'Oct 23-27 written in LiDAR sand with pointing hand',
+    link: '/events',
+    button_text: 'Learn More <span class="sr-only">about the Texas GIS Forum</span>'
   }, {
     name: 'Geographic Information Office',
     acronym: 'GIO',
@@ -18,19 +17,20 @@
     link: '/geographic-information-office',
     button_text: 'Learn More <span class="sr-only">about the Geographic Information Office</span>'
   }, {
-    name: 'Texas GIS Forum',
-    description: 'Save the Date! The 2023 Texas GIS Forum will be held the week of October 23-27. Stay tuned for more info.',
-    image: 'https://cdn.tnris.org/images/2023-GISForum-SaveTheDate.jpg',
-    alt_text: 'Oct 23-27 written in LiDAR sand with pointing hand',
-    link: '/events',
-    button_text: 'Learn More <span class="sr-only">about the Texas GIS Forum</span>'
+    name: 'Research &amp; Distribution',
+    acronym: 'RDC',
+    description: 'Let our hands-on team of data Specialists assist you with physical map products and other datasets, many unavailable online.',
+    image: 'https://cdn.tnris.org/images/open_folders_slim.jpg',
+    alt_text: 'Data support staff working with a customer',
+    link: '/research-distribution-center',
+    button_text: 'Learn More <span class="sr-only">about Research &amp; Distribution</span>'
   }
 ] %}
 
 <div id="highlights">
   <div class="container-md">
+    <h1 class="text-center">Providing the Highest Level of Geographic Data Services to the People of Texas</h1>
     <div class="row">
-      <h3 class="text-center">Providing the Highest Level of Geographic Data Services to the People of Texas</h3>
       {% for item in highlight_items %}
         <div class="col-lg-4">
           <div class="highlightBox">
@@ -39,7 +39,8 @@
                 {% if item.acronym %}
                   <strong>{{item.acronym}}</strong><br>
                 {% endif %}
-                {{item.name|safe}}</h2>
+                {{item.name|safe}}
+              </h2>
               <a href="{{item.link}}"><img class="img-fluid" src="{{item.image}}" alt="{{item.alt_text}}"></a>
             </div>
             <p>{{item.description}}</p>

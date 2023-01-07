@@ -30,24 +30,13 @@
 /* Front Image */
 #front-image-container {
 
-  // &.col-12 {
-  //   @media (max-width: $screen-md) {
-  //     padding: 0 !important;
-  //   }
-  // }
-
   @media (min-width: $screen-md) {
     padding-right: 0;
   }
 
   img {
     @media (max-width: $screen-md) {
-      // border: 3px solid white;
       padding: 0 !important;
-    }
-    @media (min-width: $screen-md) {
-      // border: 3px solid white;
-      // min-height: 315px;
     }
   }
 }
@@ -298,6 +287,7 @@ h2.forum-title-front {
       position: absolute;
       text-shadow: 1px 1px 2px $darkgrey;
       margin: 0;
+      font-size: 18px;
       padding: 0;
       padding-bottom: 5px;
       padding-left: 15px;
@@ -306,10 +296,6 @@ h2.forum-title-front {
       width: 100%;
       color: white;
       background-image: linear-gradient(to top, $darkgrey, transparent);
-
-      @media (max-width: $screen-lg) {
-        font-size: 20px;
-      }
     }
   }
 }
@@ -321,6 +307,8 @@ h2.forum-title-front {
   border: 1px solid $midgrey;
   color: $darkgrey;
   min-height: 350px;
+  margin-top: 20px;
+  padding-bottom: 5px;
 }
 
 /* NEWS - Twitter Timeline Embed */
