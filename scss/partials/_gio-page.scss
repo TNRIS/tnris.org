@@ -161,7 +161,7 @@
   padding-top: 30px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 740px) {
 
   .gio-calendar-quad {
     display: block;
@@ -418,10 +418,10 @@ hr.noMarg {
 
 .eventBox {
   border: solid thin #CCC;
-  padding: 10px 10px 0 10px;
+  padding: 10px;
   box-shadow: 0 2px 4px #CCC;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   min-height: 100%;
   max-height: 100%;
   min-width: 100%;
