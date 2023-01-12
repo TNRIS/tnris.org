@@ -5,6 +5,10 @@
   font-weight: 300;
   line-height: 1.4;
 
+  .event-circle-wrapper {
+   justify-content: center;
+  }
+
   .event-circle {
     padding: 20px 10px 20px 10px;
     max-width: 300px;
@@ -61,6 +65,10 @@
       margin-bottom: 5px;
     }
   }
+}
+
+.gio-calendar-quad {
+  margin-bottom: 20px;
 }
 
 #events-front {

@@ -17,18 +17,15 @@
 {% endblock %}
 
 {% block contentsOne %}
+ <div class="container meeting-bar">
+    {% include "gio/gio-calendar-quad.njk" %}
+</div>
 {% endblock %}
 
 {% block contentsTwo %}
-  <div id="events-container" class="container-md">
-    <div class="row">
-      <div class="col-lg-8">
-        {{ contents|safe }}
-      </div>
-      <div class="col-lg-3">
-        <script src="/gio_calendar_next_cm.bundle.js"></script>
-        <div id="gio-calendar-next-cm"></div>
-      </div>
+  <div class="container-md">
+    <div id="events-container">
+      {{ contents|safe }}
     </div>
   </div>
 {% endblock %}
