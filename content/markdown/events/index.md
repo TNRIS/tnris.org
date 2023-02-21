@@ -8,7 +8,7 @@ TNRIS brings the GIS community together through long established events like the
 
 ## Annual Texas GIS Forum
 ### 2023 Texas GIS Forum is under way!
-The 2023 Texas GIS Forum will be held the week of <b>October 23-27, 2023</b>. Stay tuned for more info.
+The 2023 Texas GIS Forum will be held the week of <b>October 23-27, 2023</b> in Austin, TX. Stay tuned for more info.
 
 <div class="container intro">
       <div class="videoWrapper">
