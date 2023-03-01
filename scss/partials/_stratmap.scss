@@ -94,6 +94,13 @@
 }
 
 .card.card-body.vendor-box {
+
+  @media (max-width: $break-med-two) {
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+
   @media (min-width: $screen-sm) {
     min-height: 185px;
     margin-bottom: 1rem;
@@ -560,18 +567,26 @@ ul.stratmap-work {
 }
 
 .myDiv {
-  height: 25%;
+  align-items: center;
+  display: flex;
+  min-height: 70px;
+}
+
+.myDiv {
+
+  margin-bottom: 10px;
+
+  img {
+    width: 100%;
+  }
 }
 
 .myDiv2 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .myDiv3 {
-  position: absolute;
-  bottom: 0px;
-  margin: 10px 0 10px 0;
+  margin: 20px 0 10px;
 }
 
 .shadow1 {
@@ -696,9 +711,10 @@ ul.stratmap-work {
   }
 
   .myDiv {
-  
+
     img {
-      height: 100%;
+      object-fit: contain;
+      max-width: 200px;
     }
     
   }

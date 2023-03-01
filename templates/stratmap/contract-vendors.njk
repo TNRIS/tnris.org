@@ -249,7 +249,7 @@
 %}
 
 {% for item in contract_vendors %}
-  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
     {% if item.status == 'unavailable' %}
     <div class="card card-body vendor-box unavailable">
     {% else %}
@@ -260,10 +260,20 @@
             <img class="img-fluid" src="{{item.logo_url}}" alt="Logo and home page for {{item.name}}">
           </a>
         </div>
+        <div class="myDiv3">
+          {% if 'products' in item.tags %}
+            <i class="fa fa-box-open" alt="Products"></i>
+          {% endif %}
+          {% if 'services' in item.tags %}
+            <i class="fa fa-wrench" alt="Services"></i>
+          {% endif %}
+          {% if 'software' in item.tags %}
+            <i class="fa fa-laptop" alt="Software"></i>
+          {% endif %}
+        </div>
         <div class="myDiv2 caption">
           <h3 class="sr-only">{{item.name|safe}}</h3>
           <ul class="list-clean">
-          <br>
             <li>
             {% if item.vendor_page_url %}
             <a href="{{item.vendor_page_url}}"><i class="fa fa-new-window"></i>Contract Page</a>
@@ -284,7 +294,6 @@
         <div class="myDiv2 caption">
           <h3 class="sr-only">{{item.name|safe}}</h3>
           <ul class="list-clean">
-          <br>
             <li>
             {% if item.secondary_vendor_page_url %}
             <a href="{{item.secondary_vendor_page_url}}"><i class="fa fa-new-window"></i>Contract Page</a>
@@ -299,17 +308,6 @@
              {% endif %}
             </li>
           </ul>
-        </div>
-        <div class="myDiv3">
-          {% if 'products' in item.tags %}
-            <i class="fa fa-box-open" alt="Products"></i>
-          {% endif %}
-          {% if 'services' in item.tags %}
-            <i class="fa fa-wrench" alt="Services"></i>
-          {% endif %}
-          {% if 'software' in item.tags %}
-            <i class="fa fa-laptop" alt="Software"></i>
-          {% endif %}
         </div>
       </div>
   </div>
