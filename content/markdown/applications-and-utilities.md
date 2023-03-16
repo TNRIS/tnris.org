@@ -29,13 +29,13 @@ The Information Services (IS) section maintains the TNRIS digital data library a
 <img src="https://cdn.tnris.org/images/bulk-downloader-2022.PNG" class="img-fluid" alt="TNRIS Bulk Downloader Screenshot" title="TNRIS Bulk Downloader"/>
   <div class="col-lg-6">
     <strong>Windows:
-      <a href="http://bulk-download-output-110722.s3-website-us-east-1.amazonaws.com/bdl_codebuild_project/go-bulk-downloader.exe.zip" title="Bulk Downloader for Windows" target="app">Bulk Downloader</a>
+      <a href="https://bulk-download-output-110722.s3.amazonaws.com/bdl_codebuild_project/go-bulk-downloader.exe.zip" title="Bulk Downloader for Windows" target="app">Bulk Downloader</a>
     </strong>
     <Small> (Extract and execute go-bulk-downloader.exe)</small>
   </div>
   <div class="col-lg-6">
     <strong>Linux:
-      <a href="http://bulk-download-output-110722.s3-website-us-east-1.amazonaws.com/bdl_codebuild_project/go-bulk-downloader.tar.xz" title="Bulk Downloader for Linux" target="github">Bulk Downloader</a>
+      <a href="https://bulk-download-output-110722.s3.amazonaws.com/bdl_codebuild_project/go-bulk-downloader.tar.xz" title="Bulk Downloader for Linux" target="github">Bulk Downloader</a>
     </strong>
     <small> (Extract and execute ./usr/local/bin/go-bulk-downloader)</small>
   </div>
