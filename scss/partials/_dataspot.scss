@@ -252,7 +252,7 @@
   overflow: hidden;
   margin-top: -25px;
   margin-bottom: -25px;
-  max-height: 475px;
+  max-height: 677px;
   min-height: 475px;
 }
 
@@ -261,17 +261,12 @@
   object-fit: cover;
   width: 100% !important;
   height: 100% !important;
-  max-height: 475px;
+  max-height: 677px;
   min-height: 475px;
 }
 
 
 @media only screen and (max-width: 991px) {
-  .carousel-inner {
-    max-height: 40vw;
-    min-height: 40vw;
-  }
-
   .carousel-item img {
     max-height: 40vw;
     min-height: 40vw;
