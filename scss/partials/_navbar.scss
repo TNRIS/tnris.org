@@ -279,12 +279,6 @@ a.main-program {
 
 //Media queries to keep second color correctly positioned over nav links
 
-@media only screen and (min-width: 2550px) {
-  .navbarTNRIS {
-    background-image: linear-gradient(115deg, $tnrisblue 70%, #2A2B2E 70%);
-  }
-}
-
 @media only screen and (max-width: 1950px) {
   .navbarTNRIS {
     background-image: linear-gradient(115deg, $tnrisblue 60%, #2A2B2E 50%);
