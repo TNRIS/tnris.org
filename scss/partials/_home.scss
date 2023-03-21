@@ -301,14 +301,22 @@ h2.forum-title-front {
 }
 
 .highlightBox {
-  margin-bottom: 15px;
+  margin: 20px auto;
   overflow: hidden;
   background: $white;
   border: 1px solid $midgrey;
   color: $darkgrey;
   min-height: 350px;
-  margin-top: 20px;
   padding-bottom: 5px;
+  width: 100%;
+  
+  @media (max-width:992px){
+    width: 50%;
+  }
+
+  @media (max-width:400px){
+    width: 100%;
+  }
 }
 
 /* NEWS - Twitter Timeline Embed */
