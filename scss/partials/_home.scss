@@ -248,10 +248,10 @@ h2.forum-title-front {
 
 /* Front Page Highlights */
 #highlights {
-  background: $lightgrey;
+  margin-bottom: 20px;
+  padding: 20px 0;
   position: relative;
   z-index: 999;
-  padding: 20px 0;
 
   strong {
     font-weight: 400;

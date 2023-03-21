@@ -5,6 +5,7 @@
 }
 
 html, body {
+  background: $lightgrey;
   height: 100%;
   font-size: 16px;
   scroll-behavior: smooth;
@@ -247,6 +248,9 @@ h2 {
 
 /* push footer to bottom of page */
 #wrap-outer {
+  background: white;
+  margin: 0 auto;
+  max-width: 1920px;
   min-height: 100%;
 }
 
