@@ -241,7 +241,7 @@
 
 .carousel-caption {
   text-shadow: 3px 3px 8px #000000;
-  position: sticky;
+  padding-bottom: 0;
 }
 
 .carousel-caption p {
@@ -252,8 +252,6 @@
   overflow: hidden;
   margin-top: -25px;
   margin-bottom: -25px;
-  max-height: 677px;
-  min-height: 475px;
 }
 
 .carousel-item img {
@@ -262,14 +260,12 @@
   width: 100% !important;
   height: 100% !important;
   max-height: 677px;
-  min-height: 475px;
 }
 
 
 @media only screen and (max-width: 991px) {
   .carousel-item img {
-    max-height: 40vw;
-    min-height: 40vw;
+    max-height: 475px;
   }
   
 }
