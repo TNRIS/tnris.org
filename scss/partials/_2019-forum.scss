@@ -94,7 +94,7 @@
   align-items: center;
   border: 1px solid black;
   border-radius: 5px;
-  display: inline-block;
+  display: inline;
   font-family: 'DM Sans', sans-serif;
   margin-right: 30px;
   padding: 10px 30px;
@@ -151,15 +151,16 @@
 //NAVIGATION//
 
 
-.forum-2022-nav {
+.forum-nav {
   background-color: white;
   border-bottom: solid .75px #D7D7D7;
+  border-top: solid .75px #D7D7D7;
   font-family: 'DM Sans', sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
 }
 
-.forum-2022-nav ul {
+.forum-nav ul {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -169,30 +170,30 @@
   padding: 0;
 }
 
-.forum-2022-nav li {
+.forum-nav li {
   display: inline-block;
   text-align: center;
 }
 
-.forum-2022-nav a{
+.forum-nav a{
   color: #494647;
   display: inline-block;
   padding: 15px 15px;
   text-align: center;
 }
 
-.forum-2022-nav a:hover{
+.forum-nav a:hover{
   color: #494647;
   font-weight: 500;
   text-decoration: none;
 }
 
-.forum-2022-nav .active a {
+.forum-nav .active a {
   color: #F14A45;
   font-weight: 500;
 }
 
-.forum-2022-nav .active a:hover {
+.forum-nav .active a:hover {
   color: #F14A45;
   font-weight: 500;
   text-decoration: underline;
@@ -200,7 +201,7 @@
 
 @media only screen and (max-width: 550px) {
 
-  .forum-2022-nav ul {
+  .forum-nav ul {
     flex-direction: column;
   }
 
@@ -210,6 +211,7 @@
 
 .hero {
   align-items: center;
+  column-gap: 60px;
   display: flex;
   justify-content: space-between;
 }
@@ -223,9 +225,13 @@
   width: 30%;
 }
 
+.forum-sponsors {
+  background-color: white !important;
+}
+
 @media only screen and (max-width: 990px) {
   .hero {
-    display: inline-block;
+    flex-direction: column-reverse;
   }
   
   .hero .intro {
@@ -240,7 +246,7 @@
 
 .hero h1 {
   margin: 0 0 10px 0;
-  padding-top: 0;
+  padding-top: 20;
 }
 
 .hero .primary {
@@ -278,6 +284,14 @@
 
 }
 
+.forum-content {
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  box-shadow:inset 0 0 0 2000px rgba(61, 31, 31, 0.5);
+  max-width: 100%;
+}
+
 a:hover .forum-2022-content {
   box-shadow:inset 0 0 0 2000px rgba(24, 19, 19, 0.8);
   transform: scale(1.05);
@@ -304,6 +318,11 @@ a:hover .forum-2022-content {
     margin: 10px auto;
     padding: 60px;
     width: 100%;
+  }
+
+  .forum-content {
+    display: none;
+    flex-direction: row-reverse;
   }
 }
 

@@ -22,6 +22,14 @@ For over three decades, the Texas GIS Forum has been the premiere gathering for 
   <div class="row event-circle-wrapper">
   <div class="col-lg-4 col-6 event-circle">
       <div class="shadow-wrapper">
+        <a href="/texas-gis-forum/2023">
+          <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/2023-forum-thumb.jpg" alt="2022 Forum graphic"/>
+          <h3>2023</h3>
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-4 col-6 event-circle">
+      <div class="shadow-wrapper">
         <a href="/texas-gis-forum/2022">
           <img class="rounded-circle img-fluid" src="https://cdn.tnris.org/images/2022-forum-hero-th.jpeg" alt="2022 Forum graphic"/>
           <h3>2022</h3>
