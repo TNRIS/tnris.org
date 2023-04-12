@@ -26,8 +26,11 @@ buttontext: Register Now!
       </a>
     </div>
     <div class="intro">
-      <img class="forum-content" src="https://cdn.tnris.org/images/forum_2017_36.jpg" alt="Picture of Texas GIS Forum 2019">
+      <img class="forum-content" src="https://cdn.tnris.org/images/forum-picture-collage.jpg" alt="Picture of Texas GIS Forum 2019">
     </div>
- 
   </div>
+  <div class="intro">
+      <h1 class="forum-2022-h1">Agenda at a Glance</h1>
+      <img class="forum-content" src="https://cdn.tnris.org/images/2023-forum-agenda-glance.png" alt="Calendar graphic titled Agenda at a Glance">
+    </div>
 </section>
