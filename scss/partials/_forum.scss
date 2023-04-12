@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+}
+
+// CTA BOX //
+
+.forum-cta {
+    background-color: #e6e6e6;
+    padding: 10px 60px;
+}
+
+.forum-cta-title {
+    border-bottom: solid 3px #84E0F4;
+  color: black;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: .05rem;
+  padding: 40px 0px 5px;
+}
+
+.forum-cta-link {
+    color: red;
+}
