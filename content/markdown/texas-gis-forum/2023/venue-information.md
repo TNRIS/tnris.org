@@ -17,9 +17,3 @@ intro: true
   <div>
       {% include "events/texas-gis-forum/2023/map.njk" %}
   </div>
-  <div class="covid">
-  <h1 class="forum-2022-h1">Covid & Safety Information</h1>
-  <p>
-TNRIS/Texas GIS Forum will continue taking steps to create the safest environment possible and enforce all Centers for Disease Control and Prevention (CDC) guidelines and local government regulations in place at the time of the event. While the COVID-19 situation is fluid and constantly evolving, rest assured TNRIS/Texas GIS Forum will continue monitoring conditions, keep you appraised of any changes in COVID-19 precautions and related restrictions, and provide updates on the in-person conference. </p>
-  </div>
-</section>
