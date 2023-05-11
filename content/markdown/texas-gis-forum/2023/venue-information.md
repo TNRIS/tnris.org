@@ -1,10 +1,10 @@
 ---
 title: "Venue Information"
-layout: events/texas-gis-forum/2023/main.njk
+layout: events/texas-gis-forum/2023/home.njk
 subtitle: October 23-27, 2023 | Austin, Texas
 mainimage: https://cdn.tnris.org/images/2023-forum-graphic.png
 mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
-abstract: Lodging, parking, nearby lodging, and covid safety information.
+abstract: Lodging and parking information.
 intro: true
 ---
 <head>

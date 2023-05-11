@@ -18,6 +18,10 @@ buttontext: Register Now!
       <h1 class="forum-2022-h1">2023 Texas GIS Forum</h1>
       <p class="lead">The 2023 Texas GIS Forum is geared toward helping Keep Texas Elevated by bringing together people in the Lone Star State and beyond who are developing, improving, and using geospatial technologies.</p>
       <p>In the past three decades, the Texas GIS community has descended upon Austin to hear about the latest technological advancements in the private and public sector and to touch base with long-time colleagues and make new connections.</p>
+      <a class="link-primary" 
+    href="/texas-gis-forum/2023/sponsors-and-exhibitors">
+    Become a Sponsor  → 
+  </a>
     </div>
     <div class="intro">
       <img class="forum-content" src="https://cdn.tnris.org/images/forum-picture-collage.jpg" alt="Picture of Texas GIS Forum 2019">
