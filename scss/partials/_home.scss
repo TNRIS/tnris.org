@@ -309,6 +309,10 @@ h2.forum-title-front {
   min-height: 350px;
   padding-bottom: 5px;
   width: 100%;
+
+  .image-container {
+    max-height: 150px;
+  }
   
   @media (max-width:992px){
     width: 50%;
