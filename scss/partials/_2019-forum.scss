@@ -1008,6 +1008,7 @@ section.keynote-speakers:after:first-child  {
 //SPONSOR PAGE//
 
 .sponsor-cta-container {
+  align-items: center;
   display: flex;
   padding-top: 40px;
 
@@ -1015,7 +1016,8 @@ section.keynote-speakers:after:first-child  {
 
 @media only screen and (max-width: 650px) {
   .sponsor-cta-container {
-    display: inline;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .sponsor-cta-container .button {
