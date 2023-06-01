@@ -20,11 +20,11 @@ intro: true
 
   <div class="sponsor-cta-container">
    <a class="button primary" 
-     href="https://events.eply.com/2022GISForumSponsorApplication">
+     href="https://texasgisforum.wildapricot.org/event-5303892" target="_blank">
      Become a Sponsor 
     </a>
     <a class="button secondary"  
-    href="https://cdn.tnris.org/documents/Rules_and_Regulations_2022.pdf">Rules &amp; Regulations
+    href="https://cdn.tnris.org/documents/Rules_and_Regulations_2023.pdf" target="_blank">Rules &amp; Regulations
     </a>
   </div>
 </section>
