@@ -35,47 +35,47 @@ intro: true
     <div class="sponsor-card-title">
       <h2><strong>Platinum</strong> | $5,500</h2>
     </div>
-    <p>Choose one of the following items to sponsor at this level:</p>
+    <p>Platinum sponsor opportunities:</p>
     <ul>
-      <li>Tote Bag Sponsor and Social Sponsor </li>
+      <li>Tote Bag and Social Sponsor </li>
       <li>Name Badge Lanyard Sponsor (includes 45 min speaking engagement)</li>
-      <li>Notebook & Pen Sponsor (includes 45 min speaking engagement)</li>
+      <li>Notebook and Pen Sponsor (includes 45 min speaking engagement)</li>
     </ul>
-    <p>Platinum sponsor benefits</p>
+    <p>Platinum sponsor benefits:</p>
     <ul class="sponsor-benefits">
       <li>5 Complimentary Full Conference Passes</li> 
-      <li>Double Booth (8x10 standard size)</li>
-      <li>Company Logo on On-Site Forum Agenda</li>
-      <li>Company Logo and link on 2023 Texas GIS Forum website</li> 
+      <li>8' x 10' Booth Space</li> 
+      <li>Company Logo on On-Site Marketing</li>
+      <li>Company Logo and Link on 2023 Texas GIS Forum Website</li>
+      <li>Pre-Conference Attendee List</li>  
       <li>Post-Conference Attendee List</li> 
-      <li>Pre-Conference Attendee List</li> 
-      <li>Company Logo on Forum On-Site Banner</li> 
-      <li>Company Logo on TNRIS Homepage leading up to 2023 Forum</li> 
+      <li>Company Logo on Forum Banner</li> 
+      <li>Company Logo on TNRIS Homepage Leading up to 2023 Forum</li> 
       <li>One Page Promotional Insert with Attendee Materials</li> 
-      <li>Sponsorship acknowledgment TNRIS Twitter post</li> 
+      <li>Sponsorship Acknowledgment TNRIS Twitter Post</li> 
     </ul>
   </div>
   <div class="sponsor-card">
     <div class="sponsor-card-title">
       <h2><strong>Gold</strong> | $3,950</h2>
     </div>
-    <p>Choose one of the following items to sponsor at this level:</p>
+    <p>Gold sponsor opportunities:</p>
     <ul>
-      <li>Mobile Agenda (1 Opportunity)</li>
-      <li>Keynote Presentations Sponsor (2 Opportunities)</li>
-      <li>Breakfast Sponsor (3 Opportunities)</li>
-      <li>Lunch Sponsor (2 Opportunities)</li>
+      <li>Mobile Agenda Sponsor</li>
+      <li>Keynote Presentations Sponsor (2 available)</li>
+      <li>Breakfast Sponsor (3 available)</li>
+      <li>Lunch Sponsor (2 available)</li>
     </ul>
-    <p>Gold sponsor benefits</p>
+    <p>Gold sponsor benefits:</p>
     <ul class="sponsor-benefits">
-      <li>30-minute educational speaking engagement</li> 
+      <li>30-minute Educational Speaking Engagement</li> 
       <li>3 Complimentary Full Conference Passes</li>
-      <li>Booth space (8x10 standard size)</li> 
-      <li>Company Logo on On-Site Forum Agenda</li> 
-      <li>Company Logo and link on 2023 Texas GIS Forum website</li> 
+      <li>8' x 10' Booth Space</li> 
+      <li>Company Logo on On-Site Marketing</li> 
+      <li>Company Logo and Link on 2023 Texas GIS Forum Website</li>
+      <li>Pre-Conference Attendee List</li>  
       <li>Post-Conference Attendee List</li> 
-      <li>Pre-Conference Attendee List</li> 
-      <li>Company Logo on Forum On-Site Banner</li> 
+      <li>Company Logo on Forum Banner</li> 
       <li>One Page Promotional Insert with Attendee Materials</li> 
     </ul>
   </div>
@@ -84,28 +84,31 @@ intro: true
       <div class="sponsor-card-title">
         <h2><strong>Silver</strong> | $2,750</h2>
       </div>
-      <p>Silver sponsor benefits</p>
+      <p>Silver sponsor opportunities:</p>
       <ul>
-        <li>Conference Break Sponsor</li> 
+        <li>Conference Break Sponsor (4 available)</li>
+      </ul>
+      <p>Silver sponsor benefits:</p>
+      <ul>
         <li>2 Complimentary Full Conference Passes</li>  
-        <li>Booth space (8x10 standard size)</li> 
-        <li>Company Logo on On-Site Forum Agenda</li> 
-        <li>Company Logo and link on 2023 Texas GIS Forum website</li> 
+        <li>8' x 10' Booth Space</li> 
+        <li>Company Logo on On-Site Marketing</li> 
+        <li>Company Logo and Link on 2023 Texas GIS Forum Website</li>
+        <li>Pre-Conference Attendee List</li>  
         <li>Post-Conference Attendee List</li> 
-        <li>Pre-Conference Attendee List</li> 
-        <li>Company Logo on Forum On-Site Banner</li>
+        <li>Company Logo on Forum Banner</li>
       </ul>
     </div>
     <div class="sponsor-card">
       <div class="sponsor-card-title">
         <h2><strong>Exhibitor</strong> | $1,750</h2>
       </div>
-      <p>Exhibitor benefits</p>
+      <p>Exhibitor benefits:</p>
       <ul>
         <li>1 Complimentary Full Conference Pass</li>  
-        <li>Booth space (8x10 standard size)</li> 
-        <li>Company Listing on On-Site Forum Agenda</li> 
-        <li>Company Listing and link on 2023 Texas GIS Forum website</li> 
+        <li>8' x 10' Booth Space</li> 
+        <li>Company Listing on On-Site Marketing</li> 
+        <li>Company Listing and Link on 2023 Texas GIS Forum Website</li> 
         <li>Post-Conference Attendee List</li>
       </ul>
     </div>
