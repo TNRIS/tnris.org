@@ -44,7 +44,7 @@ intro: true
     <p>Platinum sponsor benefits:</p>
     <ul class="sponsor-benefits">
       <li>5 Complimentary Full Conference Passes</li> 
-      <li>8' x 10' Booth Space</li> 
+      <li>16' x 10' Double Booth Space</li> 
       <li>Company Logo on On-Site Marketing</li>
       <li>Company Logo and Link on 2023 Texas GIS Forum Website</li>
       <li>Pre-Conference Attendee List</li>  
