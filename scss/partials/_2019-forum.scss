@@ -44,40 +44,96 @@
 
 //2023 stuff dont forget to move later//
 
-.schedule {
-  display: flex;
-  flex-wrap: wrap;
+
+.training-list .forum-2022-h3 {
+  margin-top: 15px !important;
+  font-weight: bold;
 }
-.schedule-day {
-  width: 100%;
-  margin: 20px 0;
-  text-align: center;
-}
-.schedule-nav {
+
+.session-day {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 30px auto 15px;
 }
-.schedule-nav button {
-  margin: 0 10px;
+
+.session-container {
+  margin-bottom: 60px;
 }
+
 .session-card {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 5px;
-  width: calc(33.33% - 20px);
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -1px !important;
+  padding: 20px;
 }
+
+.bio-card {
+  border: 1px solid lightgrey;
+  column-gap: 15px;
+  padding: 30px;
+}
+
+.bio-card, .session-button-container {
+  align-items: center;
+  display:flex;
+  margin-top: 15px;
+}
+
+.session-button-container {
+  justify-content: flex-end;
+  column-gap: 15px;
+}
+
+.button-primary, .button-secondary, .info {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.button-primary:hover, .button-secondary:hover, .button-primary:active, .button-secondary:active, .info {
+  text-decoration: underline;
+}
+
+.button-primary, .register:hover {
+  background-color: black;
+  color: white;
+}
+
+.button-secondary, .button-secondary:hover, .info {
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (max-width: 990px) {
+  .session-button-container {
+    justify-content: flex-start;
+  }
+  .bio-card {
+    flex-direction: column;
+  }
+  .session-expanded {
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .session-card {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .session-card-content {
+    width: 100%;
+  }
+}
+
 .session-card h3 {
   margin-top: 0;
 }
-.session-card img {
-  max-width: 100%;
-  margin-bottom: 10px;
-}
+
 .session-card p {
   margin: 5px 0;
 }
@@ -243,7 +299,6 @@ padding-right: 20px;
   font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: .05rem;
-  padding-top: 15px;
 }
 
 .forum-2022-h3 {
@@ -319,6 +374,7 @@ padding-right: 20px;
 .disabled {
   background-color: #D4D4D4;
   border: solid 2px #D4D4D4;
+  border-radius: 50px;
   color: #575757;
 }
 
@@ -482,6 +538,11 @@ a:hover .forum-2022-content {
   .keynote-content {
     padding: 67px 10px;
   }
+}
+
+img.keynote-portrait {
+  width: 200px;
+  height: 200px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -1110,7 +1171,15 @@ section.keynote-speakers:after:first-child  {
   padding-bottom: 25px;
 
   img{
-  max-width: 150px;
+  max-width: 200px;
+  }
+}
+
+.sponsors-silver {
+  padding-bottom: 25px;
+
+  img{
+    max-width: 100px;
   }
 }
 
