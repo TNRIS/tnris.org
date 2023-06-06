@@ -86,7 +86,7 @@ intro: true
       </div>
       <p>Silver sponsor opportunities:</p>
       <ul>
-        <li>Conference Break Sponsor (4 available)</li>
+        <li>Conference Break Sponsor (3 available)</li>
       </ul>
       <p>Silver sponsor benefits:</p>
       <ul>
