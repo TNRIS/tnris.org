@@ -1,5 +1,5 @@
 ---
-title: "Location Information"
+title: "Location Details"
 layout: events/texas-gis-forum/2023/home.njk
 subtitle: October 23-27, 2023 | Austin, Texas
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/2023-forum-graphic.png
@@ -15,6 +15,7 @@ intro: true
 
 <section>
   <div>
+  <h1 class="forum-2022-h1">Venue Information</h1>
       {% include "events/texas-gis-forum/2023/map.njk" %}
   </div>
   <div>
