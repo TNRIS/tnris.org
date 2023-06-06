@@ -45,7 +45,7 @@
             {% include "events/texas-gis-forum/2023/registration.njk" %}
           {% endif %}
           {% if title == 'Call for Papers' %}{% endif %}
-          {% if title == 'Forum Pre-Conference Workshops' %}
+          {% if title == 'Pre-Conference Workshops' %}
             <div class="alert alert-warning">
               <p>
                 <strong>Notice:</strong>
@@ -61,8 +61,8 @@
           {% include "events/texas-gis-forum/2019/cfp-text.njk" %}
         {% endif %}
 
-        {% if title == 'Forum Pre-Conference Workshops' %}
-          <p class="lead">{{contents|safe}}</p>
+        {% if title == 'Pre-Conference Workshops' %}
+          <p class="lead">{{abstract}}</p>
         {% endif %}
         {% if title == '2023 Texas GIS Forum Agenda' %}
           <p class="lead">{{abstract}}</p>
