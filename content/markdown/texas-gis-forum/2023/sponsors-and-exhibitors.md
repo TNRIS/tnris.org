@@ -82,11 +82,12 @@ intro: true
   <div class="sponsor-card-container">
     <div class="sponsor-card">
       <div class="sponsor-card-title">
-        <h2><strong>Silver</strong> | $2,750</h2>
+        <h2 class="sold-out">Silver | $2,750</h2>
+        <p><strong>SOLD OUT!</strong></p>
       </div>
       <p>Silver sponsor opportunities:</p>
       <ul>
-        <li>Conference Break Sponsor (3 available)</li>
+        <li>Conference Break Sponsor</li>
       </ul>
       <p>Silver sponsor benefits:</p>
       <ul>
