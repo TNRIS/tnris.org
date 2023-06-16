@@ -62,7 +62,7 @@ intro: true
     <p>Gold sponsor opportunities:</p>
     <ul>
       <li>Mobile Agenda Sponsor</li>
-      <li>Keynote Presentations Sponsor (2 available)</li>
+      <li>Keynote Presentations Sponsor <strong>(ONE LEFT!)</strong></li>
       <li>Breakfast Sponsor (3 available)</li>
       <li>Lunch Sponsor (2 available)</li>
     </ul>
