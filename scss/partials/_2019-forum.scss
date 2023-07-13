@@ -44,54 +44,78 @@
 
 //2023 stuff dont forget to move later//
 
+//TYPOGRAPHY//
 
-.training-list .forum-2022-h3 {
-  margin-top: 15px !important;
-  font-weight: bold;
+.forum-h1, .forum-h2, .forum-h3, .forum-h4, .forum-h5 {
+  font-family: $lato;
 }
 
-.session-day {
-  display: flex;
-  justify-content: center;
-  margin: 30px auto 15px;
+p {
+  font-family: $inter;
 }
 
-.session-container {
-  margin-bottom: 60px;
+.forum-h1, .agenda-wrapper .forum-h2 {
+  color: $darkgrey;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  margin: 0;
+  padding: 5px 0;
+  text-transform: uppercase;
 }
 
-.session-card {
-  align-items: center;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  display: flex;
-  justify-content: center;
-  margin-bottom: -1px !important;
-  padding: 20px;
+.forum-h2 {
+  color: $darkish;
+  font-weight: 700;
 }
 
-.bio-card {
-  border: 1px solid lightgrey;
-  column-gap: 15px;
-  padding: 30px;
-}
-
-.bio-card, .session-button-container {
-  align-items: center;
-  display:flex;
+.forum-h3 {
+  font-size: 20px;
+  font-weight: 700;
   margin-top: 15px;
 }
 
-.session-button-container {
-  justify-content: flex-end;
-  column-gap: 15px;
+.forum-h4, .forum-h5 {
+  color: $darkgrey;
+  font-weight: 700;
 }
 
+.forum-h5 {
+  font-size: 16px;
+}
+
+.forum-h2 span {
+  font-weight: 300;
+  padding-left: 5px;
+  white-space: nowrap;
+}
+
+.green-header, .forum-h1 {
+  border-bottom: 5px solid $mintGreen;
+}
+
+.red-header {
+  border-bottom: 5px solid $salmonPink;
+}
+
+.dark-header {
+  border-bottom: 5px solid $darkgrey;
+}
+
+.agenda-wrapper .forum-h2 {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+// BUTTONS & LINKS //
+
 .button-primary, .button-secondary, .info {
-  border: 1px solid black;
+  border: 1px solid #222;
   border-radius: 50px;
-  padding: 5px 10px;
+  font-size: 15px;
+  padding: 8px 15px;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .button-primary:hover, .button-secondary:hover, .button-primary:active, .button-secondary:active, .info {
@@ -99,43 +123,33 @@
 }
 
 .button-primary, .register:hover {
-  background-color: black;
+  background-color: #222;
   color: white;
 }
 
-.button-secondary, .button-secondary:hover, .info {
+.button-secondary, .button-secondary:hover, .info , .info {
   background-color: white;
-  color: black;
+  color: #222;
 }
 
-@media only screen and (max-width: 990px) {
-  .session-button-container {
-    justify-content: flex-start;
-  }
-  .bio-card {
-    flex-direction: column;
-  }
-  .session-expanded {
-    padding: 15px;
-  }
+.disabled {
+  background-color: $middishgrey;
+  border: solid 2px $middishgrey;
+  border-radius: 50px;
+  color: $darkish;
+  padding: 5px 10px;
 }
 
-@media only screen and (max-width: 767px) {
-  .session-card {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .session-card-content {
-    width: 100%;
-  }
+.disabled:hover {
+  background-color: #D4D4D4;
+  border: solid 2px #D4D4D4;
+  color: #575757;
+  cursor: not-allowed;
+  text-decoration: none;
 }
 
-.session-card h3 {
-  margin-top: 0;
-}
-
-.session-card p {
-  margin: 5px 0;
+.disabled {
+  padding: 5px 10px;
 }
 
 .link-primary {
@@ -150,256 +164,13 @@
   font-weight: bold;
 }
 
-.sponsor-card-container {
-  display: flex;
-  column-gap: 60px;
-}
-
-.sponsor-card {
-
-  p {
-    margin-bottom: 0;
-  }
-
-  border: 1px solid black;
-  margin: 60px 0 0;
-  padding: 30px;
-}
-
-
-.sponsor-benefits {
-  column-count: 2;
-  column-gap: 50px;
-  -moz-column-count: 2;
-  -moz-column-gap: 50px;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 50px;
-}
-
-.sponsor-card-title {
-  h2 {
-    color: black;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 1.4rem;
-    font-weight: normal;
-    margin: 0;
-  }
-
-  .sold-out {
-    color: #777;
-    font-weight: lighter;
-    text-decoration: line-through;
-  }
-
-  margin-bottom: 20px;
-}
-
-@media only screen and (max-width: 767px) {
-  .sponsor-card-container {
-    flex-direction: column;
-  }
-  
-  .sponsor-benefits {
-    column-count: 1;
-    -moz-column-count: 1;
-    -webkit-column-count: 1;
-  }
-}
-
-// FORUM-2022 //
-
-.flex-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  div {
-    width: 50%;
-  }
-
-}
-
-
-
-
-
-@media only screen and (max-width: 767px) {
-  .flex-container{
-    flex-direction: column;
-
-    div {
-      width: 100%;
-    }
-  }
-}
-
-@media only screen and (max-width: 550px) {
-  .banner {
-    margin-top: 110px;
-  }
-}
-
-// CTA BOX //
-
-.forum-cta {
-  background-color: #e6e6e6;
-  padding: 50px 25px;
-
-  p {
-    margin: 0;
-  }
-}
-
-.forum-cta-title {
-color: black;
-font-family: 'DM Sans', sans-serif;
-font-size: 1.6rem;
-font-weight: 700;
-margin: 0 0 10px;
-padding-right: 20px;
-}
-
-.forum-cta-link {
-  border-bottom: solid 1px #F14A45;
-  color: #F14A45;
-  padding-top: 5px;
-}
-
-.forum-cta-link:hover {
-  color: #F14A45;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.forum-cta-description {
-  border-left: solid 1px #444;
-  padding-left: 30px;
-}
-
-@media only screen and (max-width: 767px) {
-  .forum-cta-title {
-    padding: 0;
-  }
-
-  .forum-cta-description {
-    border-left: none;
-    padding: 20px 0 0;
-  }
-}
-
-//TYPOGRAPHY//
-
-.forum-2022-h1 {
-  border-bottom: solid 3px #84E0F4;
-  color: black;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: .05rem;
-  padding: 40px 0px 5px;
-}
-
-.forum-2022-h2 {
-  color: black;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1.4rem;
-  font-weight: 600;
-  letter-spacing: .05rem;
-}
-
-.forum-2022-h3 {
-  color: #494647;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 500;
-
-}
-
-.forum-2022-h4 {
-  color: black;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: .05rem;
-  text-transform: uppercase;
-}
-
-.lead, p {
-  color:#222;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1rem; 
-  font-weight: 400;
-}
-
-//BUTTONS//
-
-.button {
-  align-items: center;
-  border: 1px solid black;
-  border-radius: 5px;
-  display: inline;
-  font-family: 'DM Sans', sans-serif;
-  margin-right: 30px;
-  padding: 10px 30px;
-}
-
-.primary {
-  background-color: #F14A45;
-  border: solid 1px #F14A45;
-  color: white;
-}
-
-.primary:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-.primary i {
-  color: white;
-  padding-right: 10px;
-  text-decoration: none;
-}
-
-.secondary {
-  background-color: white;
-  border: solid 2px #F14A45;
-  color: #F14A45;
-}
-
-.secondary:hover {
-  color: #F14A45;
-  text-decoration: underline;
-}
-
-.secondary i {
-  color: #F14A45;
-  padding-right: 10px;
-  text-decoration: none;
-}
-
-.disabled {
-  background-color: #D4D4D4;
-  border: solid 2px #D4D4D4;
-  border-radius: 50px;
-  color: #575757;
-}
-
-.disabled:hover {
-  background-color: #D4D4D4;
-  border: solid 2px #D4D4D4;
-  color: #575757;
-  cursor: not-allowed;
-  text-decoration: none;
-}
-
 //NAVIGATION//
-
 
 .forum-nav {
   background-color: white;
   border-bottom: solid .75px #D7D7D7;
   border-top: solid .75px #D7D7D7;
-  font-family: 'DM Sans', sans-serif;
+  font-family: $lato, sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
 }
@@ -449,6 +220,396 @@ padding-right: 20px;
     flex-direction: column;
   }
 
+}
+
+// MAIN CONTENT //
+
+.button-container {
+  column-gap: 10px;
+  display: flex;
+  padding: 0;
+}
+
+//AGENDA CONTENT//
+
+.session-card p, .session-track p, .session-track h3 {
+    margin: 0;
+  }
+
+  .session-track {
+    padding: 30px 0 5px;
+    margin-bottom: 0;
+    flex-wrap: nowrap;
+  }
+
+.session-card, .session-time, .session-group, .session-card-details, .session-location {
+  padding: 0;
+}
+
+.session-time {
+  max-width: 200px;
+  padding-left: 45px;
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.session-card-details p {
+  color: $darkish;
+}
+
+.session-card {
+  display: flex;
+  column-gap: 30px;
+  justify-content: space-between;
+  padding: 0 30px;
+  row-gap: 15px;
+}
+
+.session-card-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.session-card-container, .keynote {
+  border: 1px solid $darkgrey;
+  border-radius: 10px;
+  box-shadow: 2px 2px 50px 0px rgba(0, 0, 0, 0.05);
+  padding: 30px 0;
+}
+
+.session-expanded {
+  padding: 15px 30px;
+
+  hr {
+    border-color: $darkish;
+  }
+
+  h4 {
+    margin: 30px 0 5px;
+  }
+
+}
+
+.session-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 100%;
+}
+
+.session-track {
+  column-gap: 30px;
+}
+
+.keynote {
+
+  margin-top: 30px;
+
+  .session-card{
+  flex-direction: column;
+  row-gap: 15px;
+  }
+}
+
+.session-group .session-button-container {
+  align-items: flex-start;
+  justify-content: flex-end;
+  column-gap: 10px;
+  display: flex;
+  padding: 0;
+}
+
+.bio-header {
+  align-items: center;
+  display: flex;
+  column-gap: 5px;
+  margin: 15px 0;
+}
+
+.speaker-bio {
+
+  img.keynote-portrait {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+
+  .session-track {
+    flex-direction: column;
+  }
+
+  .session-card, .session-time {
+    padding: 0;
+  }
+
+  .session-card-container {
+    margin-top: 15px;
+  }
+
+  .session-card-container, .keynote {
+    padding: 30px;
+  }
+
+  .session-time b {
+    font-size: 20px;
+  }
+
+  .keynote > div {
+    padding-left: 30px;
+  }
+
+  .session-expanded {
+    padding: 15px 0 0;
+  }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  
+  .session-card {
+    flex-direction: column;
+  }
+
+  .session-group .session-button-container {
+    justify-content: flex-start;
+  }
+
+  .agenda-wrapper {
+    margin: 0 auto;
+    max-width: 540px;
+  }
+
+}
+
+// SPONSOR PAGE //
+
+.sponsor-card-container {
+  display: flex;
+  column-gap: 60px;
+}
+
+.sponsor-card {
+
+  p {
+    margin-bottom: 0;
+  }
+
+  border: 1px solid black;
+  margin: 60px 0 0;
+  padding: 30px;
+
+  .sold-out {
+    color: $middarkgrey;
+    font-weight: lighter;
+    text-decoration: line-through;
+  }
+}
+
+.sponsor-benefits {
+  column-count: 2;
+  column-gap: 50px;
+  -moz-column-count: 2;
+  -moz-column-gap: 50px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 50px;
+}
+
+.sponsor-card-title {
+  h2 {
+    color: black;
+    font-family: $lato, sans-serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 0;
+  }
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .sponsor-card-container {
+    flex-direction: column;
+  }
+  
+  .sponsor-benefits {
+    column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+  }
+}
+
+// CTA BOX //
+
+.forum-cta {
+  background-color: #e6e6e6;
+  padding: 50px 25px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.forum-cta-title {
+color: black;
+font-family: $lato;
+font-size: 1.6rem;
+font-weight: 700;
+margin: 0 0 10px;
+padding-right: 20px;
+}
+
+.forum-cta-link {
+  border-bottom: solid 1px #F14A45;
+  color: #F14A45;
+  font-family: $lato;
+  padding-top: 5px;
+}
+
+.forum-cta-link:hover {
+  color: #F14A45;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.forum-cta-description {
+  border-left: solid 1px #444;
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .forum-cta-title {
+    padding: 0;
+  }
+
+  .forum-cta-description {
+    border-left: none;
+    padding: 20px 0 0;
+  }
+}
+
+// FORUM-2022 //
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .flex-container{
+    flex-direction: column;
+
+    div {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .banner {
+    margin-top: 110px;
+  }
+}
+
+//TYPOGRAPHY//
+
+.forum-2022-h1 {
+  border-bottom: solid 3px #84E0F4;
+  color: black;
+  font-family: $lato, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: .05rem;
+  padding: 40px 0px 5px;
+}
+
+.forum-2022-h2 {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: .05rem;
+}
+
+.forum-2022-h3 {
+  color: #494647;
+  font-size: 1.2rem;
+  font-weight: 500;
+
+}
+
+.forum-2022-h4 {
+  color: #444;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
+
+.forum-2022-h5 {
+  color: #444;
+  font-size: .9rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.lead, p {
+  color:#222;
+  font-size: 1rem; 
+  font-weight: 400;
+}
+
+//BUTTONS//
+
+.button {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline;
+  margin-right: 30px;
+  padding: 10px 30px;
+}
+
+.primary {
+  background-color: #F14A45;
+  border: solid 1px #F14A45;
+  color: white;
+}
+
+.primary:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.primary i {
+  color: white;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.secondary {
+  background-color: white;
+  border: solid 2px #F14A45;
+  color: #F14A45;
+}
+
+.secondary:hover {
+  color: #F14A45;
+  text-decoration: underline;
+}
+
+.secondary i {
+  color: #F14A45;
+  padding-right: 10px;
+  text-decoration: none;
 }
 
 //MAIN ELEMENTS//
@@ -546,10 +707,6 @@ a:hover .forum-2022-content {
   }
 }
 
-img.keynote-portrait {
-  width: 200px;
-  height: 200px;
-}
 
 @media only screen and (max-width: 990px) {
   .forum-2022-content-wrapper {
@@ -675,6 +832,7 @@ text-shadow: 2px 2px 2px #444;
     object-fit: cover;
   }
 }
+
 
 // AGENDA CONTENT //
 
@@ -825,28 +983,56 @@ text-shadow: 2px 2px 2px #444;
   }
 }
 
-.tab-wrapper{
+.agenda-wrapper{
   display:flex;
   flex-direction: column;
-  font-family: 'DM Sans', sans-serif;
+  font-family: $lato, sans-serif;
   position: relative;
+}
+
+.tab-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 10px 0 30px;
 }
 
 .tab{
   align-items: center;
+  border: 1px solid $midnightBlue;
   border-radius: 5px;
   cursor: pointer;
   display: inline-block;
-  justify-content: space-between;
-  margin: 30px 10px 10px;
+  font-family: $inter;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  line-height: normal;
+  margin: 0;
   padding: 10px 15px;
+  text-align: center;
+}
+
+.nav-date {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 550px) {
 
+  .tab-wrapper {
+    gap: 15px;
+  }
+  
   .tab {
-    display:flex;
-    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nav-date {
+    font-size: 24px;
   }
 
   .panel .primary {
@@ -859,10 +1045,6 @@ text-shadow: 2px 2px 2px #444;
 .panels{
   width:100%;
 
-  h3 {
-    font-size: 1rem;
-  }
-
   .centered {
     text-align: center;
   }
@@ -870,7 +1052,7 @@ text-shadow: 2px 2px 2px #444;
 }
 .panel{
   display:none;
-  animation: fadein .8s;
+  animation: fadein 1s;
 }
 @keyframes fadein {
     from {
@@ -890,14 +1072,16 @@ text-shadow: 2px 2px 2px #444;
 #one:checked ~ .panels #one-panel,
 #two:checked ~ .panels #two-panel,
 #three:checked ~ .panels #three-panel,
-#four:checked ~ .panels #four-panel{
+#four:checked ~ .panels #four-panel,
+#five:checked ~ .panels #five-panel{
   display:block
 }
-#one:checked ~ .tabs #one-tab,
-#two:checked ~ .tabs #two-tab,
-#three:checked ~ .tabs #three-tab,
-#four:checked ~ .tabs #four-tab{
-  background:black;
+#one:checked ~ .tab-wrapper #one-tab,
+#two:checked ~ .tab-wrapper #two-tab,
+#three:checked ~ .tab-wrapper #three-tab,
+#four:checked ~ .tab-wrapper #four-tab,
+#five:checked ~ .tab-wrapper #five-tab{
+  background: $midnightBlue;
   color:white;
 }
 
@@ -1074,24 +1258,6 @@ section.keynote-speakers:after:first-child  {
 
 //SPONSOR PAGE//
 
-.sponsor-cta-container {
-  align-items: center;
-  display: flex;
-  padding-top: 40px;
-
-}
-
-@media only screen and (max-width: 650px) {
-  .sponsor-cta-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .sponsor-cta-container .button {
-    margin: 10px 0 5px;
-  }
-}
-
 .sponsor-levels {
   align-items: center;
   border: 1px solid white;
@@ -1187,10 +1353,4 @@ section.keynote-speakers:after:first-child  {
   img{
     max-width: 100px;
   }
-}
-
-// LOCATION INFO PAGE //
-
-.covid {
-  margin-top: 100px;
 }
