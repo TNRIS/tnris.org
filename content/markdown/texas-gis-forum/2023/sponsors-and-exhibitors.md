@@ -1,6 +1,6 @@
 ---
 layout: events/texas-gis-forum/2023/home.njk
-title: 2023 Texas GIS Forum
+title: Sponsors & Exhibitors
 subtitle: October 23-27, 2023 | Austin, Texas
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/2023-forum-graphic.png
 mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
@@ -18,13 +18,13 @@ intro: true
   <p class="lead">TNRIS is pleased to invite you to participate in our <strong>2023 Texas GIS Forum</strong> in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
  <p class="lead">After you've looked over the sponsor rules and regulations, click the link below to register as a sponsor.</p>
 
-  <div class="sponsor-cta-container">
-   <a class="button primary" 
+  <div class="button-container">
+    <a class="button-primary" 
      href="https://texasgisforum.wildapricot.org/event-5303892" target="_blank">
      Become a Sponsor 
     </a>
-    <a class="button secondary"  
-    href="https://cdn.tnris.org/documents/Rules_and_Regulations_2023.pdf" target="_blank">Rules &amp; Regulations
+    <a class="button-secondary"  
+      href="https://cdn.tnris.org/documents/Rules_and_Regulations_2023.pdf" target="_blank">Rules &amp; Regulations
     </a>
   </div>
 </section>

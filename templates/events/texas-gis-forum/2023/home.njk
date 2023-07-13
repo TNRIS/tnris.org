@@ -38,6 +38,11 @@
 
 {% block contentsTwo %}
 <section class="forum-sponsors">
-  {% include "events/texas-gis-forum/2023/sponsors.njk" %}
+  {% if title == '2023 Texas GIS Forum' %}
+    {% include "events/texas-gis-forum/2023/sponsors.njk" %}
+  {% endif %}
+  {% if title == 'Sponsors & Exhibitors' %}
+    {% include "events/texas-gis-forum/2023/sponsors.njk" %}
+  {% endif %}
 </section>
 {% endblock %}
