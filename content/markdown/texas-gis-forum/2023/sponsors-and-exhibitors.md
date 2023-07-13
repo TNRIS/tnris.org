@@ -39,7 +39,7 @@ intro: true
     <ul>
       <li>Tote Bag and Social Sponsor </li>
       <li>Name Badge Lanyard Sponsor (includes 45 min speaking engagement)</li>
-      <li>Notebook and Pen Sponsor (includes 45 min speaking engagement)</li>
+      <li class="sold-out">Notebook and Pen Sponsor</li>
     </ul>
     <p>Platinum sponsor benefits:</p>
     <ul class="sponsor-benefits">
