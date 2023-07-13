@@ -1,0 +1,48 @@
+---
+layout: events/texas-gis-forum/2023/agenda.njk
+title: 2023 Full Agenda
+subtitle: October 23-27, 2023 | Austin, Texas
+mainimage: https://tnris-org-static.s3.amazonaws.com/images/2023-forum-graphic.png
+mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
+---
+
+<section class="intro agenda">
+  <div class="agenda-wrapper">
+    <input class="tab-select" id="one" name="group" type="radio">
+    <input class="tab-select" id="two" name="group" type="radio">
+    <input class="tab-select" id="three" name="group" type="radio" checked>
+    <input class="tab-select" id="four" name="group" type="radio">
+    <input class="tab-select" id="five" name="group" type="radio">
+    <div class="tab-wrapper">
+      <label class="tab" id="one-tab" for="one">mon<br><span class="nav-date">23</span></label>
+      <label class="tab" id="two-tab" for="two">tue<br><span class="nav-date">24</span></label>
+      <label class="tab" id="three-tab" for="three">wed<br><span class="nav-date">25</span></label>
+      <label class="tab" id="four-tab" for="four">thu<br><span class="nav-date">26</span></label>
+      <label class="tab" id="five-tab" for="five">fri<br><span class="nav-date">27</span></label>
+    </div>
+    <div class="panels">
+      <div class="panel" id="one-panel">
+        <h2 class="forum-h2 green-header">Workshops:<span>Mon & Tue</span></h2>
+        <div id="insert-day-one-2023"></div>
+      </div>
+      <div class="panel" id="two-panel">
+        <h2 class="forum-h2 green-header">Workshops:<span>Mon & Tue</span></h2>
+        <div id="insert-day-two-2023"></div>
+      </div>
+      <div class="panel" id="three-panel">
+        <h2 class="forum-h2 dark-header">Sessions & Exhibits:<span>Wed & Thu</span></h2>
+        {% include "events/texas-gis-forum/2023/agenda-wednesday.njk" %}
+      </div>
+      <div class="panel" id="four-panel">
+        <h2 class="forum-h2 dark-header">Sessions & Exhibits:<span>Wed & Thu</span></h2>
+        {% include "events/texas-gis-forum/2023/agenda-thursday.njk" %}
+      </div>
+      <div class="panel" id="five-panel">
+        <h2 class="forum-h2 red-header">Texas GIS Community Meeting:<span>Fri</span></h2>
+        {% include "events/texas-gis-forum/2023/agenda-friday.njk" %}
+      </div>
+    </div>
+  </div>
+</section>
+
+

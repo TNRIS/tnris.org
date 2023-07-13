@@ -1,0 +1,17 @@
+{% extends "events/texas-gis-forum/2023/home.njk" %}
+{% import "_form_macros.njk" as form %}
+
+{% block styles %}
+  {{ super() }}
+
+  {{form.styles()}}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+
+  {{form.scripts()}}
+  {# bundled js file that retrieves training records from tnris api and creates html #}
+  {# source file located at static/js/forum_training.js; will need to access source file to add new forum year (string) to array #}
+  <script src="/forum_training.bundle.js"></script>
+{% endblock %}

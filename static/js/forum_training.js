@@ -39,12 +39,16 @@ function retrieveForumTraining() {
       // check registration_open prop for truthiness, then assign html button accordingly
       var status;
       t.registration_open ?
-        status = `<a href="${process.env.FORUM_REGISTRATION_LINK}" class="btn btn-success btn-sm">
-                    <i class="fa fa-pencil"></i> Register Here
-                  </a>` :
-        status = `<a href="#" class="btn btn-danger btn-sm disabled">
-                    <i class="fa fa-remove"></i> CLOSED
-                  </a>`;
+        status = `<a href="${process.env.FORUM_REGISTRATION_LINK}">
+                <button id="full-details-btn" class="button-primary register" type="button" >
+                register
+                </button>
+              </a>` :
+        status = `<a href="#" >
+                <button id="full-details-btn" class="disabled" type="button" >
+                register
+                </button>
+              </a>`;
       // convert instructor_info from string to array of json; set up variables for use in array loop
       var instructorInfoArray = JSON.parse('[' + t.instructor_info + ']');
       var instructorInfo;
@@ -59,115 +63,62 @@ function retrieveForumTraining() {
         namesList.push(" " + i.instructor_name);
         i.instructor_company && i.instructor_bio ? company = ", " + i.instructor_company : company = "";
         // if headshot image & bio exists, assign value to variables to use in html
-        i.instructor_headshot ? image = `<img class="rounded-circle float-left keynote-portrait" src="${i.instructor_headshot}" alt="headshot of instructor ${i.instructor_name}"><br>` : image = "";
+        i.instructor_headshot ? image = `<img class="rounded-circle keynote-portrait" src="${i.instructor_headshot}" alt="headshot of instructor ${i.instructor_name}"><br>` : image = "";
         i.instructor_bio ? bio = i.instructor_bio : bio = "";
         i.instructor_bio ? name = i.instructor_name : name = "";
-        i.instructor_bio ? instructorBioHeader = "<h3>Instructor Bio(s)</h3>" : instructorBioHeader = "";
         // condition to add instructor bio to instrucotr bios (for multiple instructors)
         instructorInfo = instructorInfo ? instructorInfo +
-          `<h4 style="margin-top:20px;">${name} ${company}</h4>
-            <p class="col-12">
+          `<div class="speaker-bio">
+            <div class="bio-header">
               ${image}
-              ${bio}
-            </p>` :
-          `<h4 style="margin-top:20px;">${name} ${company}</h4>
-            <p class="col-12">
+              <forum-h5>${name} ${company}</h5>
+            </div>
+            ${bio}
+          </div>` :
+          `<div class="speaker-bio">
+            <div class="bio-header">
               ${image}
-              ${bio}
-            </p>`;
+              <forum-h5>${name} ${company}</h5>
+            </div>
+            ${bio}
+          </div>`;
       });
 
       // html for 'record' variable div element
       record.innerHTML =
-      `
-      <div class="row p-1 border">
-        <div class="col-sm-12">
-          <h3>${t.title}</h3>
-        </div>
-        
-        <div class="col-sm-12">
-          <div class="pb-2">
-            ${t.teaser}<br>
-            <a id="${urlTitle}Click" data-toggle="collapse" aria-expanded="false" data-target="#Sheet${t.training_id}" href="#${urlTitle}">
-              <button id="full-details-btn" class="mt-2 btn btn-primary btn-sm" type="button" >
-                <span class="fa fa-info-sign"></span>
-                Expand Details
-              </button>
-            </a>
-          <hr>
-          <div class="row px-0">
-            <div class="col-sm-4">
-              <i class="fas fa-clock"></i>
-              ${start_time} - ${end_time}<br><br>
-              <strong>Location:</strong><br>${locationRoom}<br>
-            </div>
-            <div class="col-sm-4">
-              <strong>Taught by:</strong><br>${namesList}<br>
-              <strong>Cost:</strong><br>$${t.cost}<br><br>
-            </div>
-            <div class="col-sm-4">
-              <strong>Status:</strong><br>${status}<br><br>
-              
-            </div>
-          </div>
-        </div>
-
-        <div id="Sheet${t.training_id}" class="mb-3 col-12 collapse border">
-          <div class="col-sm-2"></div>
-          <div class="col-12" style="margin:10px 0 10px 0; padding-left:0;">
-            <h3 style="margin-top:10px;">Training Description</h3>
-            <p style="margin-bottom:10px;">
-              ${t.description}
-            </p>
-            ${instructorBioHeader}
-            ${instructorInfo}
-          </div>
-        </div>
+`
+<div class="session-card-container">
+  <div class="session-card">
+    <div class="session-card-details column">
+      <div class="session-card-header">
+        <p>${start_time} - ${end_time}</p>
+        <h3 class="forum-h3">${t.title}</h3>
+        <p>${name}${company}</p>
       </div>
-      `
-        /* `<div class="row forum-training-header ">
-          <div class="col-3 col-sm-2">
-            <i class="fa fa-time"></i>
-            ${start_time} - ${end_time} <br>
-          </div>
-          <div class="col-9 col-sm-6">
-            <h3>${t.title}</h3>
-          </div>
-          <div class="col-6 col-sm-2 course-info">
-            <strong>Taught by:</strong><br>${namesList}
-          </div>
-          <div class="col-3 col-sm-1 course-info">
-            <strong>Cost:</strong><br>$${t.cost}
-          </div>
-        </div>
-        <div class="row course-description forum-course">
-          <div class="col-3 col-sm-2">
-            <a id="${urlTitle}Click" data-toggle="collapse" aria-expanded="false" data-target="#Sheet${t.training_id}" href="#${urlTitle}">
-              <button id="full-details-btn" class="btn btn-primary btn-sm" type="button" style="margin:7px;">
-                <span class="fa fa-info-sign"></span>
-                Expand Details
-              </button>
-            </a>
-          </div>
-          <div class="col-5 col-sm-6">${t.teaser}</div>
-          <div class="col-2 col-sm-2">
-            <strong>Location:</strong><br>${locationRoom}
-          </div>
-          <div class="col-sm-2" style="margin-bottom: 10px;">
-            <strong>Status:</strong><br>${status}
-          </div>
-          <div id="Sheet${t.training_id}" class="col-12 collapse">
-            <div class="col-sm-2"></div>
-            <div class="col-12" style="margin:10px 0 10px 0; padding-left:0;">
-              <h3 style="margin-top:10px;">Training Description</h3>
-              <p style="margin-bottom:10px;">
-                ${t.description}
-              </p>
-              ${instructorBioHeader}
-              ${instructorInfo}
-            </div>
-          </div>
-        </div>` */;
+      <div class="session-location">
+        <p><b>Location:</b> ${t.room}</p>
+      </div>
+    </div>
+    <div class="session-button-container">
+      ${status}
+      <a id="${urlTitle}Click" data-toggle="collapse" aria-expanded="false" data-target="#Sheet${t.training_id}" href="#${urlTitle}">
+        <button id="full-details-btn" class="button-secondary" type="button" >
+          more info
+        </button>
+      </a>
+    </div>
+  </div>
+  <div id="Sheet${t.training_id}" class="collapse session-expanded">
+    <hr>
+    <h4 class="forum-h4">Overview:</h4>
+    <p>${t.description}</p>
+    <h4 class="forum-h4">Learning Objectives:</h4>
+    <p>${t.teaser}</p>
+    <h4 class="forum-h4">About the Speaker:</h4>
+    ${instructorInfo}
+  </div>
+</div>
+`;
 
       // function to insert forum records by year into template
       function forumByYear(one, two, rec) {
@@ -182,38 +133,50 @@ function retrieveForumTraining() {
     });
   })
   .then(function() {
-    // check if hash exists; if so, smooth scroll to div id and open description by click
-    // this is for sharing urls to training records
-    var clickId = location.hash.replace("#", "");
-    var element = document.getElementById(clickId + "Click");
-    var button = element ? element.children[0] : '';
-
-    if (location.hash) {
-      element.scrollIntoView({
-        behavior: 'smooth'
-      });
-      element.click();
-      button.className = 'btn btn-warning btn-sm';
-      button.innerHTML = "<span class='fa fa-info-sign'></span> Close Details";
-    }
-  })
-  .then(function() {
     // add event listener to all anchor tags with ids so onclick (expand and close) runs function
     // to swap out button class/color
     var anchors = document.querySelectorAll('a');
-
-    function clicker(x) {
-      x.addEventListener("click", function() {
-        var button = x.children[0];
-        button.classList.contains('btn-primary') ? button.className = 'btn btn-warning btn-sm' : button.className = 'btn btn-primary btn-sm';
-        button.innerHTML.includes('Expand') ? button.innerHTML = "<span class='fa fa-info-sign'></span> Close Details" : button.innerHTML = "<span class='fa fa-info-sign'></span> Expand Details";
+    var containers = document.querySelectorAll('.full-details-btn');
+  
+    function clickerAnchor(element) {
+      element.addEventListener("click", function() {
+        var button = element.children[0];
+        var isExpanded = button.getAttribute('data-expanded') === 'true';
+  
+        // Toggle button state
+        isExpanded = !isExpanded;
+        button.setAttribute('data-expanded', isExpanded);
+  
+        // Update button class and HTML content
+        button.innerHTML = isExpanded ? "less info" : "more info";
       });
     }
-
+  
+    function clickerContainer(element) {
+      element.addEventListener("click", function() {
+        var button = element.children[0];
+        var isExpanded = button.getAttribute('data-expanded') === 'true';
+    
+        // Toggle button state
+        isExpanded = !isExpanded;
+        button.setAttribute('data-expanded', isExpanded);
+    
+        // Update button class and HTML content
+        button.className = isExpanded ? 'button-secondary' : 'button-primary';
+        button.innerHTML = isExpanded ? "less info" : "more info";
+    
+      });
+    }
+  
     anchors.forEach(function(a) {
-      a.id ? clicker(a) : '';
-    })
-  })
+      a.id ? clickerAnchor(a) : '';
+    });
+  
+    containers.forEach(function(container) {
+      clickerContainer(container);
+    });
+  });
+  
 }
 
 // run main retrieveForumTraining function when 'texas-gis-forum' included in path
