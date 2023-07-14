@@ -26,20 +26,20 @@ abstract: Location and parking information.
       <h3 class="forum-h3">Commons Conference Center<span>at J.J. Pickle Research Campus</span></h3>
       <p>
         <address>
-        <a href="https://www.google.com/maps/place/10100+Burnet+Rd,+Austin,+TX+78758/@30.3860228,-97.7288196,17z/data=!3m1!4b1!4m6!3m5!1s0x8644cb8b894b4aef:0x6384781e87dfd27e!8m2!3d30.3860229!4d-97.7239487!16s%2Fg%2F11dztqh6fw" target="_blank">10100 Burnet Rd.<br>
+        <a class="link-primary" href="https://www.google.com/maps/place/10100+Burnet+Rd,+Austin,+TX+78758/@30.3860228,-97.7288196,17z/data=!3m1!4b1!4m6!3m5!1s0x8644cb8b894b4aef:0x6384781e87dfd27e!8m2!3d30.3860229!4d-97.7239487!16s%2Fg%2F11dztqh6fw" target="_blank">10100 Burnet Rd.<br>
         Austin, TX 78758</a>
         </address>
       </p>
       <p>The Commons Conference Center offers on-site parking, updated meeting spaces, the latest presentation technology, and delicious dining options.</p>
       <div class="button-container">
-        <a class="link-primary" 
+        <a class="button-primary" 
           href="https://commons.utexas.edu/meetings-and-events/area-hotels" target="_blank">
-          Nearby Hotels → 
+          Nearby Hotels
         </a>
         <!-- <a class="button-secondary"  
           href="#" target="_blank">
           Parking Pass
-        </a>-->
+        </a> -->
       </div>
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.7652601613713!2d-97.7239487!3d30.386022899999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cb8b894b4aef%3A0x6384781e87dfd27e!2s10100%20Burnet%20Rd%2C%20Austin%2C%20TX%2078758!5e0!3m2!1sen!2sus!4v1682521363563!5m2!1sen!2sus" width="100%" height="400" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -51,7 +51,7 @@ abstract: Location and parking information.
   <h2 class="forum-h2">ACC Pre-Conference Workshops</h2>
   <p><strong>When:</strong> Monday, October 23, 2023</p>
   <p><strong>Time:</strong> 8am - 5pm</p>
-  <p><strong>Location:</strong> <a href="https://www.google.com/maps/place/Building+2000,+6101+Highland+Campus+Dr,+Austin,+TX+78752/@30.3260654,-97.7165517,17z/data=!3m1!4b1!4m6!3m5!1s0x8644cb990f2350ef:0x695e5ebd749a3014!8m2!3d30.3260654!4d-97.714363!16s%2Fg%2F11tmj_s64c" target="_blank">6101 Highland Campus Dr, Austin, TX 78752</a></p>
+  <p><strong>Location:</strong> <a class="link-primary" href="https://www.google.com/maps/place/Building+2000,+6101+Highland+Campus+Dr,+Austin,+TX+78752/@30.3260654,-97.7165517,17z/data=!3m1!4b1!4m6!3m5!1s0x8644cb990f2350ef:0x695e5ebd749a3014!8m2!3d30.3260654!4d-97.714363!16s%2Fg%2F11tmj_s64c" target="_blank">6101 Highland Campus Dr, Austin, TX 78752</a></p>
   <h2 class="forum-h2">GIS Happy Hour</h2>
   <p><strong>When:</strong> Thursday, October 26, 2023</p>
   <p><strong>Time:</strong> 5:30pm - 7:30pm</p>
