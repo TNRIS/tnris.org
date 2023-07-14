@@ -1,8 +1,6 @@
 ---
-layout: events/texas-gis-forum/2023/home.njk
+layout: events/texas-gis-forum/2023/main.njk
 subtitle: October 23-27, 2023 | Austin, Texas
-mainimage: https://tnris-org-static.s3.amazonaws.com/images/2023-forum-graphic.png
-mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
 abstract: Location and parking information.
 ---
 <head>
@@ -11,12 +9,44 @@ abstract: Location and parking information.
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
-<section>
-  <div>
-  <h1 class="forum-h1">Venue Information</h1>
-      {% include "events/texas-gis-forum/2023/map.njk" %}
+<section class="container-md forum-location">
+  <div class="hero opaque-bg">
+    <div class="hero-content">
+      <div class="hero-header">
+      <div class="col">
+        <h1 class="logo">
+          <img src="https://tnris-org-static.s3.amazonaws.com/images/tx-gis-forum-dark.png" alt="Texas GIS Forum logo dark">
+        </h1>
+        <h2>Venue Information</h2>
+      </div>
+      <div class="forum-asset">
+        <img class="forum-content" src="https://tnris-org-static.s3.amazonaws.com/images/2023-forum-asset-texas.png" alt="Shape of Texas with the words 'Keep Texas Elevated' inside.">
+      </div>
+    </div>
+      <h3 class="forum-h3">Commons Conference Center<span>at J.J. Pickle Research Campus</span></h3>
+      <p>
+        <address>
+        <a href="https://www.google.com/maps/place/10100+Burnet+Rd,+Austin,+TX+78758/@30.3860228,-97.7288196,17z/data=!3m1!4b1!4m6!3m5!1s0x8644cb8b894b4aef:0x6384781e87dfd27e!8m2!3d30.3860229!4d-97.7239487!16s%2Fg%2F11dztqh6fw" target="_blank">10100 Burnet Rd.<br>
+        Austin, TX 78758</a>
+        </address>
+      </p>
+      <p>The Commons Conference Center offers on-site parking, updated meeting spaces, the latest presentation technology, and delicious dining options.</p>
+      <div class="button-container">
+        <a class="link-primary" 
+          href="https://commons.utexas.edu/meetings-and-events/area-hotels" target="_blank">
+          Nearby Hotels → 
+        </a>
+        <!-- <a class="button-secondary"  
+          href="#" target="_blank">
+          Parking Pass
+        </a>-->
+      </div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.7652601613713!2d-97.7239487!3d30.386022899999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cb8b894b4aef%3A0x6384781e87dfd27e!2s10100%20Burnet%20Rd%2C%20Austin%2C%20TX%2078758!5e0!3m2!1sen!2sus!4v1682521363563!5m2!1sen!2sus" width="100%" height="400" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-  <div>
+</section>
+
+<section class="opaque-bg container-md forum-events">
   <h1 class="forum-h1">Off-site Events</h1>
   <h2 class="forum-h2">ACC Pre-Conference Workshops</h2>
   <p><strong>When:</strong> Monday, October 23, 2023</p>
@@ -28,3 +58,5 @@ abstract: Location and parking information.
   <p><strong>Location:</strong> TBD</p>
   </div>
 </section>
+{% include "events/texas-gis-forum/cta.njk" %}
+
