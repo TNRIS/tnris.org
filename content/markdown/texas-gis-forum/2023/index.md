@@ -43,9 +43,107 @@ buttontext: Register Now!
     <img class="forum-content" src="https://tnris-org-static.s3.amazonaws.com/images/2023-forum-asset-texas.png" alt="Shape of Texas with the words 'Keep Texas Elevated' inside.">
   </div>
 </section>
+<section class="container-md opaque-bg">
+  <h1 class="forum-h1">Pricing</h1>
+  <div class="forum-pricing">
+    <div class="pricing-card">
+      <h2 class="forum-h2">Full Pass</h2>
+      <h3 class="forum-h3">Government Rates</h3>
+      <div>
+        <p>Early bird <span>ends m/dd</span></p>
+        <p><span>$$</span></p>
+      </div>
+      <div>
+        <p>Standard</p>
+        <p><strong>$$</strong></p>
+      </div>
+      <div>
+        <p>Late/On-site</p>
+        <p><strong>$$</strong></p>
+      </div>
+      <h3 class="forum-h3">Industry Rates</h3>
+      <div>
+        <p>Early bird <span>ends m/dd</span></p>
+        <p><span>$$</span></p>
+      </div>
+      <div>
+        <p>Standard</p>
+        <p><strong>$$</strong></p>
+      </div>
+      <div>
+        <p>Late/On-site</p>
+        <p><strong>$$</strong></p>
+      </div>
+      <h3 class="forum-h3">Student Rate</h3>
+      <div>
+        <p>Flat fee</p>
+        <p><strong>$$</strong></p>
+      </div>
+      <div class="button-container">  
+        <a class="button-primary" 
+          href="/texas-gis-forum/2023/agenda">
+          Register
+        </a>
+      </div>
+    </div>
+    <div class="pricing-card">
+      <h2 class="forum-h2">Day Pass</h2>
+      <h3 class="forum-h3">Government Rates</h3>
+      <div>
+        <p>Early bird <span>ends m/dd</span></p>
+        <p><span>$$</span></p>
+      </div>
+      <div>
+        <p>Standard</p>
+        <p><strong>$$</strong></p>
+      </div>
+      <div>
+        <p>Late/On-site</p>
+        <p><strong>$$</strong></p>
+      </div>
+      <h3 class="forum-h3">Industry Rates</h3>
+      <div>
+        <p>Early bird <span>ends m/dd</span></p>
+        <p><span>$$</span></p>
+      </div>
+      <div>
+        <p>Standard</p>
+        <p><strong>$$</strong></p>
+      </div>
+      <div>
+        <p>Late/On-site</p>
+        <p><strong>$$</strong></p>
+      </div>
+      <h3 class="forum-h3">Student Rate</h3>
+      <div>
+        <p>Flat fee</p>
+        <p><strong>$$</strong></p>
+      </div>
+      <div class="button-container">  
+        <a class="button-primary" 
+          href="/texas-gis-forum/2023/agenda">
+          Register
+        </a>
+      </div>
+    </div>
+    <div class="pricing-card">
+      <h2 class="forum-h2">Workshops</h2>
+      <h3 class="forum-h3">4-Hour session</h3>
+      <div>
+        <p>Flat fee</p>
+        <p><strong>$$</strong></p>
+      </div>
+      <p class="info-text">Conference Workshop passes are sold separately and do not include sessions, exhibits, or meals.</p>
+      <div class="button-container">  
+        <a class="button-primary" 
+          href="/texas-gis-forum/2023/agenda">
+          Register
+        </a>
+      </div>
+    </div>
+  </div>
 </section>
-  {% include "events/texas-gis-forum/cta.njk" %}
-</section>
+{% include "events/texas-gis-forum/cta.njk" %}
 <section class="forum-sponsorlist">
   {% include "events/texas-gis-forum/2023/sponsors.njk" %}
 </section>

@@ -146,6 +146,11 @@ p {
   margin-bottom: 15px;
 }
 
+.info-text {
+  font-style: italic;
+  font-size: 15px;
+}
+
 @media only screen and (max-width:1200px) {
   .hero-header h1 {
     font-size: 60px;
@@ -380,6 +385,53 @@ p {
   margin: 0;
 }
 
+.forum-pricing {
+  align-items: flex-start;
+  display: flex;
+  gap: 60px;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.pricing-card {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 33%;
+  padding: 30px;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      margin-bottom: 0px;
+    }
+
+    span {
+      color: $salmonPink;
+      font-weight: 600;
+    }
+  }
+
+  .info-text {
+    margin: 15px 0 0;
+  }
+
+  .button-container {
+    justify-content: flex-end;
+    margin: 30px 0 0;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin: 15px 0 0;
+  }
+}
+
 @media only screen and (max-width: 990px) {
 
   .hero {
@@ -407,6 +459,16 @@ p {
 
   .hero-content {
     width: 100%;
+  }
+
+  .forum-pricing {
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .pricing-card {
+    width: 80%
   }
 }
 
@@ -447,6 +509,12 @@ p {
     .logo {
       max-width: 250px;
     }
+  }
+
+  .pricing-card {
+     .button-container{
+      align-items: flex-end;
+     }
   }
 }
 
@@ -625,14 +693,14 @@ p {
 .sponsor-card {
 
   background-color: $opaqueLight;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 60px 0 0;
+  padding: 30px;
 
   p {
     margin-bottom: 0;
   }
-
-  border: 1px solid black;
-  margin: 60px 0 0;
-  padding: 30px;
 
   .sold-out {
     color: $middarkgrey;
