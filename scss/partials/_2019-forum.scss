@@ -243,51 +243,99 @@ p {
 //NAVIGATION//
 
 .forum-nav {
-  background-color: white;
-  border-bottom: solid .75px #D7D7D7;
-  border-top: solid .75px #D7D7D7;
+  background: none;
   font-family: $lato, sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
+  padding: 10px;
 }
 
-.forum-nav ul {
+.nav-container {
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.desktop-menu {
+  align-items: center;
+  display: flex;
+  gap: 15px;
   list-style-type: none;
-  margin: 0 auto;
-  max-width: 1140px;
+  margin: 0;
   padding: 0;
 }
 
-.forum-nav li {
+.desktop-menu li {
   display: inline-block;
   text-align: center;
 }
 
-.forum-nav a{
-  color: #494647;
+.desktop-menu li a {
+  color: $darkgrey;
   display: inline-block;
-  padding: 15px 15px;
+  font-size: 16px;
+  padding: 10px;
   text-align: center;
 }
 
-.forum-nav a:hover{
+.desktop-menu li a:hover {
+  border-bottom: 5px solid $salmonPink;
   color: #494647;
+  font-size: 16px;
   font-weight: 500;
   text-decoration: none;
 }
 
-.forum-nav .active a {
-  color: #F14A45;
+.desktop-menu .active a {
+  border-bottom: 5px solid $salmonPink;
+  color: $salmonPink;
   font-weight: 500;
 }
 
-.forum-nav .active a:hover {
-  color: #F14A45;
+.desktop-menu .active a:hover {
+  border-bottom: 5px solid $salmonPink;
+  color: $salmonPink;
   font-weight: 500;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  border: none;
+  min-width: 300px;
+  padding: 0;
+}
+
+.dropdown-item.active, .dropdown-item:hover {
+  background-color: white;
+  color: $salmonPink;
+  font-weight: 700;
   text-decoration: underline;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile-menu {
+    align-items: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+    }
+
+    .link-primary {
+      font-weight: 500;
+      padding-left: 0;
+    }
+  }
+
+  .desktop-menu {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -328,7 +376,8 @@ p {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  padding:  20px 0 30px;
+  margin-top: -70px;
+  padding:  100px 0 30px;
 
   iframe {
     width: 100%;
@@ -476,6 +525,7 @@ p {
   .hero {
     flex-direction: column;
     justify-content: center;
+    padding-top: 70px;
   }
 
   .hero-content {
@@ -496,7 +546,6 @@ p {
 
   .hero-header .forum-asset img {
     margin: 0 auto;
-    max-width: 80%;
   }
 }
 
@@ -525,7 +574,8 @@ p {
 .agenda {
   background-color: rgba(255, 255, 255, 0.90);
   border-radius: 5px;
-  padding: 20px;
+  margin-top: 15px;
+  padding: 30px;
 }
 
 .session-card p, .session-track p, .session-track h3 {
@@ -747,6 +797,10 @@ p {
   iframe {
     margin-top: 30px;
   }
+}
+
+.forum-location .hero {
+  padding-top: 0;
 }
 
 // CTA BOX //
