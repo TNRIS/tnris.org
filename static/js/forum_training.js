@@ -51,27 +51,36 @@ function retrieveForumTraining() {
               </a>`;
       // convert instructor_info from string to array of json; set up variables for use in array loop
       var instructorInfoArray = JSON.parse('[' + t.instructor_info + ']');
+      var instructorHeaderArray = JSON.parse('[' + t.instructor_info + ']');
+      var instructorHeader;
       var instructorInfo;
       var company;
       var namesList = [];
       var image;
       var name;
       var bio;
-      var instructorBioHeader;
       // loop over objects in instructor info array and for each object do this...
       instructorInfoArray.forEach(function(i) {
-        namesList.push(" " + i.instructor_name);
+        namesList.push(i.instructor_name);
         i.instructor_company && i.instructor_bio ? company = ", " + i.instructor_company : company = "";
         // if headshot image & bio exists, assign value to variables to use in html
         i.instructor_headshot ? image = `<img class="rounded-circle keynote-portrait" src="${i.instructor_headshot}" alt="headshot of instructor ${i.instructor_name}"><br>` : image = "";
         i.instructor_bio ? bio = i.instructor_bio : bio = "";
-        i.instructor_bio ? name = i.instructor_name : name = "";
+        i.instructor_name ? name = i.instructor_name : name = "";
         // condition to add instructor bio to instrucotr bios (for multiple instructors)
         instructorInfo = instructorInfo ? instructorInfo +
-        `<p><strong>${name} ${company}<strong></p>
+        `<p><strong>${name}${company}<strong></p>
         <p>${bio}</p>` :
-          `<p><strong>${name} ${company}<strong></p>
-          <p>${bio}</p>`;
+        `<p><strong>${name}${company}<strong></p>
+        <p>${bio}</p>`;
+        
+      });
+      instructorHeaderArray.forEach(function(i) {
+        namesList.push(i.instructor_name);
+        // defines array
+        instructorHeader = instructorHeader ? `${name}${company}; ` + instructorHeader : `${name}${company}`;
+        // shows different instructor names
+        i.instructor_name ? name = i.instructor_name : name = "";
       });
 
       // html for 'record' variable div element
@@ -83,7 +92,9 @@ function retrieveForumTraining() {
       <div class="session-card-header">
         <p>${start_time} - ${end_time}</p>
         <h3 class="forum-h3">${t.title}</h3>
-        <p>${name}${company}</p>
+        <div class="training-card-instructors">
+          <p>${instructorHeader}</p>
+        </div>
       </div>
       <div class="session-location">
         <p><b>Location:</b> ${t.location}</p>
