@@ -80,7 +80,9 @@ function retrieveForumTraining() {
         // defines array
         instructorHeader = instructorHeader ? `${name}${company}; ` + instructorHeader : `${name}${company}`;
         // shows different instructor names
-        i.instructor_name ? name = i.instructor_name : name = "";
+        i.instructor_name ? name = i.instructor_name + ", " : name = "";
+        // shows different instructor company
+        i.instructor_company ? company = i.instructor_company : company = "";
       });
 
       // html for 'record' variable div element
