@@ -1,5 +1,5 @@
 ---
-layout: events/texas-gis-forum/2023/home.njk
+layout: events/texas-gis-forum/2023/main.njk
 title: 2023 Texas GIS Forum
 subtitle: October 23-27, 2023 | Austin, Texas
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/2023-forum-graphic.png
@@ -12,23 +12,122 @@ buttontext: Register Now!
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
-<section>
-  <div class="hero">
-    <div class="intro">
-      <h1 class="forum-2022-h1">2023 Texas GIS Forum</h1>
-      <p class="lead">The 2023 Texas GIS Forum is geared toward helping Keep Texas Elevated by bringing together people in the Lone Star State and beyond who are developing, improving, and using geospatial technologies.</p>
-      <p>In the past three decades, the Texas GIS community has descended upon Austin to hear about the latest technological advancements in the private and public sector and to touch base with long-time colleagues and make new connections.</p>
-      <a class="link-primary" 
-    href="/texas-gis-forum/2023/sponsors-and-exhibitors">
-    Become a Sponsor  → 
-  </a>
+
+<section class="container-md hero">
+  <div class="opaque-bg hero-content">
+    <div class="hero-header">
+      <div class="col">
+        <h1>2023</h1>
+        <div class="logo">
+          <img src="https://tnris-org-static.s3.amazonaws.com/images/tx-gis-forum-dark.png" alt="Texas GIS Forum logo dark">
+        </div>
+        <h2>October 23-27, 2023</h2>
+      </div>
+      <div class="forum-asset">
+        <img class="forum-content" src="https://tnris-org-static.s3.amazonaws.com/images/2023-forum-asset-texas.png" alt="Shape of Texas with the words 'Keep Texas Elevated' inside.">
+      </div>
     </div>
-    <div class="intro">
-      <img class="forum-content" src="https://cdn.tnris.org/images/forum-picture-collage.jpg" alt="Picture of Texas GIS Forum 2019">
+    <p class="lead">For over three decades, the Texas GIS Forum has been the can’t-miss event for the statewide GIS community. Come to Austin and hear about the latest advancements in the private and public sector and take the opportunity to touch base with long-time colleagues - and make new connections.</p>
+    <div class="button-container row">
+      <a class="button-primary" 
+        href="/texas-gis-forum/2023/agenda">
+        2023 Agenda
+      </a>
+      <a class="button-secondary"  
+        href="/texas-gis-forum/2023/sponsors-and-exhibitors">
+        Become a Sponsor
+      </a>
     </div>
   </div>
-  <div class="intro">
-      <h1 class="forum-2022-h1">Agenda at a Glance</h1>
-      <img class="forum-content" src="https://cdn.tnris.org/images/2023-forum-agenda-glance.png" alt="Calendar graphic titled Agenda at a Glance">
+  <div class="forum-asset">
+    <img class="forum-content" src="https://tnris-org-static.s3.amazonaws.com/images/2023-forum-asset-texas.png" alt="Shape of Texas with the words 'Keep Texas Elevated' inside.">
+  </div>
+</section>
+<section class="container-md opaque-bg">
+  <h1 class="forum-h1">Pricing</h1>
+  <div class="forum-pricing">
+    <div class="pricing-card">
+      <h2 class="forum-h2">Full Registration</h2>
+      <h3 class="forum-h3">Government Rates</h3>
+      <div>
+        <p>Early bird <span>ends 9/15</span></p>
+        <p><span>$400</span></p>
+      </div>
+      <div>
+Regular</p>
+        <p><strong>$450</strong></p>
+      </div>
+      <div>
+        <p>Late/On-site</p>
+        <p><strong>$475</strong></p>
+      </div>
+      <h3 class="forum-h3">Industry Rates</h3>
+      <div>
+        <p>Early bird <span>ends 9/15</span></p>
+        <p><span>$475</span></p>
+      </div>
+      <div>
+        <p>Regular</p>
+        <p><strong>$525</strong></p>
+      </div>
+      <div>
+        <p>Late/On-site</p>
+        <p><strong>$575</strong></p>
+      </div>
+      <h3 class="forum-h3">Student Rate</h3>
+      <div>
+        <p>Flat fee</p>
+        <p><strong>$75</strong></p>
+      </div>
+      <div class="button-container">  
+        <a class="button-primary" 
+          href="https://texasgisforum.wildapricot.org/registration" target="_blank">
+          Register
+        </a>
+      </div>
     </div>
+    <div class="pricing-card">
+      <h2 class="forum-h2">One Day Registration</h2>
+      <h3 class="forum-h3">Government Rate</h3>
+      <div>
+        <p>Regular</p>
+        <p><strong>$325</strong></p>
+      </div>
+      <h3 class="forum-h3">Industry Rate</h3>
+      <div>
+        <p>Regular</p>
+        <p><strong>$375</strong></p>
+      </div>
+      <h3 class="forum-h3">Student Rate</h3>
+      <div>
+        <p>Flat fee</p>
+        <p><strong>$75</strong></p>
+      </div>
+      <div class="button-container">  
+        <a class="button-primary" 
+          href="https://texasgisforum.wildapricot.org/registration" target="_blank">
+          Register
+        </a>
+      </div>
+    </div>
+    <div class="pricing-card">
+      <h2 class="forum-h2">Workshops</h2>
+      <h3 class="forum-h3">4-Hour session</h3>
+      <div>
+        <p>Flat fee</p>
+        <p><strong>$150</strong></p>
+      </div>
+      <p class="info-text">Conference Workshop passes are sold separately and do not include sessions, exhibits, or meals.</p>
+      <div class="button-container">  
+        <a class="button-primary" 
+          href="https://texasgisforum.wildapricot.org/registration" target="_blank">
+          Register
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "events/texas-gis-forum/cta.njk" %}
+<section class="forum-sponsorlist">
+  {% include "events/texas-gis-forum/2023/sponsors.njk" %}
 </section>

@@ -1,5 +1,5 @@
 ---
-layout: events/texas-gis-forum/2023/home.njk
+layout: events/texas-gis-forum/2023/main.njk
 title: Sponsors & Exhibitors
 subtitle: October 23-27, 2023 | Austin, Texas
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/2023-forum-graphic.png
@@ -12,25 +12,38 @@ intro: true
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
-
-<section class="intro">
-  <h1 class="forum-2022-h1">Become a Sponsor</h1>
-  <p class="lead">TNRIS is pleased to invite you to participate in our <strong>2023 Texas GIS Forum</strong> in Austin, Texas. The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field. This is an unparalleled opportunity to share your company and organization with a respected audience of geospatial professionals.</p>
- <p class="lead">After you've looked over the sponsor rules and regulations, click the link below to register as a sponsor.</p>
-
-  <div class="button-container">
-    <a class="button-primary" 
-     href="https://texasgisforum.wildapricot.org/event-5303892" target="_blank">
-     Become a Sponsor 
-    </a>
-    <a class="button-secondary"  
-      href="https://cdn.tnris.org/documents/Rules_and_Regulations_2023.pdf" target="_blank">Rules &amp; Regulations
-    </a>
+<section class="container-md hero">
+  <div class="opaque-bg hero-content">
+    <div class="hero-header">
+      <div class="col">
+        <h1>2023</h1>
+        <div class="logo">
+          <img src="https://tnris-org-static.s3.amazonaws.com/images/tx-gis-forum-dark.png" alt="Texas GIS Forum logo dark">
+        </div>
+        <h2>Become a Sponsor</h2>
+      </div>
+      <div class="forum-asset">
+        <img class="forum-content" src="https://tnris-org-static.s3.amazonaws.com/images/2023-forum-asset-texas.png" alt="Shape of Texas with the words 'Keep Texas Elevated' inside.">
+      </div>
+    </div>
+    <p class="lead">The Texas GIS Forum brings together top experts in the geospatial field, providing unique networking opportunities. Explore our sponsorship options below to showcase your company to a respected audience of geospatial professionals.</p>
+    <div class="button-container">
+      <a class="button-primary" 
+        href="https://texasgisforum.wildapricot.org/event-5303892" target="_blank">
+        Become a Sponsor
+      </a>
+      <a class="button-secondary"  
+        href="https://cdn.tnris.org/documents/Rules_and_Regulations_2023.pdf" target="_blank">
+        Rules &amp; Regulations
+      </a>
+    </div>
+  </div>
+  <div class="forum-asset">
+    <img class="forum-content" src="https://tnris-org-static.s3.amazonaws.com/images/2023-forum-asset-texas.png" alt="Shape of Texas with the words 'Keep Texas Elevated' inside.">
   </div>
 </section>
-
-<section>
-  <h1 class="forum-2022-h1">Sponsor Opportunities</h1>
+<section class="container-md opaque-bg">
+  <h1 class="forum-h1">Sponsor Opportunities</h1>
   <div class="sponsor-card">
     <div class="sponsor-card-title">
       <h2><strong>Platinum</strong> | $5,500</h2>
@@ -114,4 +127,7 @@ intro: true
       </ul>
     </div>
   </div>
+</section>
+<section class="forum-sponsorlist">
+  {% include "events/texas-gis-forum/2023/sponsors.njk" %}
 </section>

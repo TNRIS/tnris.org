@@ -39,7 +39,7 @@ function retrieveForumTraining() {
       // check registration_open prop for truthiness, then assign html button accordingly
       var status;
       t.registration_open ?
-        status = `<a href="${process.env.FORUM_REGISTRATION_LINK}">
+        status = `<a href="https://texasgisforum.wildapricot.org/registration" target="_blank">
                 <button id="full-details-btn" class="button-primary register" type="button" >
                 register
                 </button>
@@ -68,20 +68,10 @@ function retrieveForumTraining() {
         i.instructor_bio ? name = i.instructor_name : name = "";
         // condition to add instructor bio to instrucotr bios (for multiple instructors)
         instructorInfo = instructorInfo ? instructorInfo +
-          `<div class="speaker-bio">
-            <div class="bio-header">
-              ${image}
-              <forum-h5>${name} ${company}</h5>
-            </div>
-            ${bio}
-          </div>` :
-          `<div class="speaker-bio">
-            <div class="bio-header">
-              ${image}
-              <forum-h5>${name} ${company}</h5>
-            </div>
-            ${bio}
-          </div>`;
+        `<p><strong>${name} ${company}<strong></p>
+        <p>${bio}</p>` :
+          `<p><strong>${name} ${company}<strong></p>
+          <p>${bio}</p>`;
       });
 
       // html for 'record' variable div element
@@ -96,7 +86,7 @@ function retrieveForumTraining() {
         <p>${name}${company}</p>
       </div>
       <div class="session-location">
-        <p><b>Location:</b> ${t.room}</p>
+        <p><b>Location:</b> ${t.location}</p>
       </div>
     </div>
     <div class="session-button-container">
@@ -118,6 +108,7 @@ function retrieveForumTraining() {
     ${instructorInfo}
   </div>
 </div>
+<br>
 `;
 
       // function to insert forum records by year into template

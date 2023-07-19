@@ -5,15 +5,48 @@
 </head>
 
 <nav class="forum-nav">
-    <ul>
+  <div class="container-md nav-container">
+    <ul class="mobile-menu">
+      <li class="nav-item dropdown">
+        <a class="nav-link link-primary dropdown-toggle" href="#" id="mobile-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {% if (path == 'texas-gis-forum/2023') %}
+          Overview
+          {% endif %}
+           {% if (path == 'texas-gis-forum/2023/agenda') %}
+          Agenda
+          {% endif %}
+           {% if (path == 'texas-gis-forum/2023/sponsors-and-exhibitors') %}
+          Become a Sponsor
+          {% endif %}
+           {% if (path == 'texas-gis-forum/2023/location-details') %}
+          Location Details
+          {% endif %}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="mobile-menu">
+          <a class="dropdown-item {% if (path == 'texas-gis-forum/2023') %}active{% endif %}" href="/texas-gis-forum/2023">Overview</a>
+          <a class="dropdown-item {% if (path == 'texas-gis-forum/2023/agenda') %}active{% endif %}" href="/texas-gis-forum/2023/agenda">Agenda</a>
+          <a class="dropdown-item {% if (path == 'texas-gis-forum/2023/sponsors-and-exhibitors') %}active{% endif %}" href="/texas-gis-forum/2023/sponsors-and-exhibitors">Become a Sponsor</a>
+          <a class="dropdown-item {% if (path == 'texas-gis-forum/2023/location-details') %}active{% endif %}" href="/texas-gis-forum/2023/location-details">Location Details</a>
+        </div>
+      </li>
+    </ul>
+    <ul class="desktop-menu">
         <li class="{% if (path == 'texas-gis-forum/2023') %}active{% endif %}" >
           <a href="/texas-gis-forum/2023">Overview</a>
         </li>
-        <li class="{% if (path == 'texas-gis-forum/2023/location-details') %}active{% endif %}" >
-          <a href="/texas-gis-forum/2023/location-details">Location Details</a>
+        <li class="{% if (path == 'texas-gis-forum/2023/agenda') %}active{% endif %}" >
+          <a href="/texas-gis-forum/2023/agenda">Agenda</a>
         </li>
         <li class="{% if (path == 'texas-gis-forum/2023/sponsors-and-exhibitors') %}active{% endif %}" >
           <a href="/texas-gis-forum/2023/sponsors-and-exhibitors">Become a Sponsor</a>
         </li>
+        <li class="{% if (path == 'texas-gis-forum/2023/location-details') %}active{% endif %}" >
+          <a href="/texas-gis-forum/2023/location-details">Location Details</a>
+        </li>
     </ul>
-  </nav>
+    <a class="button-primary" 
+      href="https://texasgisforum.wildapricot.org/registration" target="_blank">
+      Register
+    </a>
+  </div>
+</nav>
