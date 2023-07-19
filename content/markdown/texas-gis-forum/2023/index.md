@@ -50,34 +50,34 @@ buttontext: Register Now!
       <h2 class="forum-h2">Full Registration</h2>
       <h3 class="forum-h3">Government Rates</h3>
       <div>
-        <p>Early bird <span>ends m/dd</span></p>
-        <p><span>$$</span></p>
+        <p>Early bird <span>ends 9/15</span></p>
+        <p><span>$400</span></p>
       </div>
       <div>
 Regular</p>
-        <p><strong>$$</strong></p>
+        <p><strong>$450</strong></p>
       </div>
       <div>
         <p>Late/On-site</p>
-        <p><strong>$$</strong></p>
+        <p><strong>$475</strong></p>
       </div>
       <h3 class="forum-h3">Industry Rates</h3>
       <div>
-        <p>Early bird <span>ends m/dd</span></p>
-        <p><span>$$</span></p>
+        <p>Early bird <span>ends 9/15</span></p>
+        <p><span>$475</span></p>
       </div>
       <div>
         <p>Regular</p>
-        <p><strong>$$</strong></p>
+        <p><strong>$525</strong></p>
       </div>
       <div>
         <p>Late/On-site</p>
-        <p><strong>$$</strong></p>
+        <p><strong>$575</strong></p>
       </div>
       <h3 class="forum-h3">Student Rate</h3>
       <div>
         <p>Flat fee</p>
-        <p><strong>$$</strong></p>
+        <p><strong>$75</strong></p>
       </div>
       <div class="button-container">  
         <a class="button-primary" 
@@ -88,36 +88,20 @@ Regular</p>
     </div>
     <div class="pricing-card">
       <h2 class="forum-h2">One Day Registration</h2>
-      <h3 class="forum-h3">Government Rates</h3>
-      <div>
-        <p>Early bird <span>ends m/dd</span></p>
-        <p><span>$$</span></p>
-      </div>
+      <h3 class="forum-h3">Government Rate</h3>
       <div>
         <p>Regular</p>
-        <p><strong>$$</strong></p>
+        <p><strong>$325</strong></p>
       </div>
-      <div>
-        <p>Late/On-site</p>
-        <p><strong>$$</strong></p>
-      </div>
-      <h3 class="forum-h3">Industry Rates</h3>
-      <div>
-        <p>Early bird <span>ends m/dd</span></p>
-        <p><span>$$</span></p>
-      </div>
+      <h3 class="forum-h3">Industry Rate</h3>
       <div>
         <p>Regular</p>
-        <p><strong>$$</strong></p>
-      </div>
-      <div>
-        <p>Late/On-site</p>
-        <p><strong>$$</strong></p>
+        <p><strong>$375</strong></p>
       </div>
       <h3 class="forum-h3">Student Rate</h3>
       <div>
         <p>Flat fee</p>
-        <p><strong>$$</strong></p>
+        <p><strong>$75</strong></p>
       </div>
       <div class="button-container">  
         <a class="button-primary" 
@@ -131,7 +115,7 @@ Regular</p>
       <h3 class="forum-h3">4-Hour session</h3>
       <div>
         <p>Flat fee</p>
-        <p><strong>$$</strong></p>
+        <p><strong>$150</strong></p>
       </div>
       <p class="info-text">Conference Workshop passes are sold separately and do not include sessions, exhibits, or meals.</p>
       <div class="button-container">  
