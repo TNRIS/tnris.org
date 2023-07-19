@@ -47,14 +47,14 @@ buttontext: Register Now!
   <h1 class="forum-h1">Pricing</h1>
   <div class="forum-pricing">
     <div class="pricing-card">
-      <h2 class="forum-h2">Full Pass</h2>
+      <h2 class="forum-h2">Full Registration</h2>
       <h3 class="forum-h3">Government Rates</h3>
       <div>
         <p>Early bird <span>ends m/dd</span></p>
         <p><span>$$</span></p>
       </div>
       <div>
-        <p>Standard</p>
+Regular</p>
         <p><strong>$$</strong></p>
       </div>
       <div>
@@ -67,7 +67,7 @@ buttontext: Register Now!
         <p><span>$$</span></p>
       </div>
       <div>
-        <p>Standard</p>
+        <p>Regular</p>
         <p><strong>$$</strong></p>
       </div>
       <div>
@@ -81,20 +81,20 @@ buttontext: Register Now!
       </div>
       <div class="button-container">  
         <a class="button-primary" 
-          href="/texas-gis-forum/2023/agenda">
+          href="#">
           Register
         </a>
       </div>
     </div>
     <div class="pricing-card">
-      <h2 class="forum-h2">Day Pass</h2>
+      <h2 class="forum-h2">One Day Registration</h2>
       <h3 class="forum-h3">Government Rates</h3>
       <div>
         <p>Early bird <span>ends m/dd</span></p>
         <p><span>$$</span></p>
       </div>
       <div>
-        <p>Standard</p>
+        <p>Regular</p>
         <p><strong>$$</strong></p>
       </div>
       <div>
@@ -107,7 +107,7 @@ buttontext: Register Now!
         <p><span>$$</span></p>
       </div>
       <div>
-        <p>Standard</p>
+        <p>Regular</p>
         <p><strong>$$</strong></p>
       </div>
       <div>
@@ -121,7 +121,7 @@ buttontext: Register Now!
       </div>
       <div class="button-container">  
         <a class="button-primary" 
-          href="/texas-gis-forum/2023/agenda">
+          href="#">
           Register
         </a>
       </div>
@@ -136,7 +136,7 @@ buttontext: Register Now!
       <p class="info-text">Conference Workshop passes are sold separately and do not include sessions, exhibits, or meals.</p>
       <div class="button-container">  
         <a class="button-primary" 
-          href="/texas-gis-forum/2023/agenda">
+          href="#">
           Register
         </a>
       </div>

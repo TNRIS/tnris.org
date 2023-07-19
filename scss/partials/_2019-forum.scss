@@ -576,6 +576,12 @@ p {
   border-radius: 5px;
   margin-top: 15px;
   padding: 30px;
+
+  .disclaimer {
+    display: flex;
+    font-style: italic;
+    justify-content: flex-end;
+  }
 }
 
 .session-card p, .session-track p, .session-track h3 {
@@ -597,7 +603,7 @@ p {
   padding-left: 45px;
 
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -676,6 +682,8 @@ p {
 }
 
 .speaker-bio {
+
+  color: black;
 
   img.keynote-portrait {
     width: 50px;

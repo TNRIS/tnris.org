@@ -48,11 +48,35 @@ mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
     <div class="panels">
       <div class="panel" id="one-panel">
         <h2 class="forum-h2 dark-header">Workshops:<span>Mon & Tue</span></h2>
+        <div class="container">
+          <div class="session-track row">
+            <div class="session-time col-lg-2">
+              <p>7:15</p>
+            </div>
+            <div class="session-card col-lg-10">
+              <h3 class="forum-h3">Open Registration</h3>
+            </div>
+          </div>
+          <br>
+        </div>
         <div id="insert-day-one-2023"></div>
+        <small class="disclaimer">*Information subject to change.</small>
       </div>
       <div class="panel" id="two-panel">
         <h2 class="forum-h2 dark-header">Workshops:<span>Mon & Tue</span></h2>
+        <div class="container">
+          <div class="session-track row">
+            <div class="session-time col-lg-2">
+              <p>7:15</p>
+            </div>
+            <div class="session-card col-lg-10">
+              <h3 class="forum-h3">Open Registration</h3>
+            </div>
+          </div>
+          <br>
+        </div>
         <div id="insert-day-two-2023"></div>
+        <small class="disclaimer">*Information subject to change.</small>
       </div>
       <div class="panel" id="three-panel">
         <h2 class="forum-h2 green-header">Sessions & Exhibits:<span>Wed & Thu</span></h2>
