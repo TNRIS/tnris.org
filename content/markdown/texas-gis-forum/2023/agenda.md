@@ -25,7 +25,7 @@ mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
       <h2 class="forum-h2 dark-header">Workshops:<span>Mon & Tue</span></h2>
       <p>Our workshops provide access to in-depth training from industry leaders that help further your professional skills and networking opportunities. <strong>Registration for workshops is sold separately.</strong></p>
       <h2 class="forum-h2 green-header">Sessions & Exhibits:<span>Wed & Thu</span></h2>
-      <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
+      <p>Explore two days of talking sessions and exhibit booths to hear about the latest advancements in the private and public sector and connect with the geospatial community.</p>
       <h2 class="forum-h2 red-header">Texas GIS Community Meeting:<span>Fri</span></h2>
       <p>Free admission and open to the public! Join the conversation as Texas GIS community members give quarterly updates and open the floor to discussion.</p>
     </div>
