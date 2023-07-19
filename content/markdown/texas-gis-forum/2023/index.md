@@ -111,11 +111,11 @@ Regular</p>
       </div>
     </div>
     <div class="pricing-card">
-      <h2 class="forum-h2">Workshops</h2>
+      <h2 class="forum-h2">Workshop</h2>
       <h3 class="forum-h3">4-Hour session</h3>
       <div>
         <p>Flat fee</p>
-        <p><strong>$150</strong></p>
+        <p><strong>$150 each</strong></p>
       </div>
       <p class="info-text">Conference Workshop passes are sold separately and do not include sessions, exhibits, or meals.</p>
       <div class="button-container">  

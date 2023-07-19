@@ -50,10 +50,10 @@ mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
         <h2 class="forum-h2 dark-header">Workshops:<span>Mon & Tue</span></h2>
         <div class="container">
           <div class="session-track row">
-            <div class="session-time col-lg-2">
-              <p>7:15</p>
+            <div class="session-time col-lg-3">
+              <p>7:15 AM - all day</p>
             </div>
-            <div class="session-card col-lg-10">
+            <div class="session-card column">
               <h3 class="forum-h3">Open Registration</h3>
             </div>
           </div>
@@ -66,10 +66,10 @@ mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
         <h2 class="forum-h2 dark-header">Workshops:<span>Mon & Tue</span></h2>
         <div class="container">
           <div class="session-track row">
-            <div class="session-time col-lg-2">
-              <p>7:15</p>
+            <div class="session-time col-lg-3">
+              <p>7:15 - all day</p>
             </div>
-            <div class="session-card col-lg-10">
+            <div class="session-card column">
               <h3 class="forum-h3">Open Registration</h3>
             </div>
           </div>
