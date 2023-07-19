@@ -1,5 +1,6 @@
 ---
 layout: events/texas-gis-forum/2023/main.njk
+title: Location Details
 subtitle: October 23-27, 2023 | Austin, Texas
 abstract: Location and parking information.
 ---
