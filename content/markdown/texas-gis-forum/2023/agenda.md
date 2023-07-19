@@ -5,30 +5,28 @@ subtitle: October 23-27, 2023 | Austin, Texas
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/2023-forum-graphic.png
 mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
 ---
-<section class="container-md">
-  <div class="opaque-bg hero agenda">
-    <div class="hero-content">
-      <div class="hero-header row">
-        <div class="col">
-          <h1>2023</h1>
-          <div class="logo">
-            <img src="https://tnris-org-static.s3.amazonaws.com/images/tx-gis-forum-dark.png" alt="Texas GIS Forum logo dark">
-          </div>
-          <h2>Full Agenda</h2>
+<section class="container-md hero">
+  <div class="hero-content opaque-bg">
+    <div class="hero-header row">
+      <div class="col">
+        <h1>2023</h1>
+        <div class="logo">
+          <img src="https://tnris-org-static.s3.amazonaws.com/images/tx-gis-forum-dark.png" alt="Texas GIS Forum logo dark">
         </div>
-        <div class="forum-asset">
-          <img class="forum-content" src="https://tnris-org-static.s3.amazonaws.com/images/2023-forum-asset-texas.png" alt="Shape of Texas with the words 'Keep Texas Elevated' inside.">
-        </div>
+        <h2>Full Agenda</h2>
+      </div>
+      <div class="forum-asset">
+        <img class="forum-content" src="https://tnris-org-static.s3.amazonaws.com/images/2023-forum-asset-texas.png" alt="Shape of Texas with the words 'Keep Texas Elevated' inside.">
       </div>
     </div>
-    <div class="hero-content">
-      <h2 class="forum-h2 dark-header">Workshops:<span>Mon & Tue</span></h2>
-      <p>Our workshops provide access to in-depth training from industry leaders that help further your professional skills and networking opportunities. <strong>Registration for workshops is sold separately.</strong></p>
-      <h2 class="forum-h2 green-header">Sessions & Exhibits:<span>Wed & Thu</span></h2>
-      <p>Explore two days of talking sessions and exhibit booths to hear about the latest advancements in the private and public sector and connect with the geospatial community.</p>
-      <h2 class="forum-h2 red-header">Texas GIS Community Meeting:<span>Fri</span></h2>
-      <p>Free admission and open to the public! Join the conversation as Texas GIS community members give quarterly updates and open the floor to discussion.</p>
-    </div>
+  </div>
+  <div class="hero-content opaque-bg">
+    <h2 class="forum-h2 dark-header">Workshops:<span>Mon & Tue</span></h2>
+    <p>Our workshops provide access to in-depth training from industry leaders that help further your professional skills and networking opportunities. <strong>Registration for workshops is sold separately.</strong></p>
+    <h2 class="forum-h2 green-header">Sessions & Exhibits:<span>Wed & Thu</span></h2>
+    <p>Explore two days of talking sessions and exhibit booths to hear about the latest advancements in the private and public sector and connect with the geospatial community.</p>
+    <h2 class="forum-h2 red-header">Texas GIS Community Meeting:<span>Fri</span></h2>
+    <p>Free admission and open to the public! Join the conversation as Texas GIS community members give quarterly updates and open the floor to discussion.</p>
   </div>
 </section>
 <section class="intro agenda container-md">
