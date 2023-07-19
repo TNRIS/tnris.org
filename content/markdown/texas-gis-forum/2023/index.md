@@ -81,7 +81,7 @@ Regular</p>
       </div>
       <div class="button-container">  
         <a class="button-primary" 
-          href="#">
+          href="https://texasgisforum.wildapricot.org/registration" target="_blank">
           Register
         </a>
       </div>
@@ -121,7 +121,7 @@ Regular</p>
       </div>
       <div class="button-container">  
         <a class="button-primary" 
-          href="#">
+          href="https://texasgisforum.wildapricot.org/registration" target="_blank">
           Register
         </a>
       </div>
@@ -136,7 +136,7 @@ Regular</p>
       <p class="info-text">Conference Workshop passes are sold separately and do not include sessions, exhibits, or meals.</p>
       <div class="button-container">  
         <a class="button-primary" 
-          href="#">
+          href="https://texasgisforum.wildapricot.org/registration" target="_blank">
           Register
         </a>
       </div>

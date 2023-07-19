@@ -39,7 +39,7 @@ function retrieveForumTraining() {
       // check registration_open prop for truthiness, then assign html button accordingly
       var status;
       t.registration_open ?
-        status = `<a href="${process.env.FORUM_REGISTRATION_LINK}">
+        status = `<a href="https://texasgisforum.wildapricot.org/registration" target="_blank">
                 <button id="full-details-btn" class="button-primary register" type="button" >
                 register
                 </button>
