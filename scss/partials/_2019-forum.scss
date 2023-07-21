@@ -604,6 +604,11 @@ p {
   color: $darkish;
 }
 
+.session-button-container {
+  display: flex;
+  column-gap: 10px;
+}
+
 .session-card {
   column-gap: 30px;
   display: flex;
