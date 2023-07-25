@@ -7,15 +7,6 @@ mainimage: https://cdn.tnris.org/images/gis_events_banner2.jpg
 TNRIS brings the GIS community together through long established events like the Texas GIS Forum, and cutting edge meetups like the GeoRodeo. In addition, as part of the GIO's duties, we host a quarterly GIS Community Meeting to update our stakeholders and share information. We hold these events in order to connect with and give back to the GIS community, facilitating the collaboration and knowledge-sharing that keeps our field moving forward.
 
 ## Annual Texas GIS Forum
-### 2023 Texas GIS Forum is under way!
-The 2023 Texas GIS Forum will be held the week of <b>October 23-27, 2023</b> in Austin, TX. Stay tuned for more info.
-
-<div class="container intro">
-      <div class="videoWrapper">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8Ypb03AcVws" title="2022 Texas GIS Forum" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-
 For over three decades, the Texas GIS Forum has been the premiere gathering for the statewide GIS community. While we don't have pages going all the way back to then, you can still visit the pages for current and recent Forums below.
 
 <div class="container-lg-12">
