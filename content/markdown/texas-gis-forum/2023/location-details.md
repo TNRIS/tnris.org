@@ -47,7 +47,7 @@ abstract: Location and parking information.
 
 <section class="opaque-bg container-md forum-events">
   <h1 class="forum-h1">Off-site Events</h1>
-  <h2 class="forum-h2">ACC Pre-Conference Workshops</h2>
+  <h2 class="forum-h2">Conference Workshops @ ACC Highland</h2>
   <p><strong>When:</strong> Monday, October 23, 2023</p>
   <p><strong>Time:</strong> 8am - 5pm</p>
   <p><strong>Location:</strong> <a class="link-primary" href="https://www.google.com/maps/place/Building+2000,+6101+Highland+Campus+Dr,+Austin,+TX+78752/@30.3260654,-97.7165517,17z/data=!3m1!4b1!4m6!3m5!1s0x8644cb990f2350ef:0x695e5ebd749a3014!8m2!3d30.3260654!4d-97.714363!16s%2Fg%2F11tmj_s64c" target="_blank">6101 Highland Campus Dr, Austin, TX 78752</a></p>
