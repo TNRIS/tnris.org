@@ -64,6 +64,7 @@ mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
       </div>
       <div class="panel" id="five-panel">
         <h2 class="forum-h2 red-header">Texas GIS Community Meeting:<span>Fri</span></h2>
+        <p>Free admission! Everyone is welcome to attend.</p>
         {% include "events/texas-gis-forum/2023/agenda-friday.njk" %}
       </div>
     </div>
