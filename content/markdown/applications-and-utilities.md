@@ -34,7 +34,7 @@ The Information Services (IS) section maintains the TNRIS digital data library a
     <Small> (Extract and execute go-bulk-downloader.exe)</small>
   </div>
   <div class="col-lg-6">
-    <strong>Linux:
+    <strong>Gnu/Linux:
       <a href="https://bulk-download-output-110722.s3.amazonaws.com/bdl_codebuild_project/go-bulk-downloader.tar.xz" title="Bulk Downloader for Linux" target="github">Bulk Downloader</a>
     </strong>
     <small> (Extract and execute ./usr/local/bin/go-bulk-downloader)</small>
