@@ -39,6 +39,11 @@ The Information Services (IS) section maintains the TNRIS digital data library a
     </strong>
     <small> (Extract and execute ./usr/local/bin/go-bulk-downloader)</small>
   </div>
+  <div class="col-lg-12">
+    <strong>Code:
+      <a href="https://github.com/TNRIS/go-bulk-downloader" title="github.com/TNRIS/go-bulk-downloader" target="github">github.com/TNRIS/go-bulk-downloader</a>
+    </strong>
+  </div>
   <p>
     The Bulk Downloader utility uses the publicly available TNRIS REST API for data.tnris.org collection resources. It allows for bulk downloading an entire collections'
   resources, bypassing the need to click each area polygon (county, quad, qquad, etc) in the download map.
