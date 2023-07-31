@@ -11,8 +11,8 @@ require('../config');
 
 angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'ngFileUpload', 'vcRecaptcha'])
   .controller('FormController',
-    ['$scope', '$http', '$log', '$window', 'UploadService', 'CONTACT_SUBMIT_URL', 'RECAPTCHA_SITE_KEY',
-    function($scope, $http, $log, $window, UploadService, CONTACT_SUBMIT_URL, RECAPTCHA_SITE_KEY) {
+    ['$scope', '$http', '$log', '$window', 'UploadService', 'CONTACT_SUBMIT_URL', 'CCP_SUBMIT_URL', 'RECAPTCHA_SITE_KEY',
+    function($scope, $http, $log, $window, UploadService, CONTACT_SUBMIT_URL, CCP_SUBMIT_URL, RECAPTCHA_SITE_KEY) {
 
       $scope.master = {};
       $scope.errors = {};
@@ -189,7 +189,12 @@ angular.module('ContactFormApp', ['ConfigApp', 'ngAnimate', 'ngFileUpload', 'vcR
         } else {
           $scope.status = 'submitting';
 
-          $http.post(CONTACT_SUBMIT_URL, $scope.master)
+          let endpoint = CONTACT_SUBMIT_URL;
+          
+          if(form["Payment Method"] == "Credit Card") {
+            endpoint = CCP_SUBMIT_URL
+          }
+            $http.post(endpoint, $scope.master)
             .then(function successCallback() {
               $scope.status = 'success';
             }, function errorCallback(data) {
