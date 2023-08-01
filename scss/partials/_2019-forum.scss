@@ -1674,15 +1674,23 @@ section.keynote-speakers:after:first-child  {
 
 }
 
-.sponsors-gold {
+.sponsors-platinum, .sponsors-silver, .sponsors-gold {
   align-items: center;
   gap: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 30px;
+}
 
-  img{
-    max-width: 150px;
-  }
+.sponsors-platinum img{
+  max-width: 150px;
+}
+
+.sponsors-silver img{
+  max-width: 125px;
+}
+
+.sponsors-gold img{
+  max-width: 100px;
 }
