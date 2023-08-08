@@ -76,8 +76,8 @@ intro: true
     <ul>
       <li class="sold-out">Mobile Agenda Sponsor</li>
       <li class="sold-out">Keynote Presentations Sponsor</li>
-      <li>Breakfast Sponsor (2 available)</li>
-      <li>Lunch Sponsor (2 available)</li>
+      <li>Breakfast Sponsor <strong>(ONE LEFT!)</strong></li>
+      <li>Lunch Sponsor <strong>(ONE LEFT!)</strong></li>
     </ul>
     <p>Gold sponsor benefits:</p>
     <ul class="sponsor-benefits">
@@ -115,7 +115,8 @@ intro: true
     </div>
     <div class="sponsor-card">
       <div class="sponsor-card-title">
-        <h2><strong>Exhibitor</strong> | $1,750</h2>
+        <h2 class="sold-out">Exhibitor | $1,750</h2>
+        <p><strong>SOLD OUT!</strong></p>
       </div>
       <p>Exhibitor benefits:</p>
       <ul>
