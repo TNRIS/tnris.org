@@ -50,15 +50,12 @@ buttontext: Register Now!
       <div class="session-card">
         <div class="session-headshot-main">
           <img src="https://tnris-org-static.s3.amazonaws.com/images/johnny-earle-headshot.jpg" alt="Picture of Johnny Earle with his arm crossed. There is a neon sign in the background that says 'Enjoy Johnny Cupcakes Baked Goods'">
-          <div class="session-card-header">
-            <p><b>Johhny Earle</b></p>
-            <p>Owner of Johnny Cupcakes</p>
-          </div>
         </div>
         <hr>
         <div class="session-card-details column">
-          <h3 class="forum-h3">Keynote Presentation:<br>Finding a Way</h3>
-          <p>So many ideas, so little resources! Some of the biggest business success stories were the product of dollar coffees and a loving parent’s garage – including Johnny Cupcakes. So if you have the drive then this presentation will show you how to get behind the wheel and steer your organization into new territories and gently away from old ways!</p>
+          <p><b>Johnny Earle</b><br>
+          Founder of Johnny Cupcakes</p>
+          <p>If you dream of inspiring cult-like brand loyalty—the kind that involves mile-long queues and even permanent tattoos—then Johnny “Cupcakes" Earle is for you.  The founder of the world-renowned tee-shirt brand Johnny Cupcakes, Johnny is known for helping people create blueprints for building brand loyalty, creating memorable experiences, and inspiring innovation.</p>
         </div>
       </div>
     </div>
