@@ -575,29 +575,32 @@ p {
     font-style: italic;
     justify-content: flex-end;
   }
+
+  .container {
+    padding: 0;
+  }
 }
 
-.session-card p, .session-track p, .session-track h3 {
+.session-card p, .session-track p, .session-track h3, .session-expanded p {
     margin: 0;
   }
 
-  .session-track {
-    padding: 30px 0 5px;
-    margin-bottom: 0;
-    flex-wrap: nowrap;
-  }
+.session-track {
+  display: flex;
+  padding: 30px 0 5px 45px;
+  margin-bottom: 0;
 
-.session-card, .session-time, .session-group, .session-card-details, .session-location {
-  padding: 0;
+  .session-time p {
+      font-size: 16px;
+    }
 }
 
 .session-time {
-  max-width: 200px;
-  padding-left: 45px;
+  min-width: 150px;
+}
 
-  p {
-    font-size: 16px;
-  }
+.session-card, .session-time, .session-group, .session-card-details, .session-location {
+  padding: 0;
 }
 
 .session-card-details p {
@@ -610,7 +613,7 @@ p {
 }
 
 .session-card {
-  column-gap: 30px;
+  column-gap: 60px;
   display: flex;
   justify-content: space-between;
   padding: 0 30px;
@@ -627,7 +630,14 @@ p {
   border: 1px solid $darkgrey;
   border-radius: 10px;
   color: $opaqueLight;
+}
+
+.session-card-container {
   padding: 30px 0;
+}
+
+.keynote {
+  padding: 45px 15px;
 }
 
 .session-expanded {
@@ -655,13 +665,34 @@ p {
 }
 
 .keynote {
+  margin: 30px 0 5px;
+}
 
-  margin-top: 30px;
+.keynote > div {
+  padding-left: 30px;
+}
 
-  .session-card{
-  flex-direction: column;
-  row-gap: 15px;
+.session-headshot, .session-headshot-mobile, .session-headshot-main {
+  padding: 0;
+
+  img {
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+    padding-bottom: 15px;
+    width: 200px;
   }
+}
+
+.session-headshot, .session-headshot-main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.session-headshot-mobile {
+  display: none;
 }
 
 .session-group .session-button-container {
@@ -693,6 +724,7 @@ p {
 
   .session-track {
     flex-direction: column;
+    padding: 45px 0 5px;
   }
 
   .session-card, .session-time {
@@ -712,7 +744,7 @@ p {
   }
 
   .keynote > div {
-    padding-left: 30px;
+    padding-left: 0;
   }
 
   .session-expanded {
@@ -735,6 +767,25 @@ p {
   .agenda-wrapper {
     margin: 0 auto;
     max-width: 540px;
+  }
+
+  .keynote {
+
+  .session-card {
+    flex-direction: row;
+  }
+
+  }
+
+  .session-headshot {
+    display: none;
+  }
+  
+  .session-headshot-mobile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
 }
