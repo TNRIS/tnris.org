@@ -621,10 +621,16 @@ p {
   row-gap: 15px;
 }
 
-.keynotes .keynote {
-  background-color: white;
-  margin: 30px auto;
-  width: 80%;
+.keynotes {
+
+  .keynote {
+    background-color: white;
+    margin: 30px auto;
+  }
+
+  .session-card {
+    column-gap: 30px;
+  }
 }
 
 .session-card-details {
@@ -634,6 +640,7 @@ p {
 }
 
 .session-card-container, .keynote {
+  background-color: white;
   border: 1px solid $middarkgrey;
   border-radius: 10px;
   color: $opaqueLight;
@@ -644,7 +651,7 @@ p {
 }
 
 .keynote {
-  padding: 45px 15px;
+  padding: 40px 15px;
 }
 
 .session-expanded {
@@ -679,7 +686,7 @@ p {
   padding-left: 30px;
 }
 
-.session-headshot, .session-headshot-mobile, .session-headshot-main {
+.session-headshot, .session-headshot-main {
   padding: 0;
 
   img {
@@ -702,7 +709,7 @@ p {
   flex-direction: column;
 }
 
-.session-headshot-mobile {
+.agenda .session-headshot-main {
   display: none;
 }
 
@@ -718,10 +725,20 @@ p {
   align-items: center;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .keynotes .session-card-details {
   justify-content: center;
+}
+
+.keynotes .session-headshot-main {
+
+  img{
+    margin-bottom: 0;
+    height: 250px;
+    width: 250px;
+  }
 }
 
 .bio-header {
@@ -806,14 +823,11 @@ p {
     display: none;
   }
   
-  .session-headshot-mobile {
-    align-items: center;
+  .agenda .session-headshot-main {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
-  .session-headshot-main {
+  .agenda .session-headshot-main {
     align-items: center;
     column-gap: 30px;
     flex-direction: row;
@@ -832,10 +846,19 @@ p {
       flex-direction: column;
     }
 
-    .session-card-header {
-      align-items: flex-start;
-    }
+  }
 
+}
+
+@media only screen and (max-width: 450px) {
+
+  .agenda .session-headshot-main {
+    column-gap: 15px;
+    img {
+      height: 50px;
+      width: 50px;
+    
+    }
   }
 
 }
