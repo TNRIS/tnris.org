@@ -43,6 +43,27 @@ buttontext: Register Now!
     <img class="forum-content" src="https://tnris-org-static.s3.amazonaws.com/images/2023-forum-asset-texas.png" alt="Shape of Texas with the words 'Keep Texas Elevated' inside.">
   </div>
 </section>
+<section class="keynotes container-md opaque-bg">
+<h1 class="forum-h1">Keynote Speakers</h1>
+  <div class="container">
+    <div class="keynote">
+      <div class="session-card">
+        <div class="session-headshot-main">
+          <img src="https://tnris-org-static.s3.amazonaws.com/images/johnny-earle-headshot.jpg" alt="Picture of Johnny Earle with his arm crossed. There is a neon sign in the background that says 'Enjoy Johnny Cupcakes Baked Goods'">
+          <div class="session-card-header">
+            <p><b>Johhny Earle</b></p>
+            <p>Owner of Johnny Cupcakes</p>
+          </div>
+        </div>
+        <hr>
+        <div class="session-card-details column">
+          <h3 class="forum-h3">Keynote Presentation:<br>Finding a Way</h3>
+          <p>So many ideas, so little resources! Some of the biggest business success stories were the product of dollar coffees and a loving parent’s garage – including Johnny Cupcakes. So if you have the drive then this presentation will show you how to get behind the wheel and steer your organization into new territories and gently away from old ways!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="container-md opaque-bg">
   <h1 class="forum-h1">Pricing</h1>
   <div class="forum-pricing">

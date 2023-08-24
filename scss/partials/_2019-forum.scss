@@ -436,7 +436,8 @@ p {
 }
 
 .pricing-card {
-  border: 1px solid black;
+  background-color: white;
+  border: 1px solid $middarkgrey;
   border-radius: 5px;
   width: 33%;
   padding: 30px;
@@ -620,6 +621,12 @@ p {
   row-gap: 15px;
 }
 
+.keynotes .keynote {
+  background-color: white;
+  margin: 30px auto;
+  width: 80%;
+}
+
 .session-card-details {
   display: flex;
   flex-direction: column;
@@ -627,7 +634,7 @@ p {
 }
 
 .session-card-container, .keynote {
-  border: 1px solid $darkgrey;
+  border: 1px solid $middarkgrey;
   border-radius: 10px;
   color: $opaqueLight;
 }
@@ -678,8 +685,8 @@ p {
   img {
     border-radius: 50%;
     height: 200px;
+    margin-bottom: 15px;
     object-fit: cover;
-    padding-bottom: 15px;
     width: 200px;
   }
 }
@@ -689,6 +696,10 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.session-headshot-main {
+  flex-direction: column;
 }
 
 .session-headshot-mobile {
@@ -701,6 +712,16 @@ p {
   column-gap: 10px;
   display: flex;
   padding: 0;
+}
+
+.keynotes .session-card-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.keynotes .session-card-details {
+  justify-content: center;
 }
 
 .bio-header {
@@ -751,6 +772,10 @@ p {
     padding: 15px 0 0;
   }
 
+  .keynotes .keynote {
+    width: 100%;
+  }
+
 }
 
 
@@ -771,9 +796,9 @@ p {
 
   .keynote {
 
-  .session-card {
-    flex-direction: row;
-  }
+    .session-card {
+      flex-direction: row;
+    }
 
   }
 
@@ -786,6 +811,31 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .session-headshot-main {
+    align-items: center;
+    column-gap: 30px;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    img {
+      height: 75px;
+      margin: 0;
+      width: 75px;
+    }
+  }
+
+  .keynotes {
+
+    .session-card {
+      flex-direction: column;
+    }
+
+    .session-card-header {
+      align-items: flex-start;
+    }
+
   }
 
 }
