@@ -21,7 +21,7 @@ buttontext: Register Now!
         <div class="logo">
           <img src="https://tnris-org-static.s3.amazonaws.com/images/tx-gis-forum-dark.png" alt="Texas GIS Forum logo dark">
         </div>
-        <h2>October 23-27, 2023</h2>
+        <h2>October 23-27</h2>
       </div>
       <div class="forum-asset">
         <img class="forum-content" src="https://tnris-org-static.s3.amazonaws.com/images/2023-forum-asset-texas.png" alt="Shape of Texas with the words 'Keep Texas Elevated' inside.">
