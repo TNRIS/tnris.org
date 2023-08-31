@@ -2,7 +2,7 @@
 
 {% set highlight_items = [
   {
-    name: '',
+    name: ' ',
     acronym: ' ',
     description: 'The GIS Forum is the premiere event in Texas offering the network and power of nationally recognized experts in the geospatial field.',
     image: 'https://cdn.tnris.org/images/2023-forum-sponsor-cta.jpg',
@@ -10,13 +10,13 @@
     link: '/texas-gis-forum/2023',
     button_text: 'Learn More <span class="sr-only">about the Texas GIS Forum</span>'
   }, {
-    name: '',
-    acronym: '',
-    description: 'We are excited to announce the 88th Texas Legislature passed a bill to officially rename the Texas Natural Resources Information System (TNRIS) to the Texas Geographic Information Office (TxGIO).',
-    image: 'https://tnris-org-static.s3.amazonaws.com/images/name-change-announcement.png',
+    name: 'Geographic Information Office',
+    acronym: 'GIO',
+    description: 'TNRIS hosts the State of Texas’s Geographic Information Office (GIO), an inter-agency initiative to collaborate and facilitate the effective use of G.I.S. in state and local government.',
+    image: 'https://cdn.tnris.org/images/tx-flag-gis.jpg',
     alt_text: 'Texas flag superimposed with spatial data',
-    link: '/about',
-    button_text: 'Learn More <span class="sr-only">about the Texas Geographic Information Office</span>'
+    link: '/geographic-information-office',
+    button_text: 'Learn More <span class="sr-only">about the Geographic Information Office</span>'
   }, {
     name: 'Research &amp; Distribution',
     acronym: 'RDC',
@@ -30,8 +30,7 @@
 
 <div id="highlights">
   <div class="container-md">
-    <h1 class="text-center">TNRIS is now TxGIO!</h2>
-    <h2 class="text-center">Providing the Highest Level of Geographic Data Services to the People of Texas</h2>
+    <h1 class="text-center">Providing the Highest Level of Geographic Data Services to the People of Texas</h1>
     <div class="row">
       {% for item in highlight_items %}
         <div class="col-lg-4">
