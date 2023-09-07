@@ -76,9 +76,9 @@ intro: true
     <p>Gold sponsor opportunities:</p>
     <ul>
       <li class="sold-out">Mobile Agenda Sponsor</li>
-      <li>Keynote Presentations Sponsor <strong>(ONE LEFT!)</strong></li>
+      <li class="sold-out">Keynote Presentations Sponsor</li>
       <li>Breakfast Sponsor (3 available)</li>
-      <li>Lunch Sponsor <strong>(ONE LEFT!)</strong></li>
+      <li class="sold-out">Lunch Sponsor</li>
     </ul>
     <p>Gold sponsor benefits:</p>
     <ul class="sponsor-benefits">
