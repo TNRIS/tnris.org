@@ -66,7 +66,6 @@ buttontext: Register Now!
   <div class="forum-pricing">
     <div class="pricing-card">
       <h2 class="forum-h2">Full Registration</h2>
-      <p>Meals included.</p>
       <h3 class="forum-h3">Government Rates</h3>
       <div>
         <p>Early bird <span>ends 9/15</span></p>
@@ -98,6 +97,7 @@ Regular</p>
         <p>Flat fee</p>
         <p><strong>$75</strong></p>
       </div>
+      <p class="info-text">Sessions, exhibits, and meals included.</p>
       <div class="button-container">  
         <a class="button-primary" 
           href="https://texasgisforum.wildapricot.org/registration" target="_blank">
@@ -122,6 +122,7 @@ Regular</p>
         <p>Flat fee</p>
         <p><strong>$75</strong></p>
       </div>
+      <p class="info-text">Sessions, exhibits, and meals included.</p>
       <div class="button-container">  
         <a class="button-primary" 
           href="https://texasgisforum.wildapricot.org/registration" target="_blank">
