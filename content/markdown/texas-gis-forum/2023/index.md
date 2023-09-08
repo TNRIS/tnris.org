@@ -66,6 +66,7 @@ buttontext: Register Now!
   <div class="forum-pricing">
     <div class="pricing-card">
       <h2 class="forum-h2">Full Registration</h2>
+      <p>Meals included.</p>
       <h3 class="forum-h3">Government Rates</h3>
       <div>
         <p>Early bird <span>ends 9/15</span></p>
