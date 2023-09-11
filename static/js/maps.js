@@ -52,7 +52,7 @@ function buildCollectionsList(collections) {
     var uuid = Object.keys(c)[0];
     var item =
     `
-      <li><a href="https://data.tnris.org/collection/${uuid}">${c[uuid]}</a></li>
+      <li><a href="https://data.tnris.org/collection/?c=${uuid}">${c[uuid]}</a></li>
     `;
     listItems += item;
   });
