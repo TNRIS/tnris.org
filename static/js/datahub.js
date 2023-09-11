@@ -23,7 +23,7 @@ function retrieveLatestDatasets() {
       // fill dom list element with collection details
       collection.innerHTML =
         `
-          <a href="https://data.tnris.org/collection/${d.collection_id}" title="View ${d.name} on the DataHub">
+          <a href="https://data.tnris.org/collection/?c=${d.collection_id}" title="View ${d.name} on the DataHub">
               <img class="" src="${d.thumbnail_image}" alt="Thumbnail image of ${d.name} data collection">
               <h3>
                 <strong>${year} - ${d.source_abbreviation}</strong><br>
