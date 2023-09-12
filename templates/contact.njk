@@ -48,7 +48,7 @@
               "Reason",
               "Reason for contacting",
               "radio",
-              ['General Question or Comment', 'Help with Data', 'Order Map', 'Education/Training/Forum', 'Lakes of Texas'],
+              ['General Question or Comment', 'Help with Data', 'Order Map', 'Education/Training/Forum'],
               false
             )}}
 
@@ -75,24 +75,6 @@
               </div>
 
               <div ng-show="form_model['Reason'] == 'General Question or Comment'">
-                {{form.textarea(
-                    "Question or Comments",
-                    "Question / Comments",
-                    true,
-                    true
-                )}}
-
-                {{form.input("Name", "Name", "text", true)}}
-                {{form.input("Email", "Email address", "email", true)}}
-                {{form.input("Phone", "Phone number", "tel", false)}}
-                {{form.input("Address", "Address", "text", true)}}
-                {{form.input("Organization", "Organization", "text", false)}}
-                {{form.industry()}}
-
-                {{form.submit("Message")}}
-              </div>
-
-              <div ng-show="form_model['Reason'] == 'Lakes of Texas'">
                 {{form.textarea(
                     "Question or Comments",
                     "Question / Comments",
