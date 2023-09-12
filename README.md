@@ -12,8 +12,8 @@ you're in the right place.
 
 First, make sure these things are installed:
 
- - nodejs `v12.13`
- - npm `v6.12`
+ - nodejs `v16.13.1`
+ - npm `v8.1.2`
 
 ### Setup
 

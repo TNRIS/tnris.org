@@ -25,7 +25,7 @@ youtube_url: https://www.youtube.com/embed/50msWTlH76M
       <h2>TNRIS Lidar Coverage</h2>
       <iframe title="Lidar coverage" width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="TNRIS.ORG Lidar Coverage Map" src="https://twdb.maps.arcgis.com/apps/Embed/index.html?webmap=4ec4da2aedcf444ba6d148b74e1e7769&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe>
       <p>Lidar coverage varies across the state. Lidar coverage and project details (date, nominal point spacing, vendor, etc.) can be found on the <a href="https://arcg.is/1j0G1f0">Lidar Status Map</a>. All details about each dataset in our collection can be found in the supplemental reports for each project.</p>
-      <p>You can <a href="https://cdn.tnris.org/data/lidar/tnris-lidar_48_vector.zip">download</a> an index of best available lidar data at TNRIS. This index represents the best available data and not complete coverage of all collections, especially where new collections overlap older collections.</p>
+      <p>You can <a href="https://cdn.tnris.org/lidar-availability/tnris-lidar_48_vector.zip">download</a> an index of best available lidar data at TNRIS. This index represents the best available data and not complete coverage of all collections, especially where new collections overlap older collections.</p>
     </div>
 
   </div>

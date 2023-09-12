@@ -23,7 +23,7 @@ function retrieveStratmapDatasets() {
       // fill dom list element with collection details
       collection.innerHTML =
         `
-          <a href="https://data.tnris.org/collection/${d.collection_id}">
+          <a href="https://data.tnris.org/collection/?c=${d.collection_id}">
               <img class="" src="${d.thumbnail_image}" alt="${d.name} Thumbnail">
               <h3>
                 <strong>${year}</strong><br>

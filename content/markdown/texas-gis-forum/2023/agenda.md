@@ -7,7 +7,7 @@ mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
 ---
 <section class="container-md hero">
   <div class="hero-content opaque-bg">
-    <div class="hero-header row">
+    <div class="hero-header">
       <div class="col">
         <h1>2023</h1>
         <div class="logo">
