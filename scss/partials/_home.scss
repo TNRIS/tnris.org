@@ -297,8 +297,30 @@ h2.forum-title-front {
       color: white;
       background-image: linear-gradient(to top, $darkgrey, transparent);
     }
+   
   }
 }
+
+/* fix card height -Aziza */
+#highlights .highlightBox .image-container,
+#highlights .highlightBox .image-container .img-fluid {
+   height: 175px;
+   object-fit: cover;
+}
+#highlights .col-lg-4{
+  padding: 10px;
+}
+#highlights a.btn {
+  width: 35%;
+  margin-top: auto;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+#highlights > div > div > div > div {
+  display: flex;
+  flex-direction: column; 
+}
+/* making it pertain just to homepg above ^*/
 
 .highlightBox {
   margin: 20px auto;
@@ -306,7 +328,7 @@ h2.forum-title-front {
   background: $white;
   border: 1px solid $midgrey;
   color: $darkgrey;
-  min-height: 350px;
+  height: 100%;
   padding-bottom: 5px;
   width: 100%;
 
