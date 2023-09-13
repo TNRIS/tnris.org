@@ -36,22 +36,20 @@
       <p class="lead">Use the TNRIS DataHub to locate your desired data. The majority of TNRIS data is available for download. All data can be ordered through the RDC.</p>
       <a class="btn btn-lg btn-tnris btn-block" href="https://data.tnris.org"><img style="width: 20px; margin-bottom: 0 !important;" src="https://cdn.tnris.org/images/baseline_view_comfy_white_36dp.png" alt="Launch DataHub icon"> Launch DataHub</a>
       <hr>
-      {% endif %}
-
-      {% if title=='Custom Maps' %}
-        <h3>Order Custom Map</h3>
-        <p>Use the online form to order a custom map. Please review the pricing list below before placing an order.</p>
-        <a href="/order-map" class="btn btn-lg btn-success btn-block"><span class="fas fa-shopping-cart"></span> Order Map</a>
-        <hr>
-        {% include "rdc/custom-pricing.njk" %}
-      {% endif %}
-
       <h3>RDC Office Hours</h3>
       <p>
         Vistor Access By Appointment Only<br />
         <i class="fa fa-phone"></i> <a href="tel:5124638337">512-463-8337</a>
       </p>
+      {% endif %}
 
+      {% if title=='Custom Maps' %}
+      <div class="sticky-order-bar">
+        <h3>Order Custom Map</h3>
+        <p>Use the online form to order a custom map. Please review the pricing list below before placing an order.</p>
+        <a href="/order-map" class="btn btn-lg btn-success btn-block"><span class="fas fa-shopping-cart"></span> Order Map</a>
+        </div>
+      {% endif %}
     </div>
 
 
