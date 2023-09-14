@@ -259,16 +259,14 @@
   object-fit: cover;
   width: 100% !important;
   height: 100% !important;
-  min-height: 650px;
-max-height: 651px;
+  max-height: 650px;
 
 }
 
 
 @media only screen and (max-width: 991px) {
   .carousel-item img {
-    min-height: 475px;
-    max-height: 476px;
+    max-height: 475px;
   }
   
 }
