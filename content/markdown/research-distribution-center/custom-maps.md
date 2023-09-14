@@ -4,7 +4,6 @@ title: Custom Maps
 mainimage: https://cdn.tnris.org/images/custom_maps_banner.jpg
 abstract: From customized contour maps to historical imagery posters of your hometown, we can make the map you’re looking for.
 ---
-
 <p class="lead">The trained cartographers and data Specialists in the TNRIS Research & Distribution Center can create a custom map to meet your needs.</p>
 
 <p class="lead"><strong>Custom mapping products include:</strong>
@@ -18,9 +17,68 @@ abstract: From customized contour maps to historical imagery posters of your hom
 
 <p class="lead">We have high-quality printing capabilities and can handle sizes <strong>between 24”–54” wide with any length</strong>.</p>
 
+<h3>Custom Map Production Pricing</h3>
+  <ul class="list-nospace">
+    <li><strong>Staff Fee:</strong> $100.00</li>
+    <li><strong>Custom Map Fee:</strong> $75.00 ($37.50/hour for a 2 hour minimum)</li>
+    <li><strong>Additional Time:</strong> $37.50/hour</li>
+  </ul>
+  <div class="bs-callout bs-callout-danger">
+    <p><strong>No Refund Policy:</strong> TNRIS does not offer refunds for services rendered. All data is available through the Public Domain at no cost. All applicable fees are associated with the cost of data reproduction.</p>
+  </div>
+  <hr>
+  <h3>Printing Costs</h3>
+  <ul class="list-nospace">
+    <li><strong>Laser Prints:</strong>
+      <ul>
+      <li>8.5" x 11" = $10.00</li>
+      <li>11" x 17" = $12.00</li>
+      </ul>
+    </li>
+    <li><strong>Plotter Prints:</strong>
+      <p>Vector maps will be printed on bond paper. Raster maps will be printed on satin.</p>
+      <ul>
+      <li>24" x 24" = $20.00</li>
+      <li>24" x 28" = $20.00</li>
+      <li>30" x 30" = $30.00</li>
+      <li>36" x 36" = $30.00</li>
+      <li>60" x 60" or larger = starting at $50.00<br><em>Contact RDC for more details (maximum width is 60 inches</em>)</li>
+      </ul>
+    </li>
+  </ul>
+  <hr>
+  <h3>Shipping Costs</h3>
+  <ul class="list-nospace">
+    <li><strong>FedEx Standard Overnight</strong>
+      <ul>
+      <li>24" x 28" or smaller = $10.00</li>
+      <li>30" x 30" or larger = $15.00</li>
+      </ul>
+    </li>
+    <li><strong>USPS Standard Shipping</strong>
+      <ul>
+      <li>All map sizes = $5.00</li>
+      </ul>
+    </li>
+  </ul>
+  <hr>
+  <h3>Processing Time</h3>
+  <div class="bs-callout bs-callout-info">
+    <p>
+      TNRIS will reach out to you with a quote for your order within
+      a couple of days of the order form submission.
+    </p>
+    <p>
+      Per our policy, please allow 3-10 business days for completion.
+    </p>
+    <p>
+      <strong>Rush or expedited orders cannot be accommodated.</strong>
+    </p>
+  </div>
+
 <p class="lead">Just fill out our <a href="/order-map">order form</a> to start a custom map order. List all available datasets you would like to include in your map then TNRIS Staff will contact you with a quote. You can also send us your own geospatial data to add to any custom map we are creating for you.</p>
 
-<div class="bs-callout bs-callout-info"><strong>Important Note:</strong> Coverage area on all maps must be within Texas and show data from the TNRIS archive. </div>
+<a href="/order-map" class="rdc-btn btn btn-lg btn-success btn-block"><span class="fas fa-shopping-cart"></span> Order Map</a>
 
 ## Examples of Previous Work
 <div class="row">
