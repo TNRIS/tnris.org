@@ -4,6 +4,19 @@ title: Custom Maps
 mainimage: https://cdn.tnris.org/images/custom_maps_banner.jpg
 abstract: From customized contour maps to historical imagery posters of your hometown, we can make the map you’re looking for.
 ---
+<p class="lead">The trained cartographers and data Specialists in the TNRIS Research & Distribution Center can create a custom map to meet your needs.</p>
+
+<p class="lead"><strong>Custom mapping products include:</strong>
+<ul class="lead">
+<li>Contour maps</li>
+<li>County-wide maps</li>
+<li>Historical imagery prints</li>
+<li>Recent aerial imagery prints</li></ul>
+</p>
+
+
+<p class="lead">We have high-quality printing capabilities and can handle sizes <strong>between 24”–54” wide with any length</strong>.</p>
+
 <h3>Custom Map Production Pricing</h3>
   <ul class="list-nospace">
     <li><strong>Staff Fee:</strong> $100.00</li>
@@ -62,18 +75,6 @@ abstract: From customized contour maps to historical imagery posters of your hom
       <strong>Rush or expedited orders cannot be accommodated.</strong>
     </p>
   </div>
-<p class="lead">The trained cartographers and data Specialists in the TNRIS Research & Distribution Center can create a custom map to meet your needs.</p>
-
-<p class="lead"><strong>Custom mapping products include:</strong>
-<ul class="lead">
-<li>Contour maps</li>
-<li>County-wide maps</li>
-<li>Historical imagery prints</li>
-<li>Recent aerial imagery prints</li></ul>
-</p>
-
-
-<p class="lead">We have high-quality printing capabilities and can handle sizes <strong>between 24”–54” wide with any length</strong>.</p>
 
 <p class="lead">Just fill out our <a href="/order-map">order form</a> to start a custom map order. List all available datasets you would like to include in your map then TNRIS Staff will contact you with a quote. You can also send us your own geospatial data to add to any custom map we are creating for you.</p>
 
