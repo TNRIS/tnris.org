@@ -2,6 +2,7 @@
 layout: events/texas-gis-forum/2023/main.njk
 title: 2023 Texas GIS Forum
 subtitle: October 23-27, 2023 | Austin, Texas
+description: The annual Texas GIS Forum is largest GIS meetup in the state, offering the network and power of nationally recognized experts in the geospatial field. Register now to attend October 23 - 27, 2023 in Austin, Texas.
 mainimage: https://tnris-org-static.s3.amazonaws.com/images/2023-forum-graphic.png
 mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
 buttontext: Register Now!
