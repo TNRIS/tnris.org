@@ -9,7 +9,7 @@
       <title>{% if title %}{{title}} | {% endif %}TxGIO - Texas Geographic Information Office</title>
     {% endblock %}
     {% block img %}
-      <meta property="mainimage" content="{% if mainimage %}{{mainimage}} {% endif %}">
+      <meta property="mainimage" content="{% if mainimage %}{{mainimage}}{% endif %}">
     {% endblock %}
     {% block styles %}{% include "partials/styles.njk" %}{% endblock %}
   </head>
