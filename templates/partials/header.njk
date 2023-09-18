@@ -7,6 +7,9 @@
 <meta property="og:description" content="{{description}}">
 {% elseif abstract %}<meta property="og:description" content="{{abstract}}">
 {% endif %}
-{% if mainimage %}<meta property="og:image" content="{{mainimage}}">{% endif %}
+{% if mainimage %}<meta property="og:image" content="{{mainimage}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="Texas Geographic Information Office">
+{% endif %}
 {% if author %}<meta name="author" content="{{author}}">{% endif %}
 {% if title %}<meta property="og:title" content="{{title}} | TxGIO">{% endif %}
