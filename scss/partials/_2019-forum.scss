@@ -454,6 +454,12 @@ p {
       color: $salmonPink;
       font-weight: 600;
     }
+    p.sold-out{
+      color: $middarkgrey;
+      font-weight: lighter;
+      text-decoration: line-through;
+    }
+
   }
 
   .info-text {
@@ -882,7 +888,7 @@ p {
     margin-bottom: 0;
   }
 
-  .sold-out {
+  .sold-out{
     color: $middarkgrey;
     font-weight: lighter;
     text-decoration: line-through;

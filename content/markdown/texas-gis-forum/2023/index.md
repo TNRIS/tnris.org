@@ -68,12 +68,12 @@ buttontext: Register Now!
     <div class="pricing-card">
       <h2 class="forum-h2">Full Registration</h2>
       <h3 class="forum-h3">Government Rates</h3>
-      <div>
-        <p>Early bird <span>ends 9/15</span></p>
-        <p><span>$400</span></p>
+      <div class="sold-out">
+        <p class="sold-out">Early bird</p>
+           <p class="sold-out">$400</p>
       </div>
       <div>
-Regular</p>
+           <p>Regular</p>
         <p><strong>$450</strong></p>
       </div>
       <div>
@@ -82,8 +82,8 @@ Regular</p>
       </div>
       <h3 class="forum-h3">Industry Rates</h3>
       <div>
-        <p>Early bird <span>ends 9/15</span></p>
-        <p><span>$475</span></p>
+        <p class="sold-out">Early bird</p>
+        <p class="sold-out">$475</p>
       </div>
       <div>
         <p>Regular</p>
