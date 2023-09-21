@@ -108,16 +108,18 @@
     }
   }
 }
-
+.member-boxes-row{
+  gap:15px;
+  flex-wrap: nowrap;
+}
 .gio-agency {
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid $midgrey;
   border-radius: 10px;
-  display: block;
-  margin: 0 auto;
-  padding: 5px;
-  position: relative;
-  width: 100%;
-  text-align: center;
+  
 
   img {
     display: block;
