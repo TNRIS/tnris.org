@@ -33,29 +33,29 @@ The DCS GIS Solution Group was created to meet the need for a formal team of age
       </div>
    </div>
    <br>
-    <div class="row">
-      <div class="col-xs-5ths">
-        <a class="gio-agency" href="https://www.dir.texas.gov">
+    <div class="row member-boxes-row">
+      <div class="col-xs-5ths gio-agency">
+        <a  href="https://www.dir.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/dir_logo_padded.jpg" alt="Department of Information Resources Logo and Link to website">
         </a>
       </div>
-      <div class="col-xs-5ths">
-        <a class="gio-agency" href="https://www.csec.texas.gov/">
+      <div class="col-xs-5ths gio-agency">
+        <a  href="https://www.csec.texas.gov/">
           <img class="img-fluid" src="https://cdn.tnris.org/images/csec_logo_med.jpg" alt="Commission on Emergency Communications (CSEC) Logo and Link to website">
         </a>
       </div>
-        <div class="col-xs-5ths">
-        <a class="gio-agency" href="https://www.tceq.texas.gov">
+        <div class="col-xs-5ths gio-agency">
+        <a href="https://www.tceq.texas.gov">
           <img title="Visit the Texas Commission on Environmental Quality (TCEQ) website" class="img-fluid" src="https://cdn.tnris.org/images/tceq_logo_sm.jpg" alt="Texas Commission on Environmental Quality (TCEQ) Logo and Link to website">
         </a>
       </div>
-      <div class="col-xs-5ths">
-        <a title="Visit the Texas Department of Transportation website" class="gio-agency" href="https://www.txdot.gov">
+      <div class="col-xs-5ths gio-agency">
+        <a title="Visit the Texas Department of Transportation website"  href="https://www.txdot.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/txdot.jpg" alt="Texas Department of Transportation (TxDOT) Logo and Link to website">
         </a>
       </div>
-      <div class="col-xs-5ths">
-        <a class="gio-agency" href="https://www.twdb.texas.gov">
+      <div class="col-xs-5ths gio-agency">
+        <a  href="https://www.twdb.texas.gov">
           <img class="img-fluid" src="https://cdn.tnris.org/images/twdb_web_med_rect.jpg" alt="Texas Water Development Board Logo and Link to website">
         </a>
       </div>
