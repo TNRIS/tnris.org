@@ -110,12 +110,12 @@ buttontext: Register Now!
       <h2 class="forum-h2">One Day Registration</h2>
       <h3 class="forum-h3">Government Rate</h3>
       <div>
-        <p>Regular <span>Ends 10/17</span></p>
+        <p>Regular</p>
         <p><strong>$325</strong></p>
       </div>
       <h3 class="forum-h3">Industry Rate</h3>
       <div>
-        <p>Regular <span>Ends 10/17</span></p>
+        <p>Regular</p>
         <p><strong>$375</strong></p>
       </div>
       <h3 class="forum-h3">Student Rate</h3>
