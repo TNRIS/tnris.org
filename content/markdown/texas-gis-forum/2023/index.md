@@ -147,7 +147,7 @@ buttontext: Register Now!
       </div>
     </div>
   </div>
-  <div style="padding: 0; class="container">
+  <div style="padding: 0;" class="container">
     <div class="keynote">
       <div class="session-card">
         <div class="session-headshot-main">
