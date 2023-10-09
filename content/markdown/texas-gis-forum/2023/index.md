@@ -44,42 +44,9 @@ buttontext: Register Now!
     <img class="forum-content" src="https://tnris-org-static.s3.amazonaws.com/images/2023-forum-asset-texas.png" alt="Shape of Texas with the words 'Keep Texas Elevated' inside.">
   </div>
 </section>
+
 <section class="keynotes container-md opaque-bg">
-<h1 class="forum-h1">Keynote Speakers</h1>
-  
-   <div class="container">
-    <div class="keynote">
-      <div class="session-card">
-        <div class="session-headshot-main">
-          <img src="https://tnris-org-static.s3.amazonaws.com/images/johnny-earle-headshot.jpg" alt="Picture of Johnny Earle with his arm crossed. There is a neon sign in the background that says 'Enjoy Johnny Cupcakes Baked Goods'">
-        </div>
-        <hr>
-        <div class="session-card-details column">
-          <p><b>Johnny Earle</b><br>
-          Founder of Johnny Cupcakes</p>
-          <p>If you dream of inspiring cult-like brand loyalty—the kind that involves mile-long queues and even permanent tattoos—then Johnny “Cupcakes" Earle is for you.  The founder of the world-renowned tee-shirt brand Johnny Cupcakes, Johnny is known for helping people create blueprints for building brand loyalty, creating memorable experiences, and inspiring innovation.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="keynote">
-      <div class="session-card">
-        <div class="session-headshot-main">
-          <img src="https://cdn.tnris.org/images/jeremi_suri.jpg" alt="Headshot picture of Dr. Jermi Suri, Ph.D posed before a dark background">
-        </div>
-        <hr>
-        <div class="session-card-details column">
-        <p><b>Dr. Jeremi Suri, Ph.D.</b><br>
-        Professor, Mack Brown Distinguished Chair</p>
-          <p>Jeremi Suri holds the Mack Brown Distinguished Chair for Leadership in Global Affairs at the University of Texas at Austin. He is a professor in the University's Department of History and the LBJ School of Public Affairs.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="container-md opaque-bg">
-  <h1 class="forum-h1">Pricing</h1>
+   <h1 class="forum-h1">Pricing</h1>
   <div class="forum-pricing">
     <div class="pricing-card">
       <h2 class="forum-h2">Full Registration</h2>
@@ -163,6 +130,41 @@ buttontext: Register Now!
       </div>
     </div>
   </div>
+
+<h1 class="forum-h1">Keynote Speakers</h1>
+   <div style="padding: 0;" class="container">
+    <div class="keynote">
+      <div class="session-card">
+        <div class="session-headshot-main">
+          <img src="https://tnris-org-static.s3.amazonaws.com/images/johnny-earle-headshot.jpg" alt="Picture of Johnny Earle with his arm crossed. There is a neon sign in the background that says 'Enjoy Johnny Cupcakes Baked Goods'">
+        </div>
+        <hr>
+        <div class="session-card-details column">
+          <p><b>Johnny Earle</b><br>
+          Founder of Johnny Cupcakes</p>
+          <p>If you dream of inspiring cult-like brand loyalty—the kind that involves mile-long queues and even permanent tattoos—then Johnny “Cupcakes" Earle is for you.  The founder of the world-renowned tee-shirt brand Johnny Cupcakes, Johnny is known for helping people create blueprints for building brand loyalty, creating memorable experiences, and inspiring innovation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="padding: 0; class="container">
+    <div class="keynote">
+      <div class="session-card">
+        <div class="session-headshot-main">
+          <img src="https://cdn.tnris.org/images/jeremi_suri.jpg" alt="Headshot picture of Dr. Jermi Suri, Ph.D posed before a dark background">
+        </div>
+        <hr>
+        <div class="session-card-details column">
+        <p><b>Dr. Jeremi Suri, Ph.D.</b><br>
+        Professor, Mack Brown Distinguished Chair</p>
+          <p>Jeremi Suri holds the Mack Brown Distinguished Chair for Leadership in Global Affairs at the University of Texas at Austin. He is a professor in the University's Department of History and the LBJ School of Public Affairs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container-md opaque-bg">
+ <!-- THIS SECTION IS NEEDS TO BE HERE, OR PAGE BRAKES, left blank after request to move pricing above sponsers --->
 </section>
 {% include "events/texas-gis-forum/cta.njk" %}
 <section class="forum-sponsorlist">

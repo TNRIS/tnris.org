@@ -609,10 +609,6 @@ p {
 .session-card, .session-time, .session-group, .session-card-details, .session-location {
   padding: 0;
 }
-div.forum-2023-spacer{
-  
-
-}
 
 .session-card-details p {
   color: $darkish;
@@ -1827,4 +1823,20 @@ section.keynote-speakers:after:first-child  {
 
 .sponsors-silver img{
   max-width: 75px;
+}
+#texas-gis-forum-2023-index
+
+  .sponsors-platinum img{
+    max-width: 350px;
+  }
+  
+  .sponsors-gold img{
+    max-width: 332px;
+  }
+  
+  .sponsors-silver img{
+    max-width: 115px;
+    margin: 20px 0px;
+
+
 }
