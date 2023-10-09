@@ -694,7 +694,14 @@ p {
 
 .session-headshot, .session-headshot-main {
   padding: 0;
+  #fit{
+    border-radius: 0 !important;
+    height: auto;
+    margin-bottom: 15px;
+    object-fit: contain;
+    width: 260px !important;
 
+  }
   img {
     border-radius: 50%;
     height: 200px;
