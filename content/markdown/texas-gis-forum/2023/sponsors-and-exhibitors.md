@@ -72,12 +72,13 @@ intro: true
   <div class="sponsor-card">
     <div class="sponsor-card-title">
       <h2><strong>Gold</strong> | $3,950</h2>
+      <p><strong>SOLD OUT!</strong></p>
     </div>
     <p>Gold sponsor opportunities:</p>
     <ul>
       <li class="sold-out">Mobile Agenda Sponsor</li>
       <li class="sold-out">Keynote Presentations Sponsor</li>
-      <li>Breakfast Sponsor (2 available)</li>
+      <li  class="sold-out">Breakfast Sponsor</li>
       <li class="sold-out">Lunch Sponsor</li>
     </ul>
     <p>Gold sponsor benefits:</p>
