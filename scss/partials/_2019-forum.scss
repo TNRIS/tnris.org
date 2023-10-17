@@ -321,6 +321,9 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
+  div.mobile-sponsor{
+    display: block !important;
+  }
   .mobile-menu {
     align-items: center;
     display: flex;
@@ -340,9 +343,7 @@ p {
   .desktop-menu {
     display: none;
   }
-  div.mobile-sponsor{
-    display: block;
-  }
+  
 }
 
 @media only screen and (max-width: 550px) {
