@@ -44,6 +44,10 @@
 
 // 2023 stuff dont forget to move later //
 
+div.mobile-sponsor{
+  display: none;
+}
+
 //TYPOGRAPHY//
 
 .forum-h1, .hero-header h1, .hero-header h2{
@@ -317,6 +321,9 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
+  div.mobile-sponsor{
+    display: block !important;
+  }
   .mobile-menu {
     align-items: center;
     display: flex;
@@ -336,6 +343,7 @@ p {
   .desktop-menu {
     display: none;
   }
+  
 }
 
 @media only screen and (max-width: 550px) {

@@ -30,6 +30,10 @@ mainimagesm: https://cdn.tnris.org/images/2023-forum-graphic-mobile.jpg
   </div>
 </section>
 <section class="intro agenda container-md">
+<div style = "text-align: center; margin: 20px;" class="mobile-sponsor">
+<p><strong>Mobile agenda sponsored by:</strong></p>
+<a target="_blank" href="https://www.nearmap.com/"><img style = "width: 75%;"alt="Nearmap logo and link" src="https://cdn.tnris.org/images/nearmap-logo.png"></a>
+</div>
   <div class="agenda-wrapper">
     <input class="tab-select" id="one" name="group" type="radio">
     <input class="tab-select" id="two" name="group" type="radio">
