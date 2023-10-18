@@ -56,8 +56,8 @@ buttontext: Register Now!
            <p class="sold-out">$400</p>
       </div>
       <div>
-           <p>Regular <span>Ends 10/17</span></p>
-        <p><strong>$450</strong></p>
+           <p  class="sold-out">Regular</p>
+        <p  class="sold-out">$450</p>
       </div>
       <div>
         <p>Late/On-site</p>
@@ -69,8 +69,8 @@ buttontext: Register Now!
         <p class="sold-out">$475</p>
       </div>
       <div>
-        <p>Regular <span>Ends 10/17</span></p>
-        <p><strong>$525</strong></p>
+        <p  class="sold-out">Regular</p>
+        <p  class="sold-out">$525</p>
       </div>
       <div>
         <p>Late/On-site</p>
