@@ -51,10 +51,11 @@ abstract: Location and parking information.
   <p><strong>When:</strong> Monday, October 23, 2023</p>
   <p><strong>Time:</strong> 8am - 5pm</p>
   <p><strong>Location:</strong> <a class="link-primary" href="https://www.google.com/maps/place/Building+2000,+6101+Highland+Campus+Dr,+Austin,+TX+78752/@30.3260654,-97.7165517,17z/data=!3m1!4b1!4m6!3m5!1s0x8644cb990f2350ef:0x695e5ebd749a3014!8m2!3d30.3260654!4d-97.714363!16s%2Fg%2F11tmj_s64c" target="_blank">6101 Highland Campus Dr, Austin, TX 78752</a></p>
-  <h2 class="forum-h2">GIS Happy Hour</h2>
+ <h2 class="forum-h2">URISA Texas Mappy Hour</h2>
   <p><strong>When:</strong> Thursday, October 26, 2023</p>
-  <p><strong>Time:</strong> 5:30pm - 7:30pm</p>
-  <p><strong>Location:</strong> TBD</p>
+  <p><strong>Time:</strong> 5:00pm - 7:00pm</p>
+  <p><strong>Location:</strong><a href="https://www.google.com/maps?sca_esv=574510585&rlz=1C1ONGR_enUS1073US1073&output=search&q=oskar+blues+brewery&source=lnms&entry=mc&sa=X&ved=2ahUKEwjqvIWWuYCCAxWpmGoFHWNZBeIQ0pQJegQICBAB"> Oskar Blues Brewery</a></p>
+  <p><strong> More infomation: </strong><a href = "https://urisatexas.org/">https://urisatexas.org/event-5431124</a></<p>
   </div>
 </section>
 {% include "events/texas-gis-forum/cta.njk" %}
