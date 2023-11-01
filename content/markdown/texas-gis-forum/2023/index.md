@@ -22,22 +22,27 @@ buttontext: Register Now!
         <div class="logo">
           <img src="https://tnris-org-static.s3.amazonaws.com/images/tx-gis-forum-dark.png" alt="Texas GIS Forum logo dark">
         </div>
-        <h2>October 23-27</h2>
+        <h2><br>Thanks for another great year!</h2>
       </div>
       <div class="forum-asset">
         <img class="forum-content" src="https://tnris-org-static.s3.amazonaws.com/images/2023-forum-asset-texas.png" alt="Shape of Texas with the words 'Keep Texas Elevated' inside.">
       </div>
     </div>
-    <p class="lead">For over three decades, the Texas GIS Forum has been the can’t-miss event for the statewide GIS community. Come to Austin and hear about the latest advancements in the private and public sector and take the opportunity to touch base with long-time colleagues - and make new connections.</p>
-    <div class="button-container row">
+    <p class="lead">For over 30 years, The Texas GIS Forum has been made possible by sponsors, speakers, workshop instructors, moderators, and attendees from around the globe. Thank you, for all you have done to invest in the advancement of GIS in the State of Texas! We'll see you again in 2024!</p>
+    <!--<div class="button-container row">
       <a class="button-primary" 
         href="/texas-gis-forum/2023/agenda">
-        2023 Agenda
+        Explore Sessions
       </a>
       <a class="button-secondary"  
         href="/texas-gis-forum/2023/sponsors-and-exhibitors">
-        Become a Sponsor
+        Get 2024 alerts
       </a>
+    </div>-->
+     <div class="end-of-forum">
+        <a target="_blank" href="https://www.esri.com"><img alt="Esri logo and link to website" src="https://cdn.tnris.org/images/esri-logo-tag.png"></a>
+        <a target="_blank" href="https://www.fugro.com/"><img alt="Fugro logo and link" src="https://cdn.tnris.org/images/fugro_2023_logo.png"></a>
+        <a target="_blank" href="https://www.sanborn.com/"><img alt="Sanborn logo and link to website" src="https://tnris-org-static.s3.amazonaws.com/images/SANBORN_LOGO_2023_color.png"></a>
     </div>
   </div>
   <div class="forum-asset">
@@ -46,9 +51,9 @@ buttontext: Register Now!
 </section>
 
 <section class="keynotes container-md opaque-bg">
-   <h1 class="forum-h1">Pricing</h1>
+   <h1 class="forum-h1"></h1>
   <div class="forum-pricing">
-    <div class="pricing-card">
+   <!-- <div class="pricing-card">
       <h2 class="forum-h2">Full Registration</h2>
       <h3 class="forum-h3">Government Rates</h3>
       <div class="sold-out">
@@ -128,10 +133,11 @@ buttontext: Register Now!
           Register
         </a>
       </div>
-    </div>
+    </div>-->
   </div>
 
 <h1 class="forum-h1">Keynote Speakers</h1>
+<h2  style="color: #000;" >Thank you to our 2023 Keynote Speakers, for sharing your incredible perspectives!</h2>
    <div style="padding: 0;" class="container">
     <div class="keynote">
       <div class="session-card">
