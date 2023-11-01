@@ -1737,6 +1737,16 @@ section.keynote-speakers:after:first-child  {
 }
 
 //SPONSOR PAGE//
+.end-of-forum{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  img{
+    width: 10rem;
+  }
+}
 
 .sponsor-levels {
   align-items: center;
