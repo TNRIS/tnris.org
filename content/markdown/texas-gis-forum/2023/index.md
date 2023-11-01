@@ -51,9 +51,9 @@ buttontext: Register Now!
 </section>
 
 <section class="keynotes container-md opaque-bg">
-   <h1 class="forum-h1">Pricing</h1>
+   <h1 class="forum-h1"></h1>
   <div class="forum-pricing">
-    <div class="pricing-card">
+   <!-- <div class="pricing-card">
       <h2 class="forum-h2">Full Registration</h2>
       <h3 class="forum-h3">Government Rates</h3>
       <div class="sold-out">
@@ -133,7 +133,7 @@ buttontext: Register Now!
           Register
         </a>
       </div>
-    </div>
+    </div>-->
   </div>
 
 <h1 class="forum-h1">Keynote Speakers</h1>
