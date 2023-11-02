@@ -144,7 +144,7 @@ function retrieveForumTraining() {
   
     function clickerAnchor(element) {
       element.addEventListener("click", function() {
-        var button = element.children[0];
+        var button = element.children[1];
         var isExpanded = button.getAttribute('data-expanded') === 'true';
   
         // Toggle button state
@@ -158,7 +158,7 @@ function retrieveForumTraining() {
   
     function clickerContainer(element) {
       element.addEventListener("click", function() {
-        var button = element.children[0];
+        var button = element.children[1];
         var isExpanded = button.getAttribute('data-expanded') === 'true';
     
         // Toggle button state
