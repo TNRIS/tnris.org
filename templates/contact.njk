@@ -13,12 +13,22 @@
 
 {% block contentsOne %}
   <div>
-    <iframe width="100%" height="420" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="TNRIS.ORG Contact Us Map" src="https://portal.tnris.org/portal/apps/Embed/index.html?webmap=0df6f5d4e679494597d0ef1b56932b37&extent=-97.7432,30.2773,-97.7353,30.2813&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe>
+    <div class="container-fluid full gio-top">
+				 <div class="top-container">
+					<img class="img-fluid img-responsive mx-auto d-block" src="https://cdn.tnris.org/images/contact-banner.jpg" alt="Masthead for Education and Training">
+					<div class="top-header mx-auto d-block">
+						<div class="container-md">
+							<h1 class="banner-header">{{title}}</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+
 
     <div id="contentMain" class="container-md">
       <div class="row">
       	<div class="col-lg-8">
-      		<h1>{{title}}</h1>
+      		
       		{% if abstract %}<div class="mainBlurb">{{abstract}}</div>{% endif %}
       	</div>
       	{% block sidebarLeft %}{% endblock %}
