@@ -1,7 +1,6 @@
 # tnris.org
 
-This repository contains the content and code used to generate Texas Natural
-Resources Information System website: [tnris.org](http://tnris.org)
+This repository contains the content and code used to generate TTexas Geographic Information Office website: [tnris.org](http://tnris.org)
 
 ## Building tnris.org
 
