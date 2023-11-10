@@ -172,6 +172,88 @@ buttontext: Register Now!
     </div>
   </div>
 </section>
+<!-- THIS SECTION was added post-formum for pic highlights--->
+<div class="dark-bg">
+  <section class="container-md">
+  <h2 style="color: #fff;" class="forum-h1 red-header">2023 Forum Highlights</h2>
+    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner resized">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/1GISForum.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/2GISForum.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/3GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/4GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/5GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/6GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/7GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/8GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/9GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/10_Forum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/12GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/13GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/14GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/15GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/16GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/17GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/18_Forum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/19GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/20GISForum.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/21_Forum.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev aa-cert" href="#carouselControls" role="button" data-slide="prev">
+    <div class="circle">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </div>
+  </a>
+  <a class="carousel-control-next aa-cert" href="#carouselControls" role="button" data-slide="next">
+    <div class="circle">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </div>
+  </a>
+  </section>
+</div>
+
 <section class="container-md opaque-bg">
  <!-- THIS SECTION IS NEEDS TO BE HERE, OR PAGE BRAKES, left blank after request to move pricing above sponsers --->
 </section>
