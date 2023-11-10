@@ -47,6 +47,30 @@
 div.mobile-sponsor{
   display: none;
 }
+div.carousel-inner.resized{
+  margin-top: 20px;
+  padding: 40px;
+}
+#carouselControls > a.carousel-control-next#aa{
+  width: 0 !important;
+  opacity: .8;
+}
+#carouselControls > a.carousel-control-prev.aa-cert{
+  width: 0 !important;
+  opacity: .8;
+}
+
+.aa-cert > div.circle,
+#aa > div.circle {
+  background: #000;
+  padding: 15px 20px 10px 20px;
+  border-radius: 75%;
+
+}
+.aa-cert > div.circle:hover,
+#aa > div.circle:hover{
+  border: 2px solid $mintGreen;
+}
 
 //TYPOGRAPHY//
 
@@ -955,6 +979,10 @@ p {
 }
 
 // CTA BOX //
+.dark-bg{
+  background-color: #0B1930;
+  padding: 50px 25px;
+}
 
 .forum-cta {
   background-color: #e6e6e6;
