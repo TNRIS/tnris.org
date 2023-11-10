@@ -188,55 +188,55 @@ buttontext: Register Now!
       <img class="d-block w-100" src="https://cdn.tnris.org/images/3GISForum.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/4GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/4GISForum.jpg" alt="4th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/5GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/5GISForum.jpg" alt="5th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/6GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/6GISForum.jpg" alt="6th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/7GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/7GISForum.jpg" alt="7th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/8GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/8GISForum.jpg" alt="8th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/9GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/9GISForum.jpg" alt="9th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/10_Forum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/10_Forum.jpg" alt="10th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/12GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/12GISForum.jpg" alt="11th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/13GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/13GISForum.jpg" alt="12th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/14GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/14GISForum.jpg" alt="11th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/15GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/15GISForum.jpg" alt="13th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/16GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/16GISForum.jpg" alt="14th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/17GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/17GISForum.jpg" alt="15th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/18_Forum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/18_Forum.jpg" alt="16th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/19GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/19GISForum.jpg" alt="17th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/20GISForum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/20GISForum.jpg" alt="18th slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.tnris.org/images/21_Forum.jpg" alt="Third slide">
+      <img class="d-block w-100" src="https://cdn.tnris.org/images/21_Forum.jpg" alt="19th slide">
     </div>
   </div>
   <a class="carousel-control-prev aa-cert" href="#carouselControls" role="button" data-slide="prev">
@@ -245,7 +245,7 @@ buttontext: Register Now!
       <span class="sr-only">Previous</span>
     </div>
   </a>
-  <a class="carousel-control-next aa-cert" href="#carouselControls" role="button" data-slide="next">
+  <a class="carousel-control-next" id="aa" href="#carouselControls" role="button" data-slide="next">
     <div class="circle">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
