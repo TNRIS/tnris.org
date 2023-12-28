@@ -1773,6 +1773,7 @@ section.keynote-speakers:after:first-child  {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 
   img{
     width: 10rem;
