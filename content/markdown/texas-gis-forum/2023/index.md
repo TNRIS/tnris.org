@@ -165,7 +165,7 @@ buttontext: Register Now!
         Professor, Mack Brown Distinguished Chair</p>
           <p>Jeremi Suri holds the Mack Brown Distinguished Chair for Leadership in Global Affairs at the University of Texas at Austin. He is a professor in the University's Department of History and the LBJ School of Public Affairs.</p>
           <div class="button-container row">
-          <a class="button-secondary" target="_blank" href="https://cdn.tnris.org/documents/Suri_Mapping_Political_Power_Texas_GIS_26_Oct_2023.pdf">Presentation<i class="fa fa-play" aria-hidden="true"></i></a>
+          <a class="button-secondary" target="_blank" href="https://www.youtube.com/watch?v=p2gZoKuAEpI">Presentation<i class="fa fa-play" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
